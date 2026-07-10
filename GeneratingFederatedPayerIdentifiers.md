@@ -109,11 +109,11 @@ Generate a UUID using any supported UUID version:
 
 | UUID Version | General Purpose |
 |---|---|
-| **UUIDv1** | Generated from the current timestamp and the MAC address of the generating machine. Useful when a time-ordered, traceable identifier is acceptable, but note that it embeds the host's network address, which may raise privacy concerns. |
-| **UUIDv4** | Randomly generated with 122 bits of entropy. The most widely used version for new identifiers when reproducibility is not required. Suitable for any scenario where a unique, opaque identifier is needed and there is no existing value to hash from. |
-| **UUIDv6** | A reordering of the UUIDv1 fields to make the timestamp sortable lexicographically. Preferred over UUIDv1 when time-ordered UUIDs are needed and database index performance is a concern. |
-| **UUIDv7** | Generated from a Unix millisecond timestamp followed by random bits. The recommended choice when monotonically increasing, time-sortable UUIDs are needed, such as for database primary keys or event sequencing. |
-| **UUIDv8** | A custom/vendor-specific format with application-defined bit layout. Reserved for cases where an organization needs to embed proprietary metadata in a UUID while remaining RFC-compliant. |
+| **UUIDv1** | Generated from the current **timestamp** and the MAC address of the generating machine. Useful when a time-ordered, traceable identifier is acceptable, but note that it embeds the host's network address, which may raise privacy concerns. |
+| **UUIDv4** | **Randomly generated** with 122 bits of entropy. The most widely used version for new identifiers when reproducibility is not required. Suitable for any scenario where a unique, opaque identifier is needed and there is no existing value to hash from. |
+| **UUIDv6** | A reordering of the UUIDv1 fields to make the **timestamp sortable** lexicographically. Preferred over UUIDv1 when time-ordered UUIDs are needed and database index performance is a concern. |
+| **UUIDv7** | Generated from a **Unix millisecond timestamp** followed by random bits. The recommended choice when monotonically increasing, time-sortable UUIDs are needed, such as for database primary keys or event sequencing. |
+| **UUIDv8** | A custom/vendor-specific format with application-defined bit layout. Reserved for cases where an organization needs to **embed proprietary metadata** in a UUID while remaining RFC-compliant. |
 
 Submit the generated UUID for registration.
 
@@ -133,38 +133,13 @@ Already Exists?
    └── Yes → Resolve Collision
 ```
 
-The deduplication layer:
+The NPD deduplication layer:
 
 - Normalizes the UUID to its canonical format.
-- Checks for existing Provider and Payer UUIDs.
+- Checks against existing Provider and Payer UUIDs.
 - Detects duplicate assignments.
 - Resolves collisions when necessary.
-- Stores the accepted UUID in the national registry.
-
----
-
-# Collision Resolution
-
-UUID collisions should be extremely rare.
-
-### UUIDv5
-
-If a UUIDv5 collision occurs:
-
-- Verify the Identifier System ID.
-- Verify the identifier value.
-- Correct the inputs and regenerate the UUID if necessary.
-
-### Other UUID Versions
-
-If a collision occurs with UUIDv1, UUIDv4, UUIDv6, UUIDv7, or UUIDv8:
-
-- Generate a new UUID.
-- Resubmit the new UUID for validation.
-
-All collisions should be logged and available for audit.
-
----
+- Stores the accepted UUID in the National Provider and Payer Directory (NPD).
 
 # National Provider and Payer Directory
 
@@ -179,10 +154,10 @@ The National Provider and Payer Directory serves as the authoritative registry b
 
 # Key Principles
 
-- Use **UUIDv5** when a payer already has an approved identifier.
+- Use **UUIDv5** when a payer already wishes to use an existing identifier.
 - UUIDv5 generation uses a **two-step chained process**: first derive a `system_namespace` via `uuid5(NAMESPACE_DNS, "<SYSTEM_ID>.fhir")`, then compute the FPI via `uuid5(system_namespace, "<payer_id_value>")`.
 - Use **`python tools/FPI_maker_cli.py`** to generate FPIs correctly — it handles the two-step chaining automatically.
 - UUIDv5 generation requires an approved **Identifier System ID** and the payer's identifier value.
-- Use **UUIDv1, UUIDv4, UUIDv6, UUIDv7, or UUIDv8** when creating new identifiers with no existing approved identifier.
+- Use **UUIDv1, UUIDv4, UUIDv6, UUIDv7, or UUIDv8** when creating new payer identifiers with no existing approved identifier provider.
 - Every UUID passes through the same deduplication process before being accepted.
 - Every accepted UUID is globally unique across all payer identifier systems and UUID versions.
