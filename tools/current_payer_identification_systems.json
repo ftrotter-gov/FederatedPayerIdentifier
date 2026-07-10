@@ -1,0 +1,136 @@
+{
+  "payer_identifier_systems": [
+    {
+      "id": "HIOS_ID",
+      "acronym": "Health Insurance Oversight System",
+      "assigning_authority": "CMS",
+      "is_defunct": false,
+      "description": "A web-based application used by the Centers for Medicare & Medicaid Services (CMS). It acts as a central portal for state entities and private health insurance issuers to submit, collect, and manage plan and issuer data. HIOS Issuer IDs are commonly used to identify ACA Marketplace issuers."
+    },
+    {
+      "id": "CMS_CONTRACT_ID",
+      "assigning_authority": "CMS",
+      "is_defunct": false,
+      "description": "A Medicare Advantage, Part D, Cost Plan, PACE, or other CMS contract number. A unique alphanumeric identifier assigned by CMS to the organization operating the plan."
+    },
+    {
+      "id": "MCO_ID",
+      "acronym": "State Medicaid Managed Care Organization Identifier",
+      "assigning_authority": "State Medicaid Agency",
+      "is_defunct": false,
+      "description": "An identifier assigned by a state Medicaid program to a managed care organization or Medicaid plan."
+    },
+    {
+      "id": "HPID",
+      "acronym": "Health Plan Identifier",
+      "assigning_authority": "CMS",
+      "is_defunct": true,
+      "description": "A retired identifier system created under the Affordable Care Act intended to provide a national identifier for health plans. Implementation was suspended and the identifier is no longer in active use."
+    },
+    {
+      "id": "NAIC_ID",
+      "acronym": "National Association of Insurance Commissioners Company Code",
+      "assigning_authority": "NAIC",
+      "is_defunct": false,
+      "description": "A unique numeric code assigned to insurance company legal entities regulated by state insurance departments."
+    },
+    {
+      "id": "EIN",
+      "acronym": "Employer Identification Number",
+      "assigning_authority": "IRS",
+      "is_defunct": false,
+      "description": "A federal tax identifier assigned to organizations. Often used as a payer identifier for self-funded ERISA plans and employer-sponsored health plans."
+    },
+    {
+      "id": "LEI",
+      "acronym": "Legal Entity Identifier",
+      "assigning_authority": "GLEIF",
+      "is_defunct": false,
+      "description": "A unique 20-character alphanumeric identifier used to identify legal entities participating in financial and business transactions."
+    },
+    {
+      "id": "vLEI",
+      "acronym": "Verifiable Legal Entity Identifier",
+      "assigning_authority": "GLEIF",
+      "is_defunct": false,
+      "description": "A cryptographically verifiable digital form of the LEI that enables automated verification of organizational identity and authorized representatives."
+    },
+    {
+      "id": "X12_PAYER_ID_OPTUM",
+      "acronym": "X12 Payer ID",
+      "assigning_authority": "Optum",
+      "is_defunct": false,
+      "description": "An X12 electronic transaction routing identifier assigned and maintained within the Optum clearinghouse ecosystem."
+    },
+    {
+      "id": "X12_PAYER_ID_TRIZETTO",
+      "acronym": "X12 Payer ID",
+      "assigning_authority": "TriZetto",
+      "is_defunct": false,
+      "description": "An X12 electronic transaction routing identifier assigned and maintained within the TriZetto clearinghouse ecosystem."
+    },
+    {
+      "id": "X12_PAYER_ID_AVAILITY",
+      "acronym": "X12 Payer ID",
+      "assigning_authority": "Availity",
+      "is_defunct": false,
+      "description": "An X12 electronic transaction routing identifier assigned and maintained within the Availity clearinghouse ecosystem."
+    },
+    {
+      "id": "X12_PAYER_ID_CHANGE_HEALTHCARE",
+      "acronym": "X12 Payer ID",
+      "assigning_authority": "Change Healthcare",
+      "is_defunct": false,
+      "description": "An X12 electronic transaction routing identifier assigned and maintained within the Change Healthcare clearinghouse ecosystem."
+    },
+    {
+      "id": "X12_PAYER_ID_EMDEON",
+      "acronym": "X12 Payer ID",
+      "assigning_authority": "Emdeon",
+      "is_defunct": false,
+      "description": "A legacy X12 electronic transaction routing identifier assigned within the Emdeon clearinghouse ecosystem."
+    },
+    {
+      "id": "X12_PAYER_ID_WAYSTAR",
+      "acronym": "X12 Payer ID",
+      "assigning_authority": "Waystar",
+      "is_defunct": false,
+      "description": "An X12 electronic transaction routing identifier assigned and maintained within the Waystar clearinghouse ecosystem."
+    },
+    {
+      "id": "X12_PAYER_ID_ZELIS",
+      "acronym": "X12 Payer ID",
+      "assigning_authority": "Zelis",
+      "is_defunct": false,
+      "description": "An X12 electronic transaction routing identifier assigned and maintained within the Zelis clearinghouse ecosystem."
+    },
+    {
+      "id": "X12_PAYER_ID_OFFICE_ALLY",
+      "acronym": "X12 Payer ID",
+      "assigning_authority": "Office Ally",
+      "is_defunct": false,
+      "description": "An X12 electronic transaction routing identifier assigned and maintained within the Office Ally clearinghouse ecosystem."
+    },
+    {
+      "id": "X12_PAYER_ID_SSI_GROUP",
+      "acronym": "X12 Payer ID",
+      "assigning_authority": "SSI Group",
+      "is_defunct": false,
+      "description": "An X12 electronic transaction routing identifier assigned and maintained within the SSI Group clearinghouse ecosystem."
+    },
+    {
+      "id": "X12_ROUTING_NEIC_ID",
+      "acronym": "National Electronic Information Corporation",
+      "assigning_authority": "NEIC",
+      "is_defunct": true,
+      "description": "A historical payer routing identifier from the National Electronic Information Corporation (NEIC), an early healthcare EDI network. Many systems still refer to payer IDs as 'NEIC IDs' even though the organization no longer exists."
+    },
+    {
+      "id": "NCPDP_PAYER_ID",
+      "acronym": "National Council for Prescription Drug Programs",
+      "assigning_authority": "NCPDP",
+      "is_defunct": false,
+      "description": "A payer identifier used within NCPDP pharmacy transaction standards. NCPDP identifiers are commonly used in pharmacy claims processing and pharmacy benefit management systems."
+    }
+  ]
+}
