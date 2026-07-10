@@ -1,4 +1,4 @@
-# Federated Payer Identifiers Prototype
+# Federated Payer Identifier (FPI) Prototype
 
 The Federated Payer Identifier prototype is a "rough consensus working code" proposal that enables healthcare payers in the United States to self-enumerate in support of a National Provider and Payer Directory. Its purpose is to improve interoperability by providing a consistent way to identify payers and facilitate discovery of their public interoperability data.
 
