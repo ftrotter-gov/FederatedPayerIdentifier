@@ -77,7 +77,18 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
+        "davinci_crd_hook_endpoint#1.2": "https://apix.cvshealth.com/coveragerequirementsdiscovery/v1/",
+        "davinci_cdex_attachsubmit_endpoint#2.1": "https://apix.cvshealth.com/clinicaldataexchange/v1/",
+        "davinci_dtr_qpackage_endpoint#1.2": "https://apix.cvshealth.com/documentationtemplatesandrules/v1/",
+        "davinci_pas_submission_endpoint#1.2": "https://apix.cvshealth.com/priorauthorizationsupport/v1/",
+        "davinci_provider_payer_access_endpoint#1.1": "https://apix.cvshealth.com/provideraccess/v1/",
+        "carin_bluebutton_endpoint#1.0": "https://apif1.aetna.com/fhir/v3/patientaccess/",
+        "carin_bluebutton_endpoint#1.0_uscore3.1": "https://apif1.aetna.com/fhir/v2/patientaccess/",
+        "davinci_pdex_patient_endpoint#2.0": "https://apif1.aetna.com/fhir/v3/patientaccess/",
+        "davinci_pdex_patient_endpoint#2.0_uscore3.1": "https://apif1.aetna.com/fhir/v2/patientaccess/",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/",
+        "carin_rtpbc_member_endpoint#1.0": "https://apif1.aetna.com/fhir/v1/realtimepharmacybenefitcheck/",
+        "carin_rtpbc_provider_endpoint#1.0": "https://apix.cvshealth.com/realtimepharmacybenefitcheck/v1/"
       }
     }
   ]

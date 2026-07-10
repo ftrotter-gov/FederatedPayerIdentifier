@@ -1,7 +1,11 @@
 {
+  "copied_from_url": null,
+
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+
   "payerLegalName": "Example Payer Legal Name, LLC",
   "payerContactWebsite": "https://example.com/our_contact_page/",
+
   "identifier": [
     {
       "system": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/FederatedPayerIdentifier",
@@ -12,44 +16,69 @@
       "value": "12345"
     }    
   ],
-  "plans": [{
-    "identifier": [
+
+  "plan_groups": [{
+    "plan_identifiers": [
         {
             "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-            "value": "432"
+            "value": "432",
+            "plan_name": "This Very Good Plan",
+            "plan_website": "https://example.com/plan_432"
         },
         {
             "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-            "value": "433"
+            "value": "433",
+            "plan_name": "This Very Good Plan Preferred",
+            "plan_website": "https://example.com/plan_433"
         },
         {
             "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-            "value": "434"
-        },                         
-    ]{
-      "plan_string_search_match": [
-		"Example payer",
-		"Good Group 500",
-		"Any other plan finding strings",
-      ]
-    },
+            "value": "434",
+            "plan_name": "This Very Good Plan Excel",
+            "plan_website": "https://example.com/plan_434"
+        }
+    ],
+
+    "plan_group_string_search_match": [
+        "Example payer name",
+        "Good Group 500",
+        "Very Good Plan Preferred",
+        "Any other plan finding strings"
+    ],
+
     "plan_endpoints": {
-    	"payer_homepage": "http://example.com",
         "davinci_crd_hook_endpoint#1.1": "http://example.org/foo/bar/crd",
         "davinci_crd_hook_endpoint#1.2": "http://example.org/foo/bar/crdnew",
         "davinci_dtr_qpackage_endpoint#1.2": "http://example.org/foo/bar/dtr",
         "davinci_pas_submission_endpoint#1.2": "http://example.org/foo/bar/pas2",
+        "davinci_cdex_attachsubmit_endpoint#2.1": "https://example.com/clinicaldataexchange/v1/",
+
         "ndh_meta_fhir_signup_url": "http://example.org/fhir_signup/",
         "ndh_meta_documentation_url": "http://example.org/fhir_docs/",
 
-        "davinci_provider_directory_endpoint#1.1": "http://example.org/foo/bar/provider-directory",
-	    "davinci_provider_directory_endpoint_all_at_once#1.1": "http://example.org/foo/bar/provider-directory/all_at_once.ndjson.zip",  
-        "davinci_patient_payer_access_endpoint#1.1": "http://example.org/foo/bar/patient-payer-access",
+        "davinci_pdex_provider_directory_endpoint#1.1": "http://example.org/foo/bar/provider-directory",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "http://example.org/foo/bar/provider-directory/all_at_once.ndjson.zip",
+
         "davinci_provider_payer_access_endpoint#1.1": "http://example.org/foo/bar/provider-payer-access",
+
         "davinci_payer_to_payer_endpoint#1.1": "http://example.org/foo/bar/payer-to-payer",
-	    "tic_table_of_contents#issuer-11111": "https://example.com/mrf/2025-01-01_example-payer_issuer-a_index.json",
-	    "tic_table_of_contents#issuer-22222": "https://example.com/mrf/2025-01-01_example-payer_issuer-b_index.json"
+
+        "carin_bluebutton_endpoint#1.0": "https://apif1.aetna.com/fhir/v3/patientaccess/",
+        "carin_bluebutton_endpoint#1.0_uscore3.1": "https://apif1.aetna.com/fhir/v2/patientaccess/",
+
+        "davinci_pdex_patient_endpoint#2.0": "https://apif1.aetna.com/fhir/v3/patientaccess/",
+        "davinci_pdex_patient_endpoint#2.0_uscore3.1": "https://apif1.aetna.com/fhir/v2/patientaccess/",
+
+        "carin_rtpbc_member_endpoint#1.0": "https://apif1.aetna.com/fhir/v1/realtimepharmacybenefitcheck/",
+        "carin_rtpbc_provider_endpoint#1.0": "https://apix.cvshealth.com/realtimepharmacybenefitcheck/v1/",
+
+        "tic_table_of_contents#issuer-11111": "https://example.com/mrf/2025-01-01_example-payer_issuer-a_index.json",
+        "tic_table_of_contents#issuer-22222": "https://example.com/mrf/2025-01-01_example-payer_issuer-b_index.json",
+
+        "payer_homepage": "https://example.com",
+
+        "plan_homepage#432": "https://example.com/plan_432",
+        "plan_homepage#433": "https://example.com/plan_432"
     }
-  }
-]
+  }]
 }
