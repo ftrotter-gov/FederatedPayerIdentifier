@@ -1,6 +1,6 @@
 # Federated Payer Identifiers - Building Universal Payer Identifiers Using UUIDs
 
-Every payer generates a new **single universal UUID**, regardless of how that payer is identified today.
+Every payer generates a new **single universal [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier)**, regardless of how that payer is identified today.
 
 There are two supported paths:
 
@@ -107,11 +107,13 @@ Typical examples include:
 
 Generate a UUID using any supported UUID version:
 
-- UUIDv1
-- UUIDv4
-- UUIDv6
-- UUIDv7
-- UUIDv8
+| UUID Version | General Purpose |
+|---|---|
+| **UUIDv1** | Generated from the current timestamp and the MAC address of the generating machine. Useful when a time-ordered, traceable identifier is acceptable, but note that it embeds the host's network address, which may raise privacy concerns. |
+| **UUIDv4** | Randomly generated with 122 bits of entropy. The most widely used version for new identifiers when reproducibility is not required. Suitable for any scenario where a unique, opaque identifier is needed and there is no existing value to hash from. |
+| **UUIDv6** | A reordering of the UUIDv1 fields to make the timestamp sortable lexicographically. Preferred over UUIDv1 when time-ordered UUIDs are needed and database index performance is a concern. |
+| **UUIDv7** | Generated from a Unix millisecond timestamp followed by random bits. The recommended choice when monotonically increasing, time-sortable UUIDs are needed, such as for database primary keys or event sequencing. |
+| **UUIDv8** | A custom/vendor-specific format with application-defined bit layout. Reserved for cases where an organization needs to embed proprietary metadata in a UUID while remaining RFC-compliant. |
 
 Submit the generated UUID for registration.
 
