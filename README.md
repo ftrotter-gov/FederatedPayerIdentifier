@@ -18,7 +18,7 @@ This repository contains an early prototype and should not be considered a forma
 
 * **Provide the details needed for a National Payer Directory** ensure that all of the above can be done in a manner that can be consumable by the NPD (https://directory.cms.gov/) according to the standards of the NDH FAST FHIR IG (https://build.fhir.org/ig/HL7/fhir-us-ndh/en/)
 
-The two major technical components of this approach are: 
+The major technical components of this approach are: 
 
 * [Federated Payer Identifier (FPI)](GeneratingFederatedPayerIdentifiers.md): A methodology that allows Payers to generate their own ids
 * [Payer well-known endpoint file format definition](WellKnownFileFormat.md): A file that leverages the FPI in order to enable lookups against Payers and Insurance Plans, in order to find the correct endpoints
