@@ -6,7 +6,7 @@ It is inspired [from a file suggested by the Davinci Hrex Project](https://build
 
 This page will use a javascript block to use javascript comments to markup what the JSON example for this well-known file;
 
-```javacript
+```javascript
 
 well_known_payer_json = {
 
