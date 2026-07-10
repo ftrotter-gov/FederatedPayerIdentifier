@@ -5,7 +5,7 @@ import csv
 import json
 import os
 import re
-import uuid
+import sys
 
 # Locate the source data and output directories relative to this script's location.
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -15,9 +15,11 @@ PAYER_URL_FILE = os.path.join(SCRIPT_DIR, "source_data", "payer_url_list.csv")
 PLAN_CROSSWALK_FILE = os.path.join(SCRIPT_DIR, "source_data", "PlanCrosswalk2026_10012025.csv")
 OUTPUT_BASE_DIR = os.path.join(REPO_ROOT, "payer_index_files", "medicare_advantage")
 
-# Build the Medicare Advantage uuid5 namespace by chaining from NAMESPACE_DNS, as specified.
-PARENT_NAMESPACE = uuid.NAMESPACE_DNS
-MEDICARE_ADVANTAGE_SYSTEM_UUID = uuid.uuid5(PARENT_NAMESPACE, "CMS_CONTRACT_ID.fhir")
+# Import the shared FPI generation library from the tools directory.
+TOOLS_DIR = os.path.join(REPO_ROOT, "tools")
+if TOOLS_DIR not in sys.path:
+    sys.path.insert(0, TOOLS_DIR)
+from FPI_maker_cli import generate_fpi  # noqa: E402
 
 # FHIR system URI strings used in the identifier and plan_identifiers blocks.
 SYSTEM_FPI = "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/FederatedPayerIdentifier"
@@ -35,11 +37,6 @@ def safe_name(name):
     name = re.sub(r"[^a-z0-9_]", "", name)
     name = re.sub(r"_+", "_", name).strip("_")
     return name
-
-
-def generate_fpi(contract_id):
-    """Generate a deterministic uuid5 Federated Payer Identifier from a Medicare contract ID."""
-    return str(uuid.uuid5(MEDICARE_ADVANTAGE_SYSTEM_UUID, contract_id))
 
 
 def parse_contract_id_field(field_value):
@@ -127,7 +124,7 @@ def load_plan_crosswalk(filepath):
 
 def build_well_known_json(contract_id, payer_name, url, plans):
     """Construct the well-known payer JSON document for one contract, grouping all its plans under a single endpoint."""
-    fpi = generate_fpi(contract_id)
+    fpi = generate_fpi("CMS_CONTRACT_ID", contract_id)
 
     # Build one plan_identifier entry per plan, omitting plan_name when it is blank.
     plan_identifiers = []
