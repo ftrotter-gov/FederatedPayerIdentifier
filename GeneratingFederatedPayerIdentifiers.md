@@ -1,6 +1,6 @@
 # Federated Payer Identifiers - Building Universal Payer Identifiers Using UUIDs
 
-Every payer receives a **single universal UUID**, regardless of how that payer is identified today.
+Every payer generates a new **single universal UUID**, regardless of how that payer is identified today.
 
 There are two supported paths:
 
@@ -35,7 +35,7 @@ F --> G
 
 # Path A — Existing Identifiers (UUIDv5)
 
-Use this path when a payer already has an identifier assigned by a recognized authority.
+Use this path when a payer already has an identifier assigned by a recognized authority, that they wish to re-use.
 
 ## 1. Select the Identifier System
 
@@ -50,27 +50,46 @@ Examples include:
 | `MCO_ID` | State Medicaid Agency | Active |
 | `NAIC_ID` | NAIC | Active |
 | `X12_PAYER_ID_AVAILITY` | Availity | Active |
+| `LEI` | GLEIF | Active |
 | ... | Additional approved identifier systems | |
 
-> Only approved Identifier System IDs may be used to generate UUIDv5 values.
+> Only approved Payer Identifier System IDs may be used to generate UUIDv5 values.
+
+The list of approved Payer Identifier Systems is in [tools/current_payer_identification_systems.json](tools/current_payer_identification_systems.json)
+If you would like to add a new approved Payer Identifier System, please do a pull request to add to this file!
 
 ## 2. Generate the UUID
 
-Generate the UUID using the Identifier System ID and the payer's identifier value.
+> **Recommended:** Use the provided CLI tool to generate FPIs correctly:
+>
+> ```bash
+> python tools/FPI_maker_cli.py
+> ```
+>
+> The tool guides you through selecting an identifier system and entering the payer ID value, then prints the generated FPI and the exact Python code needed to reproduce it.
+
+FPI generation uses a **two-step chained UUIDv5** process, not a single `UUIDv5(namespace, value)` call. The identifier system ID is itself first hashed into a UUID5 namespace (using `NAMESPACE_DNS` as the root), and then the payer's identifier value is hashed using that derived namespace:
 
 ```
-UUIDv5(identifier_system_id, identifier_value)
+step_1: system_namespace = UUIDv5(NAMESPACE_DNS, "<SYSTEM_ID>.fhir")
+step_2: fpi             = UUIDv5(system_namespace, "<payer_id_value>")
 ```
 
-Example:
+Example in Python (for `HIOS_ID` / `"987654"`):
 
+```python
+import uuid
+
+system_namespace = uuid.uuid5(uuid.NAMESPACE_DNS, "HIOS_ID.fhir")
+fpi = str(uuid.uuid5(system_namespace, "987654"))
+print(fpi)
 ```
-UUIDv5("HIOS_ID", "987654")
-```
+
+The `.fhir` suffix is appended to the system ID string before hashing in step 1 — this is a deliberate namespacing convention to avoid collisions with other uses of `NAMESPACE_DNS`.
 
 UUIDv5 is deterministic:
 
-- Same Identifier System ID + same identifier value → same UUID
+- Same Identifier System ID + same identifier value → same UUID every time
 - Different Identifier System ID or identifier value → different UUID
 
 ---
@@ -159,7 +178,9 @@ The National Provider and Payer Directory serves as the authoritative registry b
 # Key Principles
 
 - Use **UUIDv5** when a payer already has an approved identifier.
+- UUIDv5 generation uses a **two-step chained process**: first derive a `system_namespace` via `uuid5(NAMESPACE_DNS, "<SYSTEM_ID>.fhir")`, then compute the FPI via `uuid5(system_namespace, "<payer_id_value>")`.
+- Use **`python tools/FPI_maker_cli.py`** to generate FPIs correctly — it handles the two-step chaining automatically.
 - UUIDv5 generation requires an approved **Identifier System ID** and the payer's identifier value.
-- Use **UUIDv1, UUIDv4, UUIDv6, UUIDv7, or UUIDv8** when creating new identifiers.
+- Use **UUIDv1, UUIDv4, UUIDv6, UUIDv7, or UUIDv8** when creating new identifiers with no existing approved identifier.
 - Every UUID passes through the same deduplication process before being accepted.
 - Every accepted UUID is globally unique across all payer identifier systems and UUID versions.
