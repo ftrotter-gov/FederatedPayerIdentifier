@@ -1,0 +1,284 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "payerLegalName": "HEALTHSPRING LIFE & HEALTH INSURANCE COMPANY, INC.",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/FederatedPayerIdentifier",
+      "value": "16cb44ea-1f90-501b-9caa-feafe5d40245"
+    },
+    {
+      "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePayerIdentifer",
+      "value": "H4513"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "009",
+          "plan_name": "HealthSpring Courage (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "026",
+          "plan_name": "HealthSpring Preferred (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "027",
+          "plan_name": "HealthSpring TotalCare (HMO D-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "030",
+          "plan_name": "HealthSpring Preferred (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "033",
+          "plan_name": "HealthSpring Courage (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "034",
+          "plan_name": "HealthSpring TotalCare Plus (HMO D-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "035",
+          "plan_name": "HealthSpring Primary (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "036",
+          "plan_name": "HealthSpring Premier (HMO-POS)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "037",
+          "plan_name": "HealthSpring Preferred (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "038",
+          "plan_name": "HealthSpring Preferred (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "039",
+          "plan_name": "HealthSpring TotalCare Plus (HMO D-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "045",
+          "plan_name": "HealthSpring Courage (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "046",
+          "plan_name": "HealthSpring Preferred AL (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "049",
+          "plan_name": "HealthSpring Preferred (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "050",
+          "plan_name": "HealthSpring Preferred (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "052",
+          "plan_name": "HealthSpring Preferred (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "053",
+          "plan_name": "HealthSpring Primary (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "055",
+          "plan_name": "HealthSpring TotalCare (HMO D-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "060",
+          "plan_name": "HealthSpring TotalCare (HMO D-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "061",
+          "plan_name": "HealthSpring Preferred (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "063",
+          "plan_name": "HealthSpring TotalCare Plus (HMO D-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "064",
+          "plan_name": "HealthSpring Alliance (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "068",
+          "plan_name": "HealthSpring Preferred Savings (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "073",
+          "plan_name": "HealthSpring Preferred Savings (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "074",
+          "plan_name": "HealthSpring Preferred (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "075",
+          "plan_name": "HealthSpring TotalCare (HMO D-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "077",
+          "plan_name": "HealthSpring Preferred (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "078",
+          "plan_name": "HealthSpring Courage (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "079",
+          "plan_name": "HealthSpring TotalCare Plus (HMO D-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "080",
+          "plan_name": "HealthSpring TotalCare (HMO D-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "081",
+          "plan_name": "HealthSpring TotalCare (HMO D-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "083",
+          "plan_name": "HealthSpring Preferred Savings (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "084",
+          "plan_name": "HealthSpring Premier (HMO-POS)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "085",
+          "plan_name": "HealthSpring Preferred (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "086",
+          "plan_name": "HealthSpring Preferred Savings (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "087",
+          "plan_name": "HealthSpring Preferred Plus (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "088",
+          "plan_name": "HealthSpring Preferred Full Savings (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "089",
+          "plan_name": "HealthSpring Preferred Full Savings (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "090",
+          "plan_name": "HealthSpring Preferred Full Savings (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "091",
+          "plan_name": "HealthSpring Preferred Full Savings (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "092",
+          "plan_name": "HealthSpring Preferred Full Savings (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "093",
+          "plan_name": "HealthSpring Preferred Full Savings (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "804",
+          "plan_name": "HealthSpring Preferred (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "815",
+          "plan_name": "HealthSpring Preferred (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "817",
+          "plan_name": "HealthSpring Preferred (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "819",
+          "plan_name": "HealthSpring Preferred (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "821",
+          "plan_name": "HealthSpring Preferred (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "094",
+          "plan_name": "HealthSpring Achieve (HMO C-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "095",
+          "plan_name": "HealthSpring Preferred Savings (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "096",
+          "plan_name": "HealthSpring Premier (HMO-POS)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "097",
+          "plan_name": "HealthSpring Achieve (HMO C-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "098",
+          "plan_name": "HealthSpring Achieve (HMO C-SNP)"
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://data.healthspring.healthlx.com:8003/"
+      }
+    }
+  ]
+}

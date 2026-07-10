@@ -1,0 +1,44 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "payerLegalName": "HUMANA HEALTH INSURANCE COMPANY OF FLORIDA, INC.",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/FederatedPayerIdentifier",
+      "value": "d304b5fe-a9ec-5d71-9bc4-9ca560d1d92e"
+    },
+    {
+      "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePayerIdentifer",
+      "value": "H7284"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "001",
+          "plan_name": "HumanaChoice Florida H7284-001 (PPO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "008",
+          "plan_name": "HumanaChoice Florida H7284-008 (PPO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "009",
+          "plan_name": "HumanaChoice Florida H7284-009 (PPO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "010",
+          "plan_name": "HumanaChoice Florida SNP-DE H7284-010 (PPO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.humana.com/api"
+      }
+    }
+  ]
+}

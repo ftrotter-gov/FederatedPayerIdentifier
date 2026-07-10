@@ -1,0 +1,379 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "payerLegalName": "ARCADIAN HEALTH PLAN, INC.",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/FederatedPayerIdentifier",
+      "value": "6590de98-2615-5aaf-91a6-2f6953e4bec3"
+    },
+    {
+      "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePayerIdentifer",
+      "value": "H5619"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "001",
+          "plan_name": "Humana Gold Plus H5619-001 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "003",
+          "plan_name": "Humana Gold Plus SNP-DE H5619-003 (HMO D-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "012",
+          "plan_name": "Humana Gold Plus H5619-012 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "015",
+          "plan_name": "Humana Gold Plus H5619-015 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "016",
+          "plan_name": "Humana Gold Plus H5619-016 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "021",
+          "plan_name": "Humana Gold Plus H5619-021 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "026",
+          "plan_name": "Humana Gold Plus H5619-026 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "038",
+          "plan_name": "Humana Gold Plus SNP-DE H5619-038 (HMO D-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "046",
+          "plan_name": "Humana Gold Plus - Diabetes and Heart (HMO C-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "047",
+          "plan_name": "Humana Gold Plus H5619-047 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "049",
+          "plan_name": "Humana Gold Plus H5619-049 (HMO-POS)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "051",
+          "plan_name": "Humana Gold Plus H5619-051 (HMO-POS)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "053",
+          "plan_name": "Humana Gold Plus H5619-053 (HMO-POS)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "055",
+          "plan_name": "Humana Gold Plus - Diabetes and Heart (HMO C-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "057",
+          "plan_name": "Humana Gold Plus H5619-057 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "059",
+          "plan_name": "Humana Gold Plus H5619-059 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "061",
+          "plan_name": "Humana Gold Plus H5619-061 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "066",
+          "plan_name": "Humana Gold Plus Giveback H5619-066 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "069",
+          "plan_name": "Humana Gold Plus H5619-069 (HMO-POS)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "071",
+          "plan_name": "Humana Gold Plus H5619-071 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "075",
+          "plan_name": "Humana Dual Select H5619-075 (HMO D-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "083",
+          "plan_name": "Humana Gold Plus H5619-083 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "089",
+          "plan_name": "Humana Gold Plus H5619-089 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "090",
+          "plan_name": "Humana Gold Plus H5619-090 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "091",
+          "plan_name": "Humana Gold Plus H5619-091 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "093",
+          "plan_name": "Humana Dual Select H5619-093 (HMO D-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "095",
+          "plan_name": "Humana Gold Plus H5619-095 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "111",
+          "plan_name": "Humana Gold Plus H5619-111 (HMO-POS)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "113",
+          "plan_name": "Humana Gold Plus H5619-113 (HMO-POS)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "116",
+          "plan_name": "Humana Gold Plus H5619-116 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "119",
+          "plan_name": "Humana Gold Plus H5619-119 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "121",
+          "plan_name": "Humana USAA Honor Giveback (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "122",
+          "plan_name": "Humana Gold Plus H5619-122 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "123",
+          "plan_name": "Humana Gold Plus SNP-DE H5619-123 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "126",
+          "plan_name": "Humana Dual Select H5619-126 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "184",
+          "plan_name": "Humana Gold Plus H5619-184 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "133",
+          "plan_name": "Humana Gold Plus H5619-133 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "135",
+          "plan_name": "Humana Gold Plus H5619-135 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "137",
+          "plan_name": "Humana Gold Plus H5619-137 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "143",
+          "plan_name": "Humana Gold Plus H5619-143 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "145",
+          "plan_name": "Humana Gold Plus - Diabetes and Heart (HMO C-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "146",
+          "plan_name": "Humana Gold Plus Giveback H5619-146 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "147",
+          "plan_name": "Humana Gold Plus H5619-147 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "148",
+          "plan_name": "Humana Gold Plus H5619-148 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "150",
+          "plan_name": "Humana Gold Plus Giveback H5619-150 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "151",
+          "plan_name": "Humana USAA Honor Giveback (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "152",
+          "plan_name": "Humana Gold Plus H5619-152 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "157",
+          "plan_name": "Humana Gold Plus H5619-157 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "159",
+          "plan_name": "Humana Community (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "161",
+          "plan_name": "Humana Gold Plus - Diabetes and Heart (HMO C-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "162",
+          "plan_name": "Humana Gold Plus SNP-DE H5619-162 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "163",
+          "plan_name": "Humana Gold Plus SNP-DE H5619-163 (HMO D-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "165",
+          "plan_name": "Humana Dual Select H5619-165 (HMO D-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "166",
+          "plan_name": "Humana Gold Plus SNP-DE H5619-166 (HMO D-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "167",
+          "plan_name": "Humana Gold Plus SNP-DE H5619-167 (HMO D-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "169",
+          "plan_name": "Humana Gold Plus Giveback H5619-169 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "170",
+          "plan_name": "Humana Gold Plus Chronic Kidney Disease (HMO C-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "171",
+          "plan_name": "Humana Gold Plus H5619-171 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "173",
+          "plan_name": "Humana Gold Plus H5619-173 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "174",
+          "plan_name": "Humana Gold Plus H5619-174 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "177",
+          "plan_name": "Humana Total Complete H5619-177 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "178",
+          "plan_name": "Humana Gold Plus H5619-178 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "802",
+          "plan_name": "Humana Medicare Employer (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "803",
+          "plan_name": "Humana Medicare Employer (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "805",
+          "plan_name": "Humana Medicare Employer (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "806",
+          "plan_name": "Humana Medicare Employer (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "179",
+          "plan_name": "Humana Gold Plus SNP-DE H5619-179 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "180",
+          "plan_name": "Humana Gold Plus H5619-180 (HMO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "181",
+          "plan_name": "Humana Gold Plus - Diabetes and Heart (HMO C-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "182",
+          "plan_name": "Humana Gold Plus SNP-DE H5619-182 (HMO D-SNP)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "183",
+          "plan_name": "Humana Gold Plus H5619-183 (HMO)"
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.humana.com/api"
+      }
+    }
+  ]
+}

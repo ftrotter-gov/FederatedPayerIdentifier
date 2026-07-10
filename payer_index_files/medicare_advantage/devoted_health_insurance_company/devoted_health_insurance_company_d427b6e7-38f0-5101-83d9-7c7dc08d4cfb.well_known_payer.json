@@ -1,0 +1,44 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/FederatedPayerIdentifier",
+      "value": "d427b6e7-38f0-5101-83d9-7c7dc08d4cfb"
+    },
+    {
+      "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePayerIdentifer",
+      "value": "H9884"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "008",
+          "plan_name": "DEVOTED CHOICE GIVEBACK 008 FL (PPO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "013",
+          "plan_name": "DEVOTED CHOICE GIVEBACK 013 FL (PPO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "014",
+          "plan_name": "DEVOTED CHOICE MA ONLY 014 FL (PPO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "015",
+          "plan_name": "DEVOTED CHOICE 015 FL (PPO)"
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.devoted.com/H9884/2026"
+      }
+    }
+  ]
+}

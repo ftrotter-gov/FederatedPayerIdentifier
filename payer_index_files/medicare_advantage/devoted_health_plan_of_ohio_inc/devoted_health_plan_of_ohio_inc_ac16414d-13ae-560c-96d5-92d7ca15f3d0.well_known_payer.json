@@ -1,0 +1,39 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "payerLegalName": "DEVOTED HEALTH PLAN OF OHIO INC",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/FederatedPayerIdentifier",
+      "value": "ac16414d-13ae-560c-96d5-92d7ca15f3d0"
+    },
+    {
+      "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePayerIdentifer",
+      "value": "H2526"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "001",
+          "plan_name": "DEVOTED CHOICE 001 OH (PPO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "002",
+          "plan_name": "DEVOTED CHOICE MA ONLY 002 OH (PPO)"
+        },
+        {
+          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+          "value": "003",
+          "plan_name": "DEVOTED CHOICE 003 OH (PPO)"
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.devoted.com/H2526/2026"
+      }
+    }
+  ]
+}

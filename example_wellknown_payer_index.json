@@ -1,0 +1,55 @@
+{
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "payerLegalName": "Example Payer Legal Name, LLC",
+  "payerContactWebsite": "https://example.com/our_contact_page/",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/FederatedPayerIdentifier",
+      "value": "cb562654-b244-4b46-ad06-163105a82e1d"
+    },
+    {
+      "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePayerIdentifer",
+      "value": "12345"
+    }    
+  ],
+  "plans": [{
+    "identifier": [
+        {
+            "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+            "value": "432"
+        },
+        {
+            "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+            "value": "433"
+        },
+        {
+            "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
+            "value": "434"
+        },                         
+    ]{
+      "plan_string_search_match": [
+		"Example payer",
+		"Good Group 500",
+		"Any other plan finding strings",
+      ]
+    },
+    "plan_endpoints": {
+    	"payer_homepage": "http://example.com",
+        "davinci_crd_hook_endpoint#1.1": "http://example.org/foo/bar/crd",
+        "davinci_crd_hook_endpoint#1.2": "http://example.org/foo/bar/crdnew",
+        "davinci_dtr_qpackage_endpoint#1.2": "http://example.org/foo/bar/dtr",
+        "davinci_pas_submission_endpoint#1.2": "http://example.org/foo/bar/pas2",
+        "ndh_meta_fhir_signup_url": "http://example.org/fhir_signup/",
+        "ndh_meta_documentation_url": "http://example.org/fhir_docs/",
+
+        "davinci_provider_directory_endpoint#1.1": "http://example.org/foo/bar/provider-directory",
+	    "davinci_provider_directory_endpoint_all_at_once#1.1": "http://example.org/foo/bar/provider-directory/all_at_once.ndjson.zip",  
+        "davinci_patient_payer_access_endpoint#1.1": "http://example.org/foo/bar/patient-payer-access",
+        "davinci_provider_payer_access_endpoint#1.1": "http://example.org/foo/bar/provider-payer-access",
+        "davinci_payer_to_payer_endpoint#1.1": "http://example.org/foo/bar/payer-to-payer",
+	    "tic_table_of_contents#issuer-11111": "https://example.com/mrf/2025-01-01_example-payer_issuer-a_index.json",
+	    "tic_table_of_contents#issuer-22222": "https://example.com/mrf/2025-01-01_example-payer_issuer-b_index.json"
+    }
+  }
+]
+}
