@@ -17,25 +17,49 @@
     }    
   ],
 
+  "payer_level_string_search_matches": [
+    "Example Payer Legal Name",
+    "Example Payer",
+    "EPL Insurance",
+    "Example Payer Name LLC"
+  ],
+
   "plan_groups": [{
     "plan_identifiers": [
         {
             "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
             "value": "432",
             "plan_name": "This Very Good Plan",
-            "plan_website": "https://example.com/plan_432"
+            "plan_website": "https://example.com/plan_432",
+            "plan_level_string_search_matches": [
+                "This Very Good Plan",
+                "Very Good Plan Basic",
+                "TVG Plan 432"
+            ]
         },
         {
             "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
             "value": "433",
             "plan_name": "This Very Good Plan Preferred",
-            "plan_website": "https://example.com/plan_433"
+            "plan_website": "https://example.com/plan_433",
+            "plan_level_string_search_matches": [
+                "This Very Good Plan Preferred",
+                "Very Good Plan Preferred",
+                "TVG Plan 433",
+                "Very Good Preferred"
+            ]
         },
         {
             "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
             "value": "434",
             "plan_name": "This Very Good Plan Excel",
-            "plan_website": "https://example.com/plan_434"
+            "plan_website": "https://example.com/plan_434",
+            "plan_level_string_search_matches": [
+                "This Very Good Plan Excel",
+                "Very Good Plan Excel",
+                "TVG Plan 434",
+                "Very Good Excel"
+            ]
         }
     ],
 

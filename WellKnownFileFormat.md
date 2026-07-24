@@ -49,6 +49,17 @@ well_known_payer_json = {
     }    
   ],
 
+  //payer_level_string_search_matches is scoped to the payer itself (not any specific plan or endpoint set).
+  //these are the strings that, when found on an insurance card or in a claim, should be used to match
+  //this payer entity as a whole. This is useful for routing logic that operates at the payer level,
+  //before any plan-specific resolution is needed.
+  "payer_level_string_search_matches": [
+      "Example Payer Legal Name",
+      "Example Payer",
+      "EPL Insurance",
+      "Example Payer Name LLC"
+  ],
+
 
     //one payer legal entity can have multiple plans. 
     //from the perspective of this file, a given set of plans belongs in the same plan group, if they have exactly the same set of endpoints links.
@@ -62,24 +73,52 @@ well_known_payer_json = {
             "value": "432",
             "plan_name": "This Very Good Plan",
             "plan_website": "https://example.com/plan_432", //TODO should this go here or down below? Both for now. 
+            //plan_level_string_search_matches is scoped to this specific plan identifier entry.
+            //each plan identifier has its own list because different plans may appear under different
+            //names or abbreviations on insurance cards, EOBs, or claim submissions.
+            //these strings are used for plan-level routing and matching, distinct from payer-level
+            //or plan-group-level matching.
+            "plan_level_string_search_matches": [
+                "This Very Good Plan",
+                "Very Good Plan Basic",
+                "TVG Plan 432"
+            ]
         },
         {
             "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
             "value": "433",
             "plan_name": "This Very Good Plan Preferred",
             "plan_website": "https://example.com/plan_433",
+            //each plan identifier carries its own plan_level_string_search_matches list.
+            //the strings here may overlap with other plans' lists, but each plan maintains its own
+            //authoritative set of matching strings for routing to its specific plan context.
+            "plan_level_string_search_matches": [
+                "This Very Good Plan Preferred",
+                "Very Good Plan Preferred",
+                "TVG Plan 433",
+                "Very Good Preferred"
+            ]
         },
         {
             "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
             "value": "434",
             "plan_name": "This Very Good Plan Excel",
             "plan_website": "https://example.com/plan_434",
+            //likewise, plan 434 has its own distinct (though possibly overlapping) list of strings.
+            "plan_level_string_search_matches": [
+                "This Very Good Plan Excel",
+                "Very Good Plan Excel",
+                "TVG Plan 434",
+                "Very Good Excel"
+            ]
         },                         
         ],
 
 
         //this is the place where we reconcile all of the "on the insurance" card information that should route to these 
-        //endpoints.
+        //endpoints. plan_group_and_payer_level_string_search_matches is scoped to the entire plan_group
+        //and/or the payer as a whole — meaning these strings apply across all plans in this group
+        //and across all endpoints defined below.
         "plan_group_and_payer_level_string_search_matches": [
             "Example payer name",
             "Example payer name example state name"
