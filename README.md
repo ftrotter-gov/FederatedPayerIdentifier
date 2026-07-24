@@ -8,8 +8,9 @@ This repository contains an early prototype and should not be considered a forma
 ## The Technical Components: 
 
 * [Federated Payer Identifier (FPI)](GeneratingFederatedPayerIdentifiers.md): A methodology that allows Payers to generate their own ids
-* [Payer well-known endpoint file format definition](WellKnownFileFormat.md): A file that leverages the FPI in order to enable lookups against Payers and Insurance Plans, in order to find the correct endpoints
-* [Mirroring Payer well-known endpoint files here](payer_index_files): in order to use git-tooling (i.e. pull requests and tickets etc). In order to triage Data Quality Act corrections from payers and the public to ensure that the payer endpoint data is correct.
+* [Payer Well-Known Endpoint File (PWKEF) format specification](WellKnownFileFormat.md): A file that leverages the FPI in order to enable lookups against Payers and Insurance Plans, in order to find the correct endpoints
+* [Mirror of actual payer PWKEF files](payer_index_files): in order to use git-tooling (i.e. pull requests and tickets etc). In order to triage Data Quality Act corrections from payers and the public to ensure that the payer endpoint data is correct.
+* [All-at-Once Download of the Provider Directory Data ](AllAtOnce.md) outlines how payers should construct their all-at-once downloads of the DaVinci PlanNet data files!
 
 ## The problems addressesed here
 
