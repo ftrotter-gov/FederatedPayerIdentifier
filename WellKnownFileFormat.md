@@ -80,11 +80,9 @@ well_known_payer_json = {
 
         //this is the place where we reconcile all of the "on the insurance" card information that should route to these 
         //endpoints.
-        "plan_group_string_search_match": [
+        "plan_group_and_payer_level_string_search_matches": [
             "Example payer name",
-            "Good Group 500",
-            "Very Good Plan Preferred",
-            "Any other plan finding strings",
+            "Example payer name example state name"
         ],
     
         //There is only one set of plan endpoints 
