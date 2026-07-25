@@ -154,11 +154,11 @@ well_known_payer_json = {
             "carin_bluebutton_endpoint#1.0" : "https://apif1.aetna.com/fhir/v3/patientaccess/",
             "carin_bluebutton_endpoint#1.0_uscore3.1" : "https://apif1.aetna.com/fhir/v2/patientaccess/",
 
-                //davince patient access endpoints
+                //davinci patient access endpoints
             "davinci_pdex_patient_endpoint#2.0" : "https://apif1.aetna.com/fhir/v3/patientaccess/",
             "davinci_pdex_patient_endpoint#2.0_uscore3.1" : "https://apif1.aetna.com/fhir/v2/patientaccess/",
 
-                //real time pharmacy benifit checks
+                //real time pharmacy benefit checks
             "carin_rtpbc_member_endpoint#1.0" : "https://apif1.aetna.com/fhir/v1/realtimepharmacybenefitcheck/",
             "carin_rtpbc_provider_endpoint#1.0" : "https://apix.cvshealth.com/realtimepharmacybenefitcheck/v1/",
 

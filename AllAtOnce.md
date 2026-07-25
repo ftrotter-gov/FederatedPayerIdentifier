@@ -1,11 +1,11 @@
 All at Once
 ====================
 
-This specic is for "All at once" download, instead of FHIR Bulk Publish, only because we want to have the option of a simpler NDJSON based export, without the integration of the FHIR API generated manifest files that FHIR Bulk Publish Requires. 
+This specification is for "All at once" download, instead of FHIR Bulk Publish, only because we want to have the option of a simpler NDJSON based export, without the integration of the FHIR API generated manifest files that FHIR Bulk Publish Requires. 
 
 Payers can choose either: 
 
-* Honor the FHIR Bulk FHIR standard for the PayerNet data.
+* Honor the FHIR Bulk standard for the PayerNet data.
 or
 * Provide simple http access to simple NDJSON exports that are conformant to the appropriate versions of FHIR. 
 

@@ -9,10 +9,10 @@ This repository contains an early prototype and should not be considered a forma
 
 * [Federated Payer Identifier (FPI)](GeneratingFederatedPayerIdentifiers.md): A methodology that allows Payers to generate their own ids
 * [Payer Well-Known Endpoint File (PWKEF) format specification](WellKnownFileFormat.md): A file that leverages the FPI in order to enable lookups against Payers and Insurance Plans, in order to find the correct endpoints
-* [Mirror of actual payer PWKEF files](payer_index_files): in order to use git-tooling (i.e. pull requests and tickets etc). In order to triage Data Quality Act corrections from payers and the public to ensure that the payer endpoint data is correct.
+* [Mirror of actual payer PWKEF files](payer_index_files): in order to use git-tooling (i.e. pull requests and tickets etc) to triage Data Quality Act corrections from payers and the public to ensure that the payer endpoint data is correct.
 * [All-at-Once Download of the Provider Directory Data ](AllAtOnce.md) outlines how payers should construct their all-at-once downloads of the DaVinci PlanNet data files!
 
-## The problems addressesed here
+## The problems addressed here
 
 * **Uniquely identify payer organizations** so that each healthcare payer corporate entity can be consistently and correctly represented.
 
@@ -24,4 +24,4 @@ This repository contains an early prototype and should not be considered a forma
 
 * **Crosswalk payer identifiers** by maintaining mappings between the various payer identifier systems so that searches can reliably resolve to the correct payer and associated interoperability resources.
 
-* **Provide the details needed for a National Payer Directory** ensure that all of the above can be done in a manner that can be consumable by the NPD (https://directory.cms.gov/) according to the standards of the NDH FAST FHIR IG (https://build.fhir.org/ig/HL7/fhir-us-ndh/en/)
+* **Provide the details needed for a National Payer Directory** to ensure that all of the above can be done in a manner that can be consumable by the NPD (https://directory.cms.gov/) according to the standards of the NDH FAST FHIR IG (https://build.fhir.org/ig/HL7/fhir-us-ndh/en/)

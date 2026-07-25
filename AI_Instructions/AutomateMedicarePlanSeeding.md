@@ -19,7 +19,7 @@ This file contains:
 * One or more FHIR endpoint URLs
 * Response format
 
-Not the column with the Contract ID and the Payer Name is "Contract ID"
+Note: the column with the Contract ID and the Payer Name is "Contract ID"
 And the contents of this column are "{CONTRACT_ID} - {Payer Name}"
 
 The endpoint column may contain either a single URL or multiple URLs separated by spaces.
@@ -34,7 +34,7 @@ Although the file contains both previous-year and current-year contract informat
 
 For each record, extract:
 
-* Medicare payeridentifier CURRENT_CONTRACT_ID
+* Medicare payer identifier CURRENT_CONTRACT_ID
 * Plan ID CURRENT_PLAN_ID
 * Plan name CURRENT_PLAN_NAME
 
@@ -97,7 +97,7 @@ this_payers_FPI = uuid.uuid5(medicare_advantage_system_uuid, '12345')
 
 ```
 
-Make sure to also add the medicare advantage contract id under to the identifier list under as:
+Make sure to also add the medicare advantage contract id to the identifier list as:
 
 "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePayerIdentifer"
 
