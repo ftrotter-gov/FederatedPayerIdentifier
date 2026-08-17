@@ -1,5 +1,16 @@
 #!/usr/bin/env python3
-"""Reads two CMS Medicare Advantage CSV files and generates one well-known payer JSON file per contract ID."""
+"""Reads two CMS Medicare Advantage CSV files and generates one well-known payer JSON file per unique payer name.
+
+Previous approach: one file per contract_id, FPI derived from contract_id.
+Current approach:  one file per unique *normalized payer name*, FPI derived from that normalized name.
+
+Normalization rule: lowercase the raw payer name, then strip every character that is
+not a-z or 0-9 (i.e., remove spaces, punctuation, and all other special characters).
+Multiple contract IDs that produce the same normalized name are treated as the same
+payer entity and are consolidated into a single well-known JSON file.  Plans from
+different contracts that point to different FHIR endpoints are placed in separate
+plan_groups within that one file.
+"""
 
 import csv
 import json
@@ -30,12 +41,34 @@ RESOURCE_TYPE = "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWel
 # The only endpoint type extractable from this data source.
 ENDPOINT_KEY = "davinci_pdex_provider_directory_endpoint#1.1"
 
+# System ID used as the FPI namespace when deriving identifiers from payer names.
+# This distinguishes name-based FPIs from the earlier contract-ID-based ones.
+FPI_SYSTEM_ID = "PAYER_NAME"
+
 
 def safe_name(name):
     """Convert a payer name to a lowercase, underscore-separated, special-character-free directory name."""
     name = name.lower().replace(" ", "_")
     name = re.sub(r"[^a-z0-9_]", "", name)
     name = re.sub(r"_+", "_", name).strip("_")
+    return name
+
+
+def normalize_payer_name(name):
+    """
+    Produce the canonical key used for payer deduplication and FPI generation.
+
+    Rule: lowercase the name, then remove every character that is not a–z or 0–9.
+    Spaces and all punctuation/special characters are removed entirely (not replaced).
+
+    Examples
+    --------
+        "Aetna Health, Inc."  ->  "aetnahealthinc"
+        "HUMANA INSURANCE CO" ->  "humanainsuranceco"
+        "Blue Cross & Blue Shield" -> "bluecrosssblueshield"
+    """
+    name = name.lower()
+    name = re.sub(r"[^a-z0-9]", "", name)
     return name
 
 
@@ -122,38 +155,111 @@ def load_plan_crosswalk(filepath):
     return crosswalk
 
 
-def build_well_known_json(contract_id, payer_name, url, plans):
-    """Construct the well-known payer JSON document for one contract, grouping all its plans under a single endpoint."""
-    fpi = generate_fpi("CMS_CONTRACT_ID", contract_id)
+def group_payers_by_name(payers):
+    """
+    Re-group the per-contract payer dict into a dict keyed by normalized payer name.
 
-    # Build one plan_identifier entry per plan, omitting plan_name when it is blank.
-    plan_identifiers = []
-    for plan in plans:
-        entry = {"system": SYSTEM_MEDICARE_PLAN, "value": plan["plan_id"]}
-        if plan["plan_name"]:
-            entry["plan_name"] = plan["plan_name"]
-        plan_identifiers.append(entry)
+    Returns
+    -------
+    dict[str, dict]
+        Mapping of normalized_name ->
+            {
+                "canonical_name": str,          # first raw name seen (sorted by contract_id)
+                "contracts": [                  # all contracts sharing this normalized name
+                    {"contract_id": str, "url": str},
+                    ...
+                ]
+            }
+    """
+    groups = {}
+    for contract_id in sorted(payers.keys()):
+        info = payers[contract_id]
+        payer_name = info["payer_name"]
+        url = info["url"]
+        norm = normalize_payer_name(payer_name)
 
-    # All plans under a single contract share the same URL, so one plan_group covers them all.
+        if norm not in groups:
+            groups[norm] = {
+                "canonical_name": payer_name,
+                "contracts": [],
+            }
+        groups[norm]["contracts"].append({"contract_id": contract_id, "url": url})
+
+    return groups
+
+
+def build_well_known_json(normalized_name, canonical_name, contract_entries, crosswalk):
+    """
+    Construct the well-known payer JSON document for one logical payer.
+
+    The FPI is derived from the normalized payer name.  All contracts that share
+    the same normalized name are included as additional identifiers.  Plans from
+    different contracts that point to different FHIR endpoint URLs are placed in
+    separate plan_groups so that endpoint routing remains unambiguous.
+
+    Parameters
+    ----------
+    normalized_name : str
+        The all-lowercase, special-character-free payer name key (used for FPI).
+    canonical_name : str
+        The human-readable payer name to store in payerLegalName.
+    contract_entries : list[dict]
+        Each entry has "contract_id" and "url".
+    crosswalk : dict[str, list]
+        Maps contract_id -> list of {plan_id, plan_name} dicts.
+
+    Returns
+    -------
+    tuple[dict, str, int]
+        (well-known JSON document, fpi string, total plan count)
+    """
+    fpi = generate_fpi(FPI_SYSTEM_ID, normalized_name)
+
+    # Build the identifier block: FPI first, then one entry per contract_id.
+    identifier = [{"system": SYSTEM_FPI, "value": fpi}]
+    for entry in contract_entries:
+        identifier.append({"system": SYSTEM_MEDICARE_PAYER, "value": entry["contract_id"]})
+
+    # Group plans by endpoint URL so that each distinct URL becomes its own plan_group.
+    url_to_plans = {}   # url -> list of {plan_id, plan_name}
+    for entry in contract_entries:
+        contract_id = entry["contract_id"]
+        url = entry["url"]
+        plans = crosswalk.get(contract_id, [])
+        if url not in url_to_plans:
+            url_to_plans[url] = []
+        # Deduplicate plans within the same endpoint bucket.
+        seen_plan_keys = {(p["plan_id"], p["plan_name"]) for p in url_to_plans[url]}
+        for plan in plans:
+            key = (plan["plan_id"], plan["plan_name"])
+            if key not in seen_plan_keys:
+                url_to_plans[url].append(plan)
+                seen_plan_keys.add(key)
+
     plan_groups = []
-    if plan_identifiers or url:
+    total_plans = 0
+    for url, plans in sorted(url_to_plans.items()):
+        plan_identifiers = []
+        for plan in plans:
+            entry = {"system": SYSTEM_MEDICARE_PLAN, "value": plan["plan_id"]}
+            if plan["plan_name"]:
+                entry["plan_name"] = plan["plan_name"]
+            plan_identifiers.append(entry)
         plan_groups.append({
             "plan_identifiers": plan_identifiers,
             "plan_endpoints": {ENDPOINT_KEY: url},
         })
+        total_plans += len(plan_identifiers)
 
     doc = {
         "copied_from_url": None,
         "resourceType": RESOURCE_TYPE,
-        "payerLegalName": payer_name,
-        "identifier": [
-            {"system": SYSTEM_FPI, "value": fpi},
-            {"system": SYSTEM_MEDICARE_PAYER, "value": contract_id},
-        ],
+        "payerLegalName": canonical_name,
+        "identifier": identifier,
         "plan_groups": plan_groups,
     }
 
-    return doc, fpi
+    return doc, fpi, total_plans
 
 
 # The complete set of top-level keys the seed writes.
@@ -247,45 +353,65 @@ def write_output_file(doc, payer_name, fpi):
 def main():
     print("=" * 60)
     print("Medicare Advantage Well-Known JSON Seed Generator")
+    print("(Payer-Name-Based FPI Mode)")
     print("=" * 60)
+    print()
+    print("Identifier strategy: FPI is derived from the normalized payer name")
+    print("  (lowercase, all non-alphanumeric characters removed).")
+    print("  Multiple contract IDs sharing the same normalized name are merged")
+    print("  into a single well-known JSON file under one FPI.")
+    print()
 
-    print(f"\nLoading payer URL list from:\n  {PAYER_URL_FILE}")
+    print(f"Loading payer URL list from:\n  {PAYER_URL_FILE}")
     payers, url_stats = load_payer_urls(PAYER_URL_FILE)
 
     print(f"\nLoading plan crosswalk from:\n  {PLAN_CROSSWALK_FILE}")
     crosswalk = load_plan_crosswalk(PLAN_CROSSWALK_FILE)
 
+    # Group contracts by normalized payer name.
+    name_groups = group_payers_by_name(payers)
+
     print(f"\nOutput directory:\n  {OUTPUT_BASE_DIR}")
+    print(f"\nUnique contract IDs loaded:  {len(payers)}")
+    print(f"Unique payer names (groups): {len(name_groups)}")
+    print(f"  → {len(payers) - len(name_groups)} contract(s) consolidated by shared name")
     print()
 
     files_written = 0
     files_skipped_enriched = 0
-    contracts_no_plans = 0
+    payers_no_plans = 0
 
-    for contract_id, payer_info in sorted(payers.items()):
-        payer_name = payer_info["payer_name"]
-        url = payer_info["url"]
+    for normalized_name, group in sorted(name_groups.items()):
+        canonical_name = group["canonical_name"]
+        contract_entries = group["contracts"]
 
-        plans = crosswalk.get(contract_id, [])
-
-        # Contracts with no matching crosswalk plans cannot produce a meaningful well-known file.
-        if not plans:
-            contracts_no_plans += 1
-            print(f"  [{contract_id}] {payer_name}  -- SKIPPED (no crosswalk plans)")
+        # Check whether any contract in this group has crosswalk plans.
+        total_plans_available = sum(
+            len(crosswalk.get(e["contract_id"], [])) for e in contract_entries
+        )
+        if total_plans_available == 0:
+            payers_no_plans += 1
+            contract_ids = ", ".join(e["contract_id"] for e in contract_entries)
+            print(f"  [{contract_ids}] {canonical_name}  -- SKIPPED (no crosswalk plans)")
             continue
 
-        doc, fpi = build_well_known_json(contract_id, payer_name, url, plans)
-        filepath, skipped = write_output_file(doc, payer_name, fpi)
+        doc, fpi, plan_count = build_well_known_json(
+            normalized_name, canonical_name, contract_entries, crosswalk
+        )
+        filepath, skipped = write_output_file(doc, canonical_name, fpi)
 
-        print(f"  [{contract_id}] {payer_name}")
+        contract_ids = ", ".join(e["contract_id"] for e in contract_entries)
+        print(f"  [{contract_ids}] {canonical_name}")
         print(f"    -> {os.path.relpath(filepath, REPO_ROOT)}")
 
         if skipped:
             files_skipped_enriched += 1
-            print(f"       Plans: {len(plans)}, FPI: {fpi}  [NOT overwritten — enriched beyond seed]")
+            print(f"       Plans: {plan_count}, FPI: {fpi}  [NOT overwritten — enriched beyond seed]")
         else:
             files_written += 1
-            print(f"       Plans: {len(plans)}, FPI: {fpi}")
+            n_contracts = len(contract_entries)
+            n_groups = len(doc["plan_groups"])
+            print(f"       Contracts: {n_contracts}, Plan groups: {n_groups}, Plans: {plan_count}, FPI: {fpi}")
 
     print()
     print("=" * 60)
@@ -296,7 +422,9 @@ def main():
     print(f"  Skipped (empty URL):                   {url_stats['skipped_empty_url']}")
     print(f"  Skipped (multiple URLs):               {url_stats['skipped_multi_url']}")
     print(f"  Processed contract IDs:                {url_stats['processed']}")
-    print(f"  Contracts with no crosswalk plans:     {contracts_no_plans}")
+    print(f"  Unique normalized payer names:         {len(name_groups)}")
+    print(f"  Contracts merged by shared name:       {url_stats['processed'] - len(name_groups)}")
+    print(f"  Payer names with no crosswalk plans:   {payers_no_plans}")
     print(f"  Well-known JSON files written:         {files_written}")
     print(f"  Skipped (enriched beyond seed data):   {files_skipped_enriched}")
     print()
