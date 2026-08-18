@@ -2,8 +2,15 @@
 """
 same_payer_different_plans_report.py
 
-Scans all .well_known_payer.json files under payer_index_files/ and produces
-a Markdown report (same_payer_different_plans_report.md) in the repo root.
+Scans all .well_known_payer.json files under payer_index_files/ and produces:
+
+  1. reports/same_payer_different_plans_report.md
+       Summary report with per-FPI plan-ID counts linked to detail pages,
+       sorted by number of endpoint groups (descending).
+
+  2. reports/per_fpi/<company_name>.md  (one per unique FPI)
+       Detail page listing the well-known JSON file(s) for that FPI and every
+       plan identifier organised by endpoint group.
 
 KEY SEMANTICS (from WellKnownFileFormat.md and GeneratingFederatedPayerIdentifiers.md):
   - One FPI = one payer entity (the FPI is the authoritative identity).
@@ -28,6 +35,7 @@ Usage:
 
 import json
 import os
+import re
 from collections import defaultdict
 from datetime import datetime
 
@@ -35,7 +43,22 @@ from datetime import datetime
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.dirname(SCRIPT_DIR)
 PAYER_INDEX_ROOT = os.path.join(REPO_ROOT, "payer_index_files")
-REPORT_PATH = os.path.join(REPO_ROOT, "same_payer_different_plans_report.md")
+REPORTS_DIR = os.path.join(REPO_ROOT, "reports")
+PER_FPI_DIR = os.path.join(REPORTS_DIR, "per_fpi")
+REPORT_PATH = os.path.join(REPORTS_DIR, "same_payer_different_plans_report.md")
+
+# Ensure output directories exist
+os.makedirs(PER_FPI_DIR, exist_ok=True)
+
+
+# ── Helper ─────────────────────────────────────────────────────────────────────
+def slugify(name: str) -> str:
+    """Convert a payer legal name to a filesystem-safe slug (lowercase, underscores)."""
+    slug = name.lower()
+    slug = re.sub(r"[^a-z0-9]+", "_", slug)
+    slug = slug.strip("_")
+    return slug
+
 
 # ── Collect all payer files ────────────────────────────────────────────────────
 all_files = []
@@ -66,17 +89,23 @@ for filepath in all_files:
                 label = system.split("/")[-1] if "/" in system else system
                 other_ids.append((label, value))
 
-        # Collect plan_identifiers and endpoint sets across all plan_groups
-        plan_ids = []
-        endpoint_sets = []
+        # Retain full plan_groups structure (plan_identifiers + plan_endpoints together)
+        raw_plan_groups = []
+        plan_ids_flat = []
         for pg in data.get("plan_groups", []):
+            plans = []
             for pi in pg.get("plan_identifiers", []):
-                plan_ids.append({
+                entry = {
                     "value": pi.get("value", ""),
                     "plan_name": pi.get("plan_name", ""),
-                })
-            eps = pg.get("plan_endpoints", {})
-            endpoint_sets.append(frozenset(eps.items()))
+                }
+                plans.append(entry)
+                plan_ids_flat.append(entry)
+            endpoints = pg.get("plan_endpoints", {})
+            raw_plan_groups.append({
+                "plan_identifiers": plans,
+                "plan_endpoints": endpoints,
+            })
 
         rel = os.path.relpath(filepath, PAYER_INDEX_ROOT)
         category = rel.split(os.sep)[0]
@@ -89,9 +118,9 @@ for filepath in all_files:
             "legal_name": data.get("payerLegalName", "UNKNOWN"),
             "fpi": fpi,
             "other_ids": other_ids,
-            "plan_ids": plan_ids,
-            "plan_group_count": len(data.get("plan_groups", [])),
-            "endpoint_sets": endpoint_sets,
+            "plan_ids": plan_ids_flat,
+            "plan_group_count": len(raw_plan_groups),
+            "raw_plan_groups": raw_plan_groups,
         })
 
     except Exception as e:
@@ -119,6 +148,7 @@ for fpi, recs in by_fpi.items():
         "fpi": fpi,
         "legal_names": legal_names,
         "legal_name": legal_names[0],
+        "slug": slugify(legal_names[0]),
         "num_files": len(recs),
         "num_plan_groups": total_plan_groups,
         "num_plans": len(all_plan_ids),
@@ -127,8 +157,8 @@ for fpi, recs in by_fpi.items():
         "categories": categories,
     })
 
-# Sort: payers with most files first, then by legal name
-payer_summaries.sort(key=lambda x: (-x["num_files"], x["legal_name"]))
+# Sort: most endpoint groups first, then most plans, then by legal name
+payer_summaries.sort(key=lambda x: (-x["num_plan_groups"], -x["num_plans"], x["legal_name"]))
 
 # ── Partition: single-file vs multi-file payers ───────────────────────────────
 multi_file_payers = [p for p in payer_summaries if p["num_files"] > 1]
@@ -138,6 +168,94 @@ single_file_payers = [p for p in payer_summaries if p["num_files"] == 1]
 file_count_dist = defaultdict(int)
 for p in payer_summaries:
     file_count_dist[p["num_files"]] += 1
+
+
+# ── Generate per-FPI detail pages ─────────────────────────────────────────────
+def write_per_fpi_report(p: dict) -> None:
+    """Write reports/per_fpi/<slug>.md for a single payer summary."""
+    slug = p["slug"]
+    out_path = os.path.join(PER_FPI_DIR, f"{slug}.md")
+
+    lines = []
+    lines.append(f"# {p['legal_name']}")
+    lines.append("")
+    lines.append(f"**FPI:** `{p['fpi']}`")
+    lines.append("")
+    lines.append(f"**Category:** {', '.join(p['categories'])}")
+    lines.append("")
+
+    # ── Well-Known Import Files ────────────────────────────────────────────────
+    lines.append("## Well-Known Payer Import Files")
+    lines.append("")
+    for r in p["files"]:
+        # Relative path from reports/per_fpi/ to the JSON file
+        rel_to_json = os.path.relpath(r["filepath"], PER_FPI_DIR)
+        lines.append(f"- [{r['filename']}]({rel_to_json})")
+    lines.append("")
+
+    # ── Plan Groups ────────────────────────────────────────────────────────────
+    # Collect all plan_groups across all files for this FPI, with file context
+    all_groups = []
+    for r in p["files"]:
+        for pg in r["raw_plan_groups"]:
+            all_groups.append({
+                "source_file": r["filename"],
+                "plan_identifiers": pg["plan_identifiers"],
+                "plan_endpoints": pg["plan_endpoints"],
+            })
+
+    total_groups = len(all_groups)
+    total_plans = p["num_plans"]
+
+    lines.append(f"## Plan Groups ({total_groups} group{'s' if total_groups != 1 else ''}, {total_plans} plan{'s' if total_plans != 1 else ''} total)")
+    lines.append("")
+
+    for idx, grp in enumerate(all_groups, start=1):
+        num_plans_in_grp = len(grp["plan_identifiers"])
+        lines.append(f"### Plan Group {idx} of {total_groups}")
+        lines.append("")
+
+        # Source file (only useful when payer spans multiple files)
+        if p["num_files"] > 1:
+            lines.append(f"**Source file:** `{grp['source_file']}`")
+            lines.append("")
+
+        # Endpoints
+        endpoints = grp["plan_endpoints"]
+        if endpoints:
+            lines.append("**Endpoints:**")
+            lines.append("")
+            lines.append("| Key | Value |")
+            lines.append("|-----|-------|")
+            for k, v in sorted(endpoints.items()):
+                k_safe = str(k).replace("|", "\\|")
+                v_safe = str(v).replace("|", "\\|")
+                lines.append(f"| {k_safe} | {v_safe} |")
+        else:
+            lines.append("**Endpoints:** _(none specified)_")
+        lines.append("")
+
+        # Plans in this group
+        lines.append(f"**Plans ({num_plans_in_grp}):**")
+        lines.append("")
+        if num_plans_in_grp == 0:
+            lines.append("_No plan identifiers in this group._")
+        else:
+            lines.append("| Plan ID | Plan Name |")
+            lines.append("|---------|-----------|")
+            for pi in grp["plan_identifiers"]:
+                plan_val = pi["value"].replace("|", "\\|")
+                plan_name = pi["plan_name"].replace("|", "\\|")
+                lines.append(f"| {plan_val} | {plan_name} |")
+        lines.append("")
+
+    with open(out_path, "w") as fh:
+        fh.write("\n".join(lines) + "\n")
+
+
+for p in payer_summaries:
+    write_per_fpi_report(p)
+
 
 # ── Build Markdown report ──────────────────────────────────────────────────────
 lines = []
@@ -197,9 +315,10 @@ if multi_file_payers:
     lines.append("| FPI | Payer Legal Name | # Files | # Endpoint Groups | # Plan IDs | Category |")
     lines.append("|-----|-----------------|--------:|----------------:|----------:|----------|")
     for p in multi_file_payers:
+        plan_link = f"[{p['num_plans']}](per_fpi/{p['slug']}.md)"
         lines.append(
             f"| `{p['fpi']}` | {p['legal_name']} | {p['num_files']} "
-            f"| {p['num_plan_groups']} | {p['num_plans']} | {', '.join(p['categories'])} |"
+            f"| {p['num_plan_groups']} | {plan_link} | {', '.join(p['categories'])} |"
         )
     lines.append("")
     lines.append("### Detailed Breakdown")
@@ -228,17 +347,18 @@ else:
 lines.append("## Single-File Payers (All Plans Share One Endpoint Set)")
 lines.append("")
 lines.append(
-    f"These **{len(single_file_payers)} payers** each have exactly one file, "
-    "meaning all their plans currently share the same endpoint configuration."
+    f"These **{len(single_file_payers)} payers** each have exactly one file. "
+    "Sorted by number of endpoint groups (descending), then plan count (descending)."
 )
 lines.append("")
 lines.append("| FPI | Payer Legal Name | # Endpoint Groups | # Plan IDs | Category |")
 lines.append("|-----|-----------------|----------------:|----------:|----------|")
-# Sort single-file payers by plan count descending
-for p in sorted(single_file_payers, key=lambda x: -x["num_plans"]):
+# Already sorted by (-num_plan_groups, -num_plans, legal_name) from the global sort
+for p in single_file_payers:
+    plan_link = f"[{p['num_plans']}](per_fpi/{p['slug']}.md)"
     lines.append(
         f"| `{p['fpi']}` | {p['legal_name']} | {p['num_plan_groups']} "
-        f"| {p['num_plans']} | {', '.join(p['categories'])} |"  
+        f"| {plan_link} | {', '.join(p['categories'])} |"
     )
 lines.append("")
 
@@ -261,11 +381,12 @@ if errors:
         lines.append(f"- `{rel}`: {err}")
     lines.append("")
 
-# ── Write report ───────────────────────────────────────────────────────────────
+# ── Write main report ──────────────────────────────────────────────────────────
 with open(REPORT_PATH, "w") as fh:
     fh.write("\n".join(lines) + "\n")
 
-print(f"Report written to: {REPORT_PATH}")
+print(f"Main report:      {os.path.relpath(REPORT_PATH, REPO_ROOT)}")
+print(f"Per-FPI reports:  {os.path.relpath(PER_FPI_DIR, REPO_ROOT)}/ ({len(payer_summaries)} files)")
 print(f"  Files scanned:                          {len(all_files)}")
 print(f"  Unique FPIs (payers):                   {len(by_fpi)}")
 print(f"  FPIs in multiple files (same payer,")

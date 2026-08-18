@@ -5,7 +5,7 @@ This specification is for "All at once" download, instead of FHIR Bulk Publish, 
 
 Payers can choose either: 
 
-* Honor the FHIR Bulk standard for the PayerNet data.
+* Honor the FHIR Bulk Publish standard for the PayerNet data.
 or
 * Provide simple http access to simple NDJSON exports that are conformant to the appropriate versions of FHIR. 
 
