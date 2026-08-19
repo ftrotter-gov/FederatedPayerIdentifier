@@ -26,16 +26,23 @@ well_known_payer_json = {
   "identifier": [
     {
             //the first identifier is the Federated Payer Identifier, which is the system of payer-self-enumeration.
-            //there can only be one of these identifiers in the file and it should be the first one. 
-            //TODO finalize this system
-            //this system is what marks this identifier as the FPI. 
-      "system": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/FederatedPayerIdentifier",
+            //there can only be one of these identifiers in the file and it should be the first one.
+            //this entry has four components: system, value, fpi_source_system, and fpi_source_value.
+            //this system is what marks this identifier as the FPI.
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
             //the following must be a uuid of some kind.
             //it is recommended that it be a uuid generated from an existing and/or reliable payer identification system
             //there will be a discussion on how to do this later in this readme!
             //but it can be any string that is validates as a uuid. Because of this later optionality, there will be a first-come-first-serve policy on valid uuid values here.
-            //this particular uuid is generated from the Medicare Advantage Payer ID
-      "value": "cb562654-b244-4b46-ad06-163105a82e1d" 
+            //this particular uuid is generated from the CMS Medicare Advantage contract ID below.
+      "value": "5e4c4d18-0725-58ce-9477-d8482ea11016",
+            //fpi_source_system records which payer identifier system was used to generate the FPI uuid.
+            //it must be one of the "system" urls from reference_data/current_payer_identification_systems.json
+            //(but never the fpi system itself — you cannot derive an FPI from another FPI).
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+            //fpi_source_value records the identifier value (within fpi_source_system) that was hashed to produce the FPI uuid.
+            //for state-level systems (e.g. STATE_DOI_ID) this value must carry the two-letter state prefix, e.g. "TX-68775".
+      "fpi_source_value": "H0028"
     },
 
     //after this, please list all of the payer identifiers for your company that exist in other payer identifier systems

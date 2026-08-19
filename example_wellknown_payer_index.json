@@ -8,8 +8,10 @@
 
   "identifier": [
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/FederatedPayerIdentifier",
-      "value": "cb562654-b244-4b46-ad06-163105a82e1d"
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "5e4c4d18-0725-58ce-9477-d8482ea11016",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "fpi_source_value": "H0028"
     },
     {
       "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePayerIdentifer",

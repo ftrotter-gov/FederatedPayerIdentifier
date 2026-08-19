@@ -49,7 +49,7 @@
       "assigning_authority": "State Department of Insurance",
       "is_defunct": false,
       "system": "https://directory.cms.gov/payer_identification_system/state_doi_id",
-      "description": "State-level dept of insurance. dataurl is from Texas as an example",
+      "description": "State-level dept of insurance. dataurl is from Texas as an example. Because these identifiers are only unique within a single state, any value in this system MUST be prefixed with the two-letter USPS state code and a hyphen (e.g. 'TX-68775') to prevent collisions between states, including when generating an FPI from this system.",
       "data_lookup_url": "https://www.tdi.texas.gov/insurer/clhmo.html",
       "is_current": true,
       "expired_date": null
@@ -215,6 +215,17 @@
       "is_defunct": false,
       "system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "description": "A deterministic identifier derived from a payer's legal name, generated as implemented in tools/seed_medicare_advantage/seed.py. The legal name is first normalized by lowercasing it and removing every character that is not a-z or 0-9 (e.g. 'Aetna Health, Inc.' becomes 'aetnahealthinc'). A UUID version 5 is then formed by chaining from the DNS namespace: system_uuid = uuid5(NAMESPACE_DNS, 'PAYER_NAME.fhir'), and the final identifier = uuid5(system_uuid, normalized_legal_name). Payers whose legal names normalize to the same string are treated as the same payer entity and share a single identifier. We expect to retire this identifier, since it will have frequent collisions and is not a standard identifier system.",
+      "data_lookup_url": null,
+      "is_current": true,
+      "expired_date": null
+    },
+    {
+      "id": "X12_PAYER_ID",
+      "acronym": "X12 Payer ID",
+      "assigning_authority": "Various clearinghouses",
+      "is_defunct": false,
+      "system": "https://directory.cms.gov/payer_identification_system/x12_payer_id",
+      "description": "A generic X12 electronic transaction routing payer identifier, used when the specific clearinghouse ecosystem that assigned or maintains the identifier is unknown or when the same identifier is used consistently across clearinghouses.",
       "data_lookup_url": null,
       "is_current": true,
       "expired_date": null

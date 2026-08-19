@@ -1,42 +1,4 @@
 {
-  "copied_from_url": null,
-  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "AETNA BETTER HEALTH OF TEXAS INC.",
-  "identifier": [
-    {
-      "system": "https://directory.cms.gov/payer_identification_system/fpi",
-      "value": "e9a3ae68-5f89-594a-b281-6681770b34c2",
-      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
-      "fpi_source_value": "AETNA BETTER HEALTH OF TEXAS INC."
-    },
-    {
-      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H8597"
-    }
-  ],
-  "plan_groups": [
-    {
-      "plan_identifiers": [
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H8597-001",
-          "plan_name": "Aetna Medicare Dual Care (HMO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H8597-002",
-          "plan_name": "Aetna Medicare Dual Care (HMO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H8597-003",
-          "plan_name": "Aetna Medicare Dual Care (HMO D-SNP)"
-        }
-      ],
-      "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
-      }
-    }
-  ],
-  "is_seeded": true
+  "is_seeded": false,
+  "new_file": "payer_index_files/medicare_advantage/aetna_better_health_of_texas_inc/aetna_better_health_of_texas_inc_3f9af4c3-d735-5c9b-9674-33cdd1864d6b.well_known_payer.json"
 }

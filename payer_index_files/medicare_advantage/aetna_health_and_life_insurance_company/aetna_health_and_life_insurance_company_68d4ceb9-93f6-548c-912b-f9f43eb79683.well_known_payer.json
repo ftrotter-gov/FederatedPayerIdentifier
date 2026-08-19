@@ -1,0 +1,181 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "payerLegalName": "AETNA HEALTH AND LIFE INSURANCE COMPANY",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "68d4ceb9-93f6-548c-912b-f9f43eb79683",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/naic_id",
+      "fpi_source_value": "78700"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3288",
+      "notes": "Medicare Advantage contract associated with Aetna Health and Life Insurance Company.",
+      "lookup_url": "https://www.cms.gov/files/document/overutilization-contacts-2025-05.xlsx",
+      "expiration": "current"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/naic_id",
+      "value": "78700",
+      "notes": "NAIC company code for Aetna Health and Life Insurance Company.",
+      "lookup_url": "https://www.tdi.texas.gov/company/top40.html",
+      "expiration": "current"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/ein",
+      "value": "06-0876836",
+      "notes": "Federal EIN for Aetna Health and Life Insurance Company.",
+      "lookup_url": "https://disb.dc.gov/sites/default/files/dc/sites/disb/publication/attachments/MCHU-129441898.pdf",
+      "expiration": "current"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/lei",
+      "value": "5493000TJJYWT3N7J985",
+      "notes": "Legal Entity Identifier for Aetna Health and Life Insurance Company.",
+      "lookup_url": "https://lei.bloomberg.com/leis/view/5493000TJJYWT3N7J985",
+      "expiration": "current"
+    }
+  ],
+  "payer_level_string_search_matches": [
+    "Aetna",
+    "Aetna Health and Life Insurance",
+    "Aetna Health and Life Insurance Company"
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3288-001",
+          "plan_name": "Aetna Medicare Value Plus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3288-002",
+          "plan_name": "Aetna Medicare Value Plus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3288-003",
+          "plan_name": "Aetna Medicare Value Plus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3288-004",
+          "plan_name": "Aetna Medicare Value Plus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3288-005",
+          "plan_name": "Aetna Medicare Signature (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3288-006",
+          "plan_name": "Aetna Medicare Signature (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3288-007",
+          "plan_name": "Aetna Medicare Enhanced (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3288-008",
+          "plan_name": "Aetna Medicare Signature (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3288-009",
+          "plan_name": "Aetna Medicare Enhanced (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3288-011",
+          "plan_name": "Aetna Medicare Signature (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3288-016",
+          "plan_name": "Aetna Medicare Signature (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3288-017",
+          "plan_name": "Aetna Medicare Value Plus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3288-018",
+          "plan_name": "Aetna Medicare Value Plus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3288-019",
+          "plan_name": "Aetna Medicare Value Plus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3288-020",
+          "plan_name": "Aetna Medicare Signature (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3288-021",
+          "plan_name": "Aetna Medicare Signature (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3288-027",
+          "plan_name": "Aetna Medicare Elite (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3288-034",
+          "plan_name": "Aetna Medicare Eagle Plus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3288-042",
+          "plan_name": "Aetna Medicare Enhanced (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3288-046",
+          "plan_name": "Aetna Medicare Signature (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3288-047",
+          "plan_name": "Aetna Medicare Enhanced (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3288-048",
+          "plan_name": "Aetna Medicare Value Plus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3288-051",
+          "plan_name": "Aetna Medicare Eagle (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3288-053",
+          "plan_name": "Aetna Medicare Dual Care (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3288-801",
+          "plan_name": "Aetna Medicare Plan (PPO)"
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
+      }
+    }
+  ],
+  "is_seeded": false
+}

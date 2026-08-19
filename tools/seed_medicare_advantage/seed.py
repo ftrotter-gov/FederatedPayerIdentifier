@@ -221,7 +221,7 @@ def build_well_known_json(normalized_name, canonical_name, contract_entries, cro
     tuple[dict, str, int]
         (well-known JSON document, fpi string, total plan count)
     """
-    fpi = generate_fpi(FPI_SYSTEM_ID, normalized_name)
+    fpi = generate_fpi(system_id=FPI_SYSTEM_ID, payer_id_value=normalized_name)
 
     # Build the identifier block: FPI first, then one CMS_CONTRACT_ID entry per contract_id.
     # The FPI entry is the one and only FPI in the array.  It records the

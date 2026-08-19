@@ -47,7 +47,8 @@ Examples include:
 |----------------------|---------------------|--------|
 | `HIOS_ID` | CMS | Active |
 | `CMS_CONTRACT_ID` | CMS | Active |
-| `MCO_ID` | State Medicaid Agency | Active |
+| `STATE_MCO_ID` | State Medicaid Agency | Active |
+| `STATE_DOI_ID` | State Department of Insurance | Active |
 | `NAIC_ID` | NAIC | Active |
 | `X12_PAYER_ID_AVAILITY` | Availity | Active |
 | `LEI` | GLEIF | Active |
@@ -55,8 +56,23 @@ Examples include:
 
 > Only approved Payer Identifier System IDs may be used to generate UUIDv5 values.
 
-The list of approved Payer Identifier Systems is in [tools/current_payer_identification_systems.json](tools/current_payer_identification_systems.json)
+The list of approved Payer Identifier Systems is in [reference_data/current_payer_identification_systems.json](reference_data/current_payer_identification_systems.json)
 If you would like to add a new approved Payer Identifier System, please do a pull request to add to this file!
+
+Note that the FPI itself (`FPI`) is also listed in that file as a payer identifier system, so that FPIs can be recorded and crosswalked alongside every other payer identifier. However, the `FPI` system may **not** be used as an FPI source namespace — you cannot derive an FPI from another FPI, and the FPI Maker CLI excludes it from the selectable namespaces.
+
+### State-level identifier systems require a state prefix
+
+Some identifier systems (currently `STATE_DOI_ID` and `STATE_MCO_ID`) are assigned by individual states, and their values are only unique *within* a single state. Texas DOI number `68775` and some other state's DOI number `68775` would otherwise hash to the same FPI.
+
+To prevent these collisions, values from state-level identifier systems MUST be prefixed with the two-letter USPS state code and a hyphen before the UUIDv5 is generated:
+
+```
+TX-68775   (Texas DOI number 68775)
+OH-12345   (Ohio DOI number 12345)
+```
+
+The FPI Maker CLI prompts for the state code automatically for these systems, and the `generate_fpi` library function rejects unprefixed state-level values.
 
 ## 2. Generate the UUID
 
@@ -74,6 +90,8 @@ FPI generation uses a **two-step chained UUIDv5** process, not a single `UUIDv5(
 step_1: system_namespace = UUIDv5(NAMESPACE_DNS, "<SYSTEM_ID>.fhir")
 step_2: fpi             = UUIDv5(system_namespace, "<payer_id_value>")
 ```
+
+For state-level systems, the `<payer_id_value>` must already carry the two-letter state prefix (e.g. `"TX-68775"`), as described above.
 
 Example in Python (for `HIOS_ID` / `"987654"`):
 
@@ -156,8 +174,10 @@ The National Provider and Payer Directory serves as the authoritative registry b
 
 - Use **UUIDv5** when a payer already wishes to use an existing identifier.
 - UUIDv5 generation uses a **two-step chained process**: first derive a `system_namespace` via `uuid5(NAMESPACE_DNS, "<SYSTEM_ID>.fhir")`, then compute the FPI via `uuid5(system_namespace, "<payer_id_value>")`.
-- Use **`python tools/FPI_maker_cli.py`** to generate FPIs correctly — it handles the two-step chaining automatically.
+- Use **`python tools/FPI_maker_cli.py`** to generate FPIs correctly — it handles the two-step chaining automatically, and loads the approved identifier systems at runtime from `reference_data/current_payer_identification_systems.json`.
 - UUIDv5 generation requires an approved **Identifier System ID** and the payer's identifier value.
+- **State-level identifier values** (e.g. `STATE_DOI_ID`, `STATE_MCO_ID`) must be prefixed with the two-letter USPS state code and a hyphen (e.g. `TX-68775`) before hashing, to prevent collisions between states.
+- The **FPI itself is listed** in the payer identifier systems file so it can be crosswalked like any other identifier, but it may not be used as an FPI source namespace — you cannot derive an FPI from another FPI.
 - Use **UUIDv1, UUIDv4, UUIDv6, UUIDv7, or UUIDv8** when creating new payer identifiers with no existing approved identifier provider.
 - Every UUID passes through the same deduplication process before being accepted.
 - Every accepted UUID is globally unique across all payer identifier systems and UUID versions.

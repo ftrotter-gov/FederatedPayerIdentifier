@@ -1,0 +1,92 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "payerLegalName": "AETNA BETTER HEALTH OF TEXAS INC.",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "3f9af4c3-d735-5c9b-9674-33cdd1864d6b",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/state_doi_id",
+      "fpi_source_value": "TX-68775"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8597",
+      "notes": "Medicare Advantage D-SNP contract associated with Aetna Better Health of Texas.",
+      "lookup_url": "https://www.cms.gov/files/document/overutilization-contacts-2025-05.xlsx",
+      "expiration": "current"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/naic_id",
+      "value": "95040",
+      "notes": "Current Texas Medicaid HMO legal entity.",
+      "lookup_url": "https://tdi.texas.gov/life/documents/lh2025.pdf",
+      "expiration": "current"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/ein",
+      "value": "74-1844335",
+      "notes": "Federal EIN mapped to Aetna Better Health of Texas in insurance regulatory filings.",
+      "lookup_url": "https://www.maine.gov/pfr/insurance/sites/maine.gov.pfr.insurance/files/inline-files/aetna-2qrt-2024.pdf",
+      "expiration": "current"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/state_doi_id",
+      "value": "TX-68775",
+      "notes": "Texas Department of Insurance HMO identifier.",
+      "lookup_url": "https://www.tdi.texas.gov/hmo/profiles/68775.html",
+      "expiration": "current"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/lei",
+      "value": "549300PZN08N45LKUU43",
+      "notes": "Legal Entity Identifier for Aetna Better Health of Texas.",
+      "lookup_url": "https://lei.bloomberg.com/leis/view/549300PZN08N45LKUU43",
+      "expiration": "current"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/x12_payer_id",
+      "value": "38692",
+      "notes": "Current electronic claims payer ID. Aetna instructed providers to use 38692 effective 2024-12-15.",
+      "lookup_url": "https://www.aetnabetterhealth.com/content/dam/aetna/medicaid/texas/providers/pdf/abhtx_Provider_Notification_Commercial_Payer_ID.pdf",
+      "expiration": "current"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/x12_payer_id",
+      "value": "60054",
+      "notes": "Historical routing relationship; no longer accepted for ABH Texas claims effective 2024-12-15.",
+      "lookup_url": "https://www.aetnabetterhealth.com/content/dam/aetna/medicaid/texas/providers/pdf/abhtx_Provider_Notification_Commercial_Payer_ID.pdf",
+      "expiration": "2024-12"
+    }
+  ],
+  "payer_level_string_search_matches": [
+    "Aetna",
+    "Aetna Better Health of Texas",
+    "Aetna Better Health of Texas, Inc."
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8597-001",
+          "plan_name": "Aetna Medicare Dual Care (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8597-002",
+          "plan_name": "Aetna Medicare Dual Care (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8597-003",
+          "plan_name": "Aetna Medicare Dual Care (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
+      }
+    }
+  ],
+  "is_seeded": false
+}

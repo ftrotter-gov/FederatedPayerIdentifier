@@ -1,0 +1,250 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "payerLegalName": "AETNA HEALTH INC. (TX)",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "b1affe56-4f6e-59a1-893e-f611f1dd8b5b",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/hios_id",
+      "fpi_source_value": "58840"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4523",
+      "notes": "Medicare Advantage contract associated with Aetna Health Inc. (TX).",
+      "lookup_url": "https://www.cms.gov/files/document/integration-status-contract-year-2026-d-snps-01-2026.xlsx",
+      "expiration": "current"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8332"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/naic_id",
+      "value": "95490",
+      "notes": "Current Texas HMO legal entity.",
+      "lookup_url": "https://tdi.texas.gov/life/documents/lh2025.pdf",
+      "expiration": "current"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/ein",
+      "value": "76-0189680",
+      "notes": "Federal EIN mapped to Aetna Health Inc. (TX) in insurance regulatory filings.",
+      "lookup_url": "https://www.maine.gov/pfr/insurance/themes/insurance/pdf/hmo/financial_statements/pdf/2020/quarter_3/aetna_3qtr_2020.pdf",
+      "expiration": "current"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/state_doi_id",
+      "value": "TX-05791",
+      "notes": "Texas Department of Insurance HMO identifier.",
+      "lookup_url": "https://www.tdi.texas.gov/hmo/profiles/05791.html",
+      "expiration": "current"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/hios_id",
+      "value": "58840",
+      "notes": "CMS HIOS issuer identifier for Aetna Health Inc. (Texas).",
+      "lookup_url": "https://www.cms.gov/files/document/hhs-radv-adjustments-by23-transfers-report.pdf-0",
+      "expiration": "current"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/lei",
+      "value": "549300GYPA73CA50SO84",
+      "notes": "Legal Entity Identifier for the Texas corporation.",
+      "lookup_url": "https://lei.bloomberg.com/leis/view/549300GYPA73CA50SO84",
+      "expiration": "current"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/x12_payer_id",
+      "value": "60054",
+      "notes": "Aetna electronic medical-claims payer ID associated with this Texas entity/products.",
+      "lookup_url": "https://www.aetna.com/health-care-professionals/claims-payment-reimbursement/electronic-transaction-solutions.html",
+      "expiration": "current"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/naic_id",
+      "value": "16132",
+      "notes": "Historical corporation; for this experiment assumed merged into Aetna Health Inc. (Texas) effective 2024-04.",
+      "lookup_url": "https://www.michigan.gov/difs/-/media/Project/Websites/difs/HMO/2024_1st_Qtr_Report/Aetna_Health_Inc.pdf",
+      "expiration": "2024-04"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/ein",
+      "value": "47-5548221",
+      "notes": "Historical EIN; corporation assumed merged into Aetna Health Inc. (Texas) for this experiment.",
+      "lookup_url": "https://www.nj.gov/dobi/division_insurance/solvency/annualstatements/2020/aetnahealth/key.pdf",
+      "expiration": "2024-04"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/state_doi_id",
+      "value": "TX-14634606",
+      "notes": "Historical Texas DOI HMO identifier; corporation assumed merged into Aetna Health Inc. (Texas) for this experiment.",
+      "lookup_url": "https://www.tdi.texas.gov/hmo/profiles/14634606.html",
+      "expiration": "2024-04"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/lei",
+      "value": "5493001NIL5DWJ8F1D34",
+      "notes": "Historical LEI; corporation assumed merged into Aetna Health Inc. (Texas) effective 2024-04.",
+      "lookup_url": "https://lei.bloomberg.com/leis/view/5493001NIL5DWJ8F1D34",
+      "expiration": "2024-04"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/naic_id",
+      "value": "16121",
+      "notes": "Historical corporation; merged into Aetna Life Insurance Company effective 2024-04.",
+      "lookup_url": "https://www.michigan.gov/difs/-/media/Project/Websites/difs/HMO/2024_1st_Qtr_Report/Aetna_Health_Inc.pdf",
+      "expiration": "2024-04"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/ein",
+      "value": "81-4749336",
+      "notes": "Historical EIN for Texas Health + Aetna Health Plan Inc.",
+      "lookup_url": "https://www.maine.gov/pfr/insurance/themes/insurance/pdf/hmo/financial_statements/pdf/2020/quarter_3/aetna_3qtr_2020.pdf",
+      "expiration": "2024-04"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/hios_id",
+      "value": "75394",
+      "notes": "Historical CMS HIOS issuer identifier.",
+      "lookup_url": "https://www.cms.gov/files/document/hhs-radv-adjustments-by23-transfers-report.pdf-0",
+      "expiration": "2024-04"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/lei",
+      "value": "54930087O2O5JBKVJ372",
+      "notes": "Historical LEI; corporation merged into Aetna Life Insurance Company effective 2024-04.",
+      "lookup_url": "https://lei.bloomberg.com/leis/view/54930087O2O5JBKVJ372",
+      "expiration": "2024-04"
+    }
+  ],
+  "payer_level_string_search_matches": [
+    "Aetna",
+    "Aetna Health",
+    "Aetna Health Inc. (TX)",
+    "Aetna Health Inc. (Texas)",
+    "Texas Health + Aetna Health Plan Inc.",
+    "Texas Health Aetna"
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4523-001",
+          "plan_name": "Aetna Medicare Signature Extra (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4523-015",
+          "plan_name": "Aetna Medicare Signature Extra (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4523-020",
+          "plan_name": "Aetna Medicare Prime Care (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4523-021",
+          "plan_name": "Aetna Medicare Prime Care (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4523-024",
+          "plan_name": "Aetna Medicare Prime Care (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4523-027",
+          "plan_name": "Aetna Medicare Signature Care (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4523-028",
+          "plan_name": "Aetna Medicare Full Dual (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4523-029",
+          "plan_name": "Aetna Medicare Full Dual Care (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4523-030",
+          "plan_name": "Aetna Medicare Full Dual Care (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4523-031",
+          "plan_name": "Aetna Medicare Signature (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4523-034",
+          "plan_name": "Aetna Medicare Full Dual Care (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4523-041",
+          "plan_name": "Aetna Medicare Partial Dual Care (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4523-043",
+          "plan_name": "Aetna Medicare Partial Dual Care (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4523-044",
+          "plan_name": "Aetna Medicare Partial Dual Care (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4523-801",
+          "plan_name": "Aetna Medicare Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4523-802",
+          "plan_name": "Aetna Medicare Plan w/Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4523-037",
+          "plan_name": "Aetna Medicare Prime Chronic Care (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4523-038",
+          "plan_name": "Aetna Medicare Prime Chronic Care (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4523-039",
+          "plan_name": "Aetna Medicare Prime Chronic Total (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4523-042",
+          "plan_name": "Aetna Medicare Signature (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8332-004",
+          "plan_name": "Aetna Medicare Prime (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8332-801",
+          "plan_name": "Aetna Medicare Plan (HMO)"
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
+      }
+    }
+  ],
+  "is_seeded": false
+}
