@@ -13,7 +13,6 @@
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
       "value": "H5521",
       "notes": "Medicare Advantage contract associated with Aetna Life Insurance Company.",
-      "lookup_url": "https://www.cms.gov/files/document/integration-status-contract-year-2026-d-snps-01-2026.xlsx",
       "expiration": "current"
     },
     {
@@ -28,14 +27,12 @@
       "system": "https://directory.cms.gov/payer_identification_system/naic_id",
       "value": "60054",
       "notes": "NAIC company code for Aetna Life Insurance Company.",
-      "lookup_url": "https://dfr.oregon.gov/AdminOrders/actions_2012/insurer_2012/marketplace_2012/12-01-005.pdf",
       "expiration": "current"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/ein",
       "value": "06-6033492",
       "notes": "Federal EIN for Aetna Life Insurance Company.",
-      "lookup_url": "https://dfr.oregon.gov/AdminOrders/actions_2012/insurer_2012/marketplace_2012/12-01-005.pdf",
       "expiration": "current"
     },
     {
@@ -49,7 +46,6 @@
       "system": "https://directory.cms.gov/payer_identification_system/x12_payer_id",
       "value": "60054",
       "notes": "Electronic claims payer ID used for Aetna Life Insurance Company.",
-      "lookup_url": "https://cms.officeally.com/all-payers-list-2-0-claims-837",
       "expiration": "current"
     }
   ],
@@ -64,1188 +60,2158 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-015",
-          "plan_name": "Aetna Medicare Premier (PPO)"
+          "plan_name": "Aetna Medicare Premier (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Premier (PPO)",
+            "Aetna Medicare Premier"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-016",
-          "plan_name": "Aetna Medicare Premier (PPO)"
+          "plan_name": "Aetna Medicare Premier (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Premier (PPO)",
+            "Aetna Medicare Premier"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-020",
-          "plan_name": "Aetna Medicare Premier (PPO)"
+          "plan_name": "Aetna Medicare Premier (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Premier (PPO)",
+            "Aetna Medicare Premier"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-022",
-          "plan_name": "Aetna Medicare Enhanced (PPO)"
+          "plan_name": "Aetna Medicare Enhanced (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced (PPO)",
+            "Aetna Medicare Enhanced"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-033",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-037",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-055",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-077",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-081",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-084",
-          "plan_name": "Aetna Medicare Enhanced Plus (PPO)"
+          "plan_name": "Aetna Medicare Enhanced Plus (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced Plus (PPO)",
+            "Aetna Medicare Enhanced Plus"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-085",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-086",
-          "plan_name": "Aetna Medicare Signature Extra (PPO)"
+          "plan_name": "Aetna Medicare Signature Extra (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Extra (PPO)",
+            "Aetna Medicare Signature Extra"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-087",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-088",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-089",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-091",
-          "plan_name": "Aetna Medicare Elite (PPO)"
+          "plan_name": "Aetna Medicare Elite (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Elite (PPO)",
+            "Aetna Medicare Elite"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-095",
-          "plan_name": "Aetna Medicare Premier (PPO)"
+          "plan_name": "Aetna Medicare Premier (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Premier (PPO)",
+            "Aetna Medicare Premier"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-099",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-116",
-          "plan_name": "Aetna Medicare Signature Plus (PPO)"
+          "plan_name": "Aetna Medicare Signature Plus (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Plus (PPO)",
+            "Aetna Medicare Signature Plus"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-119",
-          "plan_name": "Aetna Medicare Elite (PPO)"
+          "plan_name": "Aetna Medicare Elite (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Elite (PPO)",
+            "Aetna Medicare Elite"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-120",
-          "plan_name": "Aetna Medicare Elite (PPO)"
+          "plan_name": "Aetna Medicare Elite (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Elite (PPO)",
+            "Aetna Medicare Elite"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-121",
-          "plan_name": "Aetna Medicare Enhanced (PPO)"
+          "plan_name": "Aetna Medicare Enhanced (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced (PPO)",
+            "Aetna Medicare Enhanced"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-122",
-          "plan_name": "Aetna Medicare Enhanced (PPO)"
+          "plan_name": "Aetna Medicare Enhanced (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced (PPO)",
+            "Aetna Medicare Enhanced"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-123",
-          "plan_name": "Aetna Medicare Elite (PPO)"
+          "plan_name": "Aetna Medicare Elite (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Elite (PPO)",
+            "Aetna Medicare Elite"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-124",
-          "plan_name": "Aetna Medicare Enhanced Extra (PPO)"
+          "plan_name": "Aetna Medicare Enhanced Extra (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced Extra (PPO)",
+            "Aetna Medicare Enhanced Extra"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-139",
-          "plan_name": "Aetna Medicare Enhanced (PPO)"
+          "plan_name": "Aetna Medicare Enhanced (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced (PPO)",
+            "Aetna Medicare Enhanced"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-140",
-          "plan_name": "Aetna Medicare Signature Giveback (PPO)"
+          "plan_name": "Aetna Medicare Signature Giveback (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Giveback (PPO)",
+            "Aetna Medicare Signature Giveback"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-141",
-          "plan_name": "Aetna Medicare Signature Giveback (PPO)"
+          "plan_name": "Aetna Medicare Signature Giveback (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Giveback (PPO)",
+            "Aetna Medicare Signature Giveback"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-150",
-          "plan_name": "Aetna Medicare Enhanced (PPO)"
+          "plan_name": "Aetna Medicare Enhanced (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced (PPO)",
+            "Aetna Medicare Enhanced"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-156",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-157",
-          "plan_name": "Aetna Medicare Elite (PPO)"
+          "plan_name": "Aetna Medicare Elite (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Elite (PPO)",
+            "Aetna Medicare Elite"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-159",
-          "plan_name": "Aetna Medicare Signature Extra (PPO)"
+          "plan_name": "Aetna Medicare Signature Extra (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Extra (PPO)",
+            "Aetna Medicare Signature Extra"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-160",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-169",
-          "plan_name": "Aetna Medicare Enhanced (PPO)"
+          "plan_name": "Aetna Medicare Enhanced (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced (PPO)",
+            "Aetna Medicare Enhanced"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-170",
-          "plan_name": "Aetna Medicare Signature Extra (PPO)"
+          "plan_name": "Aetna Medicare Signature Extra (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Extra (PPO)",
+            "Aetna Medicare Signature Extra"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-171",
-          "plan_name": "Aetna Medicare Signature Plus (PPO)"
+          "plan_name": "Aetna Medicare Signature Plus (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Plus (PPO)",
+            "Aetna Medicare Signature Plus"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-194",
-          "plan_name": "Aetna Medicare Enhanced (PPO)"
+          "plan_name": "Aetna Medicare Enhanced (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced (PPO)",
+            "Aetna Medicare Enhanced"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-195",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-207",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-211",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-214",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-215",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-218",
-          "plan_name": "Aetna Medicare Signature Plus (PPO)"
+          "plan_name": "Aetna Medicare Signature Plus (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Plus (PPO)",
+            "Aetna Medicare Signature Plus"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-219",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-223",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-224",
-          "plan_name": "Aetna Medicare Signature Plus (PPO)"
+          "plan_name": "Aetna Medicare Signature Plus (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Plus (PPO)",
+            "Aetna Medicare Signature Plus"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-227",
-          "plan_name": "Aetna Medicare Signature Plus (PPO)"
+          "plan_name": "Aetna Medicare Signature Plus (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Plus (PPO)",
+            "Aetna Medicare Signature Plus"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-229",
-          "plan_name": "Aetna Medicare Eagle Plus (PPO)"
+          "plan_name": "Aetna Medicare Eagle Plus (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Eagle Plus (PPO)",
+            "Aetna Medicare Eagle Plus"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-231",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-233",
-          "plan_name": "Aetna Medicare Signature Plus (PPO)"
+          "plan_name": "Aetna Medicare Signature Plus (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Plus (PPO)",
+            "Aetna Medicare Signature Plus"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-235",
-          "plan_name": "Aetna Medicare Eagle Plus Giveback (PPO)"
+          "plan_name": "Aetna Medicare Eagle Plus Giveback (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Eagle Plus Giveback (PPO)",
+            "Aetna Medicare Eagle Plus Giveback"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-236",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-241",
-          "plan_name": "Aetna Medicare Eagle Giveback (PPO)"
+          "plan_name": "Aetna Medicare Eagle Giveback (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Eagle Giveback (PPO)",
+            "Aetna Medicare Eagle Giveback"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-243",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-245",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-246",
-          "plan_name": "Aetna Medicare Elite (PPO)"
+          "plan_name": "Aetna Medicare Elite (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Elite (PPO)",
+            "Aetna Medicare Elite"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-249",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-250",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-251",
-          "plan_name": "Aetna Medicare Enhanced (PPO)"
+          "plan_name": "Aetna Medicare Enhanced (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced (PPO)",
+            "Aetna Medicare Enhanced"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-254",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-260",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-261",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-263",
-          "plan_name": "Aetna Medicare Signature Extra (PPO)"
+          "plan_name": "Aetna Medicare Signature Extra (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Extra (PPO)",
+            "Aetna Medicare Signature Extra"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-269",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-270",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-271",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-272",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-273",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-275",
-          "plan_name": "Aetna Medicare Prime Extra (PPO)"
+          "plan_name": "Aetna Medicare Prime Extra (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Prime Extra (PPO)",
+            "Aetna Medicare Prime Extra"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-277",
-          "plan_name": "Aetna Medicare Prime Giveback (PPO)"
+          "plan_name": "Aetna Medicare Prime Giveback (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Prime Giveback (PPO)",
+            "Aetna Medicare Prime Giveback"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-279",
-          "plan_name": "Aetna Medicare Eagle Giveback (PPO)"
+          "plan_name": "Aetna Medicare Eagle Giveback (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Eagle Giveback (PPO)",
+            "Aetna Medicare Eagle Giveback"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-285",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-286",
-          "plan_name": "Aetna Medicare Eagle (PPO)"
+          "plan_name": "Aetna Medicare Eagle (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Eagle (PPO)",
+            "Aetna Medicare Eagle"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-289",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-292",
-          "plan_name": "Aetna Medicare Enhanced (PPO)"
+          "plan_name": "Aetna Medicare Enhanced (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced (PPO)",
+            "Aetna Medicare Enhanced"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-296",
-          "plan_name": "Aetna Medicare Eagle Giveback (PPO)"
+          "plan_name": "Aetna Medicare Eagle Giveback (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Eagle Giveback (PPO)",
+            "Aetna Medicare Eagle Giveback"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-299",
-          "plan_name": "Aetna Medicare Elite (PPO)"
+          "plan_name": "Aetna Medicare Elite (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Elite (PPO)",
+            "Aetna Medicare Elite"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-302",
-          "plan_name": "Aetna Medicare Value Care (PPO)"
+          "plan_name": "Aetna Medicare Value Care (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Value Care (PPO)",
+            "Aetna Medicare Value Care"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-303",
-          "plan_name": "Aetna Medicare Elite (PPO)"
+          "plan_name": "Aetna Medicare Elite (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Elite (PPO)",
+            "Aetna Medicare Elite"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-305",
-          "plan_name": "Aetna Medicare Signature Extra (PPO)"
+          "plan_name": "Aetna Medicare Signature Extra (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Extra (PPO)",
+            "Aetna Medicare Signature Extra"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-306",
-          "plan_name": "Aetna Medicare Eagle Giveback (PPO)"
+          "plan_name": "Aetna Medicare Eagle Giveback (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Eagle Giveback (PPO)",
+            "Aetna Medicare Eagle Giveback"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-314",
-          "plan_name": "Aetna Medicare Duly Prime (PPO)"
+          "plan_name": "Aetna Medicare Duly Prime (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Duly Prime (PPO)",
+            "Aetna Medicare Duly Prime"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-319",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-320",
-          "plan_name": "Aetna Medicare Eagle Giveback (PPO)"
+          "plan_name": "Aetna Medicare Eagle Giveback (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Eagle Giveback (PPO)",
+            "Aetna Medicare Eagle Giveback"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-322",
-          "plan_name": "Aetna Medicare Eagle Giveback (PPO)"
+          "plan_name": "Aetna Medicare Eagle Giveback (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Eagle Giveback (PPO)",
+            "Aetna Medicare Eagle Giveback"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-323",
-          "plan_name": "Aetna Medicare Eagle Giveback (PPO)"
+          "plan_name": "Aetna Medicare Eagle Giveback (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Eagle Giveback (PPO)",
+            "Aetna Medicare Eagle Giveback"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-324",
-          "plan_name": "Aetna Medicare Eagle Plus (PPO)"
+          "plan_name": "Aetna Medicare Eagle Plus (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Eagle Plus (PPO)",
+            "Aetna Medicare Eagle Plus"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-326",
-          "plan_name": "Aetna Medicare Value Care (PPO)"
+          "plan_name": "Aetna Medicare Value Care (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Value Care (PPO)",
+            "Aetna Medicare Value Care"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-329",
-          "plan_name": "Aetna Medicare Eagle (PPO)"
+          "plan_name": "Aetna Medicare Eagle (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Eagle (PPO)",
+            "Aetna Medicare Eagle"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-330",
-          "plan_name": "Aetna Medicare Eagle (PPO)"
+          "plan_name": "Aetna Medicare Eagle (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Eagle (PPO)",
+            "Aetna Medicare Eagle"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-340",
-          "plan_name": "Aetna Medicare Premier (PPO)"
+          "plan_name": "Aetna Medicare Premier (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Premier (PPO)",
+            "Aetna Medicare Premier"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-348",
-          "plan_name": "Aetna Medicare Signature Giveback (PPO)"
+          "plan_name": "Aetna Medicare Signature Giveback (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Giveback (PPO)",
+            "Aetna Medicare Signature Giveback"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-351",
-          "plan_name": "Aetna Medicare Eagle (PPO)"
+          "plan_name": "Aetna Medicare Eagle (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Eagle (PPO)",
+            "Aetna Medicare Eagle"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-352",
-          "plan_name": "Aetna Medicare Elite Extra (PPO)"
+          "plan_name": "Aetna Medicare Elite Extra (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Elite Extra (PPO)",
+            "Aetna Medicare Elite Extra"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-353",
-          "plan_name": "Aetna Medicare Eagle (PPO)"
+          "plan_name": "Aetna Medicare Eagle (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Eagle (PPO)",
+            "Aetna Medicare Eagle"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-363",
-          "plan_name": "Aetna Medicare Elite (PPO)"
+          "plan_name": "Aetna Medicare Elite (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Elite (PPO)",
+            "Aetna Medicare Elite"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-364",
-          "plan_name": "Aetna Medicare Value Care (PPO)"
+          "plan_name": "Aetna Medicare Value Care (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Value Care (PPO)",
+            "Aetna Medicare Value Care"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-365",
-          "plan_name": "Aetna Medicare Signature Care (PPO)"
+          "plan_name": "Aetna Medicare Signature Care (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Care (PPO)",
+            "Aetna Medicare Signature Care"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-369",
-          "plan_name": "Aetna Medicare Eagle (PPO)"
+          "plan_name": "Aetna Medicare Eagle (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Eagle (PPO)",
+            "Aetna Medicare Eagle"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-375",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-378",
-          "plan_name": "Aetna Medicare Eagle (PPO)"
+          "plan_name": "Aetna Medicare Eagle (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Eagle (PPO)",
+            "Aetna Medicare Eagle"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-381",
-          "plan_name": "Aetna Medicare Premier (PPO)"
+          "plan_name": "Aetna Medicare Premier (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Premier (PPO)",
+            "Aetna Medicare Premier"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-388",
-          "plan_name": "Aetna Medicare Premier (PPO)"
+          "plan_name": "Aetna Medicare Premier (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Premier (PPO)",
+            "Aetna Medicare Premier"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-392",
-          "plan_name": "Aetna Medicare Prime (PPO)"
+          "plan_name": "Aetna Medicare Prime (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Prime (PPO)",
+            "Aetna Medicare Prime"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-395",
-          "plan_name": "Aetna Medicare Elite (PPO)"
+          "plan_name": "Aetna Medicare Elite (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Elite (PPO)",
+            "Aetna Medicare Elite"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-398",
-          "plan_name": "Aetna Medicare Full Dual (PPO D-SNP)"
+          "plan_name": "Aetna Medicare Full Dual (PPO D-SNP)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Full Dual (PPO D-SNP)",
+            "Aetna Medicare Full Dual"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-399",
-          "plan_name": "Aetna Medicare Value Care (PPO)"
+          "plan_name": "Aetna Medicare Value Care (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Value Care (PPO)",
+            "Aetna Medicare Value Care"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-400",
-          "plan_name": "Aetna Medicare Value Care (PPO)"
+          "plan_name": "Aetna Medicare Value Care (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Value Care (PPO)",
+            "Aetna Medicare Value Care"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-403",
-          "plan_name": "Aetna Medicare Signature Extra (PPO)"
+          "plan_name": "Aetna Medicare Signature Extra (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Extra (PPO)",
+            "Aetna Medicare Signature Extra"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-404",
-          "plan_name": "Aetna Medicare Signature Extra (PPO)"
+          "plan_name": "Aetna Medicare Signature Extra (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Extra (PPO)",
+            "Aetna Medicare Signature Extra"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-406",
-          "plan_name": "Aetna Medicare Signature Extra (PPO)"
+          "plan_name": "Aetna Medicare Signature Extra (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Extra (PPO)",
+            "Aetna Medicare Signature Extra"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-407",
-          "plan_name": "Aetna Medicare Signature Extra (PPO)"
+          "plan_name": "Aetna Medicare Signature Extra (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Extra (PPO)",
+            "Aetna Medicare Signature Extra"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-414",
-          "plan_name": "Aetna Medicare Value Plus (PPO)"
+          "plan_name": "Aetna Medicare Value Plus (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Value Plus (PPO)",
+            "Aetna Medicare Value Plus"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-419",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-422",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-425",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-431",
-          "plan_name": "Aetna Medicare Signature Extra (PPO)"
+          "plan_name": "Aetna Medicare Signature Extra (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Extra (PPO)",
+            "Aetna Medicare Signature Extra"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-432",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-433",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-434",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-435",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-439",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-443",
-          "plan_name": "Aetna Medicare Value Care (PPO)"
+          "plan_name": "Aetna Medicare Value Care (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Value Care (PPO)",
+            "Aetna Medicare Value Care"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-446",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-449",
-          "plan_name": "Aetna Medicare Value Plus (PPO)"
+          "plan_name": "Aetna Medicare Value Plus (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Value Plus (PPO)",
+            "Aetna Medicare Value Plus"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-450",
-          "plan_name": "Aetna Medicare Signature Extra (PPO)"
+          "plan_name": "Aetna Medicare Signature Extra (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Extra (PPO)",
+            "Aetna Medicare Signature Extra"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-451",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-457",
-          "plan_name": "Aetna Medicare Enhanced Extra (PPO)"
+          "plan_name": "Aetna Medicare Enhanced Extra (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced Extra (PPO)",
+            "Aetna Medicare Enhanced Extra"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-461",
-          "plan_name": "Aetna Medicare Longevity (PPO I-SNP)"
+          "plan_name": "Aetna Medicare Longevity (PPO I-SNP)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Longevity (PPO I-SNP)",
+            "Aetna Medicare Longevity"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-464",
-          "plan_name": "Aetna Medicare Dual Extra Care (PPO D-SNP)"
+          "plan_name": "Aetna Medicare Dual Extra Care (PPO D-SNP)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Dual Extra Care (PPO D-SNP)",
+            "Aetna Medicare Dual Extra Care"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-465",
-          "plan_name": "Aetna Medicare Dual Care (PPO D-SNP)"
+          "plan_name": "Aetna Medicare Dual Care (PPO D-SNP)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Dual Care (PPO D-SNP)",
+            "Aetna Medicare Dual Care"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-467",
-          "plan_name": "Aetna Medicare Value Plus (PPO)"
+          "plan_name": "Aetna Medicare Value Plus (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Value Plus (PPO)",
+            "Aetna Medicare Value Plus"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-470",
-          "plan_name": "Aetna Medicare Value Plus (PPO)"
+          "plan_name": "Aetna Medicare Value Plus (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Value Plus (PPO)",
+            "Aetna Medicare Value Plus"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-472",
-          "plan_name": "Aetna Medicare Dual Care (PPO D-SNP)"
+          "plan_name": "Aetna Medicare Dual Care (PPO D-SNP)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Dual Care (PPO D-SNP)",
+            "Aetna Medicare Dual Care"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-475",
-          "plan_name": "Aetna Medicare Signature Giveback (PPO)"
+          "plan_name": "Aetna Medicare Signature Giveback (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Giveback (PPO)",
+            "Aetna Medicare Signature Giveback"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-476",
-          "plan_name": "Aetna Medicare Signature Giveback (PPO)"
+          "plan_name": "Aetna Medicare Signature Giveback (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Giveback (PPO)",
+            "Aetna Medicare Signature Giveback"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-477",
-          "plan_name": "Aetna Medicare Elite Giveback (PPO)"
+          "plan_name": "Aetna Medicare Elite Giveback (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Elite Giveback (PPO)",
+            "Aetna Medicare Elite Giveback"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-478",
-          "plan_name": "Aetna Medicare Enhanced (PPO)"
+          "plan_name": "Aetna Medicare Enhanced (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced (PPO)",
+            "Aetna Medicare Enhanced"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-480",
-          "plan_name": "Aetna Medicare Eagle Giveback (PPO)"
+          "plan_name": "Aetna Medicare Eagle Giveback (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Eagle Giveback (PPO)",
+            "Aetna Medicare Eagle Giveback"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-482",
-          "plan_name": "Aetna Medicare Elite (PPO)"
+          "plan_name": "Aetna Medicare Elite (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Elite (PPO)",
+            "Aetna Medicare Elite"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-484",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-487",
-          "plan_name": "Aetna Medicare Eagle Giveback (PPO)"
+          "plan_name": "Aetna Medicare Eagle Giveback (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Eagle Giveback (PPO)",
+            "Aetna Medicare Eagle Giveback"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-488",
-          "plan_name": "Aetna Medicare Eagle Giveback (PPO)"
+          "plan_name": "Aetna Medicare Eagle Giveback (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Eagle Giveback (PPO)",
+            "Aetna Medicare Eagle Giveback"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-490",
-          "plan_name": "Aetna Medicare Value Plus (PPO)"
+          "plan_name": "Aetna Medicare Value Plus (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Value Plus (PPO)",
+            "Aetna Medicare Value Plus"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-492",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-493",
-          "plan_name": "Aetna Medicare Eagle (PPO)"
+          "plan_name": "Aetna Medicare Eagle (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Eagle (PPO)",
+            "Aetna Medicare Eagle"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-495",
-          "plan_name": "Aetna Medicare Premier (PPO)"
+          "plan_name": "Aetna Medicare Premier (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Premier (PPO)",
+            "Aetna Medicare Premier"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-496",
-          "plan_name": "Aetna Medicare Value Care (PPO)"
+          "plan_name": "Aetna Medicare Value Care (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Value Care (PPO)",
+            "Aetna Medicare Value Care"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-500",
-          "plan_name": "Aetna Medicare Signature Care (PPO)"
+          "plan_name": "Aetna Medicare Signature Care (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Care (PPO)",
+            "Aetna Medicare Signature Care"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-501",
-          "plan_name": "Aetna Medicare Enhanced (PPO)"
+          "plan_name": "Aetna Medicare Enhanced (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced (PPO)",
+            "Aetna Medicare Enhanced"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-502",
-          "plan_name": "Aetna Medicare Signature Care (PPO)"
+          "plan_name": "Aetna Medicare Signature Care (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Care (PPO)",
+            "Aetna Medicare Signature Care"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-504",
-          "plan_name": "Aetna Medicare Eagle Giveback (PPO)"
+          "plan_name": "Aetna Medicare Eagle Giveback (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Eagle Giveback (PPO)",
+            "Aetna Medicare Eagle Giveback"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-506",
-          "plan_name": "Aetna Medicare Longevity (PPO I-SNP)"
+          "plan_name": "Aetna Medicare Longevity (PPO I-SNP)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Longevity (PPO I-SNP)",
+            "Aetna Medicare Longevity"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-510",
-          "plan_name": "Aetna Medicare Enhanced Advantage (PPO)"
+          "plan_name": "Aetna Medicare Enhanced Advantage (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced Advantage (PPO)",
+            "Aetna Medicare Enhanced Advantage"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-512",
-          "plan_name": "Aetna Medicare Enhanced (PPO)"
+          "plan_name": "Aetna Medicare Enhanced (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced (PPO)",
+            "Aetna Medicare Enhanced"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-513",
-          "plan_name": "Aetna Medicare Enhanced Extra (PPO)"
+          "plan_name": "Aetna Medicare Enhanced Extra (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced Extra (PPO)",
+            "Aetna Medicare Enhanced Extra"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-520",
-          "plan_name": "Aetna Medicare Enhanced (PPO)"
+          "plan_name": "Aetna Medicare Enhanced (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced (PPO)",
+            "Aetna Medicare Enhanced"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-521",
-          "plan_name": "Aetna Medicare Elite (PPO)"
+          "plan_name": "Aetna Medicare Elite (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Elite (PPO)",
+            "Aetna Medicare Elite"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-522",
-          "plan_name": "Aetna Medicare Enhanced (PPO)"
+          "plan_name": "Aetna Medicare Enhanced (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced (PPO)",
+            "Aetna Medicare Enhanced"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-536",
-          "plan_name": "Aetna Medicare Elite (PPO)"
+          "plan_name": "Aetna Medicare Elite (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Elite (PPO)",
+            "Aetna Medicare Elite"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-537",
-          "plan_name": "Aetna Medicare Elite (PPO)"
+          "plan_name": "Aetna Medicare Elite (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Elite (PPO)",
+            "Aetna Medicare Elite"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-553",
-          "plan_name": "Aetna Medicare Signature Plus (PPO)"
+          "plan_name": "Aetna Medicare Signature Plus (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Plus (PPO)",
+            "Aetna Medicare Signature Plus"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-554",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-558",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-569",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-578",
-          "plan_name": "Aetna Medicare Enhanced (PPO)"
+          "plan_name": "Aetna Medicare Enhanced (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced (PPO)",
+            "Aetna Medicare Enhanced"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-580",
-          "plan_name": "Aetna Medicare Enhanced (PPO)"
+          "plan_name": "Aetna Medicare Enhanced (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced (PPO)",
+            "Aetna Medicare Enhanced"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-581",
-          "plan_name": "Aetna Medicare Enhanced (PPO)"
+          "plan_name": "Aetna Medicare Enhanced (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced (PPO)",
+            "Aetna Medicare Enhanced"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-586",
-          "plan_name": "Aetna Medicare Premier (PPO)"
+          "plan_name": "Aetna Medicare Premier (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Premier (PPO)",
+            "Aetna Medicare Premier"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-598",
-          "plan_name": "Aetna Medicare Elite Care (PPO)"
+          "plan_name": "Aetna Medicare Elite Care (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Elite Care (PPO)",
+            "Aetna Medicare Elite Care"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-607",
-          "plan_name": "Aetna Medicare Enhanced (PPO)"
+          "plan_name": "Aetna Medicare Enhanced (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced (PPO)",
+            "Aetna Medicare Enhanced"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-609",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-644",
-          "plan_name": "Aetna Medicare Signature Plus (PPO)"
+          "plan_name": "Aetna Medicare Signature Plus (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Plus (PPO)",
+            "Aetna Medicare Signature Plus"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-645",
-          "plan_name": "Aetna Medicare Signature Plus (PPO)"
+          "plan_name": "Aetna Medicare Signature Plus (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Plus (PPO)",
+            "Aetna Medicare Signature Plus"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-646",
-          "plan_name": "Aetna Medicare Value Plus (PPO)"
+          "plan_name": "Aetna Medicare Value Plus (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Value Plus (PPO)",
+            "Aetna Medicare Value Plus"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-801",
-          "plan_name": "Aetna Medicare Plan (PPO)"
+          "plan_name": "Aetna Medicare Plan (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Plan (PPO)",
+            "Aetna Medicare Plan"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-805",
-          "plan_name": "Aetna Medicare Part B Only Plan (PPO)"
+          "plan_name": "Aetna Medicare Part B Only Plan (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Part B Only Plan (PPO)",
+            "Aetna Medicare Part B Only Plan"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-649",
-          "plan_name": "Aetna Medicare Value Care (PPO)"
+          "plan_name": "Aetna Medicare Value Care (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Value Care (PPO)",
+            "Aetna Medicare Value Care"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-650",
-          "plan_name": "Aetna Medicare Elite (PPO)"
+          "plan_name": "Aetna Medicare Elite (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Elite (PPO)",
+            "Aetna Medicare Elite"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-652",
-          "plan_name": "Aetna Medicare Premier (PPO)"
+          "plan_name": "Aetna Medicare Premier (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Premier (PPO)",
+            "Aetna Medicare Premier"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-654",
-          "plan_name": "Aetna Medicare Signature Extra (PPO)"
+          "plan_name": "Aetna Medicare Signature Extra (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Extra (PPO)",
+            "Aetna Medicare Signature Extra"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-656",
-          "plan_name": "Aetna Medicare Enhanced (PPO)"
+          "plan_name": "Aetna Medicare Enhanced (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced (PPO)",
+            "Aetna Medicare Enhanced"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-661",
-          "plan_name": "Aetna Medicare Enhanced (PPO)"
+          "plan_name": "Aetna Medicare Enhanced (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced (PPO)",
+            "Aetna Medicare Enhanced"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-662",
-          "plan_name": "Aetna Medicare Enhanced (PPO)"
+          "plan_name": "Aetna Medicare Enhanced (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced (PPO)",
+            "Aetna Medicare Enhanced"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-664",
-          "plan_name": "Aetna Medicare Enhanced Extra (PPO)"
+          "plan_name": "Aetna Medicare Enhanced Extra (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced Extra (PPO)",
+            "Aetna Medicare Enhanced Extra"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-665",
-          "plan_name": "Aetna Medicare Enhanced (PPO)"
+          "plan_name": "Aetna Medicare Enhanced (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced (PPO)",
+            "Aetna Medicare Enhanced"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-669",
-          "plan_name": "Aetna Medicare Enhanced (PPO)"
+          "plan_name": "Aetna Medicare Enhanced (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced (PPO)",
+            "Aetna Medicare Enhanced"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-674",
-          "plan_name": "Aetna Medicare Elite Extra (PPO)"
+          "plan_name": "Aetna Medicare Elite Extra (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Elite Extra (PPO)",
+            "Aetna Medicare Elite Extra"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-676",
-          "plan_name": "Aetna Medicare Enhanced (PPO)"
+          "plan_name": "Aetna Medicare Enhanced (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced (PPO)",
+            "Aetna Medicare Enhanced"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-685",
-          "plan_name": "Aetna Medicare Enhanced (PPO)"
+          "plan_name": "Aetna Medicare Enhanced (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced (PPO)",
+            "Aetna Medicare Enhanced"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-686",
-          "plan_name": "Aetna Medicare Enhanced (PPO)"
+          "plan_name": "Aetna Medicare Enhanced (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced (PPO)",
+            "Aetna Medicare Enhanced"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-687",
-          "plan_name": "Aetna Medicare Enhanced (PPO)"
+          "plan_name": "Aetna Medicare Enhanced (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced (PPO)",
+            "Aetna Medicare Enhanced"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-688",
-          "plan_name": "Aetna Medicare Premier (PPO)"
+          "plan_name": "Aetna Medicare Premier (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Premier (PPO)",
+            "Aetna Medicare Premier"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-698",
-          "plan_name": "Aetna Medicare Elite Extra (PPO)"
+          "plan_name": "Aetna Medicare Elite Extra (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Elite Extra (PPO)",
+            "Aetna Medicare Elite Extra"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-699",
-          "plan_name": "Aetna Medicare Elite Extra (PPO)"
+          "plan_name": "Aetna Medicare Elite Extra (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Elite Extra (PPO)",
+            "Aetna Medicare Elite Extra"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-702",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-704",
-          "plan_name": "Aetna Medicare Signature Extra (PPO)"
+          "plan_name": "Aetna Medicare Signature Extra (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Extra (PPO)",
+            "Aetna Medicare Signature Extra"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-705",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-706",
-          "plan_name": "Aetna Medicare Premier (PPO)"
+          "plan_name": "Aetna Medicare Premier (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Premier (PPO)",
+            "Aetna Medicare Premier"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5521-710",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-001",
-          "plan_name": "Aetna Medicare Value Plus (PPO)"
+          "plan_name": "Aetna Medicare Value Plus (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Value Plus (PPO)",
+            "Aetna Medicare Value Plus"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-002",
-          "plan_name": "Aetna Medicare Advantra Premier (PPO)"
+          "plan_name": "Aetna Medicare Advantra Premier (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Advantra Premier (PPO)",
+            "Aetna Medicare Advantra Premier"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-004",
-          "plan_name": "Aetna Medicare Advantra Signature (PPO)"
+          "plan_name": "Aetna Medicare Advantra Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Advantra Signature (PPO)",
+            "Aetna Medicare Advantra Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-005",
-          "plan_name": "Aetna Medicare Value Plus (PPO)"
+          "plan_name": "Aetna Medicare Value Plus (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Value Plus (PPO)",
+            "Aetna Medicare Value Plus"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-013",
-          "plan_name": "Aetna Medicare Value Care (PPO)"
+          "plan_name": "Aetna Medicare Value Care (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Value Care (PPO)",
+            "Aetna Medicare Value Care"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-014",
-          "plan_name": "Aetna Medicare Advantra Premier (PPO)"
+          "plan_name": "Aetna Medicare Advantra Premier (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Advantra Premier (PPO)",
+            "Aetna Medicare Advantra Premier"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-017",
-          "plan_name": "Aetna Medicare Advantra Signature Giveback (PPO)"
+          "plan_name": "Aetna Medicare Advantra Signature Giveback (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Advantra Signature Giveback (PPO)",
+            "Aetna Medicare Advantra Signature Giveback"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-022",
-          "plan_name": "Aetna Medicare Signature Giveback (PPO)"
+          "plan_name": "Aetna Medicare Signature Giveback (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature Giveback (PPO)",
+            "Aetna Medicare Signature Giveback"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-028",
-          "plan_name": "Aetna Medicare Signature (PPO)"
+          "plan_name": "Aetna Medicare Signature (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (PPO)",
+            "Aetna Medicare Signature"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-029",
-          "plan_name": "Aetna Medicare PinnacleHealth Prime (PPO)"
+          "plan_name": "Aetna Medicare PinnacleHealth Prime (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare PinnacleHealth Prime (PPO)",
+            "Aetna Medicare PinnacleHealth Prime"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-032",
-          "plan_name": "Aetna Medicare Enhanced (PPO)"
+          "plan_name": "Aetna Medicare Enhanced (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Enhanced (PPO)",
+            "Aetna Medicare Enhanced"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-802",
-          "plan_name": "Aetna Medicare Plan (PPO)"
+          "plan_name": "Aetna Medicare Plan (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Plan (PPO)",
+            "Aetna Medicare Plan"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-803",
-          "plan_name": "Aetna Medicare Plan w/Rx (PPO)"
+          "plan_name": "Aetna Medicare Plan w/Rx (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Plan w/Rx (PPO)",
+            "Aetna Medicare Plan w/Rx"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-808",
-          "plan_name": "Aetna Medicare Part B Only Plan (PPO)"
+          "plan_name": "Aetna Medicare Part B Only Plan (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Part B Only Plan (PPO)",
+            "Aetna Medicare Part B Only Plan"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-809",
-          "plan_name": "Aetna Medicare Part B Only Plan w/Rx (PPO)"
+          "plan_name": "Aetna Medicare Part B Only Plan w/Rx (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Part B Only Plan w/Rx (PPO)",
+            "Aetna Medicare Part B Only Plan w/Rx"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-810",
-          "plan_name": "Aetna Medicare $100 Buy-Down Plan (PPO)"
+          "plan_name": "Aetna Medicare $100 Buy-Down Plan (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare $100 Buy-Down Plan (PPO)",
+            "Aetna Medicare $100 Buy-Down Plan"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-811",
-          "plan_name": "Aetna Medicare $100 Buy-Down Plan w/Rx (PPO)"
+          "plan_name": "Aetna Medicare $100 Buy-Down Plan w/Rx (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare $100 Buy-Down Plan w/Rx (PPO)",
+            "Aetna Medicare $100 Buy-Down Plan w/Rx"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-813",
-          "plan_name": "Aetna Medicare Part B Only $100 Buy-Down Plan (PPO)"
+          "plan_name": "Aetna Medicare Part B Only $100 Buy-Down Plan (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Part B Only $100 Buy-Down Plan (PPO)",
+            "Aetna Medicare Part B Only $100 Buy-Down Plan"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-814",
-          "plan_name": "Aetna Medicare Part B Only $100 Buy-Down Plan w/Rx (PPO)"
+          "plan_name": "Aetna Medicare Part B Only $100 Buy-Down Plan w/Rx (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Part B Only $100 Buy-Down Plan w/Rx (PPO)",
+            "Aetna Medicare Part B Only $100 Buy-Down Plan w/Rx"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-815",
-          "plan_name": "Aetna Medicare $75 Buy-Down Plan (PPO)"
+          "plan_name": "Aetna Medicare $75 Buy-Down Plan (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare $75 Buy-Down Plan (PPO)",
+            "Aetna Medicare $75 Buy-Down Plan"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-816",
-          "plan_name": "Aetna Medicare $75 Buy-Down Plan w/Rx (PPO)"
+          "plan_name": "Aetna Medicare $75 Buy-Down Plan w/Rx (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare $75 Buy-Down Plan w/Rx (PPO)",
+            "Aetna Medicare $75 Buy-Down Plan w/Rx"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-817",
-          "plan_name": "Aetna Medicare Part B Only $75 Buy-Down Plan (PPO)"
+          "plan_name": "Aetna Medicare Part B Only $75 Buy-Down Plan (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Part B Only $75 Buy-Down Plan (PPO)",
+            "Aetna Medicare Part B Only $75 Buy-Down Plan"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-818",
-          "plan_name": "Aetna Medicare Part B Only $75 Buy-Down Plan w/Rx (PPO)"
+          "plan_name": "Aetna Medicare Part B Only $75 Buy-Down Plan w/Rx (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Part B Only $75 Buy-Down Plan w/Rx (PPO)",
+            "Aetna Medicare Part B Only $75 Buy-Down Plan w/Rx"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-819",
-          "plan_name": "Aetna Medicare Plan w/Sig+ (PPO)"
+          "plan_name": "Aetna Medicare Plan w/Sig+ (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Plan w/Sig+ (PPO)",
+            "Aetna Medicare Plan w/Sig+"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-820",
-          "plan_name": "Aetna Medicare $25 Buy-Down Plan (PPO)"
+          "plan_name": "Aetna Medicare $25 Buy-Down Plan (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare $25 Buy-Down Plan (PPO)",
+            "Aetna Medicare $25 Buy-Down Plan"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-821",
-          "plan_name": "Aetna Medicare $25 Buy-Down Plan w/Rx (PPO)"
+          "plan_name": "Aetna Medicare $25 Buy-Down Plan w/Rx (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare $25 Buy-Down Plan w/Rx (PPO)",
+            "Aetna Medicare $25 Buy-Down Plan w/Rx"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-822",
-          "plan_name": "Aetna Medicare Part B Only $25 Buy-Down Plan w/Rx (PPO)"
+          "plan_name": "Aetna Medicare Part B Only $25 Buy-Down Plan w/Rx (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Part B Only $25 Buy-Down Plan w/Rx (PPO)",
+            "Aetna Medicare Part B Only $25 Buy-Down Plan w/Rx"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-823",
-          "plan_name": "Aetna Medicare $50 Buy-Down Plan (PPO)"
+          "plan_name": "Aetna Medicare $50 Buy-Down Plan (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare $50 Buy-Down Plan (PPO)",
+            "Aetna Medicare $50 Buy-Down Plan"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-824",
-          "plan_name": "Aetna Medicare Part B Only $50 Buy-Down Plan w/Rx (PPO)"
+          "plan_name": "Aetna Medicare Part B Only $50 Buy-Down Plan w/Rx (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Part B Only $50 Buy-Down Plan w/Rx (PPO)",
+            "Aetna Medicare Part B Only $50 Buy-Down Plan w/Rx"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-825",
-          "plan_name": "Aetna Medicare Part B Only $50 Buy-Down Plan (PPO)"
+          "plan_name": "Aetna Medicare Part B Only $50 Buy-Down Plan (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Part B Only $50 Buy-Down Plan (PPO)",
+            "Aetna Medicare Part B Only $50 Buy-Down Plan"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-827",
-          "plan_name": "Aetna Medicare Part B Only $25 Buy-Down Plan (PPO)"
+          "plan_name": "Aetna Medicare Part B Only $25 Buy-Down Plan (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Part B Only $25 Buy-Down Plan (PPO)",
+            "Aetna Medicare Part B Only $25 Buy-Down Plan"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-828",
-          "plan_name": "Aetna Medicare Plan w/Rx Flex (PPO)"
+          "plan_name": "Aetna Medicare Plan w/Rx Flex (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Plan w/Rx Flex (PPO)",
+            "Aetna Medicare Plan w/Rx Flex"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-832",
-          "plan_name": "Aetna Medicare Plan w/Rx CP (PPO)"
+          "plan_name": "Aetna Medicare Plan w/Rx CP (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Plan w/Rx CP (PPO)",
+            "Aetna Medicare Plan w/Rx CP"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-836",
-          "plan_name": "Aetna Medicare $50 Buy-Down Plan w/Rx (PPO)"
+          "plan_name": "Aetna Medicare $50 Buy-Down Plan w/Rx (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare $50 Buy-Down Plan w/Rx (PPO)",
+            "Aetna Medicare $50 Buy-Down Plan w/Rx"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-837",
-          "plan_name": "Aetna Medicare Plan (PPO)"
+          "plan_name": "Aetna Medicare Plan (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Plan (PPO)",
+            "Aetna Medicare Plan"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5522-838",
-          "plan_name": "Aetna Medicare Part B Only Plan (PPO)"
+          "plan_name": "Aetna Medicare Part B Only Plan (PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Part B Only Plan (PPO)",
+            "Aetna Medicare Part B Only Plan"
+          ]
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "R6694-006",
-          "plan_name": "Aetna Medicare Signature (Regional PPO)"
+          "plan_name": "Aetna Medicare Signature (Regional PPO)",
+          "plan_level_string_search_matches": [
+            "Aetna Medicare Signature (Regional PPO)",
+            "Aetna Medicare Signature"
+          ]
         }
+      ],
+      "plan_group_string_search_match": [
+        "Aetna Medicare Advantra Premier",
+        "Aetna Medicare Dual Care",
+        "Aetna Medicare Eagle",
+        "Aetna Medicare Eagle Giveback",
+        "Aetna Medicare Eagle Plus",
+        "Aetna Medicare Elite",
+        "Aetna Medicare Elite Extra",
+        "Aetna Medicare Enhanced",
+        "Aetna Medicare Enhanced Extra",
+        "Aetna Medicare Longevity",
+        "Aetna Medicare Part B Only Plan",
+        "Aetna Medicare Plan",
+        "Aetna Medicare Premier",
+        "Aetna Medicare Signature",
+        "Aetna Medicare Signature Care",
+        "Aetna Medicare Signature Extra",
+        "Aetna Medicare Signature Giveback",
+        "Aetna Medicare Signature Plus",
+        "Aetna Medicare Value Care",
+        "Aetna Medicare Value Plus"
       ],
       "plan_endpoints": {
         "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
