@@ -1,12 +1,12 @@
 # HUMANA HEALTH PLAN, INC.
 
-**FPI:** `1c9261fc-d3bf-5354-bf3e-73d25816d551`
+**FPI:** `0ed84fb5-7e56-5fa8-89cf-161369bb50d5`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [humana_health_plan_inc_1c9261fc-d3bf-5354-bf3e-73d25816d551.well_known_payer.json](../../payer_index_files/medicare_advantage/humana_health_plan_inc/humana_health_plan_inc_1c9261fc-d3bf-5354-bf3e-73d25816d551.well_known_payer.json)
+- [humana_health_plan_inc_0ed84fb5-7e56-5fa8-89cf-161369bb50d5.well_known_payer.json](../../payer_index_files/medicare_advantage/humana_health_plan_inc/humana_health_plan_inc_0ed84fb5-7e56-5fa8-89cf-161369bb50d5.well_known_payer.json)
 
 ## Plan Groups (1 group, 1 plan total)
 
@@ -22,5 +22,5 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 002 | Humana Community (HMO) |
+| H5178-002 | Humana Community (HMO) |
 

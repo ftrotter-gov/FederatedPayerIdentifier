@@ -1,12 +1,12 @@
 # HUMANA HEALTH PLAN OF OHIO, INC.
 
-**FPI:** `a2eb60a2-b0a4-5e5f-afc9-a03701b251c6`
+**FPI:** `21840c71-6646-5780-b2ee-2b62d7921268`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [humana_health_plan_of_ohio_inc_a2eb60a2-b0a4-5e5f-afc9-a03701b251c6.well_known_payer.json](../../payer_index_files/medicare_advantage/humana_health_plan_of_ohio_inc/humana_health_plan_of_ohio_inc_a2eb60a2-b0a4-5e5f-afc9-a03701b251c6.well_known_payer.json)
+- [humana_health_plan_of_ohio_inc_21840c71-6646-5780-b2ee-2b62d7921268.well_known_payer.json](../../payer_index_files/medicare_advantage/humana_health_plan_of_ohio_inc/humana_health_plan_of_ohio_inc_21840c71-6646-5780-b2ee-2b62d7921268.well_known_payer.json)
 
 ## Plan Groups (1 group, 3 plans total)
 
@@ -22,7 +22,7 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 001 | Humana Community (HMO) |
-| 002 | Humana Gold Plus H0292-002 (HMO) |
-| 003 | Humana Gold Plus H0292-003 (HMO) |
+| H0292-001 | Humana Community (HMO) |
+| H0292-002 | Humana Gold Plus H0292-002 (HMO) |
+| H0292-003 | Humana Gold Plus H0292-003 (HMO) |
 

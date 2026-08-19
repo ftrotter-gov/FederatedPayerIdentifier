@@ -1,12 +1,12 @@
 # DEVOTED HEALTH INSURANCE COMPANY OF KENTUCKY INC
 
-**FPI:** `0a80a855-0a9f-57bf-a7f8-08edef7040ad`
+**FPI:** `9fb82109-bf6e-5a6d-af57-6ba1435e7b85`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [devoted_health_insurance_company_of_kentucky_inc_0a80a855-0a9f-57bf-a7f8-08edef7040ad.well_known_payer.json](../../payer_index_files/medicare_advantage/devoted_health_insurance_company_of_kentucky_inc/devoted_health_insurance_company_of_kentucky_inc_0a80a855-0a9f-57bf-a7f8-08edef7040ad.well_known_payer.json)
+- [devoted_health_insurance_company_of_kentucky_inc_9fb82109-bf6e-5a6d-af57-6ba1435e7b85.well_known_payer.json](../../payer_index_files/medicare_advantage/devoted_health_insurance_company_of_kentucky_inc/devoted_health_insurance_company_of_kentucky_inc_9fb82109-bf6e-5a6d-af57-6ba1435e7b85.well_known_payer.json)
 
 ## Plan Groups (1 group, 6 plans total)
 
@@ -22,10 +22,10 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 001 | DEVOTED CHOICE 001 KY (PPO) |
-| 002 | DEVOTED CHOICE GIVEBACK 002 KY (PPO) |
-| 003 | DEVOTED CHOICE 003 KY (PPO) |
-| 004 | DEVOTED C-SNP CHOICE PLUS 004 KY (PPO C-SNP) |
-| 005 | DEVOTED C-SNP CHOICE PREMIUM 005 KY (PPO C-SNP) |
-| 006 | DEVOTED C-SNP CHOICE PREMIUM 006 KY (PPO C-SNP) |
+| H5718-001 | DEVOTED CHOICE 001 KY (PPO) |
+| H5718-002 | DEVOTED CHOICE GIVEBACK 002 KY (PPO) |
+| H5718-003 | DEVOTED CHOICE 003 KY (PPO) |
+| H5718-004 | DEVOTED C-SNP CHOICE PLUS 004 KY (PPO C-SNP) |
+| H5718-005 | DEVOTED C-SNP CHOICE PREMIUM 005 KY (PPO C-SNP) |
+| H5718-006 | DEVOTED C-SNP CHOICE PREMIUM 006 KY (PPO C-SNP) |
 

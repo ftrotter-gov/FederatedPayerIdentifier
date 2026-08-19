@@ -1,12 +1,12 @@
 # AETNA BETTER HEALTH OF OKLAHOMA INC.
 
-**FPI:** `adfda80f-cea0-5131-a2c3-b31fcd968440`
+**FPI:** `d6799be6-ce1d-58d0-b114-8d4711e7d92d`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [aetna_better_health_of_oklahoma_inc_adfda80f-cea0-5131-a2c3-b31fcd968440.well_known_payer.json](../../payer_index_files/medicare_advantage/aetna_better_health_of_oklahoma_inc/aetna_better_health_of_oklahoma_inc_adfda80f-cea0-5131-a2c3-b31fcd968440.well_known_payer.json)
+- [aetna_better_health_of_oklahoma_inc_d6799be6-ce1d-58d0-b114-8d4711e7d92d.well_known_payer.json](../../payer_index_files/medicare_advantage/aetna_better_health_of_oklahoma_inc/aetna_better_health_of_oklahoma_inc_d6799be6-ce1d-58d0-b114-8d4711e7d92d.well_known_payer.json)
 
 ## Plan Groups (1 group, 3 plans total)
 
@@ -22,7 +22,7 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 001 | Aetna Medicare Prime (HMO) |
-| 002 | Aetna Medicare Signature (HMO) |
-| 801 | Aetna Medicare Plan (HMO) |
+| H4835-001 | Aetna Medicare Prime (HMO) |
+| H4835-002 | Aetna Medicare Signature (HMO) |
+| H4835-801 | Aetna Medicare Plan (HMO) |
 

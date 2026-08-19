@@ -1,12 +1,12 @@
 # HEALTHSPRING OF FLORIDA, INC.
 
-**FPI:** `5fc615ed-be1b-5bf3-a4eb-27d4ff983317`
+**FPI:** `44d60086-fc07-5d51-a36e-16aee6a23975`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [healthspring_of_florida_inc_5fc615ed-be1b-5bf3-a4eb-27d4ff983317.well_known_payer.json](../../payer_index_files/medicare_advantage/healthspring_of_florida_inc/healthspring_of_florida_inc_5fc615ed-be1b-5bf3-a4eb-27d4ff983317.well_known_payer.json)
+- [healthspring_of_florida_inc_44d60086-fc07-5d51-a36e-16aee6a23975.well_known_payer.json](../../payer_index_files/medicare_advantage/healthspring_of_florida_inc/healthspring_of_florida_inc_44d60086-fc07-5d51-a36e-16aee6a23975.well_known_payer.json)
 
 ## Plan Groups (1 group, 17 plans total)
 
@@ -22,21 +22,21 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 004 | HealthSpring Courage (HMO) |
-| 013 | HealthSpring TotalCare (HMO D-SNP) |
-| 018 | HealthSpring Preferred (HMO) |
-| 024 | HealthSpring Preferred (HMO) |
-| 025 | HealthSpring TotalCare Plus (HMO D-SNP) |
-| 026 | HealthSpring Preferred Savings (HMO) |
-| 031 | HealthSpring TotalCare Plus (HMO D-SNP) |
-| 032 | HealthSpring TotalCare Plus (HMO D-SNP) |
-| 042 | HealthSpring TotalCare Plus (HMO D-SNP) |
-| 045 | HealthSpring TotalCare (HMO D-SNP) |
-| 046 | HealthSpring TotalCare (HMO D-SNP) |
-| 047 | HealthSpring TotalCare Plus (HMO D-SNP) |
-| 055 | HealthSpring TotalCare (HMO D-SNP) |
-| 056 | HealthSpring TotalCare (HMO D-SNP) |
-| 808 | HealthSpring Preferred (HMO) |
-| 059 | HealthSpring Preferred (HMO) |
-| 060 | HealthSpring Preferred (HMO) |
+| H5410-004 | HealthSpring Courage (HMO) |
+| H5410-013 | HealthSpring TotalCare (HMO D-SNP) |
+| H5410-018 | HealthSpring Preferred (HMO) |
+| H5410-024 | HealthSpring Preferred (HMO) |
+| H5410-025 | HealthSpring TotalCare Plus (HMO D-SNP) |
+| H5410-026 | HealthSpring Preferred Savings (HMO) |
+| H5410-031 | HealthSpring TotalCare Plus (HMO D-SNP) |
+| H5410-032 | HealthSpring TotalCare Plus (HMO D-SNP) |
+| H5410-042 | HealthSpring TotalCare Plus (HMO D-SNP) |
+| H5410-045 | HealthSpring TotalCare (HMO D-SNP) |
+| H5410-046 | HealthSpring TotalCare (HMO D-SNP) |
+| H5410-047 | HealthSpring TotalCare Plus (HMO D-SNP) |
+| H5410-055 | HealthSpring TotalCare (HMO D-SNP) |
+| H5410-056 | HealthSpring TotalCare (HMO D-SNP) |
+| H5410-808 | HealthSpring Preferred (HMO) |
+| H5410-059 | HealthSpring Preferred (HMO) |
+| H5410-060 | HealthSpring Preferred (HMO) |
 

@@ -1,12 +1,12 @@
 # AETNA HEALTH INC. (GA)
 
-**FPI:** `85e24fd8-c6cb-5445-b1b2-b2b334b2ecee`
+**FPI:** `7e79a360-e83c-516e-9b4c-7868d98042fa`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [aetna_health_inc_ga_85e24fd8-c6cb-5445-b1b2-b2b334b2ecee.well_known_payer.json](../../payer_index_files/medicare_advantage/aetna_health_inc_ga/aetna_health_inc_ga_85e24fd8-c6cb-5445-b1b2-b2b334b2ecee.well_known_payer.json)
+- [aetna_health_inc_ga_7e79a360-e83c-516e-9b4c-7868d98042fa.well_known_payer.json](../../payer_index_files/medicare_advantage/aetna_health_inc_ga/aetna_health_inc_ga_7e79a360-e83c-516e-9b4c-7868d98042fa.well_known_payer.json)
 
 ## Plan Groups (1 group, 10 plans total)
 
@@ -22,14 +22,14 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 005 | Aetna Medicare Signature (HMO) |
-| 801 | Aetna Medicare Plan (HMO) |
-| 802 | Aetna Medicare Plan w/Rx (HMO) |
-| 012 | Aetna Medicare Dual Extra Care (HMO D-SNP) |
-| 020 | Aetna Medicare Dual Care (HMO D-SNP) |
-| 022 | Aetna Medicare Signature Care (HMO) |
-| 023 | Aetna Medicare Signature (HMO) |
-| 809 | Aetna Medicare Plan (HMO) |
-| 024 | Aetna Medicare Full Dual Care (HMO D-SNP) |
-| 026 | Aetna Medicare Chronic Care (HMO C-SNP) |
+| H1109-005 | Aetna Medicare Signature (HMO) |
+| H1109-801 | Aetna Medicare Plan (HMO) |
+| H1109-802 | Aetna Medicare Plan w/Rx (HMO) |
+| H5302-012 | Aetna Medicare Dual Extra Care (HMO D-SNP) |
+| H5302-020 | Aetna Medicare Dual Care (HMO D-SNP) |
+| H5302-022 | Aetna Medicare Signature Care (HMO) |
+| H5302-023 | Aetna Medicare Signature (HMO) |
+| H5302-809 | Aetna Medicare Plan (HMO) |
+| H5302-024 | Aetna Medicare Full Dual Care (HMO D-SNP) |
+| H5302-026 | Aetna Medicare Chronic Care (HMO C-SNP) |
 

@@ -14,20 +14,19 @@ Scans all .well_known_payer.json files under payer_index_files/ and produces:
 
 KEY SEMANTICS (from WellKnownFileFormat.md and GeneratingFederatedPayerIdentifiers.md):
   - One FPI = one payer entity (the FPI is the authoritative identity).
-  - One payer (FPI) CAN and SHOULD appear in multiple files when it has plans
-    with different endpoint sets. Each file represents one distinct endpoint set
-    for that payer. This is the intended design.
-  - Plans that share the same endpoint set belong together in one plan_group
-    within the same file.
-  - "Same payer, different plans" = the same FPI appears in more than one file
-    (each file = a different endpoint configuration = a different plan group).
-  - If every FPI appears in exactly one file, it means all of that payer's plans
-    share identical endpoints — which is fine, just not the multi-file case.
+  - The intended design is ONE file per payer. When a payer has plans with
+    different endpoint sets, those plans are placed in separate plan_groups
+    WITHIN that single file — not in separate files.
+  - Plans that share the same endpoint set belong together in one plan_group.
+  - "Same payer, different plans" = the same FPI carrying multiple plan_groups
+    (each plan_group = a distinct endpoint configuration).
+  - The same FPI appearing in more than one file is an anomaly worth review,
+    not the intended design.
 
 This script reports:
-  1. FPIs that appear in more than one file (same payer, different endpoint sets)
+  1. FPIs that appear in more than one file (anomalies to review)
   2. Distribution of file counts per FPI
-  3. Total plan identifier counts per payer across all their files
+  3. Plan group (endpoint set) and plan identifier counts per payer
 
 Usage:
     python3 tools/same_payer_different_plans_report.py
@@ -46,6 +45,10 @@ PAYER_INDEX_ROOT = os.path.join(REPO_ROOT, "payer_index_files")
 REPORTS_DIR = os.path.join(REPO_ROOT, "reports")
 PER_FPI_DIR = os.path.join(REPORTS_DIR, "per_fpi")
 REPORT_PATH = os.path.join(REPORTS_DIR, "same_payer_different_plans_report.md")
+
+# The identifier system URL that marks the Federated Payer Identifier entry.
+# This matches the FPI entry in reference_data/current_payer_identification_systems.json.
+FPI_SYSTEM_URL = "https://directory.cms.gov/payer_identification_system/fpi"
 
 # Ensure output directories exist
 os.makedirs(PER_FPI_DIR, exist_ok=True)
@@ -72,18 +75,28 @@ all_files.sort()
 # ── Parse each file ───────────────────────────────────────────────────────────
 records = []
 errors = []
+redirect_records = []
 
 for filepath in all_files:
     try:
         with open(filepath) as fh:
             data = json.load(fh)
 
+        # Tombstone/redirect files: a retired filename that only points at the
+        # payer's current well-known file via a "new_file" key.
+        if "new_file" in data:
+            redirect_records.append({
+                "rel_file": os.path.relpath(filepath, PAYER_INDEX_ROOT),
+                "new_file": data["new_file"],
+            })
+            continue
+
         fpi = None
         other_ids = []
         for ident in data.get("identifier", []):
             system = ident.get("system", "")
             value = ident.get("value", "")
-            if "FederatedPayerIdentifier" in system:
+            if system == FPI_SYSTEM_URL:
                 fpi = value
             else:
                 label = system.split("/")[-1] if "/" in system else system
@@ -267,9 +280,10 @@ lines.append("")
 lines.append(
     "**Identity rule:** A payer is uniquely identified by its **Federated Payer Identifier (FPI)**. "
     "Directory names are for human convenience only. "
-    "The same FPI appearing in **multiple files** is the intended design when a payer has plans "
-    "with different endpoint sets — each file covers one distinct endpoint configuration. "
-    "Plans sharing the same endpoint set belong in the same `plan_group` within a single file."
+    "The intended design is **one file per payer**: plans with different endpoint sets are placed "
+    "in separate `plan_groups` within that single file, and plans sharing the same endpoint set "
+    "belong in the same `plan_group`. "
+    "The same FPI appearing in multiple files is an anomaly worth review."
 )
 lines.append("")
 
@@ -281,8 +295,9 @@ lines.append("|--------|------:|")
 lines.append(f"| Total payer files scanned | {len(all_files)} |")
 lines.append(f"| Files successfully parsed | {len(records)} |")
 lines.append(f"| Unique FPIs (distinct payers) | {len(by_fpi)} |")
-lines.append(f"| **FPIs appearing in multiple files** (same payer, different endpoint sets) | **{len(multi_file_payers)}** |")
+lines.append(f"| **FPIs appearing in multiple files** (anomalies to review) | **{len(multi_file_payers)}** |")
 lines.append(f"| FPIs appearing in exactly one file | {len(single_file_payers)} |")
+lines.append(f"| Redirect/tombstone files (retired FPIs pointing to new files) | {len(redirect_records)} |")
 lines.append(f"| Files missing an FPI | {len(no_fpi_records)} |")
 lines.append(f"| Parse errors | {len(errors)} |")
 lines.append("")
@@ -292,24 +307,25 @@ lines.append("## Distribution: Number of Files per FPI (Payer)")
 lines.append("")
 lines.append(
     "Each row shows how many payers (FPIs) have exactly N files. "
-    "Payers with N > 1 are the 'same payer, different plans' cases."
+    "Payers with N > 1 are anomalies: the intended design is one file per payer."
 )
 lines.append("")
 lines.append("| Files per FPI | # Payers | Notes |")
 lines.append("|-------------:|---------:|-------|")
 for n in sorted(file_count_dist.keys()):
     count = file_count_dist[n]
-    note = "same payer, different endpoint sets ← target cases" if n > 1 else "all plans share the same endpoint set"
+    note = "anomaly: same FPI split across files ← review these" if n > 1 else "expected: one file per payer"
     lines.append(f"| {n} | {count} | {note} |")
 lines.append("")
 
-# ── Multi-file payers: the core "same payer, different plans" report ───────────
-lines.append("## Same Payer, Different Plans (FPIs in Multiple Files)")
+# ── Multi-file payers: anomalies where one FPI spans multiple files ────────────
+lines.append("## FPIs in Multiple Files (Anomalies to Review)")
 lines.append("")
 if multi_file_payers:
     lines.append(
-        f"**{len(multi_file_payers)} payer(s)** have their plans split across multiple files, "
-        "each file covering a distinct endpoint configuration."
+        f"**{len(multi_file_payers)} payer(s)** have their plans split across multiple files. "
+        "The intended design is one file per payer, with distinct endpoint sets expressed "
+        "as separate plan_groups inside that file — these payers should be consolidated."
     )
     lines.append("")
     lines.append("| FPI | Payer Legal Name | # Files | # Endpoint Groups | # Plan IDs | Category |")
@@ -325,7 +341,7 @@ if multi_file_payers:
     lines.append("")
     for p in multi_file_payers:
         lines.append(f"#### {p['legal_name']}")
-        lines.append(f"**FPI:** `{p['fpi']}`  |  **{p['num_files']} files** (distinct endpoint sets)")
+        lines.append(f"**FPI:** `{p['fpi']}`  |  **{p['num_files']} files** (should be consolidated into one)")
         lines.append("")
         lines.append("| File | # Endpoint Groups | # Plan IDs |")
         lines.append("|------|----------------:|----------:|")
@@ -337,17 +353,18 @@ if multi_file_payers:
 else:
     lines.append(
         "_No FPI currently appears in more than one file. "
-        "This means every payer's plans currently share identical endpoint sets "
-        "(all plans are in a single file per payer). "
-        "This is valid — it simply means no payer yet has plans requiring distinct endpoint configurations._"
+        "This is the intended design: one file per payer, with distinct endpoint "
+        "sets expressed as separate plan_groups within that file._"
     )
     lines.append("")
 
 # ── Single-file payer summary ──────────────────────────────────────────────────
-lines.append("## Single-File Payers (All Plans Share One Endpoint Set)")
+lines.append("## Single-File Payers (Intended Design)")
 lines.append("")
 lines.append(
     f"These **{len(single_file_payers)} payers** each have exactly one file. "
+    "Payers with more than one endpoint group are the 'same payer, different plans' "
+    "cases, expressed as multiple plan_groups within their single file. "
     "Sorted by number of endpoint groups (descending), then plan count (descending)."
 )
 lines.append("")
@@ -361,6 +378,19 @@ for p in single_file_payers:
         f"| {plan_link} | {', '.join(p['categories'])} |"
     )
 lines.append("")
+
+# ── Redirect/tombstone files ───────────────────────────────────────────────────
+if redirect_records:
+    lines.append("## Redirect / Tombstone Files")
+    lines.append("")
+    lines.append(
+        "These files carry a retired FPI in their filename and contain only a "
+        "`new_file` pointer to the payer's current well-known file:"
+    )
+    lines.append("")
+    for r in redirect_records:
+        lines.append(f"- `{r['rel_file']}` → `{r['new_file']}`")
+    lines.append("")
 
 # ── Files missing FPI ──────────────────────────────────────────────────────────
 if no_fpi_records:
@@ -389,9 +419,10 @@ print(f"Main report:      {os.path.relpath(REPORT_PATH, REPO_ROOT)}")
 print(f"Per-FPI reports:  {os.path.relpath(PER_FPI_DIR, REPO_ROOT)}/ ({len(payer_summaries)} files)")
 print(f"  Files scanned:                          {len(all_files)}")
 print(f"  Unique FPIs (payers):                   {len(by_fpi)}")
-print(f"  FPIs in multiple files (same payer,")
-print(f"    different endpoint sets):              {len(multi_file_payers)}")
+print(f"  FPIs in multiple files (anomalies):     {len(multi_file_payers)}")
 print(f"  FPIs in exactly one file:               {len(single_file_payers)}")
+if redirect_records:
+    print(f"  Redirect/tombstone files:               {len(redirect_records)}")
 if no_fpi_records:
     print(f"  Files missing FPI:                      {len(no_fpi_records)}")
 if errors:

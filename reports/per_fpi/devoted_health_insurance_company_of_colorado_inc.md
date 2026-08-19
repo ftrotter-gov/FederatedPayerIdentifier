@@ -1,12 +1,12 @@
 # DEVOTED HEALTH INSURANCE COMPANY OF COLORADO INC
 
-**FPI:** `9c8b98ba-86f6-5919-bbae-7cf23303896a`
+**FPI:** `3671e72a-6ebe-5f33-af79-f1c822f2c0e2`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [devoted_health_insurance_company_of_colorado_inc_9c8b98ba-86f6-5919-bbae-7cf23303896a.well_known_payer.json](../../payer_index_files/medicare_advantage/devoted_health_insurance_company_of_colorado_inc/devoted_health_insurance_company_of_colorado_inc_9c8b98ba-86f6-5919-bbae-7cf23303896a.well_known_payer.json)
+- [devoted_health_insurance_company_of_colorado_inc_3671e72a-6ebe-5f33-af79-f1c822f2c0e2.well_known_payer.json](../../payer_index_files/medicare_advantage/devoted_health_insurance_company_of_colorado_inc/devoted_health_insurance_company_of_colorado_inc_3671e72a-6ebe-5f33-af79-f1c822f2c0e2.well_known_payer.json)
 
 ## Plan Groups (1 group, 5 plans total)
 
@@ -22,9 +22,9 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 001 | DEVOTED CHOICE 001 CO (PPO) |
-| 002 | DEVOTED CHOICE 002 CO (PPO) |
-| 003 | DEVOTED CHOICE GIVEBACK 003 CO (PPO) |
-| 004 | DEVOTED CHOICE MA ONLY 004 CO (PPO) |
-| 005 | DEVOTED CHOICE 005 CO (PPO) |
+| H4808-001 | DEVOTED CHOICE 001 CO (PPO) |
+| H4808-002 | DEVOTED CHOICE 002 CO (PPO) |
+| H4808-003 | DEVOTED CHOICE GIVEBACK 003 CO (PPO) |
+| H4808-004 | DEVOTED CHOICE MA ONLY 004 CO (PPO) |
+| H4808-005 | DEVOTED CHOICE 005 CO (PPO) |
 

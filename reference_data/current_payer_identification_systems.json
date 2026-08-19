@@ -27,7 +27,7 @@
       "assigning_authority": "CMS",
       "is_defunct": false,
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "description": "A Medicare Advantage, Part D, Cost Plan, PACE, or other CMS contract number. A unique alphanumeric identifier assigned by CMS to the organization operating the plan.",
+      "description": "A Medicare Advantage, Part D, Cost Plan, PACE, or other CMS contract number. A unique alphanumeric identifier assigned by CMS to the organization operating the plan. Contract numbers identify contracts, not payer legal entities: a single payer entity can hold many contracts, and contracts can move between entities. For that reason this project's seeding process never derives an FPI from a contract number. A payer may still elect one of its own contract numbers as a preeminent identifier and derive its FPI from it, but that is the payer's choice, never a default assumed by tooling in this repository.",
       "data_lookup_url": "https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-advantagepart-d-contract-and-enrollment-data",
       "is_current": true,
       "expired_date": null
@@ -214,7 +214,7 @@
       "assigning_authority": "Federated Payer Identifier Project",
       "is_defunct": false,
       "system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
-      "description": "A deterministic identifier derived from a payer's legal name, generated as implemented in tools/seed_medicare_advantage/seed.py. The legal name is first normalized by lowercasing it and removing every character that is not a-z or 0-9 (e.g. 'Aetna Health, Inc.' becomes 'aetnahealthinc'). A UUID version 5 is then formed by chaining from the DNS namespace: system_uuid = uuid5(NAMESPACE_DNS, 'PAYER_NAME.fhir'), and the final identifier = uuid5(system_uuid, normalized_legal_name). Payers whose legal names normalize to the same string are treated as the same payer entity and share a single identifier. We expect to retire this identifier, since it will have frequent collisions and is not a standard identifier system.",
+      "description": "A deterministic identifier derived from a payer's legal name, generated as implemented in tools/FPI_maker_cli.py (the single home of all FPI hashing logic in this project). The legal name is always normalized inside that tool before hashing, by lowercasing it and removing every character that is not a-z or 0-9 (e.g. 'Aetna Health, Inc.' becomes 'aetnahealthinc'). A UUID version 5 is then formed by chaining from the DNS namespace: system_uuid = uuid5(NAMESPACE_DNS, 'LEGAL_NAME_HASH.fhir'), and the final identifier = uuid5(system_uuid, normalized_legal_name). Payers whose legal names normalize to the same string are treated as the same payer entity and share a single identifier. This is a temporary hack used only for seeding, because the legal name is the only payer attribute reliably available to CMS at seed time. It will have collisions and is not a standard identifier system; payers are expected to replace it with an FPI derived from a real identifier system (e.g. NAIC_ID, HIOS_ID, LEI, or a state-prefixed STATE_DOI_ID).",
       "data_lookup_url": null,
       "is_current": true,
       "expired_date": null
@@ -226,6 +226,17 @@
       "is_defunct": false,
       "system": "https://directory.cms.gov/payer_identification_system/x12_payer_id",
       "description": "A generic X12 electronic transaction routing payer identifier, used when the specific clearinghouse ecosystem that assigned or maintains the identifier is unknown or when the same identifier is used consistently across clearinghouses.",
+      "data_lookup_url": null,
+      "is_current": true,
+      "expired_date": null
+    },
+    {
+      "id": "PAYER_NAME",
+      "acronym": "Payer Legal Name",
+      "assigning_authority": "State corporate registries",
+      "is_defunct": false,
+      "system": "https://directory.cms.gov/payer_identification_system/payer_name",
+      "description": "The payer's actual legal name used directly as an identifier value, without any hashing or uuid transformation (e.g. 'Aetna Health Inc.'). This is a separate system from LEGAL_NAME_HASH and does not compete with it: PAYER_NAME carries the human-readable name itself, while LEGAL_NAME_HASH carries a uuid derived from a normalized form of that name. When a hash of the legal name is needed as an FPI source, LEGAL_NAME_HASH must be used, never PAYER_NAME.",
       "data_lookup_url": null,
       "is_current": true,
       "expired_date": null

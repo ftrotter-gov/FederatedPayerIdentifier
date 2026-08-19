@@ -1,12 +1,12 @@
 # LOCAL INITIATIVE HEALTH AUTHORITY FOR LA COUNTY
 
-**FPI:** `5b7573d8-88e4-5ff2-88db-6a90aba8d7c5`
+**FPI:** `a641782e-f45f-576a-b772-d8ac01c18216`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [local_initiative_health_authority_for_la_county_5b7573d8-88e4-5ff2-88db-6a90aba8d7c5.well_known_payer.json](../../payer_index_files/medicare_advantage/local_initiative_health_authority_for_la_county/local_initiative_health_authority_for_la_county_5b7573d8-88e4-5ff2-88db-6a90aba8d7c5.well_known_payer.json)
+- [local_initiative_health_authority_for_la_county_a641782e-f45f-576a-b772-d8ac01c18216.well_known_payer.json](../../payer_index_files/medicare_advantage/local_initiative_health_authority_for_la_county/local_initiative_health_authority_for_la_county_a641782e-f45f-576a-b772-d8ac01c18216.well_known_payer.json)
 
 ## Plan Groups (1 group, 1 plan total)
 
@@ -22,5 +22,5 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 001 | L.A. Care Medicare Plus (HMO D-SNP) |
+| H1224-001 | L.A. Care Medicare Plus (HMO D-SNP) |
 

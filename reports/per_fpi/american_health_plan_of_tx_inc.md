@@ -1,12 +1,12 @@
 # AMERICAN HEALTH PLAN OF TX, INC.
 
-**FPI:** `b7ed99dd-9468-5436-a85c-d3270427b4e5`
+**FPI:** `1abb9417-7a53-514b-9514-e694db6de753`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [american_health_plan_of_tx_inc_b7ed99dd-9468-5436-a85c-d3270427b4e5.well_known_payer.json](../../payer_index_files/medicare_advantage/american_health_plan_of_tx_inc/american_health_plan_of_tx_inc_b7ed99dd-9468-5436-a85c-d3270427b4e5.well_known_payer.json)
+- [american_health_plan_of_tx_inc_1abb9417-7a53-514b-9514-e694db6de753.well_known_payer.json](../../payer_index_files/medicare_advantage/american_health_plan_of_tx_inc/american_health_plan_of_tx_inc_1abb9417-7a53-514b-9514-e694db6de753.well_known_payer.json)
 
 ## Plan Groups (1 group, 1 plan total)
 
@@ -22,5 +22,5 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 001 | American Health Advantage of Texas (HMO I-SNP) |
+| H6891-001 | American Health Advantage of Texas (HMO I-SNP) |
 

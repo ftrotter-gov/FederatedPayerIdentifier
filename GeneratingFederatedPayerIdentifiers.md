@@ -56,6 +56,8 @@ Examples include:
 
 > Only approved Payer Identifier System IDs may be used to generate UUIDv5 values.
 
+> **Caution on `CMS_CONTRACT_ID`:** contract numbers identify *contracts*, not payer legal entities. One payer can hold many contracts, and contracts can move between payers. This repository's automated seeding therefore never derives an FPI from a contract number (it uses `LEGAL_NAME_HASH` instead — see below). A payer may still *elect* one of its own contract numbers as its preeminent identifier and derive its FPI from it, but that is the payer's choice, never a tooling default.
+
 The list of approved Payer Identifier Systems is in [reference_data/current_payer_identification_systems.json](reference_data/current_payer_identification_systems.json)
 If you would like to add a new approved Payer Identifier System, please do a pull request to add to this file!
 
@@ -73,6 +75,19 @@ OH-12345   (Ohio DOI number 12345)
 ```
 
 The FPI Maker CLI prompts for the state code automatically for these systems, and the `generate_fpi` library function rejects unprefixed state-level values.
+
+### The `LEGAL_NAME_HASH` system requires name normalization
+
+The `LEGAL_NAME_HASH` system hashes a payer's legal name. It exists as a temporary seeding hack: the legal name is the only payer attribute reliably available to CMS at seed time, so the Medicare Advantage seeder derives its initial FPIs from it. Payers are expected to replace these seeded FPIs with FPIs derived from real identifier systems (`NAIC_ID`, `HIOS_ID`, `LEI`, a state-prefixed `STATE_DOI_ID`, etc.).
+
+Before hashing, the legal name is always normalized:
+
+```text
+lowercase the name, then remove every character that is not a-z or 0-9
+"AETNA HEALTH, INC."  →  "aetnahealthinc"
+```
+
+This normalization is implemented once, inside `tools/FPI_maker_cli.py` (`normalize_legal_name`), and `generate_fpi` applies it automatically whenever `system_id == "LEGAL_NAME_HASH"` — so passing the raw legal name and the pre-normalized name produce the same FPI. Callers must never reimplement this normalization.
 
 ## 2. Generate the UUID
 
@@ -104,6 +119,12 @@ print(fpi)
 ```
 
 The `.fhir` suffix is appended to the system ID string before hashing in step 1 — this is a deliberate namespacing convention to avoid collisions with other uses of `NAMESPACE_DNS`.
+
+All FPI uuid generation logic in this repository lives in exactly one place: `tools/FPI_maker_cli.py`. Other tools (including the Medicare Advantage seeder) import from it rather than reimplementing the hashing. Its correctness is validated by the test suite in `tools/tests/test_FPI_maker_cli.py`:
+
+```bash
+python3 tools/tests/test_FPI_maker_cli.py
+```
 
 UUIDv5 is deterministic:
 
@@ -176,6 +197,9 @@ The National Provider and Payer Directory serves as the authoritative registry b
 - UUIDv5 generation uses a **two-step chained process**: first derive a `system_namespace` via `uuid5(NAMESPACE_DNS, "<SYSTEM_ID>.fhir")`, then compute the FPI via `uuid5(system_namespace, "<payer_id_value>")`.
 - Use **`python tools/FPI_maker_cli.py`** to generate FPIs correctly — it handles the two-step chaining automatically, and loads the approved identifier systems at runtime from `reference_data/current_payer_identification_systems.json`.
 - UUIDv5 generation requires an approved **Identifier System ID** and the payer's identifier value.
+- **All FPI hashing logic lives in one place** — `tools/FPI_maker_cli.py` — and is validated by `tools/tests/test_FPI_maker_cli.py`. Never reimplement it.
+- **`LEGAL_NAME_HASH` values are always normalized** (lowercased, all non a-z0-9 characters removed) inside `FPI_maker_cli` before hashing. It is a temporary seeding hack; payers should replace name-hash FPIs with FPIs from real identifier systems.
+- **Never default to `CMS_CONTRACT_ID` as an FPI source** — contract numbers identify contracts, not payer entities. A payer may elect a contract number as its preeminent identifier, but tooling never assumes it.
 - **State-level identifier values** (e.g. `STATE_DOI_ID`, `STATE_MCO_ID`) must be prefixed with the two-letter USPS state code and a hyphen (e.g. `TX-68775`) before hashing, to prevent collisions between states.
 - The **FPI itself is listed** in the payer identifier systems file so it can be crosswalked like any other identifier, but it may not be used as an FPI source namespace — you cannot derive an FPI from another FPI.
 - Use **UUIDv1, UUIDv4, UUIDv6, UUIDv7, or UUIDv8** when creating new payer identifiers with no existing approved identifier provider.

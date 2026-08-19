@@ -1,12 +1,12 @@
 # AETNA BETTER HEALTH OF MICHIGAN INC.
 
-**FPI:** `4e1f9c9a-4a2d-548e-8e29-2715878fd2b0`
+**FPI:** `bb51ea7b-fd3f-5ff5-beea-b98af7e62fde`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [aetna_better_health_of_michigan_inc_4e1f9c9a-4a2d-548e-8e29-2715878fd2b0.well_known_payer.json](../../payer_index_files/medicare_advantage/aetna_better_health_of_michigan_inc/aetna_better_health_of_michigan_inc_4e1f9c9a-4a2d-548e-8e29-2715878fd2b0.well_known_payer.json)
+- [aetna_better_health_of_michigan_inc_bb51ea7b-fd3f-5ff5-beea-b98af7e62fde.well_known_payer.json](../../payer_index_files/medicare_advantage/aetna_better_health_of_michigan_inc/aetna_better_health_of_michigan_inc_bb51ea7b-fd3f-5ff5-beea-b98af7e62fde.well_known_payer.json)
 
 ## Plan Groups (1 group, 5 plans total)
 
@@ -22,9 +22,9 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 003 | Aetna Medicare Elite (HMO-POS) |
-| 005 | Aetna Medicare Elite (HMO-POS) |
-| 801 | Aetna Medicare Plan (HMO) |
-| 802 | Aetna Medicare Plan w/Rx (HMO) |
-| 001 | Aetna Medicare HIDE (HMO D-SNP) |
+| H2056-003 | Aetna Medicare Elite (HMO-POS) |
+| H2056-005 | Aetna Medicare Elite (HMO-POS) |
+| H2056-801 | Aetna Medicare Plan (HMO) |
+| H2056-802 | Aetna Medicare Plan w/Rx (HMO) |
+| H9314-001 | Aetna Medicare HIDE (HMO D-SNP) |
 

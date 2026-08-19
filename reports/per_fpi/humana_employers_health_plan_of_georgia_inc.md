@@ -1,12 +1,12 @@
 # HUMANA EMPLOYERS HEALTH PLAN OF GEORGIA, INC.
 
-**FPI:** `b94f5c6b-d1c3-5620-8063-34b357d62be6`
+**FPI:** `73f59c79-a1a6-5339-9720-e0c4981b0884`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [humana_employers_health_plan_of_georgia_inc_b94f5c6b-d1c3-5620-8063-34b357d62be6.well_known_payer.json](../../payer_index_files/medicare_advantage/humana_employers_health_plan_of_georgia_inc/humana_employers_health_plan_of_georgia_inc_b94f5c6b-d1c3-5620-8063-34b357d62be6.well_known_payer.json)
+- [humana_employers_health_plan_of_georgia_inc_73f59c79-a1a6-5339-9720-e0c4981b0884.well_known_payer.json](../../payer_index_files/medicare_advantage/humana_employers_health_plan_of_georgia_inc/humana_employers_health_plan_of_georgia_inc_73f59c79-a1a6-5339-9720-e0c4981b0884.well_known_payer.json)
 
 ## Plan Groups (1 group, 11 plans total)
 
@@ -22,15 +22,15 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 003 | Humana Gold Plus SNP-DE H4141-003 (HMO D-SNP) |
-| 015 | Humana Gold Plus H4141-015 (HMO) |
-| 017 | Humana Gold Plus H4141-017 (HMO) |
-| 022 | Humana Gold Plus Giveback H4141-022 (HMO) |
-| 023 | Humana Gold Plus H4141-023 (HMO) |
-| 801 | Humana Medicare Employer (HMO) |
-| 802 | Humana Medicare Employer (HMO) |
-| 805 | Humana Medicare Employer (HMO) |
-| 806 | Humana Medicare Employer (HMO) |
-| 024 | Humana Gold Plus SNP-DE H4141-024 (HMO D-SNP) |
-| 025 | Humana Gold Plus SNP-DE H4141-025 (HMO D-SNP) |
+| H4141-003 | Humana Gold Plus SNP-DE H4141-003 (HMO D-SNP) |
+| H4141-015 | Humana Gold Plus H4141-015 (HMO) |
+| H4141-017 | Humana Gold Plus H4141-017 (HMO) |
+| H4141-022 | Humana Gold Plus Giveback H4141-022 (HMO) |
+| H4141-023 | Humana Gold Plus H4141-023 (HMO) |
+| H4141-801 | Humana Medicare Employer (HMO) |
+| H4141-802 | Humana Medicare Employer (HMO) |
+| H4141-805 | Humana Medicare Employer (HMO) |
+| H4141-806 | Humana Medicare Employer (HMO) |
+| H4141-024 | Humana Gold Plus SNP-DE H4141-024 (HMO D-SNP) |
+| H4141-025 | Humana Gold Plus SNP-DE H4141-025 (HMO D-SNP) |
 

@@ -1,7 +1,7 @@
 Payer Plan well-known Endpoint JSON format
 ==================
 
-What follows is a FHIR-ish well-known file format for handling well-known data for payers. 
+What follows is a FHIR-ish well-known file format for handling well-known data for payers.
 It is inspired [from a file suggested by the Davinci Hrex Project](https://build.fhir.org/ig/HL7/davinci-ehrx/en/Binary-Wellknown.html), and has been forked and extended to serve the needs of the NDH/NPD use-case.
 
 This page will use a javascript block to use javascript comments to markup what the JSON example for this well-known file;
@@ -16,6 +16,11 @@ well_known_payer_json = {
 
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition", // a FHIR-ish resourcetype not sure we want to keep this...
 
+  //is_seeded marks whether this file is still pure output of an automated seeding process.
+  //the seeders set this to true. The moment a human (or any curation tool) edits the file,
+  //it must be set to false, and from then on the seeders will never overwrite anything in
+  //this payer's directory.
+  "is_seeded": false,
 
   //the first block is all about the payer itself. 
   "payerLegalName": "Example Payer Legal Name, LLC",
@@ -32,28 +37,46 @@ well_known_payer_json = {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
             //the following must be a uuid of some kind.
             //it is recommended that it be a uuid generated from an existing and/or reliable payer identification system
-            //there will be a discussion on how to do this later in this readme!
-            //but it can be any string that is validates as a uuid. Because of this later optionality, there will be a first-come-first-serve policy on valid uuid values here.
-            //this particular uuid is generated from the CMS Medicare Advantage contract ID below.
-      "value": "5e4c4d18-0725-58ce-9477-d8482ea11016",
+            //(see GeneratingFederatedPayerIdentifiers.md and tools/FPI_maker_cli.py, which is the one and only
+            //home of FPI uuid generation logic in this project).
+            //but it can be any string that validates as a uuid. Because of this later optionality, there will be a first-come-first-serve policy on valid uuid values here.
+            //this particular uuid is generated from the (fictional) NAIC company code below:
+            //  system_uuid = uuid5(NAMESPACE_DNS, "NAIC_ID.fhir")
+            //  fpi         = uuid5(system_uuid, "12345")
+      "value": "13e068e1-cd54-5baa-b7e3-79761afe7afc",
             //fpi_source_system records which payer identifier system was used to generate the FPI uuid.
             //it must be one of the "system" urls from reference_data/current_payer_identification_systems.json
             //(but never the fpi system itself — you cannot derive an FPI from another FPI).
-      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+            //NOTE: do not default to CMS contract numbers here. Contract numbers identify contracts,
+            //not payer legal entities — one payer can hold many contracts, and contracts can move
+            //between payers. This repo's seeding process derives seeded FPIs from the LEGAL_NAME_HASH
+            //system instead (a temporary hack — the legal name is the only payer attribute reliably
+            //available to CMS at seed time). Payers replacing a seeded FPI should prefer entity-level
+            //systems such as NAIC_ID, HIOS_ID, LEI, EIN, or a state-prefixed STATE_DOI_ID.
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/naic_id",
             //fpi_source_value records the identifier value (within fpi_source_system) that was hashed to produce the FPI uuid.
             //for state-level systems (e.g. STATE_DOI_ID) this value must carry the two-letter state prefix, e.g. "TX-68775".
-      "fpi_source_value": "H0028"
+      "fpi_source_value": "12345"
     },
 
-    //after this, please list all of the payer identifiers for your company that exist in other payer identifier systems
-    //soon we will have a FHIR page that lists out all of these available systems, but you can look here for the current enumeration list: 
-    // https://github.com/ftrotter-gov/FaCeT/blob/main/payers/payer_identifier_types.json
-    //the idea is that any existing system (i.e. Medicare Advantage Payer numbers, HIOS, HPID, GLEIF, etc )
-    //can be used here. 
+    //after this, please list all of the payer identifiers for your company that exist in other payer identifier systems.
+    //the "system" url must come from reference_data/current_payer_identification_systems.json —
+    //that file is the current enumeration of the available payer identifier systems
+    //(i.e. NAIC company codes, CMS contract IDs, HIOS, EIN, LEI, X12 payer IDs, etc).
+    //each entry may optionally carry "notes" (free text), "lookup_url" (a url where the
+    //identifier can be verified), and "expiration" ("current" or an expiration date) fields.
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePayerIdentifer",
-      "value": "12345"
-    }    
+      "system": "https://directory.cms.gov/payer_identification_system/naic_id",
+      "value": "12345",
+      "notes": "NAIC company code for Example Payer Legal Name, LLC.",
+      "expiration": "current"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1234",
+      "notes": "Medicare Advantage contract held by this payer. Contract IDs are listed here as crosswalk identifiers only; they are not FPI sources.",
+      "expiration": "current"
+    }
   ],
 
   //payer_level_string_search_matches is scoped to the payer itself (not any specific plan or endpoint set).
@@ -68,16 +91,19 @@ well_known_payer_json = {
   ],
 
 
-    //one payer legal entity can have multiple plans. 
+    //one payer legal entity can have multiple plans, but only ONE well-known file.
     //from the perspective of this file, a given set of plans belongs in the same plan group, if they have exactly the same set of endpoints links.
-    //different set of endpoint links, mean different plan_group. 
+    //different set of endpoint links, mean different plan_group — as another entry in this same plan_groups array,
+    //never as a separate well-known file.
 
   "plan_groups": [{
     // in this example file, we have several Medicare Plan IDs that makeup the plans in this plan_group.
+    // the medicare plan system url shown here is the one used by the seeded files: the value is the
+    // CMS contract ID plus the plan segment, joined by a hyphen (e.g. "H1234-432").
     "plan_identifiers": [
         {
-            "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-            "value": "432",
+            "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+            "value": "H1234-432",
             "plan_name": "This Very Good Plan",
             "plan_website": "https://example.com/plan_432", //TODO should this go here or down below? Both for now. 
             //plan_level_string_search_matches is scoped to this specific plan identifier entry.
@@ -92,8 +118,8 @@ well_known_payer_json = {
             ]
         },
         {
-            "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-            "value": "433",
+            "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+            "value": "H1234-433",
             "plan_name": "This Very Good Plan Preferred",
             "plan_website": "https://example.com/plan_433",
             //each plan identifier carries its own plan_level_string_search_matches list.
@@ -107,8 +133,8 @@ well_known_payer_json = {
             ]
         },
         {
-            "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-            "value": "434",
+            "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+            "value": "H1234-434",
             "plan_name": "This Very Good Plan Excel",
             "plan_website": "https://example.com/plan_434",
             //likewise, plan 434 has its own distinct (though possibly overlapping) list of strings.
@@ -122,22 +148,28 @@ well_known_payer_json = {
         ],
 
 
-        //this is the place where we reconcile all of the "on the insurance" card information that should route to these 
-        //endpoints. plan_group_and_payer_level_string_search_matches is scoped to the entire plan_group
-        //and/or the payer as a whole — meaning these strings apply across all plans in this group
-        //and across all endpoints defined below.
-        "plan_group_and_payer_level_string_search_matches": [
+        //this is the place where we reconcile all of the "on the insurance card" information that should route to these 
+        //endpoints. plan_group_string_search_match is scoped to the entire plan_group — these are the
+        //strings that are shared by every plan in this group (they apply across all plans in this group
+        //and across all endpoints defined below). Strings that identify the payer as a whole belong in
+        //payer_level_string_search_matches above instead.
+        "plan_group_string_search_match": [
             "Example payer name",
             "Example payer name example state name"
         ],
     
-        //There is only one set of plan endpoints 
+        //There is only one set of plan endpoints per plan_group.
+        //Endpoint value semantics:
+        //  - a url string  = the endpoint exists at that url.
+        //  - null          = the payer affirmatively states that this endpoint does NOT exist
+        //                    (verified-absent — do not go looking for it).
+        //  - key absent    = unknown; nobody has yet determined whether this endpoint exists.
         "plan_endpoints": {
 
 
             //endpoints to support prior authorization
             "davinci_crd_hook_endpoint#1.1": "http://example.org/foo/bar/crd",
-            "davinci_crd_hook_endpoint#1.2": "http://example.org/foo/bar/crdnew",
+            "davinci_crd_hook_endpoint#1.2": null, //this payer has verified that no CRD 1.2 endpoint exists.
             "davinci_dtr_qpackage_endpoint#1.2": "http://example.org/foo/bar/dtr",
             "davinci_pas_submission_endpoint#1.2": "http://example.org/foo/bar/pas2",
             "davinci_cdex_attachsubmit_endpoint#2.1" : "https://example.com/clinicaldataexchange/v1/",
@@ -158,16 +190,19 @@ well_known_payer_json = {
 
             //patient service endpoints
                 //carin bluebutton endpoints
-            "carin_bluebutton_endpoint#1.0" : "https://apif1.aetna.com/fhir/v3/patientaccess/",
-            "carin_bluebutton_endpoint#1.0_uscore3.1" : "https://apif1.aetna.com/fhir/v2/patientaccess/",
+            "carin_bluebutton_endpoint#1.0" : "https://example.org/fhir/v3/patientaccess/",
+            "carin_bluebutton_endpoint#1.0_uscore3.1" : "https://example.org/fhir/v2/patientaccess/",
 
                 //davinci patient access endpoints
-            "davinci_pdex_patient_endpoint#2.0" : "https://apif1.aetna.com/fhir/v3/patientaccess/",
-            "davinci_pdex_patient_endpoint#2.0_uscore3.1" : "https://apif1.aetna.com/fhir/v2/patientaccess/",
+            "davinci_pdex_patient_endpoint#2.0" : "https://example.org/fhir/v3/patientaccess/",
+            "davinci_pdex_patient_endpoint#2.0_uscore3.1" : "https://example.org/fhir/v2/patientaccess/",
+
+                //formulary endpoints
+            "davinci_pdex_formulary_endpoint#2.0" : "https://example.org/fhir/v3/patientaccess/",
 
                 //real time pharmacy benefit checks
-            "carin_rtpbc_member_endpoint#1.0" : "https://apif1.aetna.com/fhir/v1/realtimepharmacybenefitcheck/",
-            "carin_rtpbc_provider_endpoint#1.0" : "https://apix.cvshealth.com/realtimepharmacybenefitcheck/v1/",
+            "carin_rtpbc_member_endpoint#1.0" : "https://example.org/fhir/v1/realtimepharmacybenefitcheck/",
+            "carin_rtpbc_provider_endpoint#1.0" : "https://example.org/realtimepharmacybenefitcheck/v1/",
 
 
             //non FHIR endpoints
@@ -195,5 +230,4 @@ well_known_payer_json = {
   }
 ]
 }
-
 ```

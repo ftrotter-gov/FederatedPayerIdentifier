@@ -1,12 +1,12 @@
 # AMERICAN HEALTH PLAN OF IOWA INC
 
-**FPI:** `bf80a2f0-1372-5b82-b59d-9e594b06c6d6`
+**FPI:** `6e67dd5d-47ea-521a-ac0c-4a53e18a83ea`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [american_health_plan_of_iowa_inc_bf80a2f0-1372-5b82-b59d-9e594b06c6d6.well_known_payer.json](../../payer_index_files/medicare_advantage/american_health_plan_of_iowa_inc/american_health_plan_of_iowa_inc_bf80a2f0-1372-5b82-b59d-9e594b06c6d6.well_known_payer.json)
+- [american_health_plan_of_iowa_inc_6e67dd5d-47ea-521a-ac0c-4a53e18a83ea.well_known_payer.json](../../payer_index_files/medicare_advantage/american_health_plan_of_iowa_inc/american_health_plan_of_iowa_inc_6e67dd5d-47ea-521a-ac0c-4a53e18a83ea.well_known_payer.json)
 
 ## Plan Groups (1 group, 2 plans total)
 
@@ -22,6 +22,6 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 001 | Iowa Health Advantage (HMO I-SNP) |
-| 002 | Iowa Health Advantage Choice (HMO I-SNP) |
+| H6765-001 | Iowa Health Advantage (HMO I-SNP) |
+| H6765-002 | Iowa Health Advantage Choice (HMO I-SNP) |
 

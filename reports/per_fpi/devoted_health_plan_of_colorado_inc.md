@@ -1,12 +1,12 @@
 # DEVOTED HEALTH PLAN OF COLORADO INC
 
-**FPI:** `bc3bdf57-1b9b-56bd-9c22-12ebac157a68`
+**FPI:** `626f8c14-47a2-591b-961d-de51a0256ac9`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [devoted_health_plan_of_colorado_inc_bc3bdf57-1b9b-56bd-9c22-12ebac157a68.well_known_payer.json](../../payer_index_files/medicare_advantage/devoted_health_plan_of_colorado_inc/devoted_health_plan_of_colorado_inc_bc3bdf57-1b9b-56bd-9c22-12ebac157a68.well_known_payer.json)
+- [devoted_health_plan_of_colorado_inc_626f8c14-47a2-591b-961d-de51a0256ac9.well_known_payer.json](../../payer_index_files/medicare_advantage/devoted_health_plan_of_colorado_inc/devoted_health_plan_of_colorado_inc_626f8c14-47a2-591b-961d-de51a0256ac9.well_known_payer.json)
 
 ## Plan Groups (1 group, 9 plans total)
 
@@ -22,13 +22,13 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 001 | DEVOTED CORE 001 CO (HMO) |
-| 003 | DEVOTED DUAL PLUS 003 CO (HMO D-SNP) |
-| 004 | DEVOTED CORE 004 CO (HMO) |
-| 007 | DEVOTED DUAL 007 CO (HMO D-SNP) |
-| 009 | DEVOTED C-SNP PREMIUM 009 CO (HMO C-SNP) |
-| 010 | DEVOTED C-SNP PREMIUM 010 CO (HMO C-SNP) |
-| 011 | DEVOTED C-SNP PREMIUM 011 CO (HMO C-SNP) |
-| 012 | DEVOTED DUAL FULL 012 CO (HMO D-SNP) |
-| 013 | DEVOTED C-SNP PLUS 013 CO (HMO C-SNP) |
+| H7147-001 | DEVOTED CORE 001 CO (HMO) |
+| H7147-003 | DEVOTED DUAL PLUS 003 CO (HMO D-SNP) |
+| H7147-004 | DEVOTED CORE 004 CO (HMO) |
+| H7147-007 | DEVOTED DUAL 007 CO (HMO D-SNP) |
+| H7147-009 | DEVOTED C-SNP PREMIUM 009 CO (HMO C-SNP) |
+| H7147-010 | DEVOTED C-SNP PREMIUM 010 CO (HMO C-SNP) |
+| H7147-011 | DEVOTED C-SNP PREMIUM 011 CO (HMO C-SNP) |
+| H7147-012 | DEVOTED DUAL FULL 012 CO (HMO D-SNP) |
+| H7147-013 | DEVOTED C-SNP PLUS 013 CO (HMO C-SNP) |
 

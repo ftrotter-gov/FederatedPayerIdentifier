@@ -1,12 +1,12 @@
 # AETNA HEALTH OF IOWA INC.
 
-**FPI:** `372f7f83-fda9-5388-8ef6-e0d3949548ee`
+**FPI:** `5fca82db-3e97-5415-a9fa-4bf66d449cda`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [aetna_health_of_iowa_inc_372f7f83-fda9-5388-8ef6-e0d3949548ee.well_known_payer.json](../../payer_index_files/medicare_advantage/aetna_health_of_iowa_inc/aetna_health_of_iowa_inc_372f7f83-fda9-5388-8ef6-e0d3949548ee.well_known_payer.json)
+- [aetna_health_of_iowa_inc_5fca82db-3e97-5415-a9fa-4bf66d449cda.well_known_payer.json](../../payer_index_files/medicare_advantage/aetna_health_of_iowa_inc/aetna_health_of_iowa_inc_5fca82db-3e97-5415-a9fa-4bf66d449cda.well_known_payer.json)
 
 ## Plan Groups (1 group, 2 plans total)
 
@@ -22,6 +22,6 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 001 | Aetna Medicare Dual Care (HMO D-SNP) |
-| 801 | Aetna Medicare Plan (HMO) |
+| H5593-001 | Aetna Medicare Dual Care (HMO D-SNP) |
+| H5593-801 | Aetna Medicare Plan (HMO) |
 

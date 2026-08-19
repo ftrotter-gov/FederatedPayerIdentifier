@@ -1,12 +1,12 @@
 # AETNA HEALTH INC. (NJ)
 
-**FPI:** `bf05365e-a75b-5020-9d3d-c890824ca792`
+**FPI:** `44681ced-513f-5281-9d49-b06e6b34a068`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [aetna_health_inc_nj_bf05365e-a75b-5020-9d3d-c890824ca792.well_known_payer.json](../../payer_index_files/medicare_advantage/aetna_health_inc_nj/aetna_health_inc_nj_bf05365e-a75b-5020-9d3d-c890824ca792.well_known_payer.json)
+- [aetna_health_inc_nj_44681ced-513f-5281-9d49-b06e6b34a068.well_known_payer.json](../../payer_index_files/medicare_advantage/aetna_health_inc_nj/aetna_health_inc_nj_44681ced-513f-5281-9d49-b06e6b34a068.well_known_payer.json)
 
 ## Plan Groups (1 group, 8 plans total)
 
@@ -22,12 +22,12 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 022 | Aetna Medicare Enhanced (HMO-POS) |
-| 045 | Aetna Medicare Eagle Giveback (HMO) |
-| 048 | Aetna Medicare Signature (HMO) |
-| 080 | Aetna Medicare Prime (HMO-POS) |
-| 082 | Aetna Medicare Signature Extra (HMO) |
-| 098 | Aetna Medicare Elite (HMO) |
-| 801 | Aetna Medicare Plan (HMO) |
-| 804 | Aetna Medicare Plan w/Rx (HMO) |
+| H3152-022 | Aetna Medicare Enhanced (HMO-POS) |
+| H3152-045 | Aetna Medicare Eagle Giveback (HMO) |
+| H3152-048 | Aetna Medicare Signature (HMO) |
+| H3152-080 | Aetna Medicare Prime (HMO-POS) |
+| H3152-082 | Aetna Medicare Signature Extra (HMO) |
+| H3152-098 | Aetna Medicare Elite (HMO) |
+| H3152-801 | Aetna Medicare Plan (HMO) |
+| H3152-804 | Aetna Medicare Plan w/Rx (HMO) |
 

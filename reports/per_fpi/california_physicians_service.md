@@ -1,12 +1,12 @@
 # CALIFORNIA PHYSICIANS' SERVICE
 
-**FPI:** `533e8cda-e553-5215-a289-6eb5d030bda4`
+**FPI:** `635d88a7-4343-5d10-b6f9-19557bb2c090`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [california_physicians_service_533e8cda-e553-5215-a289-6eb5d030bda4.well_known_payer.json](../../payer_index_files/medicare_advantage/california_physicians_service/california_physicians_service_533e8cda-e553-5215-a289-6eb5d030bda4.well_known_payer.json)
+- [california_physicians_service_635d88a7-4343-5d10-b6f9-19557bb2c090.well_known_payer.json](../../payer_index_files/medicare_advantage/california_physicians_service/california_physicians_service_635d88a7-4343-5d10-b6f9-19557bb2c090.well_known_payer.json)
 
 ## Plan Groups (3 groups, 19 plans total)
 
@@ -22,22 +22,22 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 015 | Blue Shield 65 Plus (HMO) |
-| 017 | Blue Shield 65 Plus (HMO) |
-| 021 | Blue Shield 65 Plus Plan 2 (HMO) |
-| 026 | Blue Shield 65 Plus (HMO) |
-| 028 | Blue Shield 65 Plus (HMO) |
-| 038 | Blue Shield 65 Plus (HMO) |
-| 039 | Blue Shield 65 Plus (HMO) |
-| 040 | Blue Shield 65 Plus Choice Plan (HMO) |
-| 041 | Blue Shield Inspire (HMO) |
-| 043 | Blue Shield Inspire (HMO) |
-| 047 | Blue Shield Inspire (HMO) |
-| 803 | Blue Shield 65 Plus (HMO) |
-| 804 | Blue Shield 65 Plus (HMO) |
-| 805 | Blue Shield 65 Plus without Rx (HMO) |
-| 806 | Blue Shield 65 Plus without Rx (HMO) |
-| 050 | Blue Shield Advantage (HMO) |
+| H0504-015 | Blue Shield 65 Plus (HMO) |
+| H0504-017 | Blue Shield 65 Plus (HMO) |
+| H0504-021 | Blue Shield 65 Plus Plan 2 (HMO) |
+| H0504-026 | Blue Shield 65 Plus (HMO) |
+| H0504-028 | Blue Shield 65 Plus (HMO) |
+| H0504-038 | Blue Shield 65 Plus (HMO) |
+| H0504-039 | Blue Shield 65 Plus (HMO) |
+| H0504-040 | Blue Shield 65 Plus Choice Plan (HMO) |
+| H0504-041 | Blue Shield Inspire (HMO) |
+| H0504-043 | Blue Shield Inspire (HMO) |
+| H0504-047 | Blue Shield Inspire (HMO) |
+| H0504-803 | Blue Shield 65 Plus (HMO) |
+| H0504-804 | Blue Shield 65 Plus (HMO) |
+| H0504-805 | Blue Shield 65 Plus without Rx (HMO) |
+| H0504-806 | Blue Shield 65 Plus without Rx (HMO) |
+| H0504-050 | Blue Shield Advantage (HMO) |
 
 ### Plan Group 2 of 3
 
@@ -51,7 +51,7 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 001 | Blue Shield TotalDual Plan (HMO D-SNP) |
+| H2819-001 | Blue Shield TotalDual Plan (HMO D-SNP) |
 
 ### Plan Group 3 of 3
 
@@ -65,6 +65,6 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 004 | Blue Shield AdvantageOptimum Plan (HMO) |
-| 010 | Blue Shield AdvantageOptimum Plan 1 (HMO) |
+| H5928-004 | Blue Shield AdvantageOptimum Plan (HMO) |
+| H5928-010 | Blue Shield AdvantageOptimum Plan 1 (HMO) |
 

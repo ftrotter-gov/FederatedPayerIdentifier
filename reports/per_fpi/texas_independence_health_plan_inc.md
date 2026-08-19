@@ -1,12 +1,12 @@
 # TEXAS INDEPENDENCE HEALTH PLAN, INC.
 
-**FPI:** `d795dbb4-7484-5b5b-901d-d8e08110299e`
+**FPI:** `487bc10e-ff98-5890-8e7c-9bb0a0da2c0c`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [texas_independence_health_plan_inc_d795dbb4-7484-5b5b-901d-d8e08110299e.well_known_payer.json](../../payer_index_files/medicare_advantage/texas_independence_health_plan_inc/texas_independence_health_plan_inc_d795dbb4-7484-5b5b-901d-d8e08110299e.well_known_payer.json)
+- [texas_independence_health_plan_inc_487bc10e-ff98-5890-8e7c-9bb0a0da2c0c.well_known_payer.json](../../payer_index_files/medicare_advantage/texas_independence_health_plan_inc/texas_independence_health_plan_inc_487bc10e-ff98-5890-8e7c-9bb0a0da2c0c.well_known_payer.json)
 
 ## Plan Groups (1 group, 2 plans total)
 
@@ -22,6 +22,6 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 001 | Texas Independence Health Plan, Inc. (HMO I-SNP) |
-| 002 | Texas Independence Community Plan (HMO I-SNP) |
+| H5015-001 | Texas Independence Health Plan, Inc. (HMO I-SNP) |
+| H5015-002 | Texas Independence Community Plan (HMO I-SNP) |
 

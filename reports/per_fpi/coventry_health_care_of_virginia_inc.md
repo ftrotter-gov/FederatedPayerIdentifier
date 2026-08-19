@@ -1,12 +1,12 @@
 # COVENTRY HEALTH CARE OF VIRGINIA, INC.
 
-**FPI:** `6f73024f-18ea-5ae7-a052-c4ff2ae8418f`
+**FPI:** `f9b4c561-14af-50e1-a571-cba36f6daab0`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [coventry_health_care_of_virginia_inc_6f73024f-18ea-5ae7-a052-c4ff2ae8418f.well_known_payer.json](../../payer_index_files/medicare_advantage/coventry_health_care_of_virginia_inc/coventry_health_care_of_virginia_inc_6f73024f-18ea-5ae7-a052-c4ff2ae8418f.well_known_payer.json)
+- [coventry_health_care_of_virginia_inc_f9b4c561-14af-50e1-a571-cba36f6daab0.well_known_payer.json](../../payer_index_files/medicare_advantage/coventry_health_care_of_virginia_inc/coventry_health_care_of_virginia_inc_f9b4c561-14af-50e1-a571-cba36f6daab0.well_known_payer.json)
 
 ## Plan Groups (1 group, 1 plan total)
 
@@ -22,5 +22,5 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 001 | Aetna Medicare FIDE (HMO D-SNP) |
+| H1610-001 | Aetna Medicare FIDE (HMO D-SNP) |
 

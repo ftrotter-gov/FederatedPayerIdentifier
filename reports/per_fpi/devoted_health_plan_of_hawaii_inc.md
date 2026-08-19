@@ -1,12 +1,12 @@
 # DEVOTED HEALTH PLAN OF HAWAII, INC.
 
-**FPI:** `695e3531-a115-5077-8326-866a6b90cb67`
+**FPI:** `f612e97f-3660-57b3-8374-f6f1ab719b72`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [devoted_health_plan_of_hawaii_inc_695e3531-a115-5077-8326-866a6b90cb67.well_known_payer.json](../../payer_index_files/medicare_advantage/devoted_health_plan_of_hawaii_inc/devoted_health_plan_of_hawaii_inc_695e3531-a115-5077-8326-866a6b90cb67.well_known_payer.json)
+- [devoted_health_plan_of_hawaii_inc_f612e97f-3660-57b3-8374-f6f1ab719b72.well_known_payer.json](../../payer_index_files/medicare_advantage/devoted_health_plan_of_hawaii_inc/devoted_health_plan_of_hawaii_inc_f612e97f-3660-57b3-8374-f6f1ab719b72.well_known_payer.json)
 
 ## Plan Groups (1 group, 5 plans total)
 
@@ -22,9 +22,9 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 001 | DEVOTED GIVEBACK 001 HI (HMO) |
-| 002 | DEVOTED GIVEBACK 002 HI (HMO) |
-| 003 | DEVOTED C-SNP PLUS 003 HI (HMO C-SNP) |
-| 004 | DEVOTED CORE 004 HI (HMO) |
-| 005 | DEVOTED CORE 005 HI (HMO) |
+| H5397-001 | DEVOTED GIVEBACK 001 HI (HMO) |
+| H5397-002 | DEVOTED GIVEBACK 002 HI (HMO) |
+| H5397-003 | DEVOTED C-SNP PLUS 003 HI (HMO C-SNP) |
+| H5397-004 | DEVOTED CORE 004 HI (HMO) |
+| H5397-005 | DEVOTED CORE 005 HI (HMO) |
 

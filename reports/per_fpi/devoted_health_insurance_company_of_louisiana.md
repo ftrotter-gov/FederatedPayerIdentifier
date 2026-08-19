@@ -1,12 +1,12 @@
 # DEVOTED HEALTH INSURANCE COMPANY OF LOUISIANA
 
-**FPI:** `47b330a1-1967-5119-bef2-bc8092e84040`
+**FPI:** `acd45b79-a4a6-5687-a462-d248686829f4`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [devoted_health_insurance_company_of_louisiana_47b330a1-1967-5119-bef2-bc8092e84040.well_known_payer.json](../../payer_index_files/medicare_advantage/devoted_health_insurance_company_of_louisiana/devoted_health_insurance_company_of_louisiana_47b330a1-1967-5119-bef2-bc8092e84040.well_known_payer.json)
+- [devoted_health_insurance_company_of_louisiana_acd45b79-a4a6-5687-a462-d248686829f4.well_known_payer.json](../../payer_index_files/medicare_advantage/devoted_health_insurance_company_of_louisiana/devoted_health_insurance_company_of_louisiana_acd45b79-a4a6-5687-a462-d248686829f4.well_known_payer.json)
 
 ## Plan Groups (1 group, 9 plans total)
 
@@ -22,13 +22,13 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 001 | DEVOTED CHOICE 001 LA (PPO) |
-| 002 | DEVOTED CHOICE GIVEBACK 002 LA (PPO) |
-| 004 | DEVOTED DUAL CHOICE 004 LA (PPO D-SNP) |
-| 005 | DEVOTED CHOICE 005 LA (PPO) |
-| 006 | DEVOTED CHOICE GIVEBACK 006 LA (PPO) |
-| 012 | DEVOTED C-SNP CHOICE PREMIUM 012 LA (PPO C-SNP) |
-| 013 | DEVOTED C-SNP CHOICE PREMIUM 013 LA (PPO C-SNP) |
-| 014 | DEVOTED C-SNP CHOICE PLUS 014 LA (PPO C-SNP) |
-| 015 | DEVOTED DUAL CHOICE FULL 015 LA (PPO D-SNP) |
+| H7766-001 | DEVOTED CHOICE 001 LA (PPO) |
+| H7766-002 | DEVOTED CHOICE GIVEBACK 002 LA (PPO) |
+| H7766-004 | DEVOTED DUAL CHOICE 004 LA (PPO D-SNP) |
+| H7766-005 | DEVOTED CHOICE 005 LA (PPO) |
+| H7766-006 | DEVOTED CHOICE GIVEBACK 006 LA (PPO) |
+| H7766-012 | DEVOTED C-SNP CHOICE PREMIUM 012 LA (PPO C-SNP) |
+| H7766-013 | DEVOTED C-SNP CHOICE PREMIUM 013 LA (PPO C-SNP) |
+| H7766-014 | DEVOTED C-SNP CHOICE PLUS 014 LA (PPO C-SNP) |
+| H7766-015 | DEVOTED DUAL CHOICE FULL 015 LA (PPO D-SNP) |
 

@@ -1,0 +1,92 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF ALABAMA INC",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "4afe6536-df1c-526e-ab3d-3078535a4917",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF ALABAMA INC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9888"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9888-001",
+          "plan_name": "DEVOTED CHOICE 001 AL (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9888-002",
+          "plan_name": "DEVOTED CHOICE 002 AL (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9888-005",
+          "plan_name": "DEVOTED CHOICE GIVEBACK 005 AL (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9888-006",
+          "plan_name": "DEVOTED CHOICE GIVEBACK 006 AL (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9888-007",
+          "plan_name": "DEVOTED CHOICE MA ONLY 007 AL (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9888-008",
+          "plan_name": "DEVOTED C-SNP CHOICE 008 AL (PPO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9888-009",
+          "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 009 AL (PPO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9888-010",
+          "plan_name": "DEVOTED C-SNP CHOICE 010 AL (PPO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9888-011",
+          "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 011 AL (PPO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9888-012",
+          "plan_name": "DEVOTED C-SNP CHOICE PLUS 012 AL (PPO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9888-013",
+          "plan_name": "DEVOTED DUAL CHOICE FULL 013 AL (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9888-014",
+          "plan_name": "DEVOTED DUAL CHOICE FULL 014 AL (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9888-015",
+          "plan_name": "DEVOTED C-SNP CHOICE PLUS 015 AL (PPO C-SNP)"
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.devoted.com/H9888/2026"
+      }
+    }
+  ],
+  "is_seeded": true
+}

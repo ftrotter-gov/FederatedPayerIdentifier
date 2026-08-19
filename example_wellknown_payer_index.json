@@ -3,20 +3,30 @@
 
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
 
+  "is_seeded": false,
+
   "payerLegalName": "Example Payer Legal Name, LLC",
   "payerContactWebsite": "https://example.com/our_contact_page/",
 
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
-      "value": "5e4c4d18-0725-58ce-9477-d8482ea11016",
-      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "fpi_source_value": "H0028"
+      "value": "13e068e1-cd54-5baa-b7e3-79761afe7afc",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/naic_id",
+      "fpi_source_value": "12345"
     },
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePayerIdentifer",
-      "value": "12345"
-    }    
+      "system": "https://directory.cms.gov/payer_identification_system/naic_id",
+      "value": "12345",
+      "notes": "NAIC company code for Example Payer Legal Name, LLC.",
+      "expiration": "current"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1234",
+      "notes": "Medicare Advantage contract held by this payer. Contract IDs are crosswalk identifiers only; they are not FPI sources.",
+      "expiration": "current"
+    }
   ],
 
   "payer_level_string_search_matches": [
@@ -29,8 +39,8 @@
   "plan_groups": [{
     "plan_identifiers": [
         {
-            "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-            "value": "432",
+            "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+            "value": "H1234-432",
             "plan_name": "This Very Good Plan",
             "plan_website": "https://example.com/plan_432",
             "plan_level_string_search_matches": [
@@ -40,8 +50,8 @@
             ]
         },
         {
-            "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-            "value": "433",
+            "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+            "value": "H1234-433",
             "plan_name": "This Very Good Plan Preferred",
             "plan_website": "https://example.com/plan_433",
             "plan_level_string_search_matches": [
@@ -52,8 +62,8 @@
             ]
         },
         {
-            "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-            "value": "434",
+            "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+            "value": "H1234-434",
             "plan_name": "This Very Good Plan Excel",
             "plan_website": "https://example.com/plan_434",
             "plan_level_string_search_matches": [
@@ -74,7 +84,7 @@
 
     "plan_endpoints": {
         "davinci_crd_hook_endpoint#1.1": "http://example.org/foo/bar/crd",
-        "davinci_crd_hook_endpoint#1.2": "http://example.org/foo/bar/crdnew",
+        "davinci_crd_hook_endpoint#1.2": null,
         "davinci_dtr_qpackage_endpoint#1.2": "http://example.org/foo/bar/dtr",
         "davinci_pas_submission_endpoint#1.2": "http://example.org/foo/bar/pas2",
         "davinci_cdex_attachsubmit_endpoint#2.1": "https://example.com/clinicaldataexchange/v1/",
@@ -89,14 +99,16 @@
 
         "davinci_payer_to_payer_endpoint#1.1": "http://example.org/foo/bar/payer-to-payer",
 
-        "carin_bluebutton_endpoint#1.0": "https://apif1.aetna.com/fhir/v3/patientaccess/",
-        "carin_bluebutton_endpoint#1.0_uscore3.1": "https://apif1.aetna.com/fhir/v2/patientaccess/",
+        "carin_bluebutton_endpoint#1.0": "https://example.org/fhir/v3/patientaccess/",
+        "carin_bluebutton_endpoint#1.0_uscore3.1": "https://example.org/fhir/v2/patientaccess/",
 
-        "davinci_pdex_patient_endpoint#2.0": "https://apif1.aetna.com/fhir/v3/patientaccess/",
-        "davinci_pdex_patient_endpoint#2.0_uscore3.1": "https://apif1.aetna.com/fhir/v2/patientaccess/",
+        "davinci_pdex_patient_endpoint#2.0": "https://example.org/fhir/v3/patientaccess/",
+        "davinci_pdex_patient_endpoint#2.0_uscore3.1": "https://example.org/fhir/v2/patientaccess/",
 
-        "carin_rtpbc_member_endpoint#1.0": "https://apif1.aetna.com/fhir/v1/realtimepharmacybenefitcheck/",
-        "carin_rtpbc_provider_endpoint#1.0": "https://apix.cvshealth.com/realtimepharmacybenefitcheck/v1/",
+        "davinci_pdex_formulary_endpoint#2.0": "https://example.org/fhir/v3/patientaccess/",
+
+        "carin_rtpbc_member_endpoint#1.0": "https://example.org/fhir/v1/realtimepharmacybenefitcheck/",
+        "carin_rtpbc_provider_endpoint#1.0": "https://example.org/realtimepharmacybenefitcheck/v1/",
 
         "tic_table_of_contents#issuer-11111": "https://example.com/mrf/2025-01-01_example-payer_issuer-a_index.json",
         "tic_table_of_contents#issuer-22222": "https://example.com/mrf/2025-01-01_example-payer_issuer-b_index.json",

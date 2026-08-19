@@ -2,8 +2,12 @@
 """
 FPI Maker — CLI and library for generating Federated Payer Identifiers (FPIs).
 
-Each payer identifier namespace derives a deterministic UUID5 by chaining from
-NAMESPACE_DNS, exactly as the Medicare Advantage seed does:
+This module is the ONE and ONLY home of FPI uuid generation logic in this
+repository.  All other tools (including the Medicare Advantage seed) must
+import from here rather than reimplementing hashing or normalization.
+
+Each payer identifier namespace derives a deterministic UUID5 by chaining
+from NAMESPACE_DNS:
 
     system_uuid = uuid5(NAMESPACE_DNS, "<SYSTEM_ID>.fhir")
     fpi         = uuid5(system_uuid,   "<payer_id_value>")
@@ -17,11 +21,23 @@ unique within a single state.  Values in those systems MUST be prefixed with
 the two-letter USPS state code and a hyphen (e.g. ``TX-68775``) before an FPI
 is generated, in order to prevent collisions between states.
 
+LEGAL_NAME_HASH normalization
+-----------------------------
+The LEGAL_NAME_HASH system hashes a payer's legal name.  Before hashing, the
+name is ALWAYS normalized here in this module (never by callers):
+
+    lowercase the name, then remove every character that is not a-z or 0-9
+
+so ``"AETNA HEALTH, INC."`` is transformed to ``"aetnahealthinc"`` before the
+UUID5 is computed.  ``generate_fpi`` applies this normalization automatically
+whenever ``system_id == "LEGAL_NAME_HASH"``, so passing the raw legal name and
+passing the pre-normalized name produce the same FPI.
+
 Usage as a library
 ------------------
     from tools.FPI_maker_cli import generate_fpi, load_payer_systems
 
-    fpi = generate_fpi(system_id="CMS_CONTRACT_ID", payer_id_value="H1234")
+    fpi = generate_fpi(system_id="NAIC_ID", payer_id_value="78700")
     print(fpi)
 
 Usage as a CLI
@@ -57,6 +73,10 @@ STATE_LEVEL_SYSTEM_IDS = {"STATE_DOI_ID", "STATE_MCO_ID"}
 # (You cannot derive an FPI from another FPI.)
 FPI_SOURCE_EXCLUDED_SYSTEM_IDS = {"FPI"}
 
+# The system whose values are payer legal names that must be normalized
+# (lowercased, all non a-z0-9 characters removed) before hashing.
+LEGAL_NAME_HASH_SYSTEM_ID = "LEGAL_NAME_HASH"
+
 # Pattern that state-level identifier values must match: "XX-<value>".
 _STATE_PREFIX_PATTERN = re.compile(r"^[A-Z]{2}-.+$")
 
@@ -89,15 +109,33 @@ def get_system_namespace(*, system_id: str) -> uuid.UUID:
     """
     Return the UUID5 namespace for a given payer identifier system ID.
 
-    This mirrors the pattern used in seed.py for Medicare Advantage:
-
-        MEDICARE_ADVANTAGE_SYSTEM_UUID = uuid5(NAMESPACE_DNS, "CMS_CONTRACT_ID.fhir")
-
     Every system follows the same pattern:
 
         system_uuid = uuid5(NAMESPACE_DNS, "<system_id>.fhir")
+
+    The ``.fhir`` suffix is a deliberate namespacing convention to avoid
+    collisions with other uses of NAMESPACE_DNS.
     """
     return uuid.uuid5(_ROOT_NAMESPACE, f"{system_id}.fhir")
+
+
+def normalize_legal_name(*, payer_legal_name: str) -> str:
+    """
+    Normalize a payer legal name for LEGAL_NAME_HASH hashing.
+
+    Rule: lowercase the name, then remove every character that is not a-z
+    or 0-9.  Spaces and all punctuation/special characters are removed
+    entirely (not replaced).
+
+    Examples
+    --------
+        "AETNA HEALTH, INC."       ->  "aetnahealthinc"
+        "HUMANA INSURANCE CO"      ->  "humanainsuranceco"
+        "Blue Cross & Blue Shield" ->  "bluecrossblueshield"
+    """
+    normalized_name = payer_legal_name.lower()
+    normalized_name = re.sub(r"[^a-z0-9]", "", normalized_name)
+    return normalized_name
 
 
 def apply_state_prefix(*, state_code: str, payer_id_value: str) -> str:
@@ -136,25 +174,28 @@ def generate_fpi(*, system_id: str, payer_id_value: str) -> str:
     ----------
     system_id : str
         One of the ``id`` values from the payer identifier systems reference
-        file, e.g. ``"CMS_CONTRACT_ID"``.
+        file, e.g. ``"NAIC_ID"``.
     payer_id_value : str
-        The actual identifier value within that system, e.g. ``"H1234"``.
+        The actual identifier value within that system, e.g. ``"78700"``.
         For state-level systems (see STATE_LEVEL_SYSTEM_IDS) this value MUST
         already carry the two-letter state prefix, e.g. ``"TX-68775"``
         (see apply_state_prefix).
+        For LEGAL_NAME_HASH the value is the payer legal name; it is
+        automatically normalized here (lowercased, non a-z0-9 removed) before
+        hashing, so raw and pre-normalized names produce the same FPI.
 
     Returns
     -------
     str
         A UUID5 string that is the FPI, e.g.
-        ``"5e4c4d18-0725-58ce-9477-d8482ea11016"``.
+        ``"68d4ceb9-93f6-548c-912b-f9f43eb79683"``.
 
     Example
     -------
         >>> from tools.FPI_maker_cli import generate_fpi
-        >>> fpi = generate_fpi(system_id="CMS_CONTRACT_ID", payer_id_value="H0028")
+        >>> fpi = generate_fpi(system_id="NAIC_ID", payer_id_value="78700")
         >>> print(fpi)
-        5e4c4d18-0725-58ce-9477-d8482ea11016
+        68d4ceb9-93f6-548c-912b-f9f43eb79683
     """
     if system_id in FPI_SOURCE_EXCLUDED_SYSTEM_IDS:
         raise ValueError(
@@ -168,6 +209,8 @@ def generate_fpi(*, system_id: str, payer_id_value: str) -> str:
             f"code and a hyphen (e.g. 'TX-68775'), got '{payer_id_value}'. "
             f"Use apply_state_prefix() to build the value."
         )
+    if system_id == LEGAL_NAME_HASH_SYSTEM_ID:
+        payer_id_value = normalize_legal_name(payer_legal_name=payer_id_value)
     system_namespace = get_system_namespace(system_id=system_id)
     return str(uuid.uuid5(system_namespace, payer_id_value))
 
@@ -278,6 +321,16 @@ def _print_result(*, system: dict, payer_id_value: str) -> None:
     system_id = system["id"]
     system_namespace = get_system_namespace(system_id=system_id)
     fpi = generate_fpi(system_id=system_id, payer_id_value=payer_id_value)
+
+    # For LEGAL_NAME_HASH the value is normalized before hashing; show the
+    # normalized value in the reproduction code so the printed code actually
+    # reproduces the FPI.
+    if system_id == LEGAL_NAME_HASH_SYSTEM_ID:
+        normalized_value = normalize_legal_name(payer_legal_name=payer_id_value)
+        if normalized_value != payer_id_value:
+            print()
+            print(f"  Legal name normalized for hashing: \"{payer_id_value}\" -> \"{normalized_value}\"")
+        payer_id_value = normalized_value
 
     print()
     _print_separator()

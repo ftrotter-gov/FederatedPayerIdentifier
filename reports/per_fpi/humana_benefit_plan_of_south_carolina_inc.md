@@ -1,12 +1,12 @@
 # HUMANA BENEFIT PLAN OF SOUTH CAROLINA, INC.
 
-**FPI:** `bb88e1b4-765e-5b33-8791-6473b0f05c57`
+**FPI:** `387dce3d-56cc-58af-bc38-b60e42c5ceba`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [humana_benefit_plan_of_south_carolina_inc_bb88e1b4-765e-5b33-8791-6473b0f05c57.well_known_payer.json](../../payer_index_files/medicare_advantage/humana_benefit_plan_of_south_carolina_inc/humana_benefit_plan_of_south_carolina_inc_bb88e1b4-765e-5b33-8791-6473b0f05c57.well_known_payer.json)
+- [humana_benefit_plan_of_south_carolina_inc_387dce3d-56cc-58af-bc38-b60e42c5ceba.well_known_payer.json](../../payer_index_files/medicare_advantage/humana_benefit_plan_of_south_carolina_inc/humana_benefit_plan_of_south_carolina_inc_387dce3d-56cc-58af-bc38-b60e42c5ceba.well_known_payer.json)
 
 ## Plan Groups (1 group, 1 plan total)
 
@@ -22,5 +22,5 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 001 | Humana Dual Integrated (HMO D-SNP) |
+| H1396-001 | Humana Dual Integrated (HMO D-SNP) |
 

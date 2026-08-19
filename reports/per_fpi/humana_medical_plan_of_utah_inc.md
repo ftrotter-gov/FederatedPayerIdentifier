@@ -1,12 +1,12 @@
 # HUMANA MEDICAL PLAN OF UTAH, INC.
 
-**FPI:** `fe9530a4-7cfb-5ed4-8ac5-f82778dce1d4`
+**FPI:** `6eb4e6e5-0cb0-5be8-9c63-009824d8abea`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [humana_medical_plan_of_utah_inc_fe9530a4-7cfb-5ed4-8ac5-f82778dce1d4.well_known_payer.json](../../payer_index_files/medicare_advantage/humana_medical_plan_of_utah_inc/humana_medical_plan_of_utah_inc_fe9530a4-7cfb-5ed4-8ac5-f82778dce1d4.well_known_payer.json)
+- [humana_medical_plan_of_utah_inc_6eb4e6e5-0cb0-5be8-9c63-009824d8abea.well_known_payer.json](../../payer_index_files/medicare_advantage/humana_medical_plan_of_utah_inc/humana_medical_plan_of_utah_inc_6eb4e6e5-0cb0-5be8-9c63-009824d8abea.well_known_payer.json)
 
 ## Plan Groups (1 group, 7 plans total)
 
@@ -22,11 +22,11 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 003 | Humana Total Complete H2486-003 (HMO) |
-| 005 | Humana Gold Plus H2486-005 (HMO) |
-| 007 | Humana Gold Plus H2486-007 (HMO) |
-| 801 | Humana Medicare Employer (HMO) |
-| 802 | Humana Medicare Employer (HMO) |
-| 805 | Humana Medicare Employer (HMO) |
-| 806 | Humana Medicare Employer (HMO) |
+| H2486-003 | Humana Total Complete H2486-003 (HMO) |
+| H2486-005 | Humana Gold Plus H2486-005 (HMO) |
+| H2486-007 | Humana Gold Plus H2486-007 (HMO) |
+| H2486-801 | Humana Medicare Employer (HMO) |
+| H2486-802 | Humana Medicare Employer (HMO) |
+| H2486-805 | Humana Medicare Employer (HMO) |
+| H2486-806 | Humana Medicare Employer (HMO) |
 

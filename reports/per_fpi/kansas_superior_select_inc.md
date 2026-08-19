@@ -1,12 +1,12 @@
 # KANSAS SUPERIOR SELECT, INC.
 
-**FPI:** `92a4d0af-b9f1-5875-a909-4f480828d041`
+**FPI:** `59aafe7b-7114-5c6f-8dac-a86e2ca4c7be`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [kansas_superior_select_inc_92a4d0af-b9f1-5875-a909-4f480828d041.well_known_payer.json](../../payer_index_files/medicare_advantage/kansas_superior_select_inc/kansas_superior_select_inc_92a4d0af-b9f1-5875-a909-4f480828d041.well_known_payer.json)
+- [kansas_superior_select_inc_59aafe7b-7114-5c6f-8dac-a86e2ca4c7be.well_known_payer.json](../../payer_index_files/medicare_advantage/kansas_superior_select_inc/kansas_superior_select_inc_59aafe7b-7114-5c6f-8dac-a86e2ca4c7be.well_known_payer.json)
 
 ## Plan Groups (1 group, 2 plans total)
 
@@ -22,6 +22,6 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 001 | Kansas Health Advantage (HMO I-SNP) |
-| 003 | Kansas Health Advantage Choice (HMO I-SNP) |
+| H2392-001 | Kansas Health Advantage (HMO I-SNP) |
+| H2392-003 | Kansas Health Advantage Choice (HMO I-SNP) |
 

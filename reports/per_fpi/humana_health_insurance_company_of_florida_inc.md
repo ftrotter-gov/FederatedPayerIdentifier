@@ -1,12 +1,12 @@
 # HUMANA HEALTH INSURANCE COMPANY OF FLORIDA, INC.
 
-**FPI:** `194b1292-8aaa-5fad-9e38-5a0a82ea7eb7`
+**FPI:** `dddfbbf5-7b02-5206-80df-79b7bbb0efa9`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [humana_health_insurance_company_of_florida_inc_194b1292-8aaa-5fad-9e38-5a0a82ea7eb7.well_known_payer.json](../../payer_index_files/medicare_advantage/humana_health_insurance_company_of_florida_inc/humana_health_insurance_company_of_florida_inc_194b1292-8aaa-5fad-9e38-5a0a82ea7eb7.well_known_payer.json)
+- [humana_health_insurance_company_of_florida_inc_dddfbbf5-7b02-5206-80df-79b7bbb0efa9.well_known_payer.json](../../payer_index_files/medicare_advantage/humana_health_insurance_company_of_florida_inc/humana_health_insurance_company_of_florida_inc_dddfbbf5-7b02-5206-80df-79b7bbb0efa9.well_known_payer.json)
 
 ## Plan Groups (1 group, 4 plans total)
 
@@ -22,8 +22,8 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 001 | HumanaChoice Florida H7284-001 (PPO) |
-| 008 | HumanaChoice Florida H7284-008 (PPO) |
-| 009 | HumanaChoice Florida H7284-009 (PPO) |
-| 010 | HumanaChoice Florida SNP-DE H7284-010 (PPO D-SNP) |
+| H7284-001 | HumanaChoice Florida H7284-001 (PPO) |
+| H7284-008 | HumanaChoice Florida H7284-008 (PPO) |
+| H7284-009 | HumanaChoice Florida H7284-009 (PPO) |
+| H7284-010 | HumanaChoice Florida SNP-DE H7284-010 (PPO D-SNP) |
 

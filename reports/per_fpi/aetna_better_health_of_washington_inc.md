@@ -1,12 +1,12 @@
 # AETNA BETTER HEALTH OF WASHINGTON, INC.
 
-**FPI:** `c5363cd3-f131-56e8-8663-1513a99dc168`
+**FPI:** `4321b5af-766f-54ac-9fd5-90e4e2377af4`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [aetna_better_health_of_washington_inc_c5363cd3-f131-56e8-8663-1513a99dc168.well_known_payer.json](../../payer_index_files/medicare_advantage/aetna_better_health_of_washington_inc/aetna_better_health_of_washington_inc_c5363cd3-f131-56e8-8663-1513a99dc168.well_known_payer.json)
+- [aetna_better_health_of_washington_inc_4321b5af-766f-54ac-9fd5-90e4e2377af4.well_known_payer.json](../../payer_index_files/medicare_advantage/aetna_better_health_of_washington_inc/aetna_better_health_of_washington_inc_4321b5af-766f-54ac-9fd5-90e4e2377af4.well_known_payer.json)
 
 ## Plan Groups (1 group, 2 plans total)
 
@@ -22,6 +22,6 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 003 | Aetna Medicare Signature (HMO) |
-| 801 | Aetna Medicare Plan (HMO) |
+| H3748-003 | Aetna Medicare Signature (HMO) |
+| H3748-801 | Aetna Medicare Plan (HMO) |
 

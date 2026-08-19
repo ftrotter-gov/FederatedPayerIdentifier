@@ -2,14 +2,24 @@
 """Reads two CMS Medicare Advantage CSV files and generates one well-known payer JSON file per unique payer name.
 
 Previous approach: one file per contract_id, FPI derived from contract_id.
-Current approach:  one file per unique *normalized payer name*, FPI derived from that normalized name.
+                   (That was a mistake in reasoning: contract IDs identify
+                   contracts, not payer legal entities, and must never be used
+                   as an FPI source by this seed.)
+Current approach:  one file per unique *normalized payer name*, FPI derived
+                   from the LEGAL_NAME_HASH identifier system.
 
-Normalization rule: lowercase the raw payer name, then strip every character that is
-not a-z or 0-9 (i.e., remove spaces, punctuation, and all other special characters).
-Multiple contract IDs that produce the same normalized name are treated as the same
-payer entity and are consolidated into a single well-known JSON file.  Plans from
-different contracts that point to different FHIR endpoints are placed in separate
-plan_groups within that one file.
+The legal name is the only payer attribute reliably available to CMS at seed
+time, so the seed hashes it — a temporary hack until payers publish FPIs
+derived from real identifier systems (NAIC_ID, HIOS_ID, LEI, etc.).
+
+All uuid generation and legal-name normalization logic lives in
+tools/FPI_maker_cli.py (the single home of FPI hashing in this repository).
+The normalization rule applied there: lowercase the raw payer name, then strip
+every character that is not a-z or 0-9 (e.g. "AETNA HEALTH, INC." becomes
+"aetnahealthinc").  Multiple contract IDs that produce the same normalized
+name are treated as the same payer entity and are consolidated into a single
+well-known JSON file.  Plans from different contracts that point to different
+FHIR endpoints are placed in separate plan_groups within that one file.
 """
 
 import csv
@@ -30,7 +40,7 @@ OUTPUT_BASE_DIR = os.path.join(REPO_ROOT, "payer_index_files", "medicare_advanta
 TOOLS_DIR = os.path.join(REPO_ROOT, "tools")
 if TOOLS_DIR not in sys.path:
     sys.path.insert(0, TOOLS_DIR)
-from FPI_maker_cli import generate_fpi  # noqa: E402
+from FPI_maker_cli import generate_fpi, normalize_legal_name  # noqa: E402
 
 # System URI strings used in the identifier and plan_identifiers blocks.
 # These correspond to entries in reference_data/current_payer_identification_systems.json.
@@ -50,8 +60,10 @@ RESOURCE_TYPE = "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWel
 ENDPOINT_KEY = "davinci_pdex_provider_directory_endpoint#1.1"
 
 # System ID used as the FPI namespace when deriving identifiers from payer names.
-# This distinguishes name-based FPIs from the earlier contract-ID-based ones.
-FPI_SYSTEM_ID = "PAYER_NAME"
+# LEGAL_NAME_HASH is the hashing system defined in
+# reference_data/current_payer_identification_systems.json; FPI_maker_cli
+# normalizes the legal name automatically before hashing under this system.
+FPI_SYSTEM_ID = "LEGAL_NAME_HASH"
 
 
 def safe_name(name):
@@ -59,24 +71,6 @@ def safe_name(name):
     name = name.lower().replace(" ", "_")
     name = re.sub(r"[^a-z0-9_]", "", name)
     name = re.sub(r"_+", "_", name).strip("_")
-    return name
-
-
-def normalize_payer_name(name):
-    """
-    Produce the canonical key used for payer deduplication and FPI generation.
-
-    Rule: lowercase the name, then remove every character that is not a–z or 0–9.
-    Spaces and all punctuation/special characters are removed entirely (not replaced).
-
-    Examples
-    --------
-        "Aetna Health, Inc."  ->  "aetnahealthinc"
-        "HUMANA INSURANCE CO" ->  "humanainsuranceco"
-        "Blue Cross & Blue Shield" -> "bluecrosssblueshield"
-    """
-    name = name.lower()
-    name = re.sub(r"[^a-z0-9]", "", name)
     return name
 
 
@@ -184,7 +178,7 @@ def group_payers_by_name(payers):
         info = payers[contract_id]
         payer_name = info["payer_name"]
         url = info["url"]
-        norm = normalize_payer_name(payer_name)
+        norm = normalize_legal_name(payer_legal_name=payer_name)
 
         if norm not in groups:
             groups[norm] = {
@@ -221,7 +215,11 @@ def build_well_known_json(normalized_name, canonical_name, contract_entries, cro
     tuple[dict, str, int]
         (well-known JSON document, fpi string, total plan count)
     """
-    fpi = generate_fpi(system_id=FPI_SYSTEM_ID, payer_id_value=normalized_name)
+    # FPI_maker_cli normalizes the legal name internally for LEGAL_NAME_HASH,
+    # so passing the raw canonical name here yields the same FPI as passing
+    # the pre-normalized name.  That means the recorded "fpi_source_value"
+    # below (the raw legal name) genuinely reproduces the FPI.
+    fpi = generate_fpi(system_id=FPI_SYSTEM_ID, payer_id_value=canonical_name)
 
     # Build the identifier block: FPI first, then one CMS_CONTRACT_ID entry per contract_id.
     # The FPI entry is the one and only FPI in the array.  It records the
@@ -340,35 +338,63 @@ def collect_extra_fields(existing_doc, seed_doc):
     return extras
 
 
+def directory_contains_curated_file(*, output_dir: str) -> bool:
+    """Return True if *output_dir* holds any well-known file that is manually curated.
+
+    A file is considered manually curated when its "is_seeded" flag is anything
+    other than exactly true (false, absent, or unreadable JSON).  Because
+    curated files may carry FPIs derived from different identifier systems
+    (and therefore different filenames), the seed must check the whole payer
+    directory — not just its own target filename — before writing anything.
+    """
+    if not os.path.isdir(output_dir):
+        return False
+    for existing_name in sorted(os.listdir(output_dir)):
+        if not existing_name.endswith(".well_known_payer.json"):
+            continue
+        existing_path = os.path.join(output_dir, existing_name)
+        try:
+            with open(existing_path, encoding="utf-8") as existing_file:
+                existing_doc = json.load(existing_file)
+        except (json.JSONDecodeError, OSError):
+            # Unreadable files are treated as curated so the seed stays hands-off.
+            return True
+        if existing_doc.get("is_seeded", False) is not True:
+            return True
+    return False
+
+
 def write_output_file(doc, payer_name, fpi):
     """Write the well-known JSON document to the appropriate subdirectory under payer_index_files/medicare_advantage/.
 
-    Overwrite policy for existing files:
-      1. The existing file's "is_seeded" flag must be exactly true.  Once a human
-         (or another tool) begins manually curating a file, they set is_seeded to
-         false (or it is absent), and the seed will never overwrite it again.
-      2. As a second line of defense, if the existing file contains fields beyond
-         what the seed produces, it has been enriched beyond the seed data and
-         will NOT be overwritten even if is_seeded is still true.
+    Overwrite policy:
+      1. If the payer's directory contains ANY manually curated file (a file
+         whose "is_seeded" flag is not exactly true), the seed skips the whole
+         payer.  Curated files may use FPIs from different identifier systems,
+         so their filenames will not match the seed's target filename — the
+         directory-level check is what protects them.
+      2. If the seed's own target file exists with is_seeded exactly true but
+         contains fields beyond what the seed produces, it has been enriched
+         and will NOT be overwritten.
     A warning is printed and the function returns (filepath, skipped=True) when skipping.
     """
     dir_name = safe_name(payer_name)
     output_dir = os.path.join(OUTPUT_BASE_DIR, dir_name)
-    os.makedirs(output_dir, exist_ok=True)
 
     filename = f"{dir_name}_{fpi}.well_known_payer.json"
     filepath = os.path.join(output_dir, filename)
+
+    # Guard 1: never touch a payer directory that holds manually curated files.
+    if directory_contains_curated_file(output_dir=output_dir):
+        print(f"    !! SKIPPED (directory contains manually curated file(s) — is_seeded not true):")
+        return filepath, True
+
+    os.makedirs(output_dir, exist_ok=True)
 
     if os.path.exists(filepath):
         try:
             with open(filepath, encoding="utf-8") as f:
                 existing_doc = json.load(f)
-
-            # Guard 1: only overwrite files that are still marked as pure seed output.
-            existing_is_seeded = existing_doc.get("is_seeded", False)
-            if existing_is_seeded is not True:
-                print(f"    !! SKIPPED (is_seeded is {json.dumps(existing_is_seeded)}, not true — file is manually curated):")
-                return filepath, True
 
             # Guard 2: check whether the file has grown beyond the seed's own fields.
             extra_fields = collect_extra_fields(existing_doc, doc)

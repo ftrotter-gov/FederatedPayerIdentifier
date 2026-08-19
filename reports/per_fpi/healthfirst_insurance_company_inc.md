@@ -1,12 +1,12 @@
 # HEALTHFIRST INSURANCE COMPANY, INC.
 
-**FPI:** `817d7c5c-5c06-591b-8fa6-d4690d187e7b`
+**FPI:** `d9a598f3-208c-5795-a616-3569f2363ca1`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [healthfirst_insurance_company_inc_817d7c5c-5c06-591b-8fa6-d4690d187e7b.well_known_payer.json](../../payer_index_files/medicare_advantage/healthfirst_insurance_company_inc/healthfirst_insurance_company_inc_817d7c5c-5c06-591b-8fa6-d4690d187e7b.well_known_payer.json)
+- [healthfirst_insurance_company_inc_d9a598f3-208c-5795-a616-3569f2363ca1.well_known_payer.json](../../payer_index_files/medicare_advantage/healthfirst_insurance_company_inc/healthfirst_insurance_company_inc_d9a598f3-208c-5795-a616-3569f2363ca1.well_known_payer.json)
 
 ## Plan Groups (1 group, 1 plan total)
 
@@ -22,5 +22,5 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 002 | Healthfirst Signature (PPO) |
+| H9678-002 | Healthfirst Signature (PPO) |
 

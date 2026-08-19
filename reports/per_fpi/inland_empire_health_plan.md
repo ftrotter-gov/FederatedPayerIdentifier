@@ -1,12 +1,12 @@
 # Inland Empire Health Plan
 
-**FPI:** `9fa67da3-c06c-562e-8fad-d7770a8b6088`
+**FPI:** `a3862519-16ae-566b-98c8-c6cf5c46c92b`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [inland_empire_health_plan_9fa67da3-c06c-562e-8fad-d7770a8b6088.well_known_payer.json](../../payer_index_files/medicare_advantage/inland_empire_health_plan/inland_empire_health_plan_9fa67da3-c06c-562e-8fad-d7770a8b6088.well_known_payer.json)
+- [inland_empire_health_plan_a3862519-16ae-566b-98c8-c6cf5c46c92b.well_known_payer.json](../../payer_index_files/medicare_advantage/inland_empire_health_plan/inland_empire_health_plan_a3862519-16ae-566b-98c8-c6cf5c46c92b.well_known_payer.json)
 
 ## Plan Groups (1 group, 1 plan total)
 
@@ -22,5 +22,5 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 001 | IEHP DualChoice (HMO D-SNP) |
+| H8894-001 | IEHP DualChoice (HMO D-SNP) |
 

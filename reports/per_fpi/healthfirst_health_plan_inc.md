@@ -1,12 +1,12 @@
 # HEALTHFIRST HEALTH PLAN, INC.
 
-**FPI:** `01686f3a-6420-5c50-8bb6-cdac50dd3309`
+**FPI:** `2bbe8987-ed5d-5d13-b000-f2bd8c58dcdd`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [healthfirst_health_plan_inc_01686f3a-6420-5c50-8bb6-cdac50dd3309.well_known_payer.json](../../payer_index_files/medicare_advantage/healthfirst_health_plan_inc/healthfirst_health_plan_inc_01686f3a-6420-5c50-8bb6-cdac50dd3309.well_known_payer.json)
+- [healthfirst_health_plan_inc_2bbe8987-ed5d-5d13-b000-f2bd8c58dcdd.well_known_payer.json](../../payer_index_files/medicare_advantage/healthfirst_health_plan_inc/healthfirst_health_plan_inc_2bbe8987-ed5d-5d13-b000-f2bd8c58dcdd.well_known_payer.json)
 
 ## Plan Groups (3 groups, 9 plans total)
 
@@ -22,7 +22,7 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 002 | Healthfirst Signature (HMO) |
+| H1722-002 | Healthfirst Signature (HMO) |
 
 ### Plan Group 2 of 3
 
@@ -36,13 +36,13 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 001 | Healthfirst 65 Plus Plan (HMO) |
-| 019 | Healthfirst Increased Benefits Plan (HMO) |
-| 021 | Healthfirst Life Improvement Plan (HMO D-SNP) |
-| 034 | Healthfirst CompleteCare (HMO D-SNP) |
-| 038 | Healthfirst Connection Plan (HMO D-SNP) |
-| 808 | Healthfirst Employer Group 1 (HMO) |
-| 809 | Healthfirst Employer Group 2 (HMO) |
+| H3359-001 | Healthfirst 65 Plus Plan (HMO) |
+| H3359-019 | Healthfirst Increased Benefits Plan (HMO) |
+| H3359-021 | Healthfirst Life Improvement Plan (HMO D-SNP) |
+| H3359-034 | Healthfirst CompleteCare (HMO D-SNP) |
+| H3359-038 | Healthfirst Connection Plan (HMO D-SNP) |
+| H3359-808 | Healthfirst Employer Group 1 (HMO) |
+| H3359-809 | Healthfirst Employer Group 2 (HMO) |
 
 ### Plan Group 3 of 3
 
@@ -56,5 +56,5 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 011 | Healthfirst Signature (HMO) |
+| H5989-011 | Healthfirst Signature (HMO) |
 

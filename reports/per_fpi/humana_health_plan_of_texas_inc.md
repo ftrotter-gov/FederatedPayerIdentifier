@@ -1,12 +1,12 @@
 # HUMANA HEALTH PLAN OF TEXAS, INC.
 
-**FPI:** `4e82d4d0-2aeb-5382-8d5a-96afe91bc600`
+**FPI:** `826c7416-72f5-5bf7-88af-c2bc08d42e79`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [humana_health_plan_of_texas_inc_4e82d4d0-2aeb-5382-8d5a-96afe91bc600.well_known_payer.json](../../payer_index_files/medicare_advantage/humana_health_plan_of_texas_inc/humana_health_plan_of_texas_inc_4e82d4d0-2aeb-5382-8d5a-96afe91bc600.well_known_payer.json)
+- [humana_health_plan_of_texas_inc_826c7416-72f5-5bf7-88af-c2bc08d42e79.well_known_payer.json](../../payer_index_files/medicare_advantage/humana_health_plan_of_texas_inc/humana_health_plan_of_texas_inc_826c7416-72f5-5bf7-88af-c2bc08d42e79.well_known_payer.json)
 
 ## Plan Groups (1 group, 1 plan total)
 
@@ -22,5 +22,5 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 001 | Humana Gold Plus H2463-001 (HMO) |
+| H2463-001 | Humana Gold Plus H2463-001 (HMO) |
 

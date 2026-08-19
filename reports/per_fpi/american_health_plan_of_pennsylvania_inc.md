@@ -1,12 +1,12 @@
 # AMERICAN HEALTH PLAN OF PENNSYLVANIA INC
 
-**FPI:** `505f12ab-433f-5a92-8cfb-399d59cca50f`
+**FPI:** `147cd3e4-7ce2-518f-af95-9b178048a1a3`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [american_health_plan_of_pennsylvania_inc_505f12ab-433f-5a92-8cfb-399d59cca50f.well_known_payer.json](../../payer_index_files/medicare_advantage/american_health_plan_of_pennsylvania_inc/american_health_plan_of_pennsylvania_inc_505f12ab-433f-5a92-8cfb-399d59cca50f.well_known_payer.json)
+- [american_health_plan_of_pennsylvania_inc_147cd3e4-7ce2-518f-af95-9b178048a1a3.well_known_payer.json](../../payer_index_files/medicare_advantage/american_health_plan_of_pennsylvania_inc/american_health_plan_of_pennsylvania_inc_147cd3e4-7ce2-518f-af95-9b178048a1a3.well_known_payer.json)
 
 ## Plan Groups (1 group, 1 plan total)
 
@@ -22,5 +22,5 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 001 | American Health Advantage of Pennsylvania (HMO I-SNP) |
+| H9968-001 | American Health Advantage of Pennsylvania (HMO I-SNP) |
 

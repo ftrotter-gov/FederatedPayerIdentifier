@@ -1,12 +1,12 @@
 # AETNA BETTER HEALTH INC. (NJ)
 
-**FPI:** `8931a0c6-113d-543b-b803-19aea57a3a5b`
+**FPI:** `a85212d5-c543-5afb-a036-e1f3379adf23`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [aetna_better_health_inc_nj_8931a0c6-113d-543b-b803-19aea57a3a5b.well_known_payer.json](../../payer_index_files/medicare_advantage/aetna_better_health_inc_nj/aetna_better_health_inc_nj_8931a0c6-113d-543b-b803-19aea57a3a5b.well_known_payer.json)
+- [aetna_better_health_inc_nj_a85212d5-c543-5afb-a036-e1f3379adf23.well_known_payer.json](../../payer_index_files/medicare_advantage/aetna_better_health_inc_nj/aetna_better_health_inc_nj_a85212d5-c543-5afb-a036-e1f3379adf23.well_known_payer.json)
 
 ## Plan Groups (1 group, 1 plan total)
 
@@ -22,5 +22,5 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 001 | Aetna Medicare FIDE (HMO D-SNP) |
+| H6399-001 | Aetna Medicare FIDE (HMO D-SNP) |
 

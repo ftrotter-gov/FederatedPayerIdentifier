@@ -1,12 +1,12 @@
 # AMERICAN HEALTH PLAN OF MISSOURI, INC.
 
-**FPI:** `b0095ced-1bb4-51bc-8385-a0921caa67fc`
+**FPI:** `9fa27371-8c30-5ade-951c-2dd21361dfc0`
 
 **Category:** medicare_advantage
 
 ## Well-Known Payer Import Files
 
-- [american_health_plan_of_missouri_inc_b0095ced-1bb4-51bc-8385-a0921caa67fc.well_known_payer.json](../../payer_index_files/medicare_advantage/american_health_plan_of_missouri_inc/american_health_plan_of_missouri_inc_b0095ced-1bb4-51bc-8385-a0921caa67fc.well_known_payer.json)
+- [american_health_plan_of_missouri_inc_9fa27371-8c30-5ade-951c-2dd21361dfc0.well_known_payer.json](../../payer_index_files/medicare_advantage/american_health_plan_of_missouri_inc/american_health_plan_of_missouri_inc_9fa27371-8c30-5ade-951c-2dd21361dfc0.well_known_payer.json)
 
 ## Plan Groups (1 group, 2 plans total)
 
@@ -22,6 +22,6 @@
 
 | Plan ID | Plan Name |
 |---------|-----------|
-| 001 | American Health Advantage of Missouri (HMO I-SNP) |
-| 003 | American Health Advantage of Missouri Choice (HMO I-SNP) |
+| H4490-001 | American Health Advantage of Missouri (HMO I-SNP) |
+| H4490-003 | American Health Advantage of Missouri Choice (HMO I-SNP) |
 
