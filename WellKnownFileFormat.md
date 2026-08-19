@@ -1,26 +1,32 @@
-Payer Plan well-known Endpoint JSON format
-==================
+# Payer Plan Well-Known Index JSON Format
 
-What follows is a FHIR-ish well-known file format for handling well-known data for payers.
-It is inspired [from a file suggested by the Davinci Hrex Project](https://build.fhir.org/ig/HL7/davinci-ehrx/en/Binary-Wellknown.html), and has been forked and extended to serve the needs of the NDH/NPD use-case.
+The payer well-known index connects a payer-controlled publication location to
+the payer's identity, plans, and interoperability endpoints. Those endpoints
+may be hosted by the payer or by an outsourced FHIR vendor. This bridge is a
+central purpose of the format.
 
-This page will use a javascript block to use javascript comments to markup what the JSON example for this well-known file;
+The format is FHIR-inspired and builds on the
+[Da Vinci HRex well-known proposal](https://build.fhir.org/ig/HL7/davinci-ehrx/en/Binary-Wellknown.html).
+It is not currently a formal FHIR resource or a JSON Schema. There is one
+current version of the format, maintained through Git history. Protocol and
+FHIR versions in endpoint keys do not version the index itself.
+
+The annotated JavaScript block below documents the current shape. A future
+Python validator will enforce semantic rules that cannot be expressed through
+JSON structure alone. Until those rules are adopted, this document avoids
+assigning universal meaning to every possible null or URL form. See
+[Future Steps](FutureSteps.md).
 
 ```javascript
 
 well_known_payer_json = {
 
-  "copied_from_url": null, //eventually this will mark where this well-known file was downloaded from.
-                            //once a given well-known url has an established copied_from_url value.. the well-known file will be copied down nightly and committed to the
-                            //git repo.. as long as it passes automated sanity checks. From there, the underlying data will be copied into NPD. 
+  "copied_from_url": null, //Eventually this records the payer-controlled URL
+                            //from which this working copy was downloaded.
+                            //The repository is the initial trusted working copy;
+                            //accepted content is intended to be republished by NPD.
 
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition", // a FHIR-ish resourcetype not sure we want to keep this...
-
-  //is_seeded marks whether this file is still pure output of an automated seeding process.
-  //the seeders set this to true. The moment a human (or any curation tool) edits the file,
-  //it must be set to false, and from then on the seeders will never overwrite anything in
-  //this payer's directory.
-  "is_seeded": false,
 
   //the first block is all about the payer itself. 
   "payerLegalName": "Example Payer Legal Name, LLC",
@@ -32,27 +38,29 @@ well_known_payer_json = {
     {
             //the first identifier is the Federated Payer Identifier, which is the system of payer-self-enumeration.
             //there can only be one of these identifiers in the file and it should be the first one.
-            //this entry has four components: system, value, fpi_source_system, and fpi_source_value.
+            //a UUIDv5 entry has four components: system, value, fpi_source_system,
+            //and fpi_source_value. A generated UUID that is not based on another
+            //payer identifier has only system and value because
+            //there is no source identifier.
             //this system is what marks this identifier as the FPI.
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
-            //the following must be a uuid of some kind.
-            //it is recommended that it be a uuid generated from an existing and/or reliable payer identification system
+            //the following must be a UUID selected and self-issued by the payer.
+            //the payer may choose a UUID generated from an existing payer identification system
             //(see GeneratingFederatedPayerIdentifiers.md and tools/FPI_maker_cli.py, which is the one and only
             //home of FPI uuid generation logic in this project).
-            //but it can be any string that validates as a uuid. Because of this later optionality, there will be a first-come-first-serve policy on valid uuid values here.
+            //or another accepted UUID version. Registration rejects UUIDs that have already been claimed.
+            //It does not convert different payer choices into a converged UUID.
             //this particular uuid is generated from the (fictional) NAIC company code below:
             //  system_uuid = uuid5(NAMESPACE_DNS, "NAIC_ID.fhir")
             //  fpi         = uuid5(system_uuid, "12345")
       "value": "13e068e1-cd54-5baa-b7e3-79761afe7afc",
-            //fpi_source_system records which payer identifier system was used to generate the FPI uuid.
+            //fpi_source_system records which payer identifier system was used to generate a UUIDv5 FPI.
             //it must be one of the "system" urls from reference_data/current_payer_identification_systems.json
             //(but never the fpi system itself — you cannot derive an FPI from another FPI).
             //NOTE: do not default to CMS contract numbers here. Contract numbers identify contracts,
             //not payer legal entities — one payer can hold many contracts, and contracts can move
-            //between payers. This repo's seeding process derives seeded FPIs from the LEGAL_NAME_HASH
-            //system instead (a temporary hack — the legal name is the only payer attribute reliably
-            //available to CMS at seed time). Payers replacing a seeded FPI should prefer entity-level
-            //systems such as NAIC_ID, HIOS_ID, LEI, EIN, or a state-prefixed STATE_DOI_ID.
+            //between payers. The payer chooses whether to use another accepted UUID version or any
+            //supported source identifier.
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/naic_id",
             //fpi_source_value records the identifier value (within fpi_source_system) that was hashed to produce the FPI uuid.
             //for state-level systems (e.g. STATE_DOI_ID) this value must carry the two-letter state prefix, e.g. "TX-68775".
@@ -65,6 +73,7 @@ well_known_payer_json = {
     //(i.e. NAIC company codes, CMS contract IDs, HIOS, EIN, LEI, X12 payer IDs, etc).
     //each entry may optionally carry "notes" (free text), "lookup_url" (a url where the
     //identifier can be verified), and "expiration" ("current" or an expiration date) fields.
+    //X12 payer IDs may identify the legal payer and also serve as transaction-routing identifiers.
     {
       "system": "https://directory.cms.gov/payer_identification_system/naic_id",
       "value": "12345",
@@ -91,14 +100,15 @@ well_known_payer_json = {
   ],
 
 
-    //one payer legal entity can have multiple plans, but only ONE well-known file.
+    //one payer legal entity can have multiple plans, but only ONE current well-known file
+    //for one liability and beneficiary set.
     //from the perspective of this file, a given set of plans belongs in the same plan group, if they have exactly the same set of endpoints links.
     //different set of endpoint links, mean different plan_group — as another entry in this same plan_groups array,
     //never as a separate well-known file.
 
   "plan_groups": [{
-    // in this example file, we have several Medicare Plan IDs that makeup the plans in this plan_group.
-    // the medicare plan system url shown here is the one used by the seeded files: the value is the
+    // in this example file, we have several Medicare Plan IDs that make up the plans in this plan_group.
+    // the Medicare plan system URL uses a value consisting of the
     // CMS contract ID plus the plan segment, joined by a hyphen (e.g. "H1234-432").
     "plan_identifiers": [
         {
@@ -159,17 +169,19 @@ well_known_payer_json = {
         ],
     
         //There is only one set of plan endpoints per plan_group.
-        //Endpoint value semantics:
-        //  - a url string  = the endpoint exists at that url.
-        //  - null          = the payer affirmatively states that this endpoint does NOT exist
-        //                    (verified-absent — do not go looking for it).
-        //  - key absent    = unknown; nobody has yet determined whether this endpoint exists.
+        //Each protocol-and-version key may occur at most once in this object.
+        //For example, #1.1 selects version 1.1 of that protocol; it is not the
+        //version of this index file. The future semantic validator will define
+        //which keys permit null, what null means in each context, and what kind
+        //of URL each key requires. Key omission currently means that the index
+        //makes no assertion for that protocol and version.
         "plan_endpoints": {
 
 
             //endpoints to support prior authorization
             "davinci_crd_hook_endpoint#1.1": "http://example.org/foo/bar/crd",
-            "davinci_crd_hook_endpoint#1.2": null, //this payer has verified that no CRD 1.2 endpoint exists.
+            "davinci_crd_hook_endpoint#1.2": null, //Illustrates a nullable value;
+                                                    //normative meaning is deferred to validation.
             "davinci_dtr_qpackage_endpoint#1.2": "http://example.org/foo/bar/dtr",
             "davinci_pas_submission_endpoint#1.2": "http://example.org/foo/bar/pas2",
             "davinci_cdex_attachsubmit_endpoint#2.1" : "https://example.com/clinicaldataexchange/v1/",
@@ -231,3 +243,29 @@ well_known_payer_json = {
 ]
 }
 ```
+
+## Repository Seeding Implementation Note
+
+Seeding is a repository implementation detail, not a defining part of the
+well-known index standard. The `is_seeded` property currently supports that
+implementation workflow:
+
+```json
+{
+  "is_seeded": false
+}
+```
+
+* `true` marks uncurated output from an automated repository seeder.
+* `false` marks a file that has been reviewed or enriched by a person or
+  curation process.
+
+General-purpose seeders must not overwrite curated payer directories.
+Purpose-specific curation tools should preserve curated facts except for the
+fields they explicitly exist to change.
+
+The Medicare Advantage seeder temporarily derives seed FPIs from
+`LEGAL_NAME_HASH` because payer legal name is available in its source data.
+That mechanism does not define permanent payer identity and is not a
+recommendation to payers. A payer self-issuing its FPI chooses either an
+accepted generated UUID version or a supported source identifier.

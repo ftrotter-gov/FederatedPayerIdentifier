@@ -1,4 +1,11 @@
-# Specification: Well-Known JSON Seed Generator
+# Historical Specification: Well-Known JSON Seed Generator
+
+> **Implementation note:** This document records the original seeding request.
+> Where it conflicts with the current implementation or current project
+> documentation, follow `tools/seed_medicare_advantage/seed.py`,
+> `GeneratingFederatedPayerIdentifiers.md`, and `WellKnownFileFormat.md`.
+> In particular, the original one-file-per-contract and contract-derived FPI
+> directions below have been superseded.
 
 ## Overview
 
@@ -62,46 +69,57 @@ Each routing block should contain all plan identifiers that resolve to that iden
 
 ## Output
 
-Generate one well-known JSON file for each payer contract_id. 
+Consolidate contracts that source data associates with the same normalized
+payer name into one seeded payer file. This is a temporary seeding compromise,
+not a permanent assertion that payer name defines legal identity.
+
+Generate one well-known JSON file for each consolidated seeded payer.
 The folder to store these is /payer_index_files/medicare_advantage
 Use a "safe name replacement" to create the directory name from the company name, like.. for "METROPLUS HEALTH PLAN, INC." you would write 
 /payer_index_files/medicare_advantage/metroplus_health_plan_inc/ 
 switch everything to lower case, replace spaces with underscore and remove all special characters for the directory name.
 
-The name of the file should be the same name as the directory, with the generated FPI (which will be different for every contract id.)
-So we would expect to see: 
+The filename is the safe payer name followed by the generated seeded FPI.
+Multiple contract identifiers for the same consolidated payer belong in that
+file's identifier and plan data rather than producing one FPI per contract.
 
 ```bash
 /payer_index_files/medicare_advantage/metroplus_health_plan_inc/metroplus_health_plan_inc_cb562654-b244-4b46-ad06-163105a82e1d.well_known_payer.json
-/payer_index_files/medicare_advantage/metroplus_health_plan_inc/metroplus_health_plan_inc_cb562654-b244-4b46-ad06-163105a82e43.well_known_payer.json
 ```
 
-Where the two files represent the same company name, but different FPI numbers. 
+The generated record must set `is_seeded` to `true`. A person or curation
+process that enriches the record must set it to `false`. Once a payer directory
+contains curated content, this general-purpose seeder must not overwrite it.
 
 The output should conform to the well-known JSON format documented WellKnownFileFormat.md 
 Most fields articulated in that example will not be available. There will only be one endpoint type we can extract: "davinci_pdex_provider_directory_endpoint#1.1"
 
 The generated output should be minimal, containing only the routing blocks required to represent the distinct endpoint configurations for that payer.
 
-In order to generate the FPI, use uuid5 like this: 
+For seed data only, derive the temporary FPI from `LEGAL_NAME_HASH` by importing
+the shared generation function from `tools/FPI_maker_cli.py`. Do not duplicate
+UUID generation logic in the seeder and do not default to `CMS_CONTRACT_ID`.
+Contracts identify contracts, not necessarily the legal payer entity holding
+assets and liability for the beneficiary population.
 
 ```python
 
-import uuid
+from FPI_maker_cli import generate_fpi
 
-parent_namespace = uuid.NAMESPACE_DNS
-
-medicare_advantage_system_uuid = uuid.uuid5(parent_namespace, "CMS_CONTRACT_ID.fhir")
-
-this_payers_FPI = uuid.uuid5(medicare_advantage_system_uuid, '12345')
+this_payers_fpi = generate_fpi(
+    system_id="LEGAL_NAME_HASH",
+    payer_id_value="METROPLUS HEALTH PLAN, INC.",
+)
 
 ```
 
-Make sure to also add the medicare advantage contract id to the identifier list as:
+Add each Medicare Advantage contract ID to the payer identifier list using the
+current `CMS_CONTRACT_ID` system URL from
+`reference_data/current_payer_identification_systems.json`.
 
-"system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePayerIdentifer"
-
-for the initial implementation.
+This seeding workflow does not select the payer's permanent FPI. The payer may
+later self-issue a random UUID or a UUIDv5 based on any supported identifier it
+chooses. Different source choices are not expected to converge.
 
 Please store the program in tools/seed_medicare_advantage/seed.py
 Look for the source files in tools/seed_medicare_advantage/source_data
