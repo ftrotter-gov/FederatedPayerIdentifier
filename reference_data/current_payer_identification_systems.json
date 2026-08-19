@@ -26,7 +26,7 @@
       "acronym": "State Medicaid Managed Care Organization Identifier",
       "assigning_authority": "State Medicaid Agency",
       "is_defunct": false,
-      "system": "https://directory.cms.gov/payer_identification_system/mco_id",
+      "system": "https://directory.cms.gov/payer_identification_system/state_mco_id",
       "description": "An identifier assigned by a state Medicaid program to a managed care organization or Medicaid plan.",
       "data_lookup_url": "https://www.medicaid.gov/medicaid/managed-care/enrollment-report",
       "is_current": true,
@@ -196,6 +196,17 @@
       "data_lookup_url": null,
       "is_current": false,
       "expired_date": "1996-03-01"
+    },
+    {
+      "id": "LEGAL_NAME_HASH",
+      "acronym": "Legal Name Hash",
+      "assigning_authority": "Federated Payer Identifier Project",
+      "is_defunct": false,
+      "system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "description": "A deterministic identifier derived from a payer's legal name, generated as implemented in tools/seed_medicare_advantage/seed.py. The legal name is first normalized by lowercasing it and removing every character that is not a-z or 0-9 (e.g. 'Aetna Health, Inc.' becomes 'aetnahealthinc'). A UUID version 5 is then formed by chaining from the DNS namespace: system_uuid = uuid5(NAMESPACE_DNS, 'PAYER_NAME.fhir'), and the final identifier = uuid5(system_uuid, normalized_legal_name). Payers whose legal names normalize to the same string are treated as the same payer entity and share a single identifier. We expect to retire this identifier, since it will have frequent collisions and is not a standard identifier system.",
+      "data_lookup_url": null,
+      "is_current": true,
+      "expired_date": null
     },
     {
       "id": "NCPDP_PAYER_ID",
