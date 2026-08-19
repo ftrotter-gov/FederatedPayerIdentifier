@@ -4,11 +4,13 @@
   "payerLegalName": "HEALTHFIRST INSURANCE COMPANY, INC.",
   "identifier": [
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/FederatedPayerIdentifier",
-      "value": "817d7c5c-5c06-591b-8fa6-d4690d187e7b"
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "817d7c5c-5c06-591b-8fa6-d4690d187e7b",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HEALTHFIRST INSURANCE COMPANY, INC."
     },
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePayerIdentifer",
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
       "value": "H9678"
     }
   ],
@@ -16,8 +18,8 @@
     {
       "plan_identifiers": [
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "002",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9678-002",
           "plan_name": "Healthfirst Signature (PPO)"
         }
       ],

@@ -4,11 +4,13 @@
   "payerLegalName": "AMERICAN HEALTH PLAN OF FL, INC.",
   "identifier": [
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/FederatedPayerIdentifier",
-      "value": "d4cc1c53-b225-5a1d-91a5-8dfcaa857b8e"
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "d4cc1c53-b225-5a1d-91a5-8dfcaa857b8e",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "AMERICAN HEALTH PLAN OF FL, INC."
     },
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePayerIdentifer",
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
       "value": "H6652"
     }
   ],
@@ -16,8 +18,8 @@
     {
       "plan_identifiers": [
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "001",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6652-001",
           "plan_name": "American Health Advantage of Florida (HMO I-SNP)"
         }
       ],

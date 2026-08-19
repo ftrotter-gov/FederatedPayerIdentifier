@@ -4,11 +4,13 @@
   "payerLegalName": "HEALTHSPRING OF FLORIDA, INC.",
   "identifier": [
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/FederatedPayerIdentifier",
-      "value": "5fc615ed-be1b-5bf3-a4eb-27d4ff983317"
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "5fc615ed-be1b-5bf3-a4eb-27d4ff983317",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HEALTHSPRING OF FLORIDA, INC."
     },
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePayerIdentifer",
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
       "value": "H5410"
     }
   ],
@@ -16,88 +18,88 @@
     {
       "plan_identifiers": [
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "004",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5410-004",
           "plan_name": "HealthSpring Courage (HMO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "013",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5410-013",
           "plan_name": "HealthSpring TotalCare (HMO D-SNP)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "018",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5410-018",
           "plan_name": "HealthSpring Preferred (HMO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "024",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5410-024",
           "plan_name": "HealthSpring Preferred (HMO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "025",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5410-025",
           "plan_name": "HealthSpring TotalCare Plus (HMO D-SNP)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "026",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5410-026",
           "plan_name": "HealthSpring Preferred Savings (HMO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "031",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5410-031",
           "plan_name": "HealthSpring TotalCare Plus (HMO D-SNP)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "032",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5410-032",
           "plan_name": "HealthSpring TotalCare Plus (HMO D-SNP)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "042",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5410-042",
           "plan_name": "HealthSpring TotalCare Plus (HMO D-SNP)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "045",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5410-045",
           "plan_name": "HealthSpring TotalCare (HMO D-SNP)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "046",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5410-046",
           "plan_name": "HealthSpring TotalCare (HMO D-SNP)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "047",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5410-047",
           "plan_name": "HealthSpring TotalCare Plus (HMO D-SNP)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "055",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5410-055",
           "plan_name": "HealthSpring TotalCare (HMO D-SNP)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "056",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5410-056",
           "plan_name": "HealthSpring TotalCare (HMO D-SNP)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "808",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5410-808",
           "plan_name": "HealthSpring Preferred (HMO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "059",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5410-059",
           "plan_name": "HealthSpring Preferred (HMO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "060",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5410-060",
           "plan_name": "HealthSpring Preferred (HMO)"
         }
       ],

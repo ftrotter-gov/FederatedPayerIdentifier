@@ -4,11 +4,13 @@
   "payerLegalName": "COVENTRY HEALTH AND LIFE INSURANCE COMPANY",
   "identifier": [
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/FederatedPayerIdentifier",
-      "value": "70a03b45-4b59-5a7b-9362-1473b6e72b68"
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "70a03b45-4b59-5a7b-9362-1473b6e72b68",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "COVENTRY HEALTH AND LIFE INSURANCE COMPANY"
     },
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePayerIdentifer",
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
       "value": "H1608"
     }
   ],
@@ -16,193 +18,193 @@
     {
       "plan_identifiers": [
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "001",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-001",
           "plan_name": "Aetna Medicare Signature (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "012",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-012",
           "plan_name": "Aetna Medicare Signature (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "013",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-013",
           "plan_name": "Aetna Medicare Enhanced (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "016",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-016",
           "plan_name": "Aetna Medicare Signature (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "017",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-017",
           "plan_name": "Aetna Medicare Signature Extra (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "018",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-018",
           "plan_name": "Aetna Medicare Signature (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "021",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-021",
           "plan_name": "Aetna Medicare Signature Plus (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "024",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-024",
           "plan_name": "Aetna Medicare Signature (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "027",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-027",
           "plan_name": "Aetna Medicare Advantra Enhanced (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "028",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-028",
           "plan_name": "Aetna Medicare Enhanced (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "029",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-029",
           "plan_name": "Aetna Medicare Advantra (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "031",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-031",
           "plan_name": "Aetna Medicare Advantra Signature Giveback (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "037",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-037",
           "plan_name": "Aetna Medicare Elite (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "038",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-038",
           "plan_name": "Aetna Medicare Signature Extra (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "040",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-040",
           "plan_name": "Aetna Medicare Advantra Signature (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "050",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-050",
           "plan_name": "Aetna Medicare Elite (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "051",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-051",
           "plan_name": "Aetna Medicare Signature (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "052",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-052",
           "plan_name": "Aetna Medicare Elite (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "054",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-054",
           "plan_name": "Aetna Medicare Elite (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "061",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-061",
           "plan_name": "Aetna Medicare Eagle (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "062",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-062",
           "plan_name": "Aetna Medicare Dual (PPO D-SNP)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "067",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-067",
           "plan_name": "Aetna Medicare Signature (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "070",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-070",
           "plan_name": "Aetna Medicare Signature (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "072",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-072",
           "plan_name": "Aetna Medicare Signature (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "074",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-074",
           "plan_name": "Aetna Medicare Eagle Giveback (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "076",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-076",
           "plan_name": "Aetna Medicare Dual Extra (PPO D-SNP)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "077",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-077",
           "plan_name": "Aetna Medicare Dual (PPO D-SNP)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "079",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-079",
           "plan_name": "Aetna Medicare Signature Giveback (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "081",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-081",
           "plan_name": "Aetna Medicare Signature Extra (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "085",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-085",
           "plan_name": "Aetna Medicare Premier (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "105",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-105",
           "plan_name": "Aetna Medicare Signature (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "109",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-109",
           "plan_name": "Aetna Medicare Elite (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "120",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-120",
           "plan_name": "Aetna Medicare Signature (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "801",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-801",
           "plan_name": "Aetna Medicare Plan (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "117",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-117",
           "plan_name": "Aetna Medicare Enhanced Extra (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "118",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-118",
           "plan_name": "Aetna Medicare Enhanced Extra (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "119",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-119",
           "plan_name": "Aetna Medicare Enhanced Extra (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "121",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-121",
           "plan_name": "Aetna Medicare Full Dual (PPO D-SNP)"
         }
       ],

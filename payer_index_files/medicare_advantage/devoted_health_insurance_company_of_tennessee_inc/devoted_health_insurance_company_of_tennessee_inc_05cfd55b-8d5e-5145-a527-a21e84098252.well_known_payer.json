@@ -4,11 +4,13 @@
   "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF TENNESSEE INC",
   "identifier": [
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/FederatedPayerIdentifier",
-      "value": "05cfd55b-8d5e-5145-a527-a21e84098252"
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "05cfd55b-8d5e-5145-a527-a21e84098252",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF TENNESSEE INC"
     },
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePayerIdentifer",
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
       "value": "H9231"
     }
   ],
@@ -16,68 +18,68 @@
     {
       "plan_identifiers": [
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "002",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9231-002",
           "plan_name": "DEVOTED CHOICE GIVEBACK 002 TN (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "005",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9231-005",
           "plan_name": "DEVOTED CHOICE GIVEBACK 005 TN (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "006",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9231-006",
           "plan_name": "DEVOTED CHOICE GIVEBACK 006 TN (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "007",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9231-007",
           "plan_name": "DEVOTED CHOICE 007 TN (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "010",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9231-010",
           "plan_name": "DEVOTED CHOICE 010 TN (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "011",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9231-011",
           "plan_name": "DEVOTED CHOICE 011 TN (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "012",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9231-012",
           "plan_name": "DEVOTED CHOICE GIVEBACK 012 TN (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "015",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9231-015",
           "plan_name": "DEVOTED CHOICE 015 TN (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "016",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9231-016",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 016 TN (PPO C-SNP)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "017",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9231-017",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 017 TN (PPO C-SNP)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "018",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9231-018",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 018 TN (PPO C-SNP)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "019",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9231-019",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 019 TN (PPO C-SNP)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "020",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9231-020",
           "plan_name": "DEVOTED C-SNP CHOICE PLUS 020 TN (PPO C-SNP)"
         }
       ],

@@ -4,11 +4,13 @@
   "payerLegalName": "HUMANA HEALTH PLAN, INC.",
   "identifier": [
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/FederatedPayerIdentifier",
-      "value": "1c9261fc-d3bf-5354-bf3e-73d25816d551"
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "1c9261fc-d3bf-5354-bf3e-73d25816d551",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HUMANA HEALTH PLAN, INC."
     },
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePayerIdentifer",
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
       "value": "H5178"
     }
   ],
@@ -16,8 +18,8 @@
     {
       "plan_identifiers": [
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "002",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5178-002",
           "plan_name": "Humana Community (HMO)"
         }
       ],

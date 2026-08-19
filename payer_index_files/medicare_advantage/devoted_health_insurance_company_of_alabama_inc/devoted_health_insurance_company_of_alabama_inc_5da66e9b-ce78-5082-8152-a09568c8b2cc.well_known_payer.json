@@ -4,11 +4,13 @@
   "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF ALABAMA INC",
   "identifier": [
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/FederatedPayerIdentifier",
-      "value": "5da66e9b-ce78-5082-8152-a09568c8b2cc"
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "5da66e9b-ce78-5082-8152-a09568c8b2cc",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF ALABAMA INC"
     },
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePayerIdentifer",
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
       "value": "H9888"
     }
   ],
@@ -16,68 +18,68 @@
     {
       "plan_identifiers": [
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "001",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9888-001",
           "plan_name": "DEVOTED CHOICE 001 AL (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "002",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9888-002",
           "plan_name": "DEVOTED CHOICE 002 AL (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "005",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9888-005",
           "plan_name": "DEVOTED CHOICE GIVEBACK 005 AL (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "006",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9888-006",
           "plan_name": "DEVOTED CHOICE GIVEBACK 006 AL (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "007",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9888-007",
           "plan_name": "DEVOTED CHOICE MA ONLY 007 AL (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "008",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9888-008",
           "plan_name": "DEVOTED C-SNP CHOICE 008 AL (PPO C-SNP)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "009",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9888-009",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 009 AL (PPO C-SNP)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "010",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9888-010",
           "plan_name": "DEVOTED C-SNP CHOICE 010 AL (PPO C-SNP)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "011",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9888-011",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 011 AL (PPO C-SNP)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "012",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9888-012",
           "plan_name": "DEVOTED C-SNP CHOICE PLUS 012 AL (PPO C-SNP)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "013",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9888-013",
           "plan_name": "DEVOTED DUAL CHOICE FULL 013 AL (PPO D-SNP)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "014",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9888-014",
           "plan_name": "DEVOTED DUAL CHOICE FULL 014 AL (PPO D-SNP)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "015",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9888-015",
           "plan_name": "DEVOTED C-SNP CHOICE PLUS 015 AL (PPO C-SNP)"
         }
       ],

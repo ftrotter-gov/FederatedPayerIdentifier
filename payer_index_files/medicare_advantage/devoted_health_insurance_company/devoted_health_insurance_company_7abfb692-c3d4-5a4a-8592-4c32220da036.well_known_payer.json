@@ -4,11 +4,13 @@
   "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY",
   "identifier": [
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/FederatedPayerIdentifier",
-      "value": "7abfb692-c3d4-5a4a-8592-4c32220da036"
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "7abfb692-c3d4-5a4a-8592-4c32220da036",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY"
     },
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePayerIdentifer",
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
       "value": "H9884"
     }
   ],
@@ -16,23 +18,23 @@
     {
       "plan_identifiers": [
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "008",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9884-008",
           "plan_name": "DEVOTED CHOICE GIVEBACK 008 FL (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "013",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9884-013",
           "plan_name": "DEVOTED CHOICE GIVEBACK 013 FL (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "014",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9884-014",
           "plan_name": "DEVOTED CHOICE MA ONLY 014 FL (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "015",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9884-015",
           "plan_name": "DEVOTED CHOICE 015 FL (PPO)"
         }
       ],

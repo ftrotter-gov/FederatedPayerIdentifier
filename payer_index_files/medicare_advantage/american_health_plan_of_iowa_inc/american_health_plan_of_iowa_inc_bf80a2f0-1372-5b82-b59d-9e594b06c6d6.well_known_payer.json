@@ -4,11 +4,13 @@
   "payerLegalName": "AMERICAN HEALTH PLAN OF IOWA INC",
   "identifier": [
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/FederatedPayerIdentifier",
-      "value": "bf80a2f0-1372-5b82-b59d-9e594b06c6d6"
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "bf80a2f0-1372-5b82-b59d-9e594b06c6d6",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "AMERICAN HEALTH PLAN OF IOWA INC"
     },
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePayerIdentifer",
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
       "value": "H6765"
     }
   ],
@@ -16,13 +18,13 @@
     {
       "plan_identifiers": [
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "001",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6765-001",
           "plan_name": "Iowa Health Advantage (HMO I-SNP)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "002",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6765-002",
           "plan_name": "Iowa Health Advantage Choice (HMO I-SNP)"
         }
       ],

@@ -4,11 +4,13 @@
   "payerLegalName": "VILLAGE SENIOR SERVICES CORPORATION",
   "identifier": [
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/FederatedPayerIdentifier",
-      "value": "273dc52a-a021-5834-bc9f-1cec607236bf"
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "273dc52a-a021-5834-bc9f-1cec607236bf",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "VILLAGE SENIOR SERVICES CORPORATION"
     },
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePayerIdentifer",
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
       "value": "H2168"
     }
   ],
@@ -16,18 +18,18 @@
     {
       "plan_identifiers": [
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "001",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2168-001",
           "plan_name": "VillageCareMAX Medicare Health Advantage Plan (HMO D-SNP)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "002",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2168-002",
           "plan_name": "VillageCareMAX Medicare Total Advantage Plan (HMO D-SNP)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "004",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2168-004",
           "plan_name": "VillageCareMAX Medicare Select Advantage Plan (HMO)"
         }
       ],

@@ -4,11 +4,13 @@
   "payerLegalName": "Inland Empire Health Plan",
   "identifier": [
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/FederatedPayerIdentifier",
-      "value": "9fa67da3-c06c-562e-8fad-d7770a8b6088"
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "9fa67da3-c06c-562e-8fad-d7770a8b6088",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "Inland Empire Health Plan"
     },
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePayerIdentifer",
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
       "value": "H8894"
     }
   ],
@@ -16,8 +18,8 @@
     {
       "plan_identifiers": [
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "001",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8894-001",
           "plan_name": "IEHP DualChoice (HMO D-SNP)"
         }
       ],

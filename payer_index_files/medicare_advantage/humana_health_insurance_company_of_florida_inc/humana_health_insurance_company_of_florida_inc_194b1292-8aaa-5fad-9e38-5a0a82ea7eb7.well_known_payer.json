@@ -4,11 +4,13 @@
   "payerLegalName": "HUMANA HEALTH INSURANCE COMPANY OF FLORIDA, INC.",
   "identifier": [
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/FederatedPayerIdentifier",
-      "value": "194b1292-8aaa-5fad-9e38-5a0a82ea7eb7"
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "194b1292-8aaa-5fad-9e38-5a0a82ea7eb7",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HUMANA HEALTH INSURANCE COMPANY OF FLORIDA, INC."
     },
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePayerIdentifer",
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
       "value": "H7284"
     }
   ],
@@ -16,23 +18,23 @@
     {
       "plan_identifiers": [
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "001",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7284-001",
           "plan_name": "HumanaChoice Florida H7284-001 (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "008",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7284-008",
           "plan_name": "HumanaChoice Florida H7284-008 (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "009",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7284-009",
           "plan_name": "HumanaChoice Florida H7284-009 (PPO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "010",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7284-010",
           "plan_name": "HumanaChoice Florida SNP-DE H7284-010 (PPO D-SNP)"
         }
       ],

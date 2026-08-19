@@ -1,6 +1,17 @@
 {
   "payer_identifier_systems": [
     {
+      "id": "FPI",
+      "acronym": "Federated Payer Identifier",
+      "assigning_authority": "Federated Payer Identifier Project",
+      "is_defunct": false,
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "description": "A prototype 'rough consensus working code' identifier system that enables healthcare payers in the United States to self-enumerate in support of a National Provider and Payer Directory. Payers generate their own identifiers and publish Payer Well-Known Endpoint Files that map payer and plan identifiers to FHIR endpoints and other interoperability metadata, supporting user-friendly plan discovery and crosswalks between the various payer identifier systems. This is an early exploratory prototype and should not be considered a formal or permanent identification system.",
+      "data_lookup_url": "https://github.com/ftrotter-gov/FederatedPayerIdentifier",
+      "is_current": true,
+      "expired_date": null
+    },
+    {
       "id": "HIOS_ID",
       "acronym": "Health Insurance Oversight System",
       "assigning_authority": "CMS",

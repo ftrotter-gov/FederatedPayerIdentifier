@@ -4,11 +4,13 @@
   "payerLegalName": "DEVOTED HEALTH PLAN OF SOUTH CAROLINA INC",
   "identifier": [
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/FederatedPayerIdentifier",
-      "value": "18c004f9-432c-502e-9a96-e6f12382fe84"
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "18c004f9-432c-502e-9a96-e6f12382fe84",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "DEVOTED HEALTH PLAN OF SOUTH CAROLINA INC"
     },
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePayerIdentifer",
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
       "value": "H3041"
     }
   ],
@@ -16,13 +18,13 @@
     {
       "plan_identifiers": [
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "001",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3041-001",
           "plan_name": "DEVOTED CORE 001 SC (HMO)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "003",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3041-003",
           "plan_name": "DEVOTED PREMIUM 003 SC (HMO)"
         }
       ],

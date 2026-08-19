@@ -4,11 +4,13 @@
   "payerLegalName": "COVENTRY HEALTH CARE OF VIRGINIA, INC.",
   "identifier": [
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/FederatedPayerIdentifier",
-      "value": "6f73024f-18ea-5ae7-a052-c4ff2ae8418f"
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "6f73024f-18ea-5ae7-a052-c4ff2ae8418f",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "COVENTRY HEALTH CARE OF VIRGINIA, INC."
     },
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePayerIdentifer",
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
       "value": "H1610"
     }
   ],
@@ -16,8 +18,8 @@
     {
       "plan_identifiers": [
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "001",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1610-001",
           "plan_name": "Aetna Medicare FIDE (HMO D-SNP)"
         }
       ],

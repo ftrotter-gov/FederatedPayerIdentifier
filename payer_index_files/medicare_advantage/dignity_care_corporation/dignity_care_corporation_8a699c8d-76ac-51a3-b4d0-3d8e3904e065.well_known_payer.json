@@ -4,11 +4,13 @@
   "payerLegalName": "DIGNITY CARE CORPORATION",
   "identifier": [
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/FederatedPayerIdentifier",
-      "value": "8a699c8d-76ac-51a3-b4d0-3d8e3904e065"
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "8a699c8d-76ac-51a3-b4d0-3d8e3904e065",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "DIGNITY CARE CORPORATION"
     },
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePayerIdentifer",
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
       "value": "H8492"
     }
   ],
@@ -16,8 +18,8 @@
     {
       "plan_identifiers": [
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "001",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8492-001",
           "plan_name": "American Health Advantage of Louisiana (HMO I-SNP)"
         }
       ],

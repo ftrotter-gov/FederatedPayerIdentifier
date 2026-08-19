@@ -4,11 +4,13 @@
   "payerLegalName": "KANSAS SUPERIOR SELECT, INC.",
   "identifier": [
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/FederatedPayerIdentifier",
-      "value": "92a4d0af-b9f1-5875-a909-4f480828d041"
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "92a4d0af-b9f1-5875-a909-4f480828d041",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "KANSAS SUPERIOR SELECT, INC."
     },
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePayerIdentifer",
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
       "value": "H2392"
     }
   ],
@@ -16,13 +18,13 @@
     {
       "plan_identifiers": [
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "001",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2392-001",
           "plan_name": "Kansas Health Advantage (HMO I-SNP)"
         },
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "003",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2392-003",
           "plan_name": "Kansas Health Advantage Choice (HMO I-SNP)"
         }
       ],

@@ -4,11 +4,13 @@
   "payerLegalName": "AETNA BETTER HEALTH PREMIER PLAN MMAI INC.",
   "identifier": [
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/FederatedPayerIdentifier",
-      "value": "88c463b7-de36-5ef4-ba70-ac11ce82345d"
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "88c463b7-de36-5ef4-ba70-ac11ce82345d",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "AETNA BETTER HEALTH PREMIER PLAN MMAI INC."
     },
     {
-      "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePayerIdentifer",
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
       "value": "H9771"
     }
   ],
@@ -16,8 +18,8 @@
     {
       "plan_identifiers": [
         {
-          "system": "http://hl7.org/fhir/us/fast-ndh/NotSure/WhatGoesHere/MedicarePlanIdentifer",
-          "value": "001",
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9771-001",
           "plan_name": "Aetna Medicare FIDE (HMO D-SNP)"
         }
       ],
