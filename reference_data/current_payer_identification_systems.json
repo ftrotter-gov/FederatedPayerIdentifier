@@ -22,13 +22,24 @@
       "expired_date": null
     },
     {
-      "id": "MCO_ID",
+      "id": "STATE_MCO_ID",
       "acronym": "State Medicaid Managed Care Organization Identifier",
       "assigning_authority": "State Medicaid Agency",
       "is_defunct": false,
       "system": "https://directory.cms.gov/payer_identification_system/mco_id",
       "description": "An identifier assigned by a state Medicaid program to a managed care organization or Medicaid plan.",
       "data_lookup_url": "https://www.medicaid.gov/medicaid/managed-care/enrollment-report",
+      "is_current": true,
+      "expired_date": null
+    },
+    {
+      "id": "STATE_DOI_ID",
+      "acronym": "State Department of Insurance Identifier",
+      "assigning_authority": "State Department of Insurance",
+      "is_defunct": false,
+      "system": "https://directory.cms.gov/payer_identification_system/state_doi_id",
+      "description": "State-level dept of insurance. dataurl is from Texas as an example",
+      "data_lookup_url": "https://www.tdi.texas.gov/insurer/clhmo.html",
       "is_current": true,
       "expired_date": null
     },
