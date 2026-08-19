@@ -140,5 +140,6 @@
         "davinci_pdex_provider_directory_endpoint#1.1": "https://solisapigwprovider.azurewebsites.net/api/provider-directory/H0982/001/000/fhir.json"
       }
     }
-  ]
+  ],
+  "is_seeded": true
 }

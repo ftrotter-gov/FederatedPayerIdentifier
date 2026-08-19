@@ -257,13 +257,14 @@ def build_well_known_json(normalized_name, canonical_name, contract_entries, cro
         "payerLegalName": canonical_name,
         "identifier": identifier,
         "plan_groups": plan_groups,
+        "is_seeded": True,
     }
 
     return doc, fpi, total_plans
 
 
 # The complete set of top-level keys the seed writes.
-SEED_TOP_LEVEL_KEYS = {"copied_from_url", "resourceType", "payerLegalName", "identifier", "plan_groups"}
+SEED_TOP_LEVEL_KEYS = {"copied_from_url", "is_seeded", "resourceType", "payerLegalName", "identifier", "plan_groups"}
 
 # Keys the seed writes inside each plan_identifier entry.
 SEED_PLAN_IDENTIFIER_KEYS = {"system", "value", "plan_name"}
@@ -318,9 +319,14 @@ def collect_extra_fields(existing_doc, seed_doc):
 def write_output_file(doc, payer_name, fpi):
     """Write the well-known JSON document to the appropriate subdirectory under payer_index_files/medicare_advantage/.
 
-    If the target file already exists and contains fields beyond what the seed produces,
-    it has been enriched beyond the seed data and will NOT be overwritten.  A warning is
-    printed and the function returns (filepath, skipped=True).
+    Overwrite policy for existing files:
+      1. The existing file's "is_seeded" flag must be exactly true.  Once a human
+         (or another tool) begins manually curating a file, they set is_seeded to
+         false (or it is absent), and the seed will never overwrite it again.
+      2. As a second line of defense, if the existing file contains fields beyond
+         what the seed produces, it has been enriched beyond the seed data and
+         will NOT be overwritten even if is_seeded is still true.
+    A warning is printed and the function returns (filepath, skipped=True) when skipping.
     """
     dir_name = safe_name(payer_name)
     output_dir = os.path.join(OUTPUT_BASE_DIR, dir_name)
@@ -329,11 +335,18 @@ def write_output_file(doc, payer_name, fpi):
     filename = f"{dir_name}_{fpi}.well_known_payer.json"
     filepath = os.path.join(output_dir, filename)
 
-    # Guard: if the file exists, check whether it has grown beyond the seed.
     if os.path.exists(filepath):
         try:
             with open(filepath, encoding="utf-8") as f:
                 existing_doc = json.load(f)
+
+            # Guard 1: only overwrite files that are still marked as pure seed output.
+            existing_is_seeded = existing_doc.get("is_seeded", False)
+            if existing_is_seeded is not True:
+                print(f"    !! SKIPPED (is_seeded is {json.dumps(existing_is_seeded)}, not true — file is manually curated):")
+                return filepath, True
+
+            # Guard 2: check whether the file has grown beyond the seed's own fields.
             extra_fields = collect_extra_fields(existing_doc, doc)
             if extra_fields:
                 print(f"    !! SKIPPED (file has grown beyond seed data):")

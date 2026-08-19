@@ -40,5 +40,6 @@
         "davinci_pdex_provider_directory_endpoint#1.1": "https://inno-cms-prd-pb.s3.us-east-1.amazonaws.com/bcbsaz_2027/index.json"
       }
     }
-  ]
+  ],
+  "is_seeded": true
 }

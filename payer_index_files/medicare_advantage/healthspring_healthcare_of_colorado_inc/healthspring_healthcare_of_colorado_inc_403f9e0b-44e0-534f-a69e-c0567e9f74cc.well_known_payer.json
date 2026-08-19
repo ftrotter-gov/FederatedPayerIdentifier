@@ -75,5 +75,6 @@
         "davinci_pdex_provider_directory_endpoint#1.1": "https://data.healthspring.healthlx.com:8003/"
       }
     }
-  ]
+  ],
+  "is_seeded": true
 }

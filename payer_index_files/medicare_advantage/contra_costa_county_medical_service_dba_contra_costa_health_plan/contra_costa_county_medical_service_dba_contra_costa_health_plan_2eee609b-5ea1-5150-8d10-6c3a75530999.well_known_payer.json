@@ -25,5 +25,6 @@
         "davinci_pdex_provider_directory_endpoint#1.1": "https://ihyml0v6d9.execute-api.us-east-1.amazonaws.com/hxprod/metadata"
       }
     }
-  ]
+  ],
+  "is_seeded": true
 }

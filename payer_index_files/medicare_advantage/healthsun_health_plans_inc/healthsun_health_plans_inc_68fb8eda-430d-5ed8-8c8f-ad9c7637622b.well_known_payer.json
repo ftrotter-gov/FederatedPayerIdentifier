@@ -85,5 +85,6 @@
         "davinci_pdex_provider_directory_endpoint#1.1": "https://stgwusconnectstgsa002.blob.core.windows.net/healthsun-provider-directory-2026/index.json"
       }
     }
-  ]
+  ],
+  "is_seeded": true
 }

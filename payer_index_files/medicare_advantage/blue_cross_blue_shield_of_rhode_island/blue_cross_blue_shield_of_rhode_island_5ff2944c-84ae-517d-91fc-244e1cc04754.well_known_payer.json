@@ -60,5 +60,6 @@
         "davinci_pdex_provider_directory_endpoint#1.1": "https://transmitapi.goperspecta.com/v2/bcbsri/ProviderDirectoryIndex"
       }
     }
-  ]
+  ],
+  "is_seeded": true
 }

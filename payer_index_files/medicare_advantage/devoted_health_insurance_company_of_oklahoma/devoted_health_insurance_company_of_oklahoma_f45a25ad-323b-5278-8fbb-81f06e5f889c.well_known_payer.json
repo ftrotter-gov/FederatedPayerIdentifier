@@ -60,5 +60,6 @@
         "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.devoted.com/H2845/2026"
       }
     }
-  ]
+  ],
+  "is_seeded": true
 }

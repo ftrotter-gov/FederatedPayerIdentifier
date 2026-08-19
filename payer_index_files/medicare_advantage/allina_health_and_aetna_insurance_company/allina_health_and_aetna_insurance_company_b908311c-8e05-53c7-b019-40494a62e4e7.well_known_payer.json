@@ -75,5 +75,6 @@
         "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
       }
     }
-  ]
+  ],
+  "is_seeded": true
 }

@@ -25,5 +25,6 @@
         "davinci_pdex_provider_directory_endpoint#1.1": "https://d17y0kd1bpes7q.cloudfront.net/cms-mpf/CY2027/H9678/index.json"
       }
     }
-  ]
+  ],
+  "is_seeded": true
 }
