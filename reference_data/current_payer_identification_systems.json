@@ -6,14 +6,20 @@
       "assigning_authority": "CMS",
       "is_defunct": false,
       "system": "https://directory.cms.gov/payer_identification_system/hios_id",
-      "description": "A web-based application used by the Centers for Medicare & Medicaid Services (CMS). It acts as a central portal for state entities and private health insurance issuers to submit, collect, and manage plan and issuer data. HIOS Issuer IDs are commonly used to identify ACA Marketplace issuers."
+      "description": "A web-based application used by the Centers for Medicare & Medicaid Services (CMS). It acts as a central portal for state entities and private health insurance issuers to submit, collect, and manage plan and issuer data. HIOS Issuer IDs are commonly used to identify ACA Marketplace issuers.",
+      "data_lookup_url": "https://www.cms.gov/marketplace/resources/data/public-use-files",
+      "is_current": true,
+      "expired_date": null
     },
     {
       "id": "CMS_CONTRACT_ID",
       "assigning_authority": "CMS",
       "is_defunct": false,
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "description": "A Medicare Advantage, Part D, Cost Plan, PACE, or other CMS contract number. A unique alphanumeric identifier assigned by CMS to the organization operating the plan."
+      "description": "A Medicare Advantage, Part D, Cost Plan, PACE, or other CMS contract number. A unique alphanumeric identifier assigned by CMS to the organization operating the plan.",
+      "data_lookup_url": "https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-advantagepart-d-contract-and-enrollment-data",
+      "is_current": true,
+      "expired_date": null
     },
     {
       "id": "MCO_ID",
@@ -21,7 +27,10 @@
       "assigning_authority": "State Medicaid Agency",
       "is_defunct": false,
       "system": "https://directory.cms.gov/payer_identification_system/mco_id",
-      "description": "An identifier assigned by a state Medicaid program to a managed care organization or Medicaid plan."
+      "description": "An identifier assigned by a state Medicaid program to a managed care organization or Medicaid plan.",
+      "data_lookup_url": "https://www.medicaid.gov/medicaid/managed-care/enrollment-report",
+      "is_current": true,
+      "expired_date": null
     },
     {
       "id": "HPID",
@@ -29,7 +38,10 @@
       "assigning_authority": "CMS",
       "is_defunct": true,
       "system": "https://directory.cms.gov/payer_identification_system/hpid",
-      "description": "A retired identifier system created under the Affordable Care Act intended to provide a national identifier for health plans. Implementation was suspended and the identifier is no longer in active use."
+      "description": "A retired identifier system created under the Affordable Care Act intended to provide a national identifier for health plans. Implementation was suspended and the identifier is no longer in active use.",
+      "data_lookup_url": "https://www.cms.gov/priorities/key-initiatives/burden-reduction/administrative-simplification/unique-identifiers/hpid",
+      "is_current": false,
+      "expired_date": "2019-12"
     },
     {
       "id": "NAIC_ID",
@@ -37,7 +49,10 @@
       "assigning_authority": "NAIC",
       "is_defunct": false,
       "system": "https://directory.cms.gov/payer_identification_system/naic_id",
-      "description": "A unique numeric code assigned to insurance company legal entities regulated by state insurance departments."
+      "description": "A unique numeric code assigned to insurance company legal entities regulated by state insurance departments.",
+      "data_lookup_url": "https://content.naic.org/cis_consumer_information.htm",
+      "is_current": true,
+      "expired_date": null
     },
     {
       "id": "EIN",
@@ -45,7 +60,10 @@
       "assigning_authority": "IRS",
       "is_defunct": false,
       "system": "https://directory.cms.gov/payer_identification_system/ein",
-      "description": "A federal tax identifier assigned to organizations. Often used as a payer identifier for self-funded ERISA plans and employer-sponsored health plans."
+      "description": "A federal tax identifier assigned to organizations. Often used as a payer identifier for self-funded ERISA plans and employer-sponsored health plans.",
+      "data_lookup_url": "https://apps.irs.gov/app/eos/",
+      "is_current": true,
+      "expired_date": null
     },
     {
       "id": "LEI",
@@ -53,7 +71,10 @@
       "assigning_authority": "GLEIF",
       "is_defunct": false,
       "system": "https://directory.cms.gov/payer_identification_system/lei",
-      "description": "A unique 20-character alphanumeric identifier used to identify legal entities participating in financial and business transactions."
+      "description": "A unique 20-character alphanumeric identifier used to identify legal entities participating in financial and business transactions.",
+      "data_lookup_url": "https://search.gleif.org/",
+      "is_current": true,
+      "expired_date": null
     },
     {
       "id": "vLEI",
@@ -61,7 +82,10 @@
       "assigning_authority": "GLEIF",
       "is_defunct": false,
       "system": "https://directory.cms.gov/payer_identification_system/vlei",
-      "description": "A cryptographically verifiable digital form of the LEI that enables automated verification of organizational identity and authorized representatives."
+      "description": "A cryptographically verifiable digital form of the LEI that enables automated verification of organizational identity and authorized representatives.",
+      "data_lookup_url": "https://www.gleif.org/en/organizational-identity/get-an-lei-vlei/get-a-vlei",
+      "is_current": true,
+      "expired_date": null
     },
     {
       "id": "X12_PAYER_ID_OPTUM",
@@ -69,7 +93,10 @@
       "assigning_authority": "Optum",
       "is_defunct": false,
       "system": "https://directory.cms.gov/payer_identification_system/x12_payer_id_optum",
-      "description": "An X12 electronic transaction routing identifier assigned and maintained within the Optum clearinghouse ecosystem."
+      "description": "An X12 electronic transaction routing identifier assigned and maintained within the Optum clearinghouse ecosystem.",
+      "data_lookup_url": "https://customerconnect.optum.com/payerlist",
+      "is_current": true,
+      "expired_date": null
     },
     {
       "id": "X12_PAYER_ID_TRIZETTO",
@@ -77,7 +104,10 @@
       "assigning_authority": "TriZetto",
       "is_defunct": false,
       "system": "https://directory.cms.gov/payer_identification_system/x12_payer_id_trizetto",
-      "description": "An X12 electronic transaction routing identifier assigned and maintained within the TriZetto clearinghouse ecosystem."
+      "description": "An X12 electronic transaction routing identifier assigned and maintained within the TriZetto clearinghouse ecosystem.",
+      "data_lookup_url": "https://www.trizettoprovider.com/resources/payer-list",
+      "is_current": true,
+      "expired_date": null
     },
     {
       "id": "X12_PAYER_ID_AVAILITY",
@@ -85,7 +115,10 @@
       "assigning_authority": "Availity",
       "is_defunct": false,
       "system": "https://directory.cms.gov/payer_identification_system/x12_payer_id_availity",
-      "description": "An X12 electronic transaction routing identifier assigned and maintained within the Availity clearinghouse ecosystem."
+      "description": "An X12 electronic transaction routing identifier assigned and maintained within the Availity clearinghouse ecosystem.",
+      "data_lookup_url": "https://essentials.availity.com/static/public/onb/onboarding-ui-apps/payer-list-ui/",
+      "is_current": true,
+      "expired_date": null
     },
     {
       "id": "X12_PAYER_ID_CHANGE_HEALTHCARE",
@@ -93,7 +126,10 @@
       "assigning_authority": "Change Healthcare",
       "is_defunct": false,
       "system": "https://directory.cms.gov/payer_identification_system/x12_payer_id_change_healthcare",
-      "description": "An X12 electronic transaction routing identifier assigned and maintained within the Change Healthcare clearinghouse ecosystem."
+      "description": "An X12 electronic transaction routing identifier assigned and maintained within the Change Healthcare clearinghouse ecosystem.",
+      "data_lookup_url": "https://customerconnect.optum.com/payerlist",
+      "is_current": true,
+      "expired_date": null
     },
     {
       "id": "X12_PAYER_ID_EMDEON",
@@ -101,7 +137,10 @@
       "assigning_authority": "Emdeon",
       "is_defunct": false,
       "system": "https://directory.cms.gov/payer_identification_system/x12_payer_id_emdeon",
-      "description": "A legacy X12 electronic transaction routing identifier assigned within the Emdeon clearinghouse ecosystem."
+      "description": "A legacy X12 electronic transaction routing identifier assigned within the Emdeon clearinghouse ecosystem.",
+      "data_lookup_url": "https://customerconnect.optum.com/payerlist",
+      "is_current": true,
+      "expired_date": null
     },
     {
       "id": "X12_PAYER_ID_WAYSTAR",
@@ -109,15 +148,10 @@
       "assigning_authority": "Waystar",
       "is_defunct": false,
       "system": "https://directory.cms.gov/payer_identification_system/x12_payer_id_waystar",
-      "description": "An X12 electronic transaction routing identifier assigned and maintained within the Waystar clearinghouse ecosystem."
-    },
-    {
-      "id": "X12_PAYER_ID_ZELIS",
-      "acronym": "X12 Payer ID",
-      "assigning_authority": "Zelis",
-      "is_defunct": false,
-      "system": "https://directory.cms.gov/payer_identification_system/x12_payer_id_zelis",
-      "description": "An X12 electronic transaction routing identifier assigned and maintained within the Zelis clearinghouse ecosystem."
+      "description": "An X12 electronic transaction routing identifier assigned and maintained within the Waystar clearinghouse ecosystem.",
+      "data_lookup_url": "https://login.zirmed.com/ui/Payers",
+      "is_current": true,
+      "expired_date": null
     },
     {
       "id": "X12_PAYER_ID_OFFICE_ALLY",
@@ -125,7 +159,10 @@
       "assigning_authority": "Office Ally",
       "is_defunct": false,
       "system": "https://directory.cms.gov/payer_identification_system/x12_payer_id_office_ally",
-      "description": "An X12 electronic transaction routing identifier assigned and maintained within the Office Ally clearinghouse ecosystem."
+      "description": "An X12 electronic transaction routing identifier assigned and maintained within the Office Ally clearinghouse ecosystem.",
+      "data_lookup_url": "https://cms.officeally.com/payerlist",
+      "is_current": true,
+      "expired_date": null
     },
     {
       "id": "X12_PAYER_ID_SSI_GROUP",
@@ -133,7 +170,10 @@
       "assigning_authority": "SSI Group",
       "is_defunct": false,
       "system": "https://directory.cms.gov/payer_identification_system/x12_payer_id_ssi_group",
-      "description": "An X12 electronic transaction routing identifier assigned and maintained within the SSI Group clearinghouse ecosystem."
+      "description": "An X12 electronic transaction routing identifier assigned and maintained within the SSI Group clearinghouse ecosystem.",
+      "data_lookup_url": "https://thessigroup.com/ssi-claims-direct-now-available/",
+      "is_current": true,
+      "expired_date": null
     },
     {
       "id": "X12_ROUTING_NEIC_ID",
@@ -141,7 +181,10 @@
       "assigning_authority": "NEIC",
       "is_defunct": true,
       "system": "https://directory.cms.gov/payer_identification_system/x12_routing_neic_id",
-      "description": "A historical payer routing identifier from the National Electronic Information Corporation (NEIC), an early healthcare EDI network. Many systems still refer to payer IDs as 'NEIC IDs' even though the organization no longer exists."
+      "description": "A historical payer routing identifier from the National Electronic Information Corporation (NEIC), an early healthcare EDI network. Many systems still refer to payer IDs as 'NEIC IDs' even though the organization no longer exists.",
+      "data_lookup_url": null,
+      "is_current": false,
+      "expired_date": "1996-03-01"
     },
     {
       "id": "NCPDP_PAYER_ID",
@@ -149,7 +192,10 @@
       "assigning_authority": "NCPDP",
       "is_defunct": false,
       "system": "https://directory.cms.gov/payer_identification_system/ncpdp_payer_id",
-      "description": "A payer identifier used within NCPDP pharmacy transaction standards. NCPDP identifiers are commonly used in pharmacy claims processing and pharmacy benefit management systems."
+      "description": "A payer identifier used within NCPDP pharmacy transaction standards. NCPDP identifiers are commonly used in pharmacy claims processing and pharmacy benefit management systems.",
+      "data_lookup_url": "https://www.ncpdp.org/NCPDP/media/pdf/Resources/NCPDP-Processor-ID-(BIN).pdf?ext=.pdf",
+      "is_current": true,
+      "expired_date": null
     }
   ]
 }
