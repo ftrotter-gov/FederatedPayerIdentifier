@@ -63,7 +63,7 @@ Second Round of Questions and Answers
 
 10. **STATE_DOI_ID collision prevention.** State DOI numbers are only unique within a state. Prefix state-level codes with the two-digit state code (e.g. `TX-68775`) to prevent collisions. Update the state-based uuid generation instructions and the source code in tools/FPI_maker_cli.py to do this. Also update GeneratingFederatedPayerIdentifiers.md to reflect this.
 
-11. **Documentation updates.** GeneratingFederatedPayerIdentifiers.md also needs to be updated to note that the FPI itself is in the payer identifier system list (reference_data/current_payer_identification_systems.json). Also update the examples in example_wellknown_payer_index.json and WellKnownFileFormat.md to reflect the four-component first FPI entry in "identifier" (i.e. `system`, `value`, `fpi_source_system`, `fpi_source_value`).
+11. **Documentation updates.** GeneratingFederatedPayerIdentifiers.md also needs to be updated to note that the FPI itself is in the payer identifier system list (reference_data/current_payer_identification_systems.json). Also update the examples in example_wellknown_payer_index.json and WellKnownFileFormat.md to reflect the four-component first FPI entry in "identifier" (i.e. `system`, `value`, `fpi_source_system`, `fpi_source_value`). Only that FPI entry may contain `fpi_source_system` and `fpi_source_value`; all remaining entries are payer routing and crosswalk identifiers and must not contain those fields.
 
 12. **Generic X12_PAYER_ID reference entry wording.** No preferences on the description/assigning-authority wording.
 

@@ -38,10 +38,10 @@ well_known_payer_json = {
     {
             //the first identifier is the Federated Payer Identifier, which is the system of payer-self-enumeration.
             //there can only be one of these identifiers in the file and it should be the first one.
-            //a UUIDv5 entry has four components: system, value, fpi_source_system,
-            //and fpi_source_value. A generated UUID that is not based on another
-            //payer identifier has only system and value because
-            //there is no source identifier.
+            //ONLY this FPI entry may contain fpi_source_system and fpi_source_value.
+            //When the FPI is UUIDv5, this entry has four components: system, value,
+            //fpi_source_system, and fpi_source_value. When the FPI is generated
+            //without another payer identifier, this entry has only system and value.
             //this system is what marks this identifier as the FPI.
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
             //the following must be a UUID selected and self-issued by the payer.
@@ -55,6 +55,7 @@ well_known_payer_json = {
             //  fpi         = uuid5(system_uuid, "12345")
       "value": "13e068e1-cd54-5baa-b7e3-79761afe7afc",
             //fpi_source_system records which payer identifier system was used to generate a UUIDv5 FPI.
+            //It is metadata about FPI generation and is valid only on the FPI entry.
             //it must be one of the "system" urls from reference_data/current_payer_identification_systems.json
             //(but never the fpi system itself — you cannot derive an FPI from another FPI).
             //NOTE: do not default to CMS contract numbers here. Contract numbers identify contracts,
@@ -62,12 +63,16 @@ well_known_payer_json = {
             //between payers. The payer chooses whether to use another accepted UUID version or any
             //supported source identifier.
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/naic_id",
-            //fpi_source_value records the identifier value (within fpi_source_system) that was hashed to produce the FPI uuid.
+            //fpi_source_value records the identifier value (within fpi_source_system) that was hashed to produce the FPI UUID.
+            //It is metadata about FPI generation and is valid only on the FPI entry.
             //for state-level systems (e.g. STATE_DOI_ID) this value must carry the two-letter state prefix, e.g. "TX-68775".
       "fpi_source_value": "12345"
     },
 
-    //after this, please list all of the payer identifiers for your company that exist in other payer identifier systems.
+    //after the FPI entry, list payer routing and crosswalk identifiers that exist
+    //in other payer identifier systems. These non-FPI entries MUST NOT contain
+    //fpi_source_system or fpi_source_value. Those two fields describe how the FPI
+    //was generated; they do not describe routing identifiers.
     //the "system" url must come from reference_data/current_payer_identification_systems.json —
     //that file is the current enumeration of the available payer identifier systems
     //(i.e. NAIC company codes, CMS contract IDs, HIOS, EIN, LEI, X12 payer IDs, etc).

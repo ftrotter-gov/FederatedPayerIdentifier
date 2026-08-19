@@ -81,6 +81,11 @@ To propose another system, submit a pull request that adds it to that file.
 
 Note that the FPI itself (`FPI`) is also listed in that file as a payer identifier system, so that FPIs can be recorded and crosswalked alongside every other payer identifier. However, the `FPI` system may **not** be used as an FPI source namespace — you cannot derive an FPI from another FPI, and the FPI Maker CLI excludes it from the selectable namespaces.
 
+In a payer well-known index, only the single FPI entry may carry
+`fpi_source_system` and `fpi_source_value`. Those fields record how that FPI was
+generated. Other entries in the identifier list are payer routing and crosswalk
+identifiers and must not carry FPI-generation source fields.
+
 ### State-level identifier systems require a state prefix
 
 Some identifier systems (currently `STATE_DOI_ID` and `STATE_MCO_ID`) are assigned by individual states, and their values are only unique *within* a single state. Texas DOI number `68775` and some other state's DOI number `68775` would otherwise hash to the same FPI.
