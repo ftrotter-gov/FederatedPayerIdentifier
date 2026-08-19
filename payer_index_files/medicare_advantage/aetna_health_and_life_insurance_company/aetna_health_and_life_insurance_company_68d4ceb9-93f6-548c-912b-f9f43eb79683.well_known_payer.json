@@ -275,7 +275,25 @@
         "Aetna Medicare Value Plus"
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
+        "davinci_crd_hook_endpoint#1.1": "https://apix.cvshealth.com/v1/cdshooks/cds-services/",
+        "davinci_crd_hook_endpoint#1.2": null,
+        "davinci_dtr_qpackage_endpoint#1.2": null,
+        "davinci_pas_submission_endpoint#1.2": "https://apix.cvshealth.com/priorauthorizationsupport/v1/Claim/$submit",
+        "davinci_cdex_attachsubmit_endpoint#2.1": "https://apix.cvshealth.com/clinicaldataexchange/v1/$submit-attachment",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": null,
+        "davinci_provider_payer_access_endpoint#1.1": "https://apix.cvshealth.com/provideraccess/v1/",
+        "davinci_payer_to_payer_endpoint#1.1": null,
+        "carin_bluebutton_endpoint#1.0": "https://apif1.aetna.com/fhir/v3/patientaccess/",
+        "carin_bluebutton_endpoint#1.0_uscore3.1": "https://apif1.aetna.com/fhir/v2/patientaccess/",
+        "davinci_pdex_patient_endpoint#2.0": "https://apif1.aetna.com/fhir/v3/patientaccess/",
+        "davinci_pdex_patient_endpoint#2.0_uscore3.1": "https://apif1.aetna.com/fhir/v2/patientaccess/",
+        "carin_rtpbc_member_endpoint#1.0": "https://apif1.aetna.com/fhir/v1/realtimepharmacybenefitcheck/",
+        "carin_rtpbc_provider_endpoint#1.0": "https://apix.cvshealth.com/realtimepharmacybenefitcheck/v1/",
+        "davinci_pdex_formulary_endpoint#2.0": "https://apif1.aetna.com/fhir/v3/patientaccess/",
+        "payer_homepage": "https://www.aetna.com/",
+        "ndh_meta_fhir_signup_url": "https://developerportal.aetna.com/",
+        "ndh_meta_documentation_url": "https://developerportal.aetna.com/fhirapiasegregation"
       }
     }
   ],
