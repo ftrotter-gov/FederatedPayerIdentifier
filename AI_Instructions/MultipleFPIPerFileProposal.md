@@ -37,7 +37,7 @@ There MAY be multiple identifier entries for which `is_fpi` is `true`.
 
 This replaces the current assumption that the first identifier in the `identifier` array is the one and only FPI.
 
-The `is_fpi` property is intentionally named differently from an `fpi` reference. `is_fpi` is a Boolean describing the identifier record itself, while `fpi` is used elsewhere in the file to reference a specific FPI UUID.
+The `is_fpi` property is intentionally named differently from a `parent_fpi` reference. `is_fpi` is a Boolean describing the identifier record itself, while `parent_fpi` is used on both non-FPI payer identifiers and plan identifiers to reference a specific FPI UUID.
 
 ## 2. Associate Non-FPI Identifiers With a Parent FPI
 
@@ -123,9 +123,9 @@ The existing `fpi_source_system` and `fpi_source_value` semantics do not change.
 
 ## 4. Associate Every Plan With an FPI
 
-Every entry in `plan_identifiers` SHALL include an `fpi` property.
+Every entry in `plan_identifiers` SHALL include a `parent_fpi` property.
 
-The value of `fpi` SHALL be the UUID of the FPI representing the legal payer entity associated with that plan.
+The value of `parent_fpi` SHALL be the UUID of the FPI representing the legal payer entity associated with that plan. Using `parent_fpi` here mirrors the same field name used on non-FPI payer identifiers, making the relationship consistent across both identifier and plan contexts.
 
 For example:
 
@@ -134,7 +134,7 @@ For example:
   "system": "http://example.org/plan_identifier",
   "value": "432",
 
-  "fpi": "5e4c4d18-0725-58ce-9477-d8482ea11016",
+  "parent_fpi": "5e4c4d18-0725-58ce-9477-d8482ea11016",
 
   "plan_name": "This Very Good Plan",
 
@@ -156,7 +156,7 @@ The referenced FPI MUST appear in the same well-known file in an identifier reco
 
 This creates an explicit relationship:
 
-**Plan → FPI → Legal payer entity**
+**Plan → parent_fpi → FPI → Legal payer entity**
 
 It also removes the need to infer which payer owns or contracts for a particular plan based on the file in which the plan happens to appear.
 
@@ -168,8 +168,8 @@ A conforming multi-FPI well-known file SHALL satisfy the following rules:
 2. Every identifier entry MUST contain `is_fpi`.
 3. Every identifier with `is_fpi: false` MUST contain `parent_fpi`.
 4. Every `parent_fpi` MUST resolve to the `value` of an identifier in the same file for which `is_fpi: true`.
-5. Every plan identifier MUST contain an `fpi`.
-6. Every plan identifier's `fpi` MUST resolve to the `value` of an identifier in the same file for which `is_fpi: true`.
+5. Every plan identifier MUST contain a `parent_fpi`.
+6. Every plan identifier's `parent_fpi` MUST resolve to the `value` of an identifier in the same file for which `is_fpi: true`.
 7. `payerLegalName`, `payerContactWebsite`, and `payer_level_string_search_matches` SHALL be associated with an FPI identifier rather than applying globally to all FPIs in the file.
 
 These requirements allow consumers to validate all payer and plan relationships without relying on array order or implicit file-level assumptions.
@@ -180,7 +180,7 @@ The existing `plan_group` concept can remain largely unchanged.
 
 A plan group represents a set of plans that share the same endpoint set. Multiple plan groups can therefore continue to exist within a single well-known file.
 
-Each plan within a plan group identifies its associated legal payer entity through its `fpi` property.
+Each plan within a plan group identifies its associated legal payer entity through its `parent_fpi` property.
 
 For the initial multi-FPI implementation:
 
@@ -321,7 +321,7 @@ A simplified file containing two FPIs could look as follows:
           "value":
             "432",
 
-          "fpi":
+          "parent_fpi":
             "11111111-1111-5111-8111-111111111111",
 
           "plan_name":
@@ -356,7 +356,7 @@ A simplified file containing two FPIs could look as follows:
           "value":
             "987",
 
-          "fpi":
+          "parent_fpi":
             "22222222-2222-5222-8222-222222222222",
 
           "plan_name":
@@ -426,13 +426,13 @@ Supporting multiple FPIs in a single well-known file requires the following chan
    * `fpi_source_system`
    * `fpi_source_value`
 
-6. **Add an `fpi` reference to every plan identifier.**
+6. **Add a `parent_fpi` reference to every plan identifier.**
 
-   The value identifies the legal payer entity associated with the plan.
+   The value identifies the legal payer entity associated with the plan. Using `parent_fpi` mirrors the field name used on non-FPI payer identifiers for consistency.
 
 7. **Require all FPI references to resolve locally.**
 
-   Both `parent_fpi` and plan-level `fpi` values MUST reference an FPI declared in the same well-known file.
+   Both `parent_fpi` on payer identifiers and `parent_fpi` on plan identifiers MUST reference an FPI declared in the same well-known file.
 
 8. **Keep plan groups FPI-homogeneous initially.**
 
@@ -480,7 +480,7 @@ Remove `payerLegalName`, `payerContactWebsite`, and `payer_level_string_search_m
 - There MAY be multiple entries with `"is_fpi": true`.
 
 **3. Rewrite the `plan_identifiers` section**
-- Every plan identifier entry MUST include `"fpi"` — the UUID of the FPI representing the legal entity that owns the plan.
+- Every plan identifier entry MUST include `"parent_fpi"` — the UUID of the FPI representing the legal entity that owns the plan.
 - The referenced FPI MUST appear in the same file as an identifier with `"is_fpi": true`.
 
 **4. Add a validation rules section**
@@ -507,8 +507,8 @@ The new example will:
 4. State DOI ID `is_fpi: false` with `parent_fpi` → FPI 2
 
 **Plan groups (2 groups):**
-- Plan group 1: Plans belonging to FPI 1, each with `"fpi": "<FPI-1-uuid>"`, with the full existing endpoint set
-- Plan group 2: Plans belonging to FPI 2, each with `"fpi": "<FPI-2-uuid>"`, with a different endpoint URL to show plan-group separation
+- Plan group 1: Plans belonging to FPI 1, each with `"parent_fpi": "<FPI-1-uuid>"`, with the full existing endpoint set
+- Plan group 2: Plans belonging to FPI 2, each with `"parent_fpi": "<FPI-2-uuid>"`, with a different endpoint URL to show plan-group separation
 
 **Retain existing keys**: `copied_from_url`, `resourceType`, `is_seeded`
 

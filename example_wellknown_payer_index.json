@@ -75,7 +75,7 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1234-432",
-          "fpi": "13e068e1-cd54-5baa-b7e3-79761afe7afc",
+          "parent_fpi": "13e068e1-cd54-5baa-b7e3-79761afe7afc",
           "f_plan_id": "a38f7115-9579-47ed-9ff0-65c084ec258c",
           "plan_name": "This Very Good Plan",
           "plan_website": "https://example.com/plan_432",
@@ -88,7 +88,7 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1234-433",
-          "fpi": "13e068e1-cd54-5baa-b7e3-79761afe7afc",
+          "parent_fpi": "13e068e1-cd54-5baa-b7e3-79761afe7afc",
           "f_plan_id": "1e971a10-5764-4857-838d-f5c75cc988f2",
           "plan_name": "This Very Good Plan Preferred",
           "plan_website": "https://example.com/plan_433",
@@ -102,7 +102,7 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1234-434",
-          "fpi": "13e068e1-cd54-5baa-b7e3-79761afe7afc",
+          "parent_fpi": "13e068e1-cd54-5baa-b7e3-79761afe7afc",
           "f_plan_id": "5319528b-5703-48f4-b552-d7d60d99b622",
           "plan_name": "This Very Good Plan Excel",
           "plan_website": "https://example.com/plan_434",
@@ -165,7 +165,7 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5678-001",
-          "fpi": "5e4c4d18-0725-58ce-9477-d8482ea11016",
+          "parent_fpi": "5e4c4d18-0725-58ce-9477-d8482ea11016",
           "f_plan_id": "e40aa90b-c70a-4f38-b5ba-a40d7ec857b7",
           "plan_name": "This Very Good Texas Plan",
           "plan_website": "https://tx.example.com/plan_001",
@@ -178,7 +178,7 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5678-002",
-          "fpi": "5e4c4d18-0725-58ce-9477-d8482ea11016",
+          "parent_fpi": "5e4c4d18-0725-58ce-9477-d8482ea11016",
           "f_plan_id": "dfc79256-0348-4332-9d82-3830131a113e",
           "plan_name": "This Very Good Texas Plan Preferred",
           "plan_website": "https://tx.example.com/plan_002",

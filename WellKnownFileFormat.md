@@ -46,8 +46,8 @@ well_known_payer_json = {
   //   3. Every identifier with is_fpi: false MUST contain "parent_fpi".
   //   4. Every "parent_fpi" MUST resolve to the "value" of an entry in this
   //      file for which is_fpi: true.
-  //   5. Every plan identifier MUST contain "fpi".
-  //   6. Every plan identifier's "fpi" MUST resolve to the "value" of an entry
+  //   5. Every plan identifier MUST contain "parent_fpi".
+  //   6. Every plan identifier's "parent_fpi" MUST resolve to the "value" of an entry
   //      in this file for which is_fpi: true.
   //   7. payerLegalName, payerContactWebsite, and payer_level_string_search_matches
   //      MUST appear inside an FPI identifier entry, not at the file root.
@@ -167,11 +167,13 @@ well_known_payer_json = {
             "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
             "value": "H1234-432",
 
-            // fpi is required on every plan identifier. Its value is the UUID of
-            // the FPI representing the legal payer entity that owns this plan.
+            // parent_fpi is required on every plan identifier. Its value is the UUID
+            // of the FPI representing the legal payer entity that owns this plan.
             // The referenced FPI MUST appear in the "identifier" array above as
-            // an entry with is_fpi: true.
-            "fpi": "13e068e1-cd54-5baa-b7e3-79761afe7afc",
+            // an entry with is_fpi: true. Using "parent_fpi" here mirrors the same
+            // field name used on non-FPI payer identifiers, making the relationship
+            // consistent across both identifier and plan contexts.
+            "parent_fpi": "13e068e1-cd54-5baa-b7e3-79761afe7afc",
 
             // f_plan_id is the Federated Plan Identifier — a randomly generated
             // UUID (UUIDv4) that uniquely identifies this specific plan entry
@@ -200,7 +202,7 @@ well_known_payer_json = {
         {
             "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
             "value": "H1234-433",
-            "fpi": "13e068e1-cd54-5baa-b7e3-79761afe7afc",
+            "parent_fpi": "13e068e1-cd54-5baa-b7e3-79761afe7afc",
             "f_plan_id": "1e971a10-5764-4857-838d-f5c75cc988f2",
             "plan_name": "This Very Good Plan Preferred",
             "plan_website": "https://example.com/plan_433",
@@ -218,7 +220,7 @@ well_known_payer_json = {
         {
             "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
             "value": "H1234-434",
-            "fpi": "13e068e1-cd54-5baa-b7e3-79761afe7afc",
+            "parent_fpi": "13e068e1-cd54-5baa-b7e3-79761afe7afc",
             "f_plan_id": "5319528b-5703-48f4-b552-d7d60d99b622",
             "plan_name": "This Very Good Plan Excel",
             "plan_website": "https://example.com/plan_434",
@@ -348,5 +350,5 @@ accepted generated UUID version or a supported source identifier.
 
 **Note on seeder compatibility:** The Medicare Advantage seeder (`tools/seed_medicare_advantage/seed.py`)
 has not yet been updated to emit the new multi-FPI format fields (`is_fpi`,
-`parent_fpi` on crosswalk identifiers, or `fpi` on plan identifiers). Seeded
+`parent_fpi` on crosswalk identifiers, or `parent_fpi` on plan identifiers). Seeded
 files will not conform to the current format until the seeder is updated.
