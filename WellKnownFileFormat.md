@@ -173,6 +173,16 @@ well_known_payer_json = {
             // an entry with is_fpi: true.
             "fpi": "13e068e1-cd54-5baa-b7e3-79761afe7afc",
 
+            // f_plan_id is the Federated Plan Identifier — a randomly generated
+            // UUID (UUIDv4) that uniquely identifies this specific plan entry
+            // within the FPI ecosystem. Unlike the fpi (which identifies the
+            // contracting legal payer entity), f_plan_id operates at the
+            // individual plan level. Each distinct plan_identifier object MUST
+            // have its own unique f_plan_id. The value is randomly generated
+            // (not derived from any plan attribute), so it does not encode
+            // plan name, contract ID, or any other plan metadata.
+            "f_plan_id": "a38f7115-9579-47ed-9ff0-65c084ec258c",
+
             "plan_name": "This Very Good Plan",
             "plan_website": "https://example.com/plan_432",
             // plan_level_string_search_matches is scoped to this specific plan
@@ -191,6 +201,7 @@ well_known_payer_json = {
             "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
             "value": "H1234-433",
             "fpi": "13e068e1-cd54-5baa-b7e3-79761afe7afc",
+            "f_plan_id": "1e971a10-5764-4857-838d-f5c75cc988f2",
             "plan_name": "This Very Good Plan Preferred",
             "plan_website": "https://example.com/plan_433",
             // Each plan identifier carries its own plan_level_string_search_matches
@@ -208,6 +219,7 @@ well_known_payer_json = {
             "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
             "value": "H1234-434",
             "fpi": "13e068e1-cd54-5baa-b7e3-79761afe7afc",
+            "f_plan_id": "5319528b-5703-48f4-b552-d7d60d99b622",
             "plan_name": "This Very Good Plan Excel",
             "plan_website": "https://example.com/plan_434",
             // Likewise, plan 434 has its own distinct (though possibly overlapping)
