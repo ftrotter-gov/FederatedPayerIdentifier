@@ -162,70 +162,164 @@ Endpoints are the payload of routing. A downstream system that has found the
 right payer and plan needs to know:
 
 - What protocol the endpoint speaks (FHIR REST, bulk, non-FHIR).
-- Which Implementation Guide and version the endpoint implements (e.g.
-  Da Vinci CRD 1.1, Da Vinci CRD 2.0, CARIN Blue Button 2.0).
+- Which Implementation Guide the endpoint implements (e.g. Da Vinci CRD,
+  CARIN Blue Button, Da Vinci PDex Formulary).
+- Which **version** of that IG the endpoint implements.
 - The URL.
 
 The current well-known index encodes this as structured keys like
-`davinci_crd_hook#2.0` pointing to a URL. Plan-Net already has the structural
-machinery to express this — it just is not required to use it.
+`davinci_crd_hook#2.0` pointing to a URL. Plan-Net already has structural
+machinery to express this — it just is not required to use it, and its current
+type vocabulary is the wrong vocabulary for the job.
 
-### The MustSupport gap: `endpoint-usecase`
+### The current `endpoint-usecase` structure and its type binding problem
 
-Plan-Net's `endpoint-usecase` extension carries exactly the information needed:
-a `type` (what the endpoint is for) and a `standard` (a URI identifying the IG
-and version). This extension is present in Plan-Net STU 1.1.0 but is **not
-MustSupport**.
+The `endpoint-usecase` extension has two sub-elements:
 
-The consequence is that the existing NDH StructureMap
-(`PlanNetToNdhEndpointSM`) silently **discards** it:
+| Sub-element | Type | Card. | Current binding |
+|---|---|---|---|
+| `type` | CodeableConcept | 1..1 MS | `EndpointUsecaseVS` (extensible) |
+| `standard` | uri | 0..1 MS | none |
 
-```
-src.extension as vDroppedEndpointUsecase
-  where (url = 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/endpoint-usecase')
-  "dropPlanNetEndpointUsecases";
-```
-
-Without MustSupport on `endpoint-usecase`, a national directory populated from
-Plan-Net contains endpoints whose `connectionType` is `hl7-fhir-rest` and
-nothing more. There is no way to distinguish a prior authorization endpoint
-from a patient access endpoint from a provider directory endpoint. This is
-precisely the failure the well-known index exists to prevent.
+The `type` binding is the core problem. `EndpointUsecaseVS` draws from the
+HL7 `v3-ActReason` code system — a HIPAA administrative purpose vocabulary.
+Its nine codes answer **why** data is being exchanged (`TREAT`, `HPAYMT`,
+`HOPERAT`, etc.), not **which IG** an endpoint implements. Every payer FHIR
+endpoint would legitimately receive `TREAT` or `HOPERAT`. A URL alone cannot
+tell a consumer which IG is implemented — experience shows that
+`https://example.org/fhir/v1/` could be anything. The `v3-ActReason` codes
+make this no better. They are the wrong vocabulary for routing.
 
 ### Expressing multiple versions of the same IG
 
 The well-known index uses separate keys (`davinci_crd_hook#1.1` and
 `davinci_crd_hook#2.0`) to express that a payer supports two versions of the
 same IG simultaneously. In Plan-Net, this is expressed by publishing **two
-separate `Endpoint` resources**, each with its own `endpoint-usecase.standard`
-URI carrying a distinct version. No structural change to Plan-Net is needed —
-but the pattern must be **explicitly documented** in Plan-Net guidance and must
-be testable, which requires `endpoint-usecase` to be MustSupport.
+separate `Endpoint` resources**, each with its own type and version. The
+pattern must be **explicitly documented** in Plan-Net guidance and must be
+testable, which requires the endpoint type mechanism to be MustSupport.
+
+### Two approaches to fixing endpoint typing
+
+Both approaches require defining the same new CodeSystem — `PlanNetEndpointTypeCS`
+— with one code per named IG. The version lives separately, in `standard` or
+an equivalent field. The vocabulary therefore stays flat and finite: a new IG
+version adds a new `Endpoint` resource with a new version string, not a new
+code. A genuinely new IG adds one code. That is the entire maintenance model.
+
+Example codes for `PlanNetEndpointTypeCS`:
+
+| Code | IG |
+|---|---|
+| `davinci-crd` | Da Vinci Coverage Requirements Discovery |
+| `davinci-pas` | Da Vinci Prior Authorization Support |
+| `davinci-cdex` | Da Vinci Clinical Data Exchange |
+| `davinci-pdex-formulary` | Da Vinci PDex Formulary |
+| `davinci-pdex-provider-directory` | Da Vinci PDex Plan-Net provider directory |
+| `davinci-provider-payer-access` | Da Vinci Provider-Payer Access |
+| `davinci-payer-to-payer` | Da Vinci Payer-to-Payer |
+| `davinci-pdex-patient-access` | Da Vinci PDex Patient Access |
+| `carin-bluebutton` | CARIN Blue Button patient access |
+| `carin-rtpbc` | CARIN Real-Time Pharmacy Benefit Check |
+
+#### Approach A — Replace the type CodeSystem, keep the existing extension
+
+Rebind `endpoint-usecase.type` to a new value set drawing from
+`PlanNetEndpointTypeCS`. Promote `standard` to `1..1 MS` carrying the IG
+version string (e.g. `"2.0.0"`). The JSON shape of the extension is
+**unchanged**. The NDH StructureMap needs only to stop dropping the extension
+— no structural rewrite required.
+
+**JSON — Da Vinci CRD 2.0:**
+```json
+{
+  "extension": [{
+    "url": "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/endpoint-usecase",
+    "extension": [
+      { "url": "type", "valueCodeableConcept": { "coding": [{
+          "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/PlanNetEndpointTypeCS",
+          "code": "davinci-crd" }] } },
+      { "url": "standard", "valueUri": "2.0.0" }
+    ]
+  }],
+  "status": "active",
+  "connectionType": { "system": "...", "code": "hl7-fhir-rest" },
+  "address": "https://example.org/fhir/crd"
+}
+```
+
+**JSON — same payer, CRD 1.1 also supported (separate Endpoint resource):**
+```json
+{
+  "extension": [{
+    "url": "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/endpoint-usecase",
+    "extension": [
+      { "url": "type", "valueCodeableConcept": { "coding": [{
+          "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/PlanNetEndpointTypeCS",
+          "code": "davinci-crd" }] } },
+      { "url": "standard", "valueUri": "1.1.0" }
+    ]
+  }],
+  "status": "active",
+  "connectionType": { "system": "...", "code": "hl7-fhir-rest" },
+  "address": "https://example.org/fhir/crd/v1"
+}
+```
+
+#### Approach B — Define a new purpose-built extension
+
+Leave `endpoint-usecase` unchanged for its original HIPAA administrative
+purpose. Define a new Plan-Net extension — `endpoint-ig-conformance` — with
+two MustSupport fields: `ig-type` (CodeableConcept, drawing from
+`PlanNetEndpointTypeCS`) and `ig-version` (string). Clean separation of
+concerns, at the cost of balloting a new extension and requiring new NDH
+StructureMap rules rather than a simple fix to the existing drop.
+
+**JSON — Da Vinci CRD 2.0 under Approach B:**
+```json
+{
+  "extension": [{
+    "url": "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/endpoint-ig-conformance",
+    "extension": [
+      { "url": "ig-type", "valueCodeableConcept": { "coding": [{
+          "system": "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/PlanNetEndpointTypeCS",
+          "code": "davinci-crd" }] } },
+      { "url": "ig-version", "valueString": "2.0.0" }
+    ]
+  }],
+  "status": "active",
+  "connectionType": { "system": "...", "code": "hl7-fhir-rest" },
+  "address": "https://example.org/fhir/crd"
+}
+```
 
 ### Proposed Plan-Net changes
 
-**P6 — Promote `endpoint-usecase` to MustSupport.**
+**P6 — Promote `endpoint-usecase` to MustSupport.** *(required for both approaches)*
 
-This is the highest-leverage change in the endpoint layer. Once `endpoint-usecase`
-is MustSupport, every conformant payer must populate it, every conformant
-consumer must process it, and the NDH StructureMap can map it rather than drop
-it. Without this change, the entire endpoint routing problem remains unsolved
-in Plan-Net regardless of any other changes.
+Without this, the entire endpoint routing problem remains unsolved in Plan-Net
+regardless of any other changes. The NDH StructureMap currently silently drops
+this extension; MustSupport is what makes dropping it a conformance failure.
 
-**P7 — Require `endpoint-usecase.standard` to carry a versioned IG URI.**
+**P7A — Define `PlanNetEndpointTypeCS`, rebind `endpoint-usecase.type`, and
+promote `standard` to `1..1 MS`.** *(Approach A — recommended)*
 
-The `standard` sub-element of `endpoint-usecase` is a plain `uri`. Without
-explicit guidance, payers will omit the version. A versioned URI (e.g.
-`http://hl7.org/fhir/us/davinci-crd|2.0.0`) is what allows a consumer to
-distinguish CRD 1.1 from CRD 2.0. This should be a **SHALL** requirement with
-a computable invariant.
+Minimum change. Existing extension shape preserved. NDH StructureMap fix is
+a one-line change. The work group adds codes as new IGs are published.
 
-**P8 — Explicitly document the multiple-version Endpoint pattern.**
+**P7B — Define `endpoint-ig-conformance` as a new purpose-built extension.**
+*(Approach B — alternative)*
+
+Cleaner separation of concerns. Higher balloting cost. Requires new NDH
+StructureMap rules. Recommended only if the work group determines that
+repurposing `endpoint-usecase` is not acceptable.
+
+**P8 — Document the multiple-version Endpoint pattern.** *(both approaches)*
 
 Add a guidance section to Plan-Net stating that when a payer supports multiple
 versions of the same IG, each version is published as a separate `Endpoint`
-resource with its own `endpoint-usecase.standard` value. This is a
-documentation and testability change, not a structural one.
+resource with a distinct version value. Documentation and testability change
+only.
 
 ---
 
@@ -256,9 +350,10 @@ publication.
 | P3 | `plannet-Organization` | `telecom` (`system=url`) | Add `1..1 MS` contact-URL slice |
 | P4 | `plannet-Organization` | `alias` | Promote to MustSupport |
 | P5 | `plannet-InsurancePlan` | `contact.telecom` (`system=url`) | Add `1..1 MS` contact-URL slice |
-| P6 | `plannet-Endpoint` | `extension:endpoint-usecase` | Promote to MustSupport |
-| P7 | `plannet-Endpoint` | `endpoint-usecase.standard` | Require versioned IG URI (SHALL + invariant) |
-| P8 | Plan-Net guidance | (documentation) | Document multiple-version Endpoint pattern |
+| P6 | `plannet-Endpoint` | `extension:endpoint-usecase` | Promote to MustSupport (required for both approaches) |
+| P7A | `plannet-Endpoint` | `endpoint-usecase.type` + `standard` | Define `PlanNetEndpointTypeCS`; rebind `type`; promote `standard` to `1..1 MS` *(Approach A — recommended)* |
+| P7B | `plannet-Endpoint` | new extension | Define `endpoint-ig-conformance` with `ig-type` + `ig-version` fields *(Approach B — alternative)* |
+| P8 | Plan-Net guidance | (documentation) | Document multiple-version Endpoint pattern (both approaches) |
 
 ---
 
@@ -274,9 +369,10 @@ publication.
    Testing against real payer data is a prerequisite before presenting this
    pipeline as a production foundation.
 
-3. **What is the canonical form for a versioned IG URI in `endpoint-usecase.standard`?**
-   This needs agreement across Da Vinci work groups before an invariant can
-   be written for P7.
+3. **What is the canonical version string format for `endpoint-usecase.standard` (P7A) or `ig-version` (P7B)?**
+   Should this be a bare semver string (`"2.0.0"`), a full versioned canonical
+   URI, or something else? This needs agreement across Da Vinci work groups
+   before an invariant can be written.
 
 4. **How are non-FHIR URLs (payer homepage, documentation page) best expressed
    in Plan-Net?** The `rest-non-fhir` connection type exists, but using it for
