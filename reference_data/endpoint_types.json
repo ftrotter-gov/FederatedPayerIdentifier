@@ -1,0 +1,67 @@
+[
+  {
+    "type": "davinci_crd_hook_endpoint",
+    "ig_url": "https://hl7.org/fhir/us/davinci-crd/",
+    "documentation": "A CDS Hooks endpoint used by payers to return real-time coverage requirements and prior authorization guidance to providers at the point of care within their EHR workflow."
+  },
+  {
+    "type": "davinci_dtr_qpackage_endpoint",
+    "ig_url": "https://hl7.org/fhir/us/davinci-dtr/",
+    "documentation": "A FHIR endpoint that delivers payer-defined SMART on FHIR apps and Questionnaire packages to providers, enabling automated population of prior authorization and documentation forms directly within the EHR."
+  },
+  {
+    "type": "davinci_pas_submission_endpoint",
+    "ig_url": "https://hl7.org/fhir/us/davinci-pas/",
+    "documentation": "A FHIR endpoint that allows providers to submit prior authorization requests to payers in real time using X12 278 transactions wrapped in FHIR Bundles."
+  },
+  {
+    "type": "davinci_cdex_attachsubmit_endpoint",
+    "ig_url": "https://hl7.org/fhir/us/davinci-cdex/",
+    "documentation": "A FHIR endpoint that allows providers to submit clinical documentation (attachments) to payers in response to solicited or unsolicited requests, supporting claims and prior authorization workflows."
+  },
+  {
+    "type": "davinci_pdex_provider_directory_endpoint",
+    "ig_url": "https://hl7.org/fhir/us/davinci-pdex-plan-net/",
+    "documentation": "A FHIR RESTful endpoint exposing the payer's provider network directory, including practitioners, organizations, locations, and insurance plans, queryable one resource at a time."
+  },
+  {
+    "type": "davinci_pdex_provider_directory_endpoint_all_at_once",
+    "ig_url": "https://hl7.org/fhir/us/davinci-pdex-plan-net/",
+    "documentation": "A bulk download URL for the payer's complete provider network directory delivered as a pre-generated NDJSON archive, intended for consumers who need the full dataset rather than incremental queries."
+  },
+  {
+    "type": "davinci_provider_payer_access_endpoint",
+    "ig_url": "https://hl7.org/fhir/us/davinci-pdex/",
+    "documentation": "A FHIR endpoint that allows providers to access a patient's payer-held clinical and claims data, supporting care coordination and reducing duplicative data collection."
+  },
+  {
+    "type": "davinci_payer_to_payer_endpoint",
+    "ig_url": "https://hl7.org/fhir/us/davinci-pdex/",
+    "documentation": "A FHIR endpoint that enables one payer to retrieve a member's clinical and claims data from a prior payer when the member transitions coverage, supporting continuity of care."
+  },
+  {
+    "type": "davinci_pdex_patient_endpoint",
+    "ig_url": "https://hl7.org/fhir/us/davinci-pdex/",
+    "documentation": "A FHIR endpoint that allows patients (members) to access their own payer-held clinical and claims data, including adjudicated claims, encounters, and clinical information derived from those claims."
+  },
+  {
+    "type": "davinci_pdex_formulary_endpoint",
+    "ig_url": "https://hl7.org/fhir/us/davinci-drug-formulary/",
+    "documentation": "A FHIR endpoint that exposes a payer's drug formulary, including covered medications, tiers, cost-sharing details, and coverage restrictions for a given insurance plan."
+  },
+  {
+    "type": "carin_bluebutton_endpoint",
+    "ig_url": "https://hl7.org/fhir/us/carin-bb/",
+    "documentation": "A FHIR endpoint that provides patients with consumer-directed access to their adjudicated claims, encounter, and pharmacy data held by the payer, following the CARIN Alliance Blue Button 2.0 standard."
+  },
+  {
+    "type": "carin_rtpbc_member_endpoint",
+    "ig_url": "https://hl7.org/fhir/us/carin-rtpbc/",
+    "documentation": "A FHIR endpoint that allows patients to query their real-time pharmacy benefit cost and coverage information, including out-of-pocket costs and formulary alternatives, directly from the payer."
+  },
+  {
+    "type": "carin_rtpbc_provider_endpoint",
+    "ig_url": "https://hl7.org/fhir/us/carin-rtpbc/",
+    "documentation": "A FHIR endpoint that allows providers and pharmacies to query a patient's real-time pharmacy benefit information on behalf of the member, enabling accurate cost and coverage decisions at the point of prescribing or dispensing."
+  }
+]
