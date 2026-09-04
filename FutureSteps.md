@@ -25,12 +25,6 @@ will eventually need to evaluate domain-specific behavior, including:
 The validator should produce specific, actionable diagnostics. Validation rules
 must be documented alongside the implementation as they are adopted.
 
-## Coverage areas and geographic checks
-
-Geographic labels in names are not sufficient coverage-area data. Before the
-project treats apparent state or regional mismatches as errors, it needs a
-disciplined coverage-area model. That model can then support checks involving
-plan service areas, contracts, legal entities, and beneficiary populations.
 
 ## Historical identifiers and effective periods
 
