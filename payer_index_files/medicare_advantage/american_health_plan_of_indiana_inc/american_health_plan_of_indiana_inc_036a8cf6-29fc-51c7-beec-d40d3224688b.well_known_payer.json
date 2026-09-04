@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "AMERICAN HEALTH PLAN OF INDIANA INC",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "036a8cf6-29fc-51c7-beec-d40d3224688b",
+      "is_fpi": true,
+      "payerLegalName": "AMERICAN HEALTH PLAN OF INDIANA INC",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AMERICAN HEALTH PLAN OF INDIANA INC"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H9690"
+      "value": "H9690",
+      "is_fpi": false,
+      "parent_fpi": "036a8cf6-29fc-51c7-beec-d40d3224688b"
     }
   ],
   "plan_groups": [
@@ -20,6 +23,8 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9690-001",
+          "parent_fpi": "036a8cf6-29fc-51c7-beec-d40d3224688b",
+          "f_plan_id": "415781fa-40a3-4fd7-b3b3-0e853b6cb506",
           "plan_name": "American Health Advantage of Indiana (HMO I-SNP)"
         }
       ],

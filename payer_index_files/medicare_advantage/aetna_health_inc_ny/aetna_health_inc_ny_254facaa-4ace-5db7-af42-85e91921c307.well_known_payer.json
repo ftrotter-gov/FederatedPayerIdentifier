@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "AETNA HEALTH INC. (NY)",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "254facaa-4ace-5db7-af42-85e91921c307",
+      "is_fpi": true,
+      "payerLegalName": "AETNA HEALTH INC. (NY)",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AETNA HEALTH INC. (NY)"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H3312"
+      "value": "H3312",
+      "is_fpi": false,
+      "parent_fpi": "254facaa-4ace-5db7-af42-85e91921c307"
     }
   ],
   "plan_groups": [
@@ -20,96 +23,134 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3312-002",
+          "parent_fpi": "254facaa-4ace-5db7-af42-85e91921c307",
+          "f_plan_id": "aad13b7c-f081-4454-8cb9-1bcdfaa3e758",
           "plan_name": "Aetna Medicare Signature (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3312-018",
+          "parent_fpi": "254facaa-4ace-5db7-af42-85e91921c307",
+          "f_plan_id": "a0d9beb3-16a8-4d8d-b35c-822414c3ea1e",
           "plan_name": "Aetna Medicare Enhanced (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3312-048",
+          "parent_fpi": "254facaa-4ace-5db7-af42-85e91921c307",
+          "f_plan_id": "11ef999d-72c8-4bcb-9315-48215f6ff30b",
           "plan_name": "Aetna Medicare Signature (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3312-062",
+          "parent_fpi": "254facaa-4ace-5db7-af42-85e91921c307",
+          "f_plan_id": "927eef70-d01d-4771-9ef6-a26a9d41b7d3",
           "plan_name": "Aetna Medicare Signature (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3312-064",
+          "parent_fpi": "254facaa-4ace-5db7-af42-85e91921c307",
+          "f_plan_id": "cccd75f9-bb39-43f4-bf36-0f2311ec48ed",
           "plan_name": "Aetna Medicare Enhanced (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3312-065",
+          "parent_fpi": "254facaa-4ace-5db7-af42-85e91921c307",
+          "f_plan_id": "addf918e-9c3c-4e52-8dff-cf8596600cc4",
           "plan_name": "Aetna Medicare Signature (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3312-069",
+          "parent_fpi": "254facaa-4ace-5db7-af42-85e91921c307",
+          "f_plan_id": "4e048dab-a461-4dbe-a458-534f1f66dd7e",
           "plan_name": "Aetna Medicare Full Dual Care (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3312-070",
+          "parent_fpi": "254facaa-4ace-5db7-af42-85e91921c307",
+          "f_plan_id": "6b0e6c69-1055-48df-beae-e8b254dbbbba",
           "plan_name": "Aetna Medicare Full Dual (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3312-073",
+          "parent_fpi": "254facaa-4ace-5db7-af42-85e91921c307",
+          "f_plan_id": "bbd29235-7b91-420e-aa29-be70a4d17c07",
           "plan_name": "Aetna Medicare FIDE Care (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3312-074",
+          "parent_fpi": "254facaa-4ace-5db7-af42-85e91921c307",
+          "f_plan_id": "dafe01b2-2bed-4866-a132-ec72a5733643",
           "plan_name": "Aetna Medicare Signature Care (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3312-081",
+          "parent_fpi": "254facaa-4ace-5db7-af42-85e91921c307",
+          "f_plan_id": "7616db52-9788-42e9-a9b1-fa11ada572f0",
           "plan_name": "Aetna Medicare Enhanced (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3312-082",
+          "parent_fpi": "254facaa-4ace-5db7-af42-85e91921c307",
+          "f_plan_id": "9115c4c2-01fa-4168-b563-d29a78602c3b",
           "plan_name": "Aetna Medicare Enhanced (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3312-087",
+          "parent_fpi": "254facaa-4ace-5db7-af42-85e91921c307",
+          "f_plan_id": "813207fa-1737-4b50-9e5c-14d4a4fee346",
           "plan_name": "Aetna Medicare Full Dual (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3312-089",
+          "parent_fpi": "254facaa-4ace-5db7-af42-85e91921c307",
+          "f_plan_id": "66bc82d8-ec33-481b-a94f-f5703723b7a6",
           "plan_name": "Aetna Medicare Partial Dual (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3312-090",
+          "parent_fpi": "254facaa-4ace-5db7-af42-85e91921c307",
+          "f_plan_id": "de4fce33-34a5-4482-8842-89e136d10d33",
           "plan_name": "Aetna Medicare Partial Dual Care (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3312-801",
+          "parent_fpi": "254facaa-4ace-5db7-af42-85e91921c307",
+          "f_plan_id": "24a9001f-9bd9-4be7-b28a-3cccc81a40c4",
           "plan_name": "Aetna Medicare Plan (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3312-804",
+          "parent_fpi": "254facaa-4ace-5db7-af42-85e91921c307",
+          "f_plan_id": "6bcb5f38-242c-4251-8bc8-4776f799af60",
           "plan_name": "Aetna Medicare Plan w/Rx (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3312-091",
+          "parent_fpi": "254facaa-4ace-5db7-af42-85e91921c307",
+          "f_plan_id": "8aa63f85-136f-4c0a-9362-c65f8eaba4b9",
           "plan_name": "Aetna Medicare Chronic Care (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3312-097",
+          "parent_fpi": "254facaa-4ace-5db7-af42-85e91921c307",
+          "f_plan_id": "c2dad581-cd90-45ce-85c1-7c2779d4b148",
           "plan_name": "Aetna Medicare Signature (HMO)"
         }
       ],

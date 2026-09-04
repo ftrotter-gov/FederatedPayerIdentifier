@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "HUMANA MEDICAL PLAN OF UTAH, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "6eb4e6e5-0cb0-5be8-9c63-009824d8abea",
+      "is_fpi": true,
+      "payerLegalName": "HUMANA MEDICAL PLAN OF UTAH, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HUMANA MEDICAL PLAN OF UTAH, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H2486"
+      "value": "H2486",
+      "is_fpi": false,
+      "parent_fpi": "6eb4e6e5-0cb0-5be8-9c63-009824d8abea"
     }
   ],
   "plan_groups": [
@@ -20,36 +23,50 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2486-003",
+          "parent_fpi": "6eb4e6e5-0cb0-5be8-9c63-009824d8abea",
+          "f_plan_id": "8e8271f7-a30b-4cd3-86a4-475e32f239dd",
           "plan_name": "Humana Total Complete H2486-003 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2486-005",
+          "parent_fpi": "6eb4e6e5-0cb0-5be8-9c63-009824d8abea",
+          "f_plan_id": "def1cf70-48de-43bd-8ce2-28e430105234",
           "plan_name": "Humana Gold Plus H2486-005 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2486-007",
+          "parent_fpi": "6eb4e6e5-0cb0-5be8-9c63-009824d8abea",
+          "f_plan_id": "92cdc415-67ef-40db-9ec9-0cafbf6faf56",
           "plan_name": "Humana Gold Plus H2486-007 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2486-801",
+          "parent_fpi": "6eb4e6e5-0cb0-5be8-9c63-009824d8abea",
+          "f_plan_id": "3d8c4040-383e-474f-aaea-0ea849a5767e",
           "plan_name": "Humana Medicare Employer (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2486-802",
+          "parent_fpi": "6eb4e6e5-0cb0-5be8-9c63-009824d8abea",
+          "f_plan_id": "ae73a380-198d-423b-9f6b-72aa1d9eb274",
           "plan_name": "Humana Medicare Employer (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2486-805",
+          "parent_fpi": "6eb4e6e5-0cb0-5be8-9c63-009824d8abea",
+          "f_plan_id": "e01bcb88-2435-454c-9641-ae9f7f638d04",
           "plan_name": "Humana Medicare Employer (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2486-806",
+          "parent_fpi": "6eb4e6e5-0cb0-5be8-9c63-009824d8abea",
+          "f_plan_id": "8444f2e3-b0f6-4289-a0c7-2c4dbfb790c1",
           "plan_name": "Humana Medicare Employer (HMO)"
         }
       ],

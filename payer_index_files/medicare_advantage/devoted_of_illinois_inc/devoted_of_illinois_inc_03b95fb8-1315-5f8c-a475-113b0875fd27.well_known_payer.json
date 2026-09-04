@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "Devoted of Illinois, Inc.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "03b95fb8-1315-5f8c-a475-113b0875fd27",
+      "is_fpi": true,
+      "payerLegalName": "Devoted of Illinois, Inc.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "Devoted of Illinois, Inc."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H8320"
+      "value": "H8320",
+      "is_fpi": false,
+      "parent_fpi": "03b95fb8-1315-5f8c-a475-113b0875fd27"
     }
   ],
   "plan_groups": [
@@ -20,51 +23,71 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8320-001",
+          "parent_fpi": "03b95fb8-1315-5f8c-a475-113b0875fd27",
+          "f_plan_id": "3ee6fc68-721e-49a9-b306-bb70764b5729",
           "plan_name": "DEVOTED CHOICE 001 IL (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8320-002",
+          "parent_fpi": "03b95fb8-1315-5f8c-a475-113b0875fd27",
+          "f_plan_id": "05554ed9-678f-4a36-bd3f-65486bfa7831",
           "plan_name": "DEVOTED CHOICE GIVEBACK 002 IL (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8320-003",
+          "parent_fpi": "03b95fb8-1315-5f8c-a475-113b0875fd27",
+          "f_plan_id": "3d9f91eb-f4a5-4290-a970-9a0afcfe5763",
           "plan_name": "DEVOTED CHOICE 003 IL (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8320-004",
+          "parent_fpi": "03b95fb8-1315-5f8c-a475-113b0875fd27",
+          "f_plan_id": "f6220bcf-1b8a-429c-b689-40ebc99479c1",
           "plan_name": "DEVOTED CHOICE GIVEBACK 004 IL (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8320-005",
+          "parent_fpi": "03b95fb8-1315-5f8c-a475-113b0875fd27",
+          "f_plan_id": "f40e1cfe-6f82-4c8d-a91a-b3dad770ba0d",
           "plan_name": "DEVOTED CHOICE 005 IL (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8320-006",
+          "parent_fpi": "03b95fb8-1315-5f8c-a475-113b0875fd27",
+          "f_plan_id": "26ccaad0-669c-4e75-9925-3ae13bf77e6a",
           "plan_name": "DEVOTED CHOICE GIVEBACK 006 IL (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8320-011",
+          "parent_fpi": "03b95fb8-1315-5f8c-a475-113b0875fd27",
+          "f_plan_id": "7be61d70-d6dd-4a35-b60a-a8df8f88b511",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 011 IL (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8320-012",
+          "parent_fpi": "03b95fb8-1315-5f8c-a475-113b0875fd27",
+          "f_plan_id": "01f7a86d-4d9d-43ed-a190-2f825e21c029",
           "plan_name": "DEVOTED C-SNP CHOICE PLUS 012 IL (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8320-013",
+          "parent_fpi": "03b95fb8-1315-5f8c-a475-113b0875fd27",
+          "f_plan_id": "62a6a96a-bf60-4b8f-9273-7c00d5587c96",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 013 IL (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8320-014",
+          "parent_fpi": "03b95fb8-1315-5f8c-a475-113b0875fd27",
+          "f_plan_id": "34eef57e-007a-4563-8a22-780a5af771a8",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 014 IL (PPO C-SNP)"
         }
       ],

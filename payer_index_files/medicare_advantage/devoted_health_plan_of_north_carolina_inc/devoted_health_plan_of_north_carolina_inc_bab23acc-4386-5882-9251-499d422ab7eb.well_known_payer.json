@@ -1,21 +1,26 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH PLAN OF NORTH CAROLINA INC",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "bab23acc-4386-5882-9251-499d422ab7eb",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH PLAN OF NORTH CAROLINA INC",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH PLAN OF NORTH CAROLINA INC"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H5299"
+      "value": "H5299",
+      "is_fpi": false,
+      "parent_fpi": "bab23acc-4386-5882-9251-499d422ab7eb"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H9700"
+      "value": "H9700",
+      "is_fpi": false,
+      "parent_fpi": "bab23acc-4386-5882-9251-499d422ab7eb"
     }
   ],
   "plan_groups": [
@@ -24,56 +29,78 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5299-001",
+          "parent_fpi": "bab23acc-4386-5882-9251-499d422ab7eb",
+          "f_plan_id": "c0096860-ece2-45f0-8e5f-3bad36129f0d",
           "plan_name": "DEVOTED CORE 001 NC (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5299-002",
+          "parent_fpi": "bab23acc-4386-5882-9251-499d422ab7eb",
+          "f_plan_id": "e1918b63-5da0-4d4c-8de6-ccc72a4ef28d",
           "plan_name": "DEVOTED GIVEBACK 002 NC (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5299-006",
+          "parent_fpi": "bab23acc-4386-5882-9251-499d422ab7eb",
+          "f_plan_id": "daa9d7d3-b932-4980-8a83-7f71425799e1",
           "plan_name": "DEVOTED DUAL PLUS 006 NC (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5299-009",
+          "parent_fpi": "bab23acc-4386-5882-9251-499d422ab7eb",
+          "f_plan_id": "a870acb3-0654-4294-8755-9e8cdf5d6d8d",
           "plan_name": "DEVOTED DUAL 009 NC (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5299-012",
+          "parent_fpi": "bab23acc-4386-5882-9251-499d422ab7eb",
+          "f_plan_id": "712d99db-2b31-42f6-a8e5-c1f20cc47dcd",
           "plan_name": "DEVOTED GIVEBACK 012 NC (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5299-013",
+          "parent_fpi": "bab23acc-4386-5882-9251-499d422ab7eb",
+          "f_plan_id": "832f94d6-2ad6-4945-bea2-52967bfe4f78",
           "plan_name": "DEVOTED DUAL FULL 013 NC (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5299-014",
+          "parent_fpi": "bab23acc-4386-5882-9251-499d422ab7eb",
+          "f_plan_id": "f9aa8859-2af5-4350-9445-b9e361cfcedb",
           "plan_name": "DEVOTED C-SNP PREMIUM 014 NC (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5299-015",
+          "parent_fpi": "bab23acc-4386-5882-9251-499d422ab7eb",
+          "f_plan_id": "af923279-7ed5-4158-88f5-fe9f542bd2a7",
           "plan_name": "DEVOTED C-SNP PLUS 015 NC (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5299-016",
+          "parent_fpi": "bab23acc-4386-5882-9251-499d422ab7eb",
+          "f_plan_id": "99c8de3a-40b7-48dd-9474-8241d7948e6f",
           "plan_name": "DEVOTED C-SNP PREMIUM 016 NC (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5299-017",
+          "parent_fpi": "bab23acc-4386-5882-9251-499d422ab7eb",
+          "f_plan_id": "ca761600-9ef1-442c-b2d7-7fea6b2ef006",
           "plan_name": "DEVOTED C-SNP PREMIUM 017 NC (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5299-018",
+          "parent_fpi": "bab23acc-4386-5882-9251-499d422ab7eb",
+          "f_plan_id": "a3366b78-d71a-45f1-9bf2-d5d0c7cc631b",
           "plan_name": "DEVOTED C-SNP PREMIUM 018 NC (HMO C-SNP)"
         }
       ],
@@ -86,46 +113,64 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9700-001",
+          "parent_fpi": "bab23acc-4386-5882-9251-499d422ab7eb",
+          "f_plan_id": "f63bace5-b879-4209-a3f9-0075cd49f2f1",
           "plan_name": "DEVOTED CHOICE 001 NC (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9700-002",
+          "parent_fpi": "bab23acc-4386-5882-9251-499d422ab7eb",
+          "f_plan_id": "944ec20a-58b5-480d-b4e1-9bc3f60430dc",
           "plan_name": "DEVOTED CHOICE GIVEBACK 002 NC (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9700-003",
+          "parent_fpi": "bab23acc-4386-5882-9251-499d422ab7eb",
+          "f_plan_id": "48652a3e-e759-47aa-b825-95b744b02fcb",
           "plan_name": "DEVOTED CHOICE 003 NC (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9700-004",
+          "parent_fpi": "bab23acc-4386-5882-9251-499d422ab7eb",
+          "f_plan_id": "753e2bf8-2e02-45da-82db-9e43ddf81070",
           "plan_name": "DEVOTED CHOICE GIVEBACK 004 NC (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9700-005",
+          "parent_fpi": "bab23acc-4386-5882-9251-499d422ab7eb",
+          "f_plan_id": "fb1c4b7d-7db4-44d5-bb73-bf564d54deea",
           "plan_name": "DEVOTED CHOICE 005 NC (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9700-006",
+          "parent_fpi": "bab23acc-4386-5882-9251-499d422ab7eb",
+          "f_plan_id": "c1bbf0fb-4b2b-4862-91a2-0bd17de55eb0",
           "plan_name": "DEVOTED CHOICE GIVEBACK 006 NC (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9700-007",
+          "parent_fpi": "bab23acc-4386-5882-9251-499d422ab7eb",
+          "f_plan_id": "695fa4ed-637e-4d1e-aa9e-299d8ab41183",
           "plan_name": "DEVOTED CHOICE MA ONLY 007 NC (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9700-008",
+          "parent_fpi": "bab23acc-4386-5882-9251-499d422ab7eb",
+          "f_plan_id": "9815bb54-9e4b-4ad2-aa78-881c58358a03",
           "plan_name": "DEVOTED CHOICE 008 NC (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9700-009",
+          "parent_fpi": "bab23acc-4386-5882-9251-499d422ab7eb",
+          "f_plan_id": "1d6c3d38-1276-4007-8f3f-3f5cbdb66dee",
           "plan_name": "DEVOTED CHOICE GIVEBACK 009 NC (PPO)"
         }
       ],

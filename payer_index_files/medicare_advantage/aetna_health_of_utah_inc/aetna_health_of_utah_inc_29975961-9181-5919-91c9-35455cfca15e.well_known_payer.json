@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "AETNA HEALTH OF UTAH INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "29975961-9181-5919-91c9-35455cfca15e",
+      "is_fpi": true,
+      "payerLegalName": "AETNA HEALTH OF UTAH INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AETNA HEALTH OF UTAH INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H8649"
+      "value": "H8649",
+      "is_fpi": false,
+      "parent_fpi": "29975961-9181-5919-91c9-35455cfca15e"
     }
   ],
   "plan_groups": [
@@ -20,21 +23,29 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8649-010",
+          "parent_fpi": "29975961-9181-5919-91c9-35455cfca15e",
+          "f_plan_id": "b8fc5ed5-6f45-4c84-a669-454be2fed196",
           "plan_name": "Aetna Medicare Full Dual (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8649-801",
+          "parent_fpi": "29975961-9181-5919-91c9-35455cfca15e",
+          "f_plan_id": "e9ef82e2-8ec6-4e5b-ac62-ea67185441c0",
           "plan_name": "Aetna Altius Medicare Plan w/Rx (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8649-803",
+          "parent_fpi": "29975961-9181-5919-91c9-35455cfca15e",
+          "f_plan_id": "c6e9e138-edb6-4c50-85ce-b2afc9370312",
           "plan_name": "Aetna Altius Medicare Plan (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8649-013",
+          "parent_fpi": "29975961-9181-5919-91c9-35455cfca15e",
+          "f_plan_id": "c4039d12-3117-4950-8398-e227bc23dbfb",
           "plan_name": "Aetna Medicare Signature (HMO)"
         }
       ],

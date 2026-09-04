@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH PLAN OF NEW MEXICO, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "e4618178-3ebe-5b71-8b8f-ba91060cf9c6",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH PLAN OF NEW MEXICO, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH PLAN OF NEW MEXICO, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H9977"
+      "value": "H9977",
+      "is_fpi": false,
+      "parent_fpi": "e4618178-3ebe-5b71-8b8f-ba91060cf9c6"
     }
   ],
   "plan_groups": [
@@ -20,36 +23,50 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9977-001",
+          "parent_fpi": "e4618178-3ebe-5b71-8b8f-ba91060cf9c6",
+          "f_plan_id": "1e32e052-3663-488a-ad3c-67ed44daebd4",
           "plan_name": "DEVOTED CORE 001 NM (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9977-002",
+          "parent_fpi": "e4618178-3ebe-5b71-8b8f-ba91060cf9c6",
+          "f_plan_id": "9745b0cf-ba83-497b-9f0a-6146d74bf87f",
           "plan_name": "DEVOTED GIVEBACK 002 NM (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9977-003",
+          "parent_fpi": "e4618178-3ebe-5b71-8b8f-ba91060cf9c6",
+          "f_plan_id": "095d1ac4-3f55-4410-8033-a017fd5c72ab",
           "plan_name": "DEVOTED C-SNP 003 NM (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9977-004",
+          "parent_fpi": "e4618178-3ebe-5b71-8b8f-ba91060cf9c6",
+          "f_plan_id": "78842c70-8e38-4a18-af03-bc6f7fa6d655",
           "plan_name": "DEVOTED C-SNP PLUS 004 NM (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9977-005",
+          "parent_fpi": "e4618178-3ebe-5b71-8b8f-ba91060cf9c6",
+          "f_plan_id": "8cf132b5-e562-4782-aa54-d0f7f94dcea7",
           "plan_name": "DEVOTED CORE 005 NM (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9977-006",
+          "parent_fpi": "e4618178-3ebe-5b71-8b8f-ba91060cf9c6",
+          "f_plan_id": "b7b6ed13-8354-4040-a43e-db620c1b1166",
           "plan_name": "DEVOTED GIVEBACK 006 NM (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9977-007",
+          "parent_fpi": "e4618178-3ebe-5b71-8b8f-ba91060cf9c6",
+          "f_plan_id": "33ceb28f-4dff-4a82-a121-07923059305b",
           "plan_name": "DEVOTED C-SNP 007 NM (HMO C-SNP)"
         }
       ],

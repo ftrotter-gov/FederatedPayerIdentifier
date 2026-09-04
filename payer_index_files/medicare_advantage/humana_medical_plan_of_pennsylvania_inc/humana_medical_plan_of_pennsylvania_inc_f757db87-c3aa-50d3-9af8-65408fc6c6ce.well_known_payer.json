@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "HUMANA MEDICAL PLAN OF PENNSYLVANIA, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "f757db87-c3aa-50d3-9af8-65408fc6c6ce",
+      "is_fpi": true,
+      "payerLegalName": "HUMANA MEDICAL PLAN OF PENNSYLVANIA, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HUMANA MEDICAL PLAN OF PENNSYLVANIA, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H5377"
+      "value": "H5377",
+      "is_fpi": false,
+      "parent_fpi": "f757db87-c3aa-50d3-9af8-65408fc6c6ce"
     }
   ],
   "plan_groups": [
@@ -20,11 +23,15 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5377-002",
+          "parent_fpi": "f757db87-c3aa-50d3-9af8-65408fc6c6ce",
+          "f_plan_id": "5344bd57-e711-44f2-9f20-4635846b845f",
           "plan_name": "Humana Gold Plus H5377-002 (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5377-003",
+          "parent_fpi": "f757db87-c3aa-50d3-9af8-65408fc6c6ce",
+          "f_plan_id": "2e398807-3b2c-409f-9ed6-1244653fe9e7",
           "plan_name": "Humana Gold Plus SNP-DE H5377-003 (HMO D-SNP)"
         }
       ],

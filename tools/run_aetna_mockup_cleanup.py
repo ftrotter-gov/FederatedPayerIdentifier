@@ -42,6 +42,13 @@ NEW_AETNA_FILES = [
     ),
 ]
 
+# NOTE: The filenames above reflect the FPIs produced by apply_aetna_texas_mockup.py
+# using these approved source identifiers (per AI_Instructions/AetnaTexasMockup.md):
+#   aetna_health_inc_tx            -> HIOS_ID  58840   -> b1affe56-4f6e-59a1-893e-f611f1dd8b5b
+#   aetna_better_health_of_texas   -> STATE_DOI_ID TX-68775 -> 3f9af4c3-d735-5c9b-9674-33cdd1864d6b
+#   aetna_health_and_life          -> NAIC_ID  78700   -> 68d4ceb9-93f6-548c-912b-f9f43eb79683
+#   aetna_life_insurance_company   -> LEI SPCOIWBJM0HFYQX3A364 -> a04283f0-5a1d-5df8-a744-e252652a1783
+
 
 def main():
     print("=== Step 1: remove non-specific lookup_urls ===")

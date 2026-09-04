@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "AMERICAN HEALTH PLAN OF PENNSYLVANIA INC",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "147cd3e4-7ce2-518f-af95-9b178048a1a3",
+      "is_fpi": true,
+      "payerLegalName": "AMERICAN HEALTH PLAN OF PENNSYLVANIA INC",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AMERICAN HEALTH PLAN OF PENNSYLVANIA INC"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H9968"
+      "value": "H9968",
+      "is_fpi": false,
+      "parent_fpi": "147cd3e4-7ce2-518f-af95-9b178048a1a3"
     }
   ],
   "plan_groups": [
@@ -20,6 +23,8 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9968-001",
+          "parent_fpi": "147cd3e4-7ce2-518f-af95-9b178048a1a3",
+          "f_plan_id": "7bbf60ee-8ade-4500-823c-d34503ba0971",
           "plan_name": "American Health Advantage of Pennsylvania (HMO I-SNP)"
         }
       ],

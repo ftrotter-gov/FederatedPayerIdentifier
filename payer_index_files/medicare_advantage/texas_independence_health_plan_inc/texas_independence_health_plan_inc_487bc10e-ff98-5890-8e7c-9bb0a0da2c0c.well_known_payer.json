@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "TEXAS INDEPENDENCE HEALTH PLAN, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "487bc10e-ff98-5890-8e7c-9bb0a0da2c0c",
+      "is_fpi": true,
+      "payerLegalName": "TEXAS INDEPENDENCE HEALTH PLAN, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "TEXAS INDEPENDENCE HEALTH PLAN, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H5015"
+      "value": "H5015",
+      "is_fpi": false,
+      "parent_fpi": "487bc10e-ff98-5890-8e7c-9bb0a0da2c0c"
     }
   ],
   "plan_groups": [
@@ -20,11 +23,15 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5015-001",
+          "parent_fpi": "487bc10e-ff98-5890-8e7c-9bb0a0da2c0c",
+          "f_plan_id": "767fce19-a48a-4de2-8ee1-d914b4bd8382",
           "plan_name": "Texas Independence Health Plan, Inc. (HMO I-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5015-002",
+          "parent_fpi": "487bc10e-ff98-5890-8e7c-9bb0a0da2c0c",
+          "f_plan_id": "fb6e2462-6ec4-402e-9ba9-f5875cf6c5ed",
           "plan_name": "Texas Independence Community Plan (HMO I-SNP)"
         }
       ],

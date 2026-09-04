@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "LEON HEALTH, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "7c455315-7920-5f4f-8bc6-e9a81336da1c",
+      "is_fpi": true,
+      "payerLegalName": "LEON HEALTH, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "LEON HEALTH, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H4286"
+      "value": "H4286",
+      "is_fpi": false,
+      "parent_fpi": "7c455315-7920-5f4f-8bc6-e9a81336da1c"
     }
   ],
   "plan_groups": [
@@ -20,21 +23,29 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4286-001",
+          "parent_fpi": "7c455315-7920-5f4f-8bc6-e9a81336da1c",
+          "f_plan_id": "52418af2-d39b-4404-b192-67d4ecce7950",
           "plan_name": "Leon MediExtra (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4286-002",
+          "parent_fpi": "7c455315-7920-5f4f-8bc6-e9a81336da1c",
+          "f_plan_id": "3df9b412-fc87-4187-8606-d5a52630365b",
           "plan_name": "Leon MediDual (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4286-003",
+          "parent_fpi": "7c455315-7920-5f4f-8bc6-e9a81336da1c",
+          "f_plan_id": "7b45c141-3bd7-4967-b7d8-7ce3d369a291",
           "plan_name": "Leon MediMore (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4286-005",
+          "parent_fpi": "7c455315-7920-5f4f-8bc6-e9a81336da1c",
+          "f_plan_id": "5d5b53f9-5842-493e-91c9-849101bd5b72",
           "plan_name": "Leon MediMax (HMO D-SNP)"
         }
       ],

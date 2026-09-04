@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "HUMANA HEALTH COMPANY OF NEW YORK, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "d16a22b6-80af-508f-9da5-9037a30e3b42",
+      "is_fpi": true,
+      "payerLegalName": "HUMANA HEALTH COMPANY OF NEW YORK, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HUMANA HEALTH COMPANY OF NEW YORK, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H3533"
+      "value": "H3533",
+      "is_fpi": false,
+      "parent_fpi": "d16a22b6-80af-508f-9da5-9037a30e3b42"
     }
   ],
   "plan_groups": [
@@ -20,46 +23,64 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3533-002",
+          "parent_fpi": "d16a22b6-80af-508f-9da5-9037a30e3b42",
+          "f_plan_id": "7bb1c3c8-5b4b-4ebc-a3cd-01e61b73af1c",
           "plan_name": "Humana Gold Plus SNP-DE H3533-002 (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3533-027",
+          "parent_fpi": "d16a22b6-80af-508f-9da5-9037a30e3b42",
+          "f_plan_id": "58aeffac-c7a2-4b4f-8f97-eb498ac92b2a",
           "plan_name": "Humana Gold Plus Giveback H3533-027 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3533-033",
+          "parent_fpi": "d16a22b6-80af-508f-9da5-9037a30e3b42",
+          "f_plan_id": "46963708-23bc-4ef0-89c4-ad7cf7298011",
           "plan_name": "Humana Gold Plus H3533-033 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3533-034",
+          "parent_fpi": "d16a22b6-80af-508f-9da5-9037a30e3b42",
+          "f_plan_id": "398b3fcc-b885-49a7-98cd-d937856ed0e8",
           "plan_name": "Humana Gold Plus SNP-DE H3533-034 (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3533-035",
+          "parent_fpi": "d16a22b6-80af-508f-9da5-9037a30e3b42",
+          "f_plan_id": "5a2d22dc-7668-4584-b1ef-1d3abf65d7b9",
           "plan_name": "Humana Gold Plus H3533-035 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3533-802",
+          "parent_fpi": "d16a22b6-80af-508f-9da5-9037a30e3b42",
+          "f_plan_id": "4eae6d94-c947-4d1d-a419-864237aaf6f5",
           "plan_name": "Humana Medicare Employer (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3533-803",
+          "parent_fpi": "d16a22b6-80af-508f-9da5-9037a30e3b42",
+          "f_plan_id": "8875c98d-6f45-4f38-9bda-89cd710ee396",
           "plan_name": "Humana Medicare Employer (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3533-805",
+          "parent_fpi": "d16a22b6-80af-508f-9da5-9037a30e3b42",
+          "f_plan_id": "40623da4-0787-4d40-ba6e-6cf2a6bca5fd",
           "plan_name": "Humana Medicare Employer (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3533-806",
+          "parent_fpi": "d16a22b6-80af-508f-9da5-9037a30e3b42",
+          "f_plan_id": "1d3a9de1-4b1e-402f-b13f-aaaf72979f94",
           "plan_name": "Humana Medicare Employer (HMO)"
         }
       ],

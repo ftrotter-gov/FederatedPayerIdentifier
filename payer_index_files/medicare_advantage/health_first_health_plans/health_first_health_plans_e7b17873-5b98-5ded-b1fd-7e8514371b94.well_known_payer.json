@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "HEALTH FIRST HEALTH PLANS",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "e7b17873-5b98-5ded-b1fd-7e8514371b94",
+      "is_fpi": true,
+      "payerLegalName": "HEALTH FIRST HEALTH PLANS",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HEALTH FIRST HEALTH PLANS"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H1099"
+      "value": "H1099",
+      "is_fpi": false,
+      "parent_fpi": "e7b17873-5b98-5ded-b1fd-7e8514371b94"
     }
   ],
   "plan_groups": [
@@ -20,56 +23,78 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1099-001",
+          "parent_fpi": "e7b17873-5b98-5ded-b1fd-7e8514371b94",
+          "f_plan_id": "88b7baf9-95a7-447b-9e54-99e7210d04f3",
           "plan_name": "Health First Classic H1099-001 (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1099-006",
+          "parent_fpi": "e7b17873-5b98-5ded-b1fd-7e8514371b94",
+          "f_plan_id": "964fe25f-1cf1-4bb2-883e-34b122051729",
           "plan_name": "Health First Value H1099-006 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1099-009",
+          "parent_fpi": "e7b17873-5b98-5ded-b1fd-7e8514371b94",
+          "f_plan_id": "b93a3a51-7de2-4603-b35e-e7e58b9536a4",
           "plan_name": "Health First Secure H1099-009 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1099-014",
+          "parent_fpi": "e7b17873-5b98-5ded-b1fd-7e8514371b94",
+          "f_plan_id": "6aa60fd4-e28d-4915-812b-101318a37c4a",
           "plan_name": "Health First Rewards H1099-014 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1099-016",
+          "parent_fpi": "e7b17873-5b98-5ded-b1fd-7e8514371b94",
+          "f_plan_id": "9e1556da-b48c-4979-8e83-0974ec5aac49",
           "plan_name": "Health First SunSaver H1099-016 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1099-023",
+          "parent_fpi": "e7b17873-5b98-5ded-b1fd-7e8514371b94",
+          "f_plan_id": "2e7e54f4-f00d-432a-9c9c-c9f6306ba048",
           "plan_name": "Health First Complete Care H1099-023 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1099-024",
+          "parent_fpi": "e7b17873-5b98-5ded-b1fd-7e8514371b94",
+          "f_plan_id": "54aab511-5af6-4e84-a9af-f98a16f450d4",
           "plan_name": "Health First Emerald Plus H1099-024 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1099-025",
+          "parent_fpi": "e7b17873-5b98-5ded-b1fd-7e8514371b94",
+          "f_plan_id": "5c99a41f-3795-4e04-837b-c4c9fcace466",
           "plan_name": "Health First Premier Access H1099-025 (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1099-026",
+          "parent_fpi": "e7b17873-5b98-5ded-b1fd-7e8514371b94",
+          "f_plan_id": "0b8cd1f8-0bbd-40e8-b30e-079c8983d14a",
           "plan_name": "Health First Emerald Plus H1099-026 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1099-027",
+          "parent_fpi": "e7b17873-5b98-5ded-b1fd-7e8514371b94",
+          "f_plan_id": "f70d35e7-a682-42dd-af11-947d2868fa78",
           "plan_name": "Health First Premier Access H1099-027 (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1099-028",
+          "parent_fpi": "e7b17873-5b98-5ded-b1fd-7e8514371b94",
+          "f_plan_id": "c2793527-c7c8-41a3-ae62-70681c9bc19c",
           "plan_name": "Health First Emerald Plus H1099-028 (HMO)"
         }
       ],

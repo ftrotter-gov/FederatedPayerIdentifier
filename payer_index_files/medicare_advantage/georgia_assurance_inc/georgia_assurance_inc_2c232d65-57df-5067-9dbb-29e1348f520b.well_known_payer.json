@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "GEORGIA ASSURANCE, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "2c232d65-57df-5067-9dbb-29e1348f520b",
+      "is_fpi": true,
+      "payerLegalName": "GEORGIA ASSURANCE, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "GEORGIA ASSURANCE, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H8093"
+      "value": "H8093",
+      "is_fpi": false,
+      "parent_fpi": "2c232d65-57df-5067-9dbb-29e1348f520b"
     }
   ],
   "plan_groups": [
@@ -20,11 +23,15 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8093-001",
+          "parent_fpi": "2c232d65-57df-5067-9dbb-29e1348f520b",
+          "f_plan_id": "18fc53b2-2afc-4564-a8bb-652ad212455c",
           "plan_name": "Georgia Health Advantage (HMO I-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8093-002",
+          "parent_fpi": "2c232d65-57df-5067-9dbb-29e1348f520b",
+          "f_plan_id": "211bc64b-6fb4-4191-a626-ec009d29e3e3",
           "plan_name": "Georgia Health Advantage Choice (HMO I-SNP)"
         }
       ],

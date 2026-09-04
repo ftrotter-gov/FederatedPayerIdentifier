@@ -1,25 +1,32 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "CALIFORNIA PHYSICIANS' SERVICE",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+      "is_fpi": true,
+      "payerLegalName": "CALIFORNIA PHYSICIANS' SERVICE",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "CALIFORNIA PHYSICIANS' SERVICE"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H0504"
+      "value": "H0504",
+      "is_fpi": false,
+      "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H2819"
+      "value": "H2819",
+      "is_fpi": false,
+      "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H5928"
+      "value": "H5928",
+      "is_fpi": false,
+      "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090"
     }
   ],
   "plan_groups": [
@@ -28,81 +35,113 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0504-015",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "bbf1b0cc-e46e-474a-b499-1568c53c4918",
           "plan_name": "Blue Shield 65 Plus (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0504-017",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "b4c3962b-cac9-4674-94a0-80c229b05733",
           "plan_name": "Blue Shield 65 Plus (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0504-021",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "9dd3c5c1-961b-4faa-9394-01f85ed03ad6",
           "plan_name": "Blue Shield 65 Plus Plan 2 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0504-026",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "91800f39-e5be-42ad-99ad-99cc8faba15b",
           "plan_name": "Blue Shield 65 Plus (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0504-028",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "ed825fb4-eb61-4ebb-9f62-b25a4d10e52d",
           "plan_name": "Blue Shield 65 Plus (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0504-038",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "c001e0aa-6e24-4290-a823-0b9f9d9fe102",
           "plan_name": "Blue Shield 65 Plus (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0504-039",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "6cf9a780-237d-4cce-a0df-c637f7d27625",
           "plan_name": "Blue Shield 65 Plus (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0504-040",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "aaa642f1-b966-4fe6-9152-069e54e18f81",
           "plan_name": "Blue Shield 65 Plus Choice Plan (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0504-041",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "e0a1de28-0502-4b49-97b8-8348547fb1bf",
           "plan_name": "Blue Shield Inspire (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0504-043",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "5ebe56c1-8166-4578-bc35-7f7beadc617b",
           "plan_name": "Blue Shield Inspire (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0504-047",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "2e5c8238-4c90-4032-9949-ab3d8e2920fd",
           "plan_name": "Blue Shield Inspire (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0504-803",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "039d52ea-5c86-49f3-a4c3-1238733c144e",
           "plan_name": "Blue Shield 65 Plus (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0504-804",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "ab535b9d-64d5-4162-8674-804bfad85ea2",
           "plan_name": "Blue Shield 65 Plus (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0504-805",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "79c23a35-ea87-4ef8-96a8-1bf3fb49db1c",
           "plan_name": "Blue Shield 65 Plus without Rx (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0504-806",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "e86b85bf-bc63-40f0-b260-2f56ff6524bc",
           "plan_name": "Blue Shield 65 Plus without Rx (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0504-050",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "503debd2-c823-4b85-b8bb-73434da6fede",
           "plan_name": "Blue Shield Advantage (HMO)"
         }
       ],
@@ -115,6 +154,8 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2819-001",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "6633b22c-3797-4983-bd85-fa39a338f3f7",
           "plan_name": "Blue Shield TotalDual Plan (HMO D-SNP)"
         }
       ],
@@ -127,11 +168,15 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5928-004",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "71f91ce7-20a7-41b3-b762-71910037c5e4",
           "plan_name": "Blue Shield AdvantageOptimum Plan (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5928-010",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "286fd701-1202-4ecf-9bfb-9594e01ac5e1",
           "plan_name": "Blue Shield AdvantageOptimum Plan 1 (HMO)"
         }
       ],

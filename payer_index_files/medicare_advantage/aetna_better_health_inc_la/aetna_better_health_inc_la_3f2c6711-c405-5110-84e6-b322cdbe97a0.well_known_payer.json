@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "AETNA BETTER HEALTH, INC. (LA)",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "3f2c6711-c405-5110-84e6-b322cdbe97a0",
+      "is_fpi": true,
+      "payerLegalName": "AETNA BETTER HEALTH, INC. (LA)",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AETNA BETTER HEALTH, INC. (LA)"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H3239"
+      "value": "H3239",
+      "is_fpi": false,
+      "parent_fpi": "3f2c6711-c405-5110-84e6-b322cdbe97a0"
     }
   ],
   "plan_groups": [
@@ -20,81 +23,113 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3239-001",
+          "parent_fpi": "3f2c6711-c405-5110-84e6-b322cdbe97a0",
+          "f_plan_id": "942da3c2-6401-438b-84d5-019df9ba6661",
           "plan_name": "Aetna Medicare Dual Extra Care (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3239-002",
+          "parent_fpi": "3f2c6711-c405-5110-84e6-b322cdbe97a0",
+          "f_plan_id": "18680bbc-57cd-4e2d-9107-87cfa89f3cbc",
           "plan_name": "Aetna Medicare Dual Extra Care (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3239-005",
+          "parent_fpi": "3f2c6711-c405-5110-84e6-b322cdbe97a0",
+          "f_plan_id": "e6b5aa3f-697c-4368-9c9e-aea519d3a961",
           "plan_name": "Aetna Medicare Dual Extra (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3239-007",
+          "parent_fpi": "3f2c6711-c405-5110-84e6-b322cdbe97a0",
+          "f_plan_id": "92e7f61b-8394-4c33-a4fa-6b1c1696cb00",
           "plan_name": "Aetna Medicare Dual Extra Care (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3239-010",
+          "parent_fpi": "3f2c6711-c405-5110-84e6-b322cdbe97a0",
+          "f_plan_id": "bb574184-5062-4a94-9276-6d7c430cffa0",
           "plan_name": "Aetna Medicare Dual Care (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3239-012",
+          "parent_fpi": "3f2c6711-c405-5110-84e6-b322cdbe97a0",
+          "f_plan_id": "eb444780-83b9-4456-8676-40197133b7c6",
           "plan_name": "Aetna Medicare Dual Care (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3239-014",
+          "parent_fpi": "3f2c6711-c405-5110-84e6-b322cdbe97a0",
+          "f_plan_id": "051fb455-e9ee-4e3b-a654-95098ec3adc0",
           "plan_name": "Aetna Medicare Signature (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3239-015",
+          "parent_fpi": "3f2c6711-c405-5110-84e6-b322cdbe97a0",
+          "f_plan_id": "4a8e4e85-ddac-4dfb-b4c2-281e3faf936d",
           "plan_name": "Aetna Medicare Dual Extra Care (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3239-017",
+          "parent_fpi": "3f2c6711-c405-5110-84e6-b322cdbe97a0",
+          "f_plan_id": "6ad7b3c7-1bf4-4c5e-86e6-ec64fc6db63c",
           "plan_name": "Aetna Medicare Signature Care (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3239-020",
+          "parent_fpi": "3f2c6711-c405-5110-84e6-b322cdbe97a0",
+          "f_plan_id": "2e87e624-feb3-436d-80cd-2a05fba2ed52",
           "plan_name": "Aetna Medicare Signature Care (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3239-022",
+          "parent_fpi": "3f2c6711-c405-5110-84e6-b322cdbe97a0",
+          "f_plan_id": "de8124c9-fc5b-40fc-8b4d-69563f4c41d3",
           "plan_name": "Aetna Medicare Signature Care (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3239-023",
+          "parent_fpi": "3f2c6711-c405-5110-84e6-b322cdbe97a0",
+          "f_plan_id": "35754f29-71a0-4334-9b3d-992d3a6f97cd",
           "plan_name": "Aetna Medicare Dual Care (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3239-026",
+          "parent_fpi": "3f2c6711-c405-5110-84e6-b322cdbe97a0",
+          "f_plan_id": "807f4fa0-0915-4bd7-894d-9bbaf3861df0",
           "plan_name": "Aetna Medicare Full Dual Care (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3239-027",
+          "parent_fpi": "3f2c6711-c405-5110-84e6-b322cdbe97a0",
+          "f_plan_id": "2208e1ed-b630-4899-825a-464ebf903e27",
           "plan_name": "Aetna Medicare Full Dual Care (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3239-028",
+          "parent_fpi": "3f2c6711-c405-5110-84e6-b322cdbe97a0",
+          "f_plan_id": "40003f8c-6f4c-4ec9-a0c7-ae090fd540e9",
           "plan_name": "Aetna Medicare Full Dual Care (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3239-030",
+          "parent_fpi": "3f2c6711-c405-5110-84e6-b322cdbe97a0",
+          "f_plan_id": "45f84b81-7249-42af-83bc-5cde7bf1911c",
           "plan_name": "Aetna Medicare Chronic Care (HMO C-SNP)"
         }
       ],

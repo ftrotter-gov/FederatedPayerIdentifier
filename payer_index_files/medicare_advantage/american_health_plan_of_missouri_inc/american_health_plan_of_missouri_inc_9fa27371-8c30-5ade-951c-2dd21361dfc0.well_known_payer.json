@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "AMERICAN HEALTH PLAN OF MISSOURI, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "9fa27371-8c30-5ade-951c-2dd21361dfc0",
+      "is_fpi": true,
+      "payerLegalName": "AMERICAN HEALTH PLAN OF MISSOURI, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AMERICAN HEALTH PLAN OF MISSOURI, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H4490"
+      "value": "H4490",
+      "is_fpi": false,
+      "parent_fpi": "9fa27371-8c30-5ade-951c-2dd21361dfc0"
     }
   ],
   "plan_groups": [
@@ -20,11 +23,15 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4490-001",
+          "parent_fpi": "9fa27371-8c30-5ade-951c-2dd21361dfc0",
+          "f_plan_id": "ce21b263-65a3-458b-846a-e1a473e35a10",
           "plan_name": "American Health Advantage of Missouri (HMO I-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4490-003",
+          "parent_fpi": "9fa27371-8c30-5ade-951c-2dd21361dfc0",
+          "f_plan_id": "d626d12f-d1c5-4632-b005-58ac202b2208",
           "plan_name": "American Health Advantage of Missouri Choice (HMO I-SNP)"
         }
       ],

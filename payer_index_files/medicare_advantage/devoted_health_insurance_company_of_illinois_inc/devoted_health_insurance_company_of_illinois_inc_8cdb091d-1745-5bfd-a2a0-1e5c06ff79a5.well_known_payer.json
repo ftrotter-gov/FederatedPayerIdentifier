@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "Devoted Health Insurance Company of Illinois, Inc.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "8cdb091d-1745-5bfd-a2a0-1e5c06ff79a5",
+      "is_fpi": true,
+      "payerLegalName": "Devoted Health Insurance Company of Illinois, Inc.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "Devoted Health Insurance Company of Illinois, Inc."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H6545"
+      "value": "H6545",
+      "is_fpi": false,
+      "parent_fpi": "8cdb091d-1745-5bfd-a2a0-1e5c06ff79a5"
     }
   ],
   "plan_groups": [
@@ -20,11 +23,15 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6545-001",
+          "parent_fpi": "8cdb091d-1745-5bfd-a2a0-1e5c06ff79a5",
+          "f_plan_id": "7741baa7-694a-4b54-8070-4bfc8e68fc10",
           "plan_name": "DEVOTED CHOICE 001 IL (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6545-010",
+          "parent_fpi": "8cdb091d-1745-5bfd-a2a0-1e5c06ff79a5",
+          "f_plan_id": "a6ab37ad-4ab8-4477-a3b2-e9c2ddc536e3",
           "plan_name": "DEVOTED CHOICE 010 IL (PPO)"
         }
       ],

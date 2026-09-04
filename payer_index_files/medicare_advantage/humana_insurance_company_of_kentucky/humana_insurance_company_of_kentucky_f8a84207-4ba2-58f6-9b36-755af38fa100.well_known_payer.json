@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "HUMANA INSURANCE COMPANY OF KENTUCKY",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "f8a84207-4ba2-58f6-9b36-755af38fa100",
+      "is_fpi": true,
+      "payerLegalName": "HUMANA INSURANCE COMPANY OF KENTUCKY",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HUMANA INSURANCE COMPANY OF KENTUCKY"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H0473"
+      "value": "H0473",
+      "is_fpi": false,
+      "parent_fpi": "f8a84207-4ba2-58f6-9b36-755af38fa100"
     }
   ],
   "plan_groups": [
@@ -20,16 +23,22 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0473-003",
+          "parent_fpi": "f8a84207-4ba2-58f6-9b36-755af38fa100",
+          "f_plan_id": "fc3b3a42-a350-4faa-8256-c1744503638b",
           "plan_name": "HumanaChoice H0473-003 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0473-004",
+          "parent_fpi": "f8a84207-4ba2-58f6-9b36-755af38fa100",
+          "f_plan_id": "9f6d0d73-6ff3-4544-99e9-967a2bc1046d",
           "plan_name": "HumanaChoice H0473-004 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0473-005",
+          "parent_fpi": "f8a84207-4ba2-58f6-9b36-755af38fa100",
+          "f_plan_id": "48cc7c24-8ffa-4197-aa92-965a3dd3656b",
           "plan_name": "HumanaChoice H0473-005 (PPO)"
         }
       ],

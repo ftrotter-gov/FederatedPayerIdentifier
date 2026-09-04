@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF LOUISIANA",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "acd45b79-a4a6-5687-a462-d248686829f4",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF LOUISIANA",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF LOUISIANA"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H7766"
+      "value": "H7766",
+      "is_fpi": false,
+      "parent_fpi": "acd45b79-a4a6-5687-a462-d248686829f4"
     }
   ],
   "plan_groups": [
@@ -20,46 +23,64 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7766-001",
+          "parent_fpi": "acd45b79-a4a6-5687-a462-d248686829f4",
+          "f_plan_id": "03f17e7b-c812-43fe-b04f-a996b076d03d",
           "plan_name": "DEVOTED CHOICE 001 LA (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7766-002",
+          "parent_fpi": "acd45b79-a4a6-5687-a462-d248686829f4",
+          "f_plan_id": "71fd8687-3ad0-41b3-b761-e323faee78f2",
           "plan_name": "DEVOTED CHOICE GIVEBACK 002 LA (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7766-004",
+          "parent_fpi": "acd45b79-a4a6-5687-a462-d248686829f4",
+          "f_plan_id": "4fa9974c-899a-4727-b089-b595ebf5e584",
           "plan_name": "DEVOTED DUAL CHOICE 004 LA (PPO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7766-005",
+          "parent_fpi": "acd45b79-a4a6-5687-a462-d248686829f4",
+          "f_plan_id": "a2ee84da-211c-4193-93e9-3bbb0370bcfc",
           "plan_name": "DEVOTED CHOICE 005 LA (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7766-006",
+          "parent_fpi": "acd45b79-a4a6-5687-a462-d248686829f4",
+          "f_plan_id": "b332bbe2-d3aa-4953-a7bd-eb25842cc6d1",
           "plan_name": "DEVOTED CHOICE GIVEBACK 006 LA (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7766-012",
+          "parent_fpi": "acd45b79-a4a6-5687-a462-d248686829f4",
+          "f_plan_id": "0ea6c73a-a2ce-43a3-a16f-af7db25f6fa6",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 012 LA (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7766-013",
+          "parent_fpi": "acd45b79-a4a6-5687-a462-d248686829f4",
+          "f_plan_id": "171cc1e8-3bac-43fc-93b6-98b2ecb1e24a",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 013 LA (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7766-014",
+          "parent_fpi": "acd45b79-a4a6-5687-a462-d248686829f4",
+          "f_plan_id": "a145835e-6a22-4c36-92e0-c1b7c4e21453",
           "plan_name": "DEVOTED C-SNP CHOICE PLUS 014 LA (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7766-015",
+          "parent_fpi": "acd45b79-a4a6-5687-a462-d248686829f4",
+          "f_plan_id": "0b1367d7-c6bd-4205-bac7-c82df8f7cf8a",
           "plan_name": "DEVOTED DUAL CHOICE FULL 015 LA (PPO D-SNP)"
         }
       ],

@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "AETNA BETTER HEALTH OF CALIFORNIA INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "11bc9f14-6b58-5f56-9f65-fd80c8b21d92",
+      "is_fpi": true,
+      "payerLegalName": "AETNA BETTER HEALTH OF CALIFORNIA INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AETNA BETTER HEALTH OF CALIFORNIA INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H4982"
+      "value": "H4982",
+      "is_fpi": false,
+      "parent_fpi": "11bc9f14-6b58-5f56-9f65-fd80c8b21d92"
     }
   ],
   "plan_groups": [
@@ -20,51 +23,71 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4982-001",
+          "parent_fpi": "11bc9f14-6b58-5f56-9f65-fd80c8b21d92",
+          "f_plan_id": "a056acc6-2567-4f64-a6f6-8bd33b9dc4fd",
           "plan_name": "Aetna Medicare Signature (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4982-002",
+          "parent_fpi": "11bc9f14-6b58-5f56-9f65-fd80c8b21d92",
+          "f_plan_id": "7a964f52-454d-4b11-b1f8-9236e8de9b51",
           "plan_name": "Aetna Medicare Signature (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4982-003",
+          "parent_fpi": "11bc9f14-6b58-5f56-9f65-fd80c8b21d92",
+          "f_plan_id": "b7caf13f-aa3b-4c38-9fc0-f81e10ee89db",
           "plan_name": "Aetna Medicare Signature (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4982-004",
+          "parent_fpi": "11bc9f14-6b58-5f56-9f65-fd80c8b21d92",
+          "f_plan_id": "f9028184-afa6-480b-83e9-bb601a83e810",
           "plan_name": "Aetna Medicare Signature (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4982-007",
+          "parent_fpi": "11bc9f14-6b58-5f56-9f65-fd80c8b21d92",
+          "f_plan_id": "2945195a-60bb-4e8b-96a0-7eb4247dd1ab",
           "plan_name": "Aetna Medicare Signature (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4982-022",
+          "parent_fpi": "11bc9f14-6b58-5f56-9f65-fd80c8b21d92",
+          "f_plan_id": "4e1b3c05-b804-479a-a5a3-3f99816ac66d",
           "plan_name": "Aetna Medicare Prime Value Plus (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4982-025",
+          "parent_fpi": "11bc9f14-6b58-5f56-9f65-fd80c8b21d92",
+          "f_plan_id": "ad8fc69f-cd97-4f7c-932b-58016aade44a",
           "plan_name": "Aetna Medicare Prime Extra (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4982-026",
+          "parent_fpi": "11bc9f14-6b58-5f56-9f65-fd80c8b21d92",
+          "f_plan_id": "3a6e9d7b-0f76-4690-9b44-0b95c0081484",
           "plan_name": "Aetna Medicare Prime Extra (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4982-030",
+          "parent_fpi": "11bc9f14-6b58-5f56-9f65-fd80c8b21d92",
+          "f_plan_id": "594a76b6-0376-40dd-adc4-0a4dd4ba9fa1",
           "plan_name": "Aetna Medicare Enhanced Extra (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4982-801",
+          "parent_fpi": "11bc9f14-6b58-5f56-9f65-fd80c8b21d92",
+          "f_plan_id": "c3e06fc1-0c75-4f2b-b389-122c4e1964a5",
           "plan_name": "Aetna Medicare Plan (HMO)"
         }
       ],

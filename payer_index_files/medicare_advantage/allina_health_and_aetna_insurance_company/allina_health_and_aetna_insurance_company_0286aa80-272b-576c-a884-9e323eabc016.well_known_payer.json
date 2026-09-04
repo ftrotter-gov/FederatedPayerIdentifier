@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "ALLINA HEALTH AND AETNA INSURANCE COMPANY",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "0286aa80-272b-576c-a884-9e323eabc016",
+      "is_fpi": true,
+      "payerLegalName": "ALLINA HEALTH AND AETNA INSURANCE COMPANY",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ALLINA HEALTH AND AETNA INSURANCE COMPANY"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H3219"
+      "value": "H3219",
+      "is_fpi": false,
+      "parent_fpi": "0286aa80-272b-576c-a884-9e323eabc016"
     }
   ],
   "plan_groups": [
@@ -20,56 +23,78 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3219-001",
+          "parent_fpi": "0286aa80-272b-576c-a884-9e323eabc016",
+          "f_plan_id": "47dd02e6-1397-4770-ad00-6a83deef679e",
           "plan_name": "Allina Health Aetna Medicare Signature (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3219-002",
+          "parent_fpi": "0286aa80-272b-576c-a884-9e323eabc016",
+          "f_plan_id": "c256f78d-e896-4016-be43-64def74ebeee",
           "plan_name": "Allina Health Aetna Medicare Enhanced (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3219-003",
+          "parent_fpi": "0286aa80-272b-576c-a884-9e323eabc016",
+          "f_plan_id": "509bb736-485b-4017-b379-0ab914d11245",
           "plan_name": "Allina Health Aetna Medicare Grand (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3219-004",
+          "parent_fpi": "0286aa80-272b-576c-a884-9e323eabc016",
+          "f_plan_id": "e6d0830d-6860-437f-8009-5863c471bcf2",
           "plan_name": "Allina Health Aetna Medicare Grand Extra (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3219-005",
+          "parent_fpi": "0286aa80-272b-576c-a884-9e323eabc016",
+          "f_plan_id": "7c5fd0d7-6532-4f3c-91a9-9b2adcdae599",
           "plan_name": "Allina Health Aetna Medicare Eagle (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3219-008",
+          "parent_fpi": "0286aa80-272b-576c-a884-9e323eabc016",
+          "f_plan_id": "efd5553f-0a16-4be4-9496-a5ab937e1369",
           "plan_name": "Allina Health Aetna Medicare Signature Fit (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3219-012",
+          "parent_fpi": "0286aa80-272b-576c-a884-9e323eabc016",
+          "f_plan_id": "d1adbd36-9a60-424b-ade2-be18418b354c",
           "plan_name": "Allina Health Aetna Medicare Signature (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3219-014",
+          "parent_fpi": "0286aa80-272b-576c-a884-9e323eabc016",
+          "f_plan_id": "be3c72e5-de30-4887-a297-376ed03d86e4",
           "plan_name": "Allina Health Aetna Medicare Enhanced (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3219-801",
+          "parent_fpi": "0286aa80-272b-576c-a884-9e323eabc016",
+          "f_plan_id": "8987787b-0d62-4eee-8dec-595f1a666844",
           "plan_name": "Allina Health Aetna Medicare Plan (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3219-015",
+          "parent_fpi": "0286aa80-272b-576c-a884-9e323eabc016",
+          "f_plan_id": "e2427d7f-8228-430a-951a-af91c2211a31",
           "plan_name": "Allina Health Aetna Medicare Chronic (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3219-016",
+          "parent_fpi": "0286aa80-272b-576c-a884-9e323eabc016",
+          "f_plan_id": "c1600fc3-5e4b-4d31-b193-42e97c1accab",
           "plan_name": "Allina Health Aetna Medicare Value (PPO C-SNP)"
         }
       ],

@@ -1,21 +1,26 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "AETNA BETTER HEALTH OF MICHIGAN INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "bb51ea7b-fd3f-5ff5-beea-b98af7e62fde",
+      "is_fpi": true,
+      "payerLegalName": "AETNA BETTER HEALTH OF MICHIGAN INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AETNA BETTER HEALTH OF MICHIGAN INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H2056"
+      "value": "H2056",
+      "is_fpi": false,
+      "parent_fpi": "bb51ea7b-fd3f-5ff5-beea-b98af7e62fde"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H9314"
+      "value": "H9314",
+      "is_fpi": false,
+      "parent_fpi": "bb51ea7b-fd3f-5ff5-beea-b98af7e62fde"
     }
   ],
   "plan_groups": [
@@ -24,26 +29,36 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2056-003",
+          "parent_fpi": "bb51ea7b-fd3f-5ff5-beea-b98af7e62fde",
+          "f_plan_id": "af960769-f640-4c31-931c-b5c106eb5569",
           "plan_name": "Aetna Medicare Elite (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2056-005",
+          "parent_fpi": "bb51ea7b-fd3f-5ff5-beea-b98af7e62fde",
+          "f_plan_id": "712460c0-f69c-48c8-9334-3b1c088d5021",
           "plan_name": "Aetna Medicare Elite (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2056-801",
+          "parent_fpi": "bb51ea7b-fd3f-5ff5-beea-b98af7e62fde",
+          "f_plan_id": "32d37d87-6c65-4b7c-8694-95880e13a55d",
           "plan_name": "Aetna Medicare Plan (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2056-802",
+          "parent_fpi": "bb51ea7b-fd3f-5ff5-beea-b98af7e62fde",
+          "f_plan_id": "3d7b99f8-3a92-401e-a034-ed5b6604a704",
           "plan_name": "Aetna Medicare Plan w/Rx (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9314-001",
+          "parent_fpi": "bb51ea7b-fd3f-5ff5-beea-b98af7e62fde",
+          "f_plan_id": "da0a2e05-c7b5-4292-8f86-482cf7740edc",
           "plan_name": "Aetna Medicare HIDE (HMO D-SNP)"
         }
       ],

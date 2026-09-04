@@ -1,25 +1,32 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "HUMANA BENEFIT PLAN OF ILLINOIS, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+      "is_fpi": true,
+      "payerLegalName": "HUMANA BENEFIT PLAN OF ILLINOIS, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HUMANA BENEFIT PLAN OF ILLINOIS, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H1468"
+      "value": "H1468",
+      "is_fpi": false,
+      "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H4329"
+      "value": "H4329",
+      "is_fpi": false,
+      "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H5525"
+      "value": "H5525",
+      "is_fpi": false,
+      "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542"
     }
   ],
   "plan_groups": [
@@ -28,276 +35,386 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1468-007",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "57a3cce1-0f17-485c-a0df-73b0b0054fd3",
           "plan_name": "Humana Gold Plus H1468-007 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1468-013",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "6f6298b1-47fd-4d50-a21e-0ce461aa3085",
           "plan_name": "Humana Gold Plus H1468-013 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1468-017",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "a0f2ee95-0a5a-44fc-b58c-e033c9ccd7a7",
           "plan_name": "Humana Community HMO Diabetes and Heart (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1468-021",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "5e26e4fc-b3f3-4f0d-9a2a-0dbbeb818afe",
           "plan_name": "Humana Gold Plus Giveback H1468-021 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1468-802",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "9bcad770-172f-484e-a40a-1eba8ce821a0",
           "plan_name": "Humana Medicare Employer (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1468-803",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "a08c7d79-0a99-4ced-8e0f-5031b39fd909",
           "plan_name": "Humana Medicare Employer (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1468-805",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "a459306e-c896-4b1c-ae37-e644cb4f7de0",
           "plan_name": "Humana Medicare Employer (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1468-806",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "e96cde9b-8615-4566-afc9-f490c828e5d1",
           "plan_name": "Humana Medicare Employer (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4329-001",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "83a45a25-6ffc-496b-a7ee-18b6b39b556a",
           "plan_name": "Humana Dual Fully Integrated (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-004",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "8483383a-598e-41f9-ad52-a56e527e1a8a",
           "plan_name": "HumanaChoice H5525-004 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-005",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "8d9503c4-cd1c-4db4-a1d8-fa8db9d20723",
           "plan_name": "HumanaChoice H5525-005 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-006",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "8e094b9a-33de-4df1-8b49-d78bdd519533",
           "plan_name": "HumanaChoice H5525-006 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-008",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "dc46cde0-9666-4e08-9b77-aaa72f4f812a",
           "plan_name": "HumanaChoice H5525-008 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-086",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "0078a3d0-443e-40d4-aa54-fcfdd77d63e3",
           "plan_name": "HumanaChoice H5525-086 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-030",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "2d7f9497-6c67-4674-867e-93d5884af599",
           "plan_name": "HumanaChoice H5525-030 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-031",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "c0e605ec-6278-45d3-99fd-195a5da68040",
           "plan_name": "Humana USAA Honor Giveback (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-034",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "34f2bb63-d3ff-4db9-8bcb-ae7e251a78f3",
           "plan_name": "Humana Full Access H5525-034 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-035",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "926d69fb-c692-4765-ac29-d597fc77a377",
           "plan_name": "HumanaChoice Giveback H5525-035 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-036",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "367b9114-ff70-458f-ab53-86ac8fbb7140",
           "plan_name": "HumanaChoice SNP-DE H5525-036 (PPO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-041",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "0a119a41-3d2b-4435-9dba-ff96c5af6bbb",
           "plan_name": "Humana Value Plus H5525-041 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-042",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "3cab6c99-9fb4-4eac-985c-8f4ccd18bf3b",
           "plan_name": "Humana Full Access H5525-042 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-045",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "111834d1-8eee-48e8-9ccc-16bb0e2711cf",
           "plan_name": "HumanaChoice SNP-DE H5525-045 (PPO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-046",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "e8a8db69-7f98-49ec-a315-d550c4e6dcc5",
           "plan_name": "Humana Dual Select H5525-046 (PPO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-049",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "f624b7d9-d5c2-49b1-8232-15a7f7417cea",
           "plan_name": "HumanaChoice H5525-049 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-050",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "ccd2e606-2b7c-47d5-b943-b6a43e0e8b9e",
           "plan_name": "HumanaChoice H5525-050 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-051",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "89c919ce-5507-4c6f-ae51-c3e92d90a754",
           "plan_name": "HumanaChoice H5525-051 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-054",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "869fa4ff-3a51-44cd-a661-154d81741d80",
           "plan_name": "HumanaChoice H5525-054 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-056",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "e09d9735-19e3-4a88-b55e-20475b126f2c",
           "plan_name": "HumanaChoice H5525-056 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-057",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "9bc9a7ef-a8a9-44a5-b0ef-7f43caa9cd83",
           "plan_name": "Humana USAA Honor Giveback with Rx (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-085",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "6fbb5157-463f-4094-af7c-59eaf1ce0cc6",
           "plan_name": "HumanaChoice Giveback H5525-085 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-059",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "6994c117-e318-443c-87e9-a3c7894aad8a",
           "plan_name": "Humana USAA Honor Giveback with Rx (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-065",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "85833cdd-b704-4857-a7f1-e5d23e4f4653",
           "plan_name": "Humana USAA Honor Giveback (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-070",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "fab6d449-37c3-4f75-9cb2-bfdc6c126615",
           "plan_name": "HumanaChoice H5525-070 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-072",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "4325efc6-ebff-4f63-a655-c5e75e479afe",
           "plan_name": "Humana Dual Select H5525-072 (PPO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-074",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "542297bd-bc0e-4bc4-a518-a2616bf53088",
           "plan_name": "HumanaChoice H5525-074 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-075",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "e56d9141-0236-442c-aa30-b1f52b32d024",
           "plan_name": "HumanaChoice H5525-075 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-077",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "fea5c8e8-23f5-48fa-a150-1c9b3fe3d21a",
           "plan_name": "HumanaChoice H5525-077 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-078",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "a579ab26-7e2f-4427-8a3c-66fcf54468d6",
           "plan_name": "Humana USAA Honor Giveback (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-079",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "d086a63a-0bf4-4d51-95fc-cfa8883137e4",
           "plan_name": "Humana USAA Honor Giveback (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-080",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "a5aa7a48-0488-4d9b-95f5-a694448c6d77",
           "plan_name": "HumanaChoice H5525-080 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-083",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "e2247f51-38e6-442f-835b-f61d0f311ba1",
           "plan_name": "HumanaChoice H5525-083 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-084",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "5c11246d-8100-4ff9-8dc2-33c83c15e97d",
           "plan_name": "HumanaChoice H5525-084 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-809",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "8e62fe36-640f-48a4-b83f-a02cd957317a",
           "plan_name": "Humana Medicare Employer (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-810",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "ed7700bd-8953-4c71-8f01-02b2e83a47a9",
           "plan_name": "Humana Medicare Employer (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-812",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "1a2c3e13-cd40-46db-ba9e-d7df60d2e0b8",
           "plan_name": "Humana Medicare Employer (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-813",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "43299391-58fe-4817-80dd-9543514d0895",
           "plan_name": "Humana Medicare Employer (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-816",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "80ced3be-1cdc-4022-bcd7-e531c2df794f",
           "plan_name": "Humana Medicare Employer (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-817",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "67c39bb5-6fa4-4e09-bd52-4c2541fdfe78",
           "plan_name": "Humana Medicare Employer (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-818",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "edd979d1-e213-40e6-b47d-58080760594d",
           "plan_name": "Humana Medicare Employer (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-819",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "74915c08-2a1e-4218-92f6-7c2f7cc20aec",
           "plan_name": "Humana Medicare Employer (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-826",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "85dd646c-a8cd-463f-b60d-a78dc663d75c",
           "plan_name": "Humana Medicare Employer (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-827",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "80872b33-2a81-4420-b882-51c1b9c6c70a",
           "plan_name": "Humana Medicare Employer (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-830",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "e833cbfc-106d-452f-953f-4ba7607bf623",
           "plan_name": "Humana Medicare Employer (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-831",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "49845c0a-6834-42ce-a716-ef3c823438b9",
           "plan_name": "Humana Medicare Employer (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-087",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "d5e7430b-fce0-4eb8-93be-bb298bf38dbf",
           "plan_name": "HumanaChoice H5525-087 (PPO)"
         }
       ],

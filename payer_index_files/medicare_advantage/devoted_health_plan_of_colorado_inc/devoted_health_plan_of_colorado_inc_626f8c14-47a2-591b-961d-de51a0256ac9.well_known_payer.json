@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH PLAN OF COLORADO INC",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "626f8c14-47a2-591b-961d-de51a0256ac9",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH PLAN OF COLORADO INC",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH PLAN OF COLORADO INC"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H7147"
+      "value": "H7147",
+      "is_fpi": false,
+      "parent_fpi": "626f8c14-47a2-591b-961d-de51a0256ac9"
     }
   ],
   "plan_groups": [
@@ -20,46 +23,64 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7147-001",
+          "parent_fpi": "626f8c14-47a2-591b-961d-de51a0256ac9",
+          "f_plan_id": "33195a42-42f9-4856-b990-3c0d55921152",
           "plan_name": "DEVOTED CORE 001 CO (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7147-003",
+          "parent_fpi": "626f8c14-47a2-591b-961d-de51a0256ac9",
+          "f_plan_id": "ad5f7081-49be-42d7-aa93-606c5b25cb49",
           "plan_name": "DEVOTED DUAL PLUS 003 CO (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7147-004",
+          "parent_fpi": "626f8c14-47a2-591b-961d-de51a0256ac9",
+          "f_plan_id": "ddc85c6d-70d6-441f-b693-c689898a8f02",
           "plan_name": "DEVOTED CORE 004 CO (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7147-007",
+          "parent_fpi": "626f8c14-47a2-591b-961d-de51a0256ac9",
+          "f_plan_id": "bb5fbbca-ffd4-42f6-9141-c33e6144a567",
           "plan_name": "DEVOTED DUAL 007 CO (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7147-009",
+          "parent_fpi": "626f8c14-47a2-591b-961d-de51a0256ac9",
+          "f_plan_id": "bd2efd6e-6e8c-4d7e-85ac-798877551371",
           "plan_name": "DEVOTED C-SNP PREMIUM 009 CO (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7147-010",
+          "parent_fpi": "626f8c14-47a2-591b-961d-de51a0256ac9",
+          "f_plan_id": "0addedd3-5fd6-420c-b73f-5854957640ef",
           "plan_name": "DEVOTED C-SNP PREMIUM 010 CO (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7147-011",
+          "parent_fpi": "626f8c14-47a2-591b-961d-de51a0256ac9",
+          "f_plan_id": "b9d89286-c64f-4615-857c-81e2cbcfc1ac",
           "plan_name": "DEVOTED C-SNP PREMIUM 011 CO (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7147-012",
+          "parent_fpi": "626f8c14-47a2-591b-961d-de51a0256ac9",
+          "f_plan_id": "7a66dea6-454a-4a22-827f-99761c9c5f25",
           "plan_name": "DEVOTED DUAL FULL 012 CO (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7147-013",
+          "parent_fpi": "626f8c14-47a2-591b-961d-de51a0256ac9",
+          "f_plan_id": "efd14d26-9109-4ce7-b138-f568e478da5f",
           "plan_name": "DEVOTED C-SNP PLUS 013 CO (HMO C-SNP)"
         }
       ],

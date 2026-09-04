@@ -1,17 +1,25 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "AETNA BETTER HEALTH OF TEXAS INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "3f9af4c3-d735-5c9b-9674-33cdd1864d6b",
+      "is_fpi": true,
+      "payerLegalName": "AETNA BETTER HEALTH OF TEXAS INC.",
+      "payer_level_string_search_matches": [
+        "Aetna",
+        "Aetna Better Health of Texas",
+        "Aetna Better Health of Texas, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/state_doi_id",
       "fpi_source_value": "TX-68775"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
       "value": "H8597",
+      "is_fpi": false,
+      "parent_fpi": "3f9af4c3-d735-5c9b-9674-33cdd1864d6b",
       "notes": "Medicare Advantage D-SNP contract associated with Aetna Better Health of Texas.",
       "expiration": "current"
     },
@@ -19,45 +27,52 @@
       "system": "https://directory.cms.gov/payer_identification_system/naic_id",
       "value": "95040",
       "notes": "Current Texas Medicaid HMO legal entity.",
-      "expiration": "current"
+      "expiration": "current",
+      "is_fpi": false,
+      "parent_fpi": "3f9af4c3-d735-5c9b-9674-33cdd1864d6b"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/ein",
       "value": "74-1844335",
       "notes": "Federal EIN mapped to Aetna Better Health of Texas in insurance regulatory filings.",
-      "expiration": "current"
+      "expiration": "current",
+      "is_fpi": false,
+      "parent_fpi": "3f9af4c3-d735-5c9b-9674-33cdd1864d6b"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/state_doi_id",
       "value": "TX-68775",
       "notes": "Texas Department of Insurance HMO identifier.",
       "lookup_url": "https://www.tdi.texas.gov/hmo/profiles/68775.html",
-      "expiration": "current"
+      "expiration": "current",
+      "is_fpi": false,
+      "parent_fpi": "3f9af4c3-d735-5c9b-9674-33cdd1864d6b"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/lei",
       "value": "549300PZN08N45LKUU43",
       "notes": "Legal Entity Identifier for Aetna Better Health of Texas.",
       "lookup_url": "https://lei.bloomberg.com/leis/view/549300PZN08N45LKUU43",
-      "expiration": "current"
+      "expiration": "current",
+      "is_fpi": false,
+      "parent_fpi": "3f9af4c3-d735-5c9b-9674-33cdd1864d6b"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/x12_payer_id",
       "value": "38692",
       "notes": "Current electronic claims payer ID. Aetna instructed providers to use 38692 effective 2024-12-15.",
-      "expiration": "current"
+      "expiration": "current",
+      "is_fpi": false,
+      "parent_fpi": "3f9af4c3-d735-5c9b-9674-33cdd1864d6b"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/x12_payer_id",
       "value": "60054",
       "notes": "Historical routing relationship; no longer accepted for ABH Texas claims effective 2024-12-15.",
-      "expiration": "2024-12"
+      "expiration": "2024-12",
+      "is_fpi": false,
+      "parent_fpi": "3f9af4c3-d735-5c9b-9674-33cdd1864d6b"
     }
-  ],
-  "payer_level_string_search_matches": [
-    "Aetna",
-    "Aetna Better Health of Texas",
-    "Aetna Better Health of Texas, Inc."
   ],
   "plan_groups": [
     {
@@ -65,6 +80,8 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8597-001",
+          "parent_fpi": "3f9af4c3-d735-5c9b-9674-33cdd1864d6b",
+          "f_plan_id": "ffb8b1aa-1959-49e4-af0d-3815e67ff0c3",
           "plan_name": "Aetna Medicare Dual Care (HMO D-SNP)",
           "plan_level_string_search_matches": [
             "Aetna Medicare Dual Care (HMO D-SNP)",
@@ -74,6 +91,8 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8597-002",
+          "parent_fpi": "3f9af4c3-d735-5c9b-9674-33cdd1864d6b",
+          "f_plan_id": "ce642338-627c-4185-bbd6-784bfaff6fb6",
           "plan_name": "Aetna Medicare Dual Care (HMO D-SNP)",
           "plan_level_string_search_matches": [
             "Aetna Medicare Dual Care (HMO D-SNP)",
@@ -83,6 +102,8 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8597-003",
+          "parent_fpi": "3f9af4c3-d735-5c9b-9674-33cdd1864d6b",
+          "f_plan_id": "82691935-4249-4702-b46e-e6e1d6d3f8c3",
           "plan_name": "Aetna Medicare Dual Care (HMO D-SNP)",
           "plan_level_string_search_matches": [
             "Aetna Medicare Dual Care (HMO D-SNP)",

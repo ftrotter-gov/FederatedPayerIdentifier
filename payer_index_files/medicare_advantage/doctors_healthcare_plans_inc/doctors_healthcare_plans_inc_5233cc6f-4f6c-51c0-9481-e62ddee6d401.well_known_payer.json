@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DOCTORS HEALTHCARE PLANS, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "5233cc6f-4f6c-51c0-9481-e62ddee6d401",
+      "is_fpi": true,
+      "payerLegalName": "DOCTORS HEALTHCARE PLANS, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DOCTORS HEALTHCARE PLANS, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H4140"
+      "value": "H4140",
+      "is_fpi": false,
+      "parent_fpi": "5233cc6f-4f6c-51c0-9481-e62ddee6d401"
     }
   ],
   "plan_groups": [
@@ -20,46 +23,64 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4140-001",
+          "parent_fpi": "5233cc6f-4f6c-51c0-9481-e62ddee6d401",
+          "f_plan_id": "90c140c3-f59e-4a00-b1ef-eff738976ae5",
           "plan_name": "DrMax (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4140-002",
+          "parent_fpi": "5233cc6f-4f6c-51c0-9481-e62ddee6d401",
+          "f_plan_id": "0d56cfb7-b518-42d3-891b-884c8aa4eb8e",
           "plan_name": "DrPlus (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4140-004",
+          "parent_fpi": "5233cc6f-4f6c-51c0-9481-e62ddee6d401",
+          "f_plan_id": "6836d10a-b715-49fc-a7f2-dfb2921dbc6f",
           "plan_name": "DrExtraCare (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4140-012",
+          "parent_fpi": "5233cc6f-4f6c-51c0-9481-e62ddee6d401",
+          "f_plan_id": "e8a9fd54-78a0-44af-9c67-18930601de24",
           "plan_name": "DrSelect (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4140-013",
+          "parent_fpi": "5233cc6f-4f6c-51c0-9481-e62ddee6d401",
+          "f_plan_id": "dca88f26-ee36-4ec2-8abf-c0d5783d4caf",
           "plan_name": "DrFlex (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4140-016",
+          "parent_fpi": "5233cc6f-4f6c-51c0-9481-e62ddee6d401",
+          "f_plan_id": "63dae08a-becb-4c69-aa29-571e38432416",
           "plan_name": "DrSelect-CFL (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4140-017",
+          "parent_fpi": "5233cc6f-4f6c-51c0-9481-e62ddee6d401",
+          "f_plan_id": "e45d68b3-63f9-4df9-a46a-fc67738ad9cf",
           "plan_name": "DrPlatinum-CFL (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4140-018",
+          "parent_fpi": "5233cc6f-4f6c-51c0-9481-e62ddee6d401",
+          "f_plan_id": "f40de2ae-801e-44f5-aa11-081e22f7b387",
           "plan_name": "DrTotalCare-CFL (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4140-019",
+          "parent_fpi": "5233cc6f-4f6c-51c0-9481-e62ddee6d401",
+          "f_plan_id": "21d25483-e5f0-47ec-a20c-da54ad6a52f9",
           "plan_name": "DrElite-SFL (HMO)"
         }
       ],

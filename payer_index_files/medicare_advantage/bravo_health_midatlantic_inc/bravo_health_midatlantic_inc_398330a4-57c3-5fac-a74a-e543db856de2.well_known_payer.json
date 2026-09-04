@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "BRAVO HEALTH MID-ATLANTIC, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "398330a4-57c3-5fac-a74a-e543db856de2",
+      "is_fpi": true,
+      "payerLegalName": "BRAVO HEALTH MID-ATLANTIC, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "BRAVO HEALTH MID-ATLANTIC, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H2108"
+      "value": "H2108",
+      "is_fpi": false,
+      "parent_fpi": "398330a4-57c3-5fac-a74a-e543db856de2"
     }
   ],
   "plan_groups": [
@@ -20,46 +23,64 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2108-022",
+          "parent_fpi": "398330a4-57c3-5fac-a74a-e543db856de2",
+          "f_plan_id": "b4ad4a25-8f93-4ebd-b8ac-b19eecf052c1",
           "plan_name": "HealthSpring Preferred Plus (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2108-029",
+          "parent_fpi": "398330a4-57c3-5fac-a74a-e543db856de2",
+          "f_plan_id": "6d090939-85c7-4749-b6f1-10af899f9d55",
           "plan_name": "HealthSpring Achieve (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2108-030",
+          "parent_fpi": "398330a4-57c3-5fac-a74a-e543db856de2",
+          "f_plan_id": "16794842-53bd-4ba9-94a6-289a6ad019b6",
           "plan_name": "HealthSpring Achieve (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2108-036",
+          "parent_fpi": "398330a4-57c3-5fac-a74a-e543db856de2",
+          "f_plan_id": "d24444e3-dd1f-4408-8c78-a819f7a68908",
           "plan_name": "HealthSpring Alliance (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2108-041",
+          "parent_fpi": "398330a4-57c3-5fac-a74a-e543db856de2",
+          "f_plan_id": "5d6f99a6-d906-4d1f-b52c-6b2fbb71a5ee",
           "plan_name": "HealthSpring TotalCare Plus (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2108-042",
+          "parent_fpi": "398330a4-57c3-5fac-a74a-e543db856de2",
+          "f_plan_id": "742cc79d-452c-4137-9bfc-763d65bca65c",
           "plan_name": "HealthSpring Preferred (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2108-801",
+          "parent_fpi": "398330a4-57c3-5fac-a74a-e543db856de2",
+          "f_plan_id": "6e047b42-52bb-4362-bff6-83d88c5fc90a",
           "plan_name": "HealthSpring Preferred (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2108-044",
+          "parent_fpi": "398330a4-57c3-5fac-a74a-e543db856de2",
+          "f_plan_id": "f74410c1-f52a-4ce9-accd-65a9d8653edc",
           "plan_name": "HealthSpring Courage (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2108-045",
+          "parent_fpi": "398330a4-57c3-5fac-a74a-e543db856de2",
+          "f_plan_id": "7c1d4df9-8098-4d38-a21c-6d7acafbba3b",
           "plan_name": "HealthSpring Courage (HMO)"
         }
       ],

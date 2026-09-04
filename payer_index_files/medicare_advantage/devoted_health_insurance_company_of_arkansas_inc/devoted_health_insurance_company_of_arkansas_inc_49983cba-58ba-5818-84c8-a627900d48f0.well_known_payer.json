@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF ARKANSAS INC",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "49983cba-58ba-5818-84c8-a627900d48f0",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF ARKANSAS INC",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF ARKANSAS INC"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H7397"
+      "value": "H7397",
+      "is_fpi": false,
+      "parent_fpi": "49983cba-58ba-5818-84c8-a627900d48f0"
     }
   ],
   "plan_groups": [
@@ -20,41 +23,57 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7397-001",
+          "parent_fpi": "49983cba-58ba-5818-84c8-a627900d48f0",
+          "f_plan_id": "21dd7c8e-08e3-4bee-baf5-fea56b52acff",
           "plan_name": "DEVOTED CHOICE 001 AR (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7397-002",
+          "parent_fpi": "49983cba-58ba-5818-84c8-a627900d48f0",
+          "f_plan_id": "495803c9-9c73-474b-af09-98a21cdacea5",
           "plan_name": "DEVOTED CHOICE GIVEBACK 002 AR (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7397-003",
+          "parent_fpi": "49983cba-58ba-5818-84c8-a627900d48f0",
+          "f_plan_id": "c97f0491-618b-4b3b-ae26-aa4dd967f52e",
           "plan_name": "DEVOTED DUAL CHOICE PLUS 003 AR (PPO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7397-004",
+          "parent_fpi": "49983cba-58ba-5818-84c8-a627900d48f0",
+          "f_plan_id": "5f6bcea6-d775-4dc5-ac0b-329b176ecdc6",
           "plan_name": "DEVOTED DUAL CHOICE 004 AR (PPO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7397-006",
+          "parent_fpi": "49983cba-58ba-5818-84c8-a627900d48f0",
+          "f_plan_id": "6f3f3581-6d09-4ef4-b141-53f05cb00bf6",
           "plan_name": "DEVOTED C-SNP CHOICE 006 AR (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7397-007",
+          "parent_fpi": "49983cba-58ba-5818-84c8-a627900d48f0",
+          "f_plan_id": "6065acb9-9007-48e6-b54f-948436f4ce6f",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 007 AR (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7397-009",
+          "parent_fpi": "49983cba-58ba-5818-84c8-a627900d48f0",
+          "f_plan_id": "174168eb-c7f7-4102-a044-77b5f0d9decc",
           "plan_name": "DEVOTED DUAL CHOICE FULL 009 AR (PPO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7397-010",
+          "parent_fpi": "49983cba-58ba-5818-84c8-a627900d48f0",
+          "f_plan_id": "59d88bc3-407d-44bd-a018-d4f96d6395b9",
           "plan_name": "DEVOTED C-SNP CHOICE PLUS 010 AR (PPO C-SNP)"
         }
       ],

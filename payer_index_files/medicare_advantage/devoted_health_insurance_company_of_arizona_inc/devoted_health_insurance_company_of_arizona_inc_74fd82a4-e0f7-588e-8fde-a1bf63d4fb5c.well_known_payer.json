@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF ARIZONA, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "74fd82a4-e0f7-588e-8fde-a1bf63d4fb5c",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF ARIZONA, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF ARIZONA, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H6586"
+      "value": "H6586",
+      "is_fpi": false,
+      "parent_fpi": "74fd82a4-e0f7-588e-8fde-a1bf63d4fb5c"
     }
   ],
   "plan_groups": [
@@ -20,26 +23,36 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6586-001",
+          "parent_fpi": "74fd82a4-e0f7-588e-8fde-a1bf63d4fb5c",
+          "f_plan_id": "f2cf69a8-f31f-46cb-819f-8633ba17edef",
           "plan_name": "DEVOTED CHOICE 001 AZ (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6586-002",
+          "parent_fpi": "74fd82a4-e0f7-588e-8fde-a1bf63d4fb5c",
+          "f_plan_id": "415f9995-bd38-4543-8ed3-83147b66347f",
           "plan_name": "DEVOTED CHOICE 002 AZ (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6586-003",
+          "parent_fpi": "74fd82a4-e0f7-588e-8fde-a1bf63d4fb5c",
+          "f_plan_id": "0ab5a969-a217-43bd-b417-c79a142866ee",
           "plan_name": "DEVOTED CHOICE 003 AZ (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6586-005",
+          "parent_fpi": "74fd82a4-e0f7-588e-8fde-a1bf63d4fb5c",
+          "f_plan_id": "6cada2d5-11a2-4e34-9f08-79a12bda2983",
           "plan_name": "DEVOTED CHOICE MA ONLY 005 AZ (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6586-006",
+          "parent_fpi": "74fd82a4-e0f7-588e-8fde-a1bf63d4fb5c",
+          "f_plan_id": "bd1de754-d5ed-48a9-936c-02f83390d418",
           "plan_name": "DEVOTED CHOICE GIVEBACK 006 AZ (PPO)"
         }
       ],

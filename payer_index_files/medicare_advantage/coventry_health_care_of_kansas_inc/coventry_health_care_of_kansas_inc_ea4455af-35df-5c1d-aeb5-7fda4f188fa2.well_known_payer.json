@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "COVENTRY HEALTH CARE OF KANSAS, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "ea4455af-35df-5c1d-aeb5-7fda4f188fa2",
+      "is_fpi": true,
+      "payerLegalName": "COVENTRY HEALTH CARE OF KANSAS, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "COVENTRY HEALTH CARE OF KANSAS, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H5325"
+      "value": "H5325",
+      "is_fpi": false,
+      "parent_fpi": "ea4455af-35df-5c1d-aeb5-7fda4f188fa2"
     }
   ],
   "plan_groups": [
@@ -20,51 +23,71 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5325-003",
+          "parent_fpi": "ea4455af-35df-5c1d-aeb5-7fda4f188fa2",
+          "f_plan_id": "8b0f35e0-75f8-41f7-8a31-2d805b9b6979",
           "plan_name": "Aetna Medicare Dual Care (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5325-004",
+          "parent_fpi": "ea4455af-35df-5c1d-aeb5-7fda4f188fa2",
+          "f_plan_id": "2676d9f6-54ed-42f3-b1bf-d33c7eb6b488",
           "plan_name": "Aetna Medicare Dual (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5325-005",
+          "parent_fpi": "ea4455af-35df-5c1d-aeb5-7fda4f188fa2",
+          "f_plan_id": "336d0f11-6bb1-4176-b677-e9cf3019f350",
           "plan_name": "Aetna Medicare Dual (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5325-006",
+          "parent_fpi": "ea4455af-35df-5c1d-aeb5-7fda4f188fa2",
+          "f_plan_id": "4738e104-0923-4ca3-9646-3c813bb70b55",
           "plan_name": "Aetna Medicare Dual (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5325-007",
+          "parent_fpi": "ea4455af-35df-5c1d-aeb5-7fda4f188fa2",
+          "f_plan_id": "25a0dc68-5f80-43fe-ac6f-20af88f7b5bb",
           "plan_name": "Aetna Medicare Dual Extra Care (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5325-011",
+          "parent_fpi": "ea4455af-35df-5c1d-aeb5-7fda4f188fa2",
+          "f_plan_id": "73ff40fd-9f6e-452f-a040-1ef0a397e22e",
           "plan_name": "Aetna Medicare Dual Extra Care (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5325-012",
+          "parent_fpi": "ea4455af-35df-5c1d-aeb5-7fda4f188fa2",
+          "f_plan_id": "fb6500f5-47c0-45c3-8d20-76412c262b8d",
           "plan_name": "Aetna Medicare Full Dual Care (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5325-013",
+          "parent_fpi": "ea4455af-35df-5c1d-aeb5-7fda4f188fa2",
+          "f_plan_id": "5c2dacb1-1a96-46d0-8dca-12bd41d31543",
           "plan_name": "Aetna Medicare Full Dual (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5325-014",
+          "parent_fpi": "ea4455af-35df-5c1d-aeb5-7fda4f188fa2",
+          "f_plan_id": "69c1c211-794c-460a-b288-06e2e0a643b9",
           "plan_name": "Aetna Medicare Full Dual (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5325-015",
+          "parent_fpi": "ea4455af-35df-5c1d-aeb5-7fda4f188fa2",
+          "f_plan_id": "156b71c0-6a14-4f70-bd94-da8be780ed05",
           "plan_name": "Aetna Medicare Full Dual (HMO D-SNP)"
         }
       ],

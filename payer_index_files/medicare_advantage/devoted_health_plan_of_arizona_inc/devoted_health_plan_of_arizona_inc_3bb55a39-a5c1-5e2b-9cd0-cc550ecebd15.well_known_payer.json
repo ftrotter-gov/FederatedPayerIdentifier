@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH PLAN OF ARIZONA, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "3bb55a39-a5c1-5e2b-9cd0-cc550ecebd15",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH PLAN OF ARIZONA, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH PLAN OF ARIZONA, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H8173"
+      "value": "H8173",
+      "is_fpi": false,
+      "parent_fpi": "3bb55a39-a5c1-5e2b-9cd0-cc550ecebd15"
     }
   ],
   "plan_groups": [
@@ -20,76 +23,106 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8173-001",
+          "parent_fpi": "3bb55a39-a5c1-5e2b-9cd0-cc550ecebd15",
+          "f_plan_id": "4a2d3073-bc84-41be-9ee7-08e68c372b88",
           "plan_name": "DEVOTED CORE 001 AZ (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8173-005",
+          "parent_fpi": "3bb55a39-a5c1-5e2b-9cd0-cc550ecebd15",
+          "f_plan_id": "2ff60852-94cc-4384-8ec9-817c1e0139e3",
           "plan_name": "DEVOTED MA ONLY 005 AZ (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8173-007",
+          "parent_fpi": "3bb55a39-a5c1-5e2b-9cd0-cc550ecebd15",
+          "f_plan_id": "bc9b133e-a1b4-42a2-8aa8-f85fcf6bf91d",
           "plan_name": "DEVOTED CORE 007 AZ (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8173-011",
+          "parent_fpi": "3bb55a39-a5c1-5e2b-9cd0-cc550ecebd15",
+          "f_plan_id": "c0192638-7ab3-4c11-8075-acd07635d9ec",
           "plan_name": "DEVOTED C-SNP 011 AZ (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8173-013",
+          "parent_fpi": "3bb55a39-a5c1-5e2b-9cd0-cc550ecebd15",
+          "f_plan_id": "f2bb0a46-bf16-47e0-86a3-71b2dadca6f1",
           "plan_name": "DEVOTED GIVEBACK 013 AZ (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8173-014",
+          "parent_fpi": "3bb55a39-a5c1-5e2b-9cd0-cc550ecebd15",
+          "f_plan_id": "8337184f-fb0d-48a1-b00f-aba36e64b29b",
           "plan_name": "DEVOTED C-SNP PREMIUM 014 AZ (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8173-016",
+          "parent_fpi": "3bb55a39-a5c1-5e2b-9cd0-cc550ecebd15",
+          "f_plan_id": "34a9337c-dee4-4453-8aaf-6321ed057fb6",
           "plan_name": "DEVOTED CORE 016 AZ (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8173-019",
+          "parent_fpi": "3bb55a39-a5c1-5e2b-9cd0-cc550ecebd15",
+          "f_plan_id": "33fc21b9-0cd9-4f43-8a55-bc33f6682cd3",
           "plan_name": "DEVOTED GIVEBACK 019 AZ (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8173-020",
+          "parent_fpi": "3bb55a39-a5c1-5e2b-9cd0-cc550ecebd15",
+          "f_plan_id": "4350b37f-46af-4df8-8e66-e43509c3dc76",
           "plan_name": "DEVOTED CORE 020 AZ (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8173-021",
+          "parent_fpi": "3bb55a39-a5c1-5e2b-9cd0-cc550ecebd15",
+          "f_plan_id": "646419bc-045a-4ee8-9aea-e8993936ea44",
           "plan_name": "DEVOTED CORE 021 AZ (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8173-022",
+          "parent_fpi": "3bb55a39-a5c1-5e2b-9cd0-cc550ecebd15",
+          "f_plan_id": "7a88c209-429e-4a68-97a2-219029f53b6b",
           "plan_name": "DEVOTED C-SNP PLUS 022 AZ (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8173-023",
+          "parent_fpi": "3bb55a39-a5c1-5e2b-9cd0-cc550ecebd15",
+          "f_plan_id": "4dc995e4-9422-4dc1-ac2d-5b77246c733f",
           "plan_name": "DEVOTED C-SNP 023 AZ (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8173-024",
+          "parent_fpi": "3bb55a39-a5c1-5e2b-9cd0-cc550ecebd15",
+          "f_plan_id": "eac7baf1-5004-49c4-beb9-f2c1f77ca858",
           "plan_name": "DEVOTED C-SNP PREMIUM 024 AZ (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8173-025",
+          "parent_fpi": "3bb55a39-a5c1-5e2b-9cd0-cc550ecebd15",
+          "f_plan_id": "e9c8373d-7e0e-4193-a4c6-4907af834cf7",
           "plan_name": "DEVOTED C-SNP PLUS 025 AZ (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8173-027",
+          "parent_fpi": "3bb55a39-a5c1-5e2b-9cd0-cc550ecebd15",
+          "f_plan_id": "74801de8-a78e-4197-85b7-5903d0ea323b",
           "plan_name": "DEVOTED C-SNP PLUS 027 AZ (HMO C-SNP)"
         }
       ],

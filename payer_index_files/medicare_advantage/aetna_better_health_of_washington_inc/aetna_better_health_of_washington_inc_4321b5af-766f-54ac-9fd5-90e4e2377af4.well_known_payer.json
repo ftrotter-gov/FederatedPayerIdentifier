@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "AETNA BETTER HEALTH OF WASHINGTON, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "4321b5af-766f-54ac-9fd5-90e4e2377af4",
+      "is_fpi": true,
+      "payerLegalName": "AETNA BETTER HEALTH OF WASHINGTON, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AETNA BETTER HEALTH OF WASHINGTON, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H3748"
+      "value": "H3748",
+      "is_fpi": false,
+      "parent_fpi": "4321b5af-766f-54ac-9fd5-90e4e2377af4"
     }
   ],
   "plan_groups": [
@@ -20,11 +23,15 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3748-003",
+          "parent_fpi": "4321b5af-766f-54ac-9fd5-90e4e2377af4",
+          "f_plan_id": "6537b6c2-acb1-45af-9565-f05e9f17d01c",
           "plan_name": "Aetna Medicare Signature (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3748-801",
+          "parent_fpi": "4321b5af-766f-54ac-9fd5-90e4e2377af4",
+          "f_plan_id": "3b8fedc3-feca-4188-ba20-dea87744fca2",
           "plan_name": "Aetna Medicare Plan (HMO)"
         }
       ],

@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF COLORADO INC",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "3671e72a-6ebe-5f33-af79-f1c822f2c0e2",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF COLORADO INC",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF COLORADO INC"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H4808"
+      "value": "H4808",
+      "is_fpi": false,
+      "parent_fpi": "3671e72a-6ebe-5f33-af79-f1c822f2c0e2"
     }
   ],
   "plan_groups": [
@@ -20,26 +23,36 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4808-001",
+          "parent_fpi": "3671e72a-6ebe-5f33-af79-f1c822f2c0e2",
+          "f_plan_id": "65298077-650a-46df-8279-69f41d46b378",
           "plan_name": "DEVOTED CHOICE 001 CO (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4808-002",
+          "parent_fpi": "3671e72a-6ebe-5f33-af79-f1c822f2c0e2",
+          "f_plan_id": "1ee8d2d4-129b-49f7-bf85-a60b59a4fbfa",
           "plan_name": "DEVOTED CHOICE 002 CO (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4808-003",
+          "parent_fpi": "3671e72a-6ebe-5f33-af79-f1c822f2c0e2",
+          "f_plan_id": "bd6f42a3-2c49-4891-ba69-e312c3c1c55c",
           "plan_name": "DEVOTED CHOICE GIVEBACK 003 CO (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4808-004",
+          "parent_fpi": "3671e72a-6ebe-5f33-af79-f1c822f2c0e2",
+          "f_plan_id": "53ba75fc-44ab-4004-b6da-4e52364a8403",
           "plan_name": "DEVOTED CHOICE MA ONLY 004 CO (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4808-005",
+          "parent_fpi": "3671e72a-6ebe-5f33-af79-f1c822f2c0e2",
+          "f_plan_id": "138fc4df-1734-44e4-bdf4-048229ad08e5",
           "plan_name": "DEVOTED CHOICE 005 CO (PPO)"
         }
       ],

@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "HEALTHSUN HEALTH PLANS, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "247afaad-1689-5305-8225-3cffeca4cb6e",
+      "is_fpi": true,
+      "payerLegalName": "HEALTHSUN HEALTH PLANS, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HEALTHSUN HEALTH PLANS, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H5431"
+      "value": "H5431",
+      "is_fpi": false,
+      "parent_fpi": "247afaad-1689-5305-8225-3cffeca4cb6e"
     }
   ],
   "plan_groups": [
@@ -20,66 +23,92 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5431-001",
+          "parent_fpi": "247afaad-1689-5305-8225-3cffeca4cb6e",
+          "f_plan_id": "cbec567d-a380-4513-b37c-83dc087bd1b4",
           "plan_name": "HealthSun HealthAdvantage Plan (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5431-006",
+          "parent_fpi": "247afaad-1689-5305-8225-3cffeca4cb6e",
+          "f_plan_id": "bce6d372-0c62-4f3d-ba28-0a1d2dc3e98f",
           "plan_name": "HealthSun MediMax (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5431-012",
+          "parent_fpi": "247afaad-1689-5305-8225-3cffeca4cb6e",
+          "f_plan_id": "e9a57493-9aae-4e25-8ae2-27e206e145ad",
           "plan_name": "HealthSun HealthAdvantage Plan (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5431-013",
+          "parent_fpi": "247afaad-1689-5305-8225-3cffeca4cb6e",
+          "f_plan_id": "11545f22-0317-442a-b400-bf88df45ce90",
           "plan_name": "HealthSun HealthAdvantage Plan (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5431-016",
+          "parent_fpi": "247afaad-1689-5305-8225-3cffeca4cb6e",
+          "f_plan_id": "18f2c93e-eb27-4810-bb54-8385e902b81e",
           "plan_name": "HealthSun MediSun Plus (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5431-017",
+          "parent_fpi": "247afaad-1689-5305-8225-3cffeca4cb6e",
+          "f_plan_id": "69991f3b-fb9c-48c7-bc2c-52fc264aebda",
           "plan_name": "HealthSun HealthAdvantage Plus (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5431-018",
+          "parent_fpi": "247afaad-1689-5305-8225-3cffeca4cb6e",
+          "f_plan_id": "9575c79e-facc-47ef-9581-4a8b222a008a",
           "plan_name": "HealthSun HealthAdvantage Plus (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5431-019",
+          "parent_fpi": "247afaad-1689-5305-8225-3cffeca4cb6e",
+          "f_plan_id": "2451b053-c9cc-4281-b162-fec2e230a6c3",
           "plan_name": "HealthSun MediSun Extra (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5431-020",
+          "parent_fpi": "247afaad-1689-5305-8225-3cffeca4cb6e",
+          "f_plan_id": "bb86a4ed-5589-47ea-8f7f-5be199c334d2",
           "plan_name": "HealthSun HealthAdvantage Plus (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5431-021",
+          "parent_fpi": "247afaad-1689-5305-8225-3cffeca4cb6e",
+          "f_plan_id": "25bd2112-f4ee-4d84-888a-db0e9b493fa8",
           "plan_name": "HealthSun VitalCare (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5431-022",
+          "parent_fpi": "247afaad-1689-5305-8225-3cffeca4cb6e",
+          "f_plan_id": "996d92c8-d0a6-4f75-9983-6847f1a9793e",
           "plan_name": "HealthSun VitalCare (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5431-025",
+          "parent_fpi": "247afaad-1689-5305-8225-3cffeca4cb6e",
+          "f_plan_id": "0f419462-87e6-4703-b95d-9376b7adf3fd",
           "plan_name": "HealthSun MediSun Full Dual Plus (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5431-026",
+          "parent_fpi": "247afaad-1689-5305-8225-3cffeca4cb6e",
+          "f_plan_id": "81bab77f-6b80-4e05-960d-e152f2c3d0a3",
           "plan_name": "HealthSun MediSun Full Dual Extra (HMO D-SNP)"
         }
       ],

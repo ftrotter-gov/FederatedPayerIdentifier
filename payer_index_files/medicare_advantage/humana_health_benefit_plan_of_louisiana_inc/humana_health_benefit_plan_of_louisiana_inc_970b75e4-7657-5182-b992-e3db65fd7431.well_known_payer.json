@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "HUMANA HEALTH BENEFIT PLAN OF LOUISIANA, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "970b75e4-7657-5182-b992-e3db65fd7431",
+      "is_fpi": true,
+      "payerLegalName": "HUMANA HEALTH BENEFIT PLAN OF LOUISIANA, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HUMANA HEALTH BENEFIT PLAN OF LOUISIANA, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H1951"
+      "value": "H1951",
+      "is_fpi": false,
+      "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431"
     }
   ],
   "plan_groups": [
@@ -20,121 +23,169 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1951-013",
+          "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
+          "f_plan_id": "2980ce2f-2f81-48d1-a969-f49e5ce13a56",
           "plan_name": "Humana Gold Plus H1951-013 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1951-024",
+          "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
+          "f_plan_id": "b5e82a16-bb06-43be-8105-31e83c7ec757",
           "plan_name": "Humana Gold Plus H1951-024 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1951-028",
+          "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
+          "f_plan_id": "9c913f90-751f-4b63-972d-d2929c6d1e21",
           "plan_name": "Humana Gold Plus H1951-028 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1951-032",
+          "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
+          "f_plan_id": "99ea9abb-aab0-4a97-bb92-fe9de8afcab5",
           "plan_name": "Humana Gold Plus SNP-DE H1951-032 (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1951-038",
+          "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
+          "f_plan_id": "be919007-ac95-4069-b2d5-c5fae0de845f",
           "plan_name": "Humana Select Partner Plan (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1951-039",
+          "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
+          "f_plan_id": "9050352b-317b-4817-8875-a44226c854b4",
           "plan_name": "Humana Select Partner Plan (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1951-041",
+          "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
+          "f_plan_id": "80ec1089-34b0-497e-b593-b9c15d002287",
           "plan_name": "Humana Gold Plus SNP-DE H1951-041 (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1951-044",
+          "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
+          "f_plan_id": "15c51bed-2f50-48c6-aaeb-b3c5cd24e114",
           "plan_name": "Humana Gold Plus - Diabetes and Heart (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1951-047",
+          "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
+          "f_plan_id": "0376bfb6-a19a-47b2-9481-b0354803d08f",
           "plan_name": "Humana Gold Plus H1951-047 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1951-048",
+          "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
+          "f_plan_id": "7a43f3a7-6b8e-497b-aa69-77eded255e5d",
           "plan_name": "Humana Gold Plus H1951-048 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1951-049",
+          "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
+          "f_plan_id": "48293956-0ec5-4d80-9a1d-4706ca75b5ad",
           "plan_name": "Humana Gold Plus H1951-049 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1951-051",
+          "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
+          "f_plan_id": "1f0a8805-165f-4e27-93fa-6f146c9c349e",
           "plan_name": "Humana LCMC Advantage H1951-051 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1951-052",
+          "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
+          "f_plan_id": "cc0ff660-e2c8-4fc7-b036-e8e2a67e5517",
           "plan_name": "Humana Gold Plus H1951-052 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1951-053",
+          "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
+          "f_plan_id": "9fbb727c-1946-4d2f-b2de-cf879fd5febb",
           "plan_name": "Humana FMOL Baton Rouge H1951-053 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1951-056",
+          "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
+          "f_plan_id": "31f7b990-9654-4852-8cb5-22375ff4dc15",
           "plan_name": "Humana Dual Select H1951-056 (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1951-057",
+          "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
+          "f_plan_id": "6221c9f5-7042-4540-b65c-9adc20ac07bf",
           "plan_name": "Humana Gold Plus SNP-DE H1951-057 (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1951-058",
+          "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
+          "f_plan_id": "4fc221f6-4b89-402e-ab78-8bd57d31f719",
           "plan_name": "Humana Gold Plus H1951-058 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1951-059",
+          "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
+          "f_plan_id": "98101317-e09e-4aa7-b500-c899576a7ae4",
           "plan_name": "Humana Gold Plus H1951-059 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1951-801",
+          "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
+          "f_plan_id": "fe894e8a-ef7d-46ef-8ff3-d092387837d2",
           "plan_name": "Humana Medicare Employer (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1951-804",
+          "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
+          "f_plan_id": "2df3efe5-ab6e-4768-9b02-a1fa2fc0295e",
           "plan_name": "Humana Medicare Employer (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1951-807",
+          "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
+          "f_plan_id": "880a0f4e-fb7c-480f-b230-83e1b4130331",
           "plan_name": "Humana Medicare Employer (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1951-808",
+          "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
+          "f_plan_id": "baf25712-5bf9-4cce-9127-b97e2564e78b",
           "plan_name": "Humana Medicare Employer (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1951-060",
+          "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
+          "f_plan_id": "d34b160c-334f-4bfb-ae69-a827f78306a6",
           "plan_name": "Humana USAA Honor Giveback (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1951-061",
+          "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
+          "f_plan_id": "49496ebb-1426-4a1d-ae0c-0f2a41ebb28f",
           "plan_name": "Humana Gold Plus SNP-DE H1951-061 (HMO D-SNP)"
         }
       ],

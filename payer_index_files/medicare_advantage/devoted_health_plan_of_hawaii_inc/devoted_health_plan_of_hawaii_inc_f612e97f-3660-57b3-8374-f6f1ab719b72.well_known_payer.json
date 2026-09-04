@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH PLAN OF HAWAII, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "f612e97f-3660-57b3-8374-f6f1ab719b72",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH PLAN OF HAWAII, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH PLAN OF HAWAII, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H5397"
+      "value": "H5397",
+      "is_fpi": false,
+      "parent_fpi": "f612e97f-3660-57b3-8374-f6f1ab719b72"
     }
   ],
   "plan_groups": [
@@ -20,26 +23,36 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5397-001",
+          "parent_fpi": "f612e97f-3660-57b3-8374-f6f1ab719b72",
+          "f_plan_id": "da300a84-757c-4287-b216-1183dbf69987",
           "plan_name": "DEVOTED GIVEBACK 001 HI (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5397-002",
+          "parent_fpi": "f612e97f-3660-57b3-8374-f6f1ab719b72",
+          "f_plan_id": "3fb9226f-6d48-4161-8c59-b72f70b001dd",
           "plan_name": "DEVOTED GIVEBACK 002 HI (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5397-003",
+          "parent_fpi": "f612e97f-3660-57b3-8374-f6f1ab719b72",
+          "f_plan_id": "64d07217-8e4e-4034-bad0-8b37dfcfe148",
           "plan_name": "DEVOTED C-SNP PLUS 003 HI (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5397-004",
+          "parent_fpi": "f612e97f-3660-57b3-8374-f6f1ab719b72",
+          "f_plan_id": "f1443425-8e1f-4128-aa52-4f6f7bd8c4c2",
           "plan_name": "DEVOTED CORE 004 HI (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5397-005",
+          "parent_fpi": "f612e97f-3660-57b3-8374-f6f1ab719b72",
+          "f_plan_id": "8756bca0-7137-47e9-a742-105479259e1c",
           "plan_name": "DEVOTED CORE 005 HI (HMO)"
         }
       ],

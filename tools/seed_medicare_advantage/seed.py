@@ -27,6 +27,7 @@ import json
 import os
 import re
 import sys
+import uuid
 
 # Locate the source data and output directories relative to this script's location.
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -221,19 +222,30 @@ def build_well_known_json(normalized_name, canonical_name, contract_entries, cro
     # below (the raw legal name) genuinely reproduces the FPI.
     fpi = generate_fpi(system_id=FPI_SYSTEM_ID, payer_id_value=canonical_name)
 
-    # Build the identifier block: FPI first, then one CMS_CONTRACT_ID entry per contract_id.
-    # The FPI entry is the one and only FPI in the array.  It records the
-    # identifier system used to generate the FPI in "fpi_source_system" and the
-    # source value fed into that system (here, the payer legal name) in
-    # "fpi_source_value".
+    # Build the identifier block.
+    #
+    # New multi-FPI format (WellKnownFileFormat.md, merged in PR #1):
+    #   - Every identifier entry MUST include "is_fpi" (Boolean).
+    #   - The FPI entry has is_fpi: true and carries payerLegalName inside it.
+    #     payerLegalName is NO LONGER a top-level field.
+    #   - Every non-FPI identifier has is_fpi: false and MUST carry parent_fpi
+    #     (the UUID of the owning FPI in this same file).
+    #   - Every plan identifier MUST carry parent_fpi and a random f_plan_id.
     identifier = [{
         "system": SYSTEM_FPI,
         "value": fpi,
+        "is_fpi": True,
+        "payerLegalName": canonical_name,
         "fpi_source_system": SYSTEM_LEGAL_NAME_HASH,
         "fpi_source_value": canonical_name,
     }]
     for entry in contract_entries:
-        identifier.append({"system": SYSTEM_CMS_CONTRACT_ID, "value": entry["contract_id"]})
+        identifier.append({
+            "system": SYSTEM_CMS_CONTRACT_ID,
+            "value": entry["contract_id"],
+            "is_fpi": False,
+            "parent_fpi": fpi,
+        })
 
     # Group plans by endpoint URL so that each distinct URL becomes its own plan_group.
     url_to_plans = {}   # url -> list of {contract_plan_id, plan_name}
@@ -262,7 +274,15 @@ def build_well_known_json(normalized_name, canonical_name, contract_entries, cro
     for url, plans in sorted(url_to_plans.items()):
         plan_identifiers = []
         for plan in plans:
-            entry = {"system": SYSTEM_MEDICARE_PLAN, "value": plan["contract_plan_id"]}
+            entry = {
+                "system": SYSTEM_MEDICARE_PLAN,
+                "value": plan["contract_plan_id"],
+                # parent_fpi links this plan to the owning FPI (validation rule 5 & 6).
+                "parent_fpi": fpi,
+                # f_plan_id is a randomly-generated UUIDv4 unique to this plan entry.
+                # It is regenerated on every seed run; curated files may later stabilise it.
+                "f_plan_id": str(uuid.uuid4()),
+            }
             if plan["plan_name"]:
                 entry["plan_name"] = plan["plan_name"]
             plan_identifiers.append(entry)
@@ -272,10 +292,10 @@ def build_well_known_json(normalized_name, canonical_name, contract_entries, cro
         })
         total_plans += len(plan_identifiers)
 
+    # payerLegalName is now inside the FPI identifier entry, NOT at the top level.
     doc = {
         "copied_from_url": None,
         "resourceType": RESOURCE_TYPE,
-        "payerLegalName": canonical_name,
         "identifier": identifier,
         "plan_groups": plan_groups,
         "is_seeded": True,
@@ -285,17 +305,22 @@ def build_well_known_json(normalized_name, canonical_name, contract_entries, cro
 
 
 # The complete set of top-level keys the seed writes.
-SEED_TOP_LEVEL_KEYS = {"copied_from_url", "is_seeded", "resourceType", "payerLegalName", "identifier", "plan_groups"}
+# NOTE: "payerLegalName" is no longer a top-level key; it lives inside the FPI identifier entry.
+SEED_TOP_LEVEL_KEYS = {"copied_from_url", "is_seeded", "resourceType", "identifier", "plan_groups"}
 
 # Keys the seed writes inside each plan_identifier entry.
-SEED_PLAN_IDENTIFIER_KEYS = {"system", "value", "plan_name"}
+# parent_fpi and f_plan_id are new required fields from the multi-FPI format (PR #1).
+SEED_PLAN_IDENTIFIER_KEYS = {"system", "value", "plan_name", "parent_fpi", "f_plan_id"}
 
 # Keys the seed writes inside each plan_group entry.
 SEED_PLAN_GROUP_KEYS = {"plan_identifiers", "plan_endpoints"}
 
 # Keys the seed writes inside each identifier entry.
-# ("fpi_source_system" and "fpi_source_value" appear only on the single FPI identifier entry.)
-SEED_IDENTIFIER_KEYS = {"system", "value", "fpi_source_system", "fpi_source_value"}
+# is_fpi is required on every identifier entry (multi-FPI format).
+# parent_fpi is required on non-FPI entries (is_fpi: false).
+# payerLegalName, fpi_source_system, fpi_source_value appear only on the FPI entry (is_fpi: true).
+SEED_IDENTIFIER_KEYS = {"system", "value", "is_fpi", "parent_fpi", "payerLegalName",
+                        "fpi_source_system", "fpi_source_value"}
 
 # Endpoint keys the seed ever writes (one per plan_group).
 SEED_ENDPOINT_KEYS = {ENDPOINT_KEY}

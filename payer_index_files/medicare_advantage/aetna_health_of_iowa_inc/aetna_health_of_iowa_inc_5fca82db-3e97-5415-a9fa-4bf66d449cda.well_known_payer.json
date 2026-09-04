@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "AETNA HEALTH OF IOWA INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "5fca82db-3e97-5415-a9fa-4bf66d449cda",
+      "is_fpi": true,
+      "payerLegalName": "AETNA HEALTH OF IOWA INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AETNA HEALTH OF IOWA INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H5593"
+      "value": "H5593",
+      "is_fpi": false,
+      "parent_fpi": "5fca82db-3e97-5415-a9fa-4bf66d449cda"
     }
   ],
   "plan_groups": [
@@ -20,11 +23,15 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5593-001",
+          "parent_fpi": "5fca82db-3e97-5415-a9fa-4bf66d449cda",
+          "f_plan_id": "52b33076-62dc-4f87-8ad6-d7b1c882e414",
           "plan_name": "Aetna Medicare Dual Care (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5593-801",
+          "parent_fpi": "5fca82db-3e97-5415-a9fa-4bf66d449cda",
+          "f_plan_id": "e52c68c6-7334-4f55-8280-0c31e2a6b4d0",
           "plan_name": "Aetna Medicare Plan (HMO)"
         }
       ],

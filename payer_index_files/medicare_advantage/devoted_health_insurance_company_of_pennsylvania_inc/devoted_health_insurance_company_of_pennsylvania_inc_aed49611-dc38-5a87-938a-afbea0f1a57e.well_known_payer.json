@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF PENNSYLVANIA INC",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "aed49611-dc38-5a87-938a-afbea0f1a57e",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF PENNSYLVANIA INC",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF PENNSYLVANIA INC"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H6018"
+      "value": "H6018",
+      "is_fpi": false,
+      "parent_fpi": "aed49611-dc38-5a87-938a-afbea0f1a57e"
     }
   ],
   "plan_groups": [
@@ -20,31 +23,43 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6018-002",
+          "parent_fpi": "aed49611-dc38-5a87-938a-afbea0f1a57e",
+          "f_plan_id": "fc9423dd-5b5b-45c1-8717-5369f2d1a6f4",
           "plan_name": "DEVOTED CHOICE PREMIUM 002 PA (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6018-003",
+          "parent_fpi": "aed49611-dc38-5a87-938a-afbea0f1a57e",
+          "f_plan_id": "c621a52f-1f57-4423-8a04-f4f669604957",
           "plan_name": "DEVOTED CHOICE GIVEBACK 003 PA (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6018-007",
+          "parent_fpi": "aed49611-dc38-5a87-938a-afbea0f1a57e",
+          "f_plan_id": "0641105e-cbfd-407a-bc31-75243f680d93",
           "plan_name": "DEVOTED CHOICE 007 PA (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6018-008",
+          "parent_fpi": "aed49611-dc38-5a87-938a-afbea0f1a57e",
+          "f_plan_id": "1dfa1aff-fff5-4d5a-a3dc-7f855e18999d",
           "plan_name": "DEVOTED CHOICE GIVEBACK 008 PA (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6018-010",
+          "parent_fpi": "aed49611-dc38-5a87-938a-afbea0f1a57e",
+          "f_plan_id": "f38b102f-5d4c-411a-ae4a-97728ecd9340",
           "plan_name": "DEVOTED CHOICE 010 PA (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6018-011",
+          "parent_fpi": "aed49611-dc38-5a87-938a-afbea0f1a57e",
+          "f_plan_id": "f4fcad96-54d4-475a-b495-df83bb962e5d",
           "plan_name": "DEVOTED CHOICE GIVEBACK 011 PA (PPO)"
         }
       ],

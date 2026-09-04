@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "AETNA BETTER HEALTH OF OKLAHOMA INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "d6799be6-ce1d-58d0-b114-8d4711e7d92d",
+      "is_fpi": true,
+      "payerLegalName": "AETNA BETTER HEALTH OF OKLAHOMA INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AETNA BETTER HEALTH OF OKLAHOMA INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H4835"
+      "value": "H4835",
+      "is_fpi": false,
+      "parent_fpi": "d6799be6-ce1d-58d0-b114-8d4711e7d92d"
     }
   ],
   "plan_groups": [
@@ -20,16 +23,22 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4835-001",
+          "parent_fpi": "d6799be6-ce1d-58d0-b114-8d4711e7d92d",
+          "f_plan_id": "5c6e03c5-04af-45c1-930b-19f65100de1d",
           "plan_name": "Aetna Medicare Prime (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4835-002",
+          "parent_fpi": "d6799be6-ce1d-58d0-b114-8d4711e7d92d",
+          "f_plan_id": "c29bb2e6-9aec-44de-b1f3-bef64b63a504",
           "plan_name": "Aetna Medicare Signature (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4835-801",
+          "parent_fpi": "d6799be6-ce1d-58d0-b114-8d4711e7d92d",
+          "f_plan_id": "bfb67001-a1f2-4ffa-b32c-be0e9e416986",
           "plan_name": "Aetna Medicare Plan (HMO)"
         }
       ],

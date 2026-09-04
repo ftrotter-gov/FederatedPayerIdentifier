@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "MEDISUN, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "5b1f62f0-889c-50d6-872a-73607a4f8fec",
+      "is_fpi": true,
+      "payerLegalName": "MEDISUN, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "MEDISUN, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H0302"
+      "value": "H0302",
+      "is_fpi": false,
+      "parent_fpi": "5b1f62f0-889c-50d6-872a-73607a4f8fec"
     }
   ],
   "plan_groups": [
@@ -20,21 +23,29 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0302-001",
+          "parent_fpi": "5b1f62f0-889c-50d6-872a-73607a4f8fec",
+          "f_plan_id": "536d1df0-8d7c-4706-ab6b-c08a403eabbf",
           "plan_name": "Blue Best Life Plus (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0302-006",
+          "parent_fpi": "5b1f62f0-889c-50d6-872a-73607a4f8fec",
+          "f_plan_id": "f38712b8-0a42-455e-b7d5-d197830b48c6",
           "plan_name": "Blue Best Life Classic (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0302-008",
+          "parent_fpi": "5b1f62f0-889c-50d6-872a-73607a4f8fec",
+          "f_plan_id": "af2f6290-0c7f-4db9-b37e-21a254b60098",
           "plan_name": "Blue Best Life Classic (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0302-801",
+          "parent_fpi": "5b1f62f0-889c-50d6-872a-73607a4f8fec",
+          "f_plan_id": "d308b96b-cf66-4456-8a57-b20ca9714a27",
           "plan_name": "Blue Medicare Advantage Employer Plan (HMO)"
         }
       ],

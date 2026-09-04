@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF MISSISSIPPI",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "da1e0b80-94de-58fb-8df2-0ef0c3576281",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF MISSISSIPPI",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF MISSISSIPPI"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H7355"
+      "value": "H7355",
+      "is_fpi": false,
+      "parent_fpi": "da1e0b80-94de-58fb-8df2-0ef0c3576281"
     }
   ],
   "plan_groups": [
@@ -20,41 +23,57 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7355-001",
+          "parent_fpi": "da1e0b80-94de-58fb-8df2-0ef0c3576281",
+          "f_plan_id": "ed80e4fa-b4ca-4d34-9b32-6377446b4b4f",
           "plan_name": "DEVOTED CHOICE 001 MS (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7355-002",
+          "parent_fpi": "da1e0b80-94de-58fb-8df2-0ef0c3576281",
+          "f_plan_id": "0a330200-caf1-411a-8dfc-8fc0a4dbcb6a",
           "plan_name": "DEVOTED CHOICE GIVEBACK 002 MS (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7355-003",
+          "parent_fpi": "da1e0b80-94de-58fb-8df2-0ef0c3576281",
+          "f_plan_id": "a6827152-b070-4b91-8940-4fd456f1e622",
           "plan_name": "DEVOTED DUAL CHOICE PLUS 003 MS (PPO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7355-004",
+          "parent_fpi": "da1e0b80-94de-58fb-8df2-0ef0c3576281",
+          "f_plan_id": "7f533e9d-a3cc-4fee-8516-fbd7c23be468",
           "plan_name": "DEVOTED DUAL CHOICE 004 MS (PPO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7355-006",
+          "parent_fpi": "da1e0b80-94de-58fb-8df2-0ef0c3576281",
+          "f_plan_id": "caaeb3a5-ab2a-43d9-a5ec-6f7f1c4a7790",
           "plan_name": "DEVOTED C-SNP CHOICE 006 MS (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7355-007",
+          "parent_fpi": "da1e0b80-94de-58fb-8df2-0ef0c3576281",
+          "f_plan_id": "5b6dab1c-669d-4c36-b894-e6dfca60064b",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 007 MS (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7355-009",
+          "parent_fpi": "da1e0b80-94de-58fb-8df2-0ef0c3576281",
+          "f_plan_id": "e9afe787-2770-400b-a3a5-a5ca30eb0c68",
           "plan_name": "DEVOTED DUAL CHOICE FULL 009 MS (PPO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7355-010",
+          "parent_fpi": "da1e0b80-94de-58fb-8df2-0ef0c3576281",
+          "f_plan_id": "5a130238-fb8b-4428-b9c4-5967e961ccd9",
           "plan_name": "DEVOTED C-SNP CHOICE PLUS 010 MS (PPO C-SNP)"
         }
       ],

@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF TEXAS",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "de99dd67-a726-5a76-afa4-6c981c1ebdb8",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF TEXAS",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF TEXAS"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H6813"
+      "value": "H6813",
+      "is_fpi": false,
+      "parent_fpi": "de99dd67-a726-5a76-afa4-6c981c1ebdb8"
     }
   ],
   "plan_groups": [
@@ -20,11 +23,15 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6813-001",
+          "parent_fpi": "de99dd67-a726-5a76-afa4-6c981c1ebdb8",
+          "f_plan_id": "ac313d33-5c98-4615-8a44-eb5b39425772",
           "plan_name": "DEVOTED CHOICE GIVEBACK 001 TX (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6813-006",
+          "parent_fpi": "de99dd67-a726-5a76-afa4-6c981c1ebdb8",
+          "f_plan_id": "a8f6c0bb-1919-4e0b-8d22-0d93ad942e85",
           "plan_name": "DEVOTED CHOICE MA ONLY 006 TX (PPO)"
         }
       ],

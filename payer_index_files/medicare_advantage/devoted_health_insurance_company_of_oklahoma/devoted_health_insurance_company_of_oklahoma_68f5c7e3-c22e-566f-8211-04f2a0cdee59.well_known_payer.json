@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF OKLAHOMA",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "68f5c7e3-c22e-566f-8211-04f2a0cdee59",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF OKLAHOMA",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF OKLAHOMA"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H2845"
+      "value": "H2845",
+      "is_fpi": false,
+      "parent_fpi": "68f5c7e3-c22e-566f-8211-04f2a0cdee59"
     }
   ],
   "plan_groups": [
@@ -20,41 +23,57 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2845-001",
+          "parent_fpi": "68f5c7e3-c22e-566f-8211-04f2a0cdee59",
+          "f_plan_id": "183c07aa-2749-4e1e-b420-8186c304a24c",
           "plan_name": "DEVOTED CHOICE 001 OK (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2845-002",
+          "parent_fpi": "68f5c7e3-c22e-566f-8211-04f2a0cdee59",
+          "f_plan_id": "227c6dfa-df8c-4bcf-82e1-d1b0be8b6335",
           "plan_name": "DEVOTED CHOICE GIVEBACK 002 OK (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2845-003",
+          "parent_fpi": "68f5c7e3-c22e-566f-8211-04f2a0cdee59",
+          "f_plan_id": "878c987d-129c-4e57-a95d-e4bf0a403a31",
           "plan_name": "DEVOTED DUAL CHOICE FULL 003 OK (PPO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2845-005",
+          "parent_fpi": "68f5c7e3-c22e-566f-8211-04f2a0cdee59",
+          "f_plan_id": "f37953b3-6931-44db-aac4-3869c1cc2d55",
           "plan_name": "DEVOTED CHOICE 005 OK (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2845-006",
+          "parent_fpi": "68f5c7e3-c22e-566f-8211-04f2a0cdee59",
+          "f_plan_id": "11d536b2-4756-4e16-a6e0-6aac23147b3b",
           "plan_name": "DEVOTED CHOICE GIVEBACK 006 OK (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2845-008",
+          "parent_fpi": "68f5c7e3-c22e-566f-8211-04f2a0cdee59",
+          "f_plan_id": "01cd0cb3-05c3-4f82-b7dd-6f7777b49199",
           "plan_name": "DEVOTED C-SNP CHOICE PLUS 008 OK (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2845-009",
+          "parent_fpi": "68f5c7e3-c22e-566f-8211-04f2a0cdee59",
+          "f_plan_id": "415f5204-6554-49c0-a9d2-204e0f8975c2",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 009 OK (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2845-010",
+          "parent_fpi": "68f5c7e3-c22e-566f-8211-04f2a0cdee59",
+          "f_plan_id": "a89253df-1048-4546-8a95-9ce208ec7341",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 010 OK (PPO C-SNP)"
         }
       ],

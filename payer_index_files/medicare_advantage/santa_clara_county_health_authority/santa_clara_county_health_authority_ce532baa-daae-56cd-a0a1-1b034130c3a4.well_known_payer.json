@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "SANTA CLARA COUNTY HEALTH AUTHORITY",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "ce532baa-daae-56cd-a0a1-1b034130c3a4",
+      "is_fpi": true,
+      "payerLegalName": "SANTA CLARA COUNTY HEALTH AUTHORITY",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SANTA CLARA COUNTY HEALTH AUTHORITY"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H4045"
+      "value": "H4045",
+      "is_fpi": false,
+      "parent_fpi": "ce532baa-daae-56cd-a0a1-1b034130c3a4"
     }
   ],
   "plan_groups": [
@@ -20,6 +23,8 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4045-001",
+          "parent_fpi": "ce532baa-daae-56cd-a0a1-1b034130c3a4",
+          "f_plan_id": "27458e28-5b37-405f-9c9d-73a954e29e07",
           "plan_name": "DualConnect (HMO D-SNP)"
         }
       ],

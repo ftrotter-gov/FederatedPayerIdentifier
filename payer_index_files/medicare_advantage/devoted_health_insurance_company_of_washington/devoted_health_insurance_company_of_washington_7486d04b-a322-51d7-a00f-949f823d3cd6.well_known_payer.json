@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF WASHINGTON",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "7486d04b-a322-51d7-a00f-949f823d3cd6",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF WASHINGTON",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF WASHINGTON"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H8917"
+      "value": "H8917",
+      "is_fpi": false,
+      "parent_fpi": "7486d04b-a322-51d7-a00f-949f823d3cd6"
     }
   ],
   "plan_groups": [
@@ -20,21 +23,29 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8917-001",
+          "parent_fpi": "7486d04b-a322-51d7-a00f-949f823d3cd6",
+          "f_plan_id": "7f85ac47-9fc9-41d2-b4e3-73765d607d26",
           "plan_name": "DEVOTED CHOICE 001 WA (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8917-002",
+          "parent_fpi": "7486d04b-a322-51d7-a00f-949f823d3cd6",
+          "f_plan_id": "8a6104e6-46c3-43dc-83b3-e5f6c77aafb1",
           "plan_name": "DEVOTED CHOICE GIVEBACK 002 WA (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8917-005",
+          "parent_fpi": "7486d04b-a322-51d7-a00f-949f823d3cd6",
+          "f_plan_id": "70730b10-c787-4978-b11c-f2f8b3cc3bae",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 005 WA (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8917-006",
+          "parent_fpi": "7486d04b-a322-51d7-a00f-949f823d3cd6",
+          "f_plan_id": "36310492-0975-4886-93b7-19d6db920c13",
           "plan_name": "DEVOTED C-SNP CHOICE PLUS 006 WA (PPO C-SNP)"
         }
       ],

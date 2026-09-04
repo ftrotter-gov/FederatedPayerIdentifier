@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "AULTCARE HEALTH INSURING CORPORATION",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "ce7fd07d-860a-55bb-b34c-d528c80e6707",
+      "is_fpi": true,
+      "payerLegalName": "AULTCARE HEALTH INSURING CORPORATION",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AULTCARE HEALTH INSURING CORPORATION"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H3664"
+      "value": "H3664",
+      "is_fpi": false,
+      "parent_fpi": "ce7fd07d-860a-55bb-b34c-d528c80e6707"
     }
   ],
   "plan_groups": [
@@ -20,51 +23,71 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3664-014",
+          "parent_fpi": "ce7fd07d-860a-55bb-b34c-d528c80e6707",
+          "f_plan_id": "1478c978-e8a0-4a35-b0c1-422e9a6c2d84",
           "plan_name": "PrimeTime Health Plan Basic - MA Only (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3664-017",
+          "parent_fpi": "ce7fd07d-860a-55bb-b34c-d528c80e6707",
+          "f_plan_id": "79efd45a-5303-40b2-9285-57a3f82c1f50",
           "plan_name": "PrimeTime Health Plan Plus (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3664-020",
+          "parent_fpi": "ce7fd07d-860a-55bb-b34c-d528c80e6707",
+          "f_plan_id": "feb9230c-53d9-4d18-802c-127457ea88bd",
           "plan_name": "PrimeTime Health Plan Classic (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3664-021",
+          "parent_fpi": "ce7fd07d-860a-55bb-b34c-d528c80e6707",
+          "f_plan_id": "5cb347d9-ba55-4fb1-a989-84c1bd27b335",
           "plan_name": "PrimeTime Health Plan Aultimate (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3664-801",
+          "parent_fpi": "ce7fd07d-860a-55bb-b34c-d528c80e6707",
+          "f_plan_id": "aa181a56-b88c-4e34-9767-0625a2eb1943",
           "plan_name": "PrimeTime Health Plan Employer Group HMO  - CY (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3664-802",
+          "parent_fpi": "ce7fd07d-860a-55bb-b34c-d528c80e6707",
+          "f_plan_id": "425c218d-60ff-40ef-b7ef-143116fde91c",
           "plan_name": "PrimeTime Health Plan Employer Group HMO MA-Only (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3664-803",
+          "parent_fpi": "ce7fd07d-860a-55bb-b34c-d528c80e6707",
+          "f_plan_id": "b37ce66a-7276-4b95-9fc7-fd3f6b5d2c23",
           "plan_name": "PrimeTime Health Plan Employer Group - Non CY (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3664-805",
+          "parent_fpi": "ce7fd07d-860a-55bb-b34c-d528c80e6707",
+          "f_plan_id": "6a198598-e5eb-4fba-a1d8-f9b642b90272",
           "plan_name": "Part B Only MA-PD (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3664-806",
+          "parent_fpi": "ce7fd07d-860a-55bb-b34c-d528c80e6707",
+          "f_plan_id": "8b6bfa85-478d-4955-81d4-771505dccba6",
           "plan_name": "Part B Only MA (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3664-807",
+          "parent_fpi": "ce7fd07d-860a-55bb-b34c-d528c80e6707",
+          "f_plan_id": "df85d5b3-4a19-4de9-96d5-1f02878890c8",
           "plan_name": "PrimeTime Health Plan Employer Group HMO - CY (HMO-POS)"
         }
       ],

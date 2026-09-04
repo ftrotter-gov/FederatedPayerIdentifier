@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF KENTUCKY INC",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "9fb82109-bf6e-5a6d-af57-6ba1435e7b85",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF KENTUCKY INC",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF KENTUCKY INC"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H5718"
+      "value": "H5718",
+      "is_fpi": false,
+      "parent_fpi": "9fb82109-bf6e-5a6d-af57-6ba1435e7b85"
     }
   ],
   "plan_groups": [
@@ -20,31 +23,43 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5718-001",
+          "parent_fpi": "9fb82109-bf6e-5a6d-af57-6ba1435e7b85",
+          "f_plan_id": "082b5733-a94f-444f-8d19-c5daee873bae",
           "plan_name": "DEVOTED CHOICE 001 KY (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5718-002",
+          "parent_fpi": "9fb82109-bf6e-5a6d-af57-6ba1435e7b85",
+          "f_plan_id": "aeded52d-e508-4c06-9474-138f9986d117",
           "plan_name": "DEVOTED CHOICE GIVEBACK 002 KY (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5718-003",
+          "parent_fpi": "9fb82109-bf6e-5a6d-af57-6ba1435e7b85",
+          "f_plan_id": "f8e26ecc-9185-4ae9-a3fe-33f1ca9f53b6",
           "plan_name": "DEVOTED CHOICE 003 KY (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5718-004",
+          "parent_fpi": "9fb82109-bf6e-5a6d-af57-6ba1435e7b85",
+          "f_plan_id": "412be4dd-7c96-4d86-b1a7-97ad7cabecd3",
           "plan_name": "DEVOTED C-SNP CHOICE PLUS 004 KY (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5718-005",
+          "parent_fpi": "9fb82109-bf6e-5a6d-af57-6ba1435e7b85",
+          "f_plan_id": "e50be459-83ff-41d8-b369-a5070a1f1f46",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 005 KY (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5718-006",
+          "parent_fpi": "9fb82109-bf6e-5a6d-af57-6ba1435e7b85",
+          "f_plan_id": "d6848cb6-157c-4d6d-a832-37cd8a041c2f",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 006 KY (PPO C-SNP)"
         }
       ],

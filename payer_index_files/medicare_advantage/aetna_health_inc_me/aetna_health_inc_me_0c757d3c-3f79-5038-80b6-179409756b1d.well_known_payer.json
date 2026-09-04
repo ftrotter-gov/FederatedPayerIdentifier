@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "AETNA HEALTH INC. (ME)",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "0c757d3c-3f79-5038-80b6-179409756b1d",
+      "is_fpi": true,
+      "payerLegalName": "AETNA HEALTH INC. (ME)",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AETNA HEALTH INC. (ME)"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H3597"
+      "value": "H3597",
+      "is_fpi": false,
+      "parent_fpi": "0c757d3c-3f79-5038-80b6-179409756b1d"
     }
   ],
   "plan_groups": [
@@ -20,36 +23,50 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3597-001",
+          "parent_fpi": "0c757d3c-3f79-5038-80b6-179409756b1d",
+          "f_plan_id": "d75894d0-22b2-42e8-b37c-3f212d82f0d5",
           "plan_name": "Aetna Medicare Signature (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3597-011",
+          "parent_fpi": "0c757d3c-3f79-5038-80b6-179409756b1d",
+          "f_plan_id": "41c41d39-764b-40be-8d34-e743ba04c064",
           "plan_name": "Aetna Medicare Full Dual (HMO-POS D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3597-012",
+          "parent_fpi": "0c757d3c-3f79-5038-80b6-179409756b1d",
+          "f_plan_id": "c4d37b31-bcc7-4c7a-9a62-dc9be412c5a0",
           "plan_name": "Aetna Medicare Partial Dual (HMO-POS D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3597-801",
+          "parent_fpi": "0c757d3c-3f79-5038-80b6-179409756b1d",
+          "f_plan_id": "d0646f72-abc6-4040-bcad-32ddc07525e5",
           "plan_name": "Aetna Medicare Plan (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3597-802",
+          "parent_fpi": "0c757d3c-3f79-5038-80b6-179409756b1d",
+          "f_plan_id": "cba84c29-ac54-4f85-a6ed-f5d249701b21",
           "plan_name": "Aetna Medicare Plan w/Rx (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3597-017",
+          "parent_fpi": "0c757d3c-3f79-5038-80b6-179409756b1d",
+          "f_plan_id": "fb0f8f0f-466c-48cd-a298-ab37ae2d480b",
           "plan_name": "Aetna Medicare Enhanced (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3597-018",
+          "parent_fpi": "0c757d3c-3f79-5038-80b6-179409756b1d",
+          "f_plan_id": "eb12a920-7f39-420c-a72f-2aff7fcf72bf",
           "plan_name": "Aetna Medicare Signature (HMO-POS)"
         }
       ],

@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF INDIANA",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "78d74282-7f45-56b1-aca4-4a677226d554",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF INDIANA",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF INDIANA"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H7471"
+      "value": "H7471",
+      "is_fpi": false,
+      "parent_fpi": "78d74282-7f45-56b1-aca4-4a677226d554"
     }
   ],
   "plan_groups": [
@@ -20,76 +23,106 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7471-001",
+          "parent_fpi": "78d74282-7f45-56b1-aca4-4a677226d554",
+          "f_plan_id": "45fbbaa0-d3e0-4a24-aeae-c8553b9ed2f1",
           "plan_name": "DEVOTED CHOICE 001 IN (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7471-002",
+          "parent_fpi": "78d74282-7f45-56b1-aca4-4a677226d554",
+          "f_plan_id": "6a700359-9c3b-4c68-9461-c1ecfa84289d",
           "plan_name": "DEVOTED CHOICE GIVEBACK 002 IN (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7471-004",
+          "parent_fpi": "78d74282-7f45-56b1-aca4-4a677226d554",
+          "f_plan_id": "1507a876-e6f6-4068-b1aa-80c656b71a7a",
           "plan_name": "DEVOTED CHOICE PREMIUM 004 IN (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7471-005",
+          "parent_fpi": "78d74282-7f45-56b1-aca4-4a677226d554",
+          "f_plan_id": "f76332bc-1c6c-4b12-a2cb-3546b1937d4a",
           "plan_name": "DEVOTED CHOICE 005 IN (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7471-006",
+          "parent_fpi": "78d74282-7f45-56b1-aca4-4a677226d554",
+          "f_plan_id": "c28891ed-90f6-4ea3-a7e4-b8369547af59",
           "plan_name": "DEVOTED CHOICE GIVEBACK 006 IN (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7471-007",
+          "parent_fpi": "78d74282-7f45-56b1-aca4-4a677226d554",
+          "f_plan_id": "a4ffb43f-f313-42fe-b167-576ae7690fe5",
           "plan_name": "DEVOTED CHOICE PREMIUM 007 IN (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7471-008",
+          "parent_fpi": "78d74282-7f45-56b1-aca4-4a677226d554",
+          "f_plan_id": "0bc8beee-26b7-4702-88d4-184091db4909",
           "plan_name": "DEVOTED CHOICE 008 IN (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7471-009",
+          "parent_fpi": "78d74282-7f45-56b1-aca4-4a677226d554",
+          "f_plan_id": "eaf80e13-6c9d-4dbe-8840-4be474788f08",
           "plan_name": "DEVOTED CHOICE GIVEBACK 009 IN (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7471-011",
+          "parent_fpi": "78d74282-7f45-56b1-aca4-4a677226d554",
+          "f_plan_id": "f65f8c3c-82cc-4771-959d-97926d200839",
           "plan_name": "DEVOTED CHOICE 011 IN (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7471-012",
+          "parent_fpi": "78d74282-7f45-56b1-aca4-4a677226d554",
+          "f_plan_id": "7e1bde20-a34c-4e0a-a3c5-f3d2c1550c8b",
           "plan_name": "DEVOTED CHOICE GIVEBACK 012 IN (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7471-013",
+          "parent_fpi": "78d74282-7f45-56b1-aca4-4a677226d554",
+          "f_plan_id": "1a60ad01-4338-4416-8e84-67bcdfa76993",
           "plan_name": "DEVOTED C-SNP CHOICE PLUS 013 IN (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7471-014",
+          "parent_fpi": "78d74282-7f45-56b1-aca4-4a677226d554",
+          "f_plan_id": "76348c3b-38cc-4506-9ed8-bca370853bc8",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 014 IN (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7471-015",
+          "parent_fpi": "78d74282-7f45-56b1-aca4-4a677226d554",
+          "f_plan_id": "5d6f73a8-14a0-4ec9-bc51-70e8f14d7063",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 015 IN (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7471-016",
+          "parent_fpi": "78d74282-7f45-56b1-aca4-4a677226d554",
+          "f_plan_id": "62052569-d0c2-4a75-8239-62bb8267e8a0",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 016 IN (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7471-017",
+          "parent_fpi": "78d74282-7f45-56b1-aca4-4a677226d554",
+          "f_plan_id": "bdcb40e8-c2fd-4d9f-9aeb-5262a5200bad",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 017 IN (PPO C-SNP)"
         }
       ],

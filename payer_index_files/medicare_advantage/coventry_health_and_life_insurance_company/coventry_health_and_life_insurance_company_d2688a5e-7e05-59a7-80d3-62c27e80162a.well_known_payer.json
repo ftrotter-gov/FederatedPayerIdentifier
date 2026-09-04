@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "COVENTRY HEALTH AND LIFE INSURANCE COMPANY",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+      "is_fpi": true,
+      "payerLegalName": "COVENTRY HEALTH AND LIFE INSURANCE COMPANY",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "COVENTRY HEALTH AND LIFE INSURANCE COMPANY"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H1608"
+      "value": "H1608",
+      "is_fpi": false,
+      "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a"
     }
   ],
   "plan_groups": [
@@ -20,191 +23,267 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-001",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "f41283cc-9f45-4164-b235-f74602ce66d0",
           "plan_name": "Aetna Medicare Signature (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-012",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "060546f8-5fff-4fe5-a544-3dc6b766c11b",
           "plan_name": "Aetna Medicare Signature (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-013",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "16f7cb5c-7200-4745-91f7-1028de1e23ba",
           "plan_name": "Aetna Medicare Enhanced (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-016",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "5ae25315-a98e-486d-ac54-b355037b94f5",
           "plan_name": "Aetna Medicare Signature (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-017",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "ef3950f4-dde8-4896-8914-e67e8156b538",
           "plan_name": "Aetna Medicare Signature Extra (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-018",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "540ef12a-2222-4b64-975a-51a0236de76c",
           "plan_name": "Aetna Medicare Signature (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-021",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "0512ad6c-fc88-46bc-8546-b6ce6144001e",
           "plan_name": "Aetna Medicare Signature Plus (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-024",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "a267ea1a-b345-446e-850b-6b367a63dca0",
           "plan_name": "Aetna Medicare Signature (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-027",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "8e5a2706-f7f6-45b1-a6e6-aba8624d8e2b",
           "plan_name": "Aetna Medicare Advantra Enhanced (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-028",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "805d06b3-32bf-40f0-8ed6-5947dc4e8f64",
           "plan_name": "Aetna Medicare Enhanced (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-029",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "22307252-4fb7-4676-8e3b-ea2fd7270079",
           "plan_name": "Aetna Medicare Advantra (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-031",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "e124ba6d-bc41-4163-8ab9-e84946516c7b",
           "plan_name": "Aetna Medicare Advantra Signature Giveback (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-037",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "ab7e9815-b827-45c9-bb57-848def356ba3",
           "plan_name": "Aetna Medicare Elite (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-038",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "3d062044-31bd-4a80-ae69-14e0f75d7595",
           "plan_name": "Aetna Medicare Signature Extra (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-040",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "443ece5d-0026-472e-afc3-6a41602c564e",
           "plan_name": "Aetna Medicare Advantra Signature (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-050",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "0e1b7233-5022-4db2-afc3-fe16456af140",
           "plan_name": "Aetna Medicare Elite (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-051",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "260623a8-23fc-442c-87c4-002fa217f6d1",
           "plan_name": "Aetna Medicare Signature (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-052",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "0bd017a6-09e3-4680-83e7-0beaa7aa7508",
           "plan_name": "Aetna Medicare Elite (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-054",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "eed77ac0-479b-4d04-96cb-ce7a995edcfb",
           "plan_name": "Aetna Medicare Elite (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-061",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "b43802c8-f643-4419-b8ec-b1313c5efff3",
           "plan_name": "Aetna Medicare Eagle (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-062",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "e5510847-f764-45a0-b040-7319ef0ca08e",
           "plan_name": "Aetna Medicare Dual (PPO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-067",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "c9759c8a-d238-4240-8f42-9ae6602c405f",
           "plan_name": "Aetna Medicare Signature (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-070",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "5e23849e-1088-4e58-921e-6c4c7df7b828",
           "plan_name": "Aetna Medicare Signature (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-072",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "7a0947bb-8d20-469c-ab3b-7837fd268411",
           "plan_name": "Aetna Medicare Signature (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-074",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "220239b5-42e5-4f24-b7f5-62530891e867",
           "plan_name": "Aetna Medicare Eagle Giveback (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-076",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "d925bcd7-9419-4339-ae0c-662a46db3589",
           "plan_name": "Aetna Medicare Dual Extra (PPO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-077",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "ea9aa197-81f6-470f-8a2d-4e81ca3f98b0",
           "plan_name": "Aetna Medicare Dual (PPO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-079",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "25df9271-459e-44cb-9836-0d7e777be74d",
           "plan_name": "Aetna Medicare Signature Giveback (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-081",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "5c2e53ef-4b59-4b81-a169-a1c37e44e94b",
           "plan_name": "Aetna Medicare Signature Extra (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-085",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "7598ed96-8600-471f-a4e9-e59cc4c31494",
           "plan_name": "Aetna Medicare Premier (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-105",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "8f5646a6-fe0e-47ce-83ef-cddbd4c52c1a",
           "plan_name": "Aetna Medicare Signature (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-109",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "be466518-dcc2-4173-938c-e5b6fe77989d",
           "plan_name": "Aetna Medicare Elite (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-120",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "0ae425e8-00bb-4fcd-a611-187c86c810f9",
           "plan_name": "Aetna Medicare Signature (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-801",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "1669852b-c418-4519-9444-95a9b81eec9c",
           "plan_name": "Aetna Medicare Plan (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-117",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "059eabca-c702-43e0-9f00-0acd5eb6a5b7",
           "plan_name": "Aetna Medicare Enhanced Extra (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-118",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "40f91d0b-b1aa-4a98-b49b-da2ed087941e",
           "plan_name": "Aetna Medicare Enhanced Extra (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-119",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "f811b41c-caa5-4686-adf6-fa3381491d17",
           "plan_name": "Aetna Medicare Enhanced Extra (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-121",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "6326f3d3-95a5-4c48-970a-bc985cc399d8",
           "plan_name": "Aetna Medicare Full Dual (PPO D-SNP)"
         }
       ],

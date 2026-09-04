@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "HUMANA HEALTH PLAN OF TEXAS, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "826c7416-72f5-5bf7-88af-c2bc08d42e79",
+      "is_fpi": true,
+      "payerLegalName": "HUMANA HEALTH PLAN OF TEXAS, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HUMANA HEALTH PLAN OF TEXAS, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H2463"
+      "value": "H2463",
+      "is_fpi": false,
+      "parent_fpi": "826c7416-72f5-5bf7-88af-c2bc08d42e79"
     }
   ],
   "plan_groups": [
@@ -20,6 +23,8 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2463-001",
+          "parent_fpi": "826c7416-72f5-5bf7-88af-c2bc08d42e79",
+          "f_plan_id": "3f5b8da4-4e4c-41ed-b47c-2672356cbebc",
           "plan_name": "Humana Gold Plus H2463-001 (HMO)"
         }
       ],

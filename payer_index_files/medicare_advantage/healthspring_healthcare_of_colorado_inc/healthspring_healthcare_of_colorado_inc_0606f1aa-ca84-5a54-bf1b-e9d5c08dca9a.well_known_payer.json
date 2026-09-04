@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "HEALTHSPRING HEALTHCARE OF COLORADO, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "0606f1aa-ca84-5a54-bf1b-e9d5c08dca9a",
+      "is_fpi": true,
+      "payerLegalName": "HEALTHSPRING HEALTHCARE OF COLORADO, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HEALTHSPRING HEALTHCARE OF COLORADO, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H0672"
+      "value": "H0672",
+      "is_fpi": false,
+      "parent_fpi": "0606f1aa-ca84-5a54-bf1b-e9d5c08dca9a"
     }
   ],
   "plan_groups": [
@@ -20,56 +23,78 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0672-005",
+          "parent_fpi": "0606f1aa-ca84-5a54-bf1b-e9d5c08dca9a",
+          "f_plan_id": "f68565be-f8e2-434d-90c4-8af43880a7e4",
           "plan_name": "HealthSpring Preferred (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0672-006",
+          "parent_fpi": "0606f1aa-ca84-5a54-bf1b-e9d5c08dca9a",
+          "f_plan_id": "74ccd4c3-e5d7-42c3-8298-f40a5a9196cc",
           "plan_name": "HealthSpring Preferred (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0672-009",
+          "parent_fpi": "0606f1aa-ca84-5a54-bf1b-e9d5c08dca9a",
+          "f_plan_id": "ee437273-dd56-4e3d-81b7-7ea51f9495fc",
           "plan_name": "HealthSpring TotalCare (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0672-010",
+          "parent_fpi": "0606f1aa-ca84-5a54-bf1b-e9d5c08dca9a",
+          "f_plan_id": "8e97d417-9394-4235-9a7c-519e10ebdbaa",
           "plan_name": "HealthSpring TotalCare Plus (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0672-013",
+          "parent_fpi": "0606f1aa-ca84-5a54-bf1b-e9d5c08dca9a",
+          "f_plan_id": "3fe68026-4665-45e9-9070-796b5f766287",
           "plan_name": "HealthSpring Preferred (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0672-015",
+          "parent_fpi": "0606f1aa-ca84-5a54-bf1b-e9d5c08dca9a",
+          "f_plan_id": "4998f829-dc26-46c0-87f4-c1d96b1fcab1",
           "plan_name": "HealthSpring TotalCare (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0672-016",
+          "parent_fpi": "0606f1aa-ca84-5a54-bf1b-e9d5c08dca9a",
+          "f_plan_id": "d010c931-7278-4355-bc99-7ec8d665f6a5",
           "plan_name": "HealthSpring Preferred Savings (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0672-017",
+          "parent_fpi": "0606f1aa-ca84-5a54-bf1b-e9d5c08dca9a",
+          "f_plan_id": "366350b1-d099-4fea-845f-26d71557c37b",
           "plan_name": "HealthSpring Preferred Savings (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0672-018",
+          "parent_fpi": "0606f1aa-ca84-5a54-bf1b-e9d5c08dca9a",
+          "f_plan_id": "7f1b070e-c663-46c8-ab4e-d62cc51ea701",
           "plan_name": "HealthSpring TotalCare Plus (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0672-801",
+          "parent_fpi": "0606f1aa-ca84-5a54-bf1b-e9d5c08dca9a",
+          "f_plan_id": "8eeeabfe-c167-42d3-a0f1-b44e7c6ee4c7",
           "plan_name": "HealthSpring Preferred (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0672-024",
+          "parent_fpi": "0606f1aa-ca84-5a54-bf1b-e9d5c08dca9a",
+          "f_plan_id": "8b2cdc23-6cb4-48b4-bd97-c352423aba8f",
           "plan_name": "HealthSpring Preferred (HMO)"
         }
       ],

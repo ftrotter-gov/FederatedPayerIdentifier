@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF KANSAS",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "3df92505-613b-554c-bc5b-5625cfd2cc56",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF KANSAS",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF KANSAS"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H4348"
+      "value": "H4348",
+      "is_fpi": false,
+      "parent_fpi": "3df92505-613b-554c-bc5b-5625cfd2cc56"
     }
   ],
   "plan_groups": [
@@ -20,36 +23,50 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4348-001",
+          "parent_fpi": "3df92505-613b-554c-bc5b-5625cfd2cc56",
+          "f_plan_id": "4b546358-1132-4d7b-a627-129a5cb6e940",
           "plan_name": "DEVOTED CHOICE 001 KS (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4348-002",
+          "parent_fpi": "3df92505-613b-554c-bc5b-5625cfd2cc56",
+          "f_plan_id": "32e42adf-8691-4d62-b340-0c0d38d8f885",
           "plan_name": "DEVOTED CHOICE GIVEBACK 002 KS (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4348-003",
+          "parent_fpi": "3df92505-613b-554c-bc5b-5625cfd2cc56",
+          "f_plan_id": "09eb7b2f-cbd7-41e6-b5f5-d099608e630a",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 003 KS (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4348-004",
+          "parent_fpi": "3df92505-613b-554c-bc5b-5625cfd2cc56",
+          "f_plan_id": "b2a1d14b-825e-4689-8ccd-b56d00595ceb",
           "plan_name": "DEVOTED C-SNP CHOICE PLUS 004 KS (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4348-005",
+          "parent_fpi": "3df92505-613b-554c-bc5b-5625cfd2cc56",
+          "f_plan_id": "42c8b623-84f4-4a59-98fe-e80e3d3c61f0",
           "plan_name": "DEVOTED CHOICE 005 KS (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4348-006",
+          "parent_fpi": "3df92505-613b-554c-bc5b-5625cfd2cc56",
+          "f_plan_id": "dbe16732-a532-4337-bfb0-f50e1a47eaac",
           "plan_name": "DEVOTED CHOICE GIVEBACK 006 KS (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4348-007",
+          "parent_fpi": "3df92505-613b-554c-bc5b-5625cfd2cc56",
+          "f_plan_id": "b4f386e3-9c3d-49d3-907d-42ce0b592491",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 007 KS (PPO C-SNP)"
         }
       ],

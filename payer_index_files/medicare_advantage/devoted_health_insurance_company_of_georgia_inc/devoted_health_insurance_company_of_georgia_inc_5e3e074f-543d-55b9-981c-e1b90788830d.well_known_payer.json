@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF GEORGIA INC",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "5e3e074f-543d-55b9-981c-e1b90788830d",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF GEORGIA INC",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF GEORGIA INC"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H5453"
+      "value": "H5453",
+      "is_fpi": false,
+      "parent_fpi": "5e3e074f-543d-55b9-981c-e1b90788830d"
     }
   ],
   "plan_groups": [
@@ -20,56 +23,78 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5453-001",
+          "parent_fpi": "5e3e074f-543d-55b9-981c-e1b90788830d",
+          "f_plan_id": "1e7e8be5-3aeb-4c27-a941-d831d7921c25",
           "plan_name": "DEVOTED CHOICE 001 GA (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5453-002",
+          "parent_fpi": "5e3e074f-543d-55b9-981c-e1b90788830d",
+          "f_plan_id": "0d480d1f-4e50-49d2-a6f9-c819a925d026",
           "plan_name": "DEVOTED CHOICE GIVEBACK 002 GA (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5453-003",
+          "parent_fpi": "5e3e074f-543d-55b9-981c-e1b90788830d",
+          "f_plan_id": "8a581cd0-779f-4fdc-9087-0ed2e753c593",
           "plan_name": "DEVOTED CHOICE MA ONLY 003 GA (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5453-004",
+          "parent_fpi": "5e3e074f-543d-55b9-981c-e1b90788830d",
+          "f_plan_id": "c001d515-8593-4248-8a3c-63c132d4bd4d",
           "plan_name": "DEVOTED CHOICE 004 GA (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5453-005",
+          "parent_fpi": "5e3e074f-543d-55b9-981c-e1b90788830d",
+          "f_plan_id": "b4d618d6-7deb-471c-87e1-508e9a4979cc",
           "plan_name": "DEVOTED CHOICE GIVEBACK 005 GA (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5453-010",
+          "parent_fpi": "5e3e074f-543d-55b9-981c-e1b90788830d",
+          "f_plan_id": "b8ff5bbc-e0c5-400c-aeea-58bb12e551e8",
           "plan_name": "DEVOTED CHOICE 010 GA (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5453-011",
+          "parent_fpi": "5e3e074f-543d-55b9-981c-e1b90788830d",
+          "f_plan_id": "4e9fa49a-fa51-4e36-ac03-6d000542318e",
           "plan_name": "DEVOTED CHOICE GIVEBACK 011 GA (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5453-015",
+          "parent_fpi": "5e3e074f-543d-55b9-981c-e1b90788830d",
+          "f_plan_id": "8328e2c9-3913-41f8-b5ef-d83fa79dc6fb",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 015 GA (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5453-016",
+          "parent_fpi": "5e3e074f-543d-55b9-981c-e1b90788830d",
+          "f_plan_id": "74b196ac-a994-41cb-aa64-24e63bc5eb29",
           "plan_name": "DEVOTED C-SNP CHOICE PLUS 016 GA (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5453-017",
+          "parent_fpi": "5e3e074f-543d-55b9-981c-e1b90788830d",
+          "f_plan_id": "938da7f7-cc16-4971-81e8-052bffda0532",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 017 GA (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5453-018",
+          "parent_fpi": "5e3e074f-543d-55b9-981c-e1b90788830d",
+          "f_plan_id": "c197fb1f-c11e-4c61-bafe-a931c01fb896",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 018 GA (PPO C-SNP)"
         }
       ],

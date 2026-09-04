@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "INDEPENDENT CARE HEALTH PLAN",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "9f810bfc-2cd8-5a4f-a7e2-8cface212c5e",
+      "is_fpi": true,
+      "payerLegalName": "INDEPENDENT CARE HEALTH PLAN",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "INDEPENDENT CARE HEALTH PLAN"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H2237"
+      "value": "H2237",
+      "is_fpi": false,
+      "parent_fpi": "9f810bfc-2cd8-5a4f-a7e2-8cface212c5e"
     }
   ],
   "plan_groups": [
@@ -20,6 +23,8 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2237-007",
+          "parent_fpi": "9f810bfc-2cd8-5a4f-a7e2-8cface212c5e",
+          "f_plan_id": "5f13637f-89ca-486b-b765-0ab0d5c700db",
           "plan_name": "iCare Family Care Partnership (HMO D-SNP)"
         }
       ],

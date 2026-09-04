@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "FREEDOM HEALTH, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "d887d34b-5509-51a2-b57d-1ae20a8cb800",
+      "is_fpi": true,
+      "payerLegalName": "FREEDOM HEALTH, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "FREEDOM HEALTH, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H5427"
+      "value": "H5427",
+      "is_fpi": false,
+      "parent_fpi": "d887d34b-5509-51a2-b57d-1ae20a8cb800"
     }
   ],
   "plan_groups": [
@@ -20,126 +23,176 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5427-052",
+          "parent_fpi": "d887d34b-5509-51a2-b57d-1ae20a8cb800",
+          "f_plan_id": "67e06614-a2cf-4eb7-bbe6-58898fb1d92a",
           "plan_name": "Freedom Savings Plan (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5427-059",
+          "parent_fpi": "d887d34b-5509-51a2-b57d-1ae20a8cb800",
+          "f_plan_id": "9776b2a7-abce-4504-ad48-d8931e5a8e4c",
           "plan_name": "Freedom Medicare Plan Rx (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5427-060",
+          "parent_fpi": "d887d34b-5509-51a2-b57d-1ae20a8cb800",
+          "f_plan_id": "5794ede9-3715-49d9-a20a-2af1cad21d18",
           "plan_name": "Freedom Medicare Plan Rx (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5427-070",
+          "parent_fpi": "d887d34b-5509-51a2-b57d-1ae20a8cb800",
+          "f_plan_id": "191936cb-0005-436a-b2c7-99eb097cc990",
           "plan_name": "Freedom VIP Care (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5427-072",
+          "parent_fpi": "d887d34b-5509-51a2-b57d-1ae20a8cb800",
+          "f_plan_id": "5679dc48-7767-41bb-9353-ac07b0e30562",
           "plan_name": "Freedom VIP Savings (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5427-077",
+          "parent_fpi": "d887d34b-5509-51a2-b57d-1ae20a8cb800",
+          "f_plan_id": "3b494a22-47bf-45e0-9752-6062530ecd81",
           "plan_name": "Freedom VIP Savings COPD (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5427-078",
+          "parent_fpi": "d887d34b-5509-51a2-b57d-1ae20a8cb800",
+          "f_plan_id": "72659c48-5219-4ceb-8a96-84f3dd3a00f7",
           "plan_name": "Freedom Medi-Medi Partial (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5427-082",
+          "parent_fpi": "d887d34b-5509-51a2-b57d-1ae20a8cb800",
+          "f_plan_id": "fbea56ef-5e94-4ff1-880f-57442c3ad66d",
           "plan_name": "Freedom VIP Savings (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5427-083",
+          "parent_fpi": "d887d34b-5509-51a2-b57d-1ae20a8cb800",
+          "f_plan_id": "2f344aae-afe1-46a6-b8ed-56184944b665",
           "plan_name": "Freedom VIP Savings COPD (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5427-087",
+          "parent_fpi": "d887d34b-5509-51a2-b57d-1ae20a8cb800",
+          "f_plan_id": "fffa5270-9ca6-4ab1-8051-91fadb724d3e",
           "plan_name": "Freedom Medi-Medi Full (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5427-088",
+          "parent_fpi": "d887d34b-5509-51a2-b57d-1ae20a8cb800",
+          "f_plan_id": "6546b2ce-01b6-4a24-9fbd-23dc56f0d3dc",
           "plan_name": "Freedom Platinum Plan Rx (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5427-089",
+          "parent_fpi": "d887d34b-5509-51a2-b57d-1ae20a8cb800",
+          "f_plan_id": "a83f6f20-3164-42dd-ac61-7f733828f9f7",
           "plan_name": "Freedom Platinum Plan Rx (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5427-091",
+          "parent_fpi": "d887d34b-5509-51a2-b57d-1ae20a8cb800",
+          "f_plan_id": "2c9d5094-20ba-4e28-9b24-64eb752fc563",
           "plan_name": "Freedom Platinum Plan Rx (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5427-093",
+          "parent_fpi": "d887d34b-5509-51a2-b57d-1ae20a8cb800",
+          "f_plan_id": "3edbbcb2-c515-4ba6-8058-2cac32a21c85",
           "plan_name": "Freedom Platinum Plan Rx (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5427-094",
+          "parent_fpi": "d887d34b-5509-51a2-b57d-1ae20a8cb800",
+          "f_plan_id": "2e4dfdca-ad92-4010-89b0-98627998709d",
           "plan_name": "Freedom Platinum Plan Rx (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5427-096",
+          "parent_fpi": "d887d34b-5509-51a2-b57d-1ae20a8cb800",
+          "f_plan_id": "7e233524-c18c-4925-a6c5-ed6428f9d8ea",
           "plan_name": "Freedom Platinum Rewards Plan Rx (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5427-099",
+          "parent_fpi": "d887d34b-5509-51a2-b57d-1ae20a8cb800",
+          "f_plan_id": "75be06b1-d95e-44ea-827e-301e65058f2f",
           "plan_name": "Freedom VIP Rewards (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5427-102",
+          "parent_fpi": "d887d34b-5509-51a2-b57d-1ae20a8cb800",
+          "f_plan_id": "4d1a8e24-db54-4125-8094-df1bae8f5453",
           "plan_name": "Freedom Platinum Rewards Plan Rx (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5427-103",
+          "parent_fpi": "d887d34b-5509-51a2-b57d-1ae20a8cb800",
+          "f_plan_id": "637d366c-ca10-4f3c-85dd-fa979d857cce",
           "plan_name": "Freedom Platinum Rewards Plan Rx (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5427-105",
+          "parent_fpi": "d887d34b-5509-51a2-b57d-1ae20a8cb800",
+          "f_plan_id": "6cb94270-635d-4337-bacd-6211386d93fb",
           "plan_name": "Freedom Platinum Rewards Plan Rx (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5427-106",
+          "parent_fpi": "d887d34b-5509-51a2-b57d-1ae20a8cb800",
+          "f_plan_id": "0a6f4124-6e61-4f88-a628-2fc7824835c8",
           "plan_name": "Freedom Platinum Rewards Plan Rx (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5427-107",
+          "parent_fpi": "d887d34b-5509-51a2-b57d-1ae20a8cb800",
+          "f_plan_id": "6a249922-97fa-4087-965f-399259a07fd9",
           "plan_name": "Freedom Platinum Rewards Plan Rx (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5427-108",
+          "parent_fpi": "d887d34b-5509-51a2-b57d-1ae20a8cb800",
+          "f_plan_id": "19a26d10-b540-452d-8056-f18ce0292d57",
           "plan_name": "Freedom VIP Rewards (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5427-112",
+          "parent_fpi": "d887d34b-5509-51a2-b57d-1ae20a8cb800",
+          "f_plan_id": "61de833d-e92f-4da2-b54d-78f811d602f6",
           "plan_name": "Freedom M\u00e1ximo (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5427-113",
+          "parent_fpi": "d887d34b-5509-51a2-b57d-1ae20a8cb800",
+          "f_plan_id": "c55256c2-a1dc-4c14-a12f-281d11e19568",
           "plan_name": "Freedom M\u00e1ximo (HMO-POS)"
         }
       ],

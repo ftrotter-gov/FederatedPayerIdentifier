@@ -1,21 +1,26 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "COVENTRY HEALTH CARE OF ILLINOIS, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "e4727998-af85-5e5f-81a9-0947f9bf23bb",
+      "is_fpi": true,
+      "payerLegalName": "COVENTRY HEALTH CARE OF ILLINOIS, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "COVENTRY HEALTH CARE OF ILLINOIS, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H1206"
+      "value": "H1206",
+      "is_fpi": false,
+      "parent_fpi": "e4727998-af85-5e5f-81a9-0947f9bf23bb"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H7301"
+      "value": "H7301",
+      "is_fpi": false,
+      "parent_fpi": "e4727998-af85-5e5f-81a9-0947f9bf23bb"
     }
   ],
   "plan_groups": [
@@ -24,91 +29,127 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1206-002",
+          "parent_fpi": "e4727998-af85-5e5f-81a9-0947f9bf23bb",
+          "f_plan_id": "e65743b1-e7f9-447f-867a-8a0ccf13dd35",
           "plan_name": "Aetna Medicare Signature (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1206-003",
+          "parent_fpi": "e4727998-af85-5e5f-81a9-0947f9bf23bb",
+          "f_plan_id": "6f74f028-b4a8-442a-bd05-197a943715a9",
           "plan_name": "Aetna Medicare Signature (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1206-004",
+          "parent_fpi": "e4727998-af85-5e5f-81a9-0947f9bf23bb",
+          "f_plan_id": "0528c5d2-5cee-4ea1-a5a7-d88db8062d19",
           "plan_name": "Aetna Medicare Prime Chronic Care (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1206-801",
+          "parent_fpi": "e4727998-af85-5e5f-81a9-0947f9bf23bb",
+          "f_plan_id": "5c1d1db6-8028-400f-a375-e2f0e8bc979c",
           "plan_name": "Aetna Medicare Plan (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1206-008",
+          "parent_fpi": "e4727998-af85-5e5f-81a9-0947f9bf23bb",
+          "f_plan_id": "520a1d27-c110-4a64-ae11-773494d2dde9",
           "plan_name": "Aetna Medicare Signature Extra (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1206-009",
+          "parent_fpi": "e4727998-af85-5e5f-81a9-0947f9bf23bb",
+          "f_plan_id": "ac62090c-b872-4430-9993-9bc0ad7e51e9",
           "plan_name": "Aetna Medicare Prime Chronic Total (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7301-002",
+          "parent_fpi": "e4727998-af85-5e5f-81a9-0947f9bf23bb",
+          "f_plan_id": "48c52d98-2940-42c0-890b-b69e33c344f9",
           "plan_name": "Aetna Medicare Advantra (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7301-006",
+          "parent_fpi": "e4727998-af85-5e5f-81a9-0947f9bf23bb",
+          "f_plan_id": "df9d65be-7bef-4ef8-9a7f-f25f96ce11c3",
           "plan_name": "Aetna Medicare Advantra Extra (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7301-007",
+          "parent_fpi": "e4727998-af85-5e5f-81a9-0947f9bf23bb",
+          "f_plan_id": "f89a20e2-733e-437b-966c-b844b34f7719",
           "plan_name": "Aetna Medicare Signature (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7301-009",
+          "parent_fpi": "e4727998-af85-5e5f-81a9-0947f9bf23bb",
+          "f_plan_id": "cbc56977-f68e-4c05-ae7c-a928bbcc7b4d",
           "plan_name": "Aetna Medicare Enhanced (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7301-013",
+          "parent_fpi": "e4727998-af85-5e5f-81a9-0947f9bf23bb",
+          "f_plan_id": "63f61b14-41e8-4f77-a3af-81a9540d1a39",
           "plan_name": "Aetna Medicare Signature (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7301-021",
+          "parent_fpi": "e4727998-af85-5e5f-81a9-0947f9bf23bb",
+          "f_plan_id": "8fe9eb5e-7dab-42d0-9e61-acde0648f17d",
           "plan_name": "Aetna Medicare Signature Extra (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7301-023",
+          "parent_fpi": "e4727998-af85-5e5f-81a9-0947f9bf23bb",
+          "f_plan_id": "259c2c6f-48ed-4e85-b2ed-328dcdd2820d",
           "plan_name": "Aetna Medicare Eagle (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7301-027",
+          "parent_fpi": "e4727998-af85-5e5f-81a9-0947f9bf23bb",
+          "f_plan_id": "109458e1-088f-421b-a25a-b0ac053eefa7",
           "plan_name": "Aetna Medicare Signature (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7301-803",
+          "parent_fpi": "e4727998-af85-5e5f-81a9-0947f9bf23bb",
+          "f_plan_id": "87a2506f-ac3a-48d8-9e61-4b0d7af5d676",
           "plan_name": "Aetna Medicare Plan (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7301-032",
+          "parent_fpi": "e4727998-af85-5e5f-81a9-0947f9bf23bb",
+          "f_plan_id": "3c167c6f-5327-4ba6-9573-74def13094bd",
           "plan_name": "Aetna Medicare Enhanced (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7301-033",
+          "parent_fpi": "e4727998-af85-5e5f-81a9-0947f9bf23bb",
+          "f_plan_id": "0936ff2a-8768-44f0-8762-1022537a5fd0",
           "plan_name": "Aetna Medicare Signature (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7301-034",
+          "parent_fpi": "e4727998-af85-5e5f-81a9-0947f9bf23bb",
+          "f_plan_id": "e7418f97-802e-4654-a215-29ce599c6673",
           "plan_name": "Aetna Medicare Enhanced (PPO)"
         }
       ],

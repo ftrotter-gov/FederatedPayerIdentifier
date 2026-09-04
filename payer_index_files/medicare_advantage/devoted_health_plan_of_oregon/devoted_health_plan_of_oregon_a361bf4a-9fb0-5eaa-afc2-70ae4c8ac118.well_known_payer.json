@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH  PLAN OF OREGON",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "a361bf4a-9fb0-5eaa-afc2-70ae4c8ac118",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH  PLAN OF OREGON",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH  PLAN OF OREGON"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H7199"
+      "value": "H7199",
+      "is_fpi": false,
+      "parent_fpi": "a361bf4a-9fb0-5eaa-afc2-70ae4c8ac118"
     }
   ],
   "plan_groups": [
@@ -20,6 +23,8 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7199-002",
+          "parent_fpi": "a361bf4a-9fb0-5eaa-afc2-70ae4c8ac118",
+          "f_plan_id": "9deddca2-e693-4ec4-8c1c-2ba146d2352e",
           "plan_name": "DEVOTED CHOICE PREMIUM 002 OR (PPO)"
         }
       ],

@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "BLUE CROSS & BLUE SHIELD OF RHODE ISLAND",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "d1dcfe38-272a-5b66-86b2-057c1db30f6c",
+      "is_fpi": true,
+      "payerLegalName": "BLUE CROSS & BLUE SHIELD OF RHODE ISLAND",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "BLUE CROSS & BLUE SHIELD OF RHODE ISLAND"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H4152"
+      "value": "H4152",
+      "is_fpi": false,
+      "parent_fpi": "d1dcfe38-272a-5b66-86b2-057c1db30f6c"
     }
   ],
   "plan_groups": [
@@ -20,41 +23,57 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4152-004",
+          "parent_fpi": "d1dcfe38-272a-5b66-86b2-057c1db30f6c",
+          "f_plan_id": "bd10b06c-0eff-4024-91a0-4ce7c12734b1",
           "plan_name": "BlueCHiP for Medicare Core (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4152-013",
+          "parent_fpi": "d1dcfe38-272a-5b66-86b2-057c1db30f6c",
+          "f_plan_id": "cceeb60a-f932-4c8f-85d7-249d8ab4e4fc",
           "plan_name": "BlueCHiP for Medicare Enhanced (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4152-018",
+          "parent_fpi": "d1dcfe38-272a-5b66-86b2-057c1db30f6c",
+          "f_plan_id": "f0b659c0-c6fd-4822-9311-f1398d821fc7",
           "plan_name": "BlueCHiP for Medicare Extra (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4152-021",
+          "parent_fpi": "d1dcfe38-272a-5b66-86b2-057c1db30f6c",
+          "f_plan_id": "ea6cd385-9ab0-4a39-84cd-f96e293859fd",
           "plan_name": "BlueRI for Duals (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4152-022",
+          "parent_fpi": "d1dcfe38-272a-5b66-86b2-057c1db30f6c",
+          "f_plan_id": "b7bfac76-0631-4ff9-ae76-f1c49ebdb9e6",
           "plan_name": "BlueCHiP for Medicare Access (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4152-815",
+          "parent_fpi": "d1dcfe38-272a-5b66-86b2-057c1db30f6c",
+          "f_plan_id": "203a9a92-9ca5-480f-a09e-c8520cf20e1d",
           "plan_name": "BlueCHiP for Medicare Group Preferred (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4152-817",
+          "parent_fpi": "d1dcfe38-272a-5b66-86b2-057c1db30f6c",
+          "f_plan_id": "824c9814-8993-485e-81bf-19476832eb4b",
           "plan_name": "BlueCHiP for Medicare Group Plus (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4152-023",
+          "parent_fpi": "d1dcfe38-272a-5b66-86b2-057c1db30f6c",
+          "f_plan_id": "2cdd8f09-433f-487f-b4cd-cb55dd043b86",
           "plan_name": "BlueCHiP for Medicare Essential (HMO-POS)"
         }
       ],

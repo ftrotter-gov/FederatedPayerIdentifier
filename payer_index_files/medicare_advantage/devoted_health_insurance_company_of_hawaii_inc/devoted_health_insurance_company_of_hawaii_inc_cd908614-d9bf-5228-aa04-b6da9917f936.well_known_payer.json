@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF HAWAII INC",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "cd908614-d9bf-5228-aa04-b6da9917f936",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF HAWAII INC",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF HAWAII INC"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H2686"
+      "value": "H2686",
+      "is_fpi": false,
+      "parent_fpi": "cd908614-d9bf-5228-aa04-b6da9917f936"
     }
   ],
   "plan_groups": [
@@ -20,36 +23,50 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2686-004",
+          "parent_fpi": "cd908614-d9bf-5228-aa04-b6da9917f936",
+          "f_plan_id": "322d9548-912c-4639-a585-3f8a2115c291",
           "plan_name": "DEVOTED CHOICE 004 HI (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2686-005",
+          "parent_fpi": "cd908614-d9bf-5228-aa04-b6da9917f936",
+          "f_plan_id": "c1e20325-08b9-4b3a-b44d-d94e68d590c2",
           "plan_name": "DEVOTED CHOICE GIVEBACK 005 HI (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2686-006",
+          "parent_fpi": "cd908614-d9bf-5228-aa04-b6da9917f936",
+          "f_plan_id": "75f08cbb-b1b6-4386-9f0c-924128b9ebfd",
           "plan_name": "DEVOTED CHOICE PREMIUM 006 HI (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2686-007",
+          "parent_fpi": "cd908614-d9bf-5228-aa04-b6da9917f936",
+          "f_plan_id": "4defa82e-b0ef-461e-868e-94b8e965ce2d",
           "plan_name": "DEVOTED CHOICE MA ONLY 007 HI (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2686-008",
+          "parent_fpi": "cd908614-d9bf-5228-aa04-b6da9917f936",
+          "f_plan_id": "a34872dd-13a0-4234-b17b-1de73456b66c",
           "plan_name": "DEVOTED CHOICE 008 HI (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2686-009",
+          "parent_fpi": "cd908614-d9bf-5228-aa04-b6da9917f936",
+          "f_plan_id": "db8ad207-9580-47ab-9e3e-4feb8a187f00",
           "plan_name": "DEVOTED CHOICE GIVEBACK 009 HI (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2686-010",
+          "parent_fpi": "cd908614-d9bf-5228-aa04-b6da9917f936",
+          "f_plan_id": "91cb4aea-f275-4c24-9815-10d94518115e",
           "plan_name": "DEVOTED CHOICE PREMIUM 010 HI (PPO)"
         }
       ],

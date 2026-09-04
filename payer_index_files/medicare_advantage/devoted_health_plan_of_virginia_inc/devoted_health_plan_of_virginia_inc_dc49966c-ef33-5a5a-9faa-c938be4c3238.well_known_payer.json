@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH PLAN OF VIRGINIA INC",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "dc49966c-ef33-5a5a-9faa-c938be4c3238",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH PLAN OF VIRGINIA INC",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH PLAN OF VIRGINIA INC"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H6994"
+      "value": "H6994",
+      "is_fpi": false,
+      "parent_fpi": "dc49966c-ef33-5a5a-9faa-c938be4c3238"
     }
   ],
   "plan_groups": [
@@ -20,51 +23,71 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6994-001",
+          "parent_fpi": "dc49966c-ef33-5a5a-9faa-c938be4c3238",
+          "f_plan_id": "d76f13cf-abcf-4a3a-b375-eddcb41e976b",
           "plan_name": "DEVOTED CORE 001 VA (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6994-002",
+          "parent_fpi": "dc49966c-ef33-5a5a-9faa-c938be4c3238",
+          "f_plan_id": "bb84984e-07de-434a-bb41-c8676dc6fee0",
           "plan_name": "DEVOTED GIVEBACK 002 VA (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6994-003",
+          "parent_fpi": "dc49966c-ef33-5a5a-9faa-c938be4c3238",
+          "f_plan_id": "1b15589e-2c93-465b-80d9-55b41ee2440b",
           "plan_name": "DEVOTED C-SNP PREMIUM 003 VA (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6994-004",
+          "parent_fpi": "dc49966c-ef33-5a5a-9faa-c938be4c3238",
+          "f_plan_id": "c4d26346-1405-4f36-b200-00fde938af80",
           "plan_name": "DEVOTED C-SNP PLUS 004 VA (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6994-008",
+          "parent_fpi": "dc49966c-ef33-5a5a-9faa-c938be4c3238",
+          "f_plan_id": "48a61bde-d2e1-4141-be07-5ef23defd887",
           "plan_name": "DEVOTED CORE 008 VA (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6994-009",
+          "parent_fpi": "dc49966c-ef33-5a5a-9faa-c938be4c3238",
+          "f_plan_id": "0a584595-e6d8-45f5-b1b8-2b3daa459402",
           "plan_name": "DEVOTED GIVEBACK 009 VA (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6994-010",
+          "parent_fpi": "dc49966c-ef33-5a5a-9faa-c938be4c3238",
+          "f_plan_id": "ab2c3001-2780-438f-a6ce-58e40191aa85",
           "plan_name": "DEVOTED C-SNP PREMIUM 010 VA (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6994-011",
+          "parent_fpi": "dc49966c-ef33-5a5a-9faa-c938be4c3238",
+          "f_plan_id": "ebae72a0-69cf-4824-a035-559cf5e87671",
           "plan_name": "DEVOTED CORE 011 VA (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6994-012",
+          "parent_fpi": "dc49966c-ef33-5a5a-9faa-c938be4c3238",
+          "f_plan_id": "0bec1f8a-4c58-48e7-88c0-50fde12ed72f",
           "plan_name": "DEVOTED GIVEBACK 012 VA (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6994-013",
+          "parent_fpi": "dc49966c-ef33-5a5a-9faa-c938be4c3238",
+          "f_plan_id": "e4d3510c-e235-4810-8aef-5078c2e52421",
           "plan_name": "DEVOTED C-SNP PREMIUM 013 VA (HMO C-SNP)"
         }
       ],

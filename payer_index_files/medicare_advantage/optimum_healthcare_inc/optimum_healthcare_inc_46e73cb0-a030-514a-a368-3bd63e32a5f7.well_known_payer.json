@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "OPTIMUM HEALTHCARE, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "46e73cb0-a030-514a-a368-3bd63e32a5f7",
+      "is_fpi": true,
+      "payerLegalName": "OPTIMUM HEALTHCARE, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "OPTIMUM HEALTHCARE, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H5594"
+      "value": "H5594",
+      "is_fpi": false,
+      "parent_fpi": "46e73cb0-a030-514a-a368-3bd63e32a5f7"
     }
   ],
   "plan_groups": [
@@ -20,76 +23,106 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5594-001",
+          "parent_fpi": "46e73cb0-a030-514a-a368-3bd63e32a5f7",
+          "f_plan_id": "1565b8b5-34eb-45e3-ad4b-8e0a665a5e76",
           "plan_name": "Optimum Gold Rewards Plan (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5594-002",
+          "parent_fpi": "46e73cb0-a030-514a-a368-3bd63e32a5f7",
+          "f_plan_id": "63f9155b-8b56-4306-bd6c-8afd95ea3f8c",
           "plan_name": "Optimum Platinum Plan (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5594-016",
+          "parent_fpi": "46e73cb0-a030-514a-a368-3bd63e32a5f7",
+          "f_plan_id": "47a45227-7748-4226-a3a6-909543376f81",
           "plan_name": "Optimum Emerald Partial (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5594-017",
+          "parent_fpi": "46e73cb0-a030-514a-a368-3bd63e32a5f7",
+          "f_plan_id": "15d71773-545a-4d9b-8897-414702a9af97",
           "plan_name": "Optimum Emerald Full (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5594-019",
+          "parent_fpi": "46e73cb0-a030-514a-a368-3bd63e32a5f7",
+          "f_plan_id": "7e94ada4-a71f-4625-8cd6-054401a7dae3",
           "plan_name": "Optimum Gold Plan (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5594-022",
+          "parent_fpi": "46e73cb0-a030-514a-a368-3bd63e32a5f7",
+          "f_plan_id": "f649a8d9-9d06-4985-95f1-0c4ca7a45332",
           "plan_name": "Optimum Gold Rewards Plan (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5594-026",
+          "parent_fpi": "46e73cb0-a030-514a-a368-3bd63e32a5f7",
+          "f_plan_id": "a165e5f0-b8b7-406f-bc33-1a36c6722d28",
           "plan_name": "Optimum Gold Rewards Plan (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5594-028",
+          "parent_fpi": "46e73cb0-a030-514a-a368-3bd63e32a5f7",
+          "f_plan_id": "aed4bde7-5091-4b44-b58a-c2786132e688",
           "plan_name": "Optimum Diamond Rewards (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5594-029",
+          "parent_fpi": "46e73cb0-a030-514a-a368-3bd63e32a5f7",
+          "f_plan_id": "6d11ce41-90af-4ff9-8a04-fc7f91ee429b",
           "plan_name": "Optimum Diamond Rewards COPD (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5594-030",
+          "parent_fpi": "46e73cb0-a030-514a-a368-3bd63e32a5f7",
+          "f_plan_id": "a1e4fd01-04b4-4f0b-a9a1-86501e1d2110",
           "plan_name": "Optimum Diamond Savings (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5594-031",
+          "parent_fpi": "46e73cb0-a030-514a-a368-3bd63e32a5f7",
+          "f_plan_id": "60643003-3b4a-4859-8d34-b86377f812c8",
           "plan_name": "Optimum Diamond Savings COPD (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5594-032",
+          "parent_fpi": "46e73cb0-a030-514a-a368-3bd63e32a5f7",
+          "f_plan_id": "b7e23138-3655-4f8d-88f5-7e7ee28ed812",
           "plan_name": "Optimum Gold Plus Plan (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5594-034",
+          "parent_fpi": "46e73cb0-a030-514a-a368-3bd63e32a5f7",
+          "f_plan_id": "4b8d3898-3f2b-4180-86fb-51add0916cc3",
           "plan_name": "Optimum Diamond Rewards (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5594-035",
+          "parent_fpi": "46e73cb0-a030-514a-a368-3bd63e32a5f7",
+          "f_plan_id": "58b1cda1-27c3-46db-b011-dab70abe8ef3",
           "plan_name": "Optimum Diamond Rewards COPD (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5594-036",
+          "parent_fpi": "46e73cb0-a030-514a-a368-3bd63e32a5f7",
+          "f_plan_id": "d6f25924-6354-451b-b1f4-2e97f7d87fb2",
           "plan_name": "Optimum Diamond (HMO C-SNP)"
         }
       ],

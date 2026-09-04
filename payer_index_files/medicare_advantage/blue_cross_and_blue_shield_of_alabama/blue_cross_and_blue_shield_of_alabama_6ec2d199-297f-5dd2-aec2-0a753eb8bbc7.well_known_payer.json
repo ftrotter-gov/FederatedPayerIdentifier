@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "BLUE CROSS AND BLUE SHIELD OF ALABAMA",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "6ec2d199-297f-5dd2-aec2-0a753eb8bbc7",
+      "is_fpi": true,
+      "payerLegalName": "BLUE CROSS AND BLUE SHIELD OF ALABAMA",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "BLUE CROSS AND BLUE SHIELD OF ALABAMA"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H0104"
+      "value": "H0104",
+      "is_fpi": false,
+      "parent_fpi": "6ec2d199-297f-5dd2-aec2-0a753eb8bbc7"
     }
   ],
   "plan_groups": [
@@ -20,61 +23,85 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0104-012",
+          "parent_fpi": "6ec2d199-297f-5dd2-aec2-0a753eb8bbc7",
+          "f_plan_id": "e57aa882-26ef-43c7-b030-46bb6fcd6ed3",
           "plan_name": "Blue Advantage Complete (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0104-014",
+          "parent_fpi": "6ec2d199-297f-5dd2-aec2-0a753eb8bbc7",
+          "f_plan_id": "ac5594d9-ea12-4469-afdf-105c3f804322",
           "plan_name": "Blue Advantage Complete (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0104-015",
+          "parent_fpi": "6ec2d199-297f-5dd2-aec2-0a753eb8bbc7",
+          "f_plan_id": "1f4f1e03-35f7-4625-b2fb-362761006055",
           "plan_name": "Blue Advantage Premier (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0104-016",
+          "parent_fpi": "6ec2d199-297f-5dd2-aec2-0a753eb8bbc7",
+          "f_plan_id": "ab02fdd1-8b98-4982-a0c6-13bec3b69695",
           "plan_name": "Blue Advantage Choice (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0104-801",
+          "parent_fpi": "6ec2d199-297f-5dd2-aec2-0a753eb8bbc7",
+          "f_plan_id": "0538ffa5-247b-4fd7-a887-3ddd6ce3b5dd",
           "plan_name": "Blue Advantage Employer Group Plan 801 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0104-802",
+          "parent_fpi": "6ec2d199-297f-5dd2-aec2-0a753eb8bbc7",
+          "f_plan_id": "80966d83-2508-4a91-96ef-91d79af54ea9",
           "plan_name": "Blue Advantage Employer Group Plan 802 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0104-804",
+          "parent_fpi": "6ec2d199-297f-5dd2-aec2-0a753eb8bbc7",
+          "f_plan_id": "70926368-4e38-4f16-aae3-4ebf936642c2",
           "plan_name": "Blue Advantage Employer Group Plan 804 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0104-805",
+          "parent_fpi": "6ec2d199-297f-5dd2-aec2-0a753eb8bbc7",
+          "f_plan_id": "74d3a184-c55d-4064-83b8-06d657df3e3d",
           "plan_name": "Blue Advantage Employer Group Plan 805 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0104-806",
+          "parent_fpi": "6ec2d199-297f-5dd2-aec2-0a753eb8bbc7",
+          "f_plan_id": "f908e13c-8273-42ea-bdc6-37f267e82b2e",
           "plan_name": "Blue Advantage Employer Group Plan 806 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0104-807",
+          "parent_fpi": "6ec2d199-297f-5dd2-aec2-0a753eb8bbc7",
+          "f_plan_id": "de77cf05-60b1-4d99-a825-d4ff91be781f",
           "plan_name": "Blue Advantage Employer Group Plan 807 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0104-808",
+          "parent_fpi": "6ec2d199-297f-5dd2-aec2-0a753eb8bbc7",
+          "f_plan_id": "817554fa-e5f2-4a84-9275-bac56610c5ea",
           "plan_name": "Blue Advantage Employer Group Plan 808 (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0104-809",
+          "parent_fpi": "6ec2d199-297f-5dd2-aec2-0a753eb8bbc7",
+          "f_plan_id": "35786537-d4cf-4077-94a0-d9cbe5930dd4",
           "plan_name": "Blue Advantage Employer Group Plan 809 (PPO)"
         }
       ],

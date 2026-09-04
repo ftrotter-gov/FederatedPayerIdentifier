@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "OKLAHOMA SUPERIOR SELECT, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "64f76a87-585c-5c93-af0f-ec64d53cc950",
+      "is_fpi": true,
+      "payerLegalName": "OKLAHOMA SUPERIOR SELECT, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "OKLAHOMA SUPERIOR SELECT, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H3708"
+      "value": "H3708",
+      "is_fpi": false,
+      "parent_fpi": "64f76a87-585c-5c93-af0f-ec64d53cc950"
     }
   ],
   "plan_groups": [
@@ -20,6 +23,8 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3708-001",
+          "parent_fpi": "64f76a87-585c-5c93-af0f-ec64d53cc950",
+          "f_plan_id": "461dc45d-2e67-4363-80d1-6aac0be7963a",
           "plan_name": "American Health Advantage of Oklahoma (HMO I-SNP)"
         }
       ],

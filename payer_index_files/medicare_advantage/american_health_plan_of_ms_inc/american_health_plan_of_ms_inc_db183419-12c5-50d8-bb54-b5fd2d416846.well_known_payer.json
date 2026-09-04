@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "AMERICAN HEALTH PLAN OF MS, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "db183419-12c5-50d8-bb54-b5fd2d416846",
+      "is_fpi": true,
+      "payerLegalName": "AMERICAN HEALTH PLAN OF MS, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AMERICAN HEALTH PLAN OF MS, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H9909"
+      "value": "H9909",
+      "is_fpi": false,
+      "parent_fpi": "db183419-12c5-50d8-bb54-b5fd2d416846"
     }
   ],
   "plan_groups": [
@@ -20,6 +23,8 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9909-001",
+          "parent_fpi": "db183419-12c5-50d8-bb54-b5fd2d416846",
+          "f_plan_id": "9c6df22a-e4cb-4a86-a739-f2b33c29ad3e",
           "plan_name": "American Health Advantage of Mississippi (HMO I-SNP)"
         }
       ],

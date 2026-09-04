@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "HUMANA HEALTH PLAN OF OHIO, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "21840c71-6646-5780-b2ee-2b62d7921268",
+      "is_fpi": true,
+      "payerLegalName": "HUMANA HEALTH PLAN OF OHIO, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HUMANA HEALTH PLAN OF OHIO, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H0292"
+      "value": "H0292",
+      "is_fpi": false,
+      "parent_fpi": "21840c71-6646-5780-b2ee-2b62d7921268"
     }
   ],
   "plan_groups": [
@@ -20,16 +23,22 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0292-001",
+          "parent_fpi": "21840c71-6646-5780-b2ee-2b62d7921268",
+          "f_plan_id": "34e581d5-5c95-48b4-8e98-708a421370db",
           "plan_name": "Humana Community (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0292-002",
+          "parent_fpi": "21840c71-6646-5780-b2ee-2b62d7921268",
+          "f_plan_id": "8c29edf8-aba9-43b7-8509-a59c25dc2f89",
           "plan_name": "Humana Gold Plus H0292-002 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0292-003",
+          "parent_fpi": "21840c71-6646-5780-b2ee-2b62d7921268",
+          "f_plan_id": "f3ea0861-6e8d-4de4-94c6-2ed13c48d95f",
           "plan_name": "Humana Gold Plus H0292-003 (HMO)"
         }
       ],

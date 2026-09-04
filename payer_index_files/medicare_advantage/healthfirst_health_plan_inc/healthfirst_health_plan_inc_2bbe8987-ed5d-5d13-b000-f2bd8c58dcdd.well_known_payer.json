@@ -1,25 +1,32 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "HEALTHFIRST HEALTH PLAN, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "2bbe8987-ed5d-5d13-b000-f2bd8c58dcdd",
+      "is_fpi": true,
+      "payerLegalName": "HEALTHFIRST HEALTH PLAN, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HEALTHFIRST HEALTH PLAN, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H1722"
+      "value": "H1722",
+      "is_fpi": false,
+      "parent_fpi": "2bbe8987-ed5d-5d13-b000-f2bd8c58dcdd"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H3359"
+      "value": "H3359",
+      "is_fpi": false,
+      "parent_fpi": "2bbe8987-ed5d-5d13-b000-f2bd8c58dcdd"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H5989"
+      "value": "H5989",
+      "is_fpi": false,
+      "parent_fpi": "2bbe8987-ed5d-5d13-b000-f2bd8c58dcdd"
     }
   ],
   "plan_groups": [
@@ -28,6 +35,8 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1722-002",
+          "parent_fpi": "2bbe8987-ed5d-5d13-b000-f2bd8c58dcdd",
+          "f_plan_id": "41d46dd4-de34-4e12-ba77-75589ce86714",
           "plan_name": "Healthfirst Signature (HMO)"
         }
       ],
@@ -40,36 +49,50 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3359-001",
+          "parent_fpi": "2bbe8987-ed5d-5d13-b000-f2bd8c58dcdd",
+          "f_plan_id": "0ef05152-d388-4d78-911b-8020a45b9ca8",
           "plan_name": "Healthfirst 65 Plus Plan (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3359-019",
+          "parent_fpi": "2bbe8987-ed5d-5d13-b000-f2bd8c58dcdd",
+          "f_plan_id": "af8a7143-7da5-4a77-b17c-b772bc5c2d5e",
           "plan_name": "Healthfirst Increased Benefits Plan (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3359-021",
+          "parent_fpi": "2bbe8987-ed5d-5d13-b000-f2bd8c58dcdd",
+          "f_plan_id": "946ae500-64de-45e5-aad0-33641278850d",
           "plan_name": "Healthfirst Life Improvement Plan (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3359-034",
+          "parent_fpi": "2bbe8987-ed5d-5d13-b000-f2bd8c58dcdd",
+          "f_plan_id": "0a357fbc-0edc-4c39-ad3a-4001111bf620",
           "plan_name": "Healthfirst CompleteCare (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3359-038",
+          "parent_fpi": "2bbe8987-ed5d-5d13-b000-f2bd8c58dcdd",
+          "f_plan_id": "3240d60c-5e36-4975-9c54-593b0e951ff2",
           "plan_name": "Healthfirst Connection Plan (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3359-808",
+          "parent_fpi": "2bbe8987-ed5d-5d13-b000-f2bd8c58dcdd",
+          "f_plan_id": "5ee76c6a-463a-43cc-9cbf-8cceeb58e65e",
           "plan_name": "Healthfirst Employer Group 1 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3359-809",
+          "parent_fpi": "2bbe8987-ed5d-5d13-b000-f2bd8c58dcdd",
+          "f_plan_id": "e86b4320-1cc9-45d8-bd06-d13f9f267031",
           "plan_name": "Healthfirst Employer Group 2 (HMO)"
         }
       ],
@@ -82,6 +105,8 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5989-011",
+          "parent_fpi": "2bbe8987-ed5d-5d13-b000-f2bd8c58dcdd",
+          "f_plan_id": "eab22b7c-6e38-4255-a9ba-53fc6bb98dd8",
           "plan_name": "Healthfirst Signature (HMO)"
         }
       ],

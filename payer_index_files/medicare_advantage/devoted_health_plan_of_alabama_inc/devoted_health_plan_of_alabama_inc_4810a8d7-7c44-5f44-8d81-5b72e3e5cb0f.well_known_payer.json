@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH PLAN OF ALABAMA INC",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "4810a8d7-7c44-5f44-8d81-5b72e3e5cb0f",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH PLAN OF ALABAMA INC",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH PLAN OF ALABAMA INC"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H3080"
+      "value": "H3080",
+      "is_fpi": false,
+      "parent_fpi": "4810a8d7-7c44-5f44-8d81-5b72e3e5cb0f"
     }
   ],
   "plan_groups": [
@@ -20,31 +23,43 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3080-001",
+          "parent_fpi": "4810a8d7-7c44-5f44-8d81-5b72e3e5cb0f",
+          "f_plan_id": "c63dc2dd-d4ca-4d4f-8274-bb738f8099b4",
           "plan_name": "DEVOTED CORE 001 AL (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3080-002",
+          "parent_fpi": "4810a8d7-7c44-5f44-8d81-5b72e3e5cb0f",
+          "f_plan_id": "27dafc38-75e0-45fb-82e7-ce922c463e15",
           "plan_name": "DEVOTED GIVEBACK 002 AL (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3080-003",
+          "parent_fpi": "4810a8d7-7c44-5f44-8d81-5b72e3e5cb0f",
+          "f_plan_id": "e41270e6-449e-467a-a20a-a47f2ca04e63",
           "plan_name": "DEVOTED DUAL PLUS 003 AL (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3080-004",
+          "parent_fpi": "4810a8d7-7c44-5f44-8d81-5b72e3e5cb0f",
+          "f_plan_id": "cb5bb916-1406-40ad-aed2-afcf2094e3df",
           "plan_name": "DEVOTED DUAL 004 AL (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3080-006",
+          "parent_fpi": "4810a8d7-7c44-5f44-8d81-5b72e3e5cb0f",
+          "f_plan_id": "39d3aa8a-f422-499e-b891-fb4896ba3bb4",
           "plan_name": "DEVOTED DUAL PLUS 006 AL (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3080-007",
+          "parent_fpi": "4810a8d7-7c44-5f44-8d81-5b72e3e5cb0f",
+          "f_plan_id": "46e220f3-8a96-4bc5-9b2f-e896bcfdaa1d",
           "plan_name": "DEVOTED DUAL 007 AL (HMO D-SNP)"
         }
       ],

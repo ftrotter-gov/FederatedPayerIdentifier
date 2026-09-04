@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF ALABAMA INC",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "4afe6536-df1c-526e-ab3d-3078535a4917",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF ALABAMA INC",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF ALABAMA INC"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H9888"
+      "value": "H9888",
+      "is_fpi": false,
+      "parent_fpi": "4afe6536-df1c-526e-ab3d-3078535a4917"
     }
   ],
   "plan_groups": [
@@ -20,66 +23,92 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9888-001",
+          "parent_fpi": "4afe6536-df1c-526e-ab3d-3078535a4917",
+          "f_plan_id": "51c8c314-5e7f-4ca6-adab-8cb5769d566b",
           "plan_name": "DEVOTED CHOICE 001 AL (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9888-002",
+          "parent_fpi": "4afe6536-df1c-526e-ab3d-3078535a4917",
+          "f_plan_id": "77d3c68e-5074-4713-9e12-6226982e1f02",
           "plan_name": "DEVOTED CHOICE 002 AL (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9888-005",
+          "parent_fpi": "4afe6536-df1c-526e-ab3d-3078535a4917",
+          "f_plan_id": "10edf149-cda9-472f-86f3-3f8a14c78066",
           "plan_name": "DEVOTED CHOICE GIVEBACK 005 AL (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9888-006",
+          "parent_fpi": "4afe6536-df1c-526e-ab3d-3078535a4917",
+          "f_plan_id": "dd56138d-a2ec-4096-831f-5ffb72025d6e",
           "plan_name": "DEVOTED CHOICE GIVEBACK 006 AL (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9888-007",
+          "parent_fpi": "4afe6536-df1c-526e-ab3d-3078535a4917",
+          "f_plan_id": "dd3c84db-a5c8-4067-8e34-d3b7604790d0",
           "plan_name": "DEVOTED CHOICE MA ONLY 007 AL (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9888-008",
+          "parent_fpi": "4afe6536-df1c-526e-ab3d-3078535a4917",
+          "f_plan_id": "606f3645-a4e5-4345-996f-24a4be46ba43",
           "plan_name": "DEVOTED C-SNP CHOICE 008 AL (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9888-009",
+          "parent_fpi": "4afe6536-df1c-526e-ab3d-3078535a4917",
+          "f_plan_id": "e0fa2d0d-da66-43e6-a5df-b935ddcda5e6",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 009 AL (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9888-010",
+          "parent_fpi": "4afe6536-df1c-526e-ab3d-3078535a4917",
+          "f_plan_id": "c5379180-c039-4f78-8ac6-90daeb213e6a",
           "plan_name": "DEVOTED C-SNP CHOICE 010 AL (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9888-011",
+          "parent_fpi": "4afe6536-df1c-526e-ab3d-3078535a4917",
+          "f_plan_id": "b0032740-6b87-487f-8ed9-62745ec34c55",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 011 AL (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9888-012",
+          "parent_fpi": "4afe6536-df1c-526e-ab3d-3078535a4917",
+          "f_plan_id": "1d4bf4ba-eb39-4aec-bb24-2786ac438e5c",
           "plan_name": "DEVOTED C-SNP CHOICE PLUS 012 AL (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9888-013",
+          "parent_fpi": "4afe6536-df1c-526e-ab3d-3078535a4917",
+          "f_plan_id": "a57f0943-bf0e-4a65-8ddd-e39a389be43a",
           "plan_name": "DEVOTED DUAL CHOICE FULL 013 AL (PPO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9888-014",
+          "parent_fpi": "4afe6536-df1c-526e-ab3d-3078535a4917",
+          "f_plan_id": "408b37de-e847-4d2c-8a09-a58a52998009",
           "plan_name": "DEVOTED DUAL CHOICE FULL 014 AL (PPO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9888-015",
+          "parent_fpi": "4afe6536-df1c-526e-ab3d-3078535a4917",
+          "f_plan_id": "a76e7e8e-fd67-4200-bd21-6758e9e0cc04",
           "plan_name": "DEVOTED C-SNP CHOICE PLUS 015 AL (PPO C-SNP)"
         }
       ],

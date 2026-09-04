@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF DELAWARE",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "80b2acbb-a674-5a5d-97fd-e4006d9d2bd9",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF DELAWARE",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF DELAWARE"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H0413"
+      "value": "H0413",
+      "is_fpi": false,
+      "parent_fpi": "80b2acbb-a674-5a5d-97fd-e4006d9d2bd9"
     }
   ],
   "plan_groups": [
@@ -20,16 +23,22 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0413-001",
+          "parent_fpi": "80b2acbb-a674-5a5d-97fd-e4006d9d2bd9",
+          "f_plan_id": "8d7b106b-08a6-498a-aa0d-078a20eb8997",
           "plan_name": "DEVOTED CHOICE 001 DE (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0413-002",
+          "parent_fpi": "80b2acbb-a674-5a5d-97fd-e4006d9d2bd9",
+          "f_plan_id": "c55bfafa-fe72-4eb5-8042-197160dfc81d",
           "plan_name": "DEVOTED CHOICE GIVEBACK 002 DE (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0413-003",
+          "parent_fpi": "80b2acbb-a674-5a5d-97fd-e4006d9d2bd9",
+          "f_plan_id": "a0a4664d-836c-4f85-be07-02068da7ec3e",
           "plan_name": "DEVOTED C-SNP CHOICE PLUS 003 DE (PPO C-SNP)"
         }
       ],

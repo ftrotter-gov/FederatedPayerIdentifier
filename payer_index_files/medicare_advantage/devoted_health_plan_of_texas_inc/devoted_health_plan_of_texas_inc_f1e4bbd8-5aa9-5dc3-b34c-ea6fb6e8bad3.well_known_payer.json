@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH PLAN OF TEXAS, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH PLAN OF TEXAS, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH PLAN OF TEXAS, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H7993"
+      "value": "H7993",
+      "is_fpi": false,
+      "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3"
     }
   ],
   "plan_groups": [
@@ -20,161 +23,225 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-001",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "5229aba5-9746-41f6-84c0-d3b54dce4d3d",
           "plan_name": "DEVOTED CORE 001 TX (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-002",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "5c67b2ee-569f-4876-955e-d44ce16a32b1",
           "plan_name": "DEVOTED PREMIUM 002 TX (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-003",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "4fa9d3f7-4e8a-421f-b579-919a7f43c2a8",
           "plan_name": "DEVOTED CORE 003 TX (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-004",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "6a736836-f298-49a9-a8c6-9615dbafc0b3",
           "plan_name": "DEVOTED CORE 004 TX (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-046",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "94b10984-1632-422e-8153-07a2e55b8117",
           "plan_name": "DEVOTED C-SNP 046 TX (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-006",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "7859a599-33fb-454e-807b-f99969068e23",
           "plan_name": "DEVOTED GIVEBACK 006 TX (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-007",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "f0df2264-503e-4f63-809b-230e60193828",
           "plan_name": "DEVOTED CORE 007 TX (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-008",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "6b32ab5a-b29a-4c49-95bf-92007807f093",
           "plan_name": "DEVOTED GIVEBACK 008 TX (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-010",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "42b7a587-38d8-4491-9d9a-f7aa69f26632",
           "plan_name": "DEVOTED DUAL 010 TX (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-012",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "6a0b7515-fda3-4050-b22e-419f22303cb7",
           "plan_name": "DEVOTED DUAL 012 TX (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-014",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "d5e5890a-c58f-4066-9767-0ae23bb0cb71",
           "plan_name": "DEVOTED CORE 014 TX (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-015",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "d5f528a9-6937-4044-b824-09be644e9cbb",
           "plan_name": "DEVOTED DUAL 015 TX (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-017",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "48874bd4-07bf-48a5-a010-4ce9e356b41d",
           "plan_name": "DEVOTED DUAL 017 TX (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-019",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "b119d0d6-db38-467a-94a7-3f6b8ea4a401",
           "plan_name": "DEVOTED CORE 019 TX (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-020",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "73afcdc0-0ea0-4b87-bc1f-3e137fb8b365",
           "plan_name": "DEVOTED MA ONLY 020 TX (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-021",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "24b46e86-d3b3-4ea9-8ce6-22bffe335467",
           "plan_name": "DEVOTED GIVEBACK 021 TX (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-023",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "8c015fc5-6cd2-4c31-9721-30f5ebc0e86b",
           "plan_name": "DEVOTED C-SNP PREMIUM 023 TX (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-024",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "bd474f0d-4c99-4e34-983e-47c4b1986de3",
           "plan_name": "DEVOTED C-SNP PLUS 024 TX (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-027",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "8bf53374-fb5d-4251-8943-2134ec0b3291",
           "plan_name": "DEVOTED C-SNP 027 TX (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-028",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "9a19b32d-7f3c-4bd8-9e25-41a169067024",
           "plan_name": "DEVOTED C-SNP PREMIUM 028 TX (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-029",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "63c5fcef-86cb-4f86-8451-c98d36054ef9",
           "plan_name": "DEVOTED C-SNP PLUS 029 TX (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-030",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "5bc28645-84d3-4861-8278-e3de59d37165",
           "plan_name": "DEVOTED C-SNP PREMIUM 030 TX (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-031",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "f32dd8eb-62e8-45b0-ba6b-26dc0fe3399d",
           "plan_name": "DEVOTED C-SNP PLUS 031 TX (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-033",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "ecd1f557-313b-4d6f-afd0-9a9a09c16983",
           "plan_name": "DEVOTED C-SNP PLUS 033 TX (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-034",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "6386b2d9-1349-4bdc-b94c-3e1633983659",
           "plan_name": "DEVOTED CORE 034 IA (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-035",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "8b648014-ba54-4d76-8a03-f832247a7a30",
           "plan_name": "DEVOTED GIVEBACK 035 IA (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-036",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "ee6b6770-fdb8-465f-a7ce-dadf74f33264",
           "plan_name": "DEVOTED C-SNP PLUS 036 IA (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-037",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "5ef2bda6-6d24-4f01-8fd2-0e771ddca575",
           "plan_name": "DEVOTED DUAL FULL 037 TX (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-038",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "4a3e477b-a997-434a-b1b2-d7f4baea7a09",
           "plan_name": "DEVOTED DUAL FULL 038 TX (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-040",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "ea61f98f-320f-46cf-935b-16f7ec3c2535",
           "plan_name": "DEVOTED DUAL FULL 040 TX (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-041",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "d7d31c34-d339-4032-b539-0f4d94fd2b33",
           "plan_name": "DEVOTED DUAL FULL 041 TX (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-048",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "10f2d1a2-f441-44f3-88ca-d2d3dcd13ac4",
           "plan_name": "DEVOTED GIVEBACK 048 TX (HMO)"
         }
       ],

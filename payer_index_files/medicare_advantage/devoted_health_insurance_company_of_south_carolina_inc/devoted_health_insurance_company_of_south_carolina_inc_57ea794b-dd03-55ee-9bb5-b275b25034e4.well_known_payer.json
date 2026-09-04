@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF SOUTH CAROLINA INC",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "57ea794b-dd03-55ee-9bb5-b275b25034e4",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF SOUTH CAROLINA INC",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF SOUTH CAROLINA INC"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H7028"
+      "value": "H7028",
+      "is_fpi": false,
+      "parent_fpi": "57ea794b-dd03-55ee-9bb5-b275b25034e4"
     }
   ],
   "plan_groups": [
@@ -20,31 +23,43 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7028-001",
+          "parent_fpi": "57ea794b-dd03-55ee-9bb5-b275b25034e4",
+          "f_plan_id": "7a7ddd1f-657b-4bba-b7b4-97102f3ff1e8",
           "plan_name": "DEVOTED CHOICE 001 SC (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7028-002",
+          "parent_fpi": "57ea794b-dd03-55ee-9bb5-b275b25034e4",
+          "f_plan_id": "99e7866f-b945-4e72-9f77-fbb7f118d8bb",
           "plan_name": "DEVOTED CHOICE GIVEBACK 002 SC (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7028-003",
+          "parent_fpi": "57ea794b-dd03-55ee-9bb5-b275b25034e4",
+          "f_plan_id": "08604ef0-878e-4503-87b1-fa174e8613e4",
           "plan_name": "DEVOTED CHOICE MA ONLY 003 SC (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7028-004",
+          "parent_fpi": "57ea794b-dd03-55ee-9bb5-b275b25034e4",
+          "f_plan_id": "e2e6ee5f-46dd-47c2-a47e-8ddb7225d868",
           "plan_name": "DEVOTED C-SNP CHOICE 004 SC (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7028-005",
+          "parent_fpi": "57ea794b-dd03-55ee-9bb5-b275b25034e4",
+          "f_plan_id": "387a72db-5cf3-4476-9c7f-576cbdb05283",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 005 SC (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7028-006",
+          "parent_fpi": "57ea794b-dd03-55ee-9bb5-b275b25034e4",
+          "f_plan_id": "79042364-2dab-430d-94e9-094801790357",
           "plan_name": "DEVOTED C-SNP CHOICE PLUS 006 SC (PPO C-SNP)"
         }
       ],

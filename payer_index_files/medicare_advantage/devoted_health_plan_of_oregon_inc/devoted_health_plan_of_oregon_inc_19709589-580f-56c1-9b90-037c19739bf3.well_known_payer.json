@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH PLAN OF OREGON INC",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "19709589-580f-56c1-9b90-037c19739bf3",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH PLAN OF OREGON INC",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH PLAN OF OREGON INC"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H2923"
+      "value": "H2923",
+      "is_fpi": false,
+      "parent_fpi": "19709589-580f-56c1-9b90-037c19739bf3"
     }
   ],
   "plan_groups": [
@@ -20,31 +23,43 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2923-001",
+          "parent_fpi": "19709589-580f-56c1-9b90-037c19739bf3",
+          "f_plan_id": "6cdbc1cb-aba8-4958-bc2e-8c45345501b6",
           "plan_name": "DEVOTED CORE 001 OR (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2923-003",
+          "parent_fpi": "19709589-580f-56c1-9b90-037c19739bf3",
+          "f_plan_id": "6175cd74-be5c-474a-a689-58dc75af201e",
           "plan_name": "DEVOTED CORE 003 OR (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2923-004",
+          "parent_fpi": "19709589-580f-56c1-9b90-037c19739bf3",
+          "f_plan_id": "7c5b30ac-785d-477a-844c-1a54d3e695de",
           "plan_name": "DEVOTED GIVEBACK 004 OR (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2923-005",
+          "parent_fpi": "19709589-580f-56c1-9b90-037c19739bf3",
+          "f_plan_id": "37b3c895-591c-4c0d-a655-0c363545abfe",
           "plan_name": "DEVOTED PREMIUM 005 OR (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2923-006",
+          "parent_fpi": "19709589-580f-56c1-9b90-037c19739bf3",
+          "f_plan_id": "87dc5a92-9a67-4b72-894e-da7961203e4b",
           "plan_name": "DEVOTED PREMIUM 006 OR (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2923-009",
+          "parent_fpi": "19709589-580f-56c1-9b90-037c19739bf3",
+          "f_plan_id": "742afeed-35c3-437e-b74f-902510f35230",
           "plan_name": "DEVOTED C-SNP PLUS 009 OR (HMO C-SNP)"
         }
       ],

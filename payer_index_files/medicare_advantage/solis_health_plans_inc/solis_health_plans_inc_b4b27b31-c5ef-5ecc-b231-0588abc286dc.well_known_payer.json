@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "SOLIS HEALTH PLANS, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "b4b27b31-c5ef-5ecc-b231-0588abc286dc",
+      "is_fpi": true,
+      "payerLegalName": "SOLIS HEALTH PLANS, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SOLIS HEALTH PLANS, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H0982"
+      "value": "H0982",
+      "is_fpi": false,
+      "parent_fpi": "b4b27b31-c5ef-5ecc-b231-0588abc286dc"
     }
   ],
   "plan_groups": [
@@ -20,121 +23,169 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0982-002",
+          "parent_fpi": "b4b27b31-c5ef-5ecc-b231-0588abc286dc",
+          "f_plan_id": "5943f746-c8ec-4faf-8a30-d1dcfb678bd4",
           "plan_name": "Solis Guardian Plan (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0982-007",
+          "parent_fpi": "b4b27b31-c5ef-5ecc-b231-0588abc286dc",
+          "f_plan_id": "812bb617-fe5f-4730-b7d3-e410588d1e81",
           "plan_name": "Solis Healthy Living Plan (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0982-008",
+          "parent_fpi": "b4b27b31-c5ef-5ecc-b231-0588abc286dc",
+          "f_plan_id": "0ff2cc5a-50c0-4846-b238-afedbda3dcda",
           "plan_name": "Solis Healthy Living Plan (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0982-009",
+          "parent_fpi": "b4b27b31-c5ef-5ecc-b231-0588abc286dc",
+          "f_plan_id": "23dea30b-3bf3-49bc-80f0-06f5af363a80",
           "plan_name": "Solis Healthy Living Plan (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0982-010",
+          "parent_fpi": "b4b27b31-c5ef-5ecc-b231-0588abc286dc",
+          "f_plan_id": "9623e1a2-89d9-4c44-8660-9792d0afbd26",
           "plan_name": "Solis Guardian Plan (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0982-012",
+          "parent_fpi": "b4b27b31-c5ef-5ecc-b231-0588abc286dc",
+          "f_plan_id": "6a021716-29da-4c8c-8c87-eae01403872d",
           "plan_name": "Solis Guardian Plan (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0982-013",
+          "parent_fpi": "b4b27b31-c5ef-5ecc-b231-0588abc286dc",
+          "f_plan_id": "d95c6e40-4614-4228-b15e-8802b1055d42",
           "plan_name": "Solis Guardian Plan (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0982-016",
+          "parent_fpi": "b4b27b31-c5ef-5ecc-b231-0588abc286dc",
+          "f_plan_id": "a648a028-c900-4404-bbc2-997989b0f0b5",
           "plan_name": "Solis Wellness Plan (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0982-017",
+          "parent_fpi": "b4b27b31-c5ef-5ecc-b231-0588abc286dc",
+          "f_plan_id": "68f54761-6cf7-4b34-ab8e-8efc685f4042",
           "plan_name": "Solis Wellness Plan (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0982-018",
+          "parent_fpi": "b4b27b31-c5ef-5ecc-b231-0588abc286dc",
+          "f_plan_id": "07261723-036a-48cc-a2bd-a51026a9624d",
           "plan_name": "Solis Wellness Plan (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0982-019",
+          "parent_fpi": "b4b27b31-c5ef-5ecc-b231-0588abc286dc",
+          "f_plan_id": "edf36e18-1fba-49d4-b4fb-8ac3486602d9",
           "plan_name": "Solis Wellness Plan (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0982-020",
+          "parent_fpi": "b4b27b31-c5ef-5ecc-b231-0588abc286dc",
+          "f_plan_id": "de77b098-6ba7-4489-a370-f8faddc2cb67",
           "plan_name": "Solis Healthy Living Plan (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0982-021",
+          "parent_fpi": "b4b27b31-c5ef-5ecc-b231-0588abc286dc",
+          "f_plan_id": "24652d2b-1f01-4587-bd04-b62f1f4cfd2d",
           "plan_name": "Solis Wellness Plan (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0982-022",
+          "parent_fpi": "b4b27b31-c5ef-5ecc-b231-0588abc286dc",
+          "f_plan_id": "27773704-d7cb-412a-814e-04ddc950d80f",
           "plan_name": "Solis Healthy Living Plan (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0982-023",
+          "parent_fpi": "b4b27b31-c5ef-5ecc-b231-0588abc286dc",
+          "f_plan_id": "9c5968af-e4ed-465b-9506-71406a0c1b6c",
           "plan_name": "Solis Guardian Plan (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0982-024",
+          "parent_fpi": "b4b27b31-c5ef-5ecc-b231-0588abc286dc",
+          "f_plan_id": "c7ec85b9-9057-4827-81c8-8cd21519c5ab",
           "plan_name": "Solis Healthy Living Plan (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0982-025",
+          "parent_fpi": "b4b27b31-c5ef-5ecc-b231-0588abc286dc",
+          "f_plan_id": "c58a4774-a40f-4649-b8bf-4354b2f7619a",
           "plan_name": "Solis Guardian Plan (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0982-026",
+          "parent_fpi": "b4b27b31-c5ef-5ecc-b231-0588abc286dc",
+          "f_plan_id": "aca7ab6a-2787-4461-9da7-ccd711bc5ce6",
           "plan_name": "Solis Wellness Plan (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0982-027",
+          "parent_fpi": "b4b27b31-c5ef-5ecc-b231-0588abc286dc",
+          "f_plan_id": "9b35e840-281f-4b2c-bfb7-f8cfe9ed2fa5",
           "plan_name": "Solis Balanced Plan (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0982-028",
+          "parent_fpi": "b4b27b31-c5ef-5ecc-b231-0588abc286dc",
+          "f_plan_id": "fad9abd9-4d2c-40ee-9dc9-d182e8bffa34",
           "plan_name": "Solis Wellness Giveback Plan (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0982-030",
+          "parent_fpi": "b4b27b31-c5ef-5ecc-b231-0588abc286dc",
+          "f_plan_id": "e8662d8b-12d7-44a1-961a-21e5ccac6c2b",
           "plan_name": "Solis Wellness Giveback Plan (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0982-031",
+          "parent_fpi": "b4b27b31-c5ef-5ecc-b231-0588abc286dc",
+          "f_plan_id": "7ddc7580-2fd3-4687-9e80-a1cb5056d826",
           "plan_name": "Solis Wellness Giveback Plan (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0982-032",
+          "parent_fpi": "b4b27b31-c5ef-5ecc-b231-0588abc286dc",
+          "f_plan_id": "b30b3532-731e-4dfa-8b16-8c7b724b0955",
           "plan_name": "Solis Wellness Giveback Plan (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0982-033",
+          "parent_fpi": "b4b27b31-c5ef-5ecc-b231-0588abc286dc",
+          "f_plan_id": "35af0540-14dc-4d06-bd79-d379a870d925",
           "plan_name": "Solis Wellness Giveback Plan (HMO C-SNP)"
         }
       ],

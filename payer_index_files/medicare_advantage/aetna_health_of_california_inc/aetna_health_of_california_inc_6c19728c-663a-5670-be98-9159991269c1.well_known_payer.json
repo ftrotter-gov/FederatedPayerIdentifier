@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "AETNA HEALTH OF CALIFORNIA INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "6c19728c-663a-5670-be98-9159991269c1",
+      "is_fpi": true,
+      "payerLegalName": "AETNA HEALTH OF CALIFORNIA INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AETNA HEALTH OF CALIFORNIA INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H0523"
+      "value": "H0523",
+      "is_fpi": false,
+      "parent_fpi": "6c19728c-663a-5670-be98-9159991269c1"
     }
   ],
   "plan_groups": [
@@ -20,76 +23,106 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0523-022",
+          "parent_fpi": "6c19728c-663a-5670-be98-9159991269c1",
+          "f_plan_id": "641bf476-7551-40aa-b8fa-daa344d60f17",
           "plan_name": "Aetna Medicare Signature (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0523-065",
+          "parent_fpi": "6c19728c-663a-5670-be98-9159991269c1",
+          "f_plan_id": "fd7a30b2-7fee-49e0-a700-a0b5d24b635b",
           "plan_name": "Aetna Medicare Signature (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0523-070",
+          "parent_fpi": "6c19728c-663a-5670-be98-9159991269c1",
+          "f_plan_id": "e5a4ac70-573c-47b7-8f12-00f0b0195bad",
           "plan_name": "Aetna Medicare Signature Extra (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0523-073",
+          "parent_fpi": "6c19728c-663a-5670-be98-9159991269c1",
+          "f_plan_id": "5b2ec808-e529-44fb-a724-8cd5fb550bd1",
           "plan_name": "Aetna Medicare Prime (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0523-074",
+          "parent_fpi": "6c19728c-663a-5670-be98-9159991269c1",
+          "f_plan_id": "34d543a7-c0d8-44cb-b317-785d69ab07b0",
           "plan_name": "Aetna Medicare Value Plus (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0523-075",
+          "parent_fpi": "6c19728c-663a-5670-be98-9159991269c1",
+          "f_plan_id": "a8d0c02d-5201-4816-af2a-ce574e400cae",
           "plan_name": "Aetna Medicare Prime (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0523-801",
+          "parent_fpi": "6c19728c-663a-5670-be98-9159991269c1",
+          "f_plan_id": "c9fe01c2-f5e6-404e-a963-7a7647f8da62",
           "plan_name": "Aetna Medicare Plan (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0523-805",
+          "parent_fpi": "6c19728c-663a-5670-be98-9159991269c1",
+          "f_plan_id": "e48961c5-16e3-425c-ac4f-77b200ae5b38",
           "plan_name": "Aetna Medicare Plan w/Rx (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0523-083",
+          "parent_fpi": "6c19728c-663a-5670-be98-9159991269c1",
+          "f_plan_id": "6e2b14f8-6f59-4eea-b463-4232ecdef6ae",
           "plan_name": "Aetna Medicare Enhanced (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0523-085",
+          "parent_fpi": "6c19728c-663a-5670-be98-9159991269c1",
+          "f_plan_id": "bd7a921b-21d4-493f-80a5-5484e5ef8f65",
           "plan_name": "Aetna Medicare Prime (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0523-086",
+          "parent_fpi": "6c19728c-663a-5670-be98-9159991269c1",
+          "f_plan_id": "d5ad550f-68ea-4990-b2ec-0fc5ca64b6b7",
           "plan_name": "Aetna Medicare Signature Extra (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0523-088",
+          "parent_fpi": "6c19728c-663a-5670-be98-9159991269c1",
+          "f_plan_id": "cda4af6d-fef1-48cc-92f3-8dd0e0e63594",
           "plan_name": "Aetna Medicare Prime (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0523-089",
+          "parent_fpi": "6c19728c-663a-5670-be98-9159991269c1",
+          "f_plan_id": "c2b1ed9c-8288-4352-8451-a919bca2ea4a",
           "plan_name": "Aetna Medicare Signature Extra (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0523-091",
+          "parent_fpi": "6c19728c-663a-5670-be98-9159991269c1",
+          "f_plan_id": "651630f4-314c-4ae7-a26e-b4f7ecf78395",
           "plan_name": "Aetna Medicare Signature Extra (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0523-092",
+          "parent_fpi": "6c19728c-663a-5670-be98-9159991269c1",
+          "f_plan_id": "de26eeba-a238-4545-8661-29e81bcf2908",
           "plan_name": "Aetna Medicare Signature Extra (HMO)"
         }
       ],

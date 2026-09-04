@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "COVENTRY HEALTH CARE OF WEST VIRGINIA, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "4e50d9b5-b289-5ca9-8560-d62a1dc8c1e3",
+      "is_fpi": true,
+      "payerLegalName": "COVENTRY HEALTH CARE OF WEST VIRGINIA, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "COVENTRY HEALTH CARE OF WEST VIRGINIA, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H1692"
+      "value": "H1692",
+      "is_fpi": false,
+      "parent_fpi": "4e50d9b5-b289-5ca9-8560-d62a1dc8c1e3"
     }
   ],
   "plan_groups": [
@@ -20,31 +23,43 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1692-002",
+          "parent_fpi": "4e50d9b5-b289-5ca9-8560-d62a1dc8c1e3",
+          "f_plan_id": "b5543e01-5db7-463f-b383-2290c8b92191",
           "plan_name": "Aetna Medicare Advantra Signature (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1692-003",
+          "parent_fpi": "4e50d9b5-b289-5ca9-8560-d62a1dc8c1e3",
+          "f_plan_id": "9164b219-4428-4839-b803-43314271fa98",
           "plan_name": "Aetna Medicare Advantra Elite (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1692-005",
+          "parent_fpi": "4e50d9b5-b289-5ca9-8560-d62a1dc8c1e3",
+          "f_plan_id": "cdf7ffd0-c53f-4905-bfa0-09a14c322596",
           "plan_name": "Aetna Medicare Advantra Dual (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1692-006",
+          "parent_fpi": "4e50d9b5-b289-5ca9-8560-d62a1dc8c1e3",
+          "f_plan_id": "200d91b7-b584-4440-8f28-f52b62b72b00",
           "plan_name": "Aetna Medicare Advantra Eagle Plus (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1692-007",
+          "parent_fpi": "4e50d9b5-b289-5ca9-8560-d62a1dc8c1e3",
+          "f_plan_id": "50853cb6-33db-478c-8e47-2a1bf3cd0cbe",
           "plan_name": "Aetna Medicare Signature (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1692-801",
+          "parent_fpi": "4e50d9b5-b289-5ca9-8560-d62a1dc8c1e3",
+          "f_plan_id": "a6a018a8-c0a9-4d8b-9990-877be4feff19",
           "plan_name": "Aetna Medicare Plan (HMO)"
         }
       ],

@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "CAREPLUS HEALTH PLANS, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+      "is_fpi": true,
+      "payerLegalName": "CAREPLUS HEALTH PLANS, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "CAREPLUS HEALTH PLANS, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H1019"
+      "value": "H1019",
+      "is_fpi": false,
+      "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db"
     }
   ],
   "plan_groups": [
@@ -20,166 +23,232 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-001",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "8bc4bf2c-e4ad-48f2-b1b7-b5dd302bd724",
           "plan_name": "CareOne Plus (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-006",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "dc09193e-e642-4a8b-91b9-dfadd6880f3d",
           "plan_name": "CareOne Plus (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-023",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "50a8e5f6-6fa3-442a-b5e0-5d1fee119aa9",
           "plan_name": "CareNeeds Platinum (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-043",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "79a2a789-9690-48d2-8ff5-52d2b49e987f",
           "plan_name": "CareOne Plus (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-057",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "e3504a00-df70-4726-9234-879df7fad804",
           "plan_name": "CareOne Plus (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-065",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "5ad6b412-e314-4b9c-816d-b0eb6d4483c8",
           "plan_name": "CareFree Giveback (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-073",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "811c2305-a7bf-4c5c-a112-e6dacc7b58b7",
           "plan_name": "CareNeeds Plus (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-094",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "5bfaa614-7c26-48a6-a9b3-6dd153032a78",
           "plan_name": "CareFree Platinum Giveback (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-103",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "83a64afd-f93c-4d74-ac3a-3db3f13a9e4e",
           "plan_name": "CareOne Plus (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-104",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "f098cedc-2464-467c-bb52-680f348abcad",
           "plan_name": "CareFree Platinum Giveback (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-109",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "4d6188aa-2e25-4b0b-896a-c99c51d20de9",
           "plan_name": "CareComplete Platinum (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-113",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "5b2f4054-d0f6-47b8-9eeb-cf5c369df663",
           "plan_name": "CareOne Plus (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-118",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "b574945d-e265-44d4-940e-aef2b2c1fd9d",
           "plan_name": "CareBreeze Platinum (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-121",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "fdf7df73-f773-4707-b6ce-24e856eac2b6",
           "plan_name": "CareComplete Platinum (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-123",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "4737597f-7916-4f70-b3ee-eeb67df63c56",
           "plan_name": "CareBreeze Platinum (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-124",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "ac7f2237-8a6e-4f60-a0d0-e9d78550bb43",
           "plan_name": "CareBreeze Platinum (HMO-POS C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-130",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "90bc7ab8-562a-4699-9adb-c37171abadb8",
           "plan_name": "CareComplete Platinum (HMO-POS C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-132",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "d521d940-90b7-4a6e-b724-4ce957fb4d45",
           "plan_name": "CareSalute (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-134",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "30daa07a-2e4a-43c3-af86-2b0c559af1cf",
           "plan_name": "CareFree Giveback (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-135",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "a74c78be-fe3b-40af-b0a3-ba730e32d237",
           "plan_name": "CareFree Platinum Giveback (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-136",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "fa3d239a-9991-4103-b452-788f58a34469",
           "plan_name": "CareFree Platinum Giveback (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-138",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "9af55b19-2062-422b-add2-9ff1d7c1b525",
           "plan_name": "CareFree Platinum Giveback (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-139",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "2d22db5e-a461-4985-947d-2bb34d701080",
           "plan_name": "CareFree Platinum Giveback (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-144",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "501ebe51-1698-4311-888e-0a8873c71955",
           "plan_name": "CareAccess (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-146",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "242e12b7-11ce-4c6e-a7cd-31eae519fdcd",
           "plan_name": "CareNeeds Platinum (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-147",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "24065642-d72b-422e-8c79-7f0979d51c2c",
           "plan_name": "CareComplete Platinum (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-148",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "a290bc64-d67c-425a-bbf8-b57d50408060",
           "plan_name": "CareAccess (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-149",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "29ea8361-f053-4950-8944-e8a8279a793b",
           "plan_name": "CareFree Giveback (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-150",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "4c344cee-b3bf-47ae-8677-12c3d3a3fd33",
           "plan_name": "CareComplete (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-151",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "0de01e91-672f-401b-b380-6baf9192532b",
           "plan_name": "CareBreeze Platinum (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-152",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "dfb222c6-b170-413e-8640-e8337279ea8c",
           "plan_name": "CareNeeds Extra (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-153",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "a568460f-538f-4b63-ac2a-7fd55f331a1f",
           "plan_name": "CareNeeds Extra (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1019-154",
+          "parent_fpi": "2039ae24-53f2-58ec-8677-f7c958b2a2db",
+          "f_plan_id": "2d46c3ba-ba0b-49a7-85a4-469e21f84a75",
           "plan_name": "CareBreeze (HMO C-SNP)"
         }
       ],

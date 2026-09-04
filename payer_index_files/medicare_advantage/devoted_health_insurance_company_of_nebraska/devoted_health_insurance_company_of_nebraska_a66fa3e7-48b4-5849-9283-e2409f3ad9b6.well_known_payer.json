@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF NEBRASKA",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "a66fa3e7-48b4-5849-9283-e2409f3ad9b6",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF NEBRASKA",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF NEBRASKA"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H9802"
+      "value": "H9802",
+      "is_fpi": false,
+      "parent_fpi": "a66fa3e7-48b4-5849-9283-e2409f3ad9b6"
     }
   ],
   "plan_groups": [
@@ -20,31 +23,43 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9802-001",
+          "parent_fpi": "a66fa3e7-48b4-5849-9283-e2409f3ad9b6",
+          "f_plan_id": "e600692d-735b-48d2-adcd-08977f8e8411",
           "plan_name": "DEVOTED CHOICE 001 NE (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9802-002",
+          "parent_fpi": "a66fa3e7-48b4-5849-9283-e2409f3ad9b6",
+          "f_plan_id": "64a8af68-8b29-4db7-bc97-62082d14951f",
           "plan_name": "DEVOTED CHOICE GIVEBACK 002 NE (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9802-004",
+          "parent_fpi": "a66fa3e7-48b4-5849-9283-e2409f3ad9b6",
+          "f_plan_id": "056ee346-81d2-43aa-813b-1d8bee37b79c",
           "plan_name": "DEVOTED DUAL CHOICE 004 NE (PPO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9802-006",
+          "parent_fpi": "a66fa3e7-48b4-5849-9283-e2409f3ad9b6",
+          "f_plan_id": "0c545508-c3c6-4255-bc52-daafe605a8c5",
           "plan_name": "DEVOTED C-SNP CHOICE PLUS 006 NE (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9802-008",
+          "parent_fpi": "a66fa3e7-48b4-5849-9283-e2409f3ad9b6",
+          "f_plan_id": "221ffb91-4e74-4fd9-97f7-c61c1e7af3e3",
           "plan_name": "DEVOTED DUAL CHOICE FULL 008 NE (PPO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9802-009",
+          "parent_fpi": "a66fa3e7-48b4-5849-9283-e2409f3ad9b6",
+          "f_plan_id": "2f2e4fa8-7bc0-487c-a6c1-8a699066bb95",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 009 NE (PPO C-SNP)"
         }
       ],

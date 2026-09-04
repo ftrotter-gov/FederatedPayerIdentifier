@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "AETNA HEALTH INC. (LA)",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "ae111e98-25f2-5085-b19c-1320fe0a76e0",
+      "is_fpi": true,
+      "payerLegalName": "AETNA HEALTH INC. (LA)",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AETNA HEALTH INC. (LA)"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H3928"
+      "value": "H3928",
+      "is_fpi": false,
+      "parent_fpi": "ae111e98-25f2-5085-b19c-1320fe0a76e0"
     }
   ],
   "plan_groups": [
@@ -20,16 +23,22 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3928-001",
+          "parent_fpi": "ae111e98-25f2-5085-b19c-1320fe0a76e0",
+          "f_plan_id": "7704cd28-2e4c-446b-9cb4-4e4967d6ec49",
           "plan_name": "Aetna Medicare Signature Care (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3928-801",
+          "parent_fpi": "ae111e98-25f2-5085-b19c-1320fe0a76e0",
+          "f_plan_id": "973a834c-03a5-4150-8399-5725b2ea5c80",
           "plan_name": "Aetna Medicare Plan w/Rx (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3928-803",
+          "parent_fpi": "ae111e98-25f2-5085-b19c-1320fe0a76e0",
+          "f_plan_id": "81d02d02-1575-4852-993c-5a8e26494864",
           "plan_name": "Aetna Medicare Plan (HMO)"
         }
       ],

@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH PLAN OF MISSOURI INC",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "2fa615f5-20ec-5683-8cf2-a18805b5160b",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH PLAN OF MISSOURI INC",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH PLAN OF MISSOURI INC"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H2041"
+      "value": "H2041",
+      "is_fpi": false,
+      "parent_fpi": "2fa615f5-20ec-5683-8cf2-a18805b5160b"
     }
   ],
   "plan_groups": [
@@ -20,81 +23,113 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2041-001",
+          "parent_fpi": "2fa615f5-20ec-5683-8cf2-a18805b5160b",
+          "f_plan_id": "c899e97a-bdd9-476b-9f59-8059a7792f16",
           "plan_name": "DEVOTED CORE 001 MO (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2041-002",
+          "parent_fpi": "2fa615f5-20ec-5683-8cf2-a18805b5160b",
+          "f_plan_id": "b13937f3-c419-464b-99fc-743465e8c278",
           "plan_name": "DEVOTED GIVEBACK 002 MO (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2041-003",
+          "parent_fpi": "2fa615f5-20ec-5683-8cf2-a18805b5160b",
+          "f_plan_id": "ce1bb8a2-0ce5-4036-9113-fcb055e0b607",
           "plan_name": "DEVOTED CORE 003 MO (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2041-004",
+          "parent_fpi": "2fa615f5-20ec-5683-8cf2-a18805b5160b",
+          "f_plan_id": "7ae5a494-751a-4162-9ee2-2c78960cac1f",
           "plan_name": "DEVOTED GIVEBACK 004 MO (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2041-005",
+          "parent_fpi": "2fa615f5-20ec-5683-8cf2-a18805b5160b",
+          "f_plan_id": "614127e8-99fe-4f73-a19e-17d66f518d16",
           "plan_name": "DEVOTED CORE 005 MO (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2041-006",
+          "parent_fpi": "2fa615f5-20ec-5683-8cf2-a18805b5160b",
+          "f_plan_id": "1aa66140-854a-4a84-8fbc-6d1218156490",
           "plan_name": "DEVOTED GIVEBACK 006 MO (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2041-007",
+          "parent_fpi": "2fa615f5-20ec-5683-8cf2-a18805b5160b",
+          "f_plan_id": "83abad1a-5d25-4856-ad92-c7534293cc83",
           "plan_name": "DEVOTED DUAL PLUS 007 MO (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2041-008",
+          "parent_fpi": "2fa615f5-20ec-5683-8cf2-a18805b5160b",
+          "f_plan_id": "7cbe3a0e-f6db-4b82-afbb-7af212b0f45e",
           "plan_name": "DEVOTED DUAL 008 MO (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2041-009",
+          "parent_fpi": "2fa615f5-20ec-5683-8cf2-a18805b5160b",
+          "f_plan_id": "31f0e7ad-1937-475c-a19d-7ffdc9f8ab88",
           "plan_name": "DEVOTED CORE 009 MO (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2041-010",
+          "parent_fpi": "2fa615f5-20ec-5683-8cf2-a18805b5160b",
+          "f_plan_id": "34d799a4-cfe7-401b-b1ce-4d05eec2d31c",
           "plan_name": "DEVOTED GIVEBACK 010 MO (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2041-011",
+          "parent_fpi": "2fa615f5-20ec-5683-8cf2-a18805b5160b",
+          "f_plan_id": "3f827faf-13d6-4038-849f-c47057644e0c",
           "plan_name": "DEVOTED DUAL FULL 011 MO (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2041-012",
+          "parent_fpi": "2fa615f5-20ec-5683-8cf2-a18805b5160b",
+          "f_plan_id": "15639888-8a1f-48fa-8f7c-9cc966d4a09b",
           "plan_name": "DEVOTED C-SNP PREMIUM 012 MO (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2041-013",
+          "parent_fpi": "2fa615f5-20ec-5683-8cf2-a18805b5160b",
+          "f_plan_id": "484fbb44-a8b3-4add-b905-ea74dd57638e",
           "plan_name": "DEVOTED C-SNP PREMIUM 013 MO (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2041-014",
+          "parent_fpi": "2fa615f5-20ec-5683-8cf2-a18805b5160b",
+          "f_plan_id": "1dd025c3-43e0-49b4-b58b-b40ed1a76ad5",
           "plan_name": "DEVOTED C-SNP PREMIUM 014 MO (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2041-015",
+          "parent_fpi": "2fa615f5-20ec-5683-8cf2-a18805b5160b",
+          "f_plan_id": "f3a0d797-dfe0-4f73-b8af-c81bf18f4dff",
           "plan_name": "DEVOTED C-SNP PREMIUM 015 MO (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2041-016",
+          "parent_fpi": "2fa615f5-20ec-5683-8cf2-a18805b5160b",
+          "f_plan_id": "f8362d27-aaab-40be-b05b-33d098c65c1b",
           "plan_name": "DEVOTED C-SNP PLUS 016 MO (HMO C-SNP)"
         }
       ],

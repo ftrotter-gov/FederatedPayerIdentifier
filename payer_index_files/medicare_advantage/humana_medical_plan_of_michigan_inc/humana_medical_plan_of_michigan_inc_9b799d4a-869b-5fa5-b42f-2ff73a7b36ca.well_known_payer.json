@@ -1,21 +1,26 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "HUMANA MEDICAL PLAN OF MICHIGAN, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "9b799d4a-869b-5fa5-b42f-2ff73a7b36ca",
+      "is_fpi": true,
+      "payerLegalName": "HUMANA MEDICAL PLAN OF MICHIGAN, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HUMANA MEDICAL PLAN OF MICHIGAN, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H0963"
+      "value": "H0963",
+      "is_fpi": false,
+      "parent_fpi": "9b799d4a-869b-5fa5-b42f-2ff73a7b36ca"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H8908"
+      "value": "H8908",
+      "is_fpi": false,
+      "parent_fpi": "9b799d4a-869b-5fa5-b42f-2ff73a7b36ca"
     }
   ],
   "plan_groups": [
@@ -24,51 +29,71 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0963-001",
+          "parent_fpi": "9b799d4a-869b-5fa5-b42f-2ff73a7b36ca",
+          "f_plan_id": "7b5e8fb5-bea8-4797-bf38-cdb9b47dfb4a",
           "plan_name": "Humana Dual Integrated (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8908-001",
+          "parent_fpi": "9b799d4a-869b-5fa5-b42f-2ff73a7b36ca",
+          "f_plan_id": "2b64891c-8d66-4e6f-af48-08aa4b625bc5",
           "plan_name": "Humana Gold Plus H8908-001 (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8908-004",
+          "parent_fpi": "9b799d4a-869b-5fa5-b42f-2ff73a7b36ca",
+          "f_plan_id": "594ab228-3cc4-40c6-8cc1-c6093ec19245",
           "plan_name": "Humana Gold Plus H8908-004 (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8908-005",
+          "parent_fpi": "9b799d4a-869b-5fa5-b42f-2ff73a7b36ca",
+          "f_plan_id": "09abbe7e-2080-4f47-a920-a4089567abba",
           "plan_name": "Humana Gold Plus SNP-DE H8908-005 (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8908-006",
+          "parent_fpi": "9b799d4a-869b-5fa5-b42f-2ff73a7b36ca",
+          "f_plan_id": "65e027c4-a699-42c5-9ffe-2524f5610e28",
           "plan_name": "Humana Gold Plus Chronic Kidney Disease (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8908-007",
+          "parent_fpi": "9b799d4a-869b-5fa5-b42f-2ff73a7b36ca",
+          "f_plan_id": "e1304698-de3e-4387-9340-1e137d861bc0",
           "plan_name": "Humana Gold Plus SNP-DE H8908-007 (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8908-801",
+          "parent_fpi": "9b799d4a-869b-5fa5-b42f-2ff73a7b36ca",
+          "f_plan_id": "8aed4b84-cdbb-478d-a12e-72b4f1584436",
           "plan_name": "Humana Medicare Employer (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8908-802",
+          "parent_fpi": "9b799d4a-869b-5fa5-b42f-2ff73a7b36ca",
+          "f_plan_id": "f527dc11-27e4-4625-a560-eb3e1b391d9c",
           "plan_name": "Humana Medicare Employer (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8908-804",
+          "parent_fpi": "9b799d4a-869b-5fa5-b42f-2ff73a7b36ca",
+          "f_plan_id": "1d5a7595-4023-45d1-bbaa-301d6d43fcdf",
           "plan_name": "Humana Medicare Employer (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8908-805",
+          "parent_fpi": "9b799d4a-869b-5fa5-b42f-2ff73a7b36ca",
+          "f_plan_id": "eadc9e8f-b3ec-488b-9cbc-224ede2ec4e3",
           "plan_name": "Humana Medicare Employer (HMO)"
         }
       ],

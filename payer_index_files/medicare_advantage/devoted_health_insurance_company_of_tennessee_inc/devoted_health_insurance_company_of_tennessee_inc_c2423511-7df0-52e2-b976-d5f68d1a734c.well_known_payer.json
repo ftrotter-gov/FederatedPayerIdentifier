@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF TENNESSEE INC",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "c2423511-7df0-52e2-b976-d5f68d1a734c",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF TENNESSEE INC",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF TENNESSEE INC"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H9231"
+      "value": "H9231",
+      "is_fpi": false,
+      "parent_fpi": "c2423511-7df0-52e2-b976-d5f68d1a734c"
     }
   ],
   "plan_groups": [
@@ -20,66 +23,92 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9231-002",
+          "parent_fpi": "c2423511-7df0-52e2-b976-d5f68d1a734c",
+          "f_plan_id": "29f0bbc2-a684-4a6a-b97c-c606637a0918",
           "plan_name": "DEVOTED CHOICE GIVEBACK 002 TN (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9231-005",
+          "parent_fpi": "c2423511-7df0-52e2-b976-d5f68d1a734c",
+          "f_plan_id": "c71c9f36-e2b6-4425-927c-b7dcaf56a365",
           "plan_name": "DEVOTED CHOICE GIVEBACK 005 TN (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9231-006",
+          "parent_fpi": "c2423511-7df0-52e2-b976-d5f68d1a734c",
+          "f_plan_id": "9d3490b1-d395-4145-ab4d-914126d20395",
           "plan_name": "DEVOTED CHOICE GIVEBACK 006 TN (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9231-007",
+          "parent_fpi": "c2423511-7df0-52e2-b976-d5f68d1a734c",
+          "f_plan_id": "07bb3b5e-3a05-47af-a418-851f6844dc1f",
           "plan_name": "DEVOTED CHOICE 007 TN (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9231-010",
+          "parent_fpi": "c2423511-7df0-52e2-b976-d5f68d1a734c",
+          "f_plan_id": "f73d824a-4d44-464a-8273-5b91312047ed",
           "plan_name": "DEVOTED CHOICE 010 TN (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9231-011",
+          "parent_fpi": "c2423511-7df0-52e2-b976-d5f68d1a734c",
+          "f_plan_id": "fe5101f0-aefa-48ce-b6ca-276d79fee59a",
           "plan_name": "DEVOTED CHOICE 011 TN (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9231-012",
+          "parent_fpi": "c2423511-7df0-52e2-b976-d5f68d1a734c",
+          "f_plan_id": "b0c0a076-3af1-443d-b11a-b43bba19947c",
           "plan_name": "DEVOTED CHOICE GIVEBACK 012 TN (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9231-015",
+          "parent_fpi": "c2423511-7df0-52e2-b976-d5f68d1a734c",
+          "f_plan_id": "a2100541-86b8-487d-9c03-ca43e16fdb9c",
           "plan_name": "DEVOTED CHOICE 015 TN (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9231-016",
+          "parent_fpi": "c2423511-7df0-52e2-b976-d5f68d1a734c",
+          "f_plan_id": "1dfc93b8-fdb9-4d22-96ab-9b385e93ca01",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 016 TN (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9231-017",
+          "parent_fpi": "c2423511-7df0-52e2-b976-d5f68d1a734c",
+          "f_plan_id": "b21ce5c3-c02d-4c1a-b65d-26b22518dea6",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 017 TN (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9231-018",
+          "parent_fpi": "c2423511-7df0-52e2-b976-d5f68d1a734c",
+          "f_plan_id": "a44465a2-350a-47a2-942b-3eeba179381e",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 018 TN (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9231-019",
+          "parent_fpi": "c2423511-7df0-52e2-b976-d5f68d1a734c",
+          "f_plan_id": "f15d4859-f8ea-4bac-a634-6890719b63d8",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 019 TN (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9231-020",
+          "parent_fpi": "c2423511-7df0-52e2-b976-d5f68d1a734c",
+          "f_plan_id": "42e51f64-f82d-4158-9859-f3d9fae4c5f9",
           "plan_name": "DEVOTED C-SNP CHOICE PLUS 020 TN (PPO C-SNP)"
         }
       ],

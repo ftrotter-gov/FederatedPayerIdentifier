@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "COVENTRY HEALTH CARE OF NEBRASKA, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "403ccf65-b4d8-57fe-9d12-ffdb2f7cf518",
+      "is_fpi": true,
+      "payerLegalName": "COVENTRY HEALTH CARE OF NEBRASKA, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "COVENTRY HEALTH CARE OF NEBRASKA, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H4711"
+      "value": "H4711",
+      "is_fpi": false,
+      "parent_fpi": "403ccf65-b4d8-57fe-9d12-ffdb2f7cf518"
     }
   ],
   "plan_groups": [
@@ -20,46 +23,64 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4711-001",
+          "parent_fpi": "403ccf65-b4d8-57fe-9d12-ffdb2f7cf518",
+          "f_plan_id": "2049c689-10e6-4513-8663-cc8be94cf9b5",
           "plan_name": "Aetna Medicare Signature (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4711-002",
+          "parent_fpi": "403ccf65-b4d8-57fe-9d12-ffdb2f7cf518",
+          "f_plan_id": "cc1c311c-2ba0-4bab-8e96-29698070327e",
           "plan_name": "Aetna Medicare Prime (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4711-005",
+          "parent_fpi": "403ccf65-b4d8-57fe-9d12-ffdb2f7cf518",
+          "f_plan_id": "a8f6ec1e-8e26-4cda-9bec-47c9f72e6328",
           "plan_name": "Aetna Medicare Signature (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4711-008",
+          "parent_fpi": "403ccf65-b4d8-57fe-9d12-ffdb2f7cf518",
+          "f_plan_id": "6a070222-aac8-482a-ae16-dcb7edf7de01",
           "plan_name": "Aetna Medicare Signature (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4711-010",
+          "parent_fpi": "403ccf65-b4d8-57fe-9d12-ffdb2f7cf518",
+          "f_plan_id": "410053d5-24d7-4321-9c16-e479bf50b26f",
           "plan_name": "Aetna Medicare Eagle (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4711-011",
+          "parent_fpi": "403ccf65-b4d8-57fe-9d12-ffdb2f7cf518",
+          "f_plan_id": "5128bb49-5b27-4448-aca2-969d8247a27a",
           "plan_name": "Aetna Medicare Dual Prime (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4711-012",
+          "parent_fpi": "403ccf65-b4d8-57fe-9d12-ffdb2f7cf518",
+          "f_plan_id": "80a2ad95-c639-4434-9645-7b2c2b29c380",
           "plan_name": "Aetna Medicare Dual Care (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4711-013",
+          "parent_fpi": "403ccf65-b4d8-57fe-9d12-ffdb2f7cf518",
+          "f_plan_id": "b87972eb-75af-4d1c-9a66-284a31db2e5a",
           "plan_name": "Aetna Medicare Dual (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4711-801",
+          "parent_fpi": "403ccf65-b4d8-57fe-9d12-ffdb2f7cf518",
+          "f_plan_id": "dd555ee5-d62a-465f-a436-62445566fb6e",
           "plan_name": "Aetna Medicare Plan (HMO)"
         }
       ],

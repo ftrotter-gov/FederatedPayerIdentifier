@@ -1,21 +1,26 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "MMM HEALTHCARE, LLC",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "7bfc9422-b9e8-5393-a738-be518372b4af",
+      "is_fpi": true,
+      "payerLegalName": "MMM HEALTHCARE, LLC",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "MMM HEALTHCARE, LLC"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H4003"
+      "value": "H4003",
+      "is_fpi": false,
+      "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H4004"
+      "value": "H4004",
+      "is_fpi": false,
+      "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af"
     }
   ],
   "plan_groups": [
@@ -24,221 +29,309 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4003-009",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "8d4302dd-4e9e-49b1-b174-69196a84447c",
           "plan_name": "MMM Supremo (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4003-017",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "50112c2e-ab1b-4311-90d2-faf11a823576",
           "plan_name": "MMM Diamante Platino (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4003-019",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "279b57fd-746f-4e9d-9282-dc63146f4e00",
           "plan_name": "MMM Unico (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4003-034",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "8757af11-be7f-4242-95df-4559dbba9d4e",
           "plan_name": "MMM Elite (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4003-055",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "f99aa72d-c563-453a-acb2-3e33db40a9d0",
           "plan_name": "MMM Deluxe (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4003-058",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "4dc8ebc2-099a-476c-b08b-8ffbc3ec9e61",
           "plan_name": "MMM Dorado Platino (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4003-806",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "0fd727cd-577f-4660-a15b-59438849f2f0",
           "plan_name": "MMM Group A Calendar (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4003-807",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "1c9e2033-314e-43ee-9f0b-939e35c9f52e",
           "plan_name": "MMM Group B Calendar (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4003-820",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "e36b1ea4-a398-41cb-aa7a-307d04f3ee5b",
           "plan_name": "MMM Group C Calendar (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4003-821",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "ef5add51-e86b-4de1-afe1-e3766c298c4a",
           "plan_name": "MMM Group D Calendar (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4003-822",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "7d939d21-b0a1-4ab2-b566-2f327a63c0f3",
           "plan_name": "MMM Group A Non-Calendar (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4003-823",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "fde1d165-2637-4124-91dd-b2b5d14f51ce",
           "plan_name": "MMM Group B Non-Calendar (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4003-824",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "10360445-5a78-4f6d-b97d-2ad2225ed7b9",
           "plan_name": "MMM Group C Non-Calendar (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4003-825",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "8611f881-5609-4202-a2d1-b1954be59068",
           "plan_name": "MMM Group D Non-Calendar (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4003-826",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "d4b93c08-cc61-4c58-a07a-f1d1b61273d4",
           "plan_name": "MMM Group E Calendar (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4003-827",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "485fd644-69a1-4f8e-9dfc-62d3fc3e528c",
           "plan_name": "MMM Group E Non-Calendar (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4003-828",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "e4167380-8657-4bc6-8526-528374966372",
           "plan_name": "MMM Group F Calendar (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4003-829",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "bd3ce2ca-f868-4f27-9dee-42178c893343",
           "plan_name": "MMM Group F Non-Calendar (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4003-830",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "b1e79701-b7a0-4560-9b76-6896d2e6653a",
           "plan_name": "MMM Group G Calendar (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4003-831",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "5a35eaaf-9d2b-435b-b952-3c5a115844a9",
           "plan_name": "MMM Group G Non-Calendar (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4004-048",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "9b3a9a12-17a2-47df-a2a3-1ce039975091",
           "plan_name": "PMC Premier Platino (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4004-056",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "196e8d45-9f1c-4184-8c93-c75b82e057ff",
           "plan_name": "PMC Max (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4004-072",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "ce90fac2-d131-4282-bb26-79537732cee5",
           "plan_name": "MMM Relax Platino (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4004-073",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "939dc9db-0c15-4092-9370-0e47d471b404",
           "plan_name": "MMM Balance (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4004-065",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "dac629e8-e4d0-4da0-a9bc-505249a1a932",
           "plan_name": "MMM Plenitud (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4004-066",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "ba57dbbf-0a8b-4a51-a40f-254af3a4ff74",
           "plan_name": "MMM Valioso (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4004-068",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "5115602b-bb76-4a1b-9cb4-3bbfad2031f9",
           "plan_name": "MMM Combo Platino (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4004-069",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "bd9bf973-4997-4fdd-be14-ec11c45700ee",
           "plan_name": "MMM Flexi Platino (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4004-070",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "1869df83-8813-40c5-bec1-890d745df1d8",
           "plan_name": "MMM Grandioso (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4004-071",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "aaa7d876-3d59-4734-9d95-dc0b65a8b356",
           "plan_name": "MMM Mega Flex (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4004-817",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "131bc123-b81e-4957-80bf-271e861f030a",
           "plan_name": "PMC Group A Calendar (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4004-818",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "11dbcca0-0f92-400a-8d54-efceb73c9eeb",
           "plan_name": "PMC Group B Calendar (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4004-819",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "48cc9677-9fd1-4f69-9ee9-e18e01f7e617",
           "plan_name": "PMC Group C Calendar (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4004-820",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "3811f3ab-f975-44fe-9f4d-dc570107fdd9",
           "plan_name": "PMC Group D Calendar (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4004-822",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "83020c07-9708-456d-9246-8f4f8908602d",
           "plan_name": "PMC Group A Non-Calendar (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4004-823",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "dc13fb1f-478e-4d52-bdeb-04540cb8e0cb",
           "plan_name": "PMC Group B Non-Calendar (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4004-824",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "653f2cb2-bbab-4d7c-85a4-8264f14b85c2",
           "plan_name": "PMC Group C Non-Calendar (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4004-825",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "542cd412-0be9-488f-9bfd-267afabb74e9",
           "plan_name": "PMC Group D Non-Calendar (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4004-826",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "55efd10b-f198-458f-b713-31658e3564d0",
           "plan_name": "PMC Group E Calendar (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4004-827",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "0703b86e-b36c-4693-b6fa-a7e35e9fdd8f",
           "plan_name": "PMC Group E Non-Calendar (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4004-828",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "3013f251-b503-4076-9ac0-0f39cbc9dfc6",
           "plan_name": "PMC Group F Calendar (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4004-829",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "b6c55b6f-39a9-47bd-b187-3000276f99b6",
           "plan_name": "PMC Group F Non-Calendar (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4004-830",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "bdef7b0b-4a0b-43b3-945a-f22d1e967bc8",
           "plan_name": "PMC Group G Calendar (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4004-831",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "e1df5042-a936-4424-b45e-d5b0970d2420",
           "plan_name": "PMC Group G Non-Calendar (HMO-POS)"
         }
       ],

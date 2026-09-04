@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "AMERICAN HEALTH PLAN OF UT, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "431b920f-2235-548c-be6e-9f931d95e051",
+      "is_fpi": true,
+      "payerLegalName": "AMERICAN HEALTH PLAN OF UT, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AMERICAN HEALTH PLAN OF UT, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H4232"
+      "value": "H4232",
+      "is_fpi": false,
+      "parent_fpi": "431b920f-2235-548c-be6e-9f931d95e051"
     }
   ],
   "plan_groups": [
@@ -20,11 +23,15 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4232-001",
+          "parent_fpi": "431b920f-2235-548c-be6e-9f931d95e051",
+          "f_plan_id": "8dce4e0a-74e1-4183-8e8e-7f72480a712c",
           "plan_name": "American Health Advantage of Utah (HMO I-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4232-003",
+          "parent_fpi": "431b920f-2235-548c-be6e-9f931d95e051",
+          "f_plan_id": "babd4b28-2df5-488e-98bb-5640102e98d2",
           "plan_name": "American Health Advantage of Idaho (HMO I-SNP)"
         }
       ],

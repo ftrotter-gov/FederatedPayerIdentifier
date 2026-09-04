@@ -1,17 +1,20 @@
 {
   "copied_from_url": null,
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
-  "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF UTAH, INC.",
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "3e758bc9-6dec-5be8-b4a1-7147b5ebab41",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF UTAH, INC.",
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF UTAH, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "H4473"
+      "value": "H4473",
+      "is_fpi": false,
+      "parent_fpi": "3e758bc9-6dec-5be8-b4a1-7147b5ebab41"
     }
   ],
   "plan_groups": [
@@ -20,26 +23,36 @@
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4473-001",
+          "parent_fpi": "3e758bc9-6dec-5be8-b4a1-7147b5ebab41",
+          "f_plan_id": "e241151d-14b6-44cb-b1b2-43c8e4453055",
           "plan_name": "DEVOTED CHOICE 001 UT (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4473-002",
+          "parent_fpi": "3e758bc9-6dec-5be8-b4a1-7147b5ebab41",
+          "f_plan_id": "fef5e796-0925-41b0-a24b-62c2dd00bdb9",
           "plan_name": "DEVOTED CHOICE GIVEBACK 002 UT (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4473-003",
+          "parent_fpi": "3e758bc9-6dec-5be8-b4a1-7147b5ebab41",
+          "f_plan_id": "42b6c65c-ac8d-425a-98cf-2c7f29a35d6a",
           "plan_name": "DEVOTED C-SNP CHOICE PREMIUM 003 UT (PPO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4473-004",
+          "parent_fpi": "3e758bc9-6dec-5be8-b4a1-7147b5ebab41",
+          "f_plan_id": "01f3a187-10e6-430f-9150-f0feb790d1b0",
           "plan_name": "DEVOTED DUAL CHOICE FULL 004 UT (PPO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4473-007",
+          "parent_fpi": "3e758bc9-6dec-5be8-b4a1-7147b5ebab41",
+          "f_plan_id": "71241072-7b89-433e-8a69-b7665f7fc405",
           "plan_name": "DEVOTED C-SNP CHOICE PLUS 007 UT (PPO C-SNP)"
         }
       ],
