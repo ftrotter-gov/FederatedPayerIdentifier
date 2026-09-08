@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "55efd42f-6223-5f36-b9e0-6d15d0984f67",
+      "is_fpi": true,
+      "payerLegalName": "PARTNERS INSURANCE COMPANY OF NEW JERSEY INC",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PARTNERS INSURANCE COMPANY OF NEW JERSEY INC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3124",
+      "is_fpi": false,
+      "parent_fpi": "55efd42f-6223-5f36-b9e0-6d15d0984f67"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3124-001",
+          "parent_fpi": "55efd42f-6223-5f36-b9e0-6d15d0984f67",
+          "f_plan_id": "07819ad5-109f-453b-a0df-a4697c3802f4",
+          "plan_name": "Jefferson Health Plans Choice Plus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3124-002",
+          "parent_fpi": "55efd42f-6223-5f36-b9e0-6d15d0984f67",
+          "f_plan_id": "1d89aa89-d839-4099-8af9-85b2122ce0d0",
+          "plan_name": "Jefferson Health Plans Choice (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

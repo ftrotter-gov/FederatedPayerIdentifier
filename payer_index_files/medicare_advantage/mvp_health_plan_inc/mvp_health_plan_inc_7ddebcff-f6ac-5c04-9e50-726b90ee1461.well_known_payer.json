@@ -1,0 +1,153 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
+      "is_fpi": true,
+      "payerLegalName": "MVP HEALTH PLAN, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MVP HEALTH PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3305",
+      "is_fpi": false,
+      "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9615",
+      "is_fpi": false,
+      "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3305-007",
+          "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
+          "f_plan_id": "75af1be9-63a4-487b-aa07-f9b0805effec",
+          "plan_name": "MVP Medicare Preferred Gold without Part D (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3305-015",
+          "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
+          "f_plan_id": "d19c2335-a91f-4434-bf92-f6b867d6c852",
+          "plan_name": "MVP Medicare Preferred Gold with Part D (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3305-020",
+          "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
+          "f_plan_id": "8b633a39-ed98-475f-801f-c08717a977ad",
+          "plan_name": "MVP Medicare Preferred Gold without Part D (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3305-022",
+          "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
+          "f_plan_id": "df5a8406-a3aa-4ef0-972c-cebe01e4c68c",
+          "plan_name": "MVP Medicare Secure Plus with Part D (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3305-033",
+          "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
+          "f_plan_id": "501dc514-cde4-42ff-baf5-c2bd5b8c610a",
+          "plan_name": "MVP DualAccess (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3305-034",
+          "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
+          "f_plan_id": "e2bab5d3-3706-4729-991f-57890431a32c",
+          "plan_name": "MVP DualAccess Complete (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3305-801",
+          "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
+          "f_plan_id": "42704d9c-709a-49a9-8b0d-8758ca96235f",
+          "plan_name": "MVP Preferred Gold - Employer Group (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3305-803",
+          "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
+          "f_plan_id": "866e70d7-ed9e-44bd-ac8b-39c4fabf4f03",
+          "plan_name": "MVP Preferred Gold Rx - Employer Group (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3305-804",
+          "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
+          "f_plan_id": "2925983d-5877-48d6-9997-60e40da4c567",
+          "plan_name": "MVP Preferred Gold Rx - Employer Group (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9615-802",
+          "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
+          "f_plan_id": "250ccfed-d4b2-41ac-a374-f6101583dc60",
+          "plan_name": "MVP GoldAnywhere Rx - Employer Group (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9615-807",
+          "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
+          "f_plan_id": "94699c25-3f40-4c99-a925-c169499f9a15",
+          "plan_name": "MVP USA Care Rx - Employer Group (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9615-810",
+          "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
+          "f_plan_id": "5ee26485-59e5-4330-9b62-6268d542ba00",
+          "plan_name": "MVP GoldAnywhere - Employer Group (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9615-811",
+          "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
+          "f_plan_id": "82a505f5-432b-4d32-8dbe-4d336e579bc4",
+          "plan_name": "MVP USA Care without Part D - Employer Group (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9615-021",
+          "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
+          "f_plan_id": "c03422cf-3e1a-459f-a25e-e13e8ab5b6b0",
+          "plan_name": "MVP Medicare WellSelect with Part D (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9615-022",
+          "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
+          "f_plan_id": "ddf5e3c2-b2f2-43ea-83c4-d2a8b2e0057e",
+          "plan_name": "MVP Medicare Complete Wellness with Part D (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9615-023",
+          "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
+          "f_plan_id": "aa984117-8b1b-45b6-a0f3-ac62ff92f8e2",
+          "plan_name": "MVP Medicare Complete Wellness with Part D (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9615-024",
+          "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
+          "f_plan_id": "41f9e7f9-ba29-4c41-b780-551134462591",
+          "plan_name": "MVP Medicare Complete Wellness with Part D (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

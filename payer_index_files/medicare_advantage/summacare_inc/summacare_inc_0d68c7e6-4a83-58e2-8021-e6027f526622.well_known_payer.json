@@ -1,0 +1,105 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "0d68c7e6-4a83-58e2-8021-e6027f526622",
+      "is_fpi": true,
+      "payerLegalName": "SUMMACARE INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SUMMACARE INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3660",
+      "is_fpi": false,
+      "parent_fpi": "0d68c7e6-4a83-58e2-8021-e6027f526622"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3660-028",
+          "parent_fpi": "0d68c7e6-4a83-58e2-8021-e6027f526622",
+          "f_plan_id": "795cd74a-a7a1-4b50-a74a-ec0c8e329031",
+          "plan_name": "SummaCare Medicare Emerald (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3660-029",
+          "parent_fpi": "0d68c7e6-4a83-58e2-8021-e6027f526622",
+          "f_plan_id": "302ee3e1-16a9-4f7a-b24d-8291c8e3de0b",
+          "plan_name": "SummaCare Medicare Sapphire (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3660-044",
+          "parent_fpi": "0d68c7e6-4a83-58e2-8021-e6027f526622",
+          "f_plan_id": "895cad4f-fc1a-4b9c-b8c3-5b6b73cb54cc",
+          "plan_name": "SummaCare Medicare Ruby (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3660-050",
+          "parent_fpi": "0d68c7e6-4a83-58e2-8021-e6027f526622",
+          "f_plan_id": "72890d86-6c72-49d9-a2e3-a8a749f6f7a2",
+          "plan_name": "SummaCare Medicare Topaz (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3660-052",
+          "parent_fpi": "0d68c7e6-4a83-58e2-8021-e6027f526622",
+          "f_plan_id": "07910e61-a849-45cf-8f3c-96bc811a66c0",
+          "plan_name": "SummaCare Medicare Amber (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3660-053",
+          "parent_fpi": "0d68c7e6-4a83-58e2-8021-e6027f526622",
+          "f_plan_id": "daa4d9ae-9f7b-4f01-817e-f234cfebdeae",
+          "plan_name": "SummaCare Medicare Garnet (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3660-801",
+          "parent_fpi": "0d68c7e6-4a83-58e2-8021-e6027f526622",
+          "f_plan_id": "8b9c2fba-c73e-412c-be22-8f69dd88b605",
+          "plan_name": "SummaCare Medicare Employer Plan with Part D (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3660-802",
+          "parent_fpi": "0d68c7e6-4a83-58e2-8021-e6027f526622",
+          "f_plan_id": "39ed51f0-1b85-477e-9657-f1c9a7ff9bab",
+          "plan_name": "SummaCare Medicare Employer Plan without Part D (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3660-805",
+          "parent_fpi": "0d68c7e6-4a83-58e2-8021-e6027f526622",
+          "f_plan_id": "2cc4a013-a213-4fac-9282-776a1dfde2bc",
+          "plan_name": "SummaCare Medicare Employer Plan with Part D (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3660-806",
+          "parent_fpi": "0d68c7e6-4a83-58e2-8021-e6027f526622",
+          "f_plan_id": "d71deb4a-7731-49b2-9f0c-b32c586a9548",
+          "plan_name": "SummaCare Medicare Employer Plan without Part D (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3660-057",
+          "parent_fpi": "0d68c7e6-4a83-58e2-8021-e6027f526622",
+          "f_plan_id": "db8a2730-e012-431f-b56d-e1b798b66248",
+          "plan_name": "SummaCare Medicare Quartz (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

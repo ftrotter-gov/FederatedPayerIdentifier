@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "34f7c78d-3c39-588e-b674-dd51d8553d43",
+      "is_fpi": true,
+      "payerLegalName": "GROUP HEALTH COOPERATIVE OF EAU CLAIRE",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "GROUP HEALTH COOPERATIVE OF EAU CLAIRE"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7598",
+      "is_fpi": false,
+      "parent_fpi": "34f7c78d-3c39-588e-b674-dd51d8553d43"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7598-003",
+          "parent_fpi": "34f7c78d-3c39-588e-b674-dd51d8553d43",
+          "f_plan_id": "c6e26158-94c6-4964-b554-1d324a31c109",
+          "plan_name": "Cooperative Advantage (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7598-004",
+          "parent_fpi": "34f7c78d-3c39-588e-b674-dd51d8553d43",
+          "f_plan_id": "68d4b869-f788-4b6a-aed4-b87cf41650b2",
+          "plan_name": "Cooperative Medicare Advantage (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

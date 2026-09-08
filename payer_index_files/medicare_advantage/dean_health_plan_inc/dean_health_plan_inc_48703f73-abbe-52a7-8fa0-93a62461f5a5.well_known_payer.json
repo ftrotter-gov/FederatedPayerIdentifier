@@ -1,0 +1,105 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "48703f73-abbe-52a7-8fa0-93a62461f5a5",
+      "is_fpi": true,
+      "payerLegalName": "DEAN HEALTH PLAN, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "DEAN HEALTH PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9096",
+      "is_fpi": false,
+      "parent_fpi": "48703f73-abbe-52a7-8fa0-93a62461f5a5"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9096-001",
+          "parent_fpi": "48703f73-abbe-52a7-8fa0-93a62461f5a5",
+          "f_plan_id": "bfd796bf-83c3-4859-872d-30b09f7225bd",
+          "plan_name": "Dean Advantage Assurance (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9096-002",
+          "parent_fpi": "48703f73-abbe-52a7-8fa0-93a62461f5a5",
+          "f_plan_id": "d3b4b452-5d18-4e35-a3ec-eb73a4b75461",
+          "plan_name": "Dean Advantage Balance (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9096-004",
+          "parent_fpi": "48703f73-abbe-52a7-8fa0-93a62461f5a5",
+          "f_plan_id": "6306f40b-c707-4abd-ac06-d5d9d88debcd",
+          "plan_name": "Dean Advantage Essential (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9096-005",
+          "parent_fpi": "48703f73-abbe-52a7-8fa0-93a62461f5a5",
+          "f_plan_id": "23c16285-de11-4f3c-aefc-9929ca92c92d",
+          "plan_name": "Dean Advantage Complete (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9096-010",
+          "parent_fpi": "48703f73-abbe-52a7-8fa0-93a62461f5a5",
+          "f_plan_id": "70d8c679-a5bc-44b1-8712-00a6254880d9",
+          "plan_name": "Dean Advantage Harmony (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9096-801",
+          "parent_fpi": "48703f73-abbe-52a7-8fa0-93a62461f5a5",
+          "f_plan_id": "ca238710-993e-4308-aece-8f78677eca13",
+          "plan_name": "Dean Advantage - EGWP MAPD CY (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9096-802",
+          "parent_fpi": "48703f73-abbe-52a7-8fa0-93a62461f5a5",
+          "f_plan_id": "67377905-78f1-43c4-b75a-981799e3e25d",
+          "plan_name": "Dean Advantage - EGWP MAPD Non CY (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9096-803",
+          "parent_fpi": "48703f73-abbe-52a7-8fa0-93a62461f5a5",
+          "f_plan_id": "16f09ac6-b19e-41a9-bb39-68199e58bbb7",
+          "plan_name": "Dean Advantage - EGWP MA only (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9096-804",
+          "parent_fpi": "48703f73-abbe-52a7-8fa0-93a62461f5a5",
+          "f_plan_id": "119f3036-6ca2-4195-9af1-38d6497d3656",
+          "plan_name": "Dean Advantage EGWP CY HMOPOS (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9096-805",
+          "parent_fpi": "48703f73-abbe-52a7-8fa0-93a62461f5a5",
+          "f_plan_id": "a00d7077-f0fd-41dc-b086-c827be890b8c",
+          "plan_name": "Dean Advantage EGWP Non CY HMOPOS (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9096-806",
+          "parent_fpi": "48703f73-abbe-52a7-8fa0-93a62461f5a5",
+          "f_plan_id": "b4135857-47e6-468a-aef4-5cb98f231196",
+          "plan_name": "Dean Advantage EGWP MA Only HMOPOS (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

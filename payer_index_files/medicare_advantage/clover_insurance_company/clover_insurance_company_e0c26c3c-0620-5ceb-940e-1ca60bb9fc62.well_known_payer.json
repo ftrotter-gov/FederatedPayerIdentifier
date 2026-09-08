@@ -1,0 +1,139 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "e0c26c3c-0620-5ceb-940e-1ca60bb9fc62",
+      "is_fpi": true,
+      "payerLegalName": "CLOVER INSURANCE COMPANY",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CLOVER INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5141",
+      "is_fpi": false,
+      "parent_fpi": "e0c26c3c-0620-5ceb-940e-1ca60bb9fc62"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "R1366",
+      "is_fpi": false,
+      "parent_fpi": "e0c26c3c-0620-5ceb-940e-1ca60bb9fc62"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5141-004",
+          "parent_fpi": "e0c26c3c-0620-5ceb-940e-1ca60bb9fc62",
+          "f_plan_id": "1df5728e-d15f-4f29-962b-1fd4e8db5e7a",
+          "plan_name": "Clover Health Choice (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5141-007",
+          "parent_fpi": "e0c26c3c-0620-5ceb-940e-1ca60bb9fc62",
+          "f_plan_id": "c3b4adee-ffbf-417b-b496-7694000d6a8c",
+          "plan_name": "Clover Health Choice Value (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5141-025",
+          "parent_fpi": "e0c26c3c-0620-5ceb-940e-1ca60bb9fc62",
+          "f_plan_id": "4fb2f834-3026-47f4-8b0b-ef1e9bc25b1e",
+          "plan_name": "Clover Health Choice (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5141-026",
+          "parent_fpi": "e0c26c3c-0620-5ceb-940e-1ca60bb9fc62",
+          "f_plan_id": "392806bf-3819-4ed7-94da-9b63a3a73e02",
+          "plan_name": "Clover Health LiveHealthy (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5141-032",
+          "parent_fpi": "e0c26c3c-0620-5ceb-940e-1ca60bb9fc62",
+          "f_plan_id": "3efa785a-2444-4eaf-b1ef-f434f35e7f09",
+          "plan_name": "Clover Health Choice (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5141-036",
+          "parent_fpi": "e0c26c3c-0620-5ceb-940e-1ca60bb9fc62",
+          "f_plan_id": "13c674bb-bde2-4026-850f-9c91fe95eb96",
+          "plan_name": "Clover Health LiveHealthy (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5141-038",
+          "parent_fpi": "e0c26c3c-0620-5ceb-940e-1ca60bb9fc62",
+          "f_plan_id": "e27e1216-c492-4dec-9013-e78eb8de803f",
+          "plan_name": "Clover Health Choice (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5141-042",
+          "parent_fpi": "e0c26c3c-0620-5ceb-940e-1ca60bb9fc62",
+          "f_plan_id": "2312795d-4a87-4145-a279-d53d2b73f004",
+          "plan_name": "Clover Health Choice Value (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5141-045",
+          "parent_fpi": "e0c26c3c-0620-5ceb-940e-1ca60bb9fc62",
+          "f_plan_id": "819dc12d-381f-4fc9-a38f-17baeca66ecf",
+          "plan_name": "Clover Health LiveHealthy Value (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5141-054",
+          "parent_fpi": "e0c26c3c-0620-5ceb-940e-1ca60bb9fc62",
+          "f_plan_id": "7dab3da7-10d8-48e2-bab9-431501644d22",
+          "plan_name": "Clover Health Choice Giveback (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5141-056",
+          "parent_fpi": "e0c26c3c-0620-5ceb-940e-1ca60bb9fc62",
+          "f_plan_id": "9aecfb96-cf48-43b3-ba83-5ca3694a0042",
+          "plan_name": "Clover Health Valor (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5141-061",
+          "parent_fpi": "e0c26c3c-0620-5ceb-940e-1ca60bb9fc62",
+          "f_plan_id": "608dbff0-563b-4458-b014-e7a1df1c2218",
+          "plan_name": "Clover Health Valor (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5141-062",
+          "parent_fpi": "e0c26c3c-0620-5ceb-940e-1ca60bb9fc62",
+          "f_plan_id": "e8bb6a6c-b2fc-4641-a14d-fd60f91f7c84",
+          "plan_name": "Clover Health Valor (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5141-801",
+          "parent_fpi": "e0c26c3c-0620-5ceb-940e-1ca60bb9fc62",
+          "f_plan_id": "e87dd380-905a-4f82-939e-c8d4e56b3852",
+          "plan_name": "Clover Health Employer Group Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5141-063",
+          "parent_fpi": "e0c26c3c-0620-5ceb-940e-1ca60bb9fc62",
+          "f_plan_id": "2d283e58-7571-4b81-8cd3-1a86f7c7192b",
+          "plan_name": "Clover Health LiveHealthy Giveback (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

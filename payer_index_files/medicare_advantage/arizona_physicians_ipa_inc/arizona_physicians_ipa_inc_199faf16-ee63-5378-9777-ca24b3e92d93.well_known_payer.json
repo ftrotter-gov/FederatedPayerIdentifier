@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "199faf16-ee63-5378-9777-ca24b3e92d93",
+      "is_fpi": true,
+      "payerLegalName": "ARIZONA PHYSICIANS IPA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ARIZONA PHYSICIANS IPA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0321",
+      "is_fpi": false,
+      "parent_fpi": "199faf16-ee63-5378-9777-ca24b3e92d93"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0321-002",
+          "parent_fpi": "199faf16-ee63-5378-9777-ca24b3e92d93",
+          "f_plan_id": "945414c1-546e-477d-9f59-9ae301dc6a2e",
+          "plan_name": "UHC Dual Complete AZ-S001 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0321-004",
+          "parent_fpi": "199faf16-ee63-5378-9777-ca24b3e92d93",
+          "f_plan_id": "7f42dd67-0528-4ce7-b71d-096eb225cc86",
+          "plan_name": "UHC Dual Complete AZ-Y001 (HMO-POS D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

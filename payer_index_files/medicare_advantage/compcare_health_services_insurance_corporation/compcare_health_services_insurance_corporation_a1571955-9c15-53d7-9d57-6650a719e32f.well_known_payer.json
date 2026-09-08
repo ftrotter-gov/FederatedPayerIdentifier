@@ -1,0 +1,154 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "a1571955-9c15-53d7-9d57-6650a719e32f",
+      "is_fpi": true,
+      "payerLegalName": "COMPCARE HEALTH SERVICES INSURANCE CORPORATION",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "COMPCARE HEALTH SERVICES INSURANCE CORPORATION"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9525",
+      "is_fpi": false,
+      "parent_fpi": "a1571955-9c15-53d7-9d57-6650a719e32f"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9525-003",
+          "parent_fpi": "a1571955-9c15-53d7-9d57-6650a719e32f",
+          "f_plan_id": "dc3d2c2b-968a-42b2-8eac-5713ea914df3",
+          "plan_name": "Anthem Full Dual Advantage (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9525-004",
+          "parent_fpi": "a1571955-9c15-53d7-9d57-6650a719e32f",
+          "f_plan_id": "972d6fa9-3265-4044-98af-a1c5d4737d71",
+          "plan_name": "Anthem Medicare Advantage (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9525-006",
+          "parent_fpi": "a1571955-9c15-53d7-9d57-6650a719e32f",
+          "f_plan_id": "f9d9927f-40d6-4b1c-9733-4ca5d59cf34d",
+          "plan_name": "Anthem Medicare Advantage (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9525-011",
+          "parent_fpi": "a1571955-9c15-53d7-9d57-6650a719e32f",
+          "f_plan_id": "3c1ee885-2dfc-411d-80b6-6788550ec54e",
+          "plan_name": "Anthem Kidney Care (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9525-013",
+          "parent_fpi": "a1571955-9c15-53d7-9d57-6650a719e32f",
+          "f_plan_id": "9b8c254c-fd81-4ccd-9e98-c263887c4386",
+          "plan_name": "Anthem Medicare Advantage (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9525-018",
+          "parent_fpi": "a1571955-9c15-53d7-9d57-6650a719e32f",
+          "f_plan_id": "ee628729-fbf5-4246-8c6e-5fae5f51cd8a",
+          "plan_name": "Anthem Full Dual Advantage 2 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9525-801",
+          "parent_fpi": "a1571955-9c15-53d7-9d57-6650a719e32f",
+          "f_plan_id": "d467b2c0-bf73-4d37-92dd-7cb44b6e6811",
+          "plan_name": "Anthem Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9525-802",
+          "parent_fpi": "a1571955-9c15-53d7-9d57-6650a719e32f",
+          "f_plan_id": "e3ed03f5-dec4-4a7c-9b13-d2bd9e94a9f1",
+          "plan_name": "Anthem Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9525-803",
+          "parent_fpi": "a1571955-9c15-53d7-9d57-6650a719e32f",
+          "f_plan_id": "4d926f71-489f-446b-aab8-84970b9dd2ad",
+          "plan_name": "Anthem Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9525-804",
+          "parent_fpi": "a1571955-9c15-53d7-9d57-6650a719e32f",
+          "f_plan_id": "f80c41c2-e8a7-48d0-93e3-fbb57ed70279",
+          "plan_name": "Anthem Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9525-805",
+          "parent_fpi": "a1571955-9c15-53d7-9d57-6650a719e32f",
+          "f_plan_id": "fb65ad7f-c910-4bf4-a770-f85641bbef37",
+          "plan_name": "Anthem Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9525-806",
+          "parent_fpi": "a1571955-9c15-53d7-9d57-6650a719e32f",
+          "f_plan_id": "64d65a10-e9e4-4969-88e1-72e7385c3b0e",
+          "plan_name": "Anthem Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9525-807",
+          "parent_fpi": "a1571955-9c15-53d7-9d57-6650a719e32f",
+          "f_plan_id": "d02dbb20-8326-4799-a91f-e1199a877998",
+          "plan_name": "Anthem Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9525-809",
+          "parent_fpi": "a1571955-9c15-53d7-9d57-6650a719e32f",
+          "f_plan_id": "74ab6d0c-0b9f-4079-a212-635217a7a7ca",
+          "plan_name": "Anthem Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9525-811",
+          "parent_fpi": "a1571955-9c15-53d7-9d57-6650a719e32f",
+          "f_plan_id": "3baeccf8-6ba2-4e20-87b3-ff042af98597",
+          "plan_name": "Anthem Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9525-813",
+          "parent_fpi": "a1571955-9c15-53d7-9d57-6650a719e32f",
+          "f_plan_id": "2d41a33b-49ab-4b61-b889-1473554e16b4",
+          "plan_name": "Anthem Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9525-815",
+          "parent_fpi": "a1571955-9c15-53d7-9d57-6650a719e32f",
+          "f_plan_id": "4ea52c2e-b72d-4976-82fa-2d15687c7671",
+          "plan_name": "Anthem Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9525-816",
+          "parent_fpi": "a1571955-9c15-53d7-9d57-6650a719e32f",
+          "f_plan_id": "5fc54412-b104-44fe-96ef-506f91d6a891",
+          "plan_name": "Anthem Senior Advantage (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

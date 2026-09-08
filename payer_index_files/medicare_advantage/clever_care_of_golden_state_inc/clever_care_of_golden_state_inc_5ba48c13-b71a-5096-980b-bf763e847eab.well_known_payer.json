@@ -1,0 +1,56 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "5ba48c13-b71a-5096-980b-bf763e847eab",
+      "is_fpi": true,
+      "payerLegalName": "CLEVER CARE OF GOLDEN STATE, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CLEVER CARE OF GOLDEN STATE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7607",
+      "is_fpi": false,
+      "parent_fpi": "5ba48c13-b71a-5096-980b-bf763e847eab"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7607-014",
+          "parent_fpi": "5ba48c13-b71a-5096-980b-bf763e847eab",
+          "f_plan_id": "d7401fe8-c1bc-4277-b38a-f8c99c2375bc",
+          "plan_name": "Clever Care Longevity (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7607-015",
+          "parent_fpi": "5ba48c13-b71a-5096-980b-bf763e847eab",
+          "f_plan_id": "16ebfcbf-419b-48d9-b9d6-733697487c9f",
+          "plan_name": "Clever Care Value (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7607-016",
+          "parent_fpi": "5ba48c13-b71a-5096-980b-bf763e847eab",
+          "f_plan_id": "ece417c9-98be-4b92-a499-74bfceed4784",
+          "plan_name": "Clever Care Total+ (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7607-017",
+          "parent_fpi": "5ba48c13-b71a-5096-980b-bf763e847eab",
+          "f_plan_id": "467a5d7a-c67e-4059-a534-e3e9e4f62109",
+          "plan_name": "Clever Care Breathe+ (HMO C-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

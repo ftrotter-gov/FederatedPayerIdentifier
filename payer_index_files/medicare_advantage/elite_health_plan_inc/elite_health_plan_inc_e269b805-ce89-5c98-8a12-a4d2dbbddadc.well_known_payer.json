@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "e269b805-ce89-5c98-8a12-a4d2dbbddadc",
+      "is_fpi": true,
+      "payerLegalName": "ELITE HEALTH PLAN, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ELITE HEALTH PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6368",
+      "is_fpi": false,
+      "parent_fpi": "e269b805-ce89-5c98-8a12-a4d2dbbddadc"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6368-001",
+          "parent_fpi": "e269b805-ce89-5c98-8a12-a4d2dbbddadc",
+          "f_plan_id": "bb8d83d9-4629-45ef-804e-a05c7d1a2f7c",
+          "plan_name": "Elite Signature HMO (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6368-002",
+          "parent_fpi": "e269b805-ce89-5c98-8a12-a4d2dbbddadc",
+          "f_plan_id": "feff7d5b-2d11-4dc6-bba2-c9a33e8baec3",
+          "plan_name": "Elite Core HMO (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

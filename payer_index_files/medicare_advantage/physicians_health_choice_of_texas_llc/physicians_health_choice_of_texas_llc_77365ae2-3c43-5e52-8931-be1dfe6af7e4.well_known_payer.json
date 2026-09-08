@@ -1,0 +1,210 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+      "is_fpi": true,
+      "payerLegalName": "PHYSICIANS HEALTH CHOICE OF TEXAS, LLC",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PHYSICIANS HEALTH CHOICE OF TEXAS, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4527",
+      "is_fpi": false,
+      "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4527-001",
+          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+          "f_plan_id": "5aac8870-3fac-4141-9eed-9cb4a58c149a",
+          "plan_name": "AARP Medicare Advantage Essentials from UHC TX-11 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4527-002",
+          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+          "f_plan_id": "ef5bd404-8c76-4291-b126-a9bbd0c0819d",
+          "plan_name": "AARP Medicare Advantage Essentials from UHC TX-12 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4527-003",
+          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+          "f_plan_id": "e25517c9-70f8-4b8d-bd6e-207fabe14953",
+          "plan_name": "UHC Dual Complete TX-V002 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4527-005",
+          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+          "f_plan_id": "23c999a3-8ecb-4395-97a6-edd55bb6c269",
+          "plan_name": "AARP Medicare Advantage from UHC TX-0013 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4527-013",
+          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+          "f_plan_id": "5c3ac740-c55a-41aa-9e3c-a2510df5348b",
+          "plan_name": "AARP Medicare Advantage Essentials from UHC TX-14 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4527-015",
+          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+          "f_plan_id": "30982bdb-0102-40cc-b680-1426c925b5bf",
+          "plan_name": "UHC Dual Complete TX-D003 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4527-024",
+          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+          "f_plan_id": "fbf47e8c-e54d-4bba-824c-a340b58642e7",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx TX-MA01 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4527-037",
+          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+          "f_plan_id": "d1640890-cfc2-49c1-914a-b977527139fe",
+          "plan_name": "AARP Medicare Advantage from UHC TX-0015 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4527-039",
+          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+          "f_plan_id": "6d7c623c-1fb6-46b6-bd07-da62e3723e94",
+          "plan_name": "UHC Complete Care TX-16 (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4527-040",
+          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+          "f_plan_id": "b00a6df5-381a-42cd-8a76-ef801143e2bd",
+          "plan_name": "UHC Complete Care TX-17 (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4527-041",
+          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+          "f_plan_id": "4cd4a045-eaff-4662-8971-410415ec8add",
+          "plan_name": "UHC Complete Care TX-18 (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4527-042",
+          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+          "f_plan_id": "6dad0dc1-055d-43b3-9646-7c3b2535a2a2",
+          "plan_name": "UHC Complete Care TX-19 (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4527-045",
+          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+          "f_plan_id": "a5bcf8d7-422f-48c4-98e8-0ec115df823b",
+          "plan_name": "AARP Medicare Advantage from UHC TX-0020 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4527-048",
+          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+          "f_plan_id": "6e66343f-b738-4517-93cf-cc595b978c5b",
+          "plan_name": "AARP Medicare Advantage Giveback from UHC TX-35 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4527-051",
+          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+          "f_plan_id": "d025cf5c-2d8b-4078-8a96-858aa501ad6f",
+          "plan_name": "AARP Medicare Advantage Giveback from UHC TX-38 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4527-052",
+          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+          "f_plan_id": "ae19004d-d24b-430c-90b9-88e619c11b8e",
+          "plan_name": "AARP Medicare Advantage from UHC TX-46 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4527-053",
+          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+          "f_plan_id": "29827e29-7d0d-480f-a3dd-1a64d4fb2478",
+          "plan_name": "AARP Medicare Advantage CareFlex from UHC TX-47 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4527-054",
+          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+          "f_plan_id": "1abd3982-eb9c-4870-9868-c20594f8bd44",
+          "plan_name": "UHC Dual Complete TX-S4 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4527-801",
+          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+          "f_plan_id": "34dcaa77-628b-4a7d-b299-ac0f9ecd0608",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4527-802",
+          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+          "f_plan_id": "98658f84-56fb-459e-b10d-88ffe68644d7",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4527-803",
+          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+          "f_plan_id": "61a06e23-1081-4e51-8394-8d6e7a10237b",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4527-055",
+          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+          "f_plan_id": "42d844bd-fa21-4e98-a91b-8bccd2f346da",
+          "plan_name": "AARP Medicare Advantage Extras from UHC TX-50 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4527-056",
+          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+          "f_plan_id": "4010ffc6-b9d1-4108-a1df-baecb5a70a52",
+          "plan_name": "AARP Medicare Advantage Extras from UHC TX-52 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4527-057",
+          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+          "f_plan_id": "3779674e-e219-4749-b7a2-4c52455bc751",
+          "plan_name": "UHC Dual Complete TX-Q2 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4527-058",
+          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+          "f_plan_id": "a41f74b3-6955-4411-9725-3865236c33fe",
+          "plan_name": "AARP Medicare Advantage from UHC TX-51 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4527-059",
+          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+          "f_plan_id": "47ce94c5-d65c-40a6-8a7e-ee6f3cda308e",
+          "plan_name": "AARP Medicare Advantage Extras from UHC TX-53 (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

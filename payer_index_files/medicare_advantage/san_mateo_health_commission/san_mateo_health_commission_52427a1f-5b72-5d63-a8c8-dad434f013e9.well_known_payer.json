@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "52427a1f-5b72-5d63-a8c8-dad434f013e9",
+      "is_fpi": true,
+      "payerLegalName": "SAN MATEO HEALTH COMMISSION",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SAN MATEO HEALTH COMMISSION"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6019",
+      "is_fpi": false,
+      "parent_fpi": "52427a1f-5b72-5d63-a8c8-dad434f013e9"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6019-001",
+          "parent_fpi": "52427a1f-5b72-5d63-a8c8-dad434f013e9",
+          "f_plan_id": "e5b214f6-b972-4088-9e5b-42c957d578f4",
+          "plan_name": "CareAdvantage (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

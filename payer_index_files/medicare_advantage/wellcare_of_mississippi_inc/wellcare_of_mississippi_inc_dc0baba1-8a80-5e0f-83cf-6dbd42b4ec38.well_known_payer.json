@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "dc0baba1-8a80-5e0f-83cf-6dbd42b4ec38",
+      "is_fpi": true,
+      "payerLegalName": "WELLCARE OF MISSISSIPPI, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WELLCARE OF MISSISSIPPI, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0074",
+      "is_fpi": false,
+      "parent_fpi": "dc0baba1-8a80-5e0f-83cf-6dbd42b4ec38"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0074-001",
+          "parent_fpi": "dc0baba1-8a80-5e0f-83cf-6dbd42b4ec38",
+          "f_plan_id": "7e5c881e-2936-4f29-9909-af9d86d0bb41",
+          "plan_name": "Wellcare Simple Open (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0074-004",
+          "parent_fpi": "dc0baba1-8a80-5e0f-83cf-6dbd42b4ec38",
+          "f_plan_id": "778d3c8b-6a93-4774-8234-4c8015ee0360",
+          "plan_name": "Wellcare Dual Access Open (PPO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

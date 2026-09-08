@@ -1,0 +1,51 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "9b30f550-5316-51a5-96ff-d93443eb530e",
+      "is_fpi": true,
+      "payerLegalName": "AMERIHEALTH INSURANCE COMPANY OF NEW JERSEY",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "AMERIHEALTH INSURANCE COMPANY OF NEW JERSEY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5361",
+      "is_fpi": false,
+      "parent_fpi": "9b30f550-5316-51a5-96ff-d93443eb530e"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5361-001",
+          "parent_fpi": "9b30f550-5316-51a5-96ff-d93443eb530e",
+          "f_plan_id": "01692e4d-4c92-40c0-b936-f0ba637c2e66",
+          "plan_name": "AmeriHealth Medicare Core (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5361-002",
+          "parent_fpi": "9b30f550-5316-51a5-96ff-d93443eb530e",
+          "f_plan_id": "7009232a-d218-4bef-b962-3ef88b7eb90c",
+          "plan_name": "AmeriHealth Medicare Enhanced (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5361-004",
+          "parent_fpi": "9b30f550-5316-51a5-96ff-d93443eb530e",
+          "f_plan_id": "1d1e9a74-2610-4c18-a407-9d4b25efa982",
+          "plan_name": "AmeriHealth Medicare Ultimate (PPO)"
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://ah.healthsparq.com/healthsparq/public/#/one/insurerCode=AHRED_I&brandCode=AHREDMCARE&productCode=ALL"
+      }
+    }
+  ],
+  "is_seeded": true
+}

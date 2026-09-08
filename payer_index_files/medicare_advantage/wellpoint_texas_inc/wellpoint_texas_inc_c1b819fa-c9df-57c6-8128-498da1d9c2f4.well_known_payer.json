@@ -1,0 +1,140 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "c1b819fa-c9df-57c6-8128-498da1d9c2f4",
+      "is_fpi": true,
+      "payerLegalName": "WELLPOINT TEXAS, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WELLPOINT TEXAS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2593",
+      "is_fpi": false,
+      "parent_fpi": "c1b819fa-c9df-57c6-8128-498da1d9c2f4"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2593-001",
+          "parent_fpi": "c1b819fa-c9df-57c6-8128-498da1d9c2f4",
+          "f_plan_id": "7c79aa61-12dd-41cf-b8c4-d2c637217ec6",
+          "plan_name": "Wellpoint Medicare Advantage 2 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2593-003",
+          "parent_fpi": "c1b819fa-c9df-57c6-8128-498da1d9c2f4",
+          "f_plan_id": "3888f7db-2739-4864-9c27-00f690288804",
+          "plan_name": "Wellpoint I CareMore Home Care 2 (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2593-005",
+          "parent_fpi": "c1b819fa-c9df-57c6-8128-498da1d9c2f4",
+          "f_plan_id": "8add4272-e333-4822-af99-ccafeb0688d7",
+          "plan_name": "Wellpoint Lung Care 2 (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2593-006",
+          "parent_fpi": "c1b819fa-c9df-57c6-8128-498da1d9c2f4",
+          "f_plan_id": "82892379-bdad-4c1a-a8c7-c902930120e8",
+          "plan_name": "Wellpoint Chronic Care 2 (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2593-029",
+          "parent_fpi": "c1b819fa-c9df-57c6-8128-498da1d9c2f4",
+          "f_plan_id": "28f88c9e-93ef-433a-ad28-b3f7401b8b10",
+          "plan_name": "Wellpoint Medicare Advantage 2 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2593-031",
+          "parent_fpi": "c1b819fa-c9df-57c6-8128-498da1d9c2f4",
+          "f_plan_id": "7e34fc9b-68db-4caa-8e47-324c6194f17b",
+          "plan_name": "Wellpoint Kidney Care (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2593-032",
+          "parent_fpi": "c1b819fa-c9df-57c6-8128-498da1d9c2f4",
+          "f_plan_id": "8bb7fd1e-a840-4136-af9f-51bccd797b36",
+          "plan_name": "Wellpoint Dual Advantage 2 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2593-040",
+          "parent_fpi": "c1b819fa-c9df-57c6-8128-498da1d9c2f4",
+          "f_plan_id": "3a8419ef-bd47-4651-8a6d-2202b5ad2565",
+          "plan_name": "Wellpoint I CareMore Kidney Care (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2593-043",
+          "parent_fpi": "c1b819fa-c9df-57c6-8128-498da1d9c2f4",
+          "f_plan_id": "cc7a3598-f989-41fc-8743-b3f4c077070d",
+          "plan_name": "Wellpoint Kidney Care (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2593-044",
+          "parent_fpi": "c1b819fa-c9df-57c6-8128-498da1d9c2f4",
+          "f_plan_id": "d96b4df3-5714-424e-8b04-de5e668972c1",
+          "plan_name": "Wellpoint Full Dual Advantage Aligned (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2593-045",
+          "parent_fpi": "c1b819fa-c9df-57c6-8128-498da1d9c2f4",
+          "f_plan_id": "55b92cf0-e68b-4ec7-b422-e6c7a5327d83",
+          "plan_name": "Wellpoint Full Dual Advantage Aligned (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2593-046",
+          "parent_fpi": "c1b819fa-c9df-57c6-8128-498da1d9c2f4",
+          "f_plan_id": "c767bcb5-78e7-4081-8312-a934bdc4c8c5",
+          "plan_name": "Wellpoint Full Dual Advantage Aligned (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2593-047",
+          "parent_fpi": "c1b819fa-c9df-57c6-8128-498da1d9c2f4",
+          "f_plan_id": "0d30a7eb-883c-49eb-b14b-04d8b872e9fd",
+          "plan_name": "Wellpoint Full Dual Advantage Aligned (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2593-048",
+          "parent_fpi": "c1b819fa-c9df-57c6-8128-498da1d9c2f4",
+          "f_plan_id": "d5cf26f6-4657-4777-9971-d711d3227d90",
+          "plan_name": "Wellpoint Full Dual Advantage 2 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2593-051",
+          "parent_fpi": "c1b819fa-c9df-57c6-8128-498da1d9c2f4",
+          "f_plan_id": "75796ee5-4a7f-42b1-8d02-c62e9caba5aa",
+          "plan_name": "Wellpoint Full Dual Advantage 2 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2593-053",
+          "parent_fpi": "c1b819fa-c9df-57c6-8128-498da1d9c2f4",
+          "f_plan_id": "e03b7ce3-1ecb-4f13-8f4b-147cb9cea4da",
+          "plan_name": "Wellpoint Full Dual Advantage (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

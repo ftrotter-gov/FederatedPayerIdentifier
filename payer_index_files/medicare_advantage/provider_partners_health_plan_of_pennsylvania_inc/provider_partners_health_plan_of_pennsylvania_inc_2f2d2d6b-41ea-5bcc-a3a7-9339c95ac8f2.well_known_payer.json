@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "2f2d2d6b-41ea-5bcc-a3a7-9339c95ac8f2",
+      "is_fpi": true,
+      "payerLegalName": "PROVIDER PARTNERS HEALTH PLAN OF PENNSYLVANIA, INC",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PROVIDER PARTNERS HEALTH PLAN OF PENNSYLVANIA, INC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4093",
+      "is_fpi": false,
+      "parent_fpi": "2f2d2d6b-41ea-5bcc-a3a7-9339c95ac8f2"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4093-001",
+          "parent_fpi": "2f2d2d6b-41ea-5bcc-a3a7-9339c95ac8f2",
+          "f_plan_id": "b0d6cbd8-aa40-4cf7-8793-7f0f7ad4707d",
+          "plan_name": "Provider Partners Pennsylvania Advantage Plan (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4093-004",
+          "parent_fpi": "2f2d2d6b-41ea-5bcc-a3a7-9339c95ac8f2",
+          "f_plan_id": "44e20067-c102-4c54-883c-c7876e6f4438",
+          "plan_name": "Provider Partners Pennsylvania Community Plan (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4093-008",
+          "parent_fpi": "2f2d2d6b-41ea-5bcc-a3a7-9339c95ac8f2",
+          "f_plan_id": "526e299d-5692-4544-98ee-cc81fe08abd7",
+          "plan_name": "Provider Partners Pennsylvania Essential Plan (HMO I-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,48 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "8097711b-9336-5229-94b1-b56c649eadf7",
+      "is_fpi": true,
+      "payerLegalName": "SOUTH COUNTRY HEALTH ALLIANCE",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SOUTH COUNTRY HEALTH ALLIANCE"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2419",
+      "is_fpi": false,
+      "parent_fpi": "8097711b-9336-5229-94b1-b56c649eadf7"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5703",
+      "is_fpi": false,
+      "parent_fpi": "8097711b-9336-5229-94b1-b56c649eadf7"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2419-001",
+          "parent_fpi": "8097711b-9336-5229-94b1-b56c649eadf7",
+          "f_plan_id": "ff2e7500-204e-468c-8c54-72838f2ce6d8",
+          "plan_name": "SeniorCare Complete (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5703-001",
+          "parent_fpi": "8097711b-9336-5229-94b1-b56c649eadf7",
+          "f_plan_id": "19288589-a5b9-489b-bbd3-ae70422d6300",
+          "plan_name": "AbilityCare (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

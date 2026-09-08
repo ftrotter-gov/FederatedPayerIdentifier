@@ -1,0 +1,126 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "4655fa59-e3ff-528e-9cff-67a5ede8bfe5",
+      "is_fpi": true,
+      "payerLegalName": "SCOTT AND WHITE HEALTH PLAN",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SCOTT AND WHITE HEALTH PLAN"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8142",
+      "is_fpi": false,
+      "parent_fpi": "4655fa59-e3ff-528e-9cff-67a5ede8bfe5"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8142-001",
+          "parent_fpi": "4655fa59-e3ff-528e-9cff-67a5ede8bfe5",
+          "f_plan_id": "3921cc6e-e9f7-481c-b43f-cb0344389abf",
+          "plan_name": "BSW SeniorCare Advantage Select Rx (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8142-002",
+          "parent_fpi": "4655fa59-e3ff-528e-9cff-67a5ede8bfe5",
+          "f_plan_id": "7a3acb35-9f16-4b62-be0b-34fe1a4c3bf7",
+          "plan_name": "BSW SeniorCare Advantage Preferred Rx (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8142-003",
+          "parent_fpi": "4655fa59-e3ff-528e-9cff-67a5ede8bfe5",
+          "f_plan_id": "4b111c39-c28d-4721-b41d-1c4280e55caf",
+          "plan_name": "BSW SeniorCare Advantage Premium Rx (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8142-004",
+          "parent_fpi": "4655fa59-e3ff-528e-9cff-67a5ede8bfe5",
+          "f_plan_id": "2548fa61-7c38-4f83-a409-d46127239e48",
+          "plan_name": "BSW SeniorCare Advantage Select (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8142-005",
+          "parent_fpi": "4655fa59-e3ff-528e-9cff-67a5ede8bfe5",
+          "f_plan_id": "9421d4c2-b034-4bdd-802f-41ca5d46bf00",
+          "plan_name": "BSW SeniorCare Advantage Preferred (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8142-006",
+          "parent_fpi": "4655fa59-e3ff-528e-9cff-67a5ede8bfe5",
+          "f_plan_id": "4d31a321-061e-46f1-947b-aaf1e47e2d83",
+          "plan_name": "BSW SeniorCare Advantage Premium (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8142-007",
+          "parent_fpi": "4655fa59-e3ff-528e-9cff-67a5ede8bfe5",
+          "f_plan_id": "98f12269-c4e7-48c1-bdb2-291055ae7f54",
+          "plan_name": "BSW SeniorCare Advantage Select Rx (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8142-008",
+          "parent_fpi": "4655fa59-e3ff-528e-9cff-67a5ede8bfe5",
+          "f_plan_id": "e92576d6-9e62-4384-ace3-36a324e1846e",
+          "plan_name": "BSW SeniorCare Advantage Select (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8142-009",
+          "parent_fpi": "4655fa59-e3ff-528e-9cff-67a5ede8bfe5",
+          "f_plan_id": "43e69ae8-a3bc-4f1d-8195-57926aec4102",
+          "plan_name": "BSW SeniorCare Advantage Essentials (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8142-010",
+          "parent_fpi": "4655fa59-e3ff-528e-9cff-67a5ede8bfe5",
+          "f_plan_id": "9005df33-7918-4e4e-a9c8-b1c9ae963dd7",
+          "plan_name": "BSW SeniorCare Advantage Essentials (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8142-801",
+          "parent_fpi": "4655fa59-e3ff-528e-9cff-67a5ede8bfe5",
+          "f_plan_id": "dee2d290-79a3-459a-92c3-5839a588df90",
+          "plan_name": "BSW SeniorCare Advantage EGWP CY Rx (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8142-802",
+          "parent_fpi": "4655fa59-e3ff-528e-9cff-67a5ede8bfe5",
+          "f_plan_id": "189ab648-663d-458e-9092-9f69d0d9af05",
+          "plan_name": "BSW SeniorCare Advantage EGWP CY (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8142-803",
+          "parent_fpi": "4655fa59-e3ff-528e-9cff-67a5ede8bfe5",
+          "f_plan_id": "30129d44-5e65-4a41-8d67-c0f50171fe1c",
+          "plan_name": "BSW SeniorCare Advantage EGWP FY Rx (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8142-804",
+          "parent_fpi": "4655fa59-e3ff-528e-9cff-67a5ede8bfe5",
+          "f_plan_id": "e90d2f06-ecec-4028-8ac3-84627081da89",
+          "plan_name": "BSW SeniorCare Advantage EGWP FY (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

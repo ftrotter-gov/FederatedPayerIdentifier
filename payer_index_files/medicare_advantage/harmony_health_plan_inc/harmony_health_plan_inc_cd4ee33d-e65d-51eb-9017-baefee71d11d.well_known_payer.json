@@ -1,0 +1,182 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "cd4ee33d-e65d-51eb-9017-baefee71d11d",
+      "is_fpi": true,
+      "payerLegalName": "HARMONY HEALTH PLAN,  INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HARMONY HEALTH PLAN,  INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1416",
+      "is_fpi": false,
+      "parent_fpi": "cd4ee33d-e65d-51eb-9017-baefee71d11d"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1416-009",
+          "parent_fpi": "cd4ee33d-e65d-51eb-9017-baefee71d11d",
+          "f_plan_id": "7e9dce8b-6269-4b59-a3bf-76d7f5a21aca",
+          "plan_name": "Wellcare Simple (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1416-026",
+          "parent_fpi": "cd4ee33d-e65d-51eb-9017-baefee71d11d",
+          "f_plan_id": "ad5cdb81-7a2c-4015-8bda-6e5162c36ae8",
+          "plan_name": "Wellcare Low Premium (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1416-033",
+          "parent_fpi": "cd4ee33d-e65d-51eb-9017-baefee71d11d",
+          "f_plan_id": "3e99b820-6c08-4fbb-a879-d50313481a80",
+          "plan_name": "Wellcare Dual Access Harmony (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1416-034",
+          "parent_fpi": "cd4ee33d-e65d-51eb-9017-baefee71d11d",
+          "f_plan_id": "4b16f206-5b88-4f9a-9c72-c2fc13a278f5",
+          "plan_name": "Wellcare Dual Access (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1416-035",
+          "parent_fpi": "cd4ee33d-e65d-51eb-9017-baefee71d11d",
+          "f_plan_id": "972bdf24-e4ed-49e3-8083-c0d2da321050",
+          "plan_name": "Wellcare Dual Access (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1416-042",
+          "parent_fpi": "cd4ee33d-e65d-51eb-9017-baefee71d11d",
+          "f_plan_id": "06220741-9a72-479d-962d-2272c662e0c0",
+          "plan_name": "Wellcare Assist (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1416-043",
+          "parent_fpi": "cd4ee33d-e65d-51eb-9017-baefee71d11d",
+          "f_plan_id": "70545de9-ec63-4f18-a7ff-1d7886ee3bd0",
+          "plan_name": "Wellcare Dual Liberty Nurture (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1416-044",
+          "parent_fpi": "cd4ee33d-e65d-51eb-9017-baefee71d11d",
+          "f_plan_id": "4c02a7d4-5a38-4e50-9fa0-570c385a2a19",
+          "plan_name": "Wellcare Dual Liberty (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1416-055",
+          "parent_fpi": "cd4ee33d-e65d-51eb-9017-baefee71d11d",
+          "f_plan_id": "2d580def-6f1b-4e87-9d22-48616ea102e9",
+          "plan_name": "Wellcare Simple Preferred (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1416-058",
+          "parent_fpi": "cd4ee33d-e65d-51eb-9017-baefee71d11d",
+          "f_plan_id": "3f2effea-8682-4a32-99a5-8f5fcb488fc4",
+          "plan_name": "Wellcare Patriot Giveback (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1416-060",
+          "parent_fpi": "cd4ee33d-e65d-51eb-9017-baefee71d11d",
+          "f_plan_id": "07e6e3a8-4c83-4876-8b9f-099d5967d73a",
+          "plan_name": "Wellcare Patriot Giveback (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1416-061",
+          "parent_fpi": "cd4ee33d-e65d-51eb-9017-baefee71d11d",
+          "f_plan_id": "c45799d2-a0e3-4895-ac51-22bd6671581d",
+          "plan_name": "Wellcare Patriot Giveback (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1416-064",
+          "parent_fpi": "cd4ee33d-e65d-51eb-9017-baefee71d11d",
+          "f_plan_id": "baeabb4d-0418-4245-9b7f-aba1db76593b",
+          "plan_name": "Wellcare Giveback Dividend (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1416-065",
+          "parent_fpi": "cd4ee33d-e65d-51eb-9017-baefee71d11d",
+          "f_plan_id": "78652cfd-9560-4d3e-a1da-e374bf5dac7c",
+          "plan_name": "Wellcare Giveback (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1416-068",
+          "parent_fpi": "cd4ee33d-e65d-51eb-9017-baefee71d11d",
+          "f_plan_id": "10311ea4-147a-4446-80e9-584eccfe5a51",
+          "plan_name": "Wellcare Assist (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1416-071",
+          "parent_fpi": "cd4ee33d-e65d-51eb-9017-baefee71d11d",
+          "f_plan_id": "fc3d87c4-1102-432f-a3da-2fc199c04d42",
+          "plan_name": "Wellcare Simple (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1416-072",
+          "parent_fpi": "cd4ee33d-e65d-51eb-9017-baefee71d11d",
+          "f_plan_id": "a155c1e1-87e5-4526-88ef-43fa500021fb",
+          "plan_name": "Wellcare Simple (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1416-077",
+          "parent_fpi": "cd4ee33d-e65d-51eb-9017-baefee71d11d",
+          "f_plan_id": "eb1ac62e-90d2-4192-8eaf-1c99ec344b51",
+          "plan_name": "Wellcare Simple (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1416-079",
+          "parent_fpi": "cd4ee33d-e65d-51eb-9017-baefee71d11d",
+          "f_plan_id": "3e795353-76b9-4cd2-ad49-6754698769a6",
+          "plan_name": "Wellcare Giveback (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1416-081",
+          "parent_fpi": "cd4ee33d-e65d-51eb-9017-baefee71d11d",
+          "f_plan_id": "40e9681a-dd61-4771-a689-e7aee2607e79",
+          "plan_name": "Wellcare Dual Reserve (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1416-082",
+          "parent_fpi": "cd4ee33d-e65d-51eb-9017-baefee71d11d",
+          "f_plan_id": "508550a8-0431-4f21-a94f-a71546ab642b",
+          "plan_name": "Wellcare Simple Value (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1416-083",
+          "parent_fpi": "cd4ee33d-e65d-51eb-9017-baefee71d11d",
+          "f_plan_id": "6716f6e8-f5cc-46d7-9674-dd038dd2d80a",
+          "plan_name": "Wellcare Assist (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

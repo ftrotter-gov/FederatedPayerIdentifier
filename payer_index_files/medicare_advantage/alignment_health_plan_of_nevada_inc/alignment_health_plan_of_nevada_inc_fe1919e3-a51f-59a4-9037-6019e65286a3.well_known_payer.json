@@ -1,0 +1,100 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "fe1919e3-a51f-59a4-9037-6019e65286a3",
+      "is_fpi": true,
+      "payerLegalName": "ALIGNMENT HEALTH PLAN OF NEVADA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ALIGNMENT HEALTH PLAN OF NEVADA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9686",
+      "is_fpi": false,
+      "parent_fpi": "fe1919e3-a51f-59a4-9037-6019e65286a3"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9686-004",
+          "parent_fpi": "fe1919e3-a51f-59a4-9037-6019e65286a3",
+          "f_plan_id": "b87556ed-b1dd-4d5b-9bae-51e3c8e1392c",
+          "plan_name": "Alignment Health Heart & Diabetes (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9686-005",
+          "parent_fpi": "fe1919e3-a51f-59a4-9037-6019e65286a3",
+          "f_plan_id": "d87fc5f6-9b67-4361-a452-221047ff5add",
+          "plan_name": "Alignment Health the ONE (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9686-801",
+          "parent_fpi": "fe1919e3-a51f-59a4-9037-6019e65286a3",
+          "f_plan_id": "1c5d6bbd-780e-4bf9-a8d3-56428b71d95b",
+          "plan_name": "Alignment Health Plan Retiree Options (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9686-802",
+          "parent_fpi": "fe1919e3-a51f-59a4-9037-6019e65286a3",
+          "f_plan_id": "301e4634-894b-4b61-b2c2-bdd37ba8aff8",
+          "plan_name": "Alignment Health Plan Retiree Options (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9686-803",
+          "parent_fpi": "fe1919e3-a51f-59a4-9037-6019e65286a3",
+          "f_plan_id": "85f8a549-5898-440f-8046-42922ee78157",
+          "plan_name": "Alignment Health Plan Retiree Options (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9686-804",
+          "parent_fpi": "fe1919e3-a51f-59a4-9037-6019e65286a3",
+          "f_plan_id": "998a8986-69be-4656-ae50-238805b226e3",
+          "plan_name": "Alignment Health Plan Retiree Options (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9686-006",
+          "parent_fpi": "fe1919e3-a51f-59a4-9037-6019e65286a3",
+          "f_plan_id": "f898ec2f-ad1f-4d5e-b758-81399aabbf3a",
+          "plan_name": "Alignment Health Heart & Diabetes NVPlus (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9686-007",
+          "parent_fpi": "fe1919e3-a51f-59a4-9037-6019e65286a3",
+          "f_plan_id": "dc085468-66a5-4bf6-a8c4-d175abc38cc9",
+          "plan_name": "Alignment Health Platinum + Instacart (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9686-008",
+          "parent_fpi": "fe1919e3-a51f-59a4-9037-6019e65286a3",
+          "f_plan_id": "53c7b8d8-5806-4d05-ad38-e6dc817bbb72",
+          "plan_name": "Alignment Health smartHMO (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9686-009",
+          "parent_fpi": "fe1919e3-a51f-59a4-9037-6019e65286a3",
+          "f_plan_id": "37ae8a17-cc1a-4808-aebc-3f9f100f45c1",
+          "plan_name": "Alignment Health + Intermountain Health (HMO)"
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://mpf.alignmenthealth.com/mpf-provider-directory/H9686-cms-data-index.json"
+      }
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "72a57139-c4f1-59a6-b0f0-88c8ae4d7970",
+      "is_fpi": true,
+      "payerLegalName": "MISSOURI CARE, INCORPORATED",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MISSOURI CARE, INCORPORATED"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6316",
+      "is_fpi": false,
+      "parent_fpi": "72a57139-c4f1-59a6-b0f0-88c8ae4d7970"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6316-002",
+          "parent_fpi": "72a57139-c4f1-59a6-b0f0-88c8ae4d7970",
+          "f_plan_id": "fdeb81ee-3b7b-4c68-95eb-2b598149841e",
+          "plan_name": "Healthy Blue Dual (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6316-005",
+          "parent_fpi": "72a57139-c4f1-59a6-b0f0-88c8ae4d7970",
+          "f_plan_id": "f1d11080-3d88-4c05-9b40-1cfe183a1ce7",
+          "plan_name": "Healthy Blue Full Dual Advantage (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

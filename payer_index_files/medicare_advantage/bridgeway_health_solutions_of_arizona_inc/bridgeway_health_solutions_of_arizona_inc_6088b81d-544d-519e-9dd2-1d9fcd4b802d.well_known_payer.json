@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "6088b81d-544d-519e-9dd2-1d9fcd4b802d",
+      "is_fpi": true,
+      "payerLegalName": "Bridgeway Health Solutions of Arizona, Inc.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "Bridgeway Health Solutions of Arizona, Inc."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5590",
+      "is_fpi": false,
+      "parent_fpi": "6088b81d-544d-519e-9dd2-1d9fcd4b802d"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5590-008",
+          "parent_fpi": "6088b81d-544d-519e-9dd2-1d9fcd4b802d",
+          "f_plan_id": "f5ae8550-4f70-4503-8781-2841e4eda9cf",
+          "plan_name": "Wellcare Dual Liberty Sync (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5590-010",
+          "parent_fpi": "6088b81d-544d-519e-9dd2-1d9fcd4b802d",
+          "f_plan_id": "f0000fdc-7447-410c-8546-4a676a47a10f",
+          "plan_name": "Wellcare Arizona Complete Health Dual Align (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

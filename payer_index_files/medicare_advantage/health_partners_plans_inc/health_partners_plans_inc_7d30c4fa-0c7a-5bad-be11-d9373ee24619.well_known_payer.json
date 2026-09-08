@@ -1,0 +1,84 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "7d30c4fa-0c7a-5bad-be11-d9373ee24619",
+      "is_fpi": true,
+      "payerLegalName": "HEALTH PARTNERS PLANS, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HEALTH PARTNERS PLANS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9207",
+      "is_fpi": false,
+      "parent_fpi": "7d30c4fa-0c7a-5bad-be11-d9373ee24619"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9207-002",
+          "parent_fpi": "7d30c4fa-0c7a-5bad-be11-d9373ee24619",
+          "f_plan_id": "9de0b7a2-3da1-4508-9410-1fccf9f76f66",
+          "plan_name": "Jefferson Health Plans Prime (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9207-004",
+          "parent_fpi": "7d30c4fa-0c7a-5bad-be11-d9373ee24619",
+          "f_plan_id": "b92cf3a4-1229-4795-9af7-e12d3097ba53",
+          "plan_name": "Jefferson Health Plans Special (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9207-012",
+          "parent_fpi": "7d30c4fa-0c7a-5bad-be11-d9373ee24619",
+          "f_plan_id": "ad0b9f4b-5f21-4070-ad94-2ee9668a1d62",
+          "plan_name": "Jefferson Health Plans Complete (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9207-013",
+          "parent_fpi": "7d30c4fa-0c7a-5bad-be11-d9373ee24619",
+          "f_plan_id": "845d7458-8a61-4bac-848a-8c81485d7bcf",
+          "plan_name": "Jefferson Health Plans Silver (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9207-015",
+          "parent_fpi": "7d30c4fa-0c7a-5bad-be11-d9373ee24619",
+          "f_plan_id": "a00f1f67-f821-41cf-9910-fd9de8ae0d01",
+          "plan_name": "Jefferson Health Plans Giveback (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9207-016",
+          "parent_fpi": "7d30c4fa-0c7a-5bad-be11-d9373ee24619",
+          "f_plan_id": "11270e61-5ca3-4495-9a2d-04376ad87879",
+          "plan_name": "Jefferson Health Plans Dual Pearl (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9207-017",
+          "parent_fpi": "7d30c4fa-0c7a-5bad-be11-d9373ee24619",
+          "f_plan_id": "1919d61e-210c-4daf-a91c-95dc4905f560",
+          "plan_name": "Jefferson Health Plans Select (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9207-018",
+          "parent_fpi": "7d30c4fa-0c7a-5bad-be11-d9373ee24619",
+          "f_plan_id": "f5776cb5-2f39-4c62-bbae-7a188a04d34f",
+          "plan_name": "Jefferson Health Plans Elite (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

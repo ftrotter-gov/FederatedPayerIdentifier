@@ -1,0 +1,90 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "e31a77db-4b6f-5d1c-bc27-dbb1af7d8163",
+      "is_fpi": true,
+      "payerLegalName": "UNITEDHEALTHCARE OF THE MID-ATLANTIC, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "UNITEDHEALTHCARE OF THE MID-ATLANTIC, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2445",
+      "is_fpi": false,
+      "parent_fpi": "e31a77db-4b6f-5d1c-bc27-dbb1af7d8163"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7464",
+      "is_fpi": false,
+      "parent_fpi": "e31a77db-4b6f-5d1c-bc27-dbb1af7d8163"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2445-001",
+          "parent_fpi": "e31a77db-4b6f-5d1c-bc27-dbb1af7d8163",
+          "f_plan_id": "9afe953e-3c76-47d6-8b24-51b3d1f392ac",
+          "plan_name": "UHC Dual Complete VA-Y001 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2445-002",
+          "parent_fpi": "e31a77db-4b6f-5d1c-bc27-dbb1af7d8163",
+          "f_plan_id": "cf72a98f-54fc-487c-929e-9b7b4f556186",
+          "plan_name": "UHC Dual Complete VA-Q001 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2445-003",
+          "parent_fpi": "e31a77db-4b6f-5d1c-bc27-dbb1af7d8163",
+          "f_plan_id": "a2b7c600-07e6-488a-82bc-af6bcff5123f",
+          "plan_name": "UHC Dual Complete VA-Y002 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2445-004",
+          "parent_fpi": "e31a77db-4b6f-5d1c-bc27-dbb1af7d8163",
+          "f_plan_id": "7fd0ca32-a787-4ae3-94e4-acfeb279e4ad",
+          "plan_name": "UHC Dual Complete VA-V001 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2445-005",
+          "parent_fpi": "e31a77db-4b6f-5d1c-bc27-dbb1af7d8163",
+          "f_plan_id": "e90e8434-324c-42ec-af82-8a42e028e560",
+          "plan_name": "UHC Dual Complete VA-Y3 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7464-008",
+          "parent_fpi": "e31a77db-4b6f-5d1c-bc27-dbb1af7d8163",
+          "f_plan_id": "e1274085-752f-4d9b-bac1-df2696e39a31",
+          "plan_name": "UHC Dual Complete MD-S002 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7464-010",
+          "parent_fpi": "e31a77db-4b6f-5d1c-bc27-dbb1af7d8163",
+          "f_plan_id": "ae366ac4-b633-4c6d-b085-125fb6d19cd8",
+          "plan_name": "UHC Dual Choice DC-Y001 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7464-012",
+          "parent_fpi": "e31a77db-4b6f-5d1c-bc27-dbb1af7d8163",
+          "f_plan_id": "ecb1fa02-b11d-4ca6-93b1-15f9516eb4a2",
+          "plan_name": "UHC Dual Complete MD-Q001 (HMO-POS D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

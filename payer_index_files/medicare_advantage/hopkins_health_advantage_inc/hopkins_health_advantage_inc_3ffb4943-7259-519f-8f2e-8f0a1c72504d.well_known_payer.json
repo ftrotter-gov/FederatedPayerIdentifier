@@ -1,0 +1,83 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "3ffb4943-7259-519f-8f2e-8f0a1c72504d",
+      "is_fpi": true,
+      "payerLegalName": "HOPKINS HEALTH ADVANTAGE, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HOPKINS HEALTH ADVANTAGE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1225",
+      "is_fpi": false,
+      "parent_fpi": "3ffb4943-7259-519f-8f2e-8f0a1c72504d"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3890",
+      "is_fpi": false,
+      "parent_fpi": "3ffb4943-7259-519f-8f2e-8f0a1c72504d"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1225-001",
+          "parent_fpi": "3ffb4943-7259-519f-8f2e-8f0a1c72504d",
+          "f_plan_id": "f0ba2bab-ae85-45d2-b07c-0ef494645c28",
+          "plan_name": "Johns Hopkins Advantage MD (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1225-003",
+          "parent_fpi": "3ffb4943-7259-519f-8f2e-8f0a1c72504d",
+          "f_plan_id": "063acd11-e599-4848-9339-34e2bf9c6e9a",
+          "plan_name": "Johns Hopkins Advantage MD D-SNP (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1225-004",
+          "parent_fpi": "3ffb4943-7259-519f-8f2e-8f0a1c72504d",
+          "f_plan_id": "9962426c-3414-4f3f-b100-2500a02413e8",
+          "plan_name": "Johns Hopkins Advantage MD Tribute (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3890-001",
+          "parent_fpi": "3ffb4943-7259-519f-8f2e-8f0a1c72504d",
+          "f_plan_id": "f9c2edf3-326e-47a2-813f-24ef598c104c",
+          "plan_name": "Johns Hopkins Advantage MD (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3890-002",
+          "parent_fpi": "3ffb4943-7259-519f-8f2e-8f0a1c72504d",
+          "f_plan_id": "95ddc2c0-1b05-4fa6-a0f4-4ab66e38b89a",
+          "plan_name": "Johns Hopkins Advantage MD Plus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3890-005",
+          "parent_fpi": "3ffb4943-7259-519f-8f2e-8f0a1c72504d",
+          "f_plan_id": "8811e3a1-d4e9-43f3-826f-5a4305e9cc0c",
+          "plan_name": "Johns Hopkins Advantage MD Primary (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3890-801",
+          "parent_fpi": "3ffb4943-7259-519f-8f2e-8f0a1c72504d",
+          "f_plan_id": "fbdc6564-89a6-4434-a780-183d340746db",
+          "plan_name": "Johns Hopkins Advantage MD Group Plan CY (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

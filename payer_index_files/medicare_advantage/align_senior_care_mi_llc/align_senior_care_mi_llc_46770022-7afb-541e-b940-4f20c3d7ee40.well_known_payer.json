@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "46770022-7afb-541e-b940-4f20c3d7ee40",
+      "is_fpi": true,
+      "payerLegalName": "ALIGN SENIOR CARE MI, LLC",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ALIGN SENIOR CARE MI, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6832",
+      "is_fpi": false,
+      "parent_fpi": "46770022-7afb-541e-b940-4f20c3d7ee40"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6832-001",
+          "parent_fpi": "46770022-7afb-541e-b940-4f20c3d7ee40",
+          "f_plan_id": "3fbd19ba-b2e7-4559-a23f-f80ba9a59a50",
+          "plan_name": "Senior Care (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6832-004",
+          "parent_fpi": "46770022-7afb-541e-b940-4f20c3d7ee40",
+          "f_plan_id": "6b453d70-fece-41d6-a6a5-b878a258483b",
+          "plan_name": "Premier Care (HMO-POS I-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

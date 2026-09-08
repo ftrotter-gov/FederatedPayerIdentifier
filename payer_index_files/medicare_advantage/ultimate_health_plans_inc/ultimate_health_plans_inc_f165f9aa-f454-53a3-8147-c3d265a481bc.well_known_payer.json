@@ -1,0 +1,140 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "f165f9aa-f454-53a3-8147-c3d265a481bc",
+      "is_fpi": true,
+      "payerLegalName": "ULTIMATE HEALTH PLANS, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ULTIMATE HEALTH PLANS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2962",
+      "is_fpi": false,
+      "parent_fpi": "f165f9aa-f454-53a3-8147-c3d265a481bc"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2962-001",
+          "parent_fpi": "f165f9aa-f454-53a3-8147-c3d265a481bc",
+          "f_plan_id": "4795eb91-3bf7-4e5a-9171-e8ca7c8426ad",
+          "plan_name": "Premier by Ultimate (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2962-021",
+          "parent_fpi": "f165f9aa-f454-53a3-8147-c3d265a481bc",
+          "f_plan_id": "cc7a83cd-cc24-4cda-a2f6-c6f7985c2e9e",
+          "plan_name": "Advantage Care by Ultimate (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2962-023",
+          "parent_fpi": "f165f9aa-f454-53a3-8147-c3d265a481bc",
+          "f_plan_id": "b666cc3a-2916-43c1-901e-a088c0a0a5bf",
+          "plan_name": "Advantage Care COPD by Ultimate (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2962-025",
+          "parent_fpi": "f165f9aa-f454-53a3-8147-c3d265a481bc",
+          "f_plan_id": "44184a5b-e246-4584-b060-f24efbd14f6c",
+          "plan_name": "Advantage Care COPD by Ultimate (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2962-026",
+          "parent_fpi": "f165f9aa-f454-53a3-8147-c3d265a481bc",
+          "f_plan_id": "7f7588c0-2f65-49d7-95a3-abf3b5365b58",
+          "plan_name": "Advantage Care by Ultimate (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2962-028",
+          "parent_fpi": "f165f9aa-f454-53a3-8147-c3d265a481bc",
+          "f_plan_id": "433e0249-cbc1-42ad-8f59-aced50645923",
+          "plan_name": "Premier by Ultimate (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2962-029",
+          "parent_fpi": "f165f9aa-f454-53a3-8147-c3d265a481bc",
+          "f_plan_id": "7ea5bea8-19c1-48d7-8a39-7ce8448d2857",
+          "plan_name": "Advantage Care by Ultimate (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2962-033",
+          "parent_fpi": "f165f9aa-f454-53a3-8147-c3d265a481bc",
+          "f_plan_id": "79a254dd-230c-4644-b413-a146535a1101",
+          "plan_name": "Advantage Care by Ultimate (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2962-035",
+          "parent_fpi": "f165f9aa-f454-53a3-8147-c3d265a481bc",
+          "f_plan_id": "c6db1432-739e-4650-9f4d-012432867369",
+          "plan_name": "Advantage Plus by Ultimate (Full) (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2962-036",
+          "parent_fpi": "f165f9aa-f454-53a3-8147-c3d265a481bc",
+          "f_plan_id": "0058fb27-bc04-4b6b-9c41-dcc7524d9332",
+          "plan_name": "Advantage Plus by Ultimate (Partial) (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2962-045",
+          "parent_fpi": "f165f9aa-f454-53a3-8147-c3d265a481bc",
+          "f_plan_id": "541c96a7-ffd2-46da-89be-9d9918d9b9e4",
+          "plan_name": "Premier by Ultimate (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2962-046",
+          "parent_fpi": "f165f9aa-f454-53a3-8147-c3d265a481bc",
+          "f_plan_id": "1870e81e-8530-4ca0-a5a6-8da590443e46",
+          "plan_name": "Premier by Ultimate (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2962-047",
+          "parent_fpi": "f165f9aa-f454-53a3-8147-c3d265a481bc",
+          "f_plan_id": "25554500-1785-4ab8-ace0-b9150733e8d4",
+          "plan_name": "Premier by Ultimate (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2962-050",
+          "parent_fpi": "f165f9aa-f454-53a3-8147-c3d265a481bc",
+          "f_plan_id": "ee2e953b-9b6b-4c2a-8d7f-7a432aea4103",
+          "plan_name": "Advantage Care by Ultimate (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2962-051",
+          "parent_fpi": "f165f9aa-f454-53a3-8147-c3d265a481bc",
+          "f_plan_id": "40facfd0-e07f-4406-84b7-3971b4f4c8ca",
+          "plan_name": "Advantage Care by Ultimate (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2962-052",
+          "parent_fpi": "f165f9aa-f454-53a3-8147-c3d265a481bc",
+          "f_plan_id": "f072ee29-075c-453f-9524-c802fd655095",
+          "plan_name": "Advantage Care by Ultimate (HMO C-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

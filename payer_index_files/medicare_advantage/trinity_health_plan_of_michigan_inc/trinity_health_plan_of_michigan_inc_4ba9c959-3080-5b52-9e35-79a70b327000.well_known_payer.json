@@ -1,0 +1,63 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "4ba9c959-3080-5b52-9e35-79a70b327000",
+      "is_fpi": true,
+      "payerLegalName": "TRINITY HEALTH PLAN OF MICHIGAN INC",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "TRINITY HEALTH PLAN OF MICHIGAN INC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9179",
+      "is_fpi": false,
+      "parent_fpi": "4ba9c959-3080-5b52-9e35-79a70b327000"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9179-001",
+          "parent_fpi": "4ba9c959-3080-5b52-9e35-79a70b327000",
+          "f_plan_id": "b3043235-8fbf-43fe-a293-fa150920eabf",
+          "plan_name": "Trinity Health Plan of Michigan No Premium (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9179-002",
+          "parent_fpi": "4ba9c959-3080-5b52-9e35-79a70b327000",
+          "f_plan_id": "ad9939d1-8b0d-441f-9d94-da98667f0c6f",
+          "plan_name": "Trinity Health Plan of Michigan Cash Back (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9179-003",
+          "parent_fpi": "4ba9c959-3080-5b52-9e35-79a70b327000",
+          "f_plan_id": "07b1f799-0b47-4edb-bdbb-82acc553a58f",
+          "plan_name": "Trinity Health Plan of Michigan Glory No RX (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9179-801",
+          "parent_fpi": "4ba9c959-3080-5b52-9e35-79a70b327000",
+          "f_plan_id": "376c08fa-71ad-4b90-9d42-3cb1194b7863",
+          "plan_name": "Trinity Health Plan of Michigan EGWP 1 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9179-802",
+          "parent_fpi": "4ba9c959-3080-5b52-9e35-79a70b327000",
+          "f_plan_id": "0cf77b6e-8257-4f85-9168-20dad0bf9cec",
+          "plan_name": "Trinity Health Plan of Michigan EGWP 2 (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

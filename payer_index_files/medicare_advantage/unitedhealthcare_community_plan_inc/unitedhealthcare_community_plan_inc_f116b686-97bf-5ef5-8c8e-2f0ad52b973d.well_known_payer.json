@@ -1,0 +1,62 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "f116b686-97bf-5ef5-8c8e-2f0ad52b973d",
+      "is_fpi": true,
+      "payerLegalName": "UNITEDHEALTHCARE COMMUNITY PLAN, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "UNITEDHEALTHCARE COMMUNITY PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2247",
+      "is_fpi": false,
+      "parent_fpi": "f116b686-97bf-5ef5-8c8e-2f0ad52b973d"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2736",
+      "is_fpi": false,
+      "parent_fpi": "f116b686-97bf-5ef5-8c8e-2f0ad52b973d"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2247-001",
+          "parent_fpi": "f116b686-97bf-5ef5-8c8e-2f0ad52b973d",
+          "f_plan_id": "8fb65870-dc0c-4007-b7e2-076631a71139",
+          "plan_name": "UHC Dual Complete MI-S002 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2247-003",
+          "parent_fpi": "f116b686-97bf-5ef5-8c8e-2f0ad52b973d",
+          "f_plan_id": "6a246184-1537-4af0-aa84-918c29dbec64",
+          "plan_name": "UHC Dual Complete MI-V001 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2247-004",
+          "parent_fpi": "f116b686-97bf-5ef5-8c8e-2f0ad52b973d",
+          "f_plan_id": "7d638f3b-78f5-428b-8a64-f7cb1bbf7c77",
+          "plan_name": "UHC Dual Complete MI-S3 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2247-005",
+          "parent_fpi": "f116b686-97bf-5ef5-8c8e-2f0ad52b973d",
+          "f_plan_id": "fc020dce-bbac-439b-80b8-283018ab22f6",
+          "plan_name": "UHC Dual Complete MI-Y1 (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

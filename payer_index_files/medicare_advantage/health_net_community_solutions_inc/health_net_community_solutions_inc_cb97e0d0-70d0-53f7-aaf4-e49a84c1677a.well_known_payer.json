@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "cb97e0d0-70d0-53f7-aaf4-e49a84c1677a",
+      "is_fpi": true,
+      "payerLegalName": "HEALTH NET COMMUNITY SOLUTIONS, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HEALTH NET COMMUNITY SOLUTIONS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3561",
+      "is_fpi": false,
+      "parent_fpi": "cb97e0d0-70d0-53f7-aaf4-e49a84c1677a"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3561-007",
+          "parent_fpi": "cb97e0d0-70d0-53f7-aaf4-e49a84c1677a",
+          "f_plan_id": "9c324a3e-7ecd-4d75-8166-99dd6696ae83",
+          "plan_name": "Wellcare CalViva Health Dual Align (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3561-008",
+          "parent_fpi": "cb97e0d0-70d0-53f7-aaf4-e49a84c1677a",
+          "f_plan_id": "1a9ac7f4-8c7c-4ae2-b3ec-1dd47cde30e7",
+          "plan_name": "Wellcare Health Net Dual Align (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3561-009",
+          "parent_fpi": "cb97e0d0-70d0-53f7-aaf4-e49a84c1677a",
+          "f_plan_id": "57aaca26-ac6c-405d-adbc-4e0607e1e106",
+          "plan_name": "Wellcare Dual Liberty (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "287ef078-4ee3-57e0-82a9-f4c7d1f3cc2e",
+      "is_fpi": true,
+      "payerLegalName": "PERENNIAL ADVANTAGE OF OHIO, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PERENNIAL ADVANTAGE OF OHIO, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8797",
+      "is_fpi": false,
+      "parent_fpi": "287ef078-4ee3-57e0-82a9-f4c7d1f3cc2e"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8797-001",
+          "parent_fpi": "287ef078-4ee3-57e0-82a9-f4c7d1f3cc2e",
+          "f_plan_id": "a6bcbd55-b221-4b59-8852-a6f7064cdb5e",
+          "plan_name": "Perennial Advantage Strive (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8797-003",
+          "parent_fpi": "287ef078-4ee3-57e0-82a9-f4c7d1f3cc2e",
+          "f_plan_id": "8d2a340b-20eb-4b5c-868a-c1cd1c60841c",
+          "plan_name": "Perennial Advantage Freedom (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8797-004",
+          "parent_fpi": "287ef078-4ee3-57e0-82a9-f4c7d1f3cc2e",
+          "f_plan_id": "92047341-e9fe-4723-ba8d-f21aaa5e49e0",
+          "plan_name": "Perennial Advantage Premier (HMO-POS I-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

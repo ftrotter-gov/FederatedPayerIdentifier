@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "02127131-1361-56b0-89db-124e66127a74",
+      "is_fpi": true,
+      "payerLegalName": "Molina Healthcare of Wisconsin, Inc.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "Molina Healthcare of Wisconsin, Inc."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5209",
+      "is_fpi": false,
+      "parent_fpi": "02127131-1361-56b0-89db-124e66127a74"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5209-005",
+          "parent_fpi": "02127131-1361-56b0-89db-124e66127a74",
+          "f_plan_id": "90ad1a8e-3f9f-42a8-99d7-162b3140e986",
+          "plan_name": "My Choice Wisconsin Partnership Plan (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5209-006",
+          "parent_fpi": "02127131-1361-56b0-89db-124e66127a74",
+          "f_plan_id": "885a2f1c-ed35-4b7b-907e-804694e007a0",
+          "plan_name": "My Choice Wisconsin Medicare Dual Advantage Plan (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

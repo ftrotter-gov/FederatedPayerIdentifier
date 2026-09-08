@@ -1,0 +1,41 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "2e9a30eb-6366-5776-9092-8e101adf0d63",
+      "is_fpi": true,
+      "payerLegalName": "HAWAII MEDICAL SERVICE ASSOCIATION (HMSA)",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HAWAII MEDICAL SERVICE ASSOCIATION (HMSA)"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2561",
+      "is_fpi": false,
+      "parent_fpi": "2e9a30eb-6366-5776-9092-8e101adf0d63"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8481",
+      "is_fpi": false,
+      "parent_fpi": "2e9a30eb-6366-5776-9092-8e101adf0d63"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8481-001",
+          "parent_fpi": "2e9a30eb-6366-5776-9092-8e101adf0d63",
+          "f_plan_id": "dbd80b73-2e64-49b3-883f-0f31c09e6feb",
+          "plan_name": "HMSA Akamai Advantage Dual Care (PPO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

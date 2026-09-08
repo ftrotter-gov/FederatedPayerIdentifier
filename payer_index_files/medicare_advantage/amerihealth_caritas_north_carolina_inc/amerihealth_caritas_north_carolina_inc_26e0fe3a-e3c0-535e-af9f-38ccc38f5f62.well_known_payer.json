@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "26e0fe3a-e3c0-535e-af9f-38ccc38f5f62",
+      "is_fpi": true,
+      "payerLegalName": "AMERIHEALTH CARITAS NORTH CAROLINA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "AMERIHEALTH CARITAS NORTH CAROLINA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8212",
+      "is_fpi": false,
+      "parent_fpi": "26e0fe3a-e3c0-535e-af9f-38ccc38f5f62"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8212-001",
+          "parent_fpi": "26e0fe3a-e3c0-535e-af9f-38ccc38f5f62",
+          "f_plan_id": "c21bd361-e1b1-472c-a266-2ebf875ef0e5",
+          "plan_name": "AmeriHealth Caritas VIP Care (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

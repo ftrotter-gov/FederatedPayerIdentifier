@@ -1,0 +1,79 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "45b83526-1da0-5f5d-8b04-feaec9ec3a28",
+      "is_fpi": true,
+      "payerLegalName": "CHAMPION HEALTH PLAN OF NEVADA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CHAMPION HEALTH PLAN OF NEVADA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6474",
+      "is_fpi": false,
+      "parent_fpi": "45b83526-1da0-5f5d-8b04-feaec9ec3a28"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6474-001",
+          "parent_fpi": "45b83526-1da0-5f5d-8b04-feaec9ec3a28",
+          "f_plan_id": "08db59b9-377e-4768-894d-1329b3c0cd4e",
+          "plan_name": "Champion Advantage (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6474-002",
+          "parent_fpi": "45b83526-1da0-5f5d-8b04-feaec9ec3a28",
+          "f_plan_id": "40850e9e-9259-4835-9a80-c6007b9361a3",
+          "plan_name": "Champion Connect (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6474-003",
+          "parent_fpi": "45b83526-1da0-5f5d-8b04-feaec9ec3a28",
+          "f_plan_id": "2a1d4a82-0818-400a-9538-95cb43653a59",
+          "plan_name": "Champion Select (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6474-007",
+          "parent_fpi": "45b83526-1da0-5f5d-8b04-feaec9ec3a28",
+          "f_plan_id": "16bc9ab9-9560-4dd9-84d5-b247d02878f2",
+          "plan_name": "Champion Ally (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6474-008",
+          "parent_fpi": "45b83526-1da0-5f5d-8b04-feaec9ec3a28",
+          "f_plan_id": "d53c2dc8-f0e5-4ccc-aef4-4ead054c455f",
+          "plan_name": "Champion Care (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6474-009",
+          "parent_fpi": "45b83526-1da0-5f5d-8b04-feaec9ec3a28",
+          "f_plan_id": "8f5c9389-256c-44b1-a09e-dc7fc718a775",
+          "plan_name": "Champion Choice (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6474-010",
+          "parent_fpi": "45b83526-1da0-5f5d-8b04-feaec9ec3a28",
+          "f_plan_id": "13d67853-f12d-4040-8811-e8455a8a347c",
+          "plan_name": "Champion Plus (HMO C-SNP)"
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://championhmo.com/public_html/provider-directory/NV/index.json"
+      }
+    }
+  ],
+  "is_seeded": true
+}

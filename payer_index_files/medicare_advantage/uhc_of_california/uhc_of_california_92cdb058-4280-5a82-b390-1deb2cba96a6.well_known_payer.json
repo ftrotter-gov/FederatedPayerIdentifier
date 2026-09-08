@@ -1,0 +1,350 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+      "is_fpi": true,
+      "payerLegalName": "UHC OF CALIFORNIA",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "UHC OF CALIFORNIA"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0543",
+      "is_fpi": false,
+      "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-013",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "b63742fc-c91c-4442-b932-2b4520585f5d",
+          "plan_name": "AARP Medicare Advantage from UHC CA-0001 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-019",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "dfb5ea3d-0361-484d-9b9c-0a1814a41371",
+          "plan_name": "AARP Medicare Advantage from UHC CA-0002 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-035",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "3bf263c4-a2b0-4553-ac1d-dde529cadfe0",
+          "plan_name": "AARP Medicare Advantage from UHC CA-0005 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-060",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "15296ee2-f7f2-46c9-b518-536e4bf6743f",
+          "plan_name": "AARP Medicare Advantage from UHC CA-0007 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-086",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "184134e6-9752-43e0-acb5-0b3a75ae1f5e",
+          "plan_name": "AARP Medicare Advantage from UHC CA-0008 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-121",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "47ccbd0c-c958-4a81-987a-1f2d7e11350e",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx CA-MA01 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-140",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "c7ecd66d-68f7-4825-94d5-d68108e4d186",
+          "plan_name": "AARP Medicare Advantage from UHC CA-0010 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-145",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "112ad5ce-9675-42e0-9a02-55645a46d7d6",
+          "plan_name": "UHC Sharp Medicare Advantage CA-001P (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-151",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "23d3e292-bfff-455f-9082-a4e7fd299c68",
+          "plan_name": "AARP Medicare Advantage from UHC CA-003P (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-152",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "74b8e4ea-5552-4f41-b607-44a6566a77e5",
+          "plan_name": "AARP Medicare Advantage from UHC CA-0012 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-166",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "93dab7b4-7c94-422d-8f68-a81e934a0ceb",
+          "plan_name": "AARP Medicare Advantage from UHC CA-0015 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-168",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "970bee99-b84b-4d37-8be3-3a74d12696c9",
+          "plan_name": "AARP Medicare Advantage from UHC CA-004P (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-169",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "6bd365a4-ac7c-4ad5-a176-cdf45457aec6",
+          "plan_name": "AARP Medicare Advantage from UHC CA-005P (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-170",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "96826361-f54a-4a72-bf29-f2061cf80327",
+          "plan_name": "AARP Medicare Advantage from UHC CA-006P (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-188",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "d36bd67a-3694-4abe-b06e-355f03bd2ba4",
+          "plan_name": "AARP Medicare Advantage from UHC CA-7 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-189",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "3a40731b-cb93-4e29-ae41-5af53a727590",
+          "plan_name": "AARP Medicare Advantage from UHC CA-8 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-191",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "67e8aeb8-2dbf-4290-b769-23a2892c13de",
+          "plan_name": "AARP Medicare Advantage from UHC CA-9 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-193",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "544b313e-62c3-49ac-9de8-6e15d59543a5",
+          "plan_name": "AARP Medicare Advantage from UHC CA-10 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-204",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "36318510-a13d-4449-b3a1-912bc7779a83",
+          "plan_name": "UHC Sharp Medicare Advantage ValueRx CA-12P (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-214",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "734cd79f-bf54-48ad-bffb-ab2d11a26218",
+          "plan_name": "UHC Complete Care CA-15P (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-217",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "7e62eb96-b8e5-4d9e-a974-caa044605485",
+          "plan_name": "UHC Complete Care CA-18P (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-218",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "3ae7b585-ec27-4b44-8d18-0f842750c00e",
+          "plan_name": "UHC Complete Care CA-19P (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-219",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "e45bbcfd-17c1-4022-9a38-b9284e232874",
+          "plan_name": "UHC Complete Care CA-20P (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-220",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "d7bd67af-89c3-4426-b7d0-cd2f1bd981c7",
+          "plan_name": "AARP Medicare Advantage from UHC CA-021P (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-221",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "b5f21c7d-4c28-46be-9141-2e630acb71d8",
+          "plan_name": "AARP Medicare Advantage from UHC CA-022P (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-222",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "bd8bf16d-4632-4fc8-822a-33f57e2afd1e",
+          "plan_name": "AARP Medicare Advantage from UHC CA-023P (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-225",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "49a2defc-5372-43a8-95ce-980b248fb5e9",
+          "plan_name": "AARP Medicare Advantage from UHC CA-026P (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-226",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "1a670bbc-568f-4adc-8918-03d37c4d12e1",
+          "plan_name": "UHC Complete Care CA-27P (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-232",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "75d7799b-31b4-45da-a5f8-b0da83975854",
+          "plan_name": "AARP Medicare Advantage from UHC CA-33 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-236",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "5f4f005d-1818-42d9-85f9-32bb27ee2c0a",
+          "plan_name": "AARP Medicare Advantage Giveback from UHC CA-19 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-237",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "a24e53cf-cbcb-4588-ba7d-1e35490caf6e",
+          "plan_name": "AARP Medicare Advantage Giveback from UHC CA-20 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-238",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "2c3c6612-5f5d-4483-a6c3-cb5dcad43b20",
+          "plan_name": "AARP Medicare Advantage Giveback from UHC CA-21 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-239",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "3a7a2486-e80f-405d-9324-d3176f0a0eb8",
+          "plan_name": "UHC Complete Care Support CA-1AP (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-240",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "87e6d611-976e-469e-91cf-9e7cdb81e136",
+          "plan_name": "UHC Complete Care Support CA-2AP (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-241",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "5e9cda48-2659-45a5-b02f-fb789268aa94",
+          "plan_name": "UHC Complete Care Support CA-3AP (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-242",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "7b24a3e3-f143-4377-94a5-ec8aac086d6f",
+          "plan_name": "UHC Complete Care Support CA-4AP (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-246",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "242140b6-ce58-41d5-b669-681811d9d9f7",
+          "plan_name": "UHC Complete Care Support CA-6AP (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-249",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "03dd64c9-853f-4bf7-ab95-0e9b2f626a95",
+          "plan_name": "UHC Complete Care Support CA-8AP (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-251",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "abb3131e-f878-428e-bf6d-1fe65b0da7f4",
+          "plan_name": "AARP Medicare Advantage from UHC CA-37 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-802",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "dfa14dab-9d41-458d-9c40-c29ff54c4b4e",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-805",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "9a71ebaf-90bf-4601-b182-708b48edf74a",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-806",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "6b0935b7-4842-4a5f-89a6-36b06c8327e7",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-254",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "1b26fac6-12b4-40de-9945-f68798acd65f",
+          "plan_name": "AARP Medicare Advantage from UHC CA-43 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-255",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "09262b90-d64c-41c5-9a51-ab7afee13541",
+          "plan_name": "AARP Medicare Advantage from UHC CA-44 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-258",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "2a22983a-f320-4e08-b375-43d08a6528a7",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx CA-MA2 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-810",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "90f9dce2-3ad1-4068-aff8-34514ca3c35b",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -8,6 +8,35 @@ Previous approach: one file per contract_id, FPI derived from contract_id.
 Current approach:  one file per unique *normalized payer name*, FPI derived
                    from the LEGAL_NAME_HASH identifier system.
 
+Endpoint coverage
+-----------------
+The plan census in PlanCrosswalk2026_10012025.csv is the primary source: every
+payer that has plans in the crosswalk gets a seed file, whether or not an
+endpoint URL is known for it.  payer_url_list.csv contributes two things and
+only two things: the payer legal name attached to each contract ID, and (when
+present and usable) a provider directory endpoint URL.
+
+Two response formats in that file yield usable endpoints, each recorded under
+its own key in plan_endpoints:
+
+* "FHIR JSON" -> davinci_pdex_provider_directory_endpoint#1.1
+* "Machine-readable JSON" -> cms_provider_directory_machine_readable_format_endpoint
+  (the non-FHIR CMS provider directory index file; see
+  reference_data/endpoint_types.json)
+
+A contract whose URL cell is empty, or that lists several space-separated URLs
+(no multi-URL strategy is defined yet), still produces a seed file.  Its
+plan_group simply carries an empty "plan_endpoints" object, which per
+WellKnownFileFormat.md means the index makes no assertion about that payer's
+endpoints yet.  These "empty" seed files exist so that the FPI, the contract
+IDs, and the plan roster are published and curatable now, with endpoints filled
+in later.
+
+A contract that appears in the crosswalk but never in payer_url_list.csv has no
+legal name anywhere in the source data.  Since the FPI is a hash of the legal
+name, and contract IDs must never be used as an FPI source, such contracts
+cannot be seeded; they are counted and reported at the end of the run.
+
 The legal name is the only payer attribute reliably available to CMS at seed
 time, so the seed hashes it — a temporary hack until payers publish FPIs
 derived from real identifier systems (NAIC_ID, HIOS_ID, LEI, etc.).
@@ -57,8 +86,16 @@ SYSTEM_LEGAL_NAME_HASH = "https://directory.cms.gov/payer_identification_system/
 SYSTEM_MEDICARE_PLAN = "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id"
 RESOURCE_TYPE = "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition"
 
-# The only endpoint type extractable from this data source.
+# Endpoint keys extractable from this data source, selected per row by the
+# "Response Format" column of payer_url_list.csv.
+#
+# FHIR JSON rows point at a Da Vinci PDex Plan-Net provider directory server.
 ENDPOINT_KEY = "davinci_pdex_provider_directory_endpoint#1.1"
+# Machine-readable JSON rows point at the non-FHIR CMS provider directory index
+# file (the format first used for healthcare.gov, later adopted for Medicare
+# Advantage).  See reference_data/endpoint_types.json.  It carries no IG version,
+# so like "payer_homepage" the key has no "#version" suffix.
+MACHINE_READABLE_ENDPOINT_KEY = "cms_provider_directory_machine_readable_format_endpoint"
 
 # System ID used as the FPI namespace when deriving identifiers from payer names.
 # LEGAL_NAME_HASH is the hashing system defined in
@@ -84,13 +121,23 @@ def parse_contract_id_field(field_value):
 
 
 def load_payer_urls(filepath):
-    """Read the payer URL CSV and return a dict of contract_id -> {payer_name, url}, skipping unusable rows."""
+    """Read the payer URL CSV and return a dict of contract_id -> {payer_name, url}.
+
+    Every row that yields a contract ID and a payer name is kept, because the
+    payer name is what the FPI is hashed from and is therefore the one piece of
+    data this seed cannot proceed without.  The URL is optional: rows whose URL
+    is unusable (empty, machine-readable JSON, or several URLs in one cell) are
+    kept with url set to "" so the payer still gets a seed file, just one that
+    asserts no endpoint.
+    """
     payers = {}
     stats = {
         "total": 0,
-        "skipped_machine_readable": 0,
-        "skipped_empty_url": 0,
-        "skipped_multi_url": 0,
+        "no_url": 0,
+        "machine_readable": 0,
+        "multi_url": 0,
+        "skipped_no_contract_id": 0,
+        "with_url": 0,
         "processed": 0,
     }
 
@@ -103,27 +150,37 @@ def load_payer_urls(filepath):
             url = row.get("URL", "").strip()
             contract_id_field = row.get("Contract ID", "").strip()
 
-            # Machine-readable JSON rows have a different format and are excluded per spec.
-            if response_format.lower() == "machine-readable json":
-                stats["skipped_machine_readable"] += 1
-                continue
-
-            # Rows with no URL provide nothing useful.
-            if not url:
-                stats["skipped_empty_url"] += 1
-                continue
-
-            # Rows with multiple space-separated URLs are skipped until a multi-URL strategy is defined.
-            if " " in url:
-                stats["skipped_multi_url"] += 1
-                continue
-
+            # Without a contract ID the row cannot be joined to the crosswalk,
+            # and without a payer name there is nothing to hash into an FPI.
             contract_id, payer_name = parse_contract_id_field(contract_id_field)
-            if not contract_id:
-                stats["skipped_empty_url"] += 1
+            if not contract_id or not payer_name:
+                stats["skipped_no_contract_id"] += 1
                 continue
 
-            payers[contract_id] = {"payer_name": payer_name, "url": url}
+            # Decide whether the URL cell is usable, and which endpoint key it
+            # belongs under.  An unusable URL is not a reason to drop the payer —
+            # it only means this seed asserts no endpoint for it.
+            endpoint_key = ENDPOINT_KEY
+            if not url:
+                stats["no_url"] += 1
+                url = ""
+            elif " " in url:
+                # Multiple space-separated URLs; no multi-URL strategy defined yet.
+                stats["multi_url"] += 1
+                url = ""
+            elif response_format.lower() == "machine-readable json":
+                # Not a FHIR endpoint: this is the CMS machine-readable provider
+                # directory index file, published under its own endpoint key.
+                stats["machine_readable"] += 1
+                endpoint_key = MACHINE_READABLE_ENDPOINT_KEY
+            else:
+                stats["with_url"] += 1
+
+            payers[contract_id] = {
+                "payer_name": payer_name,
+                "url": url,
+                "endpoint_key": endpoint_key,
+            }
             stats["processed"] += 1
 
     return payers, stats
@@ -169,7 +226,7 @@ def group_payers_by_name(payers):
             {
                 "canonical_name": str,          # first raw name seen (sorted by contract_id)
                 "contracts": [                  # all contracts sharing this normalized name
-                    {"contract_id": str, "url": str},
+                    {"contract_id": str, "url": str, "endpoint_key": str},
                     ...
                 ]
             }
@@ -186,12 +243,17 @@ def group_payers_by_name(payers):
                 "canonical_name": payer_name,
                 "contracts": [],
             }
-        groups[norm]["contracts"].append({"contract_id": contract_id, "url": url})
+        groups[norm]["contracts"].append({
+            "contract_id": contract_id,
+            "url": url,
+            "endpoint_key": info.get("endpoint_key", ENDPOINT_KEY),
+        })
 
     return groups
 
 
-def build_well_known_json(normalized_name, canonical_name, contract_entries, crosswalk):
+def build_well_known_json(normalized_name, canonical_name, contract_entries, crosswalk,
+                          existing_f_plan_ids=None):
     """
     Construct the well-known payer JSON document for one logical payer.
 
@@ -210,6 +272,10 @@ def build_well_known_json(normalized_name, canonical_name, contract_entries, cro
         Each entry has "contract_id" and "url".
     crosswalk : dict[str, list]
         Maps contract_id -> list of {plan_id, plan_name} dicts.
+    existing_f_plan_ids : dict[str, str] | None
+        Maps an already-published plan identifier value (e.g. "H3146-001") to the
+        f_plan_id previously assigned to it, so that value is preserved instead
+        of being randomly regenerated.
 
     Returns
     -------
@@ -221,6 +287,7 @@ def build_well_known_json(normalized_name, canonical_name, contract_entries, cro
     # the pre-normalized name.  That means the recorded "fpi_source_value"
     # below (the raw legal name) genuinely reproduces the FPI.
     fpi = generate_fpi(system_id=FPI_SYSTEM_ID, payer_id_value=canonical_name)
+    existing_f_plan_ids = existing_f_plan_ids or {}
 
     # Build the identifier block.
     #
@@ -247,23 +314,32 @@ def build_well_known_json(normalized_name, canonical_name, contract_entries, cro
             "parent_fpi": fpi,
         })
 
-    # Group plans by endpoint URL so that each distinct URL becomes its own plan_group.
-    url_to_plans = {}   # url -> list of {contract_plan_id, plan_name}
+    # Group plans by (endpoint key, endpoint URL) so that each distinct endpoint
+    # becomes its own plan_group.  The key is part of the bucket identity because
+    # the same payer could publish a FHIR directory for one contract and a CMS
+    # machine-readable index for another; those must not be merged.  The
+    # empty-URL bucket is the "endpoint unknown" case: those plans are still
+    # published, in a plan_group that asserts no endpoint.
+    endpoint_to_plans = {}   # (endpoint_key, url) -> list of {contract_plan_id, plan_name}
     for entry in contract_entries:
         contract_id = entry["contract_id"]
         url = entry["url"]
+        # An empty URL asserts nothing, so it collapses into a single bucket
+        # regardless of which key the row would otherwise have used.
+        bucket = (entry.get("endpoint_key", ENDPOINT_KEY), url) if url else ("", "")
         plans = crosswalk.get(contract_id, [])
-        if url not in url_to_plans:
-            url_to_plans[url] = []
+        if bucket not in endpoint_to_plans:
+            endpoint_to_plans[bucket] = []
         # Deduplicate plans within the same endpoint bucket.
-        seen_plan_keys = {(p["contract_plan_id"], p["plan_name"]) for p in url_to_plans[url]}
+        seen_plan_keys = {(p["contract_plan_id"], p["plan_name"])
+                          for p in endpoint_to_plans[bucket]}
         for plan in plans:
             # The full Medicare plan identifier is the contract number plus the
             # plan segment, joined by a hyphen (e.g. "H3146-001").
             contract_plan_id = f"{contract_id}-{plan['plan_id']}"
             key = (contract_plan_id, plan["plan_name"])
             if key not in seen_plan_keys:
-                url_to_plans[url].append({
+                endpoint_to_plans[bucket].append({
                     "contract_plan_id": contract_plan_id,
                     "plan_name": plan["plan_name"],
                 })
@@ -271,7 +347,7 @@ def build_well_known_json(normalized_name, canonical_name, contract_entries, cro
 
     plan_groups = []
     total_plans = 0
-    for url, plans in sorted(url_to_plans.items()):
+    for (endpoint_key, url), plans in sorted(endpoint_to_plans.items()):
         plan_identifiers = []
         for plan in plans:
             entry = {
@@ -279,16 +355,24 @@ def build_well_known_json(normalized_name, canonical_name, contract_entries, cro
                 "value": plan["contract_plan_id"],
                 # parent_fpi links this plan to the owning FPI (validation rule 5 & 6).
                 "parent_fpi": fpi,
-                # f_plan_id is a randomly-generated UUIDv4 unique to this plan entry.
-                # It is regenerated on every seed run; curated files may later stabilise it.
-                "f_plan_id": str(uuid.uuid4()),
+                # f_plan_id is a UUIDv4 unique to this plan entry.  It is minted
+                # once and then reused on later runs (see load_existing_f_plan_ids)
+                # so that re-seeding does not churn every published plan entry.
+                "f_plan_id": existing_f_plan_ids.get(
+                    plan["contract_plan_id"], str(uuid.uuid4())
+                ),
             }
             if plan["plan_name"]:
                 entry["plan_name"] = plan["plan_name"]
             plan_identifiers.append(entry)
+        # An empty url means no endpoint is known for these plans.  Per
+        # WellKnownFileFormat.md, omitting an endpoint key means the index makes
+        # no assertion for that protocol, so the key is left out entirely rather
+        # than written as null or as an empty string.
+        plan_endpoints = {endpoint_key: url} if url else {}
         plan_groups.append({
             "plan_identifiers": plan_identifiers,
-            "plan_endpoints": {ENDPOINT_KEY: url},
+            "plan_endpoints": plan_endpoints,
         })
         total_plans += len(plan_identifiers)
 
@@ -322,8 +406,8 @@ SEED_PLAN_GROUP_KEYS = {"plan_identifiers", "plan_endpoints"}
 SEED_IDENTIFIER_KEYS = {"system", "value", "is_fpi", "parent_fpi", "payerLegalName",
                         "fpi_source_system", "fpi_source_value"}
 
-# Endpoint keys the seed ever writes (one per plan_group).
-SEED_ENDPOINT_KEYS = {ENDPOINT_KEY}
+# Endpoint keys the seed ever writes (at most one per plan_group).
+SEED_ENDPOINT_KEYS = {ENDPOINT_KEY, MACHINE_READABLE_ENDPOINT_KEY}
 
 
 def collect_extra_fields(existing_doc, seed_doc):
@@ -361,6 +445,35 @@ def collect_extra_fields(existing_doc, seed_doc):
                 extras.append(f"plan_groups[{gi}].plan_endpoints key '{ep_key}'")
 
     return extras
+
+
+def load_existing_f_plan_ids(*, output_dir: str) -> dict:
+    """Return a mapping of plan identifier value -> f_plan_id already on disk for this payer.
+
+    f_plan_id is a random UUIDv4 with no derivable source, so regenerating it on
+    every run would rewrite every plan entry in every file and bury real changes
+    in churn.  Downstream consumers may also have stored these values.  The seed
+    therefore reuses any f_plan_id it has already published for a given plan and
+    mints a new one only for plans it has not seen before.
+    """
+    existing = {}
+    if not os.path.isdir(output_dir):
+        return existing
+    for existing_name in sorted(os.listdir(output_dir)):
+        if not existing_name.endswith(".well_known_payer.json"):
+            continue
+        try:
+            with open(os.path.join(output_dir, existing_name), encoding="utf-8") as existing_file:
+                existing_doc = json.load(existing_file)
+        except (json.JSONDecodeError, OSError):
+            continue
+        for group in existing_doc.get("plan_groups", []):
+            for plan_entry in group.get("plan_identifiers", []):
+                value = plan_entry.get("value")
+                f_plan_id = plan_entry.get("f_plan_id")
+                if value and f_plan_id:
+                    existing.setdefault(value, f_plan_id)
+    return existing
 
 
 def directory_contains_curated_file(*, output_dir: str) -> bool:
@@ -449,6 +562,14 @@ def main():
     print("  Multiple contract IDs sharing the same normalized name are merged")
     print("  into a single well-known JSON file under one FPI.")
     print()
+    print("Coverage: every payer with plans in the crosswalk is seeded.  Payers")
+    print("  with no usable endpoint URL get a file whose plan_group asserts no")
+    print("  endpoint, so their FPI and plan roster are still published.")
+    print()
+    print("Endpoint keys written:")
+    print(f"  FHIR JSON             -> {ENDPOINT_KEY}")
+    print(f"  Machine-readable JSON -> {MACHINE_READABLE_ENDPOINT_KEY}")
+    print()
 
     print(f"Loading payer URL list from:\n  {PAYER_URL_FILE}")
     payers, url_stats = load_payer_urls(PAYER_URL_FILE)
@@ -465,9 +586,17 @@ def main():
     print(f"  → {len(payers) - len(name_groups)} contract(s) consolidated by shared name")
     print()
 
+    # Contracts that carry plans in the crosswalk but never appear in the payer
+    # URL list have no legal name in any source file.  The FPI is a hash of the
+    # legal name and contract IDs must never be used as an FPI source, so these
+    # cannot be seeded.  They are reported so the gap stays visible.
+    unnamed_contracts = sorted(set(crosswalk) - set(payers))
+    unnamed_plan_count = sum(len(crosswalk[c]) for c in unnamed_contracts)
+
     files_written = 0
     files_skipped_enriched = 0
     payers_no_plans = 0
+    files_without_endpoint = 0
 
     for normalized_name, group in sorted(name_groups.items()):
         canonical_name = group["canonical_name"]
@@ -483,8 +612,14 @@ def main():
             print(f"  [{contract_ids}] {canonical_name}  -- SKIPPED (no crosswalk plans)")
             continue
 
+        # Reuse f_plan_id values already published for this payer so that
+        # re-running the seed does not churn every existing plan entry.
+        payer_dir = os.path.join(OUTPUT_BASE_DIR, safe_name(canonical_name))
+        existing_f_plan_ids = load_existing_f_plan_ids(output_dir=payer_dir)
+
         doc, fpi, plan_count = build_well_known_json(
-            normalized_name, canonical_name, contract_entries, crosswalk
+            normalized_name, canonical_name, contract_entries, crosswalk,
+            existing_f_plan_ids=existing_f_plan_ids,
         )
         filepath, skipped = write_output_file(doc, canonical_name, fpi)
 
@@ -499,22 +634,39 @@ def main():
             files_written += 1
             n_contracts = len(contract_entries)
             n_groups = len(doc["plan_groups"])
-            print(f"       Contracts: {n_contracts}, Plan groups: {n_groups}, Plans: {plan_count}, FPI: {fpi}")
+            has_endpoint = any(g["plan_endpoints"] for g in doc["plan_groups"])
+            if not has_endpoint:
+                files_without_endpoint += 1
+            endpoint_note = "" if has_endpoint else "  [no endpoint known]"
+            print(f"       Contracts: {n_contracts}, Plan groups: {n_groups}, "
+                  f"Plans: {plan_count}, FPI: {fpi}{endpoint_note}")
 
     print()
     print("=" * 60)
     print("SUMMARY")
     print("=" * 60)
     print(f"  Total rows in payer URL list:          {url_stats['total']}")
-    print(f"  Skipped (machine-readable JSON):       {url_stats['skipped_machine_readable']}")
-    print(f"  Skipped (empty URL):                   {url_stats['skipped_empty_url']}")
-    print(f"  Skipped (multiple URLs):               {url_stats['skipped_multi_url']}")
+    print(f"  Rows with no contract ID / name:       {url_stats['skipped_no_contract_id']}")
     print(f"  Processed contract IDs:                {url_stats['processed']}")
+    print(f"    ...FHIR provider directory URL:      {url_stats['with_url']}")
+    print(f"    ...CMS machine-readable index URL:   {url_stats['machine_readable']}")
+    print(f"    ...with an empty URL cell:           {url_stats['no_url']}")
+    print(f"    ...multiple URLs (no URL used):      {url_stats['multi_url']}")
     print(f"  Unique normalized payer names:         {len(name_groups)}")
     print(f"  Contracts merged by shared name:       {url_stats['processed'] - len(name_groups)}")
     print(f"  Payer names with no crosswalk plans:   {payers_no_plans}")
     print(f"  Well-known JSON files written:         {files_written}")
+    print(f"    ...of those, asserting no endpoint:  {files_without_endpoint}")
     print(f"  Skipped (enriched beyond seed data):   {files_skipped_enriched}")
+    print()
+    print(f"  Crosswalk contracts with no legal name in the payer URL list:")
+    print(f"    Contracts: {len(unnamed_contracts)}, Plans: {unnamed_plan_count}")
+    print(f"    These cannot be seeded: the FPI is a hash of the payer legal")
+    print(f"    name, and a contract ID must never be used as an FPI source.")
+    if unnamed_contracts:
+        preview = ", ".join(unnamed_contracts[:12])
+        suffix = ", ..." if len(unnamed_contracts) > 12 else ""
+        print(f"    e.g. {preview}{suffix}")
     print()
 
 

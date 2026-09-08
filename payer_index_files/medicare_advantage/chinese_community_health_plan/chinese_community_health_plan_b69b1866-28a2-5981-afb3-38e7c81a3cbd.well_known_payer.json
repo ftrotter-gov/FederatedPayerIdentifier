@@ -1,0 +1,63 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "b69b1866-28a2-5981-afb3-38e7c81a3cbd",
+      "is_fpi": true,
+      "payerLegalName": "CHINESE COMMUNITY HEALTH PLAN",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CHINESE COMMUNITY HEALTH PLAN"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0571",
+      "is_fpi": false,
+      "parent_fpi": "b69b1866-28a2-5981-afb3-38e7c81a3cbd"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0571-001",
+          "parent_fpi": "b69b1866-28a2-5981-afb3-38e7c81a3cbd",
+          "f_plan_id": "621e0db3-1f9f-4810-a482-cddfffc38007",
+          "plan_name": "CCHP Senior Program (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0571-005",
+          "parent_fpi": "b69b1866-28a2-5981-afb3-38e7c81a3cbd",
+          "f_plan_id": "b5e47c8a-a103-401b-ad04-f6f7aa06d049",
+          "plan_name": "CCHP Senior Select Program (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0571-007",
+          "parent_fpi": "b69b1866-28a2-5981-afb3-38e7c81a3cbd",
+          "f_plan_id": "105ee23e-a92d-48b8-942f-a423e498f02a",
+          "plan_name": "CCHP Senior Value Program (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0571-010",
+          "parent_fpi": "b69b1866-28a2-5981-afb3-38e7c81a3cbd",
+          "f_plan_id": "a30c67c6-e772-4fd9-a6b8-731e6f12bd9b",
+          "plan_name": "CCHP Senior Program (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0571-011",
+          "parent_fpi": "b69b1866-28a2-5981-afb3-38e7c81a3cbd",
+          "f_plan_id": "902788c3-a549-4041-b249-5df1b2c9318c",
+          "plan_name": "CCHP Senior Value Program (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

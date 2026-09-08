@@ -1,0 +1,48 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "90603419-0c53-551b-95b6-ae6697c8a4bc",
+      "is_fpi": true,
+      "payerLegalName": "COMMUNITY HEALTH GROUP",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "COMMUNITY HEALTH GROUP"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4733",
+      "is_fpi": false,
+      "parent_fpi": "90603419-0c53-551b-95b6-ae6697c8a4bc"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6248",
+      "is_fpi": false,
+      "parent_fpi": "90603419-0c53-551b-95b6-ae6697c8a4bc"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4733-001",
+          "parent_fpi": "90603419-0c53-551b-95b6-ae6697c8a4bc",
+          "f_plan_id": "6e5f010c-a85d-4cc7-98b2-a9e802dd298b",
+          "plan_name": "CommuniCare Advantage (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6248-001",
+          "parent_fpi": "90603419-0c53-551b-95b6-ae6697c8a4bc",
+          "f_plan_id": "32357424-f8ea-4b35-8403-577560c81204",
+          "plan_name": "Community y M\u00e1s (HMO C-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

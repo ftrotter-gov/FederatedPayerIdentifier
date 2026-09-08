@@ -1,0 +1,77 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "e8af7381-fdae-5781-b158-48587617ace4",
+      "is_fpi": true,
+      "payerLegalName": "ASTIVA HEALTH, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ASTIVA HEALTH, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1993",
+      "is_fpi": false,
+      "parent_fpi": "e8af7381-fdae-5781-b158-48587617ace4"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1993-001",
+          "parent_fpi": "e8af7381-fdae-5781-b158-48587617ace4",
+          "f_plan_id": "4fcf52fa-6d3f-4375-86c4-2ef600e0ab32",
+          "plan_name": "Astiva Health Savings Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1993-007",
+          "parent_fpi": "e8af7381-fdae-5781-b158-48587617ace4",
+          "f_plan_id": "4e98e9dc-2fbc-449b-b50d-f01538183add",
+          "plan_name": "Astiva Health C-SNP Deluxe (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1993-008",
+          "parent_fpi": "e8af7381-fdae-5781-b158-48587617ace4",
+          "f_plan_id": "f94201e3-2d19-4bdb-bde8-9837c94839d7",
+          "plan_name": "Astiva Health C-SNP WOW (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1993-011",
+          "parent_fpi": "e8af7381-fdae-5781-b158-48587617ace4",
+          "f_plan_id": "9835db8c-8400-4525-a46b-220faf779ae8",
+          "plan_name": "Astiva Health Savings Plan - NorCal (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1993-012",
+          "parent_fpi": "e8af7381-fdae-5781-b158-48587617ace4",
+          "f_plan_id": "f1898bd8-e57e-42a6-ab98-3f4f93b1ac46",
+          "plan_name": "Astiva Health Premier Plan - NorCal (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1993-013",
+          "parent_fpi": "e8af7381-fdae-5781-b158-48587617ace4",
+          "f_plan_id": "689e85af-4238-44cc-aab7-a3f268e99bf7",
+          "plan_name": "Astiva Health C-SNP WOW - NorCal (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1993-015",
+          "parent_fpi": "e8af7381-fdae-5781-b158-48587617ace4",
+          "f_plan_id": "39148bf5-1e41-432d-a108-6e1d707c4add",
+          "plan_name": "Astiva Health Premier Plan (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

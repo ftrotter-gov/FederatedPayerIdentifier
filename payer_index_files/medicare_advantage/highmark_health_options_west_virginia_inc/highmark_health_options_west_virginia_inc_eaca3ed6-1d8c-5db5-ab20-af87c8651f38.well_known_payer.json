@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "eaca3ed6-1d8c-5db5-ab20-af87c8651f38",
+      "is_fpi": true,
+      "payerLegalName": "HIGHMARK HEALTH OPTIONS WEST VIRGINIA INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HIGHMARK HEALTH OPTIONS WEST VIRGINIA INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6224",
+      "is_fpi": false,
+      "parent_fpi": "eaca3ed6-1d8c-5db5-ab20-af87c8651f38"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6224-001",
+          "parent_fpi": "eaca3ed6-1d8c-5db5-ab20-af87c8651f38",
+          "f_plan_id": "60da68e3-4a21-41ce-8f1c-bd12805bcc9e",
+          "plan_name": "Highmark Health Options Duals (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

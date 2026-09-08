@@ -1,0 +1,98 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "bf78fc62-ca28-5791-8e8b-17a49a63bae6",
+      "is_fpi": true,
+      "payerLegalName": "UPMC HEALTH PLAN, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "UPMC HEALTH PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3907",
+      "is_fpi": false,
+      "parent_fpi": "bf78fc62-ca28-5791-8e8b-17a49a63bae6"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3907-002",
+          "parent_fpi": "bf78fc62-ca28-5791-8e8b-17a49a63bae6",
+          "f_plan_id": "a5571839-494f-4f2a-a6ce-53df75172a53",
+          "plan_name": "UPMC for Life HMO No Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3907-006",
+          "parent_fpi": "bf78fc62-ca28-5791-8e8b-17a49a63bae6",
+          "f_plan_id": "f56e083a-4eac-4520-9cc5-35c1e418092b",
+          "plan_name": "UPMC for Life HMO Rx Enhanced (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3907-037",
+          "parent_fpi": "bf78fc62-ca28-5791-8e8b-17a49a63bae6",
+          "f_plan_id": "6dbb7aaf-370c-4125-8f4f-e25cb724b514",
+          "plan_name": "UPMC for Life HMO Deductible Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3907-057",
+          "parent_fpi": "bf78fc62-ca28-5791-8e8b-17a49a63bae6",
+          "f_plan_id": "84d67cbe-1789-4c04-91ff-10d1ebbf5b3c",
+          "plan_name": "UPMC for Life HMO Rx Choice (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3907-058",
+          "parent_fpi": "bf78fc62-ca28-5791-8e8b-17a49a63bae6",
+          "f_plan_id": "e2b3dc49-4832-43fa-b1f9-d055faa22609",
+          "plan_name": "UPMC for Life HMO Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3907-059",
+          "parent_fpi": "bf78fc62-ca28-5791-8e8b-17a49a63bae6",
+          "f_plan_id": "b66ed614-c22c-42b7-8a83-ef1038fd36fe",
+          "plan_name": "UPMC for Life HMO Premier Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3907-801",
+          "parent_fpi": "bf78fc62-ca28-5791-8e8b-17a49a63bae6",
+          "f_plan_id": "424d0608-e723-4268-86ee-0e92605cdf04",
+          "plan_name": "UPMC Employer Group (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3907-802",
+          "parent_fpi": "bf78fc62-ca28-5791-8e8b-17a49a63bae6",
+          "f_plan_id": "16a221d2-807c-4a29-a80f-c81db8471810",
+          "plan_name": "UPMC Employer Group Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3907-803",
+          "parent_fpi": "bf78fc62-ca28-5791-8e8b-17a49a63bae6",
+          "f_plan_id": "8a7ed698-ccfd-4912-b990-87a354740277",
+          "plan_name": "UPMC Employer Group Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3907-804",
+          "parent_fpi": "bf78fc62-ca28-5791-8e8b-17a49a63bae6",
+          "f_plan_id": "a7a32741-62b9-4fa4-900c-73319f7834e1",
+          "plan_name": "UPMC PSHB Employer Group Rx (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

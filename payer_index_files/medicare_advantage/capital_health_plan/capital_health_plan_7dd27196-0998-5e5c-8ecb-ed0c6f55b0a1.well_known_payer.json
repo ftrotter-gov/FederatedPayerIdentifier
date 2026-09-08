@@ -1,0 +1,84 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "7dd27196-0998-5e5c-8ecb-ed0c6f55b0a1",
+      "is_fpi": true,
+      "payerLegalName": "CAPITAL HEALTH PLAN",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CAPITAL HEALTH PLAN"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5938",
+      "is_fpi": false,
+      "parent_fpi": "7dd27196-0998-5e5c-8ecb-ed0c6f55b0a1"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5938-001",
+          "parent_fpi": "7dd27196-0998-5e5c-8ecb-ed0c6f55b0a1",
+          "f_plan_id": "1277849d-d622-49ca-8423-da0ab9ac87b3",
+          "plan_name": "Capital Health Plan Advantage Plus (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5938-006",
+          "parent_fpi": "7dd27196-0998-5e5c-8ecb-ed0c6f55b0a1",
+          "f_plan_id": "de90e7a0-a1fc-413a-b386-644382093905",
+          "plan_name": "Capital Health Plan Preferred Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5938-008",
+          "parent_fpi": "7dd27196-0998-5e5c-8ecb-ed0c6f55b0a1",
+          "f_plan_id": "ae29e5e3-d440-4e6c-bc50-038381e0ad50",
+          "plan_name": "Capital Health Plan Silver Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5938-802",
+          "parent_fpi": "7dd27196-0998-5e5c-8ecb-ed0c6f55b0a1",
+          "f_plan_id": "c556cc98-2359-45cb-9026-dd3fb4b66e0b",
+          "plan_name": "Capital Health Plan Retiree Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5938-803",
+          "parent_fpi": "7dd27196-0998-5e5c-8ecb-ed0c6f55b0a1",
+          "f_plan_id": "ee2f4ced-0efb-47ad-8eac-4d1b4326abfc",
+          "plan_name": "Capital Health Plan Retiree Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5938-804",
+          "parent_fpi": "7dd27196-0998-5e5c-8ecb-ed0c6f55b0a1",
+          "f_plan_id": "a66745c1-d03b-49b0-aec7-0545b16a0696",
+          "plan_name": "Capital Health Plan Retiree Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5938-805",
+          "parent_fpi": "7dd27196-0998-5e5c-8ecb-ed0c6f55b0a1",
+          "f_plan_id": "c1c0d745-0089-4aee-8563-fd7d77d8c452",
+          "plan_name": "805 Emp-only SOF Capital Health Plan Retiree Advan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5938-009",
+          "parent_fpi": "7dd27196-0998-5e5c-8ecb-ed0c6f55b0a1",
+          "f_plan_id": "43975858-59a5-49fc-9a75-90133fd1abcf",
+          "plan_name": "Capital Health Plan Giveback Advantage (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

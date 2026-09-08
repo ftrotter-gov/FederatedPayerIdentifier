@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "28712fb4-71b5-56f0-b154-3fdeb59ce409",
+      "is_fpi": true,
+      "payerLegalName": "GOOD SAMARITAN INSURANCE PLAN OF NEBRASKA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "GOOD SAMARITAN INSURANCE PLAN OF NEBRASKA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7511",
+      "is_fpi": false,
+      "parent_fpi": "28712fb4-71b5-56f0-b154-3fdeb59ce409"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7511-001",
+          "parent_fpi": "28712fb4-71b5-56f0-b154-3fdeb59ce409",
+          "f_plan_id": "39d2ba09-4073-47dc-8567-82efacfe52cb",
+          "plan_name": "Great Plains Medicare Advantage (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7511-002",
+          "parent_fpi": "28712fb4-71b5-56f0-b154-3fdeb59ce409",
+          "f_plan_id": "e1660e9d-f567-4c32-b527-0f3bba759a2c",
+          "plan_name": "Great Plains Medicare Advantage Gold (HMO I-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

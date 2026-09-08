@@ -1,0 +1,70 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "b1db4583-cbc8-59d7-ba93-d3294ed80ba2",
+      "is_fpi": true,
+      "payerLegalName": "ALTERWOOD ADVANTAGE, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ALTERWOOD ADVANTAGE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9306",
+      "is_fpi": false,
+      "parent_fpi": "b1db4583-cbc8-59d7-ba93-d3294ed80ba2"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9306-002",
+          "parent_fpi": "b1db4583-cbc8-59d7-ba93-d3294ed80ba2",
+          "f_plan_id": "25774e24-22c6-44fd-a45a-489de4613a39",
+          "plan_name": "Alterwood Advantage Choice Plus (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9306-003",
+          "parent_fpi": "b1db4583-cbc8-59d7-ba93-d3294ed80ba2",
+          "f_plan_id": "a69952f9-96e9-4c6e-82c3-ff58b150fd47",
+          "plan_name": "Alterwood Advantage Freedom (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9306-004",
+          "parent_fpi": "b1db4583-cbc8-59d7-ba93-d3294ed80ba2",
+          "f_plan_id": "d43e5790-7e38-47a8-a7ba-004e372e14d1",
+          "plan_name": "Alterwood Advantage Dual Secure (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9306-007",
+          "parent_fpi": "b1db4583-cbc8-59d7-ba93-d3294ed80ba2",
+          "f_plan_id": "21b13081-194a-4a68-b84e-5b92f8d5fdcc",
+          "plan_name": "Alterwood Advantage Dual Value (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9306-008",
+          "parent_fpi": "b1db4583-cbc8-59d7-ba93-d3294ed80ba2",
+          "f_plan_id": "7c7b8851-a6d9-428c-9fac-288d3b2ffceb",
+          "plan_name": "Alterwood Advantage Choice (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9306-009",
+          "parent_fpi": "b1db4583-cbc8-59d7-ba93-d3294ed80ba2",
+          "f_plan_id": "7a23eb9a-4612-4e94-b33f-750c405c21be",
+          "plan_name": "Alterwood Advantage Select (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

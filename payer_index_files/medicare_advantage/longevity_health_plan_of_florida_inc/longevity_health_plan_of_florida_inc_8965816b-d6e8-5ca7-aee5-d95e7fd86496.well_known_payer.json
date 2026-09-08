@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "8965816b-d6e8-5ca7-aee5-d95e7fd86496",
+      "is_fpi": true,
+      "payerLegalName": "LONGEVITY HEALTH PLAN OF FLORIDA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "LONGEVITY HEALTH PLAN OF FLORIDA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1644",
+      "is_fpi": false,
+      "parent_fpi": "8965816b-d6e8-5ca7-aee5-d95e7fd86496"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1644-001",
+          "parent_fpi": "8965816b-d6e8-5ca7-aee5-d95e7fd86496",
+          "f_plan_id": "29506c51-d97f-4487-97a4-2c2d92a9f9c0",
+          "plan_name": "Longevity Health Plan (HMO I-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

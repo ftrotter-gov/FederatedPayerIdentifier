@@ -1,0 +1,91 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "9687d61e-f42f-51a0-93d4-35a4031ce7e5",
+      "is_fpi": true,
+      "payerLegalName": "WELLPOINT TENNESSEE, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WELLPOINT TENNESSEE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5828",
+      "is_fpi": false,
+      "parent_fpi": "9687d61e-f42f-51a0-93d4-35a4031ce7e5"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5828-001",
+          "parent_fpi": "9687d61e-f42f-51a0-93d4-35a4031ce7e5",
+          "f_plan_id": "424de0e9-b7c4-4636-8305-7b1ee685f4f3",
+          "plan_name": "Wellpoint Full Dual Advantage Support (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5828-002",
+          "parent_fpi": "9687d61e-f42f-51a0-93d4-35a4031ce7e5",
+          "f_plan_id": "8e7b4c10-47e4-4dda-8475-4d34316cb450",
+          "plan_name": "Wellpoint Full Dual Advantage (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5828-008",
+          "parent_fpi": "9687d61e-f42f-51a0-93d4-35a4031ce7e5",
+          "f_plan_id": "2bf2221a-fdca-4d7a-a8f5-a662f2cc3df4",
+          "plan_name": "Wellpoint Extra Help (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5828-013",
+          "parent_fpi": "9687d61e-f42f-51a0-93d4-35a4031ce7e5",
+          "f_plan_id": "5d8e573e-2600-4a34-b109-51d1c07dee3a",
+          "plan_name": "Wellpoint Medicare Advantage (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5828-014",
+          "parent_fpi": "9687d61e-f42f-51a0-93d4-35a4031ce7e5",
+          "f_plan_id": "81c68493-cdda-4331-83ff-8a9928a32d1f",
+          "plan_name": "Wellpoint Medicare Advantage 2 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5828-015",
+          "parent_fpi": "9687d61e-f42f-51a0-93d4-35a4031ce7e5",
+          "f_plan_id": "cc725953-11b6-48e8-83ab-f99045b137c7",
+          "plan_name": "Wellpoint Medicare Advantage 2 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5828-016",
+          "parent_fpi": "9687d61e-f42f-51a0-93d4-35a4031ce7e5",
+          "f_plan_id": "c6d36b68-ff73-4f52-887f-a329371188b1",
+          "plan_name": "Wellpoint Medicare Advantage 2 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5828-017",
+          "parent_fpi": "9687d61e-f42f-51a0-93d4-35a4031ce7e5",
+          "f_plan_id": "69b16a0f-93b5-440d-ac1a-2e5363175b3c",
+          "plan_name": "Wellpoint Medicare Advantage 2 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5828-018",
+          "parent_fpi": "9687d61e-f42f-51a0-93d4-35a4031ce7e5",
+          "f_plan_id": "1ba059ba-95c0-4838-a805-73d0fb84bd35",
+          "plan_name": "Wellpoint Full Dual Advantage 2 (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

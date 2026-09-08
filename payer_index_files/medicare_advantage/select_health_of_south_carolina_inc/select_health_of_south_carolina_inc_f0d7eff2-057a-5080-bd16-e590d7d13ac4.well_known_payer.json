@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "f0d7eff2-057a-5080-bd16-e590d7d13ac4",
+      "is_fpi": true,
+      "payerLegalName": "SELECT HEALTH OF SOUTH CAROLINA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SELECT HEALTH OF SOUTH CAROLINA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4739",
+      "is_fpi": false,
+      "parent_fpi": "f0d7eff2-057a-5080-bd16-e590d7d13ac4"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4739-001",
+          "parent_fpi": "f0d7eff2-057a-5080-bd16-e590d7d13ac4",
+          "f_plan_id": "2a187212-cfbe-4b3f-ac24-df8b7191d72a",
+          "plan_name": "First Choice VIP Care (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

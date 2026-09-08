@@ -1,0 +1,501 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+      "is_fpi": true,
+      "payerLegalName": "KAISER FOUNDATION HP, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "KAISER FOUNDATION HP, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0524",
+      "is_fpi": false,
+      "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1230",
+      "is_fpi": false,
+      "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2704",
+      "is_fpi": false,
+      "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8794",
+      "is_fpi": false,
+      "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-003",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "0fe06682-e9ad-4aa8-9d41-d4a28e6c8368",
+          "plan_name": "Kaiser Permanente Senior Advantage LA, Orange Co. (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-008",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "baf99cdc-1403-46e5-8c0b-8286bc42e539",
+          "plan_name": "Kaiser Permanente Senior Advantage Enhanced Solano (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-013",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "66879500-0b70-40cb-8f30-985bfd4c938c",
+          "plan_name": "Kaiser Permanente Sr Adv Enhanced Sac., Sonoma (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-015",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "62197279-bb29-454b-8cbd-2d6864646731",
+          "plan_name": "Kaiser Permanente Senior Advantage Inland Empire (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-031",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "0f9b528c-ca15-4eac-b0ab-aaee6ad72d9d",
+          "plan_name": "Kaiser Permanente Sr Adv Enhanced Marin San Mateo (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-032",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "e055e861-7a01-4780-80e0-b7fb486a0685",
+          "plan_name": "Kaiser Permanente Senior Advantage Alam., SF, Napa (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-033",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "a4fb9cf3-99bc-4ef7-8a12-8b8a55a9437b",
+          "plan_name": "Kaiser Permanente Sr Adv Enhanced Contra Costa (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-034",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "2b11cabe-dfae-4cb7-8e02-e6ded26a9217",
+          "plan_name": "Kaiser Permanente Senior Advantage Ventura (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-035",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "0bf68eef-8267-439e-958f-d5648bff664e",
+          "plan_name": "Kaiser Permanente Senior Advantage Enhanced Kern (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-036",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "44a36c65-43a7-414a-8d2a-c0192bb1cdf1",
+          "plan_name": "Kaiser Permanente Senior Advantage Basic Kern (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-037",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "d810cc1e-d8d2-46a2-b83d-7fb37065ff6d",
+          "plan_name": "Kaiser Permanente Senior Advantage San Diego (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-038",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "806f51b5-ab07-4894-8bf6-8b2f92849706",
+          "plan_name": "Kaiser Permanente Senior Advantage Enhanced Fresno (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-039",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "bee8a789-1496-447e-9698-dff6c6e48a7d",
+          "plan_name": "Kaiser Permanente Sr Adv Enhanced Santa Clara (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-040",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "6d90880a-45b1-47b9-9078-e97b5f214504",
+          "plan_name": "Kaiser Permanente Senior Advantage Enhanced Stanis (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-041",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "016e9300-ed06-4935-83e3-f04080a5676d",
+          "plan_name": "Kaiser Permanente Senior Advantage Basic Stanis (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-042",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "03448a26-406d-4fbd-9888-2cf0aa0edb9b",
+          "plan_name": "Kaiser Permanente Senior Advantage Enhanced SnJoaq (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-043",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "def92df6-70a4-4bbf-9269-82c570e62797",
+          "plan_name": "Kaiser Permanente Senior Advantage Basic SnJoaq (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-046",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "635671dc-df2c-472b-9c70-f32ab6485b35",
+          "plan_name": "Kaiser Permanente Senior Advantage Basic Fresno (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-051",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "646d1fe5-0811-4a13-a417-6c734ec41a8a",
+          "plan_name": "Kaiser Permanente Sr Advantage Basic Sac., Sonoma (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-054",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "91b5c92f-3474-4417-a13b-36e30bb64392",
+          "plan_name": "Kaiser Permanente Senior Advantage Santa Cruz (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-059",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "c631759f-c0ac-45a9-9c32-5535947c4362",
+          "plan_name": "Kaiser Permanente Senior Advantage Basic Alameda (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-060",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "5f379e60-c79a-4bae-a6e2-b764d05d9412",
+          "plan_name": "Kaiser Permanente Senior Advantage Basic SF (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-061",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "36dbb3d2-ddee-48ce-aa1d-2e22fddc24b9",
+          "plan_name": "Kaiser Permanente Sr Adv Basic Contra Costa (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-062",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "1d9229f3-a122-475b-924e-ff424e034398",
+          "plan_name": "Kaiser Permanente Sr Adv Basic Santa Clara (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-063",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "4a02fb7e-8038-4b99-99f0-8a6424593dfc",
+          "plan_name": "Kaiser Permanente Senior Advantage Basic Solano (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-064",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "89e51723-cbcb-414b-b23f-38de7e58ed16",
+          "plan_name": "Kaiser Permanente Senior Advantage Basic Marin (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-065",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "dea74ecf-b20f-423f-bf5d-49bc87283a29",
+          "plan_name": "Kaiser Permanente Senior Advantage Basic San Mateo (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-078",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "31d986ca-c71e-46fa-8fea-655c1a451f6c",
+          "plan_name": "Kaiser Permanente Sr Advantage LA, Orange Value (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-081",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "09d06fe8-4480-45ec-a7fe-f0e111c09a22",
+          "plan_name": "Kaiser Permanente Sr Advantage Inland Empire Value (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-082",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "44ca7fd3-05bd-4b15-99dc-902b104340e9",
+          "plan_name": "Kaiser Permanente Senior Advantage San Diego Value (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-083",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "8bc2d1dd-22a0-4279-b016-117d78b77707",
+          "plan_name": "Kaiser Permanente Senior Advantage Ventura Value (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-801",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "3c32241b-42bd-416a-b4da-3f10cde7f951",
+          "plan_name": "Kaiser Permanente Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-802",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "c59a8f2b-ea32-4752-aef2-081b9767c980",
+          "plan_name": "Kaiser Permanente Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-803",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "ded8d1c9-5b13-4aef-bd0d-b1fecb9b3788",
+          "plan_name": "Kaiser Permanente Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-804",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "779af971-0ee7-4beb-8f17-adf8301cdfad",
+          "plan_name": "Kaiser Permanente Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-805",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "433bfcaf-994b-4f82-9974-b4e76655f195",
+          "plan_name": "Kaiser Permanente Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-806",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "6dbaac56-ee57-4a7f-ac4c-cc48a7f20cd4",
+          "plan_name": "Kaiser Permanente Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-807",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "16e1ca60-790c-4801-9e6d-2787dacf0cd2",
+          "plan_name": "Kaiser Permanente Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0524-808",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "3f0ec2fb-051e-4f79-996b-818f52deb523",
+          "plan_name": "Kaiser Permanente Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1230-001",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "180f24c3-81c8-46d3-8ea5-7a2c0c34a824",
+          "plan_name": "Kaiser Permanente Senior Advantage Enhanced (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1230-003",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "2dae71e8-b7cb-4ab5-8be9-bc322ebbf1b2",
+          "plan_name": "Kaiser Permanente Senior Advantage Basic (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1230-013",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "f0b389a9-5522-452b-bd03-0473e068fddf",
+          "plan_name": "Kaiser Permanente Senior Advantage Maui (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1230-014",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "56747ff6-de58-4e73-869b-d79cbc796cbd",
+          "plan_name": "Kaiser Permanente Senior Advantage Hawaii Island (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1230-801",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "a6dcef4a-e076-4ea8-a753-1eb7c63050da",
+          "plan_name": "Kaiser Permanente Employer Group MA only (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1230-803",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "18931661-71e4-438d-949b-5f7a9e78a040",
+          "plan_name": "Kaiser Permanente Employer Group MA-PD (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1230-804",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "4a8047fc-39bc-44b8-9c7b-7dfca79e81fc",
+          "plan_name": "Kaiser Permanente Employer Group MA-PD Part B (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2704-015",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "6fe586b4-8ed2-4628-b405-f3b86b370ef2",
+          "plan_name": "Kaiser Permanente Dual Complete Oahu (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2704-016",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "897c8b8b-be83-4451-862b-46d876f0e542",
+          "plan_name": "Kaiser Permanente Dual Complete Maui (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-001",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "56e66981-05d0-4ddd-a098-155115c78ff1",
+          "plan_name": "Kaiser Permanente Dual Complete South P1 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-002",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "b5ffed9b-d086-453f-84f0-b1a77c494516",
+          "plan_name": "Kaiser Permanente Dual Complete North P2 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-016",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "b54b6937-7f6d-4563-a0c1-343d20377abc",
+          "plan_name": "Kaiser Permanente Dual Complete North P16 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-017",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "51ef2e51-c957-40d3-8b90-4abbf3d03e68",
+          "plan_name": "Kaiser Permanente Dual Complete North P17 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-018",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "e2d293b4-665a-4bdf-b6fc-d6eca45f33bf",
+          "plan_name": "Kaiser Permanente Dual Complete North P18 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-019",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "4c86b659-34ef-4003-aae0-960f95ded269",
+          "plan_name": "Kaiser Permanente Dual Complete North P19 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-020",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "b49525d0-78da-4a6c-bc36-e0b1c6ca546c",
+          "plan_name": "Kaiser Permanente Dual Complete North P20 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-021",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "f8f3e056-a79f-49bd-8ae3-1aaea0e57b8f",
+          "plan_name": "Kaiser Permanente Dual Complete North P21 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-024",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "a9e24ffb-6009-4551-9848-0af7d8599ac3",
+          "plan_name": "Kaiser Permanente Dual Complete North P24 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-025",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "0e89a45a-ec61-4df6-8686-6bf9c9b32399",
+          "plan_name": "Kaiser Permanente Dual Complete North P25 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-007",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "6c3c60af-b7c2-487a-83d3-294728d4c699",
+          "plan_name": "Kaiser Permanente Dual Complete South P7 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-011",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "cd84498f-37c0-436d-a6cd-57adbbc5477c",
+          "plan_name": "Kaiser Permanente Dual Complete South P11 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-006",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "84f677d5-1d8e-441a-8926-8777b6335a20",
+          "plan_name": "Kaiser Permanente Dual Complete South P6 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-009",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "e1b084c7-f86b-48d7-bc75-3f4a9f439e55",
+          "plan_name": "Kaiser Permanente Dual Complete South P9 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-010",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "3a67ac36-9011-433a-a4eb-e5d0e3c13ba5",
+          "plan_name": "Kaiser Permanente Dual Complete South P10 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-022",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "2151e937-eb0b-46ab-9b1f-5bf141768a5e",
+          "plan_name": "Kaiser Permanente Dual Complete North P22 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-023",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "cc3bd242-5122-498b-8ffa-3fc38064626b",
+          "plan_name": "Kaiser Permanente Dual Complete North P23 (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

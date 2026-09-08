@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "e6a11d3b-4cc1-53b2-8d2e-4a8346bdf5b7",
+      "is_fpi": true,
+      "payerLegalName": "LAGNIAPPE ADVANTAGE INSURANCE COMPANY",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "LAGNIAPPE ADVANTAGE INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6566",
+      "is_fpi": false,
+      "parent_fpi": "e6a11d3b-4cc1-53b2-8d2e-4a8346bdf5b7"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6566-001",
+          "parent_fpi": "e6a11d3b-4cc1-53b2-8d2e-4a8346bdf5b7",
+          "f_plan_id": "6147f074-a58d-4834-899c-4877ada91c23",
+          "plan_name": "Lagniappe Advantage (PPO I-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

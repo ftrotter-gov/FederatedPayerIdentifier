@@ -1,0 +1,112 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "5ca8c6c2-3829-58c8-bfd5-4791698dc271",
+      "is_fpi": true,
+      "payerLegalName": "HEALTH NET OF ARIZONA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HEALTH NET OF ARIZONA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0351",
+      "is_fpi": false,
+      "parent_fpi": "5ca8c6c2-3829-58c8-bfd5-4791698dc271"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0351-038",
+          "parent_fpi": "5ca8c6c2-3829-58c8-bfd5-4791698dc271",
+          "f_plan_id": "12492e7a-3832-4918-8e1d-9110189526ec",
+          "plan_name": "Wellcare Specialty Simple (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0351-053",
+          "parent_fpi": "5ca8c6c2-3829-58c8-bfd5-4791698dc271",
+          "f_plan_id": "69dedfdb-7188-42a0-9a99-0194a9ec9cec",
+          "plan_name": "Wellcare Simple (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0351-054",
+          "parent_fpi": "5ca8c6c2-3829-58c8-bfd5-4791698dc271",
+          "f_plan_id": "bbbc2e21-17dd-4e56-a852-64274629348e",
+          "plan_name": "Wellcare Giveback (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0351-057",
+          "parent_fpi": "5ca8c6c2-3829-58c8-bfd5-4791698dc271",
+          "f_plan_id": "00bcb635-daad-4a14-b5a6-7d1c25efe334",
+          "plan_name": "Wellcare Specialty Simple (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0351-063",
+          "parent_fpi": "5ca8c6c2-3829-58c8-bfd5-4791698dc271",
+          "f_plan_id": "20031d97-3688-4318-a7d5-95b6c97b9f6e",
+          "plan_name": "Wellcare Simple (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0351-064",
+          "parent_fpi": "5ca8c6c2-3829-58c8-bfd5-4791698dc271",
+          "f_plan_id": "1d990454-6a6d-4567-a4a1-9f51ae957b13",
+          "plan_name": "Wellcare Giveback (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0351-065",
+          "parent_fpi": "5ca8c6c2-3829-58c8-bfd5-4791698dc271",
+          "f_plan_id": "4f615a96-427c-4f5d-938c-dd4ffe49996a",
+          "plan_name": "Wellcare Simple Value (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0351-066",
+          "parent_fpi": "5ca8c6c2-3829-58c8-bfd5-4791698dc271",
+          "f_plan_id": "419c948a-19ba-4d63-a102-f202a8a704c2",
+          "plan_name": "Wellcare Dual Access (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0351-067",
+          "parent_fpi": "5ca8c6c2-3829-58c8-bfd5-4791698dc271",
+          "f_plan_id": "05ddaa25-27a4-4d05-a667-c8d456f58538",
+          "plan_name": "Wellcare Simple (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0351-068",
+          "parent_fpi": "5ca8c6c2-3829-58c8-bfd5-4791698dc271",
+          "f_plan_id": "1edcda73-6da2-4be5-937c-cc1e5cbe6a00",
+          "plan_name": "Wellcare Dual Access (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0351-069",
+          "parent_fpi": "5ca8c6c2-3829-58c8-bfd5-4791698dc271",
+          "f_plan_id": "6d6824bc-94af-4599-9bea-6a52ba89b867",
+          "plan_name": "Wellcare Specialty Simple (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0351-070",
+          "parent_fpi": "5ca8c6c2-3829-58c8-bfd5-4791698dc271",
+          "f_plan_id": "22ade4cd-90d8-4adc-8b14-1d90168be43c",
+          "plan_name": "Wellcare Simple (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

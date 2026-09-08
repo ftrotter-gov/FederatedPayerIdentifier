@@ -1,0 +1,76 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "59dedb80-0f1d-51d9-be82-a5b9c937ad2e",
+      "is_fpi": true,
+      "payerLegalName": "MOLINA HEALTHCARE OF TEXAS, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MOLINA HEALTHCARE OF TEXAS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6515",
+      "is_fpi": false,
+      "parent_fpi": "59dedb80-0f1d-51d9-be82-a5b9c937ad2e"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7678",
+      "is_fpi": false,
+      "parent_fpi": "59dedb80-0f1d-51d9-be82-a5b9c937ad2e"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6515-001",
+          "parent_fpi": "59dedb80-0f1d-51d9-be82-a5b9c937ad2e",
+          "f_plan_id": "14935024-1df8-467f-b8e4-18e73544af97",
+          "plan_name": "Molina Medicare Complete Care Plus (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6515-002",
+          "parent_fpi": "59dedb80-0f1d-51d9-be82-a5b9c937ad2e",
+          "f_plan_id": "8f7407ec-ee7c-4aae-b37d-deee1c6f116a",
+          "plan_name": "Molina Medicare Complete Care Plus (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6515-003",
+          "parent_fpi": "59dedb80-0f1d-51d9-be82-a5b9c937ad2e",
+          "f_plan_id": "490f5ecb-86aa-4767-b324-b46349c3fbe9",
+          "plan_name": "Molina Medicare Complete Care Plus (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6515-004",
+          "parent_fpi": "59dedb80-0f1d-51d9-be82-a5b9c937ad2e",
+          "f_plan_id": "0d354919-04b8-4b31-8778-c16834a9c0c6",
+          "plan_name": "Molina Medicare Complete Care Plus (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6515-005",
+          "parent_fpi": "59dedb80-0f1d-51d9-be82-a5b9c937ad2e",
+          "f_plan_id": "cd9b7eab-4a22-42b6-b8c9-25a65ad67e6c",
+          "plan_name": "Molina Medicare Complete Care Plus (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7678-006",
+          "parent_fpi": "59dedb80-0f1d-51d9-be82-a5b9c937ad2e",
+          "f_plan_id": "4628b525-f7cd-4d19-987b-d06f933867ea",
+          "plan_name": "Molina Medicare Complete Care (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

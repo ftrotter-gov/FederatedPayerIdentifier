@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "4cc7f3b4-7b76-5379-9a62-8ff250e10567",
+      "is_fpi": true,
+      "payerLegalName": "SAN FRANCISCO HEALTH AUTHORITY DBA SAN FRANCISCO HEALTH PLAN",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SAN FRANCISCO HEALTH AUTHORITY DBA SAN FRANCISCO HEALTH PLAN"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8051",
+      "is_fpi": false,
+      "parent_fpi": "4cc7f3b4-7b76-5379-9a62-8ff250e10567"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8051-001",
+          "parent_fpi": "4cc7f3b4-7b76-5379-9a62-8ff250e10567",
+          "f_plan_id": "4fea6ed6-cc38-4053-beb7-b6db908326f5",
+          "plan_name": "SFHP Care Plus (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

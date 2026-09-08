@@ -1,0 +1,76 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "de4043cd-3e66-538a-a076-da281afba40c",
+      "is_fpi": true,
+      "payerLegalName": "FALLON COMMUNITY HEALTH PLAN",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "FALLON COMMUNITY HEALTH PLAN"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8928",
+      "is_fpi": false,
+      "parent_fpi": "de4043cd-3e66-538a-a076-da281afba40c"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9001",
+      "is_fpi": false,
+      "parent_fpi": "de4043cd-3e66-538a-a076-da281afba40c"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8928-001",
+          "parent_fpi": "de4043cd-3e66-538a-a076-da281afba40c",
+          "f_plan_id": "f5335c87-f7d0-4433-81ab-ef54eeff2ed6",
+          "plan_name": "NaviCare (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9001-030",
+          "parent_fpi": "de4043cd-3e66-538a-a076-da281afba40c",
+          "f_plan_id": "ed0bdc7d-5baa-48a4-9669-820ad1d8383b",
+          "plan_name": "Fallon Medicare Plus Green (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9001-031",
+          "parent_fpi": "de4043cd-3e66-538a-a076-da281afba40c",
+          "f_plan_id": "1af05db8-4e8a-45e4-aa7d-d26605a350c5",
+          "plan_name": "Fallon Medicare Plus Blue (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9001-038",
+          "parent_fpi": "de4043cd-3e66-538a-a076-da281afba40c",
+          "f_plan_id": "33db481b-0330-4418-90cc-6d0fc87cee31",
+          "plan_name": "Fallon Medicare Plus Orange (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9001-039",
+          "parent_fpi": "de4043cd-3e66-538a-a076-da281afba40c",
+          "f_plan_id": "3494b196-3ce5-4d4e-8df2-0b595c7df9e5",
+          "plan_name": "Fallon Medicare Plus Saver No Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9001-803",
+          "parent_fpi": "de4043cd-3e66-538a-a076-da281afba40c",
+          "f_plan_id": "7c523bc3-c076-4216-af83-04ac3d7b647e",
+          "plan_name": "MA-PD Calendar Year (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

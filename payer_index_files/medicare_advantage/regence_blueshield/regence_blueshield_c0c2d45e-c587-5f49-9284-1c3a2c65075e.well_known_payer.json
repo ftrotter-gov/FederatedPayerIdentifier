@@ -1,0 +1,83 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "c0c2d45e-c587-5f49-9284-1c3a2c65075e",
+      "is_fpi": true,
+      "payerLegalName": "REGENCE BLUESHIELD",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "REGENCE BLUESHIELD"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1997",
+      "is_fpi": false,
+      "parent_fpi": "c0c2d45e-c587-5f49-9284-1c3a2c65075e"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5009",
+      "is_fpi": false,
+      "parent_fpi": "c0c2d45e-c587-5f49-9284-1c3a2c65075e"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1997-013",
+          "parent_fpi": "c0c2d45e-c587-5f49-9284-1c3a2c65075e",
+          "f_plan_id": "e9997eb0-b4d0-41ef-8c89-1f71e86dddc0",
+          "plan_name": "Regence BlueAdvantage HMO (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5009-002",
+          "parent_fpi": "c0c2d45e-c587-5f49-9284-1c3a2c65075e",
+          "f_plan_id": "250b814a-f3a7-4845-a9e1-d68051f6c6a0",
+          "plan_name": "Regence MedAdvantage + Rx Enhanced (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5009-011",
+          "parent_fpi": "c0c2d45e-c587-5f49-9284-1c3a2c65075e",
+          "f_plan_id": "2033b729-7def-4e63-9f28-b6d271370bbc",
+          "plan_name": "Regence MedAdvantage + Rx Primary (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5009-801",
+          "parent_fpi": "c0c2d45e-c587-5f49-9284-1c3a2c65075e",
+          "f_plan_id": "d6b09639-918a-4486-9bee-125f9e53a366",
+          "plan_name": "Regence MedAdvantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5009-802",
+          "parent_fpi": "c0c2d45e-c587-5f49-9284-1c3a2c65075e",
+          "f_plan_id": "da6f0604-36f8-4dfa-8cfc-f280886b4b45",
+          "plan_name": "Regence MedAdvantage + Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5009-803",
+          "parent_fpi": "c0c2d45e-c587-5f49-9284-1c3a2c65075e",
+          "f_plan_id": "08bd7ff4-50b5-4bac-a6db-ebabed535333",
+          "plan_name": "Regence MedAdvantage + Rx 02 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5009-804",
+          "parent_fpi": "c0c2d45e-c587-5f49-9284-1c3a2c65075e",
+          "f_plan_id": "aa7c6190-8100-4bf4-bcaf-c324aef48608",
+          "plan_name": "Regence MedAdvantage + Rx 03 (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

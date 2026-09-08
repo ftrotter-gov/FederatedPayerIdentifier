@@ -1,0 +1,287 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+      "is_fpi": true,
+      "payerLegalName": "HIGHMARK SENIOR HEALTH COMPANY",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HIGHMARK SENIOR HEALTH COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3916",
+      "is_fpi": false,
+      "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-001",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "603fb3d3-9ce4-4304-b071-cdb4134e7b35",
+          "plan_name": "Freedom Blue PPO Classic (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-002",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "e9abb2a7-6923-41a0-9ff1-418448da588a",
+          "plan_name": "Freedom Blue PPO Classic (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-005",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "e87ba6c7-2387-453b-a626-f692f9f89b3d",
+          "plan_name": "Freedom Blue PPO Deluxe (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-012",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "f107f099-846c-43fc-8125-75c79c653955",
+          "plan_name": "Freedom Blue PPO Basic (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-015",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "d082151b-0153-469b-acde-2d66e41913c5",
+          "plan_name": "Freedom Blue PPO Standard (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-018",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "21c03007-624f-464c-9092-e31c50633185",
+          "plan_name": "Freedom Blue PPO ValueRx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-022",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "5d5f635c-1412-422b-8313-09839ce4daf0",
+          "plan_name": "Freedom Blue PPO Select (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-024",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "3bf96d38-f2ed-4380-8b7b-c0060332880a",
+          "plan_name": "Freedom Blue PPO Select (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-032",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "0359bbed-e398-462b-bb6f-44df36997724",
+          "plan_name": "Freedom Blue PPO ValueRx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-033",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "01736c78-f538-4d1e-8ca8-f1270961aecc",
+          "plan_name": "Freedom Blue PPO ValueRx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-035",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "feb8e545-e0e4-4257-854d-a31c1564ea48",
+          "plan_name": "Complete Blue PPO Distinct (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-037",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "d3f3eb31-8b90-4e92-87a0-b1a853b1e30e",
+          "plan_name": "Community Blue Medicare PPO Signature (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-038",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "414d219e-27e3-4c63-bbb7-2f8697625742",
+          "plan_name": "Complete Blue PPO Signature (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-039",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "a87f4a50-be02-49a4-a0cf-e6c388b95fa7",
+          "plan_name": "Community Blue Medicare Plus PPO Signature (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-041",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "fc5da14c-e19e-465a-b3a6-3027e992c6b8",
+          "plan_name": "Complete Blue PPO Signature (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-067",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "102eabc2-4234-4fdd-a5c1-5d46843f4e5a",
+          "plan_name": "Freedom Blue PPO Valor (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-043",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "b337678b-9bfa-48cb-8413-7f15a256cf21",
+          "plan_name": "Freedom Blue PPO Valor (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-057",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "4ecb37ef-9a89-4e8d-8f17-3d32212b80bb",
+          "plan_name": "Complete Blue PPO Merit (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-056",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "312712af-187f-4236-8b97-f6383fd8eb49",
+          "plan_name": "Freedom Blue PPO Valor (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-801",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "712b0e83-df28-4b84-88a6-d27daacc48c1",
+          "plan_name": "Freedom Blue PPO MA PA CALENDAR (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-802",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "2aaded89-cded-4756-9166-f3d0228699c9",
+          "plan_name": "Freedom Blue PPO MAPD PA CALENDAR (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-804",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "678f2413-8764-43ff-adf1-159682398b9b",
+          "plan_name": "Freedom Blue PPO MAPD PA Calendar Performance (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-805",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "89c5ea0d-ba41-42b4-9b7c-76d60ccad6a1",
+          "plan_name": "Community Blue Medicare PPO MA PA Calendar (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-806",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "f11195d9-e401-4295-ba2d-1408665271f8",
+          "plan_name": "Community Blue Medicare PPO PA MAPD Calendar (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-807",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "8d4afc26-6a56-495d-91a5-8ee84230fb89",
+          "plan_name": "Community Blue Medicare PPO MAPD Calendar Perform (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-808",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "726c1ea6-74a2-4d58-b341-75da30c8432b",
+          "plan_name": "Freedom Blue PPO MAPD ASO CALENDAR (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-809",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "16b30780-5ea7-4ea8-8cb9-5fd32589d529",
+          "plan_name": "Community Blue Medicare PPO ASO CALENDAR (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-810",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "0de6861a-1e9d-4383-8da2-f24410f6735a",
+          "plan_name": "Community Blue Medicare Plus PPO ASO CALENDAR (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-058",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "2f07fcf0-a96c-47d2-9f33-5a8d24dc540d",
+          "plan_name": "Complete Blue PPO Signature (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-059",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "824d3ce0-5a14-4ed2-81f0-e4543db6673f",
+          "plan_name": "Complete Blue PPO Distinct (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-060",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "6331dc26-5e0c-4079-bcca-7562776ff1eb",
+          "plan_name": "Complete Blue PPO Distinct (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-061",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "7303fdd7-78af-4d8f-9f69-caaa7c5766bf",
+          "plan_name": "Complete Blue Plus PPO Distinct (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-062",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "78227387-b5c7-4933-8d9b-8b681d41cbd4",
+          "plan_name": "Complete Blue PPO Distinct (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-063",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "eb3daedf-978b-4fdd-9ae0-8afd455ba59d",
+          "plan_name": "Community Blue Medicare Plus PPO Signature (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-064",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "70a61380-d0f2-4f0e-b506-e630474cffe9",
+          "plan_name": "Complete Blue Plus PPO Merit (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-065",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "db77a99c-50ea-4d68-a863-a8a3fa2009da",
+          "plan_name": "Community Blue Medicare PPO Signature (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3916-066",
+          "parent_fpi": "ef7ebf45-26ee-511f-b44f-ecf4da077edd",
+          "f_plan_id": "0742304d-2c39-4196-a9c0-c80423dee564",
+          "plan_name": "Complete Blue PPO Merit (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

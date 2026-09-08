@@ -1,0 +1,265 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+      "is_fpi": true,
+      "payerLegalName": "ZING HEALTH OF MICHIGAN, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ZING HEALTH OF MICHIGAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4624",
+      "is_fpi": false,
+      "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6876",
+      "is_fpi": false,
+      "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4624-001",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "a1344e7e-7a3d-4cd4-a84f-482ea394ec57",
+          "plan_name": "Zing Choice IL (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4624-003",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "86315e06-cfed-4f70-a7e4-e6d9d9cf79c1",
+          "plan_name": "Zing Select Care IN (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4624-006",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "bf1f09b8-f4b5-4267-b66c-291234f8e712",
+          "plan_name": "Zing Select Care MI (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4624-010",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "03311e25-2c03-48d2-b94e-bd1b442bac95",
+          "plan_name": "Zing Essential Wellness Diabetes & Heart IL (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4624-011",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "69799bda-1f09-4de7-a798-dd7a5f5442d8",
+          "plan_name": "Zing Select Diabetes & Heart IN (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4624-012",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "af4031d4-1787-4689-bb2f-0cce768aeba6",
+          "plan_name": "Zing Select Diabetes & Heart MI (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4624-022",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "c7a6d053-cff1-4d9e-b23a-46d7eefd17c9",
+          "plan_name": "Zing Elite Select MI (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4624-023",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "6b04b486-3955-47d2-b814-5321cd10affc",
+          "plan_name": "Zing Select Dialysis MI (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4624-025",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "8bf42ad8-b6a2-470a-871c-0ff4ddb5d6fb",
+          "plan_name": "Zing Select Dialysis IN (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4624-026",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "4bb14bff-3885-4c4e-a843-9634afc7fc92",
+          "plan_name": "Zing Elite Select IL-IN (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4624-027",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "2adf11ff-51b7-412f-aa96-11043b7eab56",
+          "plan_name": "Zing Select Diabetes & Heart Complete IL (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4624-028",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "a7fb55a1-df99-477a-b0f8-d69dbd4f4e6e",
+          "plan_name": "Zing Elite Diabetes & Heart IL (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4624-029",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "5ee96198-becc-4a16-a59a-bf26f6254bf2",
+          "plan_name": "Zing Select Dialysis IL (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4624-031",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "32fd9c60-4d9f-4205-9bf9-c0a52e508c77",
+          "plan_name": "Zing Elite Diabetes & Heart IN (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4624-032",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "44b42b8e-dff5-4ee5-ae5c-2e6b9a1fa94b",
+          "plan_name": "Zing Elite Diabetes & Heart MI (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4624-033",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "caa528ef-0654-4319-9b6e-7914d266a28d",
+          "plan_name": "Zing Elite Diabetes & Heart OH (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4624-034",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "8b1bd9ce-ebf7-446a-92a3-152f85271fdd",
+          "plan_name": "Zing Select Diabetes & Heart OH (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4624-036",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "fc62ad1a-e4ce-4ace-997e-2ae299226659",
+          "plan_name": "Zing Select Dialysis OH (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4624-037",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "5deacafc-f7cc-4fcb-89c4-db252493ab71",
+          "plan_name": "Zing Elite Select OH (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4624-038",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "0c391027-f663-4a30-bcd1-807060c56ec0",
+          "plan_name": "Zing Select Care OH (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4624-039",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "d0ff92b7-c742-4b4f-9df0-ee8b5e99ffd5",
+          "plan_name": "Zing Elite Diabetes & Heart TN-MS (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4624-040",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "1ac476b3-8999-4905-bd07-4cbe5cbb24c5",
+          "plan_name": "Zing Select Diabetes & Heart TN-MS (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4624-042",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "df754403-16a8-4ee8-8dee-9e6038d0c0ba",
+          "plan_name": "Zing Select Dialysis TN-MS (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4624-043",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "358e3ebc-5a2b-4756-9734-491792ab5dbd",
+          "plan_name": "Zing Elite Select TN-MS (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4624-044",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "40fec290-c9cc-48a2-b442-1d4bf586e6a0",
+          "plan_name": "Zing Select Care TN-MS (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4624-045",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "e9e3f9c0-2968-41a0-911b-8502b627e5b4",
+          "plan_name": "Zing Elite Essentials Diabetes & Heart IL-IN (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4624-046",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "8e65ba29-af3e-4701-a135-3f6e3571dd22",
+          "plan_name": "Zing Elite Balance MI (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6876-001",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "8b9812c9-d0f1-4136-a1a1-404f4ce576f7",
+          "plan_name": "Zing Open Choice MI (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6876-003",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "f1002db2-8688-46a0-8ce9-8efe6f58be08",
+          "plan_name": "Zing Open Choice Diabetes & Heart MI (PPO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6876-004",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "ce72f3fd-8be5-4ad5-b8c6-aa72973aff87",
+          "plan_name": "Zing Open Choice IN (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6876-005",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "755c0aac-fef6-4f86-b870-f20f55dabc5a",
+          "plan_name": "Zing Open Choice Diabetes & Heart IN (PPO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6876-007",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "926ee2e7-f112-4c74-94b0-3c3beefd0abb",
+          "plan_name": "Zing Open Choice Diabetes & Heart TN (PPO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6876-009",
+          "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+          "f_plan_id": "595d3f19-a927-488e-a61f-849ebdbdbbd5",
+          "plan_name": "Zing Open Choice TN (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

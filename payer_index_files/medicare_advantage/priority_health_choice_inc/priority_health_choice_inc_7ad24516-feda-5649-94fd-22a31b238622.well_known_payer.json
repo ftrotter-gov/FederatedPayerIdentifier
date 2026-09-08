@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "7ad24516-feda-5649-94fd-22a31b238622",
+      "is_fpi": true,
+      "payerLegalName": "PRIORITY HEALTH CHOICE, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PRIORITY HEALTH CHOICE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8379",
+      "is_fpi": false,
+      "parent_fpi": "7ad24516-feda-5649-94fd-22a31b238622"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8379-001",
+          "parent_fpi": "7ad24516-feda-5649-94fd-22a31b238622",
+          "f_plan_id": "3bdfadee-166e-460b-9ef0-f2bf67727941",
+          "plan_name": "PriorityMedicare D-SNP (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8379-003",
+          "parent_fpi": "7ad24516-feda-5649-94fd-22a31b238622",
+          "f_plan_id": "32f3c878-7597-449f-acd3-6896ea1ad9d1",
+          "plan_name": "PriorityMedicare Dual Premier (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

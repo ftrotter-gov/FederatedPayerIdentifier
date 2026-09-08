@@ -1,0 +1,56 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "c4ed9731-b5b6-5165-9374-bb09f3a7541e",
+      "is_fpi": true,
+      "payerLegalName": "MOLINA HEALTHCARE OF UTAH, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MOLINA HEALTHCARE OF UTAH, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5628",
+      "is_fpi": false,
+      "parent_fpi": "c4ed9731-b5b6-5165-9374-bb09f3a7541e"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5628-001",
+          "parent_fpi": "c4ed9731-b5b6-5165-9374-bb09f3a7541e",
+          "f_plan_id": "399cda55-d953-4357-b62d-592729bfce1a",
+          "plan_name": "Molina Medicare Complete Care (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5628-013",
+          "parent_fpi": "c4ed9731-b5b6-5165-9374-bb09f3a7541e",
+          "f_plan_id": "19ab463d-ac89-4623-8bd9-33997b2ba8b0",
+          "plan_name": "Molina Medicare Complete Care (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5628-014",
+          "parent_fpi": "c4ed9731-b5b6-5165-9374-bb09f3a7541e",
+          "f_plan_id": "60048f9b-4a1b-489e-8b7c-477a2ac62ed5",
+          "plan_name": "Molina Medicare Complete Care Select (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5628-012",
+          "parent_fpi": "c4ed9731-b5b6-5165-9374-bb09f3a7541e",
+          "f_plan_id": "643e35a3-2fce-4701-a271-9508a353870a",
+          "plan_name": "Molina Medicare Complete Care Select (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

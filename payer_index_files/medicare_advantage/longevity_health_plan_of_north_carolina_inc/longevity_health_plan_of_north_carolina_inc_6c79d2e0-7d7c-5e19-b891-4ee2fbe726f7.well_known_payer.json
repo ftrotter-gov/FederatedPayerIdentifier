@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "6c79d2e0-7d7c-5e19-b891-4ee2fbe726f7",
+      "is_fpi": true,
+      "payerLegalName": "LONGEVITY HEALTH PLAN OF NORTH CAROLINA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "LONGEVITY HEALTH PLAN OF NORTH CAROLINA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5374",
+      "is_fpi": false,
+      "parent_fpi": "6c79d2e0-7d7c-5e19-b891-4ee2fbe726f7"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5374-001",
+          "parent_fpi": "6c79d2e0-7d7c-5e19-b891-4ee2fbe726f7",
+          "f_plan_id": "5c5032d4-56aa-4c55-8fcc-ba99edc54500",
+          "plan_name": "Longevity Health Plan (HMO I-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

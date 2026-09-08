@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "8bd6e8f9-f8c7-5ebd-b7e8-827ed21e4332",
+      "is_fpi": true,
+      "payerLegalName": "SCAN HEALTH PLAN (WA)",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SCAN HEALTH PLAN (WA)"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4026",
+      "is_fpi": false,
+      "parent_fpi": "8bd6e8f9-f8c7-5ebd-b7e8-827ed21e4332"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4026-001",
+          "parent_fpi": "8bd6e8f9-f8c7-5ebd-b7e8-827ed21e4332",
+          "f_plan_id": "b5c3d882-be42-4ae5-b76b-826bb56e0baa",
+          "plan_name": "SCAN Classic WA (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4026-002",
+          "parent_fpi": "8bd6e8f9-f8c7-5ebd-b7e8-827ed21e4332",
+          "f_plan_id": "250d1dce-e8d7-4161-ac5a-326977afac90",
+          "plan_name": "SCAN MyChoice WA (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

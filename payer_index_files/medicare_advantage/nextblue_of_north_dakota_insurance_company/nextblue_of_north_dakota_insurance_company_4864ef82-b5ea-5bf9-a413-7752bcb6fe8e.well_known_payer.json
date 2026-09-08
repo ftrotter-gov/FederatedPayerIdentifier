@@ -1,0 +1,84 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "4864ef82-b5ea-5bf9-a413-7752bcb6fe8e",
+      "is_fpi": true,
+      "payerLegalName": "NEXTBLUE OF NORTH DAKOTA INSURANCE COMPANY",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "NEXTBLUE OF NORTH DAKOTA INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6202",
+      "is_fpi": false,
+      "parent_fpi": "4864ef82-b5ea-5bf9-a413-7752bcb6fe8e"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6202-003",
+          "parent_fpi": "4864ef82-b5ea-5bf9-a413-7752bcb6fe8e",
+          "f_plan_id": "bf731977-5912-4752-ac22-6045329376d0",
+          "plan_name": "NextBlue Freedom PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6202-801",
+          "parent_fpi": "4864ef82-b5ea-5bf9-a413-7752bcb6fe8e",
+          "f_plan_id": "c33eaaa6-3f12-46b4-a51b-d39ac3c3db4f",
+          "plan_name": "NextBlue of North Dakota Group PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6202-802",
+          "parent_fpi": "4864ef82-b5ea-5bf9-a413-7752bcb6fe8e",
+          "f_plan_id": "7f2bfd40-5015-41d1-8074-33b697207e07",
+          "plan_name": "NextBlue of North Dakota Group PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6202-803",
+          "parent_fpi": "4864ef82-b5ea-5bf9-a413-7752bcb6fe8e",
+          "f_plan_id": "b2b2964e-3b53-4e17-9fa9-9b45d3a87f5c",
+          "plan_name": "NextBlue of North Dakota Group PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6202-804",
+          "parent_fpi": "4864ef82-b5ea-5bf9-a413-7752bcb6fe8e",
+          "f_plan_id": "29008c95-3bec-4981-a759-4683b9118055",
+          "plan_name": "NextBlue of North Dakota Group PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6202-004",
+          "parent_fpi": "4864ef82-b5ea-5bf9-a413-7752bcb6fe8e",
+          "f_plan_id": "961b5017-8f3b-432e-a579-6e0d2d02fdb8",
+          "plan_name": "NextBlue Discover PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6202-005",
+          "parent_fpi": "4864ef82-b5ea-5bf9-a413-7752bcb6fe8e",
+          "f_plan_id": "6233be4c-53d6-447d-beeb-b56a6ad0a7ec",
+          "plan_name": "NextBlue Summit PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6202-805",
+          "parent_fpi": "4864ef82-b5ea-5bf9-a413-7752bcb6fe8e",
+          "f_plan_id": "876dfab7-8b0d-4751-a6e4-532a504e8afb",
+          "plan_name": "NextBlue of North Dakota Diocese Group PPO (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

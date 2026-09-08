@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "e3bda3d2-7f04-50e7-a6c1-9e2758ce184b",
+      "is_fpi": true,
+      "payerLegalName": "MARQUIS ADVANTAGE, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MARQUIS ADVANTAGE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1372",
+      "is_fpi": false,
+      "parent_fpi": "e3bda3d2-7f04-50e7-a6c1-9e2758ce184b"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1372-001",
+          "parent_fpi": "e3bda3d2-7f04-50e7-a6c1-9e2758ce184b",
+          "f_plan_id": "7cb38416-f87e-4bc9-9fce-73e7c4ba833f",
+          "plan_name": "AgeRight Advantage Health Plan (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1372-002",
+          "parent_fpi": "e3bda3d2-7f04-50e7-a6c1-9e2758ce184b",
+          "f_plan_id": "52fd9985-1057-488c-b38c-95666e8672da",
+          "plan_name": "AgeRight Advantage Plus Health Plan (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1372-003",
+          "parent_fpi": "e3bda3d2-7f04-50e7-a6c1-9e2758ce184b",
+          "f_plan_id": "10cc3752-c2b6-4b1d-9012-603d311f6e46",
+          "plan_name": "AgeRight Advantage Premier Health Plan (HMO C-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

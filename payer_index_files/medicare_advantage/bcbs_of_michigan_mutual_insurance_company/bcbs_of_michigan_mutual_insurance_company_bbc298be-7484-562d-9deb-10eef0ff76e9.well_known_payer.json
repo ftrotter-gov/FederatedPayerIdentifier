@@ -1,0 +1,112 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "bbc298be-7484-562d-9deb-10eef0ff76e9",
+      "is_fpi": true,
+      "payerLegalName": "BCBS OF MICHIGAN MUTUAL INSURANCE COMPANY",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BCBS OF MICHIGAN MUTUAL INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9572",
+      "is_fpi": false,
+      "parent_fpi": "bbc298be-7484-562d-9deb-10eef0ff76e9"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9572-001",
+          "parent_fpi": "bbc298be-7484-562d-9deb-10eef0ff76e9",
+          "f_plan_id": "b4880483-c7a4-4dfa-bb5e-cbabedd94c33",
+          "plan_name": "Medicare Plus Blue Signature (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9572-002",
+          "parent_fpi": "bbc298be-7484-562d-9deb-10eef0ff76e9",
+          "f_plan_id": "ca25e6dc-8355-49a7-83c1-2e17724fd330",
+          "plan_name": "Medicare Plus Blue Vitality (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9572-003",
+          "parent_fpi": "bbc298be-7484-562d-9deb-10eef0ff76e9",
+          "f_plan_id": "c4eb3151-c15e-44eb-873a-b464f749b387",
+          "plan_name": "Medicare Plus Blue Assure (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9572-004",
+          "parent_fpi": "bbc298be-7484-562d-9deb-10eef0ff76e9",
+          "f_plan_id": "10bc7af5-c6f6-42c5-854d-c80398296ecd",
+          "plan_name": "Medicare Plus Blue Essential (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9572-007",
+          "parent_fpi": "bbc298be-7484-562d-9deb-10eef0ff76e9",
+          "f_plan_id": "fc11fca4-7d0d-409b-806e-22930fe011a3",
+          "plan_name": "Medicare Plus Blue + Meijer (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9572-801",
+          "parent_fpi": "bbc298be-7484-562d-9deb-10eef0ff76e9",
+          "f_plan_id": "68f4a2a6-0745-48a0-bc3f-19740a488f37",
+          "plan_name": "Medicare Plus Blue PPO Employer Rx CY (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9572-802",
+          "parent_fpi": "bbc298be-7484-562d-9deb-10eef0ff76e9",
+          "f_plan_id": "30f4b094-4f87-429c-8cce-9a091c56db16",
+          "plan_name": "Medicare Plus Blue PPO Employer CY (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9572-806",
+          "parent_fpi": "bbc298be-7484-562d-9deb-10eef0ff76e9",
+          "f_plan_id": "10ce0420-d354-4af1-b661-c76efaa8e127",
+          "plan_name": "Medicare Plus Blue PPO UT (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9572-008",
+          "parent_fpi": "bbc298be-7484-562d-9deb-10eef0ff76e9",
+          "f_plan_id": "3c8059aa-bfda-4b5c-81d2-b4ba7994e266",
+          "plan_name": "Medicare Plus Blue Giveback (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9572-009",
+          "parent_fpi": "bbc298be-7484-562d-9deb-10eef0ff76e9",
+          "f_plan_id": "43ac48df-d07d-4e63-9fc1-42ca58144235",
+          "plan_name": "Medicare Plus Blue Secure (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9572-010",
+          "parent_fpi": "bbc298be-7484-562d-9deb-10eef0ff76e9",
+          "f_plan_id": "33902964-989d-47fc-a753-685ea867cf67",
+          "plan_name": "Medicare Plus Blue Value (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9572-807",
+          "parent_fpi": "bbc298be-7484-562d-9deb-10eef0ff76e9",
+          "f_plan_id": "cbd1e3a3-f61e-48d1-adda-4cd8d83df713",
+          "plan_name": "Medicare Plus Blue PPO UT CY (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

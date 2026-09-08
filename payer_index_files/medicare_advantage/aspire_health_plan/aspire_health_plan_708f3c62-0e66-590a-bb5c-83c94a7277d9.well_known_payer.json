@@ -1,0 +1,63 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "708f3c62-0e66-590a-bb5c-83c94a7277d9",
+      "is_fpi": true,
+      "payerLegalName": "ASPIRE HEALTH PLAN",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ASPIRE HEALTH PLAN"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8764",
+      "is_fpi": false,
+      "parent_fpi": "708f3c62-0e66-590a-bb5c-83c94a7277d9"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8764-001",
+          "parent_fpi": "708f3c62-0e66-590a-bb5c-83c94a7277d9",
+          "f_plan_id": "ebec6e62-67e7-4459-bfdf-5d4c31c9b328",
+          "plan_name": "Aspire Health Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8764-002",
+          "parent_fpi": "708f3c62-0e66-590a-bb5c-83c94a7277d9",
+          "f_plan_id": "60fe67fd-05ed-496d-95c1-97773bb99544",
+          "plan_name": "Aspire Health Plus (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8764-003",
+          "parent_fpi": "708f3c62-0e66-590a-bb5c-83c94a7277d9",
+          "f_plan_id": "bf005497-3e66-432f-8f49-dde0e8a9c403",
+          "plan_name": "Aspire Health Value (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8764-004",
+          "parent_fpi": "708f3c62-0e66-590a-bb5c-83c94a7277d9",
+          "f_plan_id": "72c0c6d0-5285-478e-b62e-dd403ff621ce",
+          "plan_name": "Aspire Health Protect (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8764-801",
+          "parent_fpi": "708f3c62-0e66-590a-bb5c-83c94a7277d9",
+          "f_plan_id": "57d0ef98-322f-44c5-992a-8bd410bd6fde",
+          "plan_name": "Aspire Health Group Plus (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

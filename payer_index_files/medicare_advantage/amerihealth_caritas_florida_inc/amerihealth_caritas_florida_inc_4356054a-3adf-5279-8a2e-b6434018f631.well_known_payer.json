@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "4356054a-3adf-5279-8a2e-b6434018f631",
+      "is_fpi": true,
+      "payerLegalName": "AMERIHEALTH CARITAS FLORIDA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "AMERIHEALTH CARITAS FLORIDA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6378",
+      "is_fpi": false,
+      "parent_fpi": "4356054a-3adf-5279-8a2e-b6434018f631"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6378-001",
+          "parent_fpi": "4356054a-3adf-5279-8a2e-b6434018f631",
+          "f_plan_id": "67260754-ae2a-4529-8f68-ee8fa69db4d9",
+          "plan_name": "AmeriHealth Caritas VIP Care (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

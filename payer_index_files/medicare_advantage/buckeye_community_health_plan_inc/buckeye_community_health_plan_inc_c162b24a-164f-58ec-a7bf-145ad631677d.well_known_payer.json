@@ -1,0 +1,83 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "c162b24a-164f-58ec-a7bf-145ad631677d",
+      "is_fpi": true,
+      "payerLegalName": "BUCKEYE COMMUNITY HEALTH PLAN, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BUCKEYE COMMUNITY HEALTH PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0908",
+      "is_fpi": false,
+      "parent_fpi": "c162b24a-164f-58ec-a7bf-145ad631677d"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4158",
+      "is_fpi": false,
+      "parent_fpi": "c162b24a-164f-58ec-a7bf-145ad631677d"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0908-001",
+          "parent_fpi": "c162b24a-164f-58ec-a7bf-145ad631677d",
+          "f_plan_id": "9b7cc0e0-c4a8-4680-919e-24d37a6e1ac4",
+          "plan_name": "Wellcare Dual Access (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0908-003",
+          "parent_fpi": "c162b24a-164f-58ec-a7bf-145ad631677d",
+          "f_plan_id": "0bee06cf-f5fb-4477-aa82-8ee015db9d11",
+          "plan_name": "Wellcare Simple (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0908-004",
+          "parent_fpi": "c162b24a-164f-58ec-a7bf-145ad631677d",
+          "f_plan_id": "f707a689-18d0-4bed-abcb-fa0c42aea3cf",
+          "plan_name": "Wellcare Assist (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0908-006",
+          "parent_fpi": "c162b24a-164f-58ec-a7bf-145ad631677d",
+          "f_plan_id": "659859c4-e93d-4e26-acc1-8272dd2911b7",
+          "plan_name": "Wellcare Dual Reserve (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0908-007",
+          "parent_fpi": "c162b24a-164f-58ec-a7bf-145ad631677d",
+          "f_plan_id": "f46dc4c5-5d85-4bac-a45c-be816a96a0f9",
+          "plan_name": "Wellcare Dual Liberty (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0908-008",
+          "parent_fpi": "c162b24a-164f-58ec-a7bf-145ad631677d",
+          "f_plan_id": "a26d2db3-a2f1-466b-a371-0ccc098a4299",
+          "plan_name": "Wellcare Dual Liberty (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4158-001",
+          "parent_fpi": "c162b24a-164f-58ec-a7bf-145ad631677d",
+          "f_plan_id": "1872bb9e-326e-465a-962d-d1691e3f0bc3",
+          "plan_name": "Wellcare Buckeye MyCare Ohio Dual Align (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

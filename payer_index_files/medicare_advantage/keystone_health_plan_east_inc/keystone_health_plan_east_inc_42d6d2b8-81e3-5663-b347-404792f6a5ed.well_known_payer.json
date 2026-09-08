@@ -1,0 +1,128 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "42d6d2b8-81e3-5663-b347-404792f6a5ed",
+      "is_fpi": true,
+      "payerLegalName": "KEYSTONE HEALTH PLAN EAST, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "KEYSTONE HEALTH PLAN EAST, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3952",
+      "is_fpi": false,
+      "parent_fpi": "42d6d2b8-81e3-5663-b347-404792f6a5ed"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3952-008",
+          "parent_fpi": "42d6d2b8-81e3-5663-b347-404792f6a5ed",
+          "f_plan_id": "d4e67f74-e077-44ae-aebb-f170f3d7954e",
+          "plan_name": "Keystone 65 Preferred Medical Only (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3952-020",
+          "parent_fpi": "42d6d2b8-81e3-5663-b347-404792f6a5ed",
+          "f_plan_id": "d8c8778b-cf06-4b5d-833f-7553a5064a3b",
+          "plan_name": "Keystone 65 Preferred Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3952-045",
+          "parent_fpi": "42d6d2b8-81e3-5663-b347-404792f6a5ed",
+          "f_plan_id": "7997e44e-66ee-415a-aae6-6a89f112bdb8",
+          "plan_name": "Keystone 65 Preferred Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3952-048",
+          "parent_fpi": "42d6d2b8-81e3-5663-b347-404792f6a5ed",
+          "f_plan_id": "97ff3c64-139e-40a2-bbf6-177fa6580e7a",
+          "plan_name": "Keystone 65 Select Medical Only (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3952-049",
+          "parent_fpi": "42d6d2b8-81e3-5663-b347-404792f6a5ed",
+          "f_plan_id": "c478f5f1-e427-4e5b-8dc4-4dc7f88dc5b1",
+          "plan_name": "Keystone 65 Select Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3952-050",
+          "parent_fpi": "42d6d2b8-81e3-5663-b347-404792f6a5ed",
+          "f_plan_id": "7b5437f4-9287-4747-9bfd-3493b18521b5",
+          "plan_name": "Keystone 65 Select Medical Only (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3952-051",
+          "parent_fpi": "42d6d2b8-81e3-5663-b347-404792f6a5ed",
+          "f_plan_id": "01a0f58b-17de-4f28-ac27-24bbc39910a7",
+          "plan_name": "Keystone 65 Select Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3952-053",
+          "parent_fpi": "42d6d2b8-81e3-5663-b347-404792f6a5ed",
+          "f_plan_id": "f6b7efe5-4776-4320-8d5d-c6d1596c074b",
+          "plan_name": "Keystone 65 Focus Rx (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3952-054",
+          "parent_fpi": "42d6d2b8-81e3-5663-b347-404792f6a5ed",
+          "f_plan_id": "04464b53-b374-4190-b3f4-84a6c95705ff",
+          "plan_name": "Keystone 65 Focus Rx (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3952-055",
+          "parent_fpi": "42d6d2b8-81e3-5663-b347-404792f6a5ed",
+          "f_plan_id": "f59103cb-39a4-4c7b-8713-405dfc04bc53",
+          "plan_name": "Keystone 65 Basic Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3952-059",
+          "parent_fpi": "42d6d2b8-81e3-5663-b347-404792f6a5ed",
+          "f_plan_id": "0e3a5d1d-9437-4ef1-9fb6-a11e45115733",
+          "plan_name": "Keystone 65 Liberty Medical Only (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3952-060",
+          "parent_fpi": "42d6d2b8-81e3-5663-b347-404792f6a5ed",
+          "f_plan_id": "8cf6f350-fe10-47b0-9367-d7aa493142c1",
+          "plan_name": "Keystone 65 Essential Rx (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3952-802",
+          "parent_fpi": "42d6d2b8-81e3-5663-b347-404792f6a5ed",
+          "f_plan_id": "7a741061-d813-4afa-892b-97eb69c10833",
+          "plan_name": "Keystone 65 Group Medical Only (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3952-804",
+          "parent_fpi": "42d6d2b8-81e3-5663-b347-404792f6a5ed",
+          "f_plan_id": "b9a55fb0-c5b5-4229-a307-d014d4705d89",
+          "plan_name": "Keystone 65 Group Rx (HMO)"
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://ibx.healthsparq.com/healthsparq/public/#/one/insurerCode=BLUEIBX_I&brandCode=BLUEIBXMCARE&productCode=ALL"
+      }
+    }
+  ],
+  "is_seeded": true
+}

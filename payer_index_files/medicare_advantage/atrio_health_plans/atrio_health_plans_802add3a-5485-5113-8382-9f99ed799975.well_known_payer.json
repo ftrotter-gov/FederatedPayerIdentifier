@@ -1,0 +1,173 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "802add3a-5485-5113-8382-9f99ed799975",
+      "is_fpi": true,
+      "payerLegalName": "ATRIO HEALTH PLANS",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ATRIO HEALTH PLANS"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3814",
+      "is_fpi": false,
+      "parent_fpi": "802add3a-5485-5113-8382-9f99ed799975"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6743",
+      "is_fpi": false,
+      "parent_fpi": "802add3a-5485-5113-8382-9f99ed799975"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7006",
+      "is_fpi": false,
+      "parent_fpi": "802add3a-5485-5113-8382-9f99ed799975"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3814-007",
+          "parent_fpi": "802add3a-5485-5113-8382-9f99ed799975",
+          "f_plan_id": "db7be66a-a1f5-4fb5-90e2-555214366378",
+          "plan_name": "ATRIO Special Needs Plan (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3814-030",
+          "parent_fpi": "802add3a-5485-5113-8382-9f99ed799975",
+          "f_plan_id": "6bf2c8fc-39ec-4a4a-b708-b90f4bad9ecf",
+          "plan_name": "ATRIO Special Needs Plan (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6743-001",
+          "parent_fpi": "802add3a-5485-5113-8382-9f99ed799975",
+          "f_plan_id": "6e57d0dd-f0ac-4390-bf58-ffe5f856f232",
+          "plan_name": "ATRIO Choice Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6743-007",
+          "parent_fpi": "802add3a-5485-5113-8382-9f99ed799975",
+          "f_plan_id": "55c5355c-4afa-471a-9f8c-04c1d3f9eab4",
+          "plan_name": "ATRIO Choice Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6743-025",
+          "parent_fpi": "802add3a-5485-5113-8382-9f99ed799975",
+          "f_plan_id": "b2dbbe8f-136a-45c6-bc76-f0889af04f54",
+          "plan_name": "ATRIO Choice Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6743-026",
+          "parent_fpi": "802add3a-5485-5113-8382-9f99ed799975",
+          "f_plan_id": "046cbe3c-5c29-4ae8-b9d6-2215719a93ce",
+          "plan_name": "ATRIO Prime Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6743-027",
+          "parent_fpi": "802add3a-5485-5113-8382-9f99ed799975",
+          "f_plan_id": "b3659db2-45d7-4dda-a246-d129655a4769",
+          "plan_name": "ATRIO Freedom (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6743-028",
+          "parent_fpi": "802add3a-5485-5113-8382-9f99ed799975",
+          "f_plan_id": "b19874f0-fe6c-498c-9665-9b1ed79cb048",
+          "plan_name": "ATRIO Prime Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6743-029",
+          "parent_fpi": "802add3a-5485-5113-8382-9f99ed799975",
+          "f_plan_id": "2fbe08ce-2c45-4712-b38e-976d966d8f24",
+          "plan_name": "ATRIO Freedom (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6743-030",
+          "parent_fpi": "802add3a-5485-5113-8382-9f99ed799975",
+          "f_plan_id": "f23419d5-9bf0-43bd-aa7e-ca0bf08e7b15",
+          "plan_name": "ATRIO Prime Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6743-031",
+          "parent_fpi": "802add3a-5485-5113-8382-9f99ed799975",
+          "f_plan_id": "4ae181db-e29a-4a29-a6aa-7af57d2e8149",
+          "plan_name": "ATRIO Freedom (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6743-801",
+          "parent_fpi": "802add3a-5485-5113-8382-9f99ed799975",
+          "f_plan_id": "5aa32847-a508-4aff-b934-83f0799f2e48",
+          "plan_name": "Employer Group Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6743-802",
+          "parent_fpi": "802add3a-5485-5113-8382-9f99ed799975",
+          "f_plan_id": "3b926bfa-dcf0-440b-b959-103a13799fd9",
+          "plan_name": "Employer Group Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6743-803",
+          "parent_fpi": "802add3a-5485-5113-8382-9f99ed799975",
+          "f_plan_id": "1c304ff3-85e4-4978-9912-7222ef380f7a",
+          "plan_name": "Employer Group Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6743-804",
+          "parent_fpi": "802add3a-5485-5113-8382-9f99ed799975",
+          "f_plan_id": "6104c364-6e93-4733-b585-46fcaa2d89a1",
+          "plan_name": "Employer Group Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7006-007",
+          "parent_fpi": "802add3a-5485-5113-8382-9f99ed799975",
+          "f_plan_id": "426ccaf6-f919-440d-943e-2041c5272915",
+          "plan_name": "ATRIO Choice Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7006-018",
+          "parent_fpi": "802add3a-5485-5113-8382-9f99ed799975",
+          "f_plan_id": "b6040f04-0131-4f1b-b3d2-ccee41c1c730",
+          "plan_name": "ATRIO Choice Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7006-021",
+          "parent_fpi": "802add3a-5485-5113-8382-9f99ed799975",
+          "f_plan_id": "db131888-fdef-4900-8d38-44c826f6d031",
+          "plan_name": "ATRIO Freedom (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7006-022",
+          "parent_fpi": "802add3a-5485-5113-8382-9f99ed799975",
+          "f_plan_id": "306675e0-1e8c-42ac-ae98-47f778bac8ad",
+          "plan_name": "ATRIO Support Rx (PPO C-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

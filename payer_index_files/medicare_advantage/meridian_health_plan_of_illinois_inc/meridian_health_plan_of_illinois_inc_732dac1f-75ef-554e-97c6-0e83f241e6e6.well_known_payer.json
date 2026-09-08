@@ -1,0 +1,76 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "732dac1f-75ef-554e-97c6-0e83f241e6e6",
+      "is_fpi": true,
+      "payerLegalName": "MERIDIAN HEALTH PLAN OF ILLINOIS, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MERIDIAN HEALTH PLAN OF ILLINOIS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5779",
+      "is_fpi": false,
+      "parent_fpi": "732dac1f-75ef-554e-97c6-0e83f241e6e6"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6971",
+      "is_fpi": false,
+      "parent_fpi": "732dac1f-75ef-554e-97c6-0e83f241e6e6"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5779-002",
+          "parent_fpi": "732dac1f-75ef-554e-97c6-0e83f241e6e6",
+          "f_plan_id": "80dc7398-8b21-464d-901b-63e0e455bb27",
+          "plan_name": "Wellcare Simple Essential (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5779-007",
+          "parent_fpi": "732dac1f-75ef-554e-97c6-0e83f241e6e6",
+          "f_plan_id": "30b15f16-6497-44da-b5d4-03651eed4f2f",
+          "plan_name": "Wellcare Simple Exclusive (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5779-009",
+          "parent_fpi": "732dac1f-75ef-554e-97c6-0e83f241e6e6",
+          "f_plan_id": "7a0fa46b-f7e4-4729-9cd3-30081c9e4eec",
+          "plan_name": "Wellcare Simple Essential Value (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5779-010",
+          "parent_fpi": "732dac1f-75ef-554e-97c6-0e83f241e6e6",
+          "f_plan_id": "ab5d2f65-c674-4d71-9aa0-2df343702c73",
+          "plan_name": "Wellcare Giveback (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5779-011",
+          "parent_fpi": "732dac1f-75ef-554e-97c6-0e83f241e6e6",
+          "f_plan_id": "2a41c1dc-5372-4998-9f62-271ad877479f",
+          "plan_name": "Wellcare Patriot Giveback (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6971-001",
+          "parent_fpi": "732dac1f-75ef-554e-97c6-0e83f241e6e6",
+          "f_plan_id": "162848b6-2660-41f2-823e-13cda5c223f5",
+          "plan_name": "Wellcare Meridian Dual Align (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

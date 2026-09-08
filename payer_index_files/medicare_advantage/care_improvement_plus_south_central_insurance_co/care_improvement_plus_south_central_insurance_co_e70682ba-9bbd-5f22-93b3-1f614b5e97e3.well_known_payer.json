@@ -1,0 +1,2118 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+      "is_fpi": true,
+      "payerLegalName": "CARE IMPROVEMENT PLUS SOUTH CENTRAL INSURANCE CO.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CARE IMPROVEMENT PLUS SOUTH CENTRAL INSURANCE CO."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0421",
+      "is_fpi": false,
+      "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0710",
+      "is_fpi": false,
+      "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0755",
+      "is_fpi": false,
+      "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1278",
+      "is_fpi": false,
+      "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1659",
+      "is_fpi": false,
+      "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1889",
+      "is_fpi": false,
+      "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2292",
+      "is_fpi": false,
+      "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2406",
+      "is_fpi": false,
+      "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3256",
+      "is_fpi": false,
+      "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3418",
+      "is_fpi": false,
+      "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5008",
+      "is_fpi": false,
+      "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5322",
+      "is_fpi": false,
+      "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8211",
+      "is_fpi": false,
+      "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8768",
+      "is_fpi": false,
+      "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "R0759",
+      "is_fpi": false,
+      "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "R2604",
+      "is_fpi": false,
+      "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "R3444",
+      "is_fpi": false,
+      "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "R6801",
+      "is_fpi": false,
+      "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0421-001",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "c235f1fd-00b3-44f0-9bd9-6c6278413f98",
+          "plan_name": "UHC Dual Complete VA-Y4 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-004",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "40df9a82-bbc4-47ac-b354-eceab6ad9a60",
+          "plan_name": "UHC Nursing Home Plan EX-F001 (PPO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-005",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "1e296c66-a1d9-49d9-b0c2-5e8232f317cd",
+          "plan_name": "UHC Nursing Home Plan AZ-F001 (PPO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-007",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "5c65c46e-52d4-489a-91a2-19aae65af683",
+          "plan_name": "UHC Nursing Home Plan CO-F001 (PPO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-010",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "f858935c-0e44-492e-bdf9-b3340514e8c4",
+          "plan_name": "UHC Nursing Home Plan FL-F001 (PPO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-013",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "afa8a041-aa76-46df-b2a6-0eaa756a988b",
+          "plan_name": "UHC Nursing Home Plan IN-F001 (PPO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-016",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "d3a34cf6-00a4-4588-8cc0-dbfe2db7db31",
+          "plan_name": "UHC Nursing Home Plan MO-F001 (PPO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-017",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "f2bc2417-46ae-42f0-b225-5ef56af39e91",
+          "plan_name": "UHC Nursing Home Plan EX-F002 (PPO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-020",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "59101e09-07ce-45d2-b9ee-1191c3900012",
+          "plan_name": "UHC Nursing Home Plan TX-F001 (PPO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-026",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "7a0b1efc-fe94-4e10-b834-13c70cf3a74c",
+          "plan_name": "UHC Nursing Home Plan EX-F003 (PPO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-027",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "8d925e2c-6954-4b3f-888d-e05063ef4b51",
+          "plan_name": "UHC Nursing Home Plan OH-F001 (PPO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-030",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "8a34ea9d-380b-4820-aef9-881cb6aa50aa",
+          "plan_name": "UHC Care Advantage WA-E001 (PPO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-031",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "f8a5f116-6593-4f70-ac69-f3f53e65e71b",
+          "plan_name": "UHC Nursing Home Plan WA-F001 (PPO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-032",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "45772491-a2dd-4e6a-8548-f66e7bf1c8b3",
+          "plan_name": "UHC Nursing Home Plan EX-F004 (PPO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-033",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "1b8c49a0-5d98-42d7-b221-a65d11833b6b",
+          "plan_name": "UHC Nursing Home Plan GA-F001 (PPO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-034",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "4a9b4f73-269d-40e7-a8f2-84f9545ea74d",
+          "plan_name": "UHC Nursing Home Plan NC-F001 (PPO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-035",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "58262793-0578-4e99-9337-f32947bbdba0",
+          "plan_name": "UHC Nursing Home Plan RI-F001 (PPO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-036",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "9656b768-a26c-4f3c-8381-f7f0f075d16f",
+          "plan_name": "UHC Nursing Home Plan OR-F001 (PPO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-037",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "5945d014-7ba8-461a-92e9-58fe2928de90",
+          "plan_name": "UHC Care Advantage OR-E001 (PPO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-038",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "8c728064-a7c6-4694-b4e3-005e860e40ab",
+          "plan_name": "UHC Nursing Home Plan FL-F002 (PPO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-039",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "bdc818b6-54d1-44dd-b9ef-97a9d1c6f6ad",
+          "plan_name": "UHC Nursing Home Plan IL-F001 (PPO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-051",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "7e1178c2-b3c0-4773-8a1c-40118ab294d2",
+          "plan_name": "UHC Nursing Home Plan UT-F001 (PPO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-052",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "3227838f-c7a7-4e2e-b682-b0460182577f",
+          "plan_name": "UHC Nursing Home Plan OK-F001 (PPO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-053",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "d836ea1b-663c-433d-97c8-5d4288723e86",
+          "plan_name": "UHC Nursing Home Plan SC-F001 (PPO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-057",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "5ab61f33-6396-419c-b0e9-1828307b34f1",
+          "plan_name": "UHC Care Advantage OH-E001 (PPO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-801",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "c256fa45-02b4-43c6-9af0-2727bbe1e546",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-802",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "6e284fda-1ce7-461d-b9b0-fde3fe0b9b6b",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-803",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "bd9e48a4-57e8-4613-be95-45a5dee20406",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-804",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "4ed47101-3235-4512-8005-13dc57514c2f",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-805",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "e280e9a5-bf22-44cf-899c-d6316203ec54",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-806",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "be60409a-f4ac-41af-9f7f-d48255d39cd8",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-807",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "ce378281-f733-4e7a-ab21-66d28d53f7af",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-808",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "4c9ece2a-c3f6-4619-8ebe-6584229b6fce",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-809",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "cb2b7073-7726-4707-8b3c-ee5cc0c36996",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-810",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "4ec5656b-b5a4-4138-93c4-a3743e069d15",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-811",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "296d443d-fbe7-4e0d-9cea-04e084bac6c1",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-812",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "d7b9cbe3-2d03-4143-8362-003ba1a12a0b",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-813",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "e7290652-d45d-4c5c-a8e8-9775e7b84391",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-814",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "8ca4d74c-3447-4b23-92e2-5c519c0618c3",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-815",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "83307c77-a574-41bc-9f8f-eb983f208b66",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-816",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "252527ef-f87b-4cf7-8531-3341bdac1629",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-817",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "52a55f56-b552-4d30-af78-c3a5b72a92c9",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-818",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "6d782448-b873-4a18-864a-1d73c461f725",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-819",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "0367aa8c-b1a8-4da7-812b-d8e058046e4a",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-820",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "66741792-9472-4224-8c53-b7a979b22c98",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-821",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "6ff2fbcb-fade-4955-9218-da6ddd6bd71f",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-822",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "c44aa990-6680-49aa-b269-7b3c78f68e74",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-823",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "e5427f0a-7d75-435a-a154-55cad3c271cd",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-824",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "3871a715-4aef-4dba-bf46-94f06ad80cf4",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-825",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "ba72dbcf-6761-450b-b79e-0bdf5b35da8f",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-826",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "2ff99be0-3f19-43ca-9e88-d86353b74057",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-827",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "abea7d26-be1b-43f7-b1c3-e75c33c6e635",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-829",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "b6cf1a8e-efbb-434c-bec1-5d99b9c1ff3b",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-830",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "7ca4c5f1-69ed-42d4-8f7d-c51c502c68f5",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0710-831",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "6c4c5a49-8e21-4f7a-96e8-4f479cdbe9b9",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0755-030",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "ce84a11d-45be-4625-8b22-67cbfc416288",
+          "plan_name": "UHC Medicare Advantage CT-0001 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0755-031",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "74e0b929-c20b-4bc8-9cc1-fa66f5165a83",
+          "plan_name": "UHC Medicare Advantage CT-0002 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0755-032",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "5f93ef36-9b7f-4058-b99d-c523d00a6349",
+          "plan_name": "UHC Medicare Advantage Patriot No Rx CT-MA01 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0755-033",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "83aaafc6-bbf6-46dc-9587-60ea67888db0",
+          "plan_name": "UHC Medicare Advantage CT-0003 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0755-037",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "87d6a3a0-1d9f-46de-a6bf-b4b722304379",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx NJ-MA01 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0755-038",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "a8c51302-f44f-43a2-8635-1f4fe7cf9e50",
+          "plan_name": "AARP Medicare Advantage Essentials from UHC NJ-1 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0755-044",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "9d632bfb-ba43-406a-9ae8-bf21d0d5445d",
+          "plan_name": "AARP Medicare Advantage from UHC NJ-0002 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0755-045",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "5cd78054-facd-4b81-8e56-7aed3d8de20e",
+          "plan_name": "AARP Medicare Advantage from UHC NJ-0003 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0755-810",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "a81d8fc2-9402-4c0e-b21b-73663347f12c",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0755-811",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "46b0ab4f-c63d-43db-b343-8c28651cb682",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0755-812",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "80b5f0dd-1ab5-4e3a-98f4-ead7ecc10ca2",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0755-813",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "ee396148-6f7f-483a-b692-0abcb0f7d886",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0755-814",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "7e2e2351-a662-4f37-b518-56b6173fee99",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0755-815",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "c7041fca-fd36-4a0b-b953-3e138384d503",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0755-046",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "50530a67-305f-49ce-afd3-6fce68c45008",
+          "plan_name": "AARP Medicare Advantage Extras from UHC NJ-7 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1278-003",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "4e03600f-a3b3-43c8-800b-a45222aaf668",
+          "plan_name": "AARP Medicare Advantage from UHC TX-0001 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1278-005",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "afeaa1a0-689f-41cb-87e8-c82717a2183e",
+          "plan_name": "AARP Medicare Advantage from UHC TX-0003 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1278-010",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "6ebfc983-d30c-4ceb-b047-684d83f770bd",
+          "plan_name": "AARP Medicare Advantage from UHC TX-0004 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1278-013",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "e940c018-7f61-474f-85d3-94491ae3cb4e",
+          "plan_name": "AARP Medicare Advantage from UHC TX-0005 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1278-014",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "c8a44817-04d7-40a9-ad21-292394cc6bb8",
+          "plan_name": "AARP Medicare Advantage from UHC TX-0006 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1278-015",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "9e3cb34e-f528-4dc3-abf9-6ccc3fec7a13",
+          "plan_name": "AARP Medicare Advantage from UHC TX-0007 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1278-016",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "001ac0cf-cf1d-4e21-b493-c730cf9ce204",
+          "plan_name": "AARP Medicare Advantage from UHC TX-0008 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1278-018",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "9d784ad8-28d0-40ef-a6e7-7dfb2d94a004",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx NE-MA01 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1278-020",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "b413c7f6-b3e8-4707-9873-8b87a880f315",
+          "plan_name": "AARP Medicare Advantage from UHC NE-0002 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1278-021",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "3cf35372-3069-44bb-bb36-b1c1e68e52b3",
+          "plan_name": "AARP Medicare Advantage Giveback from UHC TX-31 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1278-024",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "ca9df03a-8b62-4a44-a4f8-953413443473",
+          "plan_name": "AARP Medicare Advantage Giveback from UHC TX-34 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1278-025",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "9856f354-c9bf-4d98-9e34-e850308d5b74",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx TX-MA06 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1278-026",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "d2d6a9d5-a902-42c9-990d-393913743966",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx TX-MA04 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1278-027",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "7eddc1cf-10bd-4eca-9bd4-34a041cf8cb0",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx TX-MA05 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1278-028",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "f4bd0eab-0cc5-453a-982c-3129041306f7",
+          "plan_name": "AARP Medicare Advantage from UHC WA-0001 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1278-029",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "5df55058-06bb-49ed-bd7b-8aede5627629",
+          "plan_name": "AARP Medicare Advantage from UHC WA-0002 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1278-030",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "643d7908-3adc-4d26-a4a7-6d2717549bc9",
+          "plan_name": "AARP Medicare Advantage from UHC WA-0003 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1278-031",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "6d261b45-0cb5-4b35-adb9-ae18a01ff4be",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx WA-MA01 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1278-032",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "659d3c4e-93a1-472c-8e30-a008914a63da",
+          "plan_name": "AARP Medicare Advantage from UHC WA-0004 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1659-002",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "a132385e-81eb-4741-833e-d7bdb333085a",
+          "plan_name": "UHC Medicare Advantage VA-0001 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1889-002",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "19134d18-7882-435a-8c8a-f1f57e6b0bde",
+          "plan_name": "UHC Dual Complete FL-D003 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1889-005",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "ad62f67b-88ce-43a4-9076-1f073b328b83",
+          "plan_name": "UHC Dual Complete NC-S001 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1889-007",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "20352082-b49e-4d00-a496-143649ceb9ed",
+          "plan_name": "UHC Dual Complete PA-S001 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1889-008",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "5065aeda-838b-43d5-978f-506a8469bf5e",
+          "plan_name": "UHC Dual Complete KY-S001 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1889-009",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "782df439-2850-479b-bd66-630245465602",
+          "plan_name": "UHC Dual Complete AL-D002 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1889-010",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "a6512d2e-2042-4679-b0e3-d0bfe94a070c",
+          "plan_name": "UHC Dual Complete LA-S001 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1889-011",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "4cd1dcea-baea-4013-b50f-9a3de893a4b0",
+          "plan_name": "UHC Dual Complete MS-S001 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1889-012",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "73752188-c5b7-46c6-a5b4-2f6f51484764",
+          "plan_name": "UHC Dual Complete NV-S002 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1889-013",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "9a1a5d34-6ea5-44db-98e9-7880214404ad",
+          "plan_name": "UHC Medicare Advantage GA-2 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1889-014",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "6d20378f-81f6-4b9f-8368-3202bd3e981f",
+          "plan_name": "AARP Medicare Advantage from UHC AR-0004 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1889-015",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "e3fb45c7-6022-48b1-84de-7a86b1d8188d",
+          "plan_name": "AARP Medicare Advantage from UHC AL-0004 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1889-016",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "1e646e18-5934-4804-9dac-ccf8d1e1dbe7",
+          "plan_name": "AARP Medicare Advantage from UHC WY-0001 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1889-017",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "0f0f357e-fbff-4ba9-a1ba-00447f4264d6",
+          "plan_name": "AARP Medicare Advantage from UHC WY-0002 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1889-018",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "90c1e12d-ad90-4ca5-a5ff-4f8025bfa423",
+          "plan_name": "UHC Medicare Advantage Patriot No Rx WY-MA01 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1889-019",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "3248a1d6-0e5e-42c2-b3e0-3489c1171457",
+          "plan_name": "UHC Complete Care AR-5 (PPO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1889-020",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "4b99660f-fe62-4537-8014-8875ed76d9d9",
+          "plan_name": "UHC Complete Care GA-3 (PPO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1889-022",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "887e1b6d-b001-4a3b-bcfa-03ca2531a8d7",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx GA-MA01 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1889-025",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "2e5b1579-7ea6-4a65-b961-1286ee821abf",
+          "plan_name": "UHC Complete Care AR-6 (PPO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1889-026",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "1916bf69-3724-4601-a26b-5896e243f4ee",
+          "plan_name": "UHC Dual Complete FL-Y4 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1889-028",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "9487abbc-7151-410c-8a77-cb697f3c17c9",
+          "plan_name": "UHC Complete Care Support GA-9 (PPO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1889-030",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "aaa27ea1-62bb-4809-8b97-b152360da40d",
+          "plan_name": "UHC Dual Complete KY-S3 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1889-031",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "d202dd1e-214a-42b3-a6da-a0a74efbf450",
+          "plan_name": "UHC Dual Complete LA-S4 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1889-032",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "90a7b491-97e8-4402-ba49-fb4ca6feeb8e",
+          "plan_name": "UHC Dual Complete MS-S3 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1889-034",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "1cc416dd-a756-46b6-83b7-45c034b77fe2",
+          "plan_name": "UHC Dual Complete NC-S2 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1889-035",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "b520b283-5dcc-444a-8fef-712c3699b3d6",
+          "plan_name": "UHC Dual Complete NV-S3 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2292-001",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "f6d759b7-89ea-40a1-8979-7c3b197dfeb7",
+          "plan_name": "UHC Nursing Home Plan NY-F001 (PPO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2292-002",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "db4ddbb5-94c7-478c-adc8-07978d1a895e",
+          "plan_name": "UHC Nursing Home Plan NY-F002 (PPO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-008",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "e8df28a2-1f16-4a50-bd50-181bc51026e5",
+          "plan_name": "AARP Medicare Advantage from UHC FL-0016 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-009",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "c1e4f38e-46b0-4365-84d3-6de70010730e",
+          "plan_name": "AARP Medicare Advantage from UHC FL-0017 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-010",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "3ecb1e22-7d4f-4afc-a542-439ed91c125a",
+          "plan_name": "AARP Medicare Advantage from UHC FL-0018 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-011",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "7e35d8cc-60ef-4edc-8f8b-c3ef99325c6b",
+          "plan_name": "AARP Medicare Advantage from UHC FL-0019 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-013",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "d1165936-7f72-4d06-8ee1-93855ad68427",
+          "plan_name": "AARP Medicare Advantage from UHC FL-0021 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-015",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "b8e17d6c-4d0d-47c1-88ca-d3c44aba3233",
+          "plan_name": "AARP Medicare Advantage from UHC FL-0023 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-016",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "f2a33b4d-5858-437e-bf9c-bada9064916a",
+          "plan_name": "AARP Medicare Advantage from UHC FL-0024 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-017",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "d0d7abf1-9208-452c-adc9-3d2b08891ec0",
+          "plan_name": "AARP Medicare Advantage from UHC FL-0025 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-018",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "0e63d1a3-c813-4181-bc7a-6a08e1a8729c",
+          "plan_name": "AARP Medicare Advantage from UHC FL-0026 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-019",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "28a042fc-d6ac-409b-a2dd-560d4a5b8a53",
+          "plan_name": "AARP Medicare Advantage from UHC FL-0027 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-034",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "d714bd3f-e25c-42db-aeb1-f5db8b915114",
+          "plan_name": "AARP Medicare Advantage from UHC NC-0016 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-035",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "90987610-929a-47b1-9975-4d53d37a71ff",
+          "plan_name": "AARP Medicare Advantage from UHC IN-0001 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-036",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "28d20495-29af-4fc2-924c-5091ac98f924",
+          "plan_name": "AARP Medicare Advantage from UHC IN-001P (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-037",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "34258f6c-0ca4-4eac-8343-4b309feb6abb",
+          "plan_name": "AARP Medicare Advantage from UHC IN-0002 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-038",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "1f5b9b26-6fd0-4510-b5d5-d75ee3675cfc",
+          "plan_name": "AARP Medicare Advantage from UHC IN-0003 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-039",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "63e64deb-1627-413d-b53f-cf31dddfac64",
+          "plan_name": "AARP Medicare Advantage Essentials from UHC EP-1 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-040",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "551e4450-7c23-4eca-9d63-4586a64e6bd8",
+          "plan_name": "AARP Medicare Advantage from UHC HI-0001 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-041",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "aa470e48-502b-4a14-8239-cc5e9b4dc5bb",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx HI-MA01 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-042",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "2727b5e8-6392-4ede-8171-1ef3e77fd7d2",
+          "plan_name": "AARP Medicare Advantage from UHC OR-0001 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-043",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "3aa3a0cf-9ad6-4d9a-b296-58f47bd8a7b3",
+          "plan_name": "AARP Medicare Advantage from UHC ST-0001 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-044",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "df7e6fa9-4504-41f4-8cb5-644142bc9757",
+          "plan_name": "AARP Medicare Advantage from UHC ID-0001 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-046",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "45dfbb4a-4f28-4fc1-a8e6-c80c827ff2df",
+          "plan_name": "AARP Medicare Advantage from UHC PA-0007 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-047",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "39a21ec0-3df5-437b-9b08-6206e8e2f869",
+          "plan_name": "AARP Medicare Advantage from UHC PA-0008 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-048",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "5d2134bc-c0c7-4f84-b87b-7c25174c0dcb",
+          "plan_name": "AARP Medicare Advantage from UHC PA-0009 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-050",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "96b9f0a9-d488-4064-bd77-723f676d0693",
+          "plan_name": "UHC Dual Complete TX-D001 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-052",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "b5bd4910-16a6-4f34-b5a6-3188934d7722",
+          "plan_name": "UHC Dual Complete GA-D001 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-053",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "f3cdc315-e7c5-4c93-9a67-d651b3227235",
+          "plan_name": "UHC Dual Choice DC-Y2 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-054",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "714893cc-ba85-44bd-a314-4eb83c38a128",
+          "plan_name": "AARP Medicare Advantage from UHC NM-0001 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-055",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "2f6d1d00-7958-42fe-b8a1-8bebe3429d0d",
+          "plan_name": "AARP Medicare Advantage from UHC NM-0002 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-056",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "bf135e63-2aa7-425a-9b9c-98453cd7cc60",
+          "plan_name": "AARP Medicare Advantage from UHC IN-0004 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-058",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "6867165f-f925-490b-ad4f-29f57ac1c04b",
+          "plan_name": "AARP Medicare Advantage from UHC HI-0002 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-059",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "8ac01fee-430e-4b1b-88b4-49c61d5da631",
+          "plan_name": "AARP Medicare Advantage from UHC HI-0003 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-062",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "df9666f9-ac71-4b46-9990-6fd845571ef5",
+          "plan_name": "AARP Medicare Advantage from UHC AZ-0007 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-063",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "7c018459-0dca-4b7d-8e30-2a5687b6b4b9",
+          "plan_name": "AARP Medicare Advantage from UHC AZ-0008 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-065",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "08c1e1b5-3238-4d36-82e6-5767dc497e15",
+          "plan_name": "AARP Medicare Advantage from UHC ID-0003 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-066",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "f573056b-244a-48b8-910d-b9d07be92fb5",
+          "plan_name": "AARP Medicare Advantage from UHC IN-0006 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-067",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "50bb19d2-3a1b-42f3-80d1-f9dd878f84b8",
+          "plan_name": "AARP Medicare Advantage from UHC IN-0007 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-068",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "dc64236f-5f22-44ee-9155-9ceb89763eeb",
+          "plan_name": "AARP Medicare Advantage from UHC MO-0002 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-069",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "09eaaa77-5da9-4bfb-b4b7-969354b627e2",
+          "plan_name": "AARP Medicare Advantage from UHC ST-2 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-070",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "c5efae76-41c5-4737-bfe7-60140ba7218f",
+          "plan_name": "AARP Medicare Advantage from UHC OR-0002 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-071",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "bc6ca36e-f82c-40bd-be2b-5d9f4f132d9a",
+          "plan_name": "AARP Medicare Advantage from UHC PA-0010 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-072",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "7897dece-715a-4887-aa0a-9ee4bed2cbb1",
+          "plan_name": "AARP Medicare Advantage from UHC PA-0011 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-073",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "b1228d9a-599d-486c-831b-3f958c673ebc",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx OR-MA01 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-074",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "842827a9-5c0c-4459-8258-4fba3589d774",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx IN-MA01 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-075",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "1ce81551-7241-43c1-a1d8-9b5e22616b44",
+          "plan_name": "AARP Medicare Advantage from UHC DE-0001 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-076",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "b23dc824-1dbd-48f3-a0ab-d3f93d08567e",
+          "plan_name": "AARP Medicare Advantage from UHC AZ-0010 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-077",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "4b382ff7-b9c6-4f14-8cd3-7095c5aed4d9",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx AZ-MA01 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-078",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "150767ee-af4e-43e0-98d7-a1f01205e45e",
+          "plan_name": "AARP Medicare Advantage from UHC AZ-0011 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-080",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "3e7ea1b2-564b-4f60-92eb-f4d68e471fde",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx NM-MA01 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-082",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "668f4d3b-f263-4e4c-9175-0bf1bf50cfeb",
+          "plan_name": "AARP Medicare Advantage from UHC DC-0002 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-087",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "57d13337-bed5-49f2-bcd2-c71c8273d3a8",
+          "plan_name": "AARP Medicare Advantage from UHC IN-0009 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-088",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "4581a916-c004-4b14-ac48-1ba0b975a21e",
+          "plan_name": "AARP Medicare Advantage from UHC NM-0003 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-089",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "4c946672-abbe-4069-a649-e1f1fb0c8227",
+          "plan_name": "AARP Medicare Advantage from UHC NM-0004 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-090",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "dc012b25-1371-49cb-8cfe-ab5d3c72a6cb",
+          "plan_name": "AARP Medicare Advantage from UHC NM-0005 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-091",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "a6257def-9fc0-4d15-a1e4-c62bd23c856d",
+          "plan_name": "AARP Medicare Advantage from UHC NM-0006 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-092",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "640aa352-2c21-4b8d-b5be-116f9ce49121",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx NM-MA02 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-093",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "f55731a5-5f58-4125-ae49-39d44b12834c",
+          "plan_name": "AARP Medicare Advantage from UHC HI-0004 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-094",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "8802c28e-1cd5-4e69-a1d2-a2afbfe2db9e",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx HI-MA02 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-096",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "e531d2e1-70e5-4fc5-afa5-da0f8196f2c6",
+          "plan_name": "AARP Medicare Advantage Giveback from UHC NM-7 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-097",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "c96d41c2-d13a-49ac-8dbd-198dc42fbba7",
+          "plan_name": "AARP Medicare Advantage Giveback from UHC NM-8 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-098",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "cd1f11c9-652f-49f4-b42d-49805f7e2220",
+          "plan_name": "AARP Medicare Advantage from UHC NC-0017 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-099",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "4b619e44-dad8-45ba-9765-5b145bedeadb",
+          "plan_name": "UHC Dual Choice DC-Q001 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-100",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "9c48c945-5a40-4a08-a6f0-f62d82c56cb8",
+          "plan_name": "AARP Medicare Advantage from UHC DE-0002 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-101",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "2f3b24f5-7584-4e7f-8e6e-7c255cfac9f4",
+          "plan_name": "AARP Medicare Advantage Giveback from UHC PA-12 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-104",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "b1408930-7f74-46d6-8b8c-c4b42a96cc1b",
+          "plan_name": "AARP Medicare Advantage from UHC CO-0013 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-110",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "11bb615d-beed-437e-b298-50def8eed9b2",
+          "plan_name": "AARP Medicare Advantage from UHC CO-0017 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-112",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "3adcce03-7f2c-4dd4-8cc8-078429153a9d",
+          "plan_name": "AARP Medicare Advantage from UHC ID-0010 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-113",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "f67fbdf1-155b-4b5e-a2a3-d4e563e97428",
+          "plan_name": "AARP Medicare Advantage from UHC ID-0011 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-115",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "40d8388b-8f0e-4acd-81e7-6403c7ca9ab6",
+          "plan_name": "AARP Medicare Advantage from UHC NC-0019 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-119",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "4ede8dd4-7a2a-4a22-8f6f-bb4c043310e8",
+          "plan_name": "AARP Medicare Advantage Giveback from UHC EP-2 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-121",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "dd93bf3b-d534-46a4-9f43-510fe61fe42e",
+          "plan_name": "AARP Medicare Advantage Extras from UHC EP-3 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-125",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "4261a67d-782f-4f80-b751-7268e4573691",
+          "plan_name": "AARP Medicare Advantage from UHC VA-0018 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-129",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "e4cb6cde-ad84-4beb-aacc-208b8da24858",
+          "plan_name": "AARP Medicare Advantage Access from UHC AZ-15 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-130",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "e33782b2-1543-4335-9f81-1926476bacfb",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx FL-MA2 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-131",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "1cf27ec2-003a-4e2e-9d11-5de0a81adf99",
+          "plan_name": "AARP Medicare Advantage from UHC HI-5 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2406-135",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "ef43baf5-2d0f-4abe-bd75-de7f31cc9849",
+          "plan_name": "AARP Medicare Advantage from UHC EP-4 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3256-005",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "60171249-987d-4139-aca1-ac5ec9df25e8",
+          "plan_name": "UHC Dual Complete GA-S1 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3256-006",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "11db5952-a6bc-4691-81f3-3e5f32407f3b",
+          "plan_name": "UHC Dual Complete GA-V1 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3256-004",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "5258d4a5-3e0b-42b6-91ad-3f70e69070de",
+          "plan_name": "UHC Dual Complete GA-S2 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3418-001",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "96af337b-91cf-4343-909d-4d9f1edcf313",
+          "plan_name": "AARP Medicare Advantage from UHC NY-0012 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3418-002",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "577d7c43-2d68-43eb-aa2e-afa1aba87ded",
+          "plan_name": "AARP Medicare Advantage from UHC NY-0013 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3418-004",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "a4a6d322-604c-42fb-8ffb-495b0f3711d2",
+          "plan_name": "AARP Medicare Advantage from UHC NY-0015 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3418-008",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "00111147-f4e3-452a-8f9a-c636957572c3",
+          "plan_name": "AARP Medicare Advantage from UHC NY-0019 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5008-002",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "8c80c005-a012-4ede-a66d-c888dd1182b0",
+          "plan_name": "UHC Dual Complete WA-S6 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5008-010",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "33e7b4ef-cdc1-4c3c-89b8-9b7422d5001d",
+          "plan_name": "UHC Dual Complete LA-S003 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5008-011",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "08631f77-ca1e-4b66-8651-22addcea1226",
+          "plan_name": "UHC Dual Complete MS-S002 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5008-015",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "a8ef05ce-cfbd-40d2-a1e5-8006fc8ed6df",
+          "plan_name": "UHC Dual Complete WA-V001 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5008-016",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "98c747a8-d088-46cc-b9e6-e1f3279a4e63",
+          "plan_name": "UHC Dual Complete MS-V001 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5008-017",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "fd3f0a04-260c-4da5-bbcf-53bcf3e99cff",
+          "plan_name": "UHC Dual Complete MS-S4 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5008-018",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "5b0807f6-ae07-4330-af64-6ad2b8187019",
+          "plan_name": "UHC Dual Complete WA-S3 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5008-019",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "a5f0ed20-5808-4ca4-aa75-826db32d4e0c",
+          "plan_name": "UHC Dual Complete WA-Q2 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5008-020",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "811dfb09-b3c2-41a3-a9d9-45ff84d7c5a5",
+          "plan_name": "UHC Dual Complete WA-S4 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5322-025",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "5cda0031-d9a2-4dc8-a367-b7573501d77a",
+          "plan_name": "UHC Dual Complete TX-D007 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5322-026",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "b4c4940e-5fe7-454b-98fb-98852519816b",
+          "plan_name": "UHC Dual Complete TX-V005 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5322-028",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "0b389ea5-be3f-471c-851c-5a618f9de690",
+          "plan_name": "UHC Dual Complete OH-D002 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5322-029",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "8da1093b-ddd3-4e96-8b02-dd2503eb292e",
+          "plan_name": "UHC Dual Complete KS-S002 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5322-050",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "2969ceca-fc5d-483e-8896-c40b7e31d078",
+          "plan_name": "UHC Dual Complete GA-D2 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5322-031",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "0e8d85ad-2adb-4c5d-90e6-90d5e5f444f5",
+          "plan_name": "UHC Dual Complete OK-S002 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5322-033",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "8632b4bf-3951-481e-8403-d0dd6a7cd579",
+          "plan_name": "UHC Dual Complete OK-V001 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5322-034",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "6b565195-544d-459e-9257-c133359c4069",
+          "plan_name": "UHC Dual Complete OH-V002 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5322-038",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "5987ee79-fb61-4fc1-8a80-388a91715520",
+          "plan_name": "UHC Dual Complete TX-V010 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5322-040",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "407e7259-3daa-462a-b0f0-46cb8d2146b3",
+          "plan_name": "AARP Medicare Advantage from UHC SC-0005 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5322-047",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "5b882848-1495-426b-a9e6-7da69b797968",
+          "plan_name": "AARP Medicare Advantage from UHC GA-5 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5322-043",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "3e825ffc-b715-4bf7-bfc7-1c1f7e6c1279",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx SC-MA01 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5322-044",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "c3f45a5b-9687-4c77-a61f-825d43bd47a6",
+          "plan_name": "AARP Medicare Advantage from UHC SC-0006 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5322-049",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "ac0aecb5-f0fb-456a-83c1-75934a6d0262",
+          "plan_name": "UHC Dual Complete GA-S3 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5322-046",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "15338a55-cff1-4bab-a552-6d5a403b09e9",
+          "plan_name": "UHC Dual Complete TX-S5 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5322-801",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "47151c57-4daf-4303-9f14-1d3e98a6a99d",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5322-802",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "ec07531f-d143-4375-b736-2599a32403c6",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5322-803",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "7fe3c7f9-1108-4f7e-8d66-7ceb837783a8",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5322-804",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "c2a23c00-17fa-4f9d-a4b5-66b85467eb8b",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8211-001",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "c145ef66-17dc-4124-8d97-b94b9c9cb2bb",
+          "plan_name": "AARP Medicare Advantage from UHC WV-0001 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8211-005",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "fd4781ef-769d-461a-91d5-168f1d368ee8",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx WV-MA01 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8211-006",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "533d7ff3-c7be-4eab-8e7e-ea4f50d1c877",
+          "plan_name": "AARP Medicare Advantage from UHC WV-0003 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8211-007",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "92b6b6a5-ffd0-40df-a45f-12b29ae00455",
+          "plan_name": "AARP Medicare Advantage from UHC MT-0001 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8211-009",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "4e68fc8d-c9e5-4eb2-8cf5-7cba25158e5b",
+          "plan_name": "AARP Medicare Advantage from UHC MT-0002 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8211-010",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "a5bf3425-6950-48d5-969d-efe780bb6df6",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx MT-MA01 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8211-011",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "69c0978d-b768-4206-a4fa-d75c072896a0",
+          "plan_name": "AARP Medicare Advantage from UHC WV-0004 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8211-012",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "1803cb8a-f7fa-4ce4-b383-ccb5c35afa86",
+          "plan_name": "AARP Medicare Advantage Access from UHC MT-3 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-005",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "4aff47b0-1742-4982-8054-5bd289bb72e2",
+          "plan_name": "AARP Medicare Advantage from UHC IL-0004 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-007",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "2af7223a-3aff-4299-a0ea-f2394a491b33",
+          "plan_name": "AARP Medicare Advantage from UHC OH-0014 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-008",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "6d7576ee-1bd8-4eca-9f22-e9d9554a6f86",
+          "plan_name": "AARP Medicare Advantage from UHC OK-0005 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-009",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "59b94e64-56a5-4d69-b7f8-01c2deebbdfd",
+          "plan_name": "AARP Medicare Advantage from UHC OK-0006 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-010",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "914e3ce3-8628-450e-910c-3338f9585101",
+          "plan_name": "AARP Medicare Advantage from UHC IL-5 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-011",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "7ba1de3f-1ae3-4cf4-a6ab-902f5dbd49b1",
+          "plan_name": "AARP Medicare Advantage from UHC IL-6 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-013",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "b6f0fe68-b0ea-4db7-8a45-3c81eb2bb31b",
+          "plan_name": "AARP Medicare Advantage from UHC KY-0003 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-016",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "bf34f22b-35e1-45d8-9d5a-8120087a72b2",
+          "plan_name": "AARP Medicare Advantage from UHC OK-0007 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-017",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "6c01810f-5afc-47cb-8638-6918fd261760",
+          "plan_name": "AARP Medicare Advantage from UHC IA-0003 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-018",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "7533749f-2fdf-4386-bc96-755dc889bdf3",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx IA-MA01 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-019",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "90e3aa9d-64a1-4870-91a5-156d7cf3bc33",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx IL-MA01 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-020",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "589a979e-318c-40cb-b1ad-54fedf17db1f",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx KY-MA01 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-021",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "353f945c-3b80-4de5-820c-dad9894d142e",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx OH-MA01 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-022",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "7a9ac46f-037c-486f-aa33-c0f4663b4afa",
+          "plan_name": "AARP Medicare Advantage from UHC NJ-0004 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-023",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "30d2a9e2-6fd7-479e-8e03-5f9aa263a7c4",
+          "plan_name": "AARP Medicare Advantage Essentials from UHC KC-4 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-024",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "45fdf84c-6c6d-4577-ad32-9badb52962f0",
+          "plan_name": "AARP Medicare Advantage from UHC KS-0003 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-025",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "62e4687c-e384-4457-9beb-5dfb8a5963bf",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx KS-MA01 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-026",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "d601cb1a-a597-48c8-9c1e-152957e8a79e",
+          "plan_name": "AARP Medicare Advantage from UHC MO-0008 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-027",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "7dbbd5b6-5e82-42ee-9984-f79e04422352",
+          "plan_name": "AARP Medicare Advantage from UHC MO-0009 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-028",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "b980d2e1-ec9a-4ef7-be19-dffe5bf30033",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx OK-MA01 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-030",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "82b9cd5f-f24a-4987-9307-3ee5ac6e96d7",
+          "plan_name": "AARP Medicare Advantage from UHC MS-0002 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-031",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "fdf17dbd-a993-4f27-8749-1f11f276951e",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx MS-MA01 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-034",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "2f1f99eb-96be-4157-bdb2-bab509b382d9",
+          "plan_name": "AARP Medicare Advantage from UHC MS-0003 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-035",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "76ac458e-d618-4528-bd41-ed65e56e6d2b",
+          "plan_name": "AARP Medicare Advantage from UHC NJ-0005 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-037",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "b69dd90f-b667-489c-a5ee-626077446ba0",
+          "plan_name": "AARP Medicare Advantage from UHC OH-0015 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-063",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "7d7e85dc-7f63-441c-9b17-3cadc4414cc0",
+          "plan_name": "AARP Medicare Advantage from UHC OH-0016 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-039",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "8ac5deb2-cca7-4d10-8d21-bfa99d17e51a",
+          "plan_name": "AARP Medicare Advantage Extras from UHC KC-5 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-040",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "44d9fc3f-dee8-4639-bc68-73acc54118e0",
+          "plan_name": "AARP Medicare Advantage Giveback from UHC MS-4 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-045",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "7175ebaa-7e30-4310-9f60-cd598593e54a",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx MA-MA01 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-046",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "038c6a21-16f5-42d1-85f0-61ace2138e8b",
+          "plan_name": "AARP Medicare Advantage from UHC RI-0003 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-048",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "868edcfd-ae44-49f5-9338-53a59d64bd21",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx NH-MA1 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-055",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "75041690-b5dc-4afb-b4d9-0429b8ad800e",
+          "plan_name": "AARP Medicare Advantage from UHC MA-0006 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-061",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "3e3caabf-2b07-4a9f-bfa2-f23c7ce321a9",
+          "plan_name": "AARP Medicare Advantage from UHC NH-0004 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-062",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "e62eca16-8730-4e33-906f-8db3babf935f",
+          "plan_name": "AARP Medicare Advantage from UHC NH-0003 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-058",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "a4bfcc4f-46c3-4599-a245-3ba4f5942696",
+          "plan_name": "AARP Medicare Advantage from UHC NJ-6 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8768-059",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "29455784-e99d-413a-bb91-4444bb2817e3",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx NJ-MA2 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "R0759-001",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "5bdf4453-c252-451d-a89a-5592b324f083",
+          "plan_name": "AARP Medicare Advantage from UHC FL-0031 (Regional PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "R0759-002",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "6f0a7510-60a8-4ea2-8d2a-410dea1d3832",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx FL-MA01 (Regional PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "R0759-003",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "b00299f3-8c2d-4b55-a302-638928e848ad",
+          "plan_name": "UHC Dual Complete FL-D005 (Regional PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "R2604-002",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "699edad2-05d9-4df3-969e-661d731cadae",
+          "plan_name": "UHC Complete Care Support GS-1A (Regional PPO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "R2604-005",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "bda441cb-5ede-4a48-af6f-e6f585fd33dd",
+          "plan_name": "UHC Medicare Advantage Patriot No Rx GS-MA01 (Regional PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "R3444-008",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "a1f08695-f91a-44ff-900a-84b95cda0abd",
+          "plan_name": "UHC Complete Care Support AM-1A (Regional PPO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "R3444-009",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "affdd898-612b-4475-bbf1-4ad9a9b8fc4d",
+          "plan_name": "UHC Complete Care AM-1 (Regional PPO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "R3444-012",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "b7141d12-9bcc-455b-870a-81622e868254",
+          "plan_name": "UHC Medicare Advantage AM-0002 (Regional PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "R6801-008",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "11ee4e73-eb65-4039-887f-e4e399469185",
+          "plan_name": "UHC Complete Care Support TX-1A (Regional PPO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "R6801-009",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "900118c0-fe65-47cb-a60e-a98b7b027c18",
+          "plan_name": "UHC Complete Care TX-29 (Regional PPO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "R6801-011",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "3079f9f6-16f1-471b-8643-cfc720241693",
+          "plan_name": "UHC Dual Complete TX-S001 (Regional PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "R6801-012",
+          "parent_fpi": "e70682ba-9bbd-5f22-93b3-1f614b5e97e3",
+          "f_plan_id": "9629e4a3-1de3-4ba6-9861-b48f387fcddf",
+          "plan_name": "UHC Medicare Advantage TX-0030 (Regional PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

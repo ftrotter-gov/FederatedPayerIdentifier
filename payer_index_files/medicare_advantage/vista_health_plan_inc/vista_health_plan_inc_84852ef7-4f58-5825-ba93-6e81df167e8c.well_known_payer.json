@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "84852ef7-4f58-5825-ba93-6e81df167e8c",
+      "is_fpi": true,
+      "payerLegalName": "VISTA HEALTH PLAN, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "VISTA HEALTH PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4227",
+      "is_fpi": false,
+      "parent_fpi": "84852ef7-4f58-5825-ba93-6e81df167e8c"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4227-001",
+          "parent_fpi": "84852ef7-4f58-5825-ba93-6e81df167e8c",
+          "f_plan_id": "8cf8781c-eec1-47e5-b6b1-c95d51c851ca",
+          "plan_name": "Keystone First VIP Choice (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4227-002",
+          "parent_fpi": "84852ef7-4f58-5825-ba93-6e81df167e8c",
+          "f_plan_id": "bb5b771c-980c-472a-8338-171fe653334d",
+          "plan_name": "AmeriHealth Caritas VIP Care (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

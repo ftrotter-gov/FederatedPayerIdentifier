@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "cdb1ef35-5498-5fee-b1fe-306cc47ed80d",
+      "is_fpi": true,
+      "payerLegalName": "LONGEVITY HEALTH PLAN OF NEW YORK, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "LONGEVITY HEALTH PLAN OF NEW YORK, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8457",
+      "is_fpi": false,
+      "parent_fpi": "cdb1ef35-5498-5fee-b1fe-306cc47ed80d"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8457-001",
+          "parent_fpi": "cdb1ef35-5498-5fee-b1fe-306cc47ed80d",
+          "f_plan_id": "0aded0e6-3228-4207-af27-c07bf7fa26e2",
+          "plan_name": "Longevity Health Plan (HMO I-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

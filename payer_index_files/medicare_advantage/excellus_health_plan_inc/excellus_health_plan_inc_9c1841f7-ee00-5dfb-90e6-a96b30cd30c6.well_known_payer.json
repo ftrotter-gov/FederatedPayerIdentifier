@@ -1,0 +1,272 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+      "is_fpi": true,
+      "payerLegalName": "EXCELLUS HEALTH PLAN, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "EXCELLUS HEALTH PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3335",
+      "is_fpi": false,
+      "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3351",
+      "is_fpi": false,
+      "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3335-015",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "14989419-1618-4ed9-9511-54c98c9df85d",
+          "plan_name": "Medicare BlueEnhanced (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3335-018",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "75da3f42-4c71-4f45-952d-d59f6ccbf802",
+          "plan_name": "Medicare BluePlus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3335-038",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "dff9ba2b-c65d-4752-88ef-6370eda15813",
+          "plan_name": "Medicare BlueClassic (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3335-043",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "f672fa05-9746-4ed6-bad1-63d396166322",
+          "plan_name": "Medicare BlueSalute (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3335-044",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "05834274-e0f0-4a48-b738-a25fe825fb86",
+          "plan_name": "Medicare BlueSalute (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3335-053",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "07eb58c6-244f-4580-92eb-b04c45297c19",
+          "plan_name": "Medicare BlueEssential (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3335-055",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "e66eb848-8dd9-4f7d-b039-78ab0ee5193b",
+          "plan_name": "Medicare BlueActive (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3335-060",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "f4b83da9-010b-4362-a590-6da0c87fb5e0",
+          "plan_name": "Univera SeniorChoice Core (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3335-801",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "2fb62635-6bb4-4edf-b067-4b5f4f29593c",
+          "plan_name": "Univera Medicare PPO Group (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3335-811",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "cea76ce4-92a3-4324-853c-bcc763373107",
+          "plan_name": "Medicare Blue PPO Group (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3335-813",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "6d117623-888b-4b7f-97ac-6e67710f0e5f",
+          "plan_name": "Univera Medicare PPO Group (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3335-819",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "7e041854-6a3d-438c-a41c-e034c3620f6d",
+          "plan_name": "Medicare Blue PPO Group (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3335-820",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "0c87bef8-9600-4553-a8a2-e7328fbe413e",
+          "plan_name": "Medicare Blue PPO Group Non-Calendar (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3335-822",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "0cb1b659-90b6-4cb6-b4e7-5f69e1aaa436",
+          "plan_name": "Univera Medicare PPO Group Non-Calendar (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3335-824",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "dab93433-5fe8-41ee-bccc-956450f16e57",
+          "plan_name": "Univera Medicare PPO Group (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3335-061",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "efbe51ab-c6f5-4dc8-b925-7cc6ca623225",
+          "plan_name": "Medicare BlueVital (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3335-062",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "dc2a2c2e-5466-4210-aa46-e7699da69bb0",
+          "plan_name": "Medicare BlueBalanced (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3335-825",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "28fc9434-d69f-4d16-9457-365b2ac4d96a",
+          "plan_name": "Univera Medicare PPO Group (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3351-001",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "5f39cbc5-2338-4f07-90ac-2b48e7a3dc05",
+          "plan_name": "Univera Medicare Freedom (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3351-002",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "872ae4e3-27b3-4bd3-8793-020c98dec429",
+          "plan_name": "Univera SeniorChoice Secure (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3351-006",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "2c20a7a4-8b01-48fc-9c4e-a01cd4f358d4",
+          "plan_name": "Medicare Blue Choice Optimum (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3351-007",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "098f5038-64a0-4b0b-a724-d252a6c33f1c",
+          "plan_name": "Medicare Blue Choice Freedom (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3351-012",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "681c14ef-f7f3-4705-957b-907cdd9f281f",
+          "plan_name": "Univera SeniorChoice Value Plus (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3351-017",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "1e73c306-f280-4b55-b687-029fba7a3368",
+          "plan_name": "Univera SeniorChoice Basic (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3351-019",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "f3535d6f-8076-4ba8-8465-0a602f6dfe2c",
+          "plan_name": "Univera SeniorChoice Advanced (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3351-020",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "3ab06820-bdfd-4e39-89f3-273681d504ee",
+          "plan_name": "Univera SeniorChoice Extra (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3351-801",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "f0f9e1fc-69ba-442e-9728-e5c0bd1fdd22",
+          "plan_name": "Univera SeniorChoice - Group (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3351-802",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "983e2aaa-5083-47d0-90e7-8476957948cf",
+          "plan_name": "Medicare Blue Choice - Group (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3351-803",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "1d479c2c-008b-40fe-ab8b-4072f1a89e89",
+          "plan_name": "Univera SeniorChoice - Group (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3351-804",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "e1b57873-3d90-46d5-8830-53974fdc33b0",
+          "plan_name": "Medicare Blue Choice - Group (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3351-805",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "29f41af2-f35c-4d6e-b587-45dc81174e32",
+          "plan_name": "Univera SeniorChoice Group Non-Calendar (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3351-806",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "d9e81e93-4b82-45d9-a08f-ee1e3a59f2b2",
+          "plan_name": "Medicare Blue Choice Group Non-Calendar (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3351-022",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "2094a427-aa69-4ca4-8e2d-69f1fff988b4",
+          "plan_name": "Medicare Blue Choice Core (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3351-023",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "b034ee85-18c7-458e-b9bf-16bd667891d8",
+          "plan_name": "Medicare Blue Choice Prime (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

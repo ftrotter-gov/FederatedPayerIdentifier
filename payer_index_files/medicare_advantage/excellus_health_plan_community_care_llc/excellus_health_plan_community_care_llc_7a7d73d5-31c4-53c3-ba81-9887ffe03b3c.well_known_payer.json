@@ -1,0 +1,56 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "7a7d73d5-31c4-53c3-ba81-9887ffe03b3c",
+      "is_fpi": true,
+      "payerLegalName": "EXCELLUS HEALTH PLAN COMMUNITY CARE LLC",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "EXCELLUS HEALTH PLAN COMMUNITY CARE LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7524",
+      "is_fpi": false,
+      "parent_fpi": "7a7d73d5-31c4-53c3-ba81-9887ffe03b3c"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7524-001",
+          "parent_fpi": "7a7d73d5-31c4-53c3-ba81-9887ffe03b3c",
+          "f_plan_id": "f0e55b36-5683-4e17-aca9-ce76cd58b047",
+          "plan_name": "Univera Medicare Dual (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7524-002",
+          "parent_fpi": "7a7d73d5-31c4-53c3-ba81-9887ffe03b3c",
+          "f_plan_id": "64a3bacf-1ff8-447c-a982-5df7219e6866",
+          "plan_name": "Univera Medicare Total Care (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7524-003",
+          "parent_fpi": "7a7d73d5-31c4-53c3-ba81-9887ffe03b3c",
+          "f_plan_id": "5f97436f-c952-4969-8eed-111f3157ccbd",
+          "plan_name": "Medicare Blue Dual (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7524-004",
+          "parent_fpi": "7a7d73d5-31c4-53c3-ba81-9887ffe03b3c",
+          "f_plan_id": "bf9b687f-c83e-4008-bf3d-297ae9e5beab",
+          "plan_name": "Medicare Blue Dual Secure (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

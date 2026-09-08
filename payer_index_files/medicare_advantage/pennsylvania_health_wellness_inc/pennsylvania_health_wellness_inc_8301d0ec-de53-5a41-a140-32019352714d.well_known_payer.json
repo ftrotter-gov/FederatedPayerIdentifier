@@ -1,0 +1,63 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "8301d0ec-de53-5a41-a140-32019352714d",
+      "is_fpi": true,
+      "payerLegalName": "PENNSYLVANIA HEALTH & WELLNESS, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PENNSYLVANIA HEALTH & WELLNESS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2915",
+      "is_fpi": false,
+      "parent_fpi": "8301d0ec-de53-5a41-a140-32019352714d"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2915-002",
+          "parent_fpi": "8301d0ec-de53-5a41-a140-32019352714d",
+          "f_plan_id": "eccdc4da-81da-4fcb-9a9f-e9c9c8e93cec",
+          "plan_name": "Wellcare Dual Liberty Sync (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2915-003",
+          "parent_fpi": "8301d0ec-de53-5a41-a140-32019352714d",
+          "f_plan_id": "59510d62-ac4b-4664-b604-28426f5153ed",
+          "plan_name": "Wellcare Simple (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2915-011",
+          "parent_fpi": "8301d0ec-de53-5a41-a140-32019352714d",
+          "f_plan_id": "c1852193-cc17-495a-b90f-278d7c75abaf",
+          "plan_name": "Wellcare Assist (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2915-013",
+          "parent_fpi": "8301d0ec-de53-5a41-a140-32019352714d",
+          "f_plan_id": "84810acf-8e30-475e-b455-97e43b318158",
+          "plan_name": "Wellcare Patriot Giveback (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2915-018",
+          "parent_fpi": "8301d0ec-de53-5a41-a140-32019352714d",
+          "f_plan_id": "bfa0ede7-193f-42a3-8d60-5a5503e7a9f2",
+          "plan_name": "Wellcare Dual Select (HMO-POS D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

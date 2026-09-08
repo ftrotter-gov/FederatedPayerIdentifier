@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "c46a23e9-2b83-5cdf-8e8e-dd92926ea321",
+      "is_fpi": true,
+      "payerLegalName": "LONGEVITY HEALTH PLAN OF NEW JERSEY INSURANCE COMP",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "LONGEVITY HEALTH PLAN OF NEW JERSEY INSURANCE COMP"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9942",
+      "is_fpi": false,
+      "parent_fpi": "c46a23e9-2b83-5cdf-8e8e-dd92926ea321"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9942-001",
+          "parent_fpi": "c46a23e9-2b83-5cdf-8e8e-dd92926ea321",
+          "f_plan_id": "b1e12fff-23a8-4bd8-9a82-015056ba1a0e",
+          "plan_name": "Longevity Health Plan (PPO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9942-002",
+          "parent_fpi": "c46a23e9-2b83-5cdf-8e8e-dd92926ea321",
+          "f_plan_id": "8dd1d171-50e5-4b7b-9c91-04f1ecc21c7c",
+          "plan_name": "Longevity Health Plan (PPO I-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

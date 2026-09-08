@@ -1,0 +1,105 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "94d436ea-3a9e-53fb-94a8-62549de3568a",
+      "is_fpi": true,
+      "payerLegalName": "PRESBYTERIAN HEALTH PLAN",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PRESBYTERIAN HEALTH PLAN"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3204",
+      "is_fpi": false,
+      "parent_fpi": "94d436ea-3a9e-53fb-94a8-62549de3568a"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3204-001",
+          "parent_fpi": "94d436ea-3a9e-53fb-94a8-62549de3568a",
+          "f_plan_id": "bc19e44d-ab6f-498a-862c-d6660319b278",
+          "plan_name": "Presbyterian Senior Care Plan 2 with Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3204-007",
+          "parent_fpi": "94d436ea-3a9e-53fb-94a8-62549de3568a",
+          "f_plan_id": "75451db3-a221-421c-a96a-d659db73d97d",
+          "plan_name": "Presbyterian Senior Care Plan 3 with Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3204-008",
+          "parent_fpi": "94d436ea-3a9e-53fb-94a8-62549de3568a",
+          "f_plan_id": "73eaee55-f8d2-481a-8c7b-4837b8bb07d4",
+          "plan_name": "Presbyterian Senior Care Plan 1 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3204-013",
+          "parent_fpi": "94d436ea-3a9e-53fb-94a8-62549de3568a",
+          "f_plan_id": "d2f5047c-caff-42d8-a072-2348c6f6ba51",
+          "plan_name": "Presbyterian Dual Plus (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3204-801",
+          "parent_fpi": "94d436ea-3a9e-53fb-94a8-62549de3568a",
+          "f_plan_id": "796939db-df39-45e2-be06-c312bd3c4344",
+          "plan_name": "Presbyterian Senior Care Emp Group Plan 1 with Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3204-802",
+          "parent_fpi": "94d436ea-3a9e-53fb-94a8-62549de3568a",
+          "f_plan_id": "0c4964ed-b093-4a1b-b6b4-64aab582fdf6",
+          "plan_name": "Presbyterian Senior Care Emp Group Plan 2 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3204-803",
+          "parent_fpi": "94d436ea-3a9e-53fb-94a8-62549de3568a",
+          "f_plan_id": "219df4d8-447e-4efd-9ada-9217c6d05d09",
+          "plan_name": "Presbyterian Senior Care Emp Group Plan 3 w/ Rx NC (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3204-808",
+          "parent_fpi": "94d436ea-3a9e-53fb-94a8-62549de3568a",
+          "f_plan_id": "91a196dd-56e1-49c4-8e2f-8b1a5ed1f714",
+          "plan_name": "Presbyterian Senior Care Emp Group Plan 4 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3204-809",
+          "parent_fpi": "94d436ea-3a9e-53fb-94a8-62549de3568a",
+          "f_plan_id": "6c709ee6-c82a-459f-b188-5857071261f1",
+          "plan_name": "Presbyterian Senior Care Emp Group Plan 5 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3204-810",
+          "parent_fpi": "94d436ea-3a9e-53fb-94a8-62549de3568a",
+          "f_plan_id": "cbf7cb0f-4e30-4c9f-90b3-babc1153082b",
+          "plan_name": "Presbyterian Senior Care Emp Group Plan 6 NC (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3204-017",
+          "parent_fpi": "94d436ea-3a9e-53fb-94a8-62549de3568a",
+          "f_plan_id": "3cb08822-8d01-48d4-902e-705da43895c0",
+          "plan_name": "Presbyterian Senior Care Extra Health Plan with Rx (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

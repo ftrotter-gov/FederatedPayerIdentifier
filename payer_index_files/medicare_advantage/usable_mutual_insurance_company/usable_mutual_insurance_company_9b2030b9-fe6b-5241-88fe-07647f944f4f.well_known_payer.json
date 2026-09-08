@@ -1,0 +1,70 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "9b2030b9-fe6b-5241-88fe-07647f944f4f",
+      "is_fpi": true,
+      "payerLegalName": "USABLE MUTUAL INSURANCE COMPANY",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "USABLE MUTUAL INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4213",
+      "is_fpi": false,
+      "parent_fpi": "9b2030b9-fe6b-5241-88fe-07647f944f4f"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4213-017",
+          "parent_fpi": "9b2030b9-fe6b-5241-88fe-07647f944f4f",
+          "f_plan_id": "d438725e-a950-4b64-82f3-388216630b83",
+          "plan_name": "BlueMedicare Preferred (PFFS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4213-019",
+          "parent_fpi": "9b2030b9-fe6b-5241-88fe-07647f944f4f",
+          "f_plan_id": "f808aacf-ad33-43c7-a0d2-a5a4164805bc",
+          "plan_name": "BlueMedicare Value (PFFS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4213-801",
+          "parent_fpi": "9b2030b9-fe6b-5241-88fe-07647f944f4f",
+          "f_plan_id": "161feb8f-18ad-41b5-9d75-d6915d13af1a",
+          "plan_name": "BlueMedicare Preferred Group CY (PFFS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4213-802",
+          "parent_fpi": "9b2030b9-fe6b-5241-88fe-07647f944f4f",
+          "f_plan_id": "464f5537-88e9-46f5-b879-1f86a8e57ea8",
+          "plan_name": "BlueMedicare Preferred Group NCY (PFFS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4213-803",
+          "parent_fpi": "9b2030b9-fe6b-5241-88fe-07647f944f4f",
+          "f_plan_id": "8405d3e6-8d23-4c99-83b8-db6d8af4c647",
+          "plan_name": "BlueMedicare Value Group CY (PFFS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4213-804",
+          "parent_fpi": "9b2030b9-fe6b-5241-88fe-07647f944f4f",
+          "f_plan_id": "bcc0ce16-b660-4af3-a290-36f9ea0f2351",
+          "plan_name": "BlueMedicare Value Group NCY (PFFS)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

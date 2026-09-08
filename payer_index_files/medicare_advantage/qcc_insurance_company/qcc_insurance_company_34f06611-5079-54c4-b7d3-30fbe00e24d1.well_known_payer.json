@@ -1,0 +1,79 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "34f06611-5079-54c4-b7d3-30fbe00e24d1",
+      "is_fpi": true,
+      "payerLegalName": "QCC INSURANCE COMPANY",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "QCC INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3909",
+      "is_fpi": false,
+      "parent_fpi": "34f06611-5079-54c4-b7d3-30fbe00e24d1"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3909-001",
+          "parent_fpi": "34f06611-5079-54c4-b7d3-30fbe00e24d1",
+          "f_plan_id": "52fe04b6-613f-48a9-9e39-143b19263ec3",
+          "plan_name": "Personal Choice 65 Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3909-007",
+          "parent_fpi": "34f06611-5079-54c4-b7d3-30fbe00e24d1",
+          "f_plan_id": "6b8ba171-ba0b-4e9d-a2c1-9aaba94eaf01",
+          "plan_name": "Personal Choice 65 Medical Only (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3909-009",
+          "parent_fpi": "34f06611-5079-54c4-b7d3-30fbe00e24d1",
+          "f_plan_id": "8733ef3d-ae13-4ac7-8385-385c5a0d1fe5",
+          "plan_name": "Personal Choice 65 Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3909-018",
+          "parent_fpi": "34f06611-5079-54c4-b7d3-30fbe00e24d1",
+          "f_plan_id": "7301b886-b8ce-4c26-9a2c-cfc58416059f",
+          "plan_name": "Personal Choice 65 Plus Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3909-801",
+          "parent_fpi": "34f06611-5079-54c4-b7d3-30fbe00e24d1",
+          "f_plan_id": "620dd232-1b56-4721-9d94-2c2a4b471c01",
+          "plan_name": "Personal Choice 65 Group Medical Only (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3909-802",
+          "parent_fpi": "34f06611-5079-54c4-b7d3-30fbe00e24d1",
+          "f_plan_id": "db71b353-8d76-42a5-a5e7-8a746b2d2353",
+          "plan_name": "Personal Choice 65 Group Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3909-020",
+          "parent_fpi": "34f06611-5079-54c4-b7d3-30fbe00e24d1",
+          "f_plan_id": "3bfa1226-9934-4633-9256-b4372c0b075e",
+          "plan_name": "Personal Choice 65 Achieve Rx (PPO)"
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://ibx.healthsparq.com/healthsparq/public/#/one/insurerCode=BLUEIBX_I&brandCode=BLUEIBXMCARE&productCode=ALL"
+      }
+    }
+  ],
+  "is_seeded": true
+}

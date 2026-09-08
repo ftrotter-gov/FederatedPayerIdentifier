@@ -1,0 +1,104 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "00dc2085-57e1-58db-bfbb-329903f4841a",
+      "is_fpi": true,
+      "payerLegalName": "HEALTH INSURANCE PLAN OF GREATER NEW YORK",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HEALTH INSURANCE PLAN OF GREATER NEW YORK"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3330",
+      "is_fpi": false,
+      "parent_fpi": "00dc2085-57e1-58db-bfbb-329903f4841a"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5991",
+      "is_fpi": false,
+      "parent_fpi": "00dc2085-57e1-58db-bfbb-329903f4841a"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3330-021",
+          "parent_fpi": "00dc2085-57e1-58db-bfbb-329903f4841a",
+          "f_plan_id": "8631ad71-1e90-4094-b983-88be41c4ddee",
+          "plan_name": "EmblemHealth VIP Gold (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3330-038",
+          "parent_fpi": "00dc2085-57e1-58db-bfbb-329903f4841a",
+          "f_plan_id": "517fcb56-03b1-4f8e-b6ba-ed79da96afa2",
+          "plan_name": "EmblemHealth VIP Gold Plus (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3330-814",
+          "parent_fpi": "00dc2085-57e1-58db-bfbb-329903f4841a",
+          "f_plan_id": "43368f64-7c89-485a-95a8-105d797f0e2a",
+          "plan_name": "EmblemHealth VIP Premier (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3330-815",
+          "parent_fpi": "00dc2085-57e1-58db-bfbb-329903f4841a",
+          "f_plan_id": "07e9c17b-2e03-462c-8296-15ab5f689ff8",
+          "plan_name": "EmblemHealth VIP Rx Carveout (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3330-820",
+          "parent_fpi": "00dc2085-57e1-58db-bfbb-329903f4841a",
+          "f_plan_id": "a02140e0-9102-42c3-b58f-81b65e1feeee",
+          "plan_name": "EmblemHealth VIP Choice (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3330-821",
+          "parent_fpi": "00dc2085-57e1-58db-bfbb-329903f4841a",
+          "f_plan_id": "fa030814-f41f-4c18-a29e-12921fee56e9",
+          "plan_name": "EmblemHealth VIP Choice Rx Carveout (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3330-048",
+          "parent_fpi": "00dc2085-57e1-58db-bfbb-329903f4841a",
+          "f_plan_id": "8ecbccdc-0b32-443f-8687-9a8654a5fa14",
+          "plan_name": "EmblemHealth VIP Value (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5991-010",
+          "parent_fpi": "00dc2085-57e1-58db-bfbb-329903f4841a",
+          "f_plan_id": "f10b1807-20a8-4832-a33e-9d83feed28f9",
+          "plan_name": "EmblemHealth VIP Dual Reserve (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5991-012",
+          "parent_fpi": "00dc2085-57e1-58db-bfbb-329903f4841a",
+          "f_plan_id": "a01db5f2-3c9e-4ba6-88c6-a126aafe9a2b",
+          "plan_name": "EmblemHealth VIP Dual (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5991-013",
+          "parent_fpi": "00dc2085-57e1-58db-bfbb-329903f4841a",
+          "f_plan_id": "085d2b30-8b4b-47fd-9350-b2443d01c88d",
+          "plan_name": "EmblemHealth VIP Dual Enhanced (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}
