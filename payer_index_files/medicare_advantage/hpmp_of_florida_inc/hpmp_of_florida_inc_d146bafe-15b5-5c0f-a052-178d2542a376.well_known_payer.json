@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "d146bafe-15b5-5c0f-a052-178d2542a376",
+      "is_fpi": true,
+      "payerLegalName": "HPMP OF FLORIDA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HPMP OF FLORIDA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9986",
+      "is_fpi": false,
+      "parent_fpi": "d146bafe-15b5-5c0f-a052-178d2542a376"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9986-001",
+          "parent_fpi": "d146bafe-15b5-5c0f-a052-178d2542a376",
+          "f_plan_id": "b72f3aab-92de-4a9b-8003-a28a92fb41c7",
+          "plan_name": "Florida Complete Care (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9986-002",
+          "parent_fpi": "d146bafe-15b5-5c0f-a052-178d2542a376",
+          "f_plan_id": "78807c91-9451-4235-af3d-a161d0a244bf",
+          "plan_name": "Florida Complete Care- In The Community (HMO-POS I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9986-004",
+          "parent_fpi": "d146bafe-15b5-5c0f-a052-178d2542a376",
+          "f_plan_id": "670286a7-3ee5-49b3-9340-c06c4fb1f2e5",
+          "plan_name": "Florida Complete Care-Duals VIP (HMO-POS D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

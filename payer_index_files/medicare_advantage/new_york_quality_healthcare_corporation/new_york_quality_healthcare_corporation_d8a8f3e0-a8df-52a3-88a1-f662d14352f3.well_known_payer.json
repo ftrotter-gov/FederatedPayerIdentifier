@@ -1,0 +1,63 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "d8a8f3e0-a8df-52a3-88a1-f662d14352f3",
+      "is_fpi": true,
+      "payerLegalName": "NEW YORK QUALITY HEALTHCARE CORPORATION",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "NEW YORK QUALITY HEALTHCARE CORPORATION"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5599",
+      "is_fpi": false,
+      "parent_fpi": "d8a8f3e0-a8df-52a3-88a1-f662d14352f3"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5599-013",
+          "parent_fpi": "d8a8f3e0-a8df-52a3-88a1-f662d14352f3",
+          "f_plan_id": "681090f8-fb38-4934-849a-5d03ca98b9ae",
+          "plan_name": "Wellcare Fidelis Dual Liberty Sync (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5599-002",
+          "parent_fpi": "d8a8f3e0-a8df-52a3-88a1-f662d14352f3",
+          "f_plan_id": "fedf6b61-03bb-4411-915b-bcd1a9042187",
+          "plan_name": "Wellcare Fidelis Assist (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5599-003",
+          "parent_fpi": "d8a8f3e0-a8df-52a3-88a1-f662d14352f3",
+          "f_plan_id": "b0cfa3ce-62c1-48d6-924f-c5e80d954733",
+          "plan_name": "Wellcare Fidelis Dual Align (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5599-004",
+          "parent_fpi": "d8a8f3e0-a8df-52a3-88a1-f662d14352f3",
+          "f_plan_id": "fc2ae459-6408-461e-a20e-a6411593980a",
+          "plan_name": "Wellcare Fidelis Simple (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5599-010",
+          "parent_fpi": "d8a8f3e0-a8df-52a3-88a1-f662d14352f3",
+          "f_plan_id": "c87338fc-738d-4d67-ab93-4ec4c1999d71",
+          "plan_name": "Wellcare Fidelis Patriot Simple (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

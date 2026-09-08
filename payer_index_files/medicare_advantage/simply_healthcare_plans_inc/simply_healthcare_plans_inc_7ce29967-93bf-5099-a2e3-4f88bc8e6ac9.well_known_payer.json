@@ -1,0 +1,378 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+      "is_fpi": true,
+      "payerLegalName": "SIMPLY HEALTHCARE PLANS, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SIMPLY HEALTHCARE PLANS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5471",
+      "is_fpi": false,
+      "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-064",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "d0a3ccbe-b669-44e3-b7f2-84b40c052146",
+          "plan_name": "Simply Complete (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-065",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "abfc717f-7972-4990-8f3f-380800af4e25",
+          "plan_name": "Simply More (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-066",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "ae123826-a2fd-4cb5-bd9f-05bd017197d8",
+          "plan_name": "Simply Complete (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-069",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "acd386e0-1f62-4e5d-9c91-908acaa4c778",
+          "plan_name": "Simply Level (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-070",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "dea52654-fd35-46df-988b-a7a4afef616a",
+          "plan_name": "Simply Level (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-071",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "63dfc863-4663-448b-9209-3b1ee3a4a542",
+          "plan_name": "Simply More (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-072",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "fc60e7fb-5db4-4286-8311-3e4423db2135",
+          "plan_name": "Simply Complete (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-073",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "4d6ca7fa-1f8e-41b0-aa6e-081a23f955ee",
+          "plan_name": "Simply Level (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-074",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "b49de2d6-1862-495f-a31d-a8186df6eac4",
+          "plan_name": "Simply More (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-075",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "85dfd6e0-5e04-48ea-b028-fa44fbb653de",
+          "plan_name": "Simply Level (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-076",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "b8167c66-4fc3-4a88-8bb9-65803efd78b6",
+          "plan_name": "Simply Complete (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-077",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "1bd6895a-e745-47b1-90fd-d0b7c6f6a672",
+          "plan_name": "Simply More (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-078",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "9abb3b97-c03b-480e-bb64-f947f55a14d9",
+          "plan_name": "Simply More (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-080",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "055f4d94-8d7b-4614-b928-54d1c56cf395",
+          "plan_name": "Simply Level (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-082",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "fcaa24ea-8e12-4086-a183-8e0ea3037a44",
+          "plan_name": "Simply Complete (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-084",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "066348a0-5da4-49f5-aa37-7fef0da514f7",
+          "plan_name": "Simply Complete (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-110",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "adf5be15-07d5-45d4-9c59-b2344d2ce51e",
+          "plan_name": "Simply More (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-111",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "9ffc3cb2-4467-4784-b44b-bc8465585aa4",
+          "plan_name": "Simply Complete (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-112",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "d9c16360-bce8-4e48-81ad-70084baa8214",
+          "plan_name": "Simply Extra (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-113",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "e2fef61f-72dd-47f0-9830-b264df8b40b4",
+          "plan_name": "Simply Extra Platinum (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-114",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "bb4e499e-23d0-4997-837e-dc54ccc61893",
+          "plan_name": "Simply More Platinum (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-115",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "a0004f38-861e-41f5-9b4b-d551bd2b69d0",
+          "plan_name": "Simply Complete Platinum (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-116",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "baa68b80-ba24-4bbe-b5f9-894b9bba070a",
+          "plan_name": "Simply Level Platinum (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-117",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "c8ef592d-4386-4951-8b2b-a185af82ee60",
+          "plan_name": "Simply Extra Platinum (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-118",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "7e5d8518-9b02-44c8-a9ac-4114372903f7",
+          "plan_name": "Simply Complete Platinum (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-119",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "a00ecdd1-d909-4b20-8e4a-20a89123edee",
+          "plan_name": "Simply Level Platinum (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-120",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "2f9b1689-d3f5-4fa5-8548-7ce8bf4e30f3",
+          "plan_name": "Simply Extra Platinum (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-121",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "4993e5a7-4ee9-4113-bae5-5c202d4267e5",
+          "plan_name": "Simply Complete Platinum (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-122",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "5065b88b-44fa-41c6-a886-4d4c03dfa3d0",
+          "plan_name": "Simply Level Platinum (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-123",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "342efd67-e033-4437-8229-9d8486225791",
+          "plan_name": "Simply Extra Platinum (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-124",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "4e51929a-25b1-44ce-aa8e-bfa7521e86e9",
+          "plan_name": "Simply More Platinum (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-125",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "24a6c1ce-a456-4a4e-a7de-ec453af2b999",
+          "plan_name": "Simply Complete Platinum (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-126",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "430764f2-7975-4ef7-b11e-2b7716114067",
+          "plan_name": "Simply Level Platinum (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-127",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "bcde921e-aa13-4382-9d40-46594b627f7d",
+          "plan_name": "Simply Integrated (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-128",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "2e246e24-2c9e-4ba4-8552-7b9332f06d57",
+          "plan_name": "Simply Integrated (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-129",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "e8052964-baae-4e40-a51a-de4cc4022a22",
+          "plan_name": "Simply Integrated (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-130",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "2d672a40-f55c-41fe-afd3-4233a8f70ee0",
+          "plan_name": "Simply Integrated (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-131",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "1d19d9d7-7b51-425a-aca1-039778811644",
+          "plan_name": "Simply Integrated (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-132",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "1e39eb93-554b-4482-9300-958d1dcc8d9c",
+          "plan_name": "Simply Integrated (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-133",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "e88f0725-a0a6-418a-8b26-4e5090f79823",
+          "plan_name": "Simply Integrated (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-134",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "28d398a1-d42d-47b5-a2bb-f3b9100a07bd",
+          "plan_name": "Simply Integrated Platinum (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-135",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "eaea67a2-4e5b-4276-871c-6070de946a6f",
+          "plan_name": "Simply Integrated Platinum (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-136",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "f89e6891-235b-4202-b311-04ecddf2a7f4",
+          "plan_name": "Simply Integrated Platinum (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-137",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "6b4eac77-4212-46ca-8b00-8c1673b22375",
+          "plan_name": "Simply Integrated Platinum (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-138",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "678fecbe-2809-4016-b04a-4f59d7334393",
+          "plan_name": "Simply Complete Platinum (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-139",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "7c83a3cd-34ae-48ed-8016-d026a8ccc86c",
+          "plan_name": "Simply Integrated Platinum (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-140",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "45d4939a-2dd1-4801-b9cd-19f0949465ca",
+          "plan_name": "Simply Complete Platinum (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-141",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "640139b7-7d0d-4203-80b8-1813b563c2e8",
+          "plan_name": "Simply Integrated Platinum (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-142",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "86f5aa1d-f479-41cd-b304-0f13739575ab",
+          "plan_name": "Simply Complete Platinum (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5471-143",
+          "parent_fpi": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
+          "f_plan_id": "611be4d8-62fc-4194-8010-6fd497d89294",
+          "plan_name": "Simply Integrated Platinum (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

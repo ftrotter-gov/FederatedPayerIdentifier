@@ -1,0 +1,160 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
+      "is_fpi": true,
+      "payerLegalName": "Highmark Western and Northeastern New York Inc.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "Highmark Western and Northeastern New York Inc."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3384",
+      "is_fpi": false,
+      "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5526",
+      "is_fpi": false,
+      "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3384-013",
+          "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
+          "f_plan_id": "a208dc48-f700-42b2-b778-b00b286cf0ed",
+          "plan_name": "Senior Blue 652 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3384-019",
+          "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
+          "f_plan_id": "1f20434f-8176-4d28-8b68-92a521d0bab8",
+          "plan_name": "Senior Blue 651 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3384-022",
+          "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
+          "f_plan_id": "e9bb0e60-4fd3-4d61-ab83-032b7040d998",
+          "plan_name": "Senior Blue 601 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3384-805",
+          "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
+          "f_plan_id": "a69cc8b9-3a0f-40b9-a842-f2e52a447de6",
+          "plan_name": "HMO Group MA Only Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3384-806",
+          "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
+          "f_plan_id": "f575cf35-29b4-4e37-8afb-3812c06961fb",
+          "plan_name": "HMO Group (MA-PD) Calendar Year (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3384-811",
+          "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
+          "f_plan_id": "2bf993e0-efb5-404d-9852-5b5d94c851cb",
+          "plan_name": "HMOPOS Group (MA-PD) Calendar Year (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3384-812",
+          "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
+          "f_plan_id": "f4659661-be5a-449e-82a4-1bfa46a6d86f",
+          "plan_name": "HMOPOS Group MA Only Calendar Year (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3384-813",
+          "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
+          "f_plan_id": "6e05c68c-b4b8-4749-9957-c5c1518e6dcd",
+          "plan_name": "HMO Group  (MA-PD) ASO Calendar Year (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3384-069",
+          "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
+          "f_plan_id": "c637f24b-baf5-4b12-a1a8-b76aa7063b29",
+          "plan_name": "Community Blue Medicare HMO Signature (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3384-070",
+          "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
+          "f_plan_id": "c6e12101-3d35-42f2-b863-f412b2c3ad15",
+          "plan_name": "Community Blue Medicare HMO Distinct (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3384-071",
+          "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
+          "f_plan_id": "eed3cacd-0b5c-4b82-b1d8-a586da064a59",
+          "plan_name": "Community Blue Medicare HMO Merit (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5526-004",
+          "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
+          "f_plan_id": "216f70cb-e52c-4740-8614-3b1fb703860e",
+          "plan_name": "Forever Blue 751 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5526-016",
+          "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
+          "f_plan_id": "c001678b-8bde-4c31-a8fc-2713ed6a1b52",
+          "plan_name": "Forever Blue Value (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5526-018",
+          "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
+          "f_plan_id": "d272e350-f880-4b87-8953-d79dc465bd88",
+          "plan_name": "Forever Blue 770 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5526-023",
+          "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
+          "f_plan_id": "1bfb72f0-c231-456a-b9a5-90a69b9439fa",
+          "plan_name": "Freedom Valor (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5526-806",
+          "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
+          "f_plan_id": "96be660e-c25c-4fd8-afeb-373a3f6f8cc0",
+          "plan_name": "PPO Group (MA Only) CY (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5526-808",
+          "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
+          "f_plan_id": "ef4ee889-4018-4a2f-ba1d-f063a7444a92",
+          "plan_name": "PPO Group (MA-PD) CY (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5526-813",
+          "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
+          "f_plan_id": "c968352a-ff16-4f42-890c-8d891ce3cc0e",
+          "plan_name": "PPO Group  (MA-PD) ASO Calendar Year (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

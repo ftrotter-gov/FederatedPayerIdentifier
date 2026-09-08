@@ -1,0 +1,118 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "891f883a-9652-59fa-bb6d-e610c20ef26f",
+      "is_fpi": true,
+      "payerLegalName": "BCBS  OF MASSACHUSETTS HMO BLUE, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BCBS  OF MASSACHUSETTS HMO BLUE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2230",
+      "is_fpi": false,
+      "parent_fpi": "891f883a-9652-59fa-bb6d-e610c20ef26f"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2261",
+      "is_fpi": false,
+      "parent_fpi": "891f883a-9652-59fa-bb6d-e610c20ef26f"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2230-002",
+          "parent_fpi": "891f883a-9652-59fa-bb6d-e610c20ef26f",
+          "f_plan_id": "4daff667-c376-4173-86a4-65ccb899b441",
+          "plan_name": "Medicare PPO Blue PlusRx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2230-018",
+          "parent_fpi": "891f883a-9652-59fa-bb6d-e610c20ef26f",
+          "f_plan_id": "4c0958dd-1bb6-4aa5-8f6a-9b32eed82a7a",
+          "plan_name": "Medicare PPO Blue ValueRx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2230-801",
+          "parent_fpi": "891f883a-9652-59fa-bb6d-e610c20ef26f",
+          "f_plan_id": "8938a3fb-cc60-4955-a7e3-468a150f1e68",
+          "plan_name": "Medicare PPO Blue (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2230-809",
+          "parent_fpi": "891f883a-9652-59fa-bb6d-e610c20ef26f",
+          "f_plan_id": "f7e24052-74cc-4f68-aea1-0b4f5476e747",
+          "plan_name": "Medicare PPO Blue (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2230-813",
+          "parent_fpi": "891f883a-9652-59fa-bb6d-e610c20ef26f",
+          "f_plan_id": "3e2513cd-ba62-4700-afc1-8659125af6ef",
+          "plan_name": "Medicare PPO Blue (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2230-019",
+          "parent_fpi": "891f883a-9652-59fa-bb6d-e610c20ef26f",
+          "f_plan_id": "5fb4dd75-eba6-438d-b2b9-bae22e401e3c",
+          "plan_name": "Medicare PPO Blue EssentialRx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2261-005",
+          "parent_fpi": "891f883a-9652-59fa-bb6d-e610c20ef26f",
+          "f_plan_id": "784a20f4-1c83-4612-a2ba-392422656c63",
+          "plan_name": "Medicare HMO Blue PlusRx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2261-022",
+          "parent_fpi": "891f883a-9652-59fa-bb6d-e610c20ef26f",
+          "f_plan_id": "14790e94-63fa-4180-ae1c-42e049bb8542",
+          "plan_name": "Medicare HMO Blue ValueRx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2261-023",
+          "parent_fpi": "891f883a-9652-59fa-bb6d-e610c20ef26f",
+          "f_plan_id": "a99d1d7f-8e93-414f-8877-c13cb44407e8",
+          "plan_name": "Medicare HMO Blue FlexRx (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2261-024",
+          "parent_fpi": "891f883a-9652-59fa-bb6d-e610c20ef26f",
+          "f_plan_id": "2549de09-896a-46be-8240-8b538c6fdc3b",
+          "plan_name": "Medicare HMO Blue SaverRx (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2261-801",
+          "parent_fpi": "891f883a-9652-59fa-bb6d-e610c20ef26f",
+          "f_plan_id": "1032fdf1-cd3d-4590-8f45-c2defbb693cd",
+          "plan_name": "Medicare HMO Blue (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2261-809",
+          "parent_fpi": "891f883a-9652-59fa-bb6d-e610c20ef26f",
+          "f_plan_id": "d4151031-92aa-4108-a069-f72a9a046953",
+          "plan_name": "Medicare HMO Blue (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,56 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "6a3cf7dd-b7f2-5441-a18f-a895a61ef187",
+      "is_fpi": true,
+      "payerLegalName": "HOME STATE HEALTH PLAN, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HOME STATE HEALTH PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1664",
+      "is_fpi": false,
+      "parent_fpi": "6a3cf7dd-b7f2-5441-a18f-a895a61ef187"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1664-001",
+          "parent_fpi": "6a3cf7dd-b7f2-5441-a18f-a895a61ef187",
+          "f_plan_id": "157ec56c-385d-4cc9-ac24-1924bea123d5",
+          "plan_name": "Wellcare Simple (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1664-005",
+          "parent_fpi": "6a3cf7dd-b7f2-5441-a18f-a895a61ef187",
+          "f_plan_id": "cf1db033-09dc-459f-9b15-01b14a162049",
+          "plan_name": "Wellcare Dual Access (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1664-006",
+          "parent_fpi": "6a3cf7dd-b7f2-5441-a18f-a895a61ef187",
+          "f_plan_id": "948db694-7360-4bf9-8433-d3960f1f1603",
+          "plan_name": "Wellcare Giveback (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1664-012",
+          "parent_fpi": "6a3cf7dd-b7f2-5441-a18f-a895a61ef187",
+          "f_plan_id": "58def46e-7957-4d78-8708-338043807967",
+          "plan_name": "Wellcare Dual Reserve (HMO-POS D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

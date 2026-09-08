@@ -1,0 +1,119 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "06fc9dfc-5a8d-5837-90ab-8a0111002d89",
+      "is_fpi": true,
+      "payerLegalName": "BCBSM, Inc.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BCBSM, Inc."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5959",
+      "is_fpi": false,
+      "parent_fpi": "06fc9dfc-5a8d-5837-90ab-8a0111002d89"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5959-009",
+          "parent_fpi": "06fc9dfc-5a8d-5837-90ab-8a0111002d89",
+          "f_plan_id": "0de0f360-172b-41e5-b5d5-e41b62bfbb7a",
+          "plan_name": "Blue Cross Medicare Advantage Choice (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5959-010",
+          "parent_fpi": "06fc9dfc-5a8d-5837-90ab-8a0111002d89",
+          "f_plan_id": "a8a5dee7-42c3-4654-be17-9304f7cff8f3",
+          "plan_name": "Blue Cross Medicare Advantage Complete (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5959-011",
+          "parent_fpi": "06fc9dfc-5a8d-5837-90ab-8a0111002d89",
+          "f_plan_id": "f56430b7-a153-411a-8f72-64244e504042",
+          "plan_name": "Blue Cross Medicare Advantage Complete (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5959-012",
+          "parent_fpi": "06fc9dfc-5a8d-5837-90ab-8a0111002d89",
+          "f_plan_id": "cafd24c2-1529-41d1-bf3c-2db6cfefa56b",
+          "plan_name": "Blue Cross Medicare Advantage Core (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5959-013",
+          "parent_fpi": "06fc9dfc-5a8d-5837-90ab-8a0111002d89",
+          "f_plan_id": "56c4e466-1d85-41f9-9f83-83c0a1fcf25e",
+          "plan_name": "Blue Cross Medicare Advantage Core (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5959-014",
+          "parent_fpi": "06fc9dfc-5a8d-5837-90ab-8a0111002d89",
+          "f_plan_id": "ed84c20a-4c1c-4a7e-a289-f7eadac231d0",
+          "plan_name": "Blue Cross Medicare Advantage Choice (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5959-015",
+          "parent_fpi": "06fc9dfc-5a8d-5837-90ab-8a0111002d89",
+          "f_plan_id": "deb9c04c-b495-4d41-9045-67a3ad6d6181",
+          "plan_name": "Blue Cross Medicare Advantage Comfort (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5959-016",
+          "parent_fpi": "06fc9dfc-5a8d-5837-90ab-8a0111002d89",
+          "f_plan_id": "07e9b5d1-3138-4c0f-a476-0a7e708496d1",
+          "plan_name": "Blue Cross Medicare Advantage Comfort (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5959-018",
+          "parent_fpi": "06fc9dfc-5a8d-5837-90ab-8a0111002d89",
+          "f_plan_id": "9e8e1edc-c3aa-452d-9637-e3a50dd02cba",
+          "plan_name": "Blue Cross Medicare Advantage Freedom Blue (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5959-801",
+          "parent_fpi": "06fc9dfc-5a8d-5837-90ab-8a0111002d89",
+          "f_plan_id": "14193aca-8155-4f96-81c5-3d40b494b02c",
+          "plan_name": "Group EGWP MAPD (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5959-807",
+          "parent_fpi": "06fc9dfc-5a8d-5837-90ab-8a0111002d89",
+          "f_plan_id": "7b995197-5e96-4a90-b744-b67be0904485",
+          "plan_name": "Group EGWP Medical Only (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5959-808",
+          "parent_fpi": "06fc9dfc-5a8d-5837-90ab-8a0111002d89",
+          "f_plan_id": "8b506608-9af5-46c2-b6e5-a43875eb6284",
+          "plan_name": "Group EGWP MAPD (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5959-809",
+          "parent_fpi": "06fc9dfc-5a8d-5837-90ab-8a0111002d89",
+          "f_plan_id": "438dd60b-0a35-4f85-9988-cb966a336dd1",
+          "plan_name": "Group EGWP MAPD (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

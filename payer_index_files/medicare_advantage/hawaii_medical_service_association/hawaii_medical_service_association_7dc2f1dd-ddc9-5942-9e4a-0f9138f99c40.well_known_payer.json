@@ -1,0 +1,84 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "7dc2f1dd-ddc9-5942-9e4a-0f9138f99c40",
+      "is_fpi": true,
+      "payerLegalName": "HAWAII MEDICAL SERVICE ASSOCIATION",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HAWAII MEDICAL SERVICE ASSOCIATION"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3832",
+      "is_fpi": false,
+      "parent_fpi": "7dc2f1dd-ddc9-5942-9e4a-0f9138f99c40"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3832-007",
+          "parent_fpi": "7dc2f1dd-ddc9-5942-9e4a-0f9138f99c40",
+          "f_plan_id": "fa5afa25-72b6-432d-84b8-f59b763a56be",
+          "plan_name": "HMSA Akamai Advantage Standard (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3832-008",
+          "parent_fpi": "7dc2f1dd-ddc9-5942-9e4a-0f9138f99c40",
+          "f_plan_id": "7564ea38-7954-4d29-bf39-d91a0b4b6325",
+          "plan_name": "HMSA Akamai Advantage Standard Plus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3832-009",
+          "parent_fpi": "7dc2f1dd-ddc9-5942-9e4a-0f9138f99c40",
+          "f_plan_id": "07fb72b3-42f9-4dad-995e-e3ddd5806519",
+          "plan_name": "HMSA Akamai Advantage Complete (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3832-010",
+          "parent_fpi": "7dc2f1dd-ddc9-5942-9e4a-0f9138f99c40",
+          "f_plan_id": "5c1416f4-c7ff-4fa1-b6f7-9fac5cb92c49",
+          "plan_name": "HMSA Akamai Advantage Complete Plus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3832-801",
+          "parent_fpi": "7dc2f1dd-ddc9-5942-9e4a-0f9138f99c40",
+          "f_plan_id": "239dfa18-f2e4-4795-806c-08643f3d1f6f",
+          "plan_name": "HMSA Akamai Advantage EGWP with Drug CY (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3832-802",
+          "parent_fpi": "7dc2f1dd-ddc9-5942-9e4a-0f9138f99c40",
+          "f_plan_id": "2bb263e9-97d7-4d7f-8d4f-a0e4655419df",
+          "plan_name": "HMSA Akamai Advantage EGWP with Drug NCY (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3832-805",
+          "parent_fpi": "7dc2f1dd-ddc9-5942-9e4a-0f9138f99c40",
+          "f_plan_id": "5eb4bc4f-eb02-4719-9259-f8ef9d283835",
+          "plan_name": "HMSA Akamai Advantage EGWP CY (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3832-807",
+          "parent_fpi": "7dc2f1dd-ddc9-5942-9e4a-0f9138f99c40",
+          "f_plan_id": "9e507473-085a-47fe-b1a0-96a2ec08b734",
+          "plan_name": "HMSA Akamai Advantage Union Group Plan MAPD (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

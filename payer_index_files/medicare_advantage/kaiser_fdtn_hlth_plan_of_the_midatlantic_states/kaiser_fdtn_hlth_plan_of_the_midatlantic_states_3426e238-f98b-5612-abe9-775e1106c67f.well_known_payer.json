@@ -1,0 +1,189 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "3426e238-f98b-5612-abe9-775e1106c67f",
+      "is_fpi": true,
+      "payerLegalName": "KAISER FDTN HLTH PLAN OF THE MID-ATLANTIC STATES",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "KAISER FDTN HLTH PLAN OF THE MID-ATLANTIC STATES"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2172",
+      "is_fpi": false,
+      "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2172-001",
+          "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
+          "f_plan_id": "3fed2a97-3872-4c49-bdce-481950e07b9a",
+          "plan_name": "Kaiser Permanente Medicare Advantage High DC (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2172-002",
+          "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
+          "f_plan_id": "e71ed3f0-ded9-4eab-b264-1b6131aa9771",
+          "plan_name": "Kaiser Permanente Medicare Advantage High MD (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2172-005",
+          "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
+          "f_plan_id": "af088e1a-d1c1-4b95-a333-99becdddc12e",
+          "plan_name": "Kaiser Permanente Medicare Advantage Liberty (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2172-008",
+          "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
+          "f_plan_id": "3f1d3e7d-c947-4612-8651-2d8f28a68619",
+          "plan_name": "Kaiser Permanente Medicare Advantage High VA (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2172-009",
+          "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
+          "f_plan_id": "c1dbe996-3691-4a01-9bee-1cc75faec9b5",
+          "plan_name": "Kaiser Permanente Medicare Advantage Standard 1 VA (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2172-010",
+          "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
+          "f_plan_id": "f10a9bc3-82e0-4629-9ce6-e87e6ba9ffb8",
+          "plan_name": "Kaiser Permanente Medicare Advantage Value 1 VA (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2172-013",
+          "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
+          "f_plan_id": "811f10db-626e-4a3d-91bc-f6489b87efb1",
+          "plan_name": "Kaiser Permanente Medicare Advantage Care Plus VA (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2172-014",
+          "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
+          "f_plan_id": "4d003153-86eb-4237-bdf3-883324f5117c",
+          "plan_name": "Kaiser Permanente Medicare Advantage Care Plus MD (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2172-801",
+          "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
+          "f_plan_id": "6816aa76-9aa4-48db-8d1b-22c0d6c921a6",
+          "plan_name": "Kaiser Permanente Medicare Advantage for Groups (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2172-805",
+          "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
+          "f_plan_id": "48c0b775-2a0a-46e8-83ce-721dfdd11459",
+          "plan_name": "Kaiser Permanente Medicare Advantage GRP w/o D (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2172-806",
+          "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
+          "f_plan_id": "c52278e3-c2e9-415a-9e9b-4dcb4bc50213",
+          "plan_name": "Kaiser Permanente Medicare Advantage GRP B/D (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2172-016",
+          "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
+          "f_plan_id": "bcbd4541-ca4e-4a1c-8075-db3c07f33d83",
+          "plan_name": "Kaiser Permanente Dual Complete Plan 1 MD (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2172-017",
+          "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
+          "f_plan_id": "ac0cd408-6896-4ac9-af54-73f9e0883cfc",
+          "plan_name": "Kaiser Permanente Dual Complete Plan 2 MD (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2172-018",
+          "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
+          "f_plan_id": "0ff87b53-69ee-4c72-bfdb-ec3d97b72583",
+          "plan_name": "Kaiser Permanente Dual Essential Plan 1 MD (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2172-019",
+          "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
+          "f_plan_id": "c6b73dec-8a34-4490-a8e2-d5adce7b78fe",
+          "plan_name": "Kaiser Permanente Dual Essential Plan 2 MD (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2172-020",
+          "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
+          "f_plan_id": "4cffaba7-9b91-496c-b043-b0d6cc673537",
+          "plan_name": "Kaiser Permanente Medicare Advantage Standard DC (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2172-021",
+          "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
+          "f_plan_id": "ee069127-a976-4e81-b5e7-4bfab3f2bae6",
+          "plan_name": "Kaiser Permanente Medicare Advantage Standard 1 MD (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2172-022",
+          "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
+          "f_plan_id": "277d779a-5354-4034-aa76-5b2382b74674",
+          "plan_name": "Kaiser Permanente Medicare Advantage Standard 2 MD (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2172-023",
+          "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
+          "f_plan_id": "f1d7a313-75a9-499e-ba1a-e8bf48bbd2ad",
+          "plan_name": "Kaiser Permanente Medicare Advantage Standard 2 VA (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2172-024",
+          "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
+          "f_plan_id": "091ec2d3-173e-4897-ad7c-f262d587081e",
+          "plan_name": "Kaiser Permanente Medicare Advantage Value 2 VA (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2172-025",
+          "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
+          "f_plan_id": "50709c3e-9857-489f-be8d-ad3e4e5f8a9b",
+          "plan_name": "Kaiser Permanente Medicare Advantage Value 1 MD (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2172-026",
+          "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
+          "f_plan_id": "f9505b82-585a-4d5c-9869-bf420c10a3c8",
+          "plan_name": "Kaiser Permanente Medicare Advantage Value 2 MD (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2172-027",
+          "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
+          "f_plan_id": "878fd54e-0acd-4eba-b3e6-26389d2d8db0",
+          "plan_name": "Kaiser Permanente Medicare Advantage Value DC (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

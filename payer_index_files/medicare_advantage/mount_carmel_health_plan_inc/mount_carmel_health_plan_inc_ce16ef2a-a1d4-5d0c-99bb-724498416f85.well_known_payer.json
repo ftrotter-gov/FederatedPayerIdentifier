@@ -1,0 +1,140 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "ce16ef2a-a1d4-5d0c-99bb-724498416f85",
+      "is_fpi": true,
+      "payerLegalName": "MOUNT CARMEL HEALTH PLAN, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MOUNT CARMEL HEALTH PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3668",
+      "is_fpi": false,
+      "parent_fpi": "ce16ef2a-a1d4-5d0c-99bb-724498416f85"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3668-013",
+          "parent_fpi": "ce16ef2a-a1d4-5d0c-99bb-724498416f85",
+          "f_plan_id": "4639c036-9a36-48cd-83e6-b188196e6df4",
+          "plan_name": "Mount Carmel MediGold Glory No RX (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3668-018",
+          "parent_fpi": "ce16ef2a-a1d4-5d0c-99bb-724498416f85",
+          "f_plan_id": "8981e8af-0380-4ee9-b724-9968d239ffd4",
+          "plan_name": "Mount Carmel MediGold Premier (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3668-019",
+          "parent_fpi": "ce16ef2a-a1d4-5d0c-99bb-724498416f85",
+          "f_plan_id": "033257fc-81c5-4f5f-b245-30faae814feb",
+          "plan_name": "Mount Carmel MediGold No Premium (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3668-020",
+          "parent_fpi": "ce16ef2a-a1d4-5d0c-99bb-724498416f85",
+          "f_plan_id": "59abea6a-4bf9-49f7-b012-c46a236e84e0",
+          "plan_name": "Mount Carmel MediGold No Premium (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3668-022",
+          "parent_fpi": "ce16ef2a-a1d4-5d0c-99bb-724498416f85",
+          "f_plan_id": "abb83d96-087d-4ac1-ba2a-bf9e50e4e761",
+          "plan_name": "Mount Carmel MediGold Plus (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3668-023",
+          "parent_fpi": "ce16ef2a-a1d4-5d0c-99bb-724498416f85",
+          "f_plan_id": "5af106fd-b388-4314-a33b-c4ccb1cc06d7",
+          "plan_name": "Mount Carmel MediGold Plus (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3668-025",
+          "parent_fpi": "ce16ef2a-a1d4-5d0c-99bb-724498416f85",
+          "f_plan_id": "163aaae1-eead-491c-9f94-3ad42e4760a4",
+          "plan_name": "MercyOne Health Plan No Premium (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3668-026",
+          "parent_fpi": "ce16ef2a-a1d4-5d0c-99bb-724498416f85",
+          "f_plan_id": "8ae4b691-2365-4986-9fed-ac070e39d97a",
+          "plan_name": "MercyOne Health Plan Plus (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3668-029",
+          "parent_fpi": "ce16ef2a-a1d4-5d0c-99bb-724498416f85",
+          "f_plan_id": "920cd66d-0f3b-4574-b65b-59577206e0d2",
+          "plan_name": "MercyOne Health Plan Glory No RX (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3668-030",
+          "parent_fpi": "ce16ef2a-a1d4-5d0c-99bb-724498416f85",
+          "f_plan_id": "5ed90162-b4bb-424c-b5af-0a8849f13730",
+          "plan_name": "Mount Carmel MediGold Cash Back (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3668-031",
+          "parent_fpi": "ce16ef2a-a1d4-5d0c-99bb-724498416f85",
+          "f_plan_id": "e6bc6215-bbc0-45b9-94f3-d9cf8f5f9bd2",
+          "plan_name": "MercyOne Health Plan Cash Back (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3668-802",
+          "parent_fpi": "ce16ef2a-a1d4-5d0c-99bb-724498416f85",
+          "f_plan_id": "3e477d1e-6d82-4d4f-9e3b-3263585f616b",
+          "plan_name": "Mount Carmel MediGold Trinity EGWP (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3668-803",
+          "parent_fpi": "ce16ef2a-a1d4-5d0c-99bb-724498416f85",
+          "f_plan_id": "417fc632-9a3e-4a5f-a239-62d5f0c03b06",
+          "plan_name": "Mount Carmel MediGold EGWP 1 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3668-804",
+          "parent_fpi": "ce16ef2a-a1d4-5d0c-99bb-724498416f85",
+          "f_plan_id": "3d6c1e1f-c16f-42e3-8efd-a8b193cad3ab",
+          "plan_name": "Mount Carmel MediGold EGWP 2 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3668-811",
+          "parent_fpi": "ce16ef2a-a1d4-5d0c-99bb-724498416f85",
+          "f_plan_id": "40da35ba-035c-4d50-93bc-99065e1f771e",
+          "plan_name": "MercyOne Health Plan EGWP 1 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3668-812",
+          "parent_fpi": "ce16ef2a-a1d4-5d0c-99bb-724498416f85",
+          "f_plan_id": "d94ff624-a587-4139-8598-9be1d4516bf4",
+          "plan_name": "MercyOne Health Plan EGWP 2 (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

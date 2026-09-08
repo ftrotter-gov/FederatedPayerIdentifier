@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "0852fe7b-0064-5f64-84d5-2ca761912bca",
+      "is_fpi": true,
+      "payerLegalName": "PEAK HEALTH INSURANCE CORPORATION",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PEAK HEALTH INSURANCE CORPORATION"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8947",
+      "is_fpi": false,
+      "parent_fpi": "0852fe7b-0064-5f64-84d5-2ca761912bca"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8947-001",
+          "parent_fpi": "0852fe7b-0064-5f64-84d5-2ca761912bca",
+          "f_plan_id": "a2daffd1-ce4f-4d22-8da0-58c2eaeac586",
+          "plan_name": "Peak Advantage Vista (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8947-002",
+          "parent_fpi": "0852fe7b-0064-5f64-84d5-2ca761912bca",
+          "f_plan_id": "bdd4a417-fd7e-444d-b13a-e5cbcb16de76",
+          "plan_name": "Peak Advantage Summit (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

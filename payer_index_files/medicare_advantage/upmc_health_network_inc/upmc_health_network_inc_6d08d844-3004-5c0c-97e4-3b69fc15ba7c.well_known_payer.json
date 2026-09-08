@@ -1,0 +1,105 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "6d08d844-3004-5c0c-97e4-3b69fc15ba7c",
+      "is_fpi": true,
+      "payerLegalName": "UPMC HEALTH NETWORK, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "UPMC HEALTH NETWORK, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5533",
+      "is_fpi": false,
+      "parent_fpi": "6d08d844-3004-5c0c-97e4-3b69fc15ba7c"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5533-003",
+          "parent_fpi": "6d08d844-3004-5c0c-97e4-3b69fc15ba7c",
+          "f_plan_id": "eced465a-5bd2-4dfd-a9c8-907b1823536c",
+          "plan_name": "UPMC for Life PPO High Deductible Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5533-005",
+          "parent_fpi": "6d08d844-3004-5c0c-97e4-3b69fc15ba7c",
+          "f_plan_id": "7d2fa318-4653-4e02-a62d-056d6fb7afbc",
+          "plan_name": "UPMC for Life PPO Rx Enhanced (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5533-008",
+          "parent_fpi": "6d08d844-3004-5c0c-97e4-3b69fc15ba7c",
+          "f_plan_id": "3d9b997a-d1df-4a34-9269-2719e1e21cbc",
+          "plan_name": "UPMC for Life PPO Rx Enhanced (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5533-011",
+          "parent_fpi": "6d08d844-3004-5c0c-97e4-3b69fc15ba7c",
+          "f_plan_id": "5d279505-eb40-48e3-9d23-c8827a87b422",
+          "plan_name": "UPMC for Life PPO Premier Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5533-013",
+          "parent_fpi": "6d08d844-3004-5c0c-97e4-3b69fc15ba7c",
+          "f_plan_id": "f732324b-068b-4d11-90eb-ec157c103f9d",
+          "plan_name": "UPMC for Life PPO Premier Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5533-015",
+          "parent_fpi": "6d08d844-3004-5c0c-97e4-3b69fc15ba7c",
+          "f_plan_id": "b36cce9a-9742-421b-960e-040512fa5388",
+          "plan_name": "UPMC for Life PPO Rx Choice (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5533-016",
+          "parent_fpi": "6d08d844-3004-5c0c-97e4-3b69fc15ba7c",
+          "f_plan_id": "d53cb5db-3d33-4592-83c3-509c48882bc6",
+          "plan_name": "UPMC for Life PPO Salute (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5533-017",
+          "parent_fpi": "6d08d844-3004-5c0c-97e4-3b69fc15ba7c",
+          "f_plan_id": "b259bf81-2a8f-4393-a8d8-c22c960179be",
+          "plan_name": "UPMC for Life PPO Essential Care Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5533-801",
+          "parent_fpi": "6d08d844-3004-5c0c-97e4-3b69fc15ba7c",
+          "f_plan_id": "eaa27b5f-7fe0-435e-9f4a-6111d907eb97",
+          "plan_name": "UPMC Employer Group (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5533-802",
+          "parent_fpi": "6d08d844-3004-5c0c-97e4-3b69fc15ba7c",
+          "f_plan_id": "472e15d7-440b-4e4b-8f74-4f93710e379d",
+          "plan_name": "UPMC Employer Group Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5533-803",
+          "parent_fpi": "6d08d844-3004-5c0c-97e4-3b69fc15ba7c",
+          "f_plan_id": "eb5d2bdb-f7b9-416b-be19-82db5d9358fd",
+          "plan_name": "UPMC Employer Group Rx (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

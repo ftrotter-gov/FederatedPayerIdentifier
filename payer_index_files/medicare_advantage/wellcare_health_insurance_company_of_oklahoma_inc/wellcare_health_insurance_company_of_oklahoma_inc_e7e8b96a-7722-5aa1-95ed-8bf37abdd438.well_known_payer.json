@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "e7e8b96a-7722-5aa1-95ed-8bf37abdd438",
+      "is_fpi": true,
+      "payerLegalName": "WELLCARE HEALTH INSURANCE COMPANY OF OKLAHOMA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WELLCARE HEALTH INSURANCE COMPANY OF OKLAHOMA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4537",
+      "is_fpi": false,
+      "parent_fpi": "e7e8b96a-7722-5aa1-95ed-8bf37abdd438"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4537-001",
+          "parent_fpi": "e7e8b96a-7722-5aa1-95ed-8bf37abdd438",
+          "f_plan_id": "8a4da7f8-9380-4e47-8f89-7d63b07ea553",
+          "plan_name": "Wellcare Simple Open (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4537-004",
+          "parent_fpi": "e7e8b96a-7722-5aa1-95ed-8bf37abdd438",
+          "f_plan_id": "041317ae-1269-4dd2-84ea-382f8c442ca8",
+          "plan_name": "Wellcare Dual Access Open (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4537-005",
+          "parent_fpi": "e7e8b96a-7722-5aa1-95ed-8bf37abdd438",
+          "f_plan_id": "e79748be-bd00-4dbb-92d4-f1ee8fad1b13",
+          "plan_name": "Wellcare Patriot Giveback Open (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

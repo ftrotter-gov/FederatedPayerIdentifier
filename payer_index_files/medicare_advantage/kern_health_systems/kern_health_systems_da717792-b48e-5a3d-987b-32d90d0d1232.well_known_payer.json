@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "da717792-b48e-5a3d-987b-32d90d0d1232",
+      "is_fpi": true,
+      "payerLegalName": "KERN HEALTH SYSTEMS",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "KERN HEALTH SYSTEMS"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4057",
+      "is_fpi": false,
+      "parent_fpi": "da717792-b48e-5a3d-987b-32d90d0d1232"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4057-001",
+          "parent_fpi": "da717792-b48e-5a3d-987b-32d90d0d1232",
+          "f_plan_id": "9d9a5713-d228-4828-a094-9021ae961d7a",
+          "plan_name": "Kern Family Health Care Medicare (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

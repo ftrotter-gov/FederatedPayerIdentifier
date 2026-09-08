@@ -1,0 +1,77 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "90639341-fa2e-5bff-95b9-ab9b68608d22",
+      "is_fpi": true,
+      "payerLegalName": "MOUNT CARMEL HEALTH INSURANCE COMPANY",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MOUNT CARMEL HEALTH INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1846",
+      "is_fpi": false,
+      "parent_fpi": "90639341-fa2e-5bff-95b9-ab9b68608d22"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1846-005",
+          "parent_fpi": "90639341-fa2e-5bff-95b9-ab9b68608d22",
+          "f_plan_id": "7f30b61e-fa71-4a12-88c0-ca31fbe9c7d5",
+          "plan_name": "Mount Carmel MediGold Premium Choice (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1846-006",
+          "parent_fpi": "90639341-fa2e-5bff-95b9-ab9b68608d22",
+          "f_plan_id": "aa14829c-32f6-42de-8022-e47d8a39e8ec",
+          "plan_name": "Mount Carmel MediGold Choice (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1846-007",
+          "parent_fpi": "90639341-fa2e-5bff-95b9-ab9b68608d22",
+          "f_plan_id": "9426a5a8-6f0d-46d6-aef3-7023ee27d937",
+          "plan_name": "MercyOne Health Plan Choice (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1846-801",
+          "parent_fpi": "90639341-fa2e-5bff-95b9-ab9b68608d22",
+          "f_plan_id": "295b9fbe-c0e4-4948-b7e6-e52941c5448c",
+          "plan_name": "Mount Carmel MediGold Choice EGWP 1 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1846-803",
+          "parent_fpi": "90639341-fa2e-5bff-95b9-ab9b68608d22",
+          "f_plan_id": "1292b917-b381-4af7-ba7e-5ef619cc79ce",
+          "plan_name": "Mount Carmel MediGold Choice EGWP 2 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1846-804",
+          "parent_fpi": "90639341-fa2e-5bff-95b9-ab9b68608d22",
+          "f_plan_id": "39893017-e757-4763-926c-45c27674005c",
+          "plan_name": "MercyOne Health Plan Choice EGWP 1 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1846-805",
+          "parent_fpi": "90639341-fa2e-5bff-95b9-ab9b68608d22",
+          "f_plan_id": "542e40d6-7bbe-44b8-bfff-1d99fb746128",
+          "plan_name": "MercyOne Health Plan Choice EGWP 2 (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

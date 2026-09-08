@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "a3949624-87ca-55fc-89d8-5c4a7b0a54cf",
+      "is_fpi": true,
+      "payerLegalName": "ALLCARE HEALTH PLAN, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ALLCARE HEALTH PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3810",
+      "is_fpi": false,
+      "parent_fpi": "a3949624-87ca-55fc-89d8-5c4a7b0a54cf"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3810-023",
+          "parent_fpi": "a3949624-87ca-55fc-89d8-5c4a7b0a54cf",
+          "f_plan_id": "cfba5196-33fe-4d6b-a0a8-bf2405509f0a",
+          "plan_name": "AllCare Advantage Redwood Rx (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

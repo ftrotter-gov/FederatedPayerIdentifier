@@ -1,0 +1,77 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "e3bef9aa-0e1b-5294-b489-27b385e4e26e",
+      "is_fpi": true,
+      "payerLegalName": "BLUE CARE NETWORK OF MICHIGAN",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BLUE CARE NETWORK OF MICHIGAN"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5883",
+      "is_fpi": false,
+      "parent_fpi": "e3bef9aa-0e1b-5294-b489-27b385e4e26e"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5883-001",
+          "parent_fpi": "e3bef9aa-0e1b-5294-b489-27b385e4e26e",
+          "f_plan_id": "ebf6dcbc-4593-49ca-a0a5-8bbd22ee5c2a",
+          "plan_name": "BCN Advantage Elements (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5883-002",
+          "parent_fpi": "e3bef9aa-0e1b-5294-b489-27b385e4e26e",
+          "f_plan_id": "e276e293-79ac-4c1c-8884-88fba4bdba27",
+          "plan_name": "BCN Advantage Classic (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5883-003",
+          "parent_fpi": "e3bef9aa-0e1b-5294-b489-27b385e4e26e",
+          "f_plan_id": "10772031-ede9-4e2d-b731-8b26251a0462",
+          "plan_name": "BCN Advantage Prestige (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5883-007",
+          "parent_fpi": "e3bef9aa-0e1b-5294-b489-27b385e4e26e",
+          "f_plan_id": "2d8a8a67-933d-4ce4-bab9-97bef0caa733",
+          "plan_name": "BCN Advantage ConnectedCare (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5883-014",
+          "parent_fpi": "e3bef9aa-0e1b-5294-b489-27b385e4e26e",
+          "f_plan_id": "6c42aa65-74a3-4459-8843-1f4fcd27f24b",
+          "plan_name": "BCN Advantage Prime Value (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5883-801",
+          "parent_fpi": "e3bef9aa-0e1b-5294-b489-27b385e4e26e",
+          "f_plan_id": "c00fe151-137b-4278-89a1-566f99010ed2",
+          "plan_name": "BCN Advantage (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5883-805",
+          "parent_fpi": "e3bef9aa-0e1b-5294-b489-27b385e4e26e",
+          "f_plan_id": "f0d8a345-f42b-4bfc-958e-7d84883385b4",
+          "plan_name": "BCN Advantage (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

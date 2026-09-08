@@ -1,0 +1,44 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "7773cee2-dbc4-5a41-9b55-7ce2eeb6e67c",
+      "is_fpi": true,
+      "payerLegalName": "COMMUNITY HEALTH CHOICE TEXAS, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "COMMUNITY HEALTH CHOICE TEXAS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9826",
+      "is_fpi": false,
+      "parent_fpi": "7773cee2-dbc4-5a41-9b55-7ce2eeb6e67c"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9826-003",
+          "parent_fpi": "7773cee2-dbc4-5a41-9b55-7ce2eeb6e67c",
+          "f_plan_id": "4f9692f3-2b53-46d6-aed2-ad6ae075637e",
+          "plan_name": "Community DualCare Aligned (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9826-004",
+          "parent_fpi": "7773cee2-dbc4-5a41-9b55-7ce2eeb6e67c",
+          "f_plan_id": "b9989b2b-c09b-47af-abb6-7aaa3d67ecaa",
+          "plan_name": "Community DualCare Access (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://providerdirectory.communityhealthchoice.org/him/providers.json"
+      }
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,209 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "4362ee58-edf3-5b8c-a3e5-c00d926d137d",
+      "is_fpi": true,
+      "payerLegalName": "UNITEDHEALTHCARE OF THE ROCKIES, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "UNITEDHEALTHCARE OF THE ROCKIES, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4032",
+      "is_fpi": false,
+      "parent_fpi": "4362ee58-edf3-5b8c-a3e5-c00d926d137d"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4604",
+      "is_fpi": false,
+      "parent_fpi": "4362ee58-edf3-5b8c-a3e5-c00d926d137d"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4032-001",
+          "parent_fpi": "4362ee58-edf3-5b8c-a3e5-c00d926d137d",
+          "f_plan_id": "126da4d2-cd87-4997-95b4-49291261c883",
+          "plan_name": "UHC Dual Complete ID-Y1 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4032-002",
+          "parent_fpi": "4362ee58-edf3-5b8c-a3e5-c00d926d137d",
+          "f_plan_id": "98cca3d8-3550-4671-afed-3e9704829740",
+          "plan_name": "UHC Dual Complete ID-Q1 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4604-003",
+          "parent_fpi": "4362ee58-edf3-5b8c-a3e5-c00d926d137d",
+          "f_plan_id": "a5546a4e-fec3-42be-b3da-56abf98ccc7f",
+          "plan_name": "AARP Medicare Advantage from UHC UT-0003 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4604-005",
+          "parent_fpi": "4362ee58-edf3-5b8c-a3e5-c00d926d137d",
+          "f_plan_id": "9d632c93-0548-4bd0-a259-eeade3c661cf",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx UT-MA01 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4604-011",
+          "parent_fpi": "4362ee58-edf3-5b8c-a3e5-c00d926d137d",
+          "f_plan_id": "696d6f4e-631e-4185-ad92-a3b340a78989",
+          "plan_name": "AARP Medicare Advantage Essentials from UHC UT-4 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4604-012",
+          "parent_fpi": "4362ee58-edf3-5b8c-a3e5-c00d926d137d",
+          "f_plan_id": "fbe95d98-75fb-4edf-a674-885c1fa22a9b",
+          "plan_name": "AARP Medicare Advantage from UHC ID-0005 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4604-013",
+          "parent_fpi": "4362ee58-edf3-5b8c-a3e5-c00d926d137d",
+          "f_plan_id": "27302898-10c5-406c-954d-3447178904dd",
+          "plan_name": "AARP Medicare Advantage from UHC ID-0006 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4604-014",
+          "parent_fpi": "4362ee58-edf3-5b8c-a3e5-c00d926d137d",
+          "f_plan_id": "fea45286-315e-459b-acd2-b85a38ab46df",
+          "plan_name": "AARP Medicare Advantage from UHC ID-0007 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4604-016",
+          "parent_fpi": "4362ee58-edf3-5b8c-a3e5-c00d926d137d",
+          "f_plan_id": "30b68762-6027-4d48-ad20-c13723248ded",
+          "plan_name": "AARP Medicare Advantage from UHC UT-0005 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4604-017",
+          "parent_fpi": "4362ee58-edf3-5b8c-a3e5-c00d926d137d",
+          "f_plan_id": "669e8eb3-8794-469a-a49b-42395532c9c3",
+          "plan_name": "UHC Complete Care UT-6 (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4604-018",
+          "parent_fpi": "4362ee58-edf3-5b8c-a3e5-c00d926d137d",
+          "f_plan_id": "5432d49a-0a80-4a81-8aea-e4a36531301d",
+          "plan_name": "AARP Medicare Advantage Extras UT-7 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4604-019",
+          "parent_fpi": "4362ee58-edf3-5b8c-a3e5-c00d926d137d",
+          "f_plan_id": "318baf3a-64f5-4762-b6b6-c60aab79a5ee",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx ID-MA01 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4604-020",
+          "parent_fpi": "4362ee58-edf3-5b8c-a3e5-c00d926d137d",
+          "f_plan_id": "3ef8e395-77d1-4efe-a0da-fd2134e37be9",
+          "plan_name": "AARP Medicare Advantage from UHC ID-0008 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4604-022",
+          "parent_fpi": "4362ee58-edf3-5b8c-a3e5-c00d926d137d",
+          "f_plan_id": "a0dc7792-2edb-4844-9617-8fca1fd8fc35",
+          "plan_name": "AARP Medicare Advantage from UHC ID-0009 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4604-024",
+          "parent_fpi": "4362ee58-edf3-5b8c-a3e5-c00d926d137d",
+          "f_plan_id": "d36bcff9-60a2-426c-b4eb-dd1f39cecade",
+          "plan_name": "UHC Complete Care ID-12 (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4604-025",
+          "parent_fpi": "4362ee58-edf3-5b8c-a3e5-c00d926d137d",
+          "f_plan_id": "88219390-4e7c-4eaf-a765-7f168c516218",
+          "plan_name": "UHC Complete Care ID-13 (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4604-026",
+          "parent_fpi": "4362ee58-edf3-5b8c-a3e5-c00d926d137d",
+          "f_plan_id": "085aadce-e1b4-492a-b336-af17f04ec1f3",
+          "plan_name": "UHC Dual Complete UT-S2 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4604-027",
+          "parent_fpi": "4362ee58-edf3-5b8c-a3e5-c00d926d137d",
+          "f_plan_id": "0512e1f5-8f92-4775-b6a2-2154d11b981f",
+          "plan_name": "AARP Medicare Advantage from UHC NM-0009 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4604-028",
+          "parent_fpi": "4362ee58-edf3-5b8c-a3e5-c00d926d137d",
+          "f_plan_id": "e436eaed-3c7b-4ec4-b1e7-65154abe0875",
+          "plan_name": "AARP Medicare Advantage from UHC NM-0010 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4604-801",
+          "parent_fpi": "4362ee58-edf3-5b8c-a3e5-c00d926d137d",
+          "f_plan_id": "173a58ae-3af6-4167-9203-0384f21d9a91",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4604-803",
+          "parent_fpi": "4362ee58-edf3-5b8c-a3e5-c00d926d137d",
+          "f_plan_id": "1b4f8d25-b3b0-4ebc-8eae-615095064e93",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4604-805",
+          "parent_fpi": "4362ee58-edf3-5b8c-a3e5-c00d926d137d",
+          "f_plan_id": "21c65462-6bfb-4102-9d9e-e3b9de9e1d09",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4604-809",
+          "parent_fpi": "4362ee58-edf3-5b8c-a3e5-c00d926d137d",
+          "f_plan_id": "f276a118-c9c6-43b6-b063-944d2f37cfb9",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4604-810",
+          "parent_fpi": "4362ee58-edf3-5b8c-a3e5-c00d926d137d",
+          "f_plan_id": "37a2d309-b84d-494e-afc8-38ab6c4fb91f",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4604-811",
+          "parent_fpi": "4362ee58-edf3-5b8c-a3e5-c00d926d137d",
+          "f_plan_id": "7bb757a5-ad2a-4e63-ae86-726fa0aef1d8",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

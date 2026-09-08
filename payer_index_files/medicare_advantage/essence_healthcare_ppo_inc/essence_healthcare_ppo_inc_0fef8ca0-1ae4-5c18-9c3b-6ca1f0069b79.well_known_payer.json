@@ -1,0 +1,105 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "0fef8ca0-1ae4-5c18-9c3b-6ca1f0069b79",
+      "is_fpi": true,
+      "payerLegalName": "ESSENCE HEALTHCARE PPO, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ESSENCE HEALTHCARE PPO, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6200",
+      "is_fpi": false,
+      "parent_fpi": "0fef8ca0-1ae4-5c18-9c3b-6ca1f0069b79"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6200-001",
+          "parent_fpi": "0fef8ca0-1ae4-5c18-9c3b-6ca1f0069b79",
+          "f_plan_id": "4f6007f1-8e10-4945-b749-426c50251dea",
+          "plan_name": "Essence Advantage Choice (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6200-004",
+          "parent_fpi": "0fef8ca0-1ae4-5c18-9c3b-6ca1f0069b79",
+          "f_plan_id": "2e4510d1-1bb0-4c50-b92c-acfe18ed4c74",
+          "plan_name": "Essence Advantage Choice (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6200-006",
+          "parent_fpi": "0fef8ca0-1ae4-5c18-9c3b-6ca1f0069b79",
+          "f_plan_id": "db9c3f72-697b-4586-bdfb-41bd97a1a2a2",
+          "plan_name": "Essence Advantage Choice (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6200-008",
+          "parent_fpi": "0fef8ca0-1ae4-5c18-9c3b-6ca1f0069b79",
+          "f_plan_id": "d1b43853-5e5d-4077-8e0b-a0ac5aae5b49",
+          "plan_name": "Essence Advantage Premier Plus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6200-009",
+          "parent_fpi": "0fef8ca0-1ae4-5c18-9c3b-6ca1f0069b79",
+          "f_plan_id": "36d12f8f-6b6b-4aa3-9bd3-cf3b1e2acb3c",
+          "plan_name": "Essence Advantage Choice (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6200-010",
+          "parent_fpi": "0fef8ca0-1ae4-5c18-9c3b-6ca1f0069b79",
+          "f_plan_id": "411f297b-6a56-4e32-87db-239240fcc535",
+          "plan_name": "Essence Advantage Choice Plus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6200-011",
+          "parent_fpi": "0fef8ca0-1ae4-5c18-9c3b-6ca1f0069b79",
+          "f_plan_id": "995cf4a4-4e88-4c55-be8d-79cf8270c351",
+          "plan_name": "Essence Advantage Premier Plus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6200-801",
+          "parent_fpi": "0fef8ca0-1ae4-5c18-9c3b-6ca1f0069b79",
+          "f_plan_id": "6a5bafc8-24e5-4155-83f6-da31d15a6777",
+          "plan_name": "Essence Advantage EGWP PPO MAPD Calendar Yr (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6200-802",
+          "parent_fpi": "0fef8ca0-1ae4-5c18-9c3b-6ca1f0069b79",
+          "f_plan_id": "11e083b1-5844-4208-929e-330dd1f4aee6",
+          "plan_name": "Essence Advantage EGWP PPO MAPD non-Calendar Yr (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6200-803",
+          "parent_fpi": "0fef8ca0-1ae4-5c18-9c3b-6ca1f0069b79",
+          "f_plan_id": "47d05ca0-aab4-4f7a-a10e-14955dcfe2b4",
+          "plan_name": "Essence Advantage EGWP PPO MA Only Calendar Yr (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6200-804",
+          "parent_fpi": "0fef8ca0-1ae4-5c18-9c3b-6ca1f0069b79",
+          "f_plan_id": "676c096d-bd39-45be-a4e0-83ddae3f884e",
+          "plan_name": "Essence Advantage EGWP PPO MA Only non-Calendar Yr (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

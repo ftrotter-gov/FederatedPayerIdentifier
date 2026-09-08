@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "2efc44e0-b96f-5d5c-9efb-35fcc6ec8642",
+      "is_fpi": true,
+      "payerLegalName": "WELLPOINT IOWA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WELLPOINT IOWA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0907",
+      "is_fpi": false,
+      "parent_fpi": "2efc44e0-b96f-5d5c-9efb-35fcc6ec8642"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0907-001",
+          "parent_fpi": "2efc44e0-b96f-5d5c-9efb-35fcc6ec8642",
+          "f_plan_id": "7c3de861-aa48-46de-9b39-938f64291062",
+          "plan_name": "Wellpoint Full Dual Advantage (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0907-003",
+          "parent_fpi": "2efc44e0-b96f-5d5c-9efb-35fcc6ec8642",
+          "f_plan_id": "ac04576d-1c7d-43a8-b757-06a44a08eaf3",
+          "plan_name": "Wellpoint Full Dual Advantage 2 (HMO-POS D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,112 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "1a67e9f0-ac60-5d46-9e26-fd6513140a33",
+      "is_fpi": true,
+      "payerLegalName": "KAISER FOUNDATION HP OF GA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "KAISER FOUNDATION HP OF GA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1170",
+      "is_fpi": false,
+      "parent_fpi": "1a67e9f0-ac60-5d46-9e26-fd6513140a33"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1170-002",
+          "parent_fpi": "1a67e9f0-ac60-5d46-9e26-fd6513140a33",
+          "f_plan_id": "fb37e0fb-7861-425c-93fb-e3c6fdbbbc7c",
+          "plan_name": "Kaiser Permanente Senior Advantage Enhanced 1 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1170-008",
+          "parent_fpi": "1a67e9f0-ac60-5d46-9e26-fd6513140a33",
+          "f_plan_id": "9a163a8a-9b8d-411d-8f9e-c94acb030dc7",
+          "plan_name": "Kaiser Permanente Dual Essential Plan 1 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1170-009",
+          "parent_fpi": "1a67e9f0-ac60-5d46-9e26-fd6513140a33",
+          "f_plan_id": "ad85f48b-67b8-42ca-bac5-db9df1c85007",
+          "plan_name": "Kaiser Permanente Senior Advantage Basic 1 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1170-011",
+          "parent_fpi": "1a67e9f0-ac60-5d46-9e26-fd6513140a33",
+          "f_plan_id": "3dc1b11c-f20c-4382-9521-e35633f0a6ca",
+          "plan_name": "Kaiser Permanente Dual Essential Plan 2 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1170-012",
+          "parent_fpi": "1a67e9f0-ac60-5d46-9e26-fd6513140a33",
+          "f_plan_id": "446ae0b9-1c7f-4182-bb4d-8e36b7ffea5b",
+          "plan_name": "Kaiser Permanente Senior Advantage Basic 2 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1170-013",
+          "parent_fpi": "1a67e9f0-ac60-5d46-9e26-fd6513140a33",
+          "f_plan_id": "1c726145-e377-4a01-92e9-da8630e3af70",
+          "plan_name": "Kaiser Permanente Senior Advantage Care Plus (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1170-014",
+          "parent_fpi": "1a67e9f0-ac60-5d46-9e26-fd6513140a33",
+          "f_plan_id": "2d986cf2-5fc0-41f5-bcbf-0aa64db44615",
+          "plan_name": "Kaiser Permanente Senior Advantage Liberty (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1170-015",
+          "parent_fpi": "1a67e9f0-ac60-5d46-9e26-fd6513140a33",
+          "f_plan_id": "93aaebb4-b8c7-4b4a-93b5-c8b88954874f",
+          "plan_name": "Kaiser Permanente Dual Complete (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1170-801",
+          "parent_fpi": "1a67e9f0-ac60-5d46-9e26-fd6513140a33",
+          "f_plan_id": "f3d53067-754f-4f19-b8b4-a39689508f6f",
+          "plan_name": "Kaiser Permanente Employer Group Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1170-802",
+          "parent_fpi": "1a67e9f0-ac60-5d46-9e26-fd6513140a33",
+          "f_plan_id": "cc5ba5f8-f2fd-4346-9efc-483e9e5733c5",
+          "plan_name": "Kaiser Employer Group With Part D (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1170-016",
+          "parent_fpi": "1a67e9f0-ac60-5d46-9e26-fd6513140a33",
+          "f_plan_id": "e48f941c-1d5c-4e44-abe8-9564eb68242f",
+          "plan_name": "Kaiser Permanente Senior Advantage Standard (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1170-017",
+          "parent_fpi": "1a67e9f0-ac60-5d46-9e26-fd6513140a33",
+          "f_plan_id": "685039bd-ec00-4c45-8d1d-f4630ae4dc36",
+          "plan_name": "Kaiser Permanente Sr Advantage Liberty Giveback (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

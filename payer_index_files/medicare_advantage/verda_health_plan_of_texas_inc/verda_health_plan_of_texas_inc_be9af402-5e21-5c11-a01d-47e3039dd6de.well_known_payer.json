@@ -1,0 +1,56 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "be9af402-5e21-5c11-a01d-47e3039dd6de",
+      "is_fpi": true,
+      "payerLegalName": "VERDA HEALTH PLAN OF TEXAS INC",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "VERDA HEALTH PLAN OF TEXAS INC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5163",
+      "is_fpi": false,
+      "parent_fpi": "be9af402-5e21-5c11-a01d-47e3039dd6de"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5163-001",
+          "parent_fpi": "be9af402-5e21-5c11-a01d-47e3039dd6de",
+          "f_plan_id": "1dba7541-04bd-41a2-967c-3c431e8f02bf",
+          "plan_name": "Verda Noble Care (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5163-002",
+          "parent_fpi": "be9af402-5e21-5c11-a01d-47e3039dd6de",
+          "f_plan_id": "ab4bb2d8-8398-4553-b991-e0ad2e4dfeea",
+          "plan_name": "Verda Noble Chronic Care (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5163-003",
+          "parent_fpi": "be9af402-5e21-5c11-a01d-47e3039dd6de",
+          "f_plan_id": "88818874-0a91-44a8-b20c-00029d884e7e",
+          "plan_name": "Verda Noble Care (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5163-004",
+          "parent_fpi": "be9af402-5e21-5c11-a01d-47e3039dd6de",
+          "f_plan_id": "bfa2e889-6b2a-4d45-b681-26506455bc16",
+          "plan_name": "Verda Noble Chronic Care (HMO C-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

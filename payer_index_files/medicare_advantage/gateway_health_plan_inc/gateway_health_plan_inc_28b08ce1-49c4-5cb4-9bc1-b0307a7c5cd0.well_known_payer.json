@@ -1,0 +1,56 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "28b08ce1-49c4-5cb4-9bc1-b0307a7c5cd0",
+      "is_fpi": true,
+      "payerLegalName": "GATEWAY HEALTH PLAN, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "GATEWAY HEALTH PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5932",
+      "is_fpi": false,
+      "parent_fpi": "28b08ce1-49c4-5cb4-9bc1-b0307a7c5cd0"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5932-001",
+          "parent_fpi": "28b08ce1-49c4-5cb4-9bc1-b0307a7c5cd0",
+          "f_plan_id": "1b8f8e58-b03e-43f8-bf45-db2f1bedba1a",
+          "plan_name": "Highmark Wholecare Medicare Assured Diamond (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5932-009",
+          "parent_fpi": "28b08ce1-49c4-5cb4-9bc1-b0307a7c5cd0",
+          "f_plan_id": "2a7bbb81-9a50-41d4-abe5-142029555157",
+          "plan_name": "Highmark Wholecare Medicare Assured Ruby (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5932-012",
+          "parent_fpi": "28b08ce1-49c4-5cb4-9bc1-b0307a7c5cd0",
+          "f_plan_id": "8c5d302a-70b4-4f87-80c7-4da3a3640f41",
+          "plan_name": "Highmark Wholecare Medicare Assured Diamond (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5932-013",
+          "parent_fpi": "28b08ce1-49c4-5cb4-9bc1-b0307a7c5cd0",
+          "f_plan_id": "b8266a70-df9e-46aa-a497-7baf0b8a461c",
+          "plan_name": "Highmark Wholecare Medicare Assured Ruby (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

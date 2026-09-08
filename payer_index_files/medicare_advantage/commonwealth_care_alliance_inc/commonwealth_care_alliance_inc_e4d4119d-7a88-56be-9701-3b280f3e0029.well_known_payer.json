@@ -1,0 +1,48 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "e4d4119d-7a88-56be-9701-3b280f3e0029",
+      "is_fpi": true,
+      "payerLegalName": "COMMONWEALTH CARE ALLIANCE, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "COMMONWEALTH CARE ALLIANCE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1486",
+      "is_fpi": false,
+      "parent_fpi": "e4d4119d-7a88-56be-9701-3b280f3e0029"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2225",
+      "is_fpi": false,
+      "parent_fpi": "e4d4119d-7a88-56be-9701-3b280f3e0029"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1486-001",
+          "parent_fpi": "e4d4119d-7a88-56be-9701-3b280f3e0029",
+          "f_plan_id": "2965f3e4-b2ee-4961-84cd-9e4403e2cc3d",
+          "plan_name": "CCA One Care (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2225-001",
+          "parent_fpi": "e4d4119d-7a88-56be-9701-3b280f3e0029",
+          "f_plan_id": "b3b6f7f6-1603-4545-b789-4c54d5fecce8",
+          "plan_name": "CCA Senior Care Options (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

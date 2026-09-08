@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "469172ab-33a1-56eb-920a-439d1af281c4",
+      "is_fpi": true,
+      "payerLegalName": "TUFTS HEALTH PUBLIC PLANS, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "TUFTS HEALTH PUBLIC PLANS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5314",
+      "is_fpi": false,
+      "parent_fpi": "469172ab-33a1-56eb-920a-439d1af281c4"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5314-001",
+          "parent_fpi": "469172ab-33a1-56eb-920a-439d1af281c4",
+          "f_plan_id": "3b325fce-2b14-41d9-8861-9f0131b025ae",
+          "plan_name": "Tufts Health One Care (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5314-002",
+          "parent_fpi": "469172ab-33a1-56eb-920a-439d1af281c4",
+          "f_plan_id": "6cc13dbb-6528-40e0-94c4-cad3d971e255",
+          "plan_name": "Tufts Health One Care CW (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

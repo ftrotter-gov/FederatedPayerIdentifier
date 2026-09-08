@@ -1,0 +1,98 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "5a4dcb3c-04ec-5ad0-9773-e6be51a50603",
+      "is_fpi": true,
+      "payerLegalName": "HEALTH ALLIANCE PLAN OF MICHIGAN",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HEALTH ALLIANCE PLAN OF MICHIGAN"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2354",
+      "is_fpi": false,
+      "parent_fpi": "5a4dcb3c-04ec-5ad0-9773-e6be51a50603"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2354-015",
+          "parent_fpi": "5a4dcb3c-04ec-5ad0-9773-e6be51a50603",
+          "f_plan_id": "08dbaeaa-fc3e-428b-ab8b-4c83d5ef1b84",
+          "plan_name": "HAP Medicare Connect (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2354-018",
+          "parent_fpi": "5a4dcb3c-04ec-5ad0-9773-e6be51a50603",
+          "f_plan_id": "0325c1f5-d7f9-46c6-b79f-39feddb7f19b",
+          "plan_name": "HAP Senior Plus Henry Ford Tiered Access (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2354-019",
+          "parent_fpi": "5a4dcb3c-04ec-5ad0-9773-e6be51a50603",
+          "f_plan_id": "4f1b09ca-9eb4-4f4e-9f35-f80894ae79ad",
+          "plan_name": "HAP Medicare MedicalAccess (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2354-021",
+          "parent_fpi": "5a4dcb3c-04ec-5ad0-9773-e6be51a50603",
+          "f_plan_id": "3db4eac3-2b51-49b9-bb9d-d511ffa2190b",
+          "plan_name": "HAP Senior Plus (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2354-025",
+          "parent_fpi": "5a4dcb3c-04ec-5ad0-9773-e6be51a50603",
+          "f_plan_id": "f1183558-ddbb-4c97-a92b-685ea1a7ab06",
+          "plan_name": "HAP Medicare Complete Duals (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2354-028",
+          "parent_fpi": "5a4dcb3c-04ec-5ad0-9773-e6be51a50603",
+          "f_plan_id": "77b2ed38-6ba7-4848-9e80-83d4dce2166f",
+          "plan_name": "HAP Medicare Superior (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2354-029",
+          "parent_fpi": "5a4dcb3c-04ec-5ad0-9773-e6be51a50603",
+          "f_plan_id": "fb3d1438-6f1c-4e07-8ff5-5f2cbd4b57cf",
+          "plan_name": "Henry Ford Select (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2354-801",
+          "parent_fpi": "5a4dcb3c-04ec-5ad0-9773-e6be51a50603",
+          "f_plan_id": "f6131274-be1a-44e1-82a2-8d5803500fc7",
+          "plan_name": "HAP Senior Plus Group (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2354-802",
+          "parent_fpi": "5a4dcb3c-04ec-5ad0-9773-e6be51a50603",
+          "f_plan_id": "07a62e7f-89ae-4f5e-8003-9042466685e5",
+          "plan_name": "HAP Senior Plus Group (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2354-030",
+          "parent_fpi": "5a4dcb3c-04ec-5ad0-9773-e6be51a50603",
+          "f_plan_id": "dc7f9759-6a09-48a5-85af-625d3949b7ac",
+          "plan_name": "HAP Medicare Diabetes and Heart (HMO C-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

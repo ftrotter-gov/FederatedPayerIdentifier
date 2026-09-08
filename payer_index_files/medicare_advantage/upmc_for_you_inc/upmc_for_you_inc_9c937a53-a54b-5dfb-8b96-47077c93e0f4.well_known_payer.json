@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "9c937a53-a54b-5dfb-8b96-47077c93e0f4",
+      "is_fpi": true,
+      "payerLegalName": "UPMC FOR YOU, INC",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "UPMC FOR YOU, INC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4279",
+      "is_fpi": false,
+      "parent_fpi": "9c937a53-a54b-5dfb-8b96-47077c93e0f4"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4279-001",
+          "parent_fpi": "9c937a53-a54b-5dfb-8b96-47077c93e0f4",
+          "f_plan_id": "cbd35b2c-0596-4952-9b3e-131c56976912",
+          "plan_name": "UPMC for Life Complete Care (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4279-004",
+          "parent_fpi": "9c937a53-a54b-5dfb-8b96-47077c93e0f4",
+          "f_plan_id": "ad046f69-fbce-4705-b096-8d8a4c09f703",
+          "plan_name": "UPMC for Life Complete Care (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "2b359857-03bd-5936-aa30-26bc2b33ac29",
+      "is_fpi": true,
+      "payerLegalName": "ARKANSAS SUPERIOR SELECT, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ARKANSAS SUPERIOR SELECT, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1587",
+      "is_fpi": false,
+      "parent_fpi": "2b359857-03bd-5936-aa30-26bc2b33ac29"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1587-001",
+          "parent_fpi": "2b359857-03bd-5936-aa30-26bc2b33ac29",
+          "f_plan_id": "e981b682-6556-4cee-8967-d08c51d855d2",
+          "plan_name": "Arkansas Integrated Providers (AIP) Dual Advantage (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1587-003",
+          "parent_fpi": "2b359857-03bd-5936-aa30-26bc2b33ac29",
+          "f_plan_id": "8d840e16-4245-4734-af99-b0842168993f",
+          "plan_name": "Tribute Select (HMO-POS I-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,44 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "eb661b6d-3f00-53ea-a01e-e30757c271fc",
+      "is_fpi": true,
+      "payerLegalName": "TROY HEALTH, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "TROY HEALTH, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4676",
+      "is_fpi": false,
+      "parent_fpi": "eb661b6d-3f00-53ea-a01e-e30757c271fc"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4676-001",
+          "parent_fpi": "eb661b6d-3f00-53ea-a01e-e30757c271fc",
+          "f_plan_id": "9482ad56-cc10-4388-bb4b-5729b6cd1f10",
+          "plan_name": "Troy Medicare (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4676-002",
+          "parent_fpi": "eb661b6d-3f00-53ea-a01e-e30757c271fc",
+          "f_plan_id": "71fc3830-b659-45a2-a84c-8513bb0adb38",
+          "plan_name": "Troy Medicare for Dual-eligible Beneficiaries (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://troymedicare.com/provider-directory/index.json"
+      }
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,118 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "5f6b5b70-8934-5f7b-80a0-b51935a2a1d1",
+      "is_fpi": true,
+      "payerLegalName": "AMERICAN PROGRESSIVE LIFE & HLTH INS COMPANY OF NY",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "AMERICAN PROGRESSIVE LIFE & HLTH INS COMPANY OF NY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2775",
+      "is_fpi": false,
+      "parent_fpi": "5f6b5b70-8934-5f7b-80a0-b51935a2a1d1"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2816",
+      "is_fpi": false,
+      "parent_fpi": "5f6b5b70-8934-5f7b-80a0-b51935a2a1d1"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2775-106",
+          "parent_fpi": "5f6b5b70-8934-5f7b-80a0-b51935a2a1d1",
+          "f_plan_id": "1764917a-cf06-4775-805f-7e5cb9462bed",
+          "plan_name": "Wellcare Simple Open (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2775-109",
+          "parent_fpi": "5f6b5b70-8934-5f7b-80a0-b51935a2a1d1",
+          "f_plan_id": "991c8267-a028-4cec-9575-ad1d517dcf52",
+          "plan_name": "Wellcare Low Premium Open (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2775-111",
+          "parent_fpi": "5f6b5b70-8934-5f7b-80a0-b51935a2a1d1",
+          "f_plan_id": "a8ba67d2-d1bd-49ea-b63c-72b49bc3cf90",
+          "plan_name": "Wellcare Giveback Open (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2775-112",
+          "parent_fpi": "5f6b5b70-8934-5f7b-80a0-b51935a2a1d1",
+          "f_plan_id": "54c47efe-fdf8-4fe3-9e66-052305f436ce",
+          "plan_name": "Wellcare Dual Access Open (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2775-113",
+          "parent_fpi": "5f6b5b70-8934-5f7b-80a0-b51935a2a1d1",
+          "f_plan_id": "2aec704c-ba9f-4c4c-be3d-8f51ad6c5d14",
+          "plan_name": "Wellcare Assist Open (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2775-115",
+          "parent_fpi": "5f6b5b70-8934-5f7b-80a0-b51935a2a1d1",
+          "f_plan_id": "d57c1b21-fff4-4fb6-a010-54d523aaaa4c",
+          "plan_name": "Wellcare Dual Access Open (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2775-116",
+          "parent_fpi": "5f6b5b70-8934-5f7b-80a0-b51935a2a1d1",
+          "f_plan_id": "d48def67-c26e-4362-8de9-fb01f8f25296",
+          "plan_name": "Wellcare Patriot Giveback Open (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2816-013",
+          "parent_fpi": "5f6b5b70-8934-5f7b-80a0-b51935a2a1d1",
+          "f_plan_id": "aab8d4c6-bd33-4c45-ba05-63dfb352fc41",
+          "plan_name": "Wellcare Premium Ultra (PFFS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2816-019",
+          "parent_fpi": "5f6b5b70-8934-5f7b-80a0-b51935a2a1d1",
+          "f_plan_id": "597db9f2-323f-4785-b87f-38c15f0d4d0e",
+          "plan_name": "Wellcare Premium Enhanced (PFFS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2816-037",
+          "parent_fpi": "5f6b5b70-8934-5f7b-80a0-b51935a2a1d1",
+          "f_plan_id": "0ad3c3e1-3295-4afd-ad8a-13f90599f6b0",
+          "plan_name": "Wellcare Advantage Enhanced (PFFS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2816-038",
+          "parent_fpi": "5f6b5b70-8934-5f7b-80a0-b51935a2a1d1",
+          "f_plan_id": "b913c6d0-de8e-416f-bbe3-4371617fc7f6",
+          "plan_name": "Wellcare Advantage Simple (PFFS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2816-040",
+          "parent_fpi": "5f6b5b70-8934-5f7b-80a0-b51935a2a1d1",
+          "f_plan_id": "f3341ccd-ad45-471b-b091-56a1eaca01c2",
+          "plan_name": "Wellcare Advantage Simple (PFFS)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

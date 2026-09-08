@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "42077c02-9f3c-5e40-99d2-abb7c73a28b0",
+      "is_fpi": true,
+      "payerLegalName": "NEBRASKA TOTAL CARE, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "NEBRASKA TOTAL CARE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1215",
+      "is_fpi": false,
+      "parent_fpi": "42077c02-9f3c-5e40-99d2-abb7c73a28b0"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1215-001",
+          "parent_fpi": "42077c02-9f3c-5e40-99d2-abb7c73a28b0",
+          "f_plan_id": "3e16fa8d-cc55-4db2-8ee2-db8dc5d61ad1",
+          "plan_name": "Wellcare Dual Liberty Sync (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1215-003",
+          "parent_fpi": "42077c02-9f3c-5e40-99d2-abb7c73a28b0",
+          "f_plan_id": "e6a6a2b4-0d9a-445d-9fee-e65650ab4d4a",
+          "plan_name": "Wellcare Giveback (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1215-005",
+          "parent_fpi": "42077c02-9f3c-5e40-99d2-abb7c73a28b0",
+          "f_plan_id": "8c746ce1-e8e4-4de7-9725-580985f77379",
+          "plan_name": "Wellcare Simple (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

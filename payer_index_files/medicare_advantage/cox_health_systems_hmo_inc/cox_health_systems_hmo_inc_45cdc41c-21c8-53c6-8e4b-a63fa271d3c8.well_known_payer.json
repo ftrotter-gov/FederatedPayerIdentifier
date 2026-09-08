@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "45cdc41c-21c8-53c6-8e4b-a63fa271d3c8",
+      "is_fpi": true,
+      "payerLegalName": "COX HEALTH SYSTEMS HMO INC",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "COX HEALTH SYSTEMS HMO INC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2942",
+      "is_fpi": false,
+      "parent_fpi": "45cdc41c-21c8-53c6-8e4b-a63fa271d3c8"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2942-001",
+          "parent_fpi": "45cdc41c-21c8-53c6-8e4b-a63fa271d3c8",
+          "f_plan_id": "1ebc722c-f4d9-411a-8a76-1e93fb8bdf80",
+          "plan_name": "CoxHealth Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2942-002",
+          "parent_fpi": "45cdc41c-21c8-53c6-8e4b-a63fa271d3c8",
+          "f_plan_id": "b7565c8b-db64-431b-b7c9-9948dea7b882",
+          "plan_name": "CMH Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2942-003",
+          "parent_fpi": "45cdc41c-21c8-53c6-8e4b-a63fa271d3c8",
+          "f_plan_id": "540186a0-d181-4524-a5c9-debf2241434a",
+          "plan_name": "Phelps Health Medicare Advantage (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

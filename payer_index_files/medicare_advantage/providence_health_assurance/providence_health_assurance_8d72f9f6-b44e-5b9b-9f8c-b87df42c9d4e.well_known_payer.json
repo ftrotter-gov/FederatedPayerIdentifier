@@ -1,0 +1,119 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "8d72f9f6-b44e-5b9b-9f8c-b87df42c9d4e",
+      "is_fpi": true,
+      "payerLegalName": "PROVIDENCE HEALTH ASSURANCE",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PROVIDENCE HEALTH ASSURANCE"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9047",
+      "is_fpi": false,
+      "parent_fpi": "8d72f9f6-b44e-5b9b-9f8c-b87df42c9d4e"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9047-013",
+          "parent_fpi": "8d72f9f6-b44e-5b9b-9f8c-b87df42c9d4e",
+          "f_plan_id": "c726676a-4c76-423b-b704-d349283204fc",
+          "plan_name": "Providence Medicare Extra Part B Only + Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9047-033",
+          "parent_fpi": "8d72f9f6-b44e-5b9b-9f8c-b87df42c9d4e",
+          "f_plan_id": "218074fe-38ba-4ae2-ae8d-0cca84482c43",
+          "plan_name": "Providence Medicare Focus Medical (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9047-035",
+          "parent_fpi": "8d72f9f6-b44e-5b9b-9f8c-b87df42c9d4e",
+          "f_plan_id": "5a59759b-fc3b-48f6-8f5f-e872fb4c7348",
+          "plan_name": "Providence Medicare Reverence (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9047-037",
+          "parent_fpi": "8d72f9f6-b44e-5b9b-9f8c-b87df42c9d4e",
+          "f_plan_id": "a7bae270-17b5-491a-a9c9-28da6d1a73b1",
+          "plan_name": "Providence Medicare Prime + Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9047-043",
+          "parent_fpi": "8d72f9f6-b44e-5b9b-9f8c-b87df42c9d4e",
+          "f_plan_id": "bcd6f42a-f415-416e-b53f-bfa61707e1b2",
+          "plan_name": "Providence Medicare Dual Plus (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9047-054",
+          "parent_fpi": "8d72f9f6-b44e-5b9b-9f8c-b87df42c9d4e",
+          "f_plan_id": "39daffb0-5b95-4dde-ab88-7d38f378ae05",
+          "plan_name": "Providence Medicare Timber + Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9047-063",
+          "parent_fpi": "8d72f9f6-b44e-5b9b-9f8c-b87df42c9d4e",
+          "f_plan_id": "1c3d608b-a1eb-44c3-ae2d-3cedbd225272",
+          "plan_name": "Providence Medicare Pine + Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9047-064",
+          "parent_fpi": "8d72f9f6-b44e-5b9b-9f8c-b87df42c9d4e",
+          "f_plan_id": "df4eafc9-0f4b-47c8-b921-318b7bfb8c4a",
+          "plan_name": "Providence Medicare Extra + Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9047-066",
+          "parent_fpi": "8d72f9f6-b44e-5b9b-9f8c-b87df42c9d4e",
+          "f_plan_id": "07bd5109-1cc8-4475-a3e1-57c72d3fbf2c",
+          "plan_name": "Providence Medicare Sycamore + Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9047-804",
+          "parent_fpi": "8d72f9f6-b44e-5b9b-9f8c-b87df42c9d4e",
+          "f_plan_id": "c9c6f5e7-eec3-43b1-a8db-c9d63fcc0013",
+          "plan_name": "Providence Medicare Align Group Plan + Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9047-805",
+          "parent_fpi": "8d72f9f6-b44e-5b9b-9f8c-b87df42c9d4e",
+          "f_plan_id": "20dda87a-ce4f-4bab-a1de-3c6c7f627a8e",
+          "plan_name": "Providence Medicare Discover Group Plan + Rx (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9047-808",
+          "parent_fpi": "8d72f9f6-b44e-5b9b-9f8c-b87df42c9d4e",
+          "f_plan_id": "dfdc3011-9dfb-4e7e-8236-20b3633ec022",
+          "plan_name": "Providence Medicare Align Group Plan + Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9047-809",
+          "parent_fpi": "8d72f9f6-b44e-5b9b-9f8c-b87df42c9d4e",
+          "f_plan_id": "e18e7029-0098-407d-8da9-413ea27dc4bc",
+          "plan_name": "Providence Medicare Flex Group Plan + Rx (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

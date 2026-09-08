@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "39f11426-9fa1-5735-b211-91a4d0c864cd",
+      "is_fpi": true,
+      "payerLegalName": "PROVIDER PARTNERS HEALTH PLAN OF INDIANA",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PROVIDER PARTNERS HEALTH PLAN OF INDIANA"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4444",
+      "is_fpi": false,
+      "parent_fpi": "39f11426-9fa1-5735-b211-91a4d0c864cd"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4444-001",
+          "parent_fpi": "39f11426-9fa1-5735-b211-91a4d0c864cd",
+          "f_plan_id": "970028d9-02eb-48f0-884c-e04b6b4386ba",
+          "plan_name": "Provider Partners Indiana Advantage Plan (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4444-002",
+          "parent_fpi": "39f11426-9fa1-5735-b211-91a4d0c864cd",
+          "f_plan_id": "16ebc8ec-8482-4cb3-84ce-4ab7c320aa6e",
+          "plan_name": "Provider Partners Indiana Community Plan (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4444-003",
+          "parent_fpi": "39f11426-9fa1-5735-b211-91a4d0c864cd",
+          "f_plan_id": "94b34a3f-35d8-47be-b180-ae9149eb0d6b",
+          "plan_name": "Provider Partners Indiana Essential Plan (HMO I-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

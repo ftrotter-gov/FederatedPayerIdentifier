@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "8211e08f-3b70-5f89-baf6-49c3f1b6e382",
+      "is_fpi": true,
+      "payerLegalName": "CLOVER HMO OF NEW JERSEY INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CLOVER HMO OF NEW JERSEY INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8010",
+      "is_fpi": false,
+      "parent_fpi": "8211e08f-3b70-5f89-baf6-49c3f1b6e382"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8010-002",
+          "parent_fpi": "8211e08f-3b70-5f89-baf6-49c3f1b6e382",
+          "f_plan_id": "21a36663-6d87-4431-9649-7f666b81bb6e",
+          "plan_name": "Clover Health Classic (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8010-003",
+          "parent_fpi": "8211e08f-3b70-5f89-baf6-49c3f1b6e382",
+          "f_plan_id": "c78e9a93-5a2e-4008-b4b2-b502bdfa8885",
+          "plan_name": "Clover Health Value (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

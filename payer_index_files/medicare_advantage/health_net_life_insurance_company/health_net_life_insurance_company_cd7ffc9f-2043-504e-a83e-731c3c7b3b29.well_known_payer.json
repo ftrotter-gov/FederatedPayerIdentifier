@@ -1,0 +1,63 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "cd7ffc9f-2043-504e-a83e-731c3c7b3b29",
+      "is_fpi": true,
+      "payerLegalName": "HEALTH NET LIFE INSURANCE COMPANY",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HEALTH NET LIFE INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5439",
+      "is_fpi": false,
+      "parent_fpi": "cd7ffc9f-2043-504e-a83e-731c3c7b3b29"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5439-010",
+          "parent_fpi": "cd7ffc9f-2043-504e-a83e-731c3c7b3b29",
+          "f_plan_id": "55fde6f0-63a7-41b4-819d-de64879ef51e",
+          "plan_name": "Wellcare Patriot Giveback Open (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5439-011",
+          "parent_fpi": "cd7ffc9f-2043-504e-a83e-731c3c7b3b29",
+          "f_plan_id": "6d086714-cb8f-46cc-a980-f16fb78f02a1",
+          "plan_name": "Wellcare Premium Ultra Open (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5439-015",
+          "parent_fpi": "cd7ffc9f-2043-504e-a83e-731c3c7b3b29",
+          "f_plan_id": "e3e35779-6be5-48c3-a7b3-4b6e2159477a",
+          "plan_name": "Wellcare Giveback Open (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5439-022",
+          "parent_fpi": "cd7ffc9f-2043-504e-a83e-731c3c7b3b29",
+          "f_plan_id": "52b3ede8-2af2-419b-9e00-e7f5de1f23c4",
+          "plan_name": "Wellcare Simple Open (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5439-019",
+          "parent_fpi": "cd7ffc9f-2043-504e-a83e-731c3c7b3b29",
+          "f_plan_id": "7eab4aa0-3acb-42eb-b500-32228289188c",
+          "plan_name": "Wellcare Low Premium Open (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

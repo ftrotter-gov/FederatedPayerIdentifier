@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "086fbd9f-a605-5b24-afbd-2fb0b3233f64",
+      "is_fpi": true,
+      "payerLegalName": "SELECTCARE OF TEXAS, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SELECTCARE OF TEXAS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4506",
+      "is_fpi": false,
+      "parent_fpi": "086fbd9f-a605-5b24-afbd-2fb0b3233f64"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4506-003",
+          "parent_fpi": "086fbd9f-a605-5b24-afbd-2fb0b3233f64",
+          "f_plan_id": "feab8865-765d-4eaa-b97a-86f1c7841104",
+          "plan_name": "Wellcare TexanPlus Classic Simple (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4506-010",
+          "parent_fpi": "086fbd9f-a605-5b24-afbd-2fb0b3233f64",
+          "f_plan_id": "0a315e3d-b60a-42db-9b4d-07e5ab5a8fe9",
+          "plan_name": "Wellcare TexanPlus Patriot Giveback (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4506-030",
+          "parent_fpi": "086fbd9f-a605-5b24-afbd-2fb0b3233f64",
+          "f_plan_id": "bed9aef4-1a81-41b1-96dc-4e730acaa317",
+          "plan_name": "Wellcare Simple Value (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

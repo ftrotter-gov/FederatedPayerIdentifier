@@ -1,0 +1,77 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "e5e05ab3-7a58-562a-954a-2488d907342e",
+      "is_fpi": true,
+      "payerLegalName": "CAPITAL DISTRICT PHYSICIANS' HEALTH PLAN, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CAPITAL DISTRICT PHYSICIANS' HEALTH PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3388",
+      "is_fpi": false,
+      "parent_fpi": "e5e05ab3-7a58-562a-954a-2488d907342e"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3388-001",
+          "parent_fpi": "e5e05ab3-7a58-562a-954a-2488d907342e",
+          "f_plan_id": "88ada23f-f32d-48de-9d7c-b3e1ece04c26",
+          "plan_name": "CDPHP Core (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3388-002",
+          "parent_fpi": "e5e05ab3-7a58-562a-954a-2488d907342e",
+          "f_plan_id": "33a2f890-da45-458a-babf-4aef4929d1d0",
+          "plan_name": "CDPHP Choice Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3388-014",
+          "parent_fpi": "e5e05ab3-7a58-562a-954a-2488d907342e",
+          "f_plan_id": "95b6a83f-117e-4179-aeda-14827739e8a8",
+          "plan_name": "CDPHP $0 Medicare Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3388-801",
+          "parent_fpi": "e5e05ab3-7a58-562a-954a-2488d907342e",
+          "f_plan_id": "439440c0-eb55-42db-a4b8-2314f925d9c9",
+          "plan_name": "CDPHP Group Medicare Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3388-803",
+          "parent_fpi": "e5e05ab3-7a58-562a-954a-2488d907342e",
+          "f_plan_id": "ec779921-56db-48be-838a-4a0de6f4d8ff",
+          "plan_name": "CDPHP Group Medicare Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3388-804",
+          "parent_fpi": "e5e05ab3-7a58-562a-954a-2488d907342e",
+          "f_plan_id": "34936fc7-772d-445d-acfa-1a62abd5a200",
+          "plan_name": "CDPHP Group Medicare (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3388-020",
+          "parent_fpi": "e5e05ab3-7a58-562a-954a-2488d907342e",
+          "f_plan_id": "2f349e33-34a0-4931-8847-60b7993022da",
+          "plan_name": "CDPHP Clear Rx (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

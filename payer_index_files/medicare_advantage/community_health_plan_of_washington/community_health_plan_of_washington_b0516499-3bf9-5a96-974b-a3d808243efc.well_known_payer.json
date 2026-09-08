@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "b0516499-3bf9-5a96-974b-a3d808243efc",
+      "is_fpi": true,
+      "payerLegalName": "COMMUNITY HEALTH PLAN OF WASHINGTON",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "COMMUNITY HEALTH PLAN OF WASHINGTON"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5826",
+      "is_fpi": false,
+      "parent_fpi": "b0516499-3bf9-5a96-974b-a3d808243efc"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5826-014",
+          "parent_fpi": "b0516499-3bf9-5a96-974b-a3d808243efc",
+          "f_plan_id": "f44795fb-89d4-4a60-9b5c-81e3202ac54e",
+          "plan_name": "Community Health Plan of WA Dual Complete (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5826-017",
+          "parent_fpi": "b0516499-3bf9-5a96-974b-a3d808243efc",
+          "f_plan_id": "060ff51b-f4a6-4c0a-88c8-d81f1132612f",
+          "plan_name": "Community Health Plan of WA Dual Select (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

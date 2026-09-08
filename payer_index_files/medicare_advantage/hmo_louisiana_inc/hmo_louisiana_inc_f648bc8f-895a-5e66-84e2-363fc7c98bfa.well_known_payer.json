@@ -1,0 +1,93 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "f648bc8f-895a-5e66-84e2-363fc7c98bfa",
+      "is_fpi": true,
+      "payerLegalName": "HMO LOUISIANA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HMO LOUISIANA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6453",
+      "is_fpi": false,
+      "parent_fpi": "f648bc8f-895a-5e66-84e2-363fc7c98bfa"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6453-013",
+          "parent_fpi": "f648bc8f-895a-5e66-84e2-363fc7c98bfa",
+          "f_plan_id": "7df9b3d0-e400-4735-a2de-b0e63bab387f",
+          "plan_name": "Blue adVantage Classic (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6453-017",
+          "parent_fpi": "f648bc8f-895a-5e66-84e2-363fc7c98bfa",
+          "f_plan_id": "ba92fb00-2bd9-45af-a26a-686783832402",
+          "plan_name": "Blue adVantage Reliance (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6453-018",
+          "parent_fpi": "f648bc8f-895a-5e66-84e2-363fc7c98bfa",
+          "f_plan_id": "826092e8-66aa-4cc4-babe-113c54ba92b2",
+          "plan_name": "Blue adVantage Platinum (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6453-019",
+          "parent_fpi": "f648bc8f-895a-5e66-84e2-363fc7c98bfa",
+          "f_plan_id": "4e47c8a7-94b8-49b0-8a46-924fa2e2cedf",
+          "plan_name": "Blue adVantage Dual Plus (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6453-020",
+          "parent_fpi": "f648bc8f-895a-5e66-84e2-363fc7c98bfa",
+          "f_plan_id": "eae635bf-d694-40ee-8cd1-62516e09c8d2",
+          "plan_name": "Blue adVantage Giveback (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6453-801",
+          "parent_fpi": "f648bc8f-895a-5e66-84e2-363fc7c98bfa",
+          "f_plan_id": "414c2b26-5ceb-4a84-83c3-c85d8cc2a43b",
+          "plan_name": "Blue adVantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6453-802",
+          "parent_fpi": "f648bc8f-895a-5e66-84e2-363fc7c98bfa",
+          "f_plan_id": "b873c660-ba3f-4a8c-8089-1c75407726cb",
+          "plan_name": "Blue adVantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6453-803",
+          "parent_fpi": "f648bc8f-895a-5e66-84e2-363fc7c98bfa",
+          "f_plan_id": "e66fe3e7-86db-4e77-a0a1-d4d579897f8e",
+          "plan_name": "Blue adVantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6453-804",
+          "parent_fpi": "f648bc8f-895a-5e66-84e2-363fc7c98bfa",
+          "f_plan_id": "f47febfd-89f8-4861-923a-d0162bc1f74d",
+          "plan_name": "Blue adVantage (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cdn.lablue.com/cms/H6453/H6453index.json"
+      }
+    }
+  ],
+  "is_seeded": true
+}

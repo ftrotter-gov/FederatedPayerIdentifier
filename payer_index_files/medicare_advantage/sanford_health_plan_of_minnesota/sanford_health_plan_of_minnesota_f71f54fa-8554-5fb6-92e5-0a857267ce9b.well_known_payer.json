@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "f71f54fa-8554-5fb6-92e5-0a857267ce9b",
+      "is_fpi": true,
+      "payerLegalName": "SANFORD HEALTH PLAN OF MINNESOTA",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SANFORD HEALTH PLAN OF MINNESOTA"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3186",
+      "is_fpi": false,
+      "parent_fpi": "f71f54fa-8554-5fb6-92e5-0a857267ce9b"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3186-001",
+          "parent_fpi": "f71f54fa-8554-5fb6-92e5-0a857267ce9b",
+          "f_plan_id": "18fe1642-2f83-420d-9958-e08abb6e72a6",
+          "plan_name": "Align ChoiceElite (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3186-002",
+          "parent_fpi": "f71f54fa-8554-5fb6-92e5-0a857267ce9b",
+          "f_plan_id": "195144a4-f68a-4742-9804-6ab5ecd122d7",
+          "plan_name": "Align ChoicePlus (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

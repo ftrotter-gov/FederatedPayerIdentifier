@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "7f24a6d2-b8df-5ad7-a9fb-7c0ec42c5604",
+      "is_fpi": true,
+      "payerLegalName": "UNITEDHEALTHCARE OF FLORIDA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "UNITEDHEALTHCARE OF FLORIDA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2509",
+      "is_fpi": false,
+      "parent_fpi": "7f24a6d2-b8df-5ad7-a9fb-7c0ec42c5604"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2509-001",
+          "parent_fpi": "7f24a6d2-b8df-5ad7-a9fb-7c0ec42c5604",
+          "f_plan_id": "79a0afdf-38c6-4ec1-baae-749db146a543",
+          "plan_name": "UHC Dual Complete FL-Y001 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2509-002",
+          "parent_fpi": "7f24a6d2-b8df-5ad7-a9fb-7c0ec42c5604",
+          "f_plan_id": "c99de845-e7d4-4ac2-8918-2111d02bf48e",
+          "plan_name": "UHC Dual Complete FL-D006 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2509-003",
+          "parent_fpi": "7f24a6d2-b8df-5ad7-a9fb-7c0ec42c5604",
+          "f_plan_id": "f139b0f2-d160-448d-96b1-ba06c6989feb",
+          "plan_name": "UHC Dual Complete FL-Y5 (HMO-POS D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

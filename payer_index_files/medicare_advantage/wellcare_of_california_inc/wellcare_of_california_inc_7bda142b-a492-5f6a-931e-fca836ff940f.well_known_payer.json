@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "7bda142b-a492-5f6a-931e-fca836ff940f",
+      "is_fpi": true,
+      "payerLegalName": "WELLCARE OF CALIFORNIA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WELLCARE OF CALIFORNIA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5087",
+      "is_fpi": false,
+      "parent_fpi": "7bda142b-a492-5f6a-931e-fca836ff940f"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5087-005",
+          "parent_fpi": "7bda142b-a492-5f6a-931e-fca836ff940f",
+          "f_plan_id": "cd19472b-4db0-4514-8361-036811448d73",
+          "plan_name": "Wellcare Simple (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5087-034",
+          "parent_fpi": "7bda142b-a492-5f6a-931e-fca836ff940f",
+          "f_plan_id": "2c53e806-037b-41c0-b479-5cfb56b4458b",
+          "plan_name": "Wellcare Simple (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5087-032",
+          "parent_fpi": "7bda142b-a492-5f6a-931e-fca836ff940f",
+          "f_plan_id": "31a30225-c790-4ab9-aeef-d56e8e7bf82c",
+          "plan_name": "Wellcare Giveback (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,83 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "adb8767f-3f31-51e6-bd37-3889dba67e84",
+      "is_fpi": true,
+      "payerLegalName": "CARE N' CARE INSURANCE COMPANY OF NORTH CAROLINA",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CARE N' CARE INSURANCE COMPANY OF NORTH CAROLINA"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2624",
+      "is_fpi": false,
+      "parent_fpi": "adb8767f-3f31-51e6-bd37-3889dba67e84"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9808",
+      "is_fpi": false,
+      "parent_fpi": "adb8767f-3f31-51e6-bd37-3889dba67e84"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2624-001",
+          "parent_fpi": "adb8767f-3f31-51e6-bd37-3889dba67e84",
+          "f_plan_id": "3bacbc07-7aa4-4b71-9a49-c931f1d293c2",
+          "plan_name": "HealthTeam Advantage Diabetes & Heart Care (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9808-004",
+          "parent_fpi": "adb8767f-3f31-51e6-bd37-3889dba67e84",
+          "f_plan_id": "500607cf-0daf-42b1-846a-3b4949557a9f",
+          "plan_name": "HealthTeam Advantage Plan I (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9808-005",
+          "parent_fpi": "adb8767f-3f31-51e6-bd37-3889dba67e84",
+          "f_plan_id": "7148de33-b128-4d49-8c2c-0a853f2369ed",
+          "plan_name": "HealthTeam Advantage Plan II (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9808-009",
+          "parent_fpi": "adb8767f-3f31-51e6-bd37-3889dba67e84",
+          "f_plan_id": "32ae40a1-e005-403f-9a0d-87100953a963",
+          "plan_name": "HealthTeam Advantage Eagle Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9808-010",
+          "parent_fpi": "adb8767f-3f31-51e6-bd37-3889dba67e84",
+          "f_plan_id": "0a17db2f-09e6-46b7-8192-9d49f810c5c9",
+          "plan_name": "HealthTeam Advantage Vitality Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9808-807",
+          "parent_fpi": "adb8767f-3f31-51e6-bd37-3889dba67e84",
+          "f_plan_id": "c937e858-4482-4686-92b6-4602f8092b82",
+          "plan_name": "HealthTeam Advantage Plan I EGWP (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9808-808",
+          "parent_fpi": "adb8767f-3f31-51e6-bd37-3889dba67e84",
+          "f_plan_id": "b6918a01-98ab-4e1d-80b4-80ebff3f4030",
+          "plan_name": "HealthTeam Advantage Plan II EGWP (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "d0ea6590-8a29-5493-809d-a8f486681769",
+      "is_fpi": true,
+      "payerLegalName": "BAYCARE SELECT HEALTH PLANS, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BAYCARE SELECT HEALTH PLANS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2235",
+      "is_fpi": false,
+      "parent_fpi": "d0ea6590-8a29-5493-809d-a8f486681769"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2235-001",
+          "parent_fpi": "d0ea6590-8a29-5493-809d-a8f486681769",
+          "f_plan_id": "18ee17f3-7f9d-42b4-b0c3-db3c89014c2c",
+          "plan_name": "BayCarePlus Complete (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2235-002",
+          "parent_fpi": "d0ea6590-8a29-5493-809d-a8f486681769",
+          "f_plan_id": "8daa4592-cc68-4955-ac66-078112ff6036",
+          "plan_name": "BayCarePlus Rewards (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2235-003",
+          "parent_fpi": "d0ea6590-8a29-5493-809d-a8f486681769",
+          "f_plan_id": "8a575ad4-4ed8-45be-89b5-00a2a1b43fed",
+          "plan_name": "BayCarePlus Premier (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

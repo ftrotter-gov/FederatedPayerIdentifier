@@ -1,0 +1,189 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "05685002-f569-596d-ab46-2483cce42cc4",
+      "is_fpi": true,
+      "payerLegalName": "Sunshine State Health Plan, Inc.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "Sunshine State Health Plan, Inc."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1032",
+      "is_fpi": false,
+      "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1032-244",
+          "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4",
+          "f_plan_id": "86aa73b3-1e49-405a-8d2d-05e22717089f",
+          "plan_name": "Wellcare Dual Access Sync (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1032-245",
+          "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4",
+          "f_plan_id": "e9c2917e-463a-4332-91f3-ca4ddc385013",
+          "plan_name": "Wellcare Sunshine Health Dual Align (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1032-193",
+          "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4",
+          "f_plan_id": "5edd8b43-3689-4043-99bb-c174be21bb18",
+          "plan_name": "Wellcare Giveback (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1032-194",
+          "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4",
+          "f_plan_id": "f4534625-b045-4ede-b6a1-ff7e75d7e8a2",
+          "plan_name": "Wellcare Simple (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1032-195",
+          "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4",
+          "f_plan_id": "dbb34d11-19c1-43fd-b526-462087744d76",
+          "plan_name": "Wellcare Giveback (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1032-196",
+          "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4",
+          "f_plan_id": "6d53ca17-a26c-4235-9e3a-1fb65ca5cb8c",
+          "plan_name": "Wellcare Simple (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1032-198",
+          "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4",
+          "f_plan_id": "032104a7-e772-4e29-b08b-967ad9c4f006",
+          "plan_name": "Wellcare Giveback (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1032-199",
+          "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4",
+          "f_plan_id": "ae9df390-c5bf-40e9-9c85-f367a24e7848",
+          "plan_name": "Wellcare Simple (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1032-200",
+          "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4",
+          "f_plan_id": "c8f545be-6369-4f11-b8d0-7e51fd86f899",
+          "plan_name": "Wellcare Giveback (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1032-201",
+          "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4",
+          "f_plan_id": "33a1f97e-1a73-4aa7-99f5-f468db456f61",
+          "plan_name": "Wellcare Simple (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1032-202",
+          "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4",
+          "f_plan_id": "b9263307-f68f-4474-9dda-b185b834c3fb",
+          "plan_name": "Wellcare Dual Reserve (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1032-204",
+          "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4",
+          "f_plan_id": "21ed46de-6c46-48dc-b916-b06e84210313",
+          "plan_name": "Wellcare Giveback (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1032-205",
+          "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4",
+          "f_plan_id": "22ff3c8f-33e2-4f8a-ae05-e62b4b20def2",
+          "plan_name": "Wellcare Simple (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1032-210",
+          "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4",
+          "f_plan_id": "6d4c017c-40ba-442a-a278-1adc58858acc",
+          "plan_name": "Wellcare Giveback (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1032-211",
+          "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4",
+          "f_plan_id": "c2187ca7-97f4-49d5-97f7-c9c99c49a157",
+          "plan_name": "Wellcare Simple (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1032-212",
+          "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4",
+          "f_plan_id": "c83d14db-9c2b-4206-8a18-5343364de42b",
+          "plan_name": "Wellcare Giveback (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1032-213",
+          "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4",
+          "f_plan_id": "da399234-75b4-46c7-96b1-cfa9718a569e",
+          "plan_name": "Wellcare Simple (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1032-237",
+          "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4",
+          "f_plan_id": "87749743-9240-4a60-8cd2-489ce33c76ab",
+          "plan_name": "Wellcare Simple (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1032-239",
+          "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4",
+          "f_plan_id": "21f89fbb-568b-4f81-9c9d-9d9cf7d5939b",
+          "plan_name": "Wellcare Patriot Giveback (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1032-240",
+          "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4",
+          "f_plan_id": "1f13bd66-ac6e-453f-a1ea-98eaf5fcb79f",
+          "plan_name": "Wellcare Dual Access Sync (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1032-241",
+          "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4",
+          "f_plan_id": "dd87e236-b99c-449a-9863-7e4d999c0db8",
+          "plan_name": "Wellcare Dual Access Sync (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1032-242",
+          "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4",
+          "f_plan_id": "51299e6e-1891-4d23-acf6-804103aed07a",
+          "plan_name": "Wellcare Sunshine Health Dual Align (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1032-243",
+          "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4",
+          "f_plan_id": "2febc76b-eca8-41bb-afb0-e5de3059f26a",
+          "plan_name": "Wellcare Sunshine Health Dual Align (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,98 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "5a10dc93-6396-5e2a-bee6-2a62489bf4ca",
+      "is_fpi": true,
+      "payerLegalName": "VIVA HEALTH, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "VIVA HEALTH, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0154",
+      "is_fpi": false,
+      "parent_fpi": "5a10dc93-6396-5e2a-bee6-2a62489bf4ca"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0154-008",
+          "parent_fpi": "5a10dc93-6396-5e2a-bee6-2a62489bf4ca",
+          "f_plan_id": "f2e8e3df-fe91-4cbe-97e3-5f0fdda9cf50",
+          "plan_name": "VIVA Medicare Select (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0154-011",
+          "parent_fpi": "5a10dc93-6396-5e2a-bee6-2a62489bf4ca",
+          "f_plan_id": "3d849cc7-4208-4967-9563-8cb4b89a92a9",
+          "plan_name": "VIVA Medicare Premier (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0154-012",
+          "parent_fpi": "5a10dc93-6396-5e2a-bee6-2a62489bf4ca",
+          "f_plan_id": "6364a147-cc8c-4dc4-a475-1f832f32d59a",
+          "plan_name": "VIVA Medicare Extra Value (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0154-015",
+          "parent_fpi": "5a10dc93-6396-5e2a-bee6-2a62489bf4ca",
+          "f_plan_id": "17d97ac2-c2c1-4501-b990-753abd3c0185",
+          "plan_name": "VIVA Medicare Plus (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0154-017",
+          "parent_fpi": "5a10dc93-6396-5e2a-bee6-2a62489bf4ca",
+          "f_plan_id": "eaff7705-8b3f-4bca-b685-997300ad28fe",
+          "plan_name": "VIVA Medicare Classic (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0154-019",
+          "parent_fpi": "5a10dc93-6396-5e2a-bee6-2a62489bf4ca",
+          "f_plan_id": "95d17f8e-9b1d-49de-96aa-3fd6dad27ace",
+          "plan_name": "VIVA Medicare Extra Care (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0154-020",
+          "parent_fpi": "5a10dc93-6396-5e2a-bee6-2a62489bf4ca",
+          "f_plan_id": "ea62d489-81a6-4e6c-9956-f07c3b19e0c3",
+          "plan_name": "VIVA Medicare Infirmary Health Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0154-801",
+          "parent_fpi": "5a10dc93-6396-5e2a-bee6-2a62489bf4ca",
+          "f_plan_id": "ce0c4da2-f577-4e71-b664-f4b1fa2ba244",
+          "plan_name": "VIVA Medicare Group Plan with Rx (CY) (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0154-802",
+          "parent_fpi": "5a10dc93-6396-5e2a-bee6-2a62489bf4ca",
+          "f_plan_id": "8c05f06e-69f6-490e-8193-70737c1b60fe",
+          "plan_name": "VIVA Medicare Group Plan no Rx (CY) (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0154-803",
+          "parent_fpi": "5a10dc93-6396-5e2a-bee6-2a62489bf4ca",
+          "f_plan_id": "aa1e5493-8902-4a26-9b67-9c24fad1ed6f",
+          "plan_name": "VIVA Medicare Plus Group Plan with Rx (not CY) (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

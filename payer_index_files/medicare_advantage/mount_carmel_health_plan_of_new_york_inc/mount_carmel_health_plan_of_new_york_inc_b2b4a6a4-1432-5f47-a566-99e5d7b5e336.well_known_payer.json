@@ -1,0 +1,63 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "b2b4a6a4-1432-5f47-a566-99e5d7b5e336",
+      "is_fpi": true,
+      "payerLegalName": "MOUNT CARMEL HEALTH PLAN OF NEW YORK, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MOUNT CARMEL HEALTH PLAN OF NEW YORK, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9827",
+      "is_fpi": false,
+      "parent_fpi": "b2b4a6a4-1432-5f47-a566-99e5d7b5e336"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9827-001",
+          "parent_fpi": "b2b4a6a4-1432-5f47-a566-99e5d7b5e336",
+          "f_plan_id": "769a068a-ed7b-4529-a671-af7dd2897b0d",
+          "plan_name": "Trinity Health Plan New York No Premium (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9827-003",
+          "parent_fpi": "b2b4a6a4-1432-5f47-a566-99e5d7b5e336",
+          "f_plan_id": "ad165617-2f24-426a-a425-64faecfc642e",
+          "plan_name": "Trinity Health Plan New York Glory No RX (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9827-004",
+          "parent_fpi": "b2b4a6a4-1432-5f47-a566-99e5d7b5e336",
+          "f_plan_id": "6f0c6195-0f1f-4d09-a957-2adf21985b72",
+          "plan_name": "Trinity Health Plan New York Cash Back (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9827-801",
+          "parent_fpi": "b2b4a6a4-1432-5f47-a566-99e5d7b5e336",
+          "f_plan_id": "032ae1bb-04d3-4ba3-8a52-4c1ea72c7930",
+          "plan_name": "Trinity Health Plan New York EGWP 1 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9827-802",
+          "parent_fpi": "b2b4a6a4-1432-5f47-a566-99e5d7b5e336",
+          "f_plan_id": "4c0eb153-3680-409f-a59e-930f292615ef",
+          "plan_name": "Trinity Health Plan New York EGWP 2 (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

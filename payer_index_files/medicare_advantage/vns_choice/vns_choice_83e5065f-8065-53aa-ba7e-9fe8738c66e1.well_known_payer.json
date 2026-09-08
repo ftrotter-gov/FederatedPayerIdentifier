@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "83e5065f-8065-53aa-ba7e-9fe8738c66e1",
+      "is_fpi": true,
+      "payerLegalName": "VNS CHOICE",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "VNS CHOICE"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5549",
+      "is_fpi": false,
+      "parent_fpi": "83e5065f-8065-53aa-ba7e-9fe8738c66e1"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5549-003",
+          "parent_fpi": "83e5065f-8065-53aa-ba7e-9fe8738c66e1",
+          "f_plan_id": "7488ff78-43cc-4b45-9d6c-674cc33a4361",
+          "plan_name": "VNS Health Total (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5549-011",
+          "parent_fpi": "83e5065f-8065-53aa-ba7e-9fe8738c66e1",
+          "f_plan_id": "dcc6b665-9ffb-46a3-9381-35fcf91a38df",
+          "plan_name": "VNS Health EasyCare Plus (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5549-012",
+          "parent_fpi": "83e5065f-8065-53aa-ba7e-9fe8738c66e1",
+          "f_plan_id": "ca6d21de-6e1e-452c-b5fc-153a52a1e53c",
+          "plan_name": "VNS Health EasyCare (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "bfdcdb39-fd88-59f2-867f-64e89aefdae3",
+      "is_fpi": true,
+      "payerLegalName": "SAMARITAN HEALTH PLANS, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SAMARITAN HEALTH PLANS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3811",
+      "is_fpi": false,
+      "parent_fpi": "bfdcdb39-fd88-59f2-867f-64e89aefdae3"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3811-003",
+          "parent_fpi": "bfdcdb39-fd88-59f2-867f-64e89aefdae3",
+          "f_plan_id": "c5e904b5-9fce-4d56-bcdc-72c573d6d9e3",
+          "plan_name": "Samaritan Dual Advantage (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

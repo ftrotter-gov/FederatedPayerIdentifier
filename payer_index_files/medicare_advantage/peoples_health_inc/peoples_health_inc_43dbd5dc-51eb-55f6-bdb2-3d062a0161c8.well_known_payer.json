@@ -1,0 +1,146 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "43dbd5dc-51eb-55f6-bdb2-3d062a0161c8",
+      "is_fpi": true,
+      "payerLegalName": "PEOPLES HEALTH, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PEOPLES HEALTH, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1961",
+      "is_fpi": false,
+      "parent_fpi": "43dbd5dc-51eb-55f6-bdb2-3d062a0161c8"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4544",
+      "is_fpi": false,
+      "parent_fpi": "43dbd5dc-51eb-55f6-bdb2-3d062a0161c8"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1961-003",
+          "parent_fpi": "43dbd5dc-51eb-55f6-bdb2-3d062a0161c8",
+          "f_plan_id": "ed7931a3-a601-4c31-97dd-d1f9d232c47c",
+          "plan_name": "Peoples Health Secure Health (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1961-014",
+          "parent_fpi": "43dbd5dc-51eb-55f6-bdb2-3d062a0161c8",
+          "f_plan_id": "8898e930-06a9-4720-98e5-88664fdb25f3",
+          "plan_name": "Peoples Health Choices 65 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1961-017",
+          "parent_fpi": "43dbd5dc-51eb-55f6-bdb2-3d062a0161c8",
+          "f_plan_id": "c06f45b5-ecb9-466d-ac38-7b731345ef8c",
+          "plan_name": "Peoples Health Choices Gold (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1961-019",
+          "parent_fpi": "43dbd5dc-51eb-55f6-bdb2-3d062a0161c8",
+          "f_plan_id": "f18e2f05-a6ef-4655-8484-39773bcaaa4a",
+          "plan_name": "Peoples Health Secure Complete (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1961-020",
+          "parent_fpi": "43dbd5dc-51eb-55f6-bdb2-3d062a0161c8",
+          "f_plan_id": "0bf4e5e2-c571-4e8e-ba6c-73ae1dd40fe4",
+          "plan_name": "Peoples Health Medicare Advantage Giveback LA-4 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1961-022",
+          "parent_fpi": "43dbd5dc-51eb-55f6-bdb2-3d062a0161c8",
+          "f_plan_id": "2d565b3a-8622-4704-a945-f0b35c58a5f1",
+          "plan_name": "Peoples Health Complete Care LA-5 (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1961-023",
+          "parent_fpi": "43dbd5dc-51eb-55f6-bdb2-3d062a0161c8",
+          "f_plan_id": "5b450f54-a701-487b-8590-cef0248612dd",
+          "plan_name": "Peoples Health Complete Care LA-6 (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1961-024",
+          "parent_fpi": "43dbd5dc-51eb-55f6-bdb2-3d062a0161c8",
+          "f_plan_id": "063d5954-c652-40b0-9475-398e387d1f7f",
+          "plan_name": "Peoples Health Dual Complete LA-S5 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1961-025",
+          "parent_fpi": "43dbd5dc-51eb-55f6-bdb2-3d062a0161c8",
+          "f_plan_id": "a5ec48fb-6fb6-4610-b83c-b445130dd9bd",
+          "plan_name": "Peoples Health Complete Care LA-7 (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1961-026",
+          "parent_fpi": "43dbd5dc-51eb-55f6-bdb2-3d062a0161c8",
+          "f_plan_id": "d07a1937-cffc-44ec-9b6b-044af35135d1",
+          "plan_name": "Peoples Health Medicare Advantage Patriot No Rx LA (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1961-801",
+          "parent_fpi": "43dbd5dc-51eb-55f6-bdb2-3d062a0161c8",
+          "f_plan_id": "3363712a-ac16-4a59-ab94-47a3c131727f",
+          "plan_name": "Peoples Health Group Medicare (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1961-802",
+          "parent_fpi": "43dbd5dc-51eb-55f6-bdb2-3d062a0161c8",
+          "f_plan_id": "58024bcb-1422-4733-9a7d-5a9fdb3cd6f4",
+          "plan_name": "Peoples Health Group Medicare (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1961-803",
+          "parent_fpi": "43dbd5dc-51eb-55f6-bdb2-3d062a0161c8",
+          "f_plan_id": "1a34540c-bf64-470f-8396-3b2fbcc28672",
+          "plan_name": "Peoples Health Group Medicare (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1961-804",
+          "parent_fpi": "43dbd5dc-51eb-55f6-bdb2-3d062a0161c8",
+          "f_plan_id": "10dd5247-167e-4a0e-aab2-f05ee66f36da",
+          "plan_name": "Peoples Health Group Medicare (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4544-001",
+          "parent_fpi": "43dbd5dc-51eb-55f6-bdb2-3d062a0161c8",
+          "f_plan_id": "687ac97f-fe3a-44a4-8220-cacb692f4c82",
+          "plan_name": "Peoples Health Choices (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4544-002",
+          "parent_fpi": "43dbd5dc-51eb-55f6-bdb2-3d062a0161c8",
+          "f_plan_id": "d41e79e2-21c3-4a3a-96e6-5b50c16650eb",
+          "plan_name": "Peoples Health Patriot (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,56 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "34639693-e775-5546-b256-36e982341ba0",
+      "is_fpi": true,
+      "payerLegalName": "WELLCARE HEALTH INSURANCE OF NORTH CAROLINA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WELLCARE HEALTH INSURANCE OF NORTH CAROLINA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4073",
+      "is_fpi": false,
+      "parent_fpi": "34639693-e775-5546-b256-36e982341ba0"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4073-001",
+          "parent_fpi": "34639693-e775-5546-b256-36e982341ba0",
+          "f_plan_id": "969c0b6b-e2a6-4410-b6ec-e7cabcdcfbd1",
+          "plan_name": "Wellcare Simple (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4073-002",
+          "parent_fpi": "34639693-e775-5546-b256-36e982341ba0",
+          "f_plan_id": "18ced516-ec72-4959-839a-ceb27b5f4218",
+          "plan_name": "Wellcare Dual Access (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4073-003",
+          "parent_fpi": "34639693-e775-5546-b256-36e982341ba0",
+          "f_plan_id": "314dd0ff-ced8-4777-b9b2-63171c899629",
+          "plan_name": "Wellcare Dual Reserve (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4073-004",
+          "parent_fpi": "34639693-e775-5546-b256-36e982341ba0",
+          "f_plan_id": "bd494420-8ab3-4604-8f23-dd5b487cb941",
+          "plan_name": "Wellcare Dual Liberty (HMO-POS D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

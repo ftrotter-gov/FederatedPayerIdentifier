@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "1052bbbc-3800-56ac-a9d1-fed5cc07da70",
+      "is_fpi": true,
+      "payerLegalName": "SENIOR WHOLE HEALTH OF NEW YORK, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SENIOR WHOLE HEALTH OF NEW YORK, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5992",
+      "is_fpi": false,
+      "parent_fpi": "1052bbbc-3800-56ac-a9d1-fed5cc07da70"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5992-007",
+          "parent_fpi": "1052bbbc-3800-56ac-a9d1-fed5cc07da70",
+          "f_plan_id": "98c3ff07-57e4-4c81-a253-5f62e86b6d30",
+          "plan_name": "Senior Whole Health of New York NHC (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5992-010",
+          "parent_fpi": "1052bbbc-3800-56ac-a9d1-fed5cc07da70",
+          "f_plan_id": "3d0fcaf9-d27d-43ad-9978-fd741b95066c",
+          "plan_name": "Senior Whole Health Medicare Complete Care (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "c72df2a4-4cc0-5268-8cc8-a6f6772c1898",
+      "is_fpi": true,
+      "payerLegalName": "ALAMEDA ALLIANCE FOR HEALTH",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ALAMEDA ALLIANCE FOR HEALTH"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2035",
+      "is_fpi": false,
+      "parent_fpi": "c72df2a4-4cc0-5268-8cc8-a6f6772c1898"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2035-001",
+          "parent_fpi": "c72df2a4-4cc0-5268-8cc8-a6f6772c1898",
+          "f_plan_id": "2522eb32-acd1-4923-904f-faee04b8ec8c",
+          "plan_name": "Alameda Alliance Wellness (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

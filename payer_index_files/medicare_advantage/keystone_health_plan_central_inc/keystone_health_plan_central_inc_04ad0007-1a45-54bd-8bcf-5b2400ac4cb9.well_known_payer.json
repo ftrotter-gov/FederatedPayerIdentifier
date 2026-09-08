@@ -1,0 +1,84 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "04ad0007-1a45-54bd-8bcf-5b2400ac4cb9",
+      "is_fpi": true,
+      "payerLegalName": "KEYSTONE HEALTH PLAN CENTRAL, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "KEYSTONE HEALTH PLAN CENTRAL, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3962",
+      "is_fpi": false,
+      "parent_fpi": "04ad0007-1a45-54bd-8bcf-5b2400ac4cb9"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3962-001",
+          "parent_fpi": "04ad0007-1a45-54bd-8bcf-5b2400ac4cb9",
+          "f_plan_id": "4967eac5-82c5-4380-8304-62942c479a48",
+          "plan_name": "Capital Blue Cross Premier (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3962-004",
+          "parent_fpi": "04ad0007-1a45-54bd-8bcf-5b2400ac4cb9",
+          "f_plan_id": "241e7154-a4c2-469c-94ae-97b32a28d8e3",
+          "plan_name": "Capital Blue Cross Value (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3962-022",
+          "parent_fpi": "04ad0007-1a45-54bd-8bcf-5b2400ac4cb9",
+          "f_plan_id": "9bfdd44b-2699-41b9-a53c-6e971a954308",
+          "plan_name": "Capital Blue Cross Essential (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3962-801",
+          "parent_fpi": "04ad0007-1a45-54bd-8bcf-5b2400ac4cb9",
+          "f_plan_id": "f2fd9cc2-91df-49e7-9eb8-705fcf7fc861",
+          "plan_name": "Capital Blue Cross Group Rx (CY) (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3962-802",
+          "parent_fpi": "04ad0007-1a45-54bd-8bcf-5b2400ac4cb9",
+          "f_plan_id": "092fb516-39d1-4627-9783-7d8a9626b5c8",
+          "plan_name": "Capital Blue Cross Group No Rx (CY) (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3962-813",
+          "parent_fpi": "04ad0007-1a45-54bd-8bcf-5b2400ac4cb9",
+          "f_plan_id": "056d2af8-c3e4-434a-926a-49f6d8870698",
+          "plan_name": "Capital Blue Cross Group Custom Rx (CY) (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3962-817",
+          "parent_fpi": "04ad0007-1a45-54bd-8bcf-5b2400ac4cb9",
+          "f_plan_id": "4aadeb9f-b710-4ffb-8885-79b27aeaf45d",
+          "plan_name": "Capital Blue Cross Group Rx (FY) (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3962-828",
+          "parent_fpi": "04ad0007-1a45-54bd-8bcf-5b2400ac4cb9",
+          "f_plan_id": "62507a08-c396-4c54-ad5d-352572a23086",
+          "plan_name": "Capital Blue Cross Group No Rx (FY) (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

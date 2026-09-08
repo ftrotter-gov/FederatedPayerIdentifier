@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "e83de0ab-e8ff-555e-840f-17ca2f93280a",
+      "is_fpi": true,
+      "payerLegalName": "HEALTH NET HEALTH PLAN OF OREGON, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HEALTH NET HEALTH PLAN OF OREGON, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6815",
+      "is_fpi": false,
+      "parent_fpi": "e83de0ab-e8ff-555e-840f-17ca2f93280a"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6815-038",
+          "parent_fpi": "e83de0ab-e8ff-555e-840f-17ca2f93280a",
+          "f_plan_id": "03fd16b6-c126-4cde-b764-36c09c4aaaf0",
+          "plan_name": "Wellcare Low Premium (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6815-039",
+          "parent_fpi": "e83de0ab-e8ff-555e-840f-17ca2f93280a",
+          "f_plan_id": "673d1aa9-ab81-42e3-a8bd-aa8d396f64dc",
+          "plan_name": "Wellcare Simple (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6815-040",
+          "parent_fpi": "e83de0ab-e8ff-555e-840f-17ca2f93280a",
+          "f_plan_id": "295604d9-b6ac-446b-9a46-43a4d7f721d4",
+          "plan_name": "Wellcare PeaceHealth Simple (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "881a1b8e-ac60-5169-a51c-124c4b0be641",
+      "is_fpi": true,
+      "payerLegalName": "ISNP VENTURES, LLC",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ISNP VENTURES, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6959",
+      "is_fpi": false,
+      "parent_fpi": "881a1b8e-ac60-5169-a51c-124c4b0be641"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6959-001",
+          "parent_fpi": "881a1b8e-ac60-5169-a51c-124c4b0be641",
+          "f_plan_id": "4be4586f-cd39-4b07-8cd2-5e5100fcb2f0",
+          "plan_name": "KeyCare Advantage (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6959-002",
+          "parent_fpi": "881a1b8e-ac60-5169-a51c-124c4b0be641",
+          "f_plan_id": "864ad2a8-1e42-4890-bce2-3214c09717c1",
+          "plan_name": "KeyCare Advantage Plus (HMO C-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}
