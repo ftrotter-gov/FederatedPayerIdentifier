@@ -1,0 +1,140 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "ef641e63-05a4-5240-a385-4630e394072b",
+      "is_fpi": true,
+      "payerLegalName": "KS PLAN ADMINISTRATORS, LLC",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "KS PLAN ADMINISTRATORS, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0332",
+      "is_fpi": false,
+      "parent_fpi": "ef641e63-05a4-5240-a385-4630e394072b"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0332-001",
+          "parent_fpi": "ef641e63-05a4-5240-a385-4630e394072b",
+          "f_plan_id": "b2c310d3-0af1-4152-a87e-b8bd9c401826",
+          "plan_name": "KelseyCare Advantage Core (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0332-004",
+          "parent_fpi": "ef641e63-05a4-5240-a385-4630e394072b",
+          "f_plan_id": "3ae6eaf7-0abe-4670-b4b4-de87c133cc8f",
+          "plan_name": "KelseyCare Advantage Freedom (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0332-009",
+          "parent_fpi": "ef641e63-05a4-5240-a385-4630e394072b",
+          "f_plan_id": "eb47eae8-e208-4535-b396-cb04edfe5d77",
+          "plan_name": "KelseyCare Advantage Signature (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0332-801",
+          "parent_fpi": "ef641e63-05a4-5240-a385-4630e394072b",
+          "f_plan_id": "07b252d4-66de-4910-ae24-da1912237832",
+          "plan_name": "KelseyCare Advantage Essential Retiree (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0332-803",
+          "parent_fpi": "ef641e63-05a4-5240-a385-4630e394072b",
+          "f_plan_id": "4bbbb53c-02fb-4599-867e-63f8812247bc",
+          "plan_name": "KelseyCare Advantage Rx Retiree (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0332-804",
+          "parent_fpi": "ef641e63-05a4-5240-a385-4630e394072b",
+          "f_plan_id": "b09f5ced-f30f-42a4-a72a-bb77f3964801",
+          "plan_name": "KelseyCare Advantage Essential+Choice Retiree (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0332-805",
+          "parent_fpi": "ef641e63-05a4-5240-a385-4630e394072b",
+          "f_plan_id": "0401cd2b-2b21-4dee-a9db-6515bb806c24",
+          "plan_name": "KelseyCare Advantage Rx+Choice Retiree (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0332-806",
+          "parent_fpi": "ef641e63-05a4-5240-a385-4630e394072b",
+          "f_plan_id": "7925a708-18c5-48a1-8da3-f83a01590605",
+          "plan_name": "KelseyCare Advantage Essential Retiree (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0332-807",
+          "parent_fpi": "ef641e63-05a4-5240-a385-4630e394072b",
+          "f_plan_id": "ee2f9b92-dd0b-405e-8b49-1c37ad9e77f5",
+          "plan_name": "KelseyCare Advantage Rx Retiree (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0332-808",
+          "parent_fpi": "ef641e63-05a4-5240-a385-4630e394072b",
+          "f_plan_id": "1670a243-acb3-4c37-8f82-f3aa5c50c89c",
+          "plan_name": "KelseyCare Advantage Essential+Choice Retiree (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0332-809",
+          "parent_fpi": "ef641e63-05a4-5240-a385-4630e394072b",
+          "f_plan_id": "75b9381a-cfac-4af5-b2b3-3942a2502fd4",
+          "plan_name": "KelseyCare Advantage Rx+Choice Retiree (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0332-810",
+          "parent_fpi": "ef641e63-05a4-5240-a385-4630e394072b",
+          "f_plan_id": "501a75c0-68b5-4890-a60f-ae29cc6bd280",
+          "plan_name": "KelseyCare Advantage Rx Retiree (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0332-811",
+          "parent_fpi": "ef641e63-05a4-5240-a385-4630e394072b",
+          "f_plan_id": "b5d0206f-aabe-44d1-bc92-3913324bcd42",
+          "plan_name": "KelseyCare Advantage Rx Retiree (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0332-812",
+          "parent_fpi": "ef641e63-05a4-5240-a385-4630e394072b",
+          "f_plan_id": "e1a0e255-97cf-4020-b7c0-a7206890651e",
+          "plan_name": "KelseyCare Advantage Rx Retiree (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0332-813",
+          "parent_fpi": "ef641e63-05a4-5240-a385-4630e394072b",
+          "f_plan_id": "0c3518aa-fb88-46d0-a03d-fdd3b5dc6121",
+          "plan_name": "KelseyCare Advantage RX Retiree (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0332-814",
+          "parent_fpi": "ef641e63-05a4-5240-a385-4630e394072b",
+          "f_plan_id": "d915259d-b4e0-4d87-bc05-aa1d75863777",
+          "plan_name": "KelseyCare Advantage Essential Retiree (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "b7054fda-df11-586c-8928-b0bd96a6d3c0",
+      "is_fpi": true,
+      "payerLegalName": "PARTNERS INSURANCE COMPANY INC",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PARTNERS INSURANCE COMPANY INC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1619",
+      "is_fpi": false,
+      "parent_fpi": "b7054fda-df11-586c-8928-b0bd96a6d3c0"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1619-001",
+          "parent_fpi": "b7054fda-df11-586c-8928-b0bd96a6d3c0",
+          "f_plan_id": "1ca008e8-cd56-4533-a5c9-5a0710246477",
+          "plan_name": "Jefferson Health Plans Flex (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1619-002",
+          "parent_fpi": "b7054fda-df11-586c-8928-b0bd96a6d3c0",
+          "f_plan_id": "2e4c8513-793f-4331-9e9c-375caf1e857a",
+          "plan_name": "Jefferson Health Plans Flex Plus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1619-003",
+          "parent_fpi": "b7054fda-df11-586c-8928-b0bd96a6d3c0",
+          "f_plan_id": "8f8aa56a-c2dd-479b-ba99-fd79ad8b7899",
+          "plan_name": "Jefferson Health Plans Flex Pro (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

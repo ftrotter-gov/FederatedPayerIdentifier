@@ -1,0 +1,161 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "8d8cd330-9584-58cc-92ab-644761c06855",
+      "is_fpi": true,
+      "payerLegalName": "KAISER FOUNDATION HEALTH PLAN OF WASHINGTON",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "KAISER FOUNDATION HEALTH PLAN OF WASHINGTON"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5050",
+      "is_fpi": false,
+      "parent_fpi": "8d8cd330-9584-58cc-92ab-644761c06855"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5050-001",
+          "parent_fpi": "8d8cd330-9584-58cc-92ab-644761c06855",
+          "f_plan_id": "e25541fd-72b6-4c00-88c3-f2733e162b0f",
+          "plan_name": "Kaiser Permanente Medicare Advantage Basic (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5050-004",
+          "parent_fpi": "8d8cd330-9584-58cc-92ab-644761c06855",
+          "f_plan_id": "3de6a96e-e33e-413c-970d-147e99a6bd14",
+          "plan_name": "Kaiser Permanente Medicare Advantage Optimal (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5050-009",
+          "parent_fpi": "8d8cd330-9584-58cc-92ab-644761c06855",
+          "f_plan_id": "aef3abf5-d6eb-4703-ab09-9e07e52e35f8",
+          "plan_name": "Kaiser Permanente Medicare Advantage Essential (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5050-017",
+          "parent_fpi": "8d8cd330-9584-58cc-92ab-644761c06855",
+          "f_plan_id": "156ee49b-2900-4da4-b4de-fb9487e1c431",
+          "plan_name": "Kaiser Permanente Medicare Advantage Harbor (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5050-019",
+          "parent_fpi": "8d8cd330-9584-58cc-92ab-644761c06855",
+          "f_plan_id": "a4981568-317f-4198-9b0a-2e51a9bda56a",
+          "plan_name": "Kaiser Permanente Medicare Advantage Columbia (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5050-021",
+          "parent_fpi": "8d8cd330-9584-58cc-92ab-644761c06855",
+          "f_plan_id": "f925d663-80e8-4581-87b0-950a36613094",
+          "plan_name": "Kaiser Permanente Medicare Advantage Centennial (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5050-022",
+          "parent_fpi": "8d8cd330-9584-58cc-92ab-644761c06855",
+          "f_plan_id": "ebd7f2b5-f9a0-4e3a-92e7-432923100dfc",
+          "plan_name": "Kaiser Permanente Medicare Advantage Key (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5050-023",
+          "parent_fpi": "8d8cd330-9584-58cc-92ab-644761c06855",
+          "f_plan_id": "538b30f1-83ff-4253-a20f-164f48d25045",
+          "plan_name": "Kaiser Permanente Medicare Advantage Anchor (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5050-801",
+          "parent_fpi": "8d8cd330-9584-58cc-92ab-644761c06855",
+          "f_plan_id": "2e6f9556-21ad-4592-be77-2392f07389f9",
+          "plan_name": "Kaiser Permanente Medicare Advantage Group [AB] (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5050-802",
+          "parent_fpi": "8d8cd330-9584-58cc-92ab-644761c06855",
+          "f_plan_id": "c3d65a13-b677-40e4-8b1e-9b3cee632e1b",
+          "plan_name": "Kaiser Permanente Medicare Advantage Group [ABD] (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5050-024",
+          "parent_fpi": "8d8cd330-9584-58cc-92ab-644761c06855",
+          "f_plan_id": "209c5a68-14a4-487d-b6a0-b653d27b29e1",
+          "plan_name": "Kaiser Permanente Medicare Advantage Essential Kng (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5050-025",
+          "parent_fpi": "8d8cd330-9584-58cc-92ab-644761c06855",
+          "f_plan_id": "2003388d-7a2a-4ea2-b9a5-c0a90f284ef1",
+          "plan_name": "Kaiser Permanente Medicare Advantage Essential Pce (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5050-026",
+          "parent_fpi": "8d8cd330-9584-58cc-92ab-644761c06855",
+          "f_plan_id": "82fe201b-872e-4d14-84cf-62ce53b5e117",
+          "plan_name": "Kaiser Permanente Medicare Advantage Essential Sno (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5050-027",
+          "parent_fpi": "8d8cd330-9584-58cc-92ab-644761c06855",
+          "f_plan_id": "621c15fc-de79-4c4b-a693-eb8ffe191738",
+          "plan_name": "Kaiser Permanente Medicare Advantage Essential Thu (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5050-028",
+          "parent_fpi": "8d8cd330-9584-58cc-92ab-644761c06855",
+          "f_plan_id": "5f98810c-64a3-4b53-a950-ce1ab7800f38",
+          "plan_name": "Kaiser Permanente Medicare Advantage Key King (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5050-029",
+          "parent_fpi": "8d8cd330-9584-58cc-92ab-644761c06855",
+          "f_plan_id": "c10807c9-4797-44e8-bc3b-f69c8303fa52",
+          "plan_name": "Kaiser Permanente Medicare Advantage Key Pierce (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5050-030",
+          "parent_fpi": "8d8cd330-9584-58cc-92ab-644761c06855",
+          "f_plan_id": "8be98001-8e59-40af-8f08-1a4c653f0467",
+          "plan_name": "Kaiser Permanente Medicare Advantage Key Snohomish (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5050-031",
+          "parent_fpi": "8d8cd330-9584-58cc-92ab-644761c06855",
+          "f_plan_id": "453752a6-4b8a-4f18-ad43-84a2891fd28f",
+          "plan_name": "Kaiser Permanente Medicare Advantage Key Thurston (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5050-032",
+          "parent_fpi": "8d8cd330-9584-58cc-92ab-644761c06855",
+          "f_plan_id": "271d8b18-81f3-435a-8b8f-ea6c91ac09cc",
+          "plan_name": "Kaiser Permanente Medicare Advantage Vital Sound (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

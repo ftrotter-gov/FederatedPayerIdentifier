@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "f0daf465-d06c-5a0e-a8f2-63b23b484a7e",
+      "is_fpi": true,
+      "payerLegalName": "COMMUNITY FIRST HEALTH PLANS, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "COMMUNITY FIRST HEALTH PLANS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5447",
+      "is_fpi": false,
+      "parent_fpi": "f0daf465-d06c-5a0e-a8f2-63b23b484a7e"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5447-001",
+          "parent_fpi": "f0daf465-d06c-5a0e-a8f2-63b23b484a7e",
+          "f_plan_id": "ef8f7972-4c00-44d1-91b5-fa9d4765f944",
+          "plan_name": "Community First Medicare Advantage Alamo Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5447-002",
+          "parent_fpi": "f0daf465-d06c-5a0e-a8f2-63b23b484a7e",
+          "f_plan_id": "8cd935ed-761a-4ca9-83f5-bb313c523b34",
+          "plan_name": "Community First Medicare Advantage D-SNP (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

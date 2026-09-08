@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "5e05e273-0eb7-5d74-aa42-4dbc5ef36f5c",
+      "is_fpi": true,
+      "payerLegalName": "SAN JOAQUIN COUNTY HEALTH COMMISSION",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SAN JOAQUIN COUNTY HEALTH COMMISSION"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5734",
+      "is_fpi": false,
+      "parent_fpi": "5e05e273-0eb7-5d74-aa42-4dbc5ef36f5c"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5734-001",
+          "parent_fpi": "5e05e273-0eb7-5d74-aa42-4dbc5ef36f5c",
+          "f_plan_id": "800985e1-0474-41b8-8318-3520ff07c92b",
+          "plan_name": "Advantage D-SNP (HMO) (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

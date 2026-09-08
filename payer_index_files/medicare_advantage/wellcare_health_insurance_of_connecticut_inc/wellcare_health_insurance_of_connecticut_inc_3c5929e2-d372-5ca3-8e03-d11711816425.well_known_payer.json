@@ -1,0 +1,77 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "3c5929e2-d372-5ca3-8e03-d11711816425",
+      "is_fpi": true,
+      "payerLegalName": "WELLCARE HEALTH INSURANCE OF CONNECTICUT, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WELLCARE HEALTH INSURANCE OF CONNECTICUT, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1914",
+      "is_fpi": false,
+      "parent_fpi": "3c5929e2-d372-5ca3-8e03-d11711816425"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1914-001",
+          "parent_fpi": "3c5929e2-d372-5ca3-8e03-d11711816425",
+          "f_plan_id": "b9d67852-b606-4d1a-9dd5-8b5b62b9330f",
+          "plan_name": "Wellcare Simple Open (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1914-002",
+          "parent_fpi": "3c5929e2-d372-5ca3-8e03-d11711816425",
+          "f_plan_id": "7e50e607-9022-4810-abbc-c703d1a4af59",
+          "plan_name": "Wellcare Giveback Open (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1914-007",
+          "parent_fpi": "3c5929e2-d372-5ca3-8e03-d11711816425",
+          "f_plan_id": "e95572a6-1195-44b2-ba01-853bf3a28d28",
+          "plan_name": "Wellcare Simple Open (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1914-008",
+          "parent_fpi": "3c5929e2-d372-5ca3-8e03-d11711816425",
+          "f_plan_id": "01955741-2bb6-433e-b18e-5db5aa0a71e3",
+          "plan_name": "Wellcare Dual Liberty Open (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1914-009",
+          "parent_fpi": "3c5929e2-d372-5ca3-8e03-d11711816425",
+          "f_plan_id": "ce5b03f8-6475-41a5-ab8f-d7354e43f03a",
+          "plan_name": "Wellcare Assist Open (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1914-010",
+          "parent_fpi": "3c5929e2-d372-5ca3-8e03-d11711816425",
+          "f_plan_id": "302d7628-f28f-4242-abda-1a4429413a27",
+          "plan_name": "Wellcare Giveback Open (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1914-011",
+          "parent_fpi": "3c5929e2-d372-5ca3-8e03-d11711816425",
+          "f_plan_id": "d52325a4-9b55-48ed-abdf-4620591bc6d1",
+          "plan_name": "Wellcare Patriot Giveback Open (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

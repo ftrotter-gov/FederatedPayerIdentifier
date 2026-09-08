@@ -1,0 +1,182 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "39a826af-3886-59d7-ac38-fcb73597eeba",
+      "is_fpi": true,
+      "payerLegalName": "HIGHMARK CHOICE COMPANY",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HIGHMARK CHOICE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3957",
+      "is_fpi": false,
+      "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3957-031",
+          "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba",
+          "f_plan_id": "ca55f910-0188-4e5b-b32f-927d5d4da41c",
+          "plan_name": "Security Blue HMO-POS ValueRx (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3957-050",
+          "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba",
+          "f_plan_id": "cff943f3-4c6f-470a-bb0e-f505298ded10",
+          "plan_name": "Complete Blue HMO Distinct (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3957-042",
+          "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba",
+          "f_plan_id": "a34aa29c-148f-4e2a-b9a2-d30dca1713d2",
+          "plan_name": "Community Blue Medicare HMO Signature (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3957-043",
+          "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba",
+          "f_plan_id": "e31213ff-3fa6-4cd7-b64e-6ac7b467e4ba",
+          "plan_name": "Security Blue HMO-POS Basic (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3957-044",
+          "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba",
+          "f_plan_id": "322c0500-f842-448b-ba5e-616df25f7421",
+          "plan_name": "Security Blue HMO-POS ValueRx (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3957-045",
+          "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba",
+          "f_plan_id": "95873b9c-8d26-4cf1-9e14-5c4caf1893c6",
+          "plan_name": "Security Blue HMO-POS Standard (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3957-046",
+          "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba",
+          "f_plan_id": "15cac105-1762-41e4-bf09-24402f5a95ff",
+          "plan_name": "Security Blue HMO-POS Deluxe (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3957-047",
+          "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba",
+          "f_plan_id": "c2b4ce39-ad05-4821-b202-813b89d242b2",
+          "plan_name": "Community Blue Medicare HMO Signature (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3957-048",
+          "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba",
+          "f_plan_id": "a8a30992-7a9e-4096-98d0-29abb55588c7",
+          "plan_name": "Together Blue Medicare HMO Signature (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3957-805",
+          "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba",
+          "f_plan_id": "dfcb9af2-f5f9-4a05-9c63-8a12d20f2fbb",
+          "plan_name": "Security Blue HMO MA Calendar (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3957-806",
+          "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba",
+          "f_plan_id": "dbbc1d58-dae9-4ba4-9c3f-4f2e0cd13817",
+          "plan_name": "Security Blue HMO MA-PD Calendar (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3957-808",
+          "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba",
+          "f_plan_id": "fa1afd03-5d29-4240-9088-937553dc9200",
+          "plan_name": "Security Blue HMO MA-PD Non-Calendar (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3957-810",
+          "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba",
+          "f_plan_id": "84de3454-7da6-4dd3-9e4f-6cc8956f4a0a",
+          "plan_name": "Community Blue Medicare HMO MA Calendar (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3957-811",
+          "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba",
+          "f_plan_id": "680009a5-a085-449f-b004-31a1bb1623e3",
+          "plan_name": "Community Blue Medicare HMO MA-PD Calendar (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3957-812",
+          "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba",
+          "f_plan_id": "d09af964-09dc-4d59-b2f7-2214599256ad",
+          "plan_name": "Community Blue Medicare HMO MA-PD Calendar Perform (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3957-813",
+          "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba",
+          "f_plan_id": "ca4f9c53-0527-42e2-a05c-84f535fbe6cd",
+          "plan_name": "Security Blue HMO-POS MA Calendar (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3957-814",
+          "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba",
+          "f_plan_id": "dac8d4ee-ede8-49fc-a006-5f7df2aa3cc5",
+          "plan_name": "Security Blue HMO-POS MA-PD Calendar (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3957-815",
+          "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba",
+          "f_plan_id": "29e2335f-53b7-4f71-97f5-0b4f074e9318",
+          "plan_name": "Security Blue HMO-POS MA-PD Calendar Performance (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3957-816",
+          "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba",
+          "f_plan_id": "59b975d2-1987-4ac8-ba95-6a4e0f74137c",
+          "plan_name": "Security Blue HMO MAPD ASO CALENDAR (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3957-817",
+          "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba",
+          "f_plan_id": "b5c3aa4d-aeac-4a3e-b028-ae78876a80cf",
+          "plan_name": "Security Blue HMO-POS MAPD ASO CALENDAR (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3957-818",
+          "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba",
+          "f_plan_id": "aee849b7-b767-4c67-85f6-65cb81d18232",
+          "plan_name": "Community Blue Medicare HMO MAPD ASO CALENDAR (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3957-049",
+          "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba",
+          "f_plan_id": "7af5df74-a3ef-45d4-bd99-9759cf044377",
+          "plan_name": "Community Blue Medicare HMO Distinct (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

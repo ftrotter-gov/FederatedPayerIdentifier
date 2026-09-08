@@ -1,0 +1,89 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "616f8458-a32e-5437-8153-d6044228372e",
+      "is_fpi": true,
+      "payerLegalName": "ALIGNMENT HEALTH ADVANTAGE PLAN INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ALIGNMENT HEALTH ADVANTAGE PLAN INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6697",
+      "is_fpi": false,
+      "parent_fpi": "616f8458-a32e-5437-8153-d6044228372e"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8832",
+      "is_fpi": false,
+      "parent_fpi": "616f8458-a32e-5437-8153-d6044228372e"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [],
+      "plan_endpoints": {}
+    },
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8832-001",
+          "parent_fpi": "616f8458-a32e-5437-8153-d6044228372e",
+          "f_plan_id": "f2759a52-781c-440c-8722-6a0db8e8bc15",
+          "plan_name": "Alignment Health Advantage PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8832-002",
+          "parent_fpi": "616f8458-a32e-5437-8153-d6044228372e",
+          "f_plan_id": "74f9ee84-84f1-40ee-a461-9097762aa061",
+          "plan_name": "Alignment Health Advantage PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8832-003",
+          "parent_fpi": "616f8458-a32e-5437-8153-d6044228372e",
+          "f_plan_id": "62e69266-3762-418a-9ded-f493f927e125",
+          "plan_name": "Alignment Health Freedom (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8832-801",
+          "parent_fpi": "616f8458-a32e-5437-8153-d6044228372e",
+          "f_plan_id": "0d559a60-e5b2-45a2-a5c4-9230fabe6a8a",
+          "plan_name": "Alignment Health Plan Retiree Options (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8832-802",
+          "parent_fpi": "616f8458-a32e-5437-8153-d6044228372e",
+          "f_plan_id": "d4111b95-51d7-49b6-ae4c-0401473594ae",
+          "plan_name": "Alignment Health Plan Retiree Options (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8832-803",
+          "parent_fpi": "616f8458-a32e-5437-8153-d6044228372e",
+          "f_plan_id": "2fd999cd-1942-47bd-9d7f-d06640c069b0",
+          "plan_name": "Alignment Health Plan Retiree Options (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8832-804",
+          "parent_fpi": "616f8458-a32e-5437-8153-d6044228372e",
+          "f_plan_id": "fbc79170-abe8-4bcb-9ac4-37151256e33b",
+          "plan_name": "Alignment Health Plan Retiree Options (PPO)"
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://mpf.alignmenthealth.com/mpf-provider-directory/H8832-cms-data-index.json"
+      }
+    }
+  ],
+  "is_seeded": true
+}

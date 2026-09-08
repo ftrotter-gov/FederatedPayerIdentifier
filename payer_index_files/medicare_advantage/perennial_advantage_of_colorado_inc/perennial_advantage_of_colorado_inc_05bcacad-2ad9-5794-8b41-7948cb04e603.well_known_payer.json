@@ -1,0 +1,70 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "05bcacad-2ad9-5794-8b41-7948cb04e603",
+      "is_fpi": true,
+      "payerLegalName": "PERENNIAL ADVANTAGE OF COLORADO, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PERENNIAL ADVANTAGE OF COLORADO, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3419",
+      "is_fpi": false,
+      "parent_fpi": "05bcacad-2ad9-5794-8b41-7948cb04e603"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3419-001",
+          "parent_fpi": "05bcacad-2ad9-5794-8b41-7948cb04e603",
+          "f_plan_id": "1e2a0586-ce4f-40d1-b813-3a1e6d4e3a23",
+          "plan_name": "Perennial Advantage Strive (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3419-003",
+          "parent_fpi": "05bcacad-2ad9-5794-8b41-7948cb04e603",
+          "f_plan_id": "7c27363d-4144-4575-840d-98451b75c19f",
+          "plan_name": "Perennial Advantage Freedom (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3419-004",
+          "parent_fpi": "05bcacad-2ad9-5794-8b41-7948cb04e603",
+          "f_plan_id": "4718742f-c52f-452d-ad0f-d7e97e8dbb93",
+          "plan_name": "Perennial Advantage Premier (HMO-POS I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3419-005",
+          "parent_fpi": "05bcacad-2ad9-5794-8b41-7948cb04e603",
+          "f_plan_id": "c80bb57e-3d3e-447b-86ec-2f67072b3e10",
+          "plan_name": "Perennial Advantage Strive (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3419-006",
+          "parent_fpi": "05bcacad-2ad9-5794-8b41-7948cb04e603",
+          "f_plan_id": "39c20159-d834-4e9b-b510-f2a110ed5a9d",
+          "plan_name": "Perennial Advantage Freedom (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3419-007",
+          "parent_fpi": "05bcacad-2ad9-5794-8b41-7948cb04e603",
+          "f_plan_id": "71764fc2-266f-46ce-9a5b-08bf2eb3e39b",
+          "plan_name": "Perennial Advantage Premier (HMO I-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

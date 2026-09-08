@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "fe9bc765-3597-5330-aabe-bf8e38e0ae37",
+      "is_fpi": true,
+      "payerLegalName": "WELLPOINT NEW JERSEY, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WELLPOINT NEW JERSEY, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3240",
+      "is_fpi": false,
+      "parent_fpi": "fe9bc765-3597-5330-aabe-bf8e38e0ae37"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3240-013",
+          "parent_fpi": "fe9bc765-3597-5330-aabe-bf8e38e0ae37",
+          "f_plan_id": "2ec7c518-a574-42d8-9aea-34228e8aaf92",
+          "plan_name": "Wellpoint Full Dual Advantage (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3240-017",
+          "parent_fpi": "fe9bc765-3597-5330-aabe-bf8e38e0ae37",
+          "f_plan_id": "089badfa-78b4-4f0e-8942-e9bee5f39356",
+          "plan_name": "Wellpoint Kidney Care (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3240-024",
+          "parent_fpi": "fe9bc765-3597-5330-aabe-bf8e38e0ae37",
+          "f_plan_id": "2d334782-9ed3-4995-a084-ae6fcaf5f76f",
+          "plan_name": "Wellpoint Full Dual Advantage Secure (HMO-POS D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

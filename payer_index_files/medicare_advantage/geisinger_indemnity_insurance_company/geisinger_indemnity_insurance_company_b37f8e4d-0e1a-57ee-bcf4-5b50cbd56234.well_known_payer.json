@@ -1,0 +1,56 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "b37f8e4d-0e1a-57ee-bcf4-5b50cbd56234",
+      "is_fpi": true,
+      "payerLegalName": "GEISINGER INDEMNITY INSURANCE COMPANY",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "GEISINGER INDEMNITY INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3924",
+      "is_fpi": false,
+      "parent_fpi": "b37f8e4d-0e1a-57ee-bcf4-5b50cbd56234"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3924-059",
+          "parent_fpi": "b37f8e4d-0e1a-57ee-bcf4-5b50cbd56234",
+          "f_plan_id": "240e54f0-1c7a-4f0c-95bd-d5c367283be1",
+          "plan_name": "Geisinger Gold Preferred Advantage Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3924-065",
+          "parent_fpi": "b37f8e4d-0e1a-57ee-bcf4-5b50cbd56234",
+          "f_plan_id": "579fd629-5955-4c75-8731-4ebea9952276",
+          "plan_name": "Geisinger Gold Preferred Complete Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3924-804",
+          "parent_fpi": "b37f8e4d-0e1a-57ee-bcf4-5b50cbd56234",
+          "f_plan_id": "ca32ea19-32cc-433f-baa1-5fd127d73181",
+          "plan_name": "Geisinger Gold Preferred Basic/Deluxe Rx (+) EGWP (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3924-805",
+          "parent_fpi": "b37f8e4d-0e1a-57ee-bcf4-5b50cbd56234",
+          "f_plan_id": "8d5ac366-fc50-4003-954c-b43e39952954",
+          "plan_name": "Geisinger Gold Preferred Basic/Deluxe (+) EGWP (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

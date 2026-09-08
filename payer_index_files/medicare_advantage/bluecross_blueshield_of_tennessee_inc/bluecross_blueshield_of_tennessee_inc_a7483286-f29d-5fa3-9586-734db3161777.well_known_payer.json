@@ -1,0 +1,175 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "a7483286-f29d-5fa3-9586-734db3161777",
+      "is_fpi": true,
+      "payerLegalName": "BLUECROSS BLUESHIELD OF TENNESSEE, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BLUECROSS BLUESHIELD OF TENNESSEE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7917",
+      "is_fpi": false,
+      "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7917-009",
+          "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777",
+          "f_plan_id": "143c8537-9756-4774-a07d-498f23126172",
+          "plan_name": "BlueAdvantage Diamond (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7917-010",
+          "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777",
+          "f_plan_id": "363c0207-b97f-42c6-ba65-c9d2f8238dca",
+          "plan_name": "BlueAdvantage Diamond (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7917-011",
+          "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777",
+          "f_plan_id": "4b8fbcd0-af60-4d20-94e4-cf12534c87f5",
+          "plan_name": "BlueAdvantage Diamond (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7917-012",
+          "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777",
+          "f_plan_id": "fe8794d0-09a0-4f71-bea6-4c2611dab101",
+          "plan_name": "BlueAdvantage Ruby (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7917-013",
+          "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777",
+          "f_plan_id": "6e6d60b0-f190-4143-9a3e-db992c31d104",
+          "plan_name": "BlueAdvantage Ruby (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7917-014",
+          "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777",
+          "f_plan_id": "e9461f56-886d-4ba3-a6ef-960b64eb10de",
+          "plan_name": "BlueAdvantage Ruby (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7917-015",
+          "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777",
+          "f_plan_id": "58848701-e6d3-460e-9c26-a7121003d20f",
+          "plan_name": "BlueAdvantage Ruby (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7917-030",
+          "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777",
+          "f_plan_id": "e3fb6da2-393c-4617-9107-70be9558bc1c",
+          "plan_name": "BlueAdvantage Sapphire (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7917-031",
+          "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777",
+          "f_plan_id": "ff9e763e-9f35-4c1f-b7d3-307950541a28",
+          "plan_name": "BlueAdvantage Sapphire (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7917-032",
+          "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777",
+          "f_plan_id": "05690def-adc7-4ac7-9924-bcd155f44b37",
+          "plan_name": "BlueAdvantage Garnet (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7917-033",
+          "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777",
+          "f_plan_id": "84792f97-0c11-41bc-aab3-34e2eb502ad1",
+          "plan_name": "BlueAdvantage Garnet (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7917-038",
+          "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777",
+          "f_plan_id": "48a55be1-389b-44b1-ba3b-94acdca71530",
+          "plan_name": "BlueAdvantage Sapphire (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7917-039",
+          "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777",
+          "f_plan_id": "2290b3a0-a3ee-4dd6-b415-ae676c46f569",
+          "plan_name": "BlueAdvantage Freedom (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7917-040",
+          "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777",
+          "f_plan_id": "a16f9650-726f-4217-87b5-fad8e1be820d",
+          "plan_name": "BlueAdvantage Sapphire (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7917-041",
+          "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777",
+          "f_plan_id": "de7f7d8f-e387-4d5f-9b38-efc86b1180e7",
+          "plan_name": "BlueAdvantage Extra (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7917-801",
+          "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777",
+          "f_plan_id": "2144a589-8072-442e-95d8-4b46a3c2d713",
+          "plan_name": "BlueAdvantage Plus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7917-802",
+          "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777",
+          "f_plan_id": "b89b06c0-8774-4406-b4bc-a72de4ba318a",
+          "plan_name": "BlueAdvantage Plus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7917-803",
+          "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777",
+          "f_plan_id": "fa637ae2-8637-49cd-9aa6-f27bcaa2e069",
+          "plan_name": "BlueAdvantage Plus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7917-044",
+          "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777",
+          "f_plan_id": "a54f49b3-3361-44e7-989a-781ea1dac9a0",
+          "plan_name": "BlueAdvantage Total Heart and Diabetes (PPO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7917-045",
+          "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777",
+          "f_plan_id": "17921344-2475-4ab6-b03d-051ea70a1fa6",
+          "plan_name": "BlueAdvantage Total Heart and Diabetes (PPO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7917-046",
+          "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777",
+          "f_plan_id": "116d32f9-27a1-4070-a073-89ade7d95a97",
+          "plan_name": "BlueAdvantage Total Heart and Diabetes Plus (PPO C-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

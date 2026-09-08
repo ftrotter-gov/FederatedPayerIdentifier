@@ -1,0 +1,180 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "b4b01325-46ac-59f0-ba40-a9b60f160265",
+      "is_fpi": true,
+      "payerLegalName": "UNITEDHEALTHCARE INSURANCE COMPANY",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "UNITEDHEALTHCARE INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0294",
+      "is_fpi": false,
+      "parent_fpi": "b4b01325-46ac-59f0-ba40-a9b60f160265"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2385",
+      "is_fpi": false,
+      "parent_fpi": "b4b01325-46ac-59f0-ba40-a9b60f160265"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6824",
+      "is_fpi": false,
+      "parent_fpi": "b4b01325-46ac-59f0-ba40-a9b60f160265"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0294-002",
+          "parent_fpi": "b4b01325-46ac-59f0-ba40-a9b60f160265",
+          "f_plan_id": "afd293b2-e100-46fe-8b43-aa4fc409b048",
+          "plan_name": "UHC Complete Care WI-1 (PPO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0294-004",
+          "parent_fpi": "b4b01325-46ac-59f0-ba40-a9b60f160265",
+          "f_plan_id": "8a451864-a5c6-403a-a1d6-b5accefa843b",
+          "plan_name": "AARP Medicare Advantage from UHC WI-0002 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0294-014",
+          "parent_fpi": "b4b01325-46ac-59f0-ba40-a9b60f160265",
+          "f_plan_id": "ec3bd54c-8e02-4518-a9d2-57f54f270de1",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx WI-MA01 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0294-015",
+          "parent_fpi": "b4b01325-46ac-59f0-ba40-a9b60f160265",
+          "f_plan_id": "4c6038ef-0ab4-41ee-8c75-7517b60c9127",
+          "plan_name": "AARP Medicare Advantage from UHC WI-6 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0294-016",
+          "parent_fpi": "b4b01325-46ac-59f0-ba40-a9b60f160265",
+          "f_plan_id": "834ef19a-cd47-4b6f-8bf5-c1d0e0a9afe3",
+          "plan_name": "AARP Medicare Advantage from UHC WI-0007 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0294-017",
+          "parent_fpi": "b4b01325-46ac-59f0-ba40-a9b60f160265",
+          "f_plan_id": "f78f20ac-e7eb-45a0-8915-00d54b31dc29",
+          "plan_name": "AARP Medicare Advantage from UHC MI-0001 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0294-018",
+          "parent_fpi": "b4b01325-46ac-59f0-ba40-a9b60f160265",
+          "f_plan_id": "b85b134a-d94e-4185-9917-50d2b8afeccc",
+          "plan_name": "AARP Medicare Advantage from UHC MI-0002 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0294-022",
+          "parent_fpi": "b4b01325-46ac-59f0-ba40-a9b60f160265",
+          "f_plan_id": "fe2676f8-ff48-4889-a085-c3a1f92fa81e",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx MI-MA01 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0294-027",
+          "parent_fpi": "b4b01325-46ac-59f0-ba40-a9b60f160265",
+          "f_plan_id": "b074721a-4398-4dc0-8c03-f8dc1889a3bb",
+          "plan_name": "UHC Dual Complete WI-D001 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0294-032",
+          "parent_fpi": "b4b01325-46ac-59f0-ba40-a9b60f160265",
+          "f_plan_id": "0f23fadc-43c6-4a2e-a255-4f3d21ea90f1",
+          "plan_name": "AARP Medicare Advantage from UHC CA-0024 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0294-048",
+          "parent_fpi": "b4b01325-46ac-59f0-ba40-a9b60f160265",
+          "f_plan_id": "bf3a2106-c42b-4478-9d1e-8b62f4cd15e3",
+          "plan_name": "UHC Complete Care Support MI-3 (PPO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0294-049",
+          "parent_fpi": "b4b01325-46ac-59f0-ba40-a9b60f160265",
+          "f_plan_id": "c6a74665-3a71-4d14-80ca-f787ae5299b6",
+          "plan_name": "UHC Dual Complete NM-Y1 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0294-050",
+          "parent_fpi": "b4b01325-46ac-59f0-ba40-a9b60f160265",
+          "f_plan_id": "e8fa4626-6ba0-44d7-920c-637fcb8fb1af",
+          "plan_name": "UHC Dual Complete NM-S1 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0294-051",
+          "parent_fpi": "b4b01325-46ac-59f0-ba40-a9b60f160265",
+          "f_plan_id": "84dee799-d8bb-4479-adbe-8ecbd8365232",
+          "plan_name": "UHC Dual Complete NM-V1 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2385-001",
+          "parent_fpi": "b4b01325-46ac-59f0-ba40-a9b60f160265",
+          "f_plan_id": "5d00a098-05e6-40c1-9198-347329c69519",
+          "plan_name": "UHC Dual Complete IN-S002 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2385-002",
+          "parent_fpi": "b4b01325-46ac-59f0-ba40-a9b60f160265",
+          "f_plan_id": "d466c6de-28ad-478b-b2de-634c2936b4e7",
+          "plan_name": "UHC Dual Complete IN-D001 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2385-003",
+          "parent_fpi": "b4b01325-46ac-59f0-ba40-a9b60f160265",
+          "f_plan_id": "5ac02ed4-ba85-4fe8-bed3-3c000e9a99c4",
+          "plan_name": "UHC PathWays Dual Care IN-S1 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2385-004",
+          "parent_fpi": "b4b01325-46ac-59f0-ba40-a9b60f160265",
+          "f_plan_id": "047c20af-71bd-405d-ac35-1e9f8d3e3b8f",
+          "plan_name": "UHC PathWays Dual Care IN-S3 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6824-001",
+          "parent_fpi": "b4b01325-46ac-59f0-ba40-a9b60f160265",
+          "f_plan_id": "98af1f0f-dea1-4322-b786-17ef3960ca3e",
+          "plan_name": "UHC Dual Complete HI-S001 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6824-002",
+          "parent_fpi": "b4b01325-46ac-59f0-ba40-a9b60f160265",
+          "f_plan_id": "ded29d98-9e76-4ace-808e-0f4bd1636e28",
+          "plan_name": "UHC Dual Complete HI-Y1 (PPO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

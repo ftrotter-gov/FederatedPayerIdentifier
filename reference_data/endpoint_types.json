@@ -63,5 +63,10 @@
     "type": "carin_rtpbc_provider_endpoint",
     "ig_url": "https://hl7.org/fhir/us/carin-rtpbc/",
     "documentation": "A FHIR endpoint that allows providers and pharmacies to query a patient's real-time pharmacy benefit information on behalf of the member, enabling accurate cost and coverage decisions at the point of prescribing or dispensing."
+  },
+  {
+    "type": "cms_provider_directory_machine_readable_format_endpoint",
+    "ig_url": "https://github.com/ftrotter-gov/FederatedPayerIdentifier",
+    "documentation": "A URL pointing to a provider directory published in the machine-readable JSON file format that was first used to report payer data to healthcare.gov, and later adopted for use in Medicare Advantage. This is not a FHIR format and has no HL7 implementation guide, so the ig_url refers to this repository instead."
   }
 ]

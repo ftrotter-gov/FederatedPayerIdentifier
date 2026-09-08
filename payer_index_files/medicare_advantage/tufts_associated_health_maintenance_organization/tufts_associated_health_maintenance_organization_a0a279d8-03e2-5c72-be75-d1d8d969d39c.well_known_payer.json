@@ -1,0 +1,215 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
+      "is_fpi": true,
+      "payerLegalName": "TUFTS ASSOCIATED HEALTH MAINTENANCE ORGANIZATION",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "TUFTS ASSOCIATED HEALTH MAINTENANCE ORGANIZATION"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2256",
+      "is_fpi": false,
+      "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8330",
+      "is_fpi": false,
+      "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9907",
+      "is_fpi": false,
+      "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2256-001",
+          "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
+          "f_plan_id": "1f29f10e-c02f-4a4e-b400-4768dd31b759",
+          "plan_name": "Tufts Medicare Preferred HMO Prime Rx Plus (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2256-015",
+          "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
+          "f_plan_id": "542411b2-ea17-4cb8-9122-c0bab15e0570",
+          "plan_name": "Tufts Medicare Preferred HMO Prime Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2256-016",
+          "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
+          "f_plan_id": "17ebbf61-f952-4e89-bc04-80d8417b79d0",
+          "plan_name": "Tufts Medicare Preferred HMO Prime No Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2256-018",
+          "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
+          "f_plan_id": "e03ed07d-f1ab-4f00-bf5e-46bea21edd2f",
+          "plan_name": "Tufts Medicare Preferred HMO Value Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2256-019",
+          "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
+          "f_plan_id": "d9a98ac3-d7f3-44b0-afba-6902c8aa926c",
+          "plan_name": "Tufts Medicare Preferred HMO Value No Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2256-026",
+          "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
+          "f_plan_id": "10715986-e65a-4eca-8b25-a7244a143abf",
+          "plan_name": "Tufts Medicare Preferred HMO Basic Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2256-033",
+          "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
+          "f_plan_id": "8b187130-09ee-4d94-a994-73e362ddedd3",
+          "plan_name": "Tufts Medicare Preferred HMO Prime Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2256-034",
+          "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
+          "f_plan_id": "d62b784d-6fd3-41c9-b1ec-cc75ada059dd",
+          "plan_name": "Tufts Medicare Preferred HMO Value Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2256-036",
+          "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
+          "f_plan_id": "482c1147-3ffb-4644-b639-fa5505b4bb66",
+          "plan_name": "Tufts Medicare Preferred HMO Basic Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2256-039",
+          "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
+          "f_plan_id": "250fe029-26c4-427f-a3bb-81fea71e5161",
+          "plan_name": "Tufts Medicare Preferred HMO Prime No Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2256-040",
+          "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
+          "f_plan_id": "9d867d5e-53be-4d68-bae0-0a577b143daf",
+          "plan_name": "Tufts Medicare Preferred HMO Value No Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2256-041",
+          "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
+          "f_plan_id": "8ebba4c6-7ea5-4cc9-8bfc-718fa4a5c732",
+          "plan_name": "Tufts Medicare Preferred HMO Basic No Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2256-042",
+          "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
+          "f_plan_id": "51d0d7d1-a0da-4b5c-9352-d4942733091d",
+          "plan_name": "Tufts Medicare Preferred HMO Basic No Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2256-046",
+          "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
+          "f_plan_id": "ce12d4e3-ae61-468e-8ffe-6b029fcaa9fa",
+          "plan_name": "Tufts Medicare Preferred HMO Smart Saver Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2256-801",
+          "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
+          "f_plan_id": "7f616876-bfa9-4fb5-8c7d-d7e619bdd608",
+          "plan_name": "Tufts Medicare Preferred HMO Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2256-802",
+          "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
+          "f_plan_id": "9eb1dcf0-2729-491e-9244-225340540a24",
+          "plan_name": "Tufts Medicare Preferred HMO No Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2256-803",
+          "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
+          "f_plan_id": "c84694ce-6436-45f7-b3ab-a59f4c731943",
+          "plan_name": "Tufts Medicare Preferred HMO Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2256-808",
+          "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
+          "f_plan_id": "fb799ce1-b762-4c21-928f-e7ef6b584133",
+          "plan_name": "Tufts Medicare Preferred HMO No Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8330-001",
+          "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
+          "f_plan_id": "5f837a43-2245-4f5f-bf8c-e77bd3a17465",
+          "plan_name": "Tufts Health Plan Senior Care Options (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8330-002",
+          "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
+          "f_plan_id": "babb8048-73ca-4417-ae0f-ed09f6fb26fd",
+          "plan_name": "Tufts Health Plan Senior Care Options CW (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9907-801",
+          "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
+          "f_plan_id": "d2b946a3-d44f-4b73-b317-33e9011b8f26",
+          "plan_name": "Tufts Medicare Preferred PPO RX (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9907-802",
+          "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
+          "f_plan_id": "844ac328-4971-46ab-9c3e-011a071ebda8",
+          "plan_name": "Tufts Medicare Preferred PPO RX (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9907-803",
+          "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
+          "f_plan_id": "0861df6a-a300-4762-ac52-fd8743401f50",
+          "plan_name": "Tufts Medicare Preferred PPO No Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9907-804",
+          "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
+          "f_plan_id": "2058ec80-b68d-455c-9d76-1989c9ba199a",
+          "plan_name": "Tufts Medicare Preferred PPO No Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9907-002",
+          "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
+          "f_plan_id": "2399bdca-ddee-4b47-a5ae-4cefa5012b58",
+          "plan_name": "Tufts Medicare Preferred PPO RX (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

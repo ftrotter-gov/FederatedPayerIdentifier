@@ -1,0 +1,56 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "2065cdad-c2b1-5859-9440-50fee4894021",
+      "is_fpi": true,
+      "payerLegalName": "MOLINA HEALTHCARE OF ARIZONA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MOLINA HEALTHCARE OF ARIZONA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8845",
+      "is_fpi": false,
+      "parent_fpi": "2065cdad-c2b1-5859-9440-50fee4894021"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8845-001",
+          "parent_fpi": "2065cdad-c2b1-5859-9440-50fee4894021",
+          "f_plan_id": "8b9f71f1-e101-4cb5-8cc7-b604499a15ba",
+          "plan_name": "Molina Medicare Complete Care (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8845-004",
+          "parent_fpi": "2065cdad-c2b1-5859-9440-50fee4894021",
+          "f_plan_id": "0c4dba6b-ec5f-4c9a-b2f0-25570e1f5437",
+          "plan_name": "Molina Medicare Complete Care (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8845-005",
+          "parent_fpi": "2065cdad-c2b1-5859-9440-50fee4894021",
+          "f_plan_id": "ccea4030-9c19-4571-82d6-4e8d04b0691c",
+          "plan_name": "Molina Medicare Complete Care (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8845-007",
+          "parent_fpi": "2065cdad-c2b1-5859-9440-50fee4894021",
+          "f_plan_id": "f3a34e09-b842-4463-97d1-88413f0e4d6d",
+          "plan_name": "Molina Medicare Complete Care (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

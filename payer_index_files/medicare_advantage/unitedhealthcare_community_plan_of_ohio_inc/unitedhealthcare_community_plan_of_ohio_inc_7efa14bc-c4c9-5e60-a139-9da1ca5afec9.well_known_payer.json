@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "7efa14bc-c4c9-5e60-a139-9da1ca5afec9",
+      "is_fpi": true,
+      "payerLegalName": "UNITEDHEALTHCARE COMMUNITY PLAN OF OHIO, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "UNITEDHEALTHCARE COMMUNITY PLAN OF OHIO, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1285",
+      "is_fpi": false,
+      "parent_fpi": "7efa14bc-c4c9-5e60-a139-9da1ca5afec9"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1285-001",
+          "parent_fpi": "7efa14bc-c4c9-5e60-a139-9da1ca5afec9",
+          "f_plan_id": "8f43f470-46f8-4a6a-babf-7d8a7b050636",
+          "plan_name": "UHC Dual Complete OH-S2 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1285-002",
+          "parent_fpi": "7efa14bc-c4c9-5e60-a139-9da1ca5afec9",
+          "f_plan_id": "226b25a2-c6b2-4141-b0cc-2d7cb9992361",
+          "plan_name": "UHC Dual Complete OH-S3 (HMO-POS D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

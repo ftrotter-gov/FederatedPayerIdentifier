@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "e1a5fbff-a164-550c-bedd-ec99fe7d52ca",
+      "is_fpi": true,
+      "payerLegalName": "ALIGN SENIOR CARE CALIFORNIA INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ALIGN SENIOR CARE CALIFORNIA INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3274",
+      "is_fpi": false,
+      "parent_fpi": "e1a5fbff-a164-550c-bedd-ec99fe7d52ca"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3274-001",
+          "parent_fpi": "e1a5fbff-a164-550c-bedd-ec99fe7d52ca",
+          "f_plan_id": "5545e9d3-b3a9-44b9-b69f-84080e97abcd",
+          "plan_name": "Senior Care (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3274-002",
+          "parent_fpi": "e1a5fbff-a164-550c-bedd-ec99fe7d52ca",
+          "f_plan_id": "41922d97-38c2-44aa-ad4a-3fcd5ab9d4a6",
+          "plan_name": "Premier Care (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3274-005",
+          "parent_fpi": "e1a5fbff-a164-550c-bedd-ec99fe7d52ca",
+          "f_plan_id": "f79b0a59-d6e4-430a-873d-83395b9c22cf",
+          "plan_name": "Advantage Care (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,138 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "29524cbd-c255-5097-a691-1bd7cd075c35",
+      "is_fpi": true,
+      "payerLegalName": "COMMUNITY INSURANCE COMPANY",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "COMMUNITY INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2628",
+      "is_fpi": false,
+      "parent_fpi": "29524cbd-c255-5097-a691-1bd7cd075c35"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3655",
+      "is_fpi": false,
+      "parent_fpi": "29524cbd-c255-5097-a691-1bd7cd075c35"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7093",
+      "is_fpi": false,
+      "parent_fpi": "29524cbd-c255-5097-a691-1bd7cd075c35"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2628-001",
+          "parent_fpi": "29524cbd-c255-5097-a691-1bd7cd075c35",
+          "f_plan_id": "64ff8180-7370-4fcc-8586-fa1b9d9f069e",
+          "plan_name": "Anthem I MyCare Ohio Full Dual Advantage (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2628-003",
+          "parent_fpi": "29524cbd-c255-5097-a691-1bd7cd075c35",
+          "f_plan_id": "d990a698-de93-467f-bc57-45e500947ef3",
+          "plan_name": "Anthem Full Dual Advantage (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2628-004",
+          "parent_fpi": "29524cbd-c255-5097-a691-1bd7cd075c35",
+          "f_plan_id": "e05cd7c1-38e0-4ec1-8368-52aad325a22b",
+          "plan_name": "Anthem Full Dual Advantage 2 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2628-005",
+          "parent_fpi": "29524cbd-c255-5097-a691-1bd7cd075c35",
+          "f_plan_id": "30fbf5e1-dcb5-4637-a5cc-259c84892e6a",
+          "plan_name": "Anthem Dual Advantage (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3655-041",
+          "parent_fpi": "29524cbd-c255-5097-a691-1bd7cd075c35",
+          "f_plan_id": "a27e2a8c-1966-42d6-a300-634252cc68fb",
+          "plan_name": "Anthem Extra Help (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3655-045",
+          "parent_fpi": "29524cbd-c255-5097-a691-1bd7cd075c35",
+          "f_plan_id": "5ddfd1ff-474e-46cc-9a47-9bc6db87db74",
+          "plan_name": "Anthem Medicare Advantage (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3655-801",
+          "parent_fpi": "29524cbd-c255-5097-a691-1bd7cd075c35",
+          "f_plan_id": "5123a9a9-97ed-435f-8b00-fa8469aad8ca",
+          "plan_name": "Anthem Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3655-803",
+          "parent_fpi": "29524cbd-c255-5097-a691-1bd7cd075c35",
+          "f_plan_id": "b2932763-fc54-4eb2-a2c1-1ef6367ce28d",
+          "plan_name": "Anthem Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3655-805",
+          "parent_fpi": "29524cbd-c255-5097-a691-1bd7cd075c35",
+          "f_plan_id": "fbc4f86f-2e33-49df-a5bb-a5bd4a1284a7",
+          "plan_name": "Anthem Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3655-806",
+          "parent_fpi": "29524cbd-c255-5097-a691-1bd7cd075c35",
+          "f_plan_id": "a0b1e897-7fd5-49ca-ae4f-ebaa9520319a",
+          "plan_name": "Anthem Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3655-808",
+          "parent_fpi": "29524cbd-c255-5097-a691-1bd7cd075c35",
+          "f_plan_id": "d8b31894-6261-49d4-8b07-319c84bec7db",
+          "plan_name": "Anthem Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3655-810",
+          "parent_fpi": "29524cbd-c255-5097-a691-1bd7cd075c35",
+          "f_plan_id": "55c45176-195a-49f6-8505-e1751ea68e83",
+          "plan_name": "Anthem Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7093-001",
+          "parent_fpi": "29524cbd-c255-5097-a691-1bd7cd075c35",
+          "f_plan_id": "694248c8-8287-43c1-afe7-4e7c07878396",
+          "plan_name": "Anthem Veteran (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7093-002",
+          "parent_fpi": "29524cbd-c255-5097-a691-1bd7cd075c35",
+          "f_plan_id": "00f28ace-05ed-4023-9423-e1de6f587d87",
+          "plan_name": "Anthem Medicare Advantage (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "a9bc102f-0525-55d3-8496-fc0bdd25d8a1",
+      "is_fpi": true,
+      "payerLegalName": "AMERIHEALTH MICHIGAN, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "AMERIHEALTH MICHIGAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6341",
+      "is_fpi": false,
+      "parent_fpi": "a9bc102f-0525-55d3-8496-fc0bdd25d8a1"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6341-001",
+          "parent_fpi": "a9bc102f-0525-55d3-8496-fc0bdd25d8a1",
+          "f_plan_id": "15776aeb-0985-4ec0-b29a-699cc047aac7",
+          "plan_name": "AmeriHealth Caritas VIP Care (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

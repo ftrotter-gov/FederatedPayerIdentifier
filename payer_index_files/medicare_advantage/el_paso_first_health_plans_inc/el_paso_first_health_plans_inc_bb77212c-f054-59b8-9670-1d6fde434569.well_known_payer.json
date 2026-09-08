@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "bb77212c-f054-59b8-9670-1d6fde434569",
+      "is_fpi": true,
+      "payerLegalName": "EL PASO FIRST HEALTH PLANS, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "EL PASO FIRST HEALTH PLANS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3407",
+      "is_fpi": false,
+      "parent_fpi": "bb77212c-f054-59b8-9670-1d6fde434569"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3407-001",
+          "parent_fpi": "bb77212c-f054-59b8-9670-1d6fde434569",
+          "f_plan_id": "790dad03-adb5-4887-8e3b-3828b382b946",
+          "plan_name": "El Paso Health Medicare Advantage Dual (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3407-002",
+          "parent_fpi": "bb77212c-f054-59b8-9670-1d6fde434569",
+          "f_plan_id": "bf7a82b9-0ee7-49b2-9abb-42e1df300841",
+          "plan_name": "El Paso Health Total (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3407-003",
+          "parent_fpi": "bb77212c-f054-59b8-9670-1d6fde434569",
+          "f_plan_id": "4a0e27c7-fa7c-4ff0-8070-898282de7626",
+          "plan_name": "El Paso Health Giveback (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

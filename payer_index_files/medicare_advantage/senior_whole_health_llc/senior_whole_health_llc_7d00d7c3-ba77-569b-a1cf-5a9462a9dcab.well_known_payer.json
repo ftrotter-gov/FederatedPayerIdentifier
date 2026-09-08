@@ -1,0 +1,55 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "7d00d7c3-ba77-569b-a1cf-5a9462a9dcab",
+      "is_fpi": true,
+      "payerLegalName": "SENIOR WHOLE HEALTH, LLC",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SENIOR WHOLE HEALTH, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2224",
+      "is_fpi": false,
+      "parent_fpi": "7d00d7c3-ba77-569b-a1cf-5a9462a9dcab"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4371",
+      "is_fpi": false,
+      "parent_fpi": "7d00d7c3-ba77-569b-a1cf-5a9462a9dcab"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2224-001",
+          "parent_fpi": "7d00d7c3-ba77-569b-a1cf-5a9462a9dcab",
+          "f_plan_id": "57028a86-1cfe-4fa6-ba2b-459ffcc3beab",
+          "plan_name": "Senior Whole Health SCO (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2224-003",
+          "parent_fpi": "7d00d7c3-ba77-569b-a1cf-5a9462a9dcab",
+          "f_plan_id": "9a0c9b8c-b82a-4983-bd3e-90073971fde3",
+          "plan_name": "Senior Whole Health SCO NHC (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4371-001",
+          "parent_fpi": "7d00d7c3-ba77-569b-a1cf-5a9462a9dcab",
+          "f_plan_id": "40696643-7448-4c9c-84b1-ead1ac3f3b1e",
+          "plan_name": "Molina One Care (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

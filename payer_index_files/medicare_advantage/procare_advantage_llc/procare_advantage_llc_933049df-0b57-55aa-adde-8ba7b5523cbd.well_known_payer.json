@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "933049df-0b57-55aa-adde-8ba7b5523cbd",
+      "is_fpi": true,
+      "payerLegalName": "PROCARE ADVANTAGE, LLC",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PROCARE ADVANTAGE, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3467",
+      "is_fpi": false,
+      "parent_fpi": "933049df-0b57-55aa-adde-8ba7b5523cbd"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3467-001",
+          "parent_fpi": "933049df-0b57-55aa-adde-8ba7b5523cbd",
+          "f_plan_id": "1c64d163-b2ba-4f46-935f-63f7a45a040d",
+          "plan_name": "ProCare Advantage (HMO-POS I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3467-002",
+          "parent_fpi": "933049df-0b57-55aa-adde-8ba7b5523cbd",
+          "f_plan_id": "21fdea63-7331-433f-8892-f2e839f53787",
+          "plan_name": "ProCare Advantage - Kidney Care (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3467-005",
+          "parent_fpi": "933049df-0b57-55aa-adde-8ba7b5523cbd",
+          "f_plan_id": "a5d7af6c-18cc-423c-a8b1-13cab3623cde",
+          "plan_name": "ProCare Advantage - Diabetes Care Management (HMO-POS C-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

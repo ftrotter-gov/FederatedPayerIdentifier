@@ -1,0 +1,48 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "8afdc11a-ae6c-551b-9aa6-34541b23cc68",
+      "is_fpi": true,
+      "payerLegalName": "SENTARA HEALTH PLANS",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SENTARA HEALTH PLANS"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2563",
+      "is_fpi": false,
+      "parent_fpi": "8afdc11a-ae6c-551b-9aa6-34541b23cc68"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4499",
+      "is_fpi": false,
+      "parent_fpi": "8afdc11a-ae6c-551b-9aa6-34541b23cc68"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2563-020",
+          "parent_fpi": "8afdc11a-ae6c-551b-9aa6-34541b23cc68",
+          "f_plan_id": "396482aa-cc64-49d6-9f2a-4b2daac555d2",
+          "plan_name": "Sentara Community Complete Select (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4499-001",
+          "parent_fpi": "8afdc11a-ae6c-551b-9aa6-34541b23cc68",
+          "f_plan_id": "903d3d29-3d10-499c-9dbe-bcb3555104fe",
+          "plan_name": "Sentara Community Complete (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

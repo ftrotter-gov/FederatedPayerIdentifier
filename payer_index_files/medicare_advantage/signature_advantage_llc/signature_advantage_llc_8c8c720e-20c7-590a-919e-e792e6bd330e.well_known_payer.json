@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "8c8c720e-20c7-590a-919e-e792e6bd330e",
+      "is_fpi": true,
+      "payerLegalName": "SIGNATURE ADVANTAGE, LLC",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SIGNATURE ADVANTAGE, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2400",
+      "is_fpi": false,
+      "parent_fpi": "8c8c720e-20c7-590a-919e-e792e6bd330e"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2400-001",
+          "parent_fpi": "8c8c720e-20c7-590a-919e-e792e6bd330e",
+          "f_plan_id": "67952069-331b-4082-a3aa-d4c8a3d73cd3",
+          "plan_name": "Abilis Health (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2400-002",
+          "parent_fpi": "8c8c720e-20c7-590a-919e-e792e6bd330e",
+          "f_plan_id": "c73077bc-5661-48b7-8549-9d142cbd7ce7",
+          "plan_name": "Abilis Health Community (HMO I-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

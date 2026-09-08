@@ -1,0 +1,62 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "7b88c479-1427-53d0-89ea-66e293006983",
+      "is_fpi": true,
+      "payerLegalName": "GHS INSURANCE COMPANY",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "GHS INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8133",
+      "is_fpi": false,
+      "parent_fpi": "7b88c479-1427-53d0-89ea-66e293006983"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8554",
+      "is_fpi": false,
+      "parent_fpi": "7b88c479-1427-53d0-89ea-66e293006983"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8133-001",
+          "parent_fpi": "7b88c479-1427-53d0-89ea-66e293006983",
+          "f_plan_id": "9f00ea87-268c-4f84-bb8e-e5040cf760e8",
+          "plan_name": "Blue Cross Medicare Advantage Basic (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8133-005",
+          "parent_fpi": "7b88c479-1427-53d0-89ea-66e293006983",
+          "f_plan_id": "d9247130-16c4-4525-a65e-ae39ee379836",
+          "plan_name": "Blue Cross Medicare Advantage Basic (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8554-001",
+          "parent_fpi": "7b88c479-1427-53d0-89ea-66e293006983",
+          "f_plan_id": "c4328f03-6d45-4e37-997f-1d0ab10223f9",
+          "plan_name": "Blue Cross Medicare Advantage Core (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8554-003",
+          "parent_fpi": "7b88c479-1427-53d0-89ea-66e293006983",
+          "f_plan_id": "ff142e27-0698-49f8-990a-494b221a3598",
+          "plan_name": "Blue Cross Medicare Advantage Dual Care Plus (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

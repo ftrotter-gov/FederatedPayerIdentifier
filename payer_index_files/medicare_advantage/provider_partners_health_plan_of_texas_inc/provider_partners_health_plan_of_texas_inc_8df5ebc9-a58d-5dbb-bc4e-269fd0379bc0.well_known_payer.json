@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "8df5ebc9-a58d-5dbb-bc4e-269fd0379bc0",
+      "is_fpi": true,
+      "payerLegalName": "PROVIDER PARTNERS HEALTH PLAN OF TEXAS, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PROVIDER PARTNERS HEALTH PLAN OF TEXAS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4054",
+      "is_fpi": false,
+      "parent_fpi": "8df5ebc9-a58d-5dbb-bc4e-269fd0379bc0"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4054-001",
+          "parent_fpi": "8df5ebc9-a58d-5dbb-bc4e-269fd0379bc0",
+          "f_plan_id": "c94cd698-3002-4d6a-8825-afe83bbb994c",
+          "plan_name": "Provider Partners Texas Advantage Plan (HMO I-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

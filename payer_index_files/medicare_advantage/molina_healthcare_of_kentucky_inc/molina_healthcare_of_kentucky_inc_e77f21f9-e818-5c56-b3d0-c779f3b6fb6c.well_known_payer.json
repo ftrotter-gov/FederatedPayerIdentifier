@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "e77f21f9-e818-5c56-b3d0-c779f3b6fb6c",
+      "is_fpi": true,
+      "payerLegalName": "MOLINA HEALTHCARE OF KENTUCKY, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MOLINA HEALTHCARE OF KENTUCKY, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1799",
+      "is_fpi": false,
+      "parent_fpi": "e77f21f9-e818-5c56-b3d0-c779f3b6fb6c"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1799-003",
+          "parent_fpi": "e77f21f9-e818-5c56-b3d0-c779f3b6fb6c",
+          "f_plan_id": "43e32b4a-6993-45f9-954d-57337715c027",
+          "plan_name": "Passport Advantage (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1799-004",
+          "parent_fpi": "e77f21f9-e818-5c56-b3d0-c779f3b6fb6c",
+          "f_plan_id": "d8cf5b5a-d90c-4bc6-8403-644eadbdd36b",
+          "plan_name": "Molina Medicare Complete Care (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1799-005",
+          "parent_fpi": "e77f21f9-e818-5c56-b3d0-c779f3b6fb6c",
+          "f_plan_id": "47f1abca-20b5-4b78-b7d4-dd8b97049866",
+          "plan_name": "Molina Medicare Complete Care (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

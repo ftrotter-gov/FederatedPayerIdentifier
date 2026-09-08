@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "f99a29ff-28d2-533d-949b-5428218bde66",
+      "is_fpi": true,
+      "payerLegalName": "LIBERTY ADVANTAGE, LLC",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "LIBERTY ADVANTAGE, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6351",
+      "is_fpi": false,
+      "parent_fpi": "f99a29ff-28d2-533d-949b-5428218bde66"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6351-001",
+          "parent_fpi": "f99a29ff-28d2-533d-949b-5428218bde66",
+          "f_plan_id": "b5b428e1-567a-4fa8-8b3b-7fd4a33ea311",
+          "plan_name": "Liberty Medicare Advantage Nursing Home Plan (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6351-004",
+          "parent_fpi": "f99a29ff-28d2-533d-949b-5428218bde66",
+          "f_plan_id": "b44d15d0-5820-4471-a887-3bffd6fb2e90",
+          "plan_name": "Liberty Medicare Advantage (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6351-005",
+          "parent_fpi": "f99a29ff-28d2-533d-949b-5428218bde66",
+          "f_plan_id": "9a2e469d-d09e-4a14-8021-2c3fa6980ade",
+          "plan_name": "Liberty Medicare Dual Plan (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

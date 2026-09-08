@@ -1,0 +1,84 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "66582bf2-5e52-5584-ba8a-6128c3768264",
+      "is_fpi": true,
+      "payerLegalName": "HOMETOWN HEALTH PLAN, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HOMETOWN HEALTH PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2960",
+      "is_fpi": false,
+      "parent_fpi": "66582bf2-5e52-5584-ba8a-6128c3768264"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2960-009",
+          "parent_fpi": "66582bf2-5e52-5584-ba8a-6128c3768264",
+          "f_plan_id": "2426c1a5-5757-4b24-b201-8de2e0b7c2dd",
+          "plan_name": "Senior Care Plus Patriot Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2960-012",
+          "parent_fpi": "66582bf2-5e52-5584-ba8a-6128c3768264",
+          "f_plan_id": "6b191b7f-efc1-42e6-ae3e-87f5425419af",
+          "plan_name": "Senior Care Plus Essential plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2960-018",
+          "parent_fpi": "66582bf2-5e52-5584-ba8a-6128c3768264",
+          "f_plan_id": "ddc8c1da-3517-417a-b3da-3b915db80179",
+          "plan_name": "Senior Care Plus Select Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2960-019",
+          "parent_fpi": "66582bf2-5e52-5584-ba8a-6128c3768264",
+          "f_plan_id": "75318a38-31b8-4a8b-9db0-45634beffde3",
+          "plan_name": "Senior Care Plus Complete Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2960-023",
+          "parent_fpi": "66582bf2-5e52-5584-ba8a-6128c3768264",
+          "f_plan_id": "6ba523f8-153a-4fb7-a43d-b3e929af2aed",
+          "plan_name": "Renown Preferred Plan by Senior Care Plus (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2960-024",
+          "parent_fpi": "66582bf2-5e52-5584-ba8a-6128c3768264",
+          "f_plan_id": "3ee741aa-62ed-4bd2-ad9e-9d026493962a",
+          "plan_name": "Senior Care Plus Extensive Duals Plan (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2960-026",
+          "parent_fpi": "66582bf2-5e52-5584-ba8a-6128c3768264",
+          "f_plan_id": "8f81407b-ade6-473f-8a29-90a8f3c4c45d",
+          "plan_name": "Senior Care Plus Enriched Duals Plan (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2960-803",
+          "parent_fpi": "66582bf2-5e52-5584-ba8a-6128c3768264",
+          "f_plan_id": "98fdd136-8b09-4c96-b354-c664694f62d3",
+          "plan_name": "Senior Care Plus: Value Group Plan (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

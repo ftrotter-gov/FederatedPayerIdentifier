@@ -1,0 +1,244 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+      "is_fpi": true,
+      "payerLegalName": "PRIORITY HEALTH",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PRIORITY HEALTH"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2320",
+      "is_fpi": false,
+      "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4875",
+      "is_fpi": false,
+      "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2320-022",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "e7b41008-818d-4a01-9c9b-16efe095fcb1",
+          "plan_name": "PriorityMedicare Key (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2320-028",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "db6ed9c7-cacd-4ddc-8d4c-ac755847e416",
+          "plan_name": "PriorityMedicare (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2320-029",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "049f9500-8877-4b51-bbd2-af8b7e9636bc",
+          "plan_name": "PriorityMedicare Value (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2320-031",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "d00b6117-faf0-43b5-bb01-182536878c7a",
+          "plan_name": "PriorityMedicare Vintage (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2320-802",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "50f9c45e-3ee0-4ffc-b5b4-a5ccd63fea89",
+          "plan_name": "PriorityMedicare EG Non-Calendar Year (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2320-803",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "cdcaa68f-b1f4-4c23-9af5-dc78a1b9b950",
+          "plan_name": "PriorityMedicare EG Calendar Year (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2320-804",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "39cc81aa-d67f-47a2-bdb5-2e053698b008",
+          "plan_name": "PriorityMedicare EG HMO w PD Non-Cal Year (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2320-805",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "c9f6936f-b107-4f33-b257-b6e491a04360",
+          "plan_name": "PriorityMedicare EG HMO w PD Cal Year (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2320-810",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "1c55d296-811f-4879-80ba-5eda588d70bd",
+          "plan_name": "PriorityMedicare EG HMO Cal Year No RX (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2320-811",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "c3588710-4f29-42a3-9d43-a143c696dbc2",
+          "plan_name": "PriorityMedicare EG HMO Non-Cal Year No RX (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2320-812",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "5c3f580d-7bd0-4da4-9e42-4fe93be963a0",
+          "plan_name": "PriorityMedicare HMO-POS No RX EGWP Calendar (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2320-813",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "8fd46423-694c-4106-89ca-3b5bf58715d2",
+          "plan_name": "PriorityMedicare HMO-POS No RX EGWP Non-Calendar (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2320-814",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "5431e283-69c3-4fce-94fb-bed9553479f4",
+          "plan_name": "PriorityMedicare EG Calendar Year $50 Part B HMO (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2320-815",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "1d89e5db-435c-4663-9a25-6e575e91c670",
+          "plan_name": "PriorityMedicare EG Calendar Year $75 Part B HMO (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2320-816",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "b60e973c-8439-411a-85a7-2dbaad9f4ee4",
+          "plan_name": "PriorityMedicare EG Calendar Year $100 Part B HMO (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2320-032",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "326f112f-91de-4bf8-a768-2c2875196301",
+          "plan_name": "PriorityMedicare Smart Savings (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2320-817",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "3425bb7d-5f5a-4487-a797-c140a32b2fa4",
+          "plan_name": "PriorityMedicare EG Calendar Year $125 Buyback (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4875-016",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "e6c6acce-e3e4-425b-8423-ecf2a425d806",
+          "plan_name": "PriorityMedicare Merit (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4875-018",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "2031b17d-8d12-436b-889b-5188cf930efe",
+          "plan_name": "PriorityMedicare Thrive Plus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4875-020",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "b1eee053-c282-4a80-88fa-6d88db422e7e",
+          "plan_name": "PriorityMedicare Edge (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4875-022",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "4ef29136-3383-4c9c-a1dd-aea3ebee5415",
+          "plan_name": "PriorityMedicare Vital (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4875-024",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "27214768-7d5e-4572-8380-ad2fba2464a9",
+          "plan_name": "PriorityMedicare Thrive (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4875-803",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "c6bec7af-57aa-4191-81fc-1b6d7729c013",
+          "plan_name": "PriorityMedicare PPO EG Non-Calendar Year (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4875-804",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "b75afd35-edc6-43bc-9af3-df14436dd5fc",
+          "plan_name": "PriorityMedicare PPO EG Calendar Year (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4875-805",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "96698cd9-2391-44fa-a757-5c2fca6ab9ca",
+          "plan_name": "PriorityMedicare PPO No RX EGWP Calendar (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4875-806",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "9b04c96f-d985-48c8-882f-1ccb19303ca0",
+          "plan_name": "PriorityMedicare PPO No RX EGWP Non-Calendar (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4875-807",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "04d0e428-9219-4d33-a38c-5c1bc6a43782",
+          "plan_name": "PriorityMedicare EG Calendar Year $50 Part B PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4875-808",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "0e0a2231-4872-4112-a141-6fc7da13de1a",
+          "plan_name": "PriorityMedicare EG Calendar Year $75 Part B PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4875-809",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "379629a9-bd9d-41f8-bd3c-1079a5040ae2",
+          "plan_name": "PriorityMedicare EG Calendar Year $100 Part B PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4875-810",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "b0cec974-9c97-4bd3-9302-b25323c85455",
+          "plan_name": "PriorityMedicare EG Calendar Year $125 Buy Back (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

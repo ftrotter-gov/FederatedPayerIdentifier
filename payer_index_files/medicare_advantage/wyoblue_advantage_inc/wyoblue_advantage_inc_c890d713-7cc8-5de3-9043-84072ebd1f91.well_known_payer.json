@@ -1,0 +1,56 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "c890d713-7cc8-5de3-9043-84072ebd1f91",
+      "is_fpi": true,
+      "payerLegalName": "WYOBLUE ADVANTAGE INC",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WYOBLUE ADVANTAGE INC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9326",
+      "is_fpi": false,
+      "parent_fpi": "c890d713-7cc8-5de3-9043-84072ebd1f91"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9326-001",
+          "parent_fpi": "c890d713-7cc8-5de3-9043-84072ebd1f91",
+          "f_plan_id": "f07d397b-855d-4a20-9412-e8d8101e1453",
+          "plan_name": "WyoBlue Advantage Essential PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9326-002",
+          "parent_fpi": "c890d713-7cc8-5de3-9043-84072ebd1f91",
+          "f_plan_id": "46716c1a-65fb-4de0-8a82-b02a747520e0",
+          "plan_name": "WyoBlue Advantage Enhanced PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9326-003",
+          "parent_fpi": "c890d713-7cc8-5de3-9043-84072ebd1f91",
+          "f_plan_id": "b80c77e4-93d4-411a-bd0f-2c201404a8a6",
+          "plan_name": "WyoBlue Advantage Entrust PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9326-801",
+          "parent_fpi": "c890d713-7cc8-5de3-9043-84072ebd1f91",
+          "f_plan_id": "89a09263-2549-4eda-9fab-0d2c7f2e7074",
+          "plan_name": "WyoBlue Advantage Group PPO (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

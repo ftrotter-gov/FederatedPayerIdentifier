@@ -1,0 +1,161 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "61e938dc-9301-5ec9-8501-27f8f105bac9",
+      "is_fpi": true,
+      "payerLegalName": "FLORIDA BLUE MEDICARE, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "FLORIDA BLUE MEDICARE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1035",
+      "is_fpi": false,
+      "parent_fpi": "61e938dc-9301-5ec9-8501-27f8f105bac9"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1035-002",
+          "parent_fpi": "61e938dc-9301-5ec9-8501-27f8f105bac9",
+          "f_plan_id": "668137b0-011a-4ad3-958e-abd7eb922752",
+          "plan_name": "FHCP Medicare Rx Plus (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1035-017",
+          "parent_fpi": "61e938dc-9301-5ec9-8501-27f8f105bac9",
+          "f_plan_id": "f2cffb87-f1bc-4573-bdb3-9234ceccbe06",
+          "plan_name": "BlueMedicare Classic (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1035-019",
+          "parent_fpi": "61e938dc-9301-5ec9-8501-27f8f105bac9",
+          "f_plan_id": "1c9fe26b-19df-4c22-a597-6d7b31a4025d",
+          "plan_name": "BlueMedicare Classic (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1035-020",
+          "parent_fpi": "61e938dc-9301-5ec9-8501-27f8f105bac9",
+          "f_plan_id": "7bf69cbc-6c5f-447c-94b8-e795d210cacd",
+          "plan_name": "BlueMedicare Classic (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1035-021",
+          "parent_fpi": "61e938dc-9301-5ec9-8501-27f8f105bac9",
+          "f_plan_id": "d181ef87-8848-42b2-b359-aeec2e8374be",
+          "plan_name": "BlueMedicare Classic (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1035-022",
+          "parent_fpi": "61e938dc-9301-5ec9-8501-27f8f105bac9",
+          "f_plan_id": "17f81d92-2cf4-4a69-a302-b6d0fd217a6d",
+          "plan_name": "BlueMedicare Premier (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1035-025",
+          "parent_fpi": "61e938dc-9301-5ec9-8501-27f8f105bac9",
+          "f_plan_id": "afe67a28-751f-4337-99cf-7bb6541084bb",
+          "plan_name": "BlueMedicare Premier (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1035-026",
+          "parent_fpi": "61e938dc-9301-5ec9-8501-27f8f105bac9",
+          "f_plan_id": "fd160909-a96f-46a1-a863-07f16f56a4a5",
+          "plan_name": "BlueMedicare Premier (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1035-033",
+          "parent_fpi": "61e938dc-9301-5ec9-8501-27f8f105bac9",
+          "f_plan_id": "4093aeb2-4f18-482d-a61d-30940216b997",
+          "plan_name": "BlueMedicare Premier (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1035-034",
+          "parent_fpi": "61e938dc-9301-5ec9-8501-27f8f105bac9",
+          "f_plan_id": "f7f4267d-1e87-40db-8421-f4b43b0855b4",
+          "plan_name": "BlueMedicare Premier (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1035-040",
+          "parent_fpi": "61e938dc-9301-5ec9-8501-27f8f105bac9",
+          "f_plan_id": "0b3571f3-927f-43c4-ae36-24a49edef244",
+          "plan_name": "FHCP Medicare Classic (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1035-043",
+          "parent_fpi": "61e938dc-9301-5ec9-8501-27f8f105bac9",
+          "f_plan_id": "49d57c44-82a9-4ad9-9e81-3219ae7b5168",
+          "plan_name": "BlueMedicare Premier (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1035-045",
+          "parent_fpi": "61e938dc-9301-5ec9-8501-27f8f105bac9",
+          "f_plan_id": "4a2258f9-6222-4d5a-a0d6-e209e98b993b",
+          "plan_name": "BlueMedicare Premier (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1035-048",
+          "parent_fpi": "61e938dc-9301-5ec9-8501-27f8f105bac9",
+          "f_plan_id": "f24d6e54-161d-453a-bec9-094b66b5979b",
+          "plan_name": "BlueMedicare Premier (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1035-052",
+          "parent_fpi": "61e938dc-9301-5ec9-8501-27f8f105bac9",
+          "f_plan_id": "305a3ed8-6354-438e-b223-a3d4b9fc33a5",
+          "plan_name": "BlueMedicare Preferred (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1035-801",
+          "parent_fpi": "61e938dc-9301-5ec9-8501-27f8f105bac9",
+          "f_plan_id": "bedbfb29-407c-43f0-a75f-86e56cae3160",
+          "plan_name": "BlueMedicare Group HMO (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1035-802",
+          "parent_fpi": "61e938dc-9301-5ec9-8501-27f8f105bac9",
+          "f_plan_id": "7d767fe0-eb4b-43b5-bb83-eaafdfd424e2",
+          "plan_name": "BlueMedicare Group HMO (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1035-803",
+          "parent_fpi": "61e938dc-9301-5ec9-8501-27f8f105bac9",
+          "f_plan_id": "cc09c0bb-acf6-4ca0-97cd-8092fee2acf9",
+          "plan_name": "BlueMedicare Group MA HMO (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1035-804",
+          "parent_fpi": "61e938dc-9301-5ec9-8501-27f8f105bac9",
+          "f_plan_id": "112db574-ad86-4206-a222-ef3831ee1d13",
+          "plan_name": "BlueMedicare Group MA HMO (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

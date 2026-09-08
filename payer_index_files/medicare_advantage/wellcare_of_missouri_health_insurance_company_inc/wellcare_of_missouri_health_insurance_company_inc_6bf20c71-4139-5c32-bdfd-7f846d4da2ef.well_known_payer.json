@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "6bf20c71-4139-5c32-bdfd-7f846d4da2ef",
+      "is_fpi": true,
+      "payerLegalName": "WELLCARE OF MISSOURI HEALTH INSURANCE COMPANY, INC",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WELLCARE OF MISSOURI HEALTH INSURANCE COMPANY, INC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7518",
+      "is_fpi": false,
+      "parent_fpi": "6bf20c71-4139-5c32-bdfd-7f846d4da2ef"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7518-001",
+          "parent_fpi": "6bf20c71-4139-5c32-bdfd-7f846d4da2ef",
+          "f_plan_id": "ad9c4f77-8b03-44c8-85b5-f74d8c185fed",
+          "plan_name": "Wellcare Simple Open (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7518-002",
+          "parent_fpi": "6bf20c71-4139-5c32-bdfd-7f846d4da2ef",
+          "f_plan_id": "95821c54-0c02-496f-ac3f-3f42be698906",
+          "plan_name": "Wellcare Patriot Giveback Open (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7518-003",
+          "parent_fpi": "6bf20c71-4139-5c32-bdfd-7f846d4da2ef",
+          "f_plan_id": "44a80f84-226e-4b7d-9a47-64a3db8f215e",
+          "plan_name": "Wellcare Dual Access Open (PPO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

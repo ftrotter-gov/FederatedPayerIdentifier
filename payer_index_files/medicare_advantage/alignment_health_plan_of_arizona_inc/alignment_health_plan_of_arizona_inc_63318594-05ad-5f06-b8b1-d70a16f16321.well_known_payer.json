@@ -1,0 +1,100 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "63318594-05ad-5f06-b8b1-d70a16f16321",
+      "is_fpi": true,
+      "payerLegalName": "ALIGNMENT HEALTH PLAN OF ARIZONA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ALIGNMENT HEALTH PLAN OF ARIZONA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3443",
+      "is_fpi": false,
+      "parent_fpi": "63318594-05ad-5f06-b8b1-d70a16f16321"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3443-001",
+          "parent_fpi": "63318594-05ad-5f06-b8b1-d70a16f16321",
+          "f_plan_id": "a3b06050-ca47-4987-9ccd-68691fe0dbf7",
+          "plan_name": "Alignment Health the ONE + Walgreens (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3443-002",
+          "parent_fpi": "63318594-05ad-5f06-b8b1-d70a16f16321",
+          "f_plan_id": "d48fd082-e166-4eda-ba1b-fe733a372d39",
+          "plan_name": "Alignment Health the ONE + Walgreens (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3443-003",
+          "parent_fpi": "63318594-05ad-5f06-b8b1-d70a16f16321",
+          "f_plan_id": "da5beea8-ec68-4f89-bd9a-c4835cb695f2",
+          "plan_name": "Alignment Health Heart & Diabetes (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3443-005",
+          "parent_fpi": "63318594-05ad-5f06-b8b1-d70a16f16321",
+          "f_plan_id": "cf3ccc6f-295e-4355-be1f-92e4c20de267",
+          "plan_name": "Alignment Health smartHMO (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3443-006",
+          "parent_fpi": "63318594-05ad-5f06-b8b1-d70a16f16321",
+          "f_plan_id": "6ca86c42-946d-4caf-9396-ab8675ab3ac6",
+          "plan_name": "Alignment Health Heart & Diabetes Plus (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3443-801",
+          "parent_fpi": "63318594-05ad-5f06-b8b1-d70a16f16321",
+          "f_plan_id": "57bc2ac4-5fe1-4847-9374-e20cbd8f1a1a",
+          "plan_name": "Alignment Health Plan Retiree Options (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3443-802",
+          "parent_fpi": "63318594-05ad-5f06-b8b1-d70a16f16321",
+          "f_plan_id": "e4daafdc-9097-4b46-b028-3ed57ec2be6c",
+          "plan_name": "Alignment Health Plan Retiree Options (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3443-803",
+          "parent_fpi": "63318594-05ad-5f06-b8b1-d70a16f16321",
+          "f_plan_id": "8792fe9a-7065-40c4-99f8-07a104c8cd69",
+          "plan_name": "Alignment Health Plan Retiree Options (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3443-804",
+          "parent_fpi": "63318594-05ad-5f06-b8b1-d70a16f16321",
+          "f_plan_id": "e3c1780a-30b3-4af2-a696-ce12d8195358",
+          "plan_name": "Alignment Health Plan Retiree Options (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3443-007",
+          "parent_fpi": "63318594-05ad-5f06-b8b1-d70a16f16321",
+          "f_plan_id": "1086a18f-0e00-43eb-9830-59859cdbde44",
+          "plan_name": "Alignment Health Heart & Diabetes AZPlus (HMO C-SNP)"
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://mpf.alignmenthealth.com/mpf-provider-directory/H3443-cms-data-index.json"
+      }
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "a197bd29-d8b6-5f14-9e0d-df6d6d9a726e",
+      "is_fpi": true,
+      "payerLegalName": "COMMUNITY CARE HEALTH PLAN OF LOUISIANA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "COMMUNITY CARE HEALTH PLAN OF LOUISIANA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1947",
+      "is_fpi": false,
+      "parent_fpi": "a197bd29-d8b6-5f14-9e0d-df6d6d9a726e"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1947-001",
+          "parent_fpi": "a197bd29-d8b6-5f14-9e0d-df6d6d9a726e",
+          "f_plan_id": "40b3072f-2e54-4707-a94e-27f58802c646",
+          "plan_name": "Healthy Blue Dual Advantage (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1947-003",
+          "parent_fpi": "a197bd29-d8b6-5f14-9e0d-df6d6d9a726e",
+          "f_plan_id": "cf2628cb-b6fa-40eb-8abc-28cf7215688b",
+          "plan_name": "Healthy Blue Enhanced Care (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1947-004",
+          "parent_fpi": "a197bd29-d8b6-5f14-9e0d-df6d6d9a726e",
+          "f_plan_id": "749f00bb-d9b5-4256-9745-1fbc8fb1ddaf",
+          "plan_name": "Healthy Blue Dual Advantage 2 (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "9f540191-73cf-55bf-ba18-fef64558e4e9",
+      "is_fpi": true,
+      "payerLegalName": "AmeriHealth Caritas VIP Next, Inc.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "AmeriHealth Caritas VIP Next, Inc."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0738",
+      "is_fpi": false,
+      "parent_fpi": "9f540191-73cf-55bf-ba18-fef64558e4e9"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0738-001",
+          "parent_fpi": "9f540191-73cf-55bf-ba18-fef64558e4e9",
+          "f_plan_id": "3fe51fd8-9d1f-44c7-8772-c6397c19b91c",
+          "plan_name": "AmeriHealth Caritas VIP Care (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0738-002",
+          "parent_fpi": "9f540191-73cf-55bf-ba18-fef64558e4e9",
+          "f_plan_id": "234003ba-65e8-416a-b794-eb6ea9f5263f",
+          "plan_name": "AmeriHealth Caritas VIP Care Choice (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

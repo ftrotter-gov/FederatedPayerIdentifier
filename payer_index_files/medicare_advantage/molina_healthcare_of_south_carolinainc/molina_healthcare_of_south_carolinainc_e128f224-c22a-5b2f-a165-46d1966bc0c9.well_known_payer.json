@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "e128f224-c22a-5b2f-a165-46d1966bc0c9",
+      "is_fpi": true,
+      "payerLegalName": "MOLINA HEALTHCARE OF SOUTH CAROLINA,INC",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MOLINA HEALTHCARE OF SOUTH CAROLINA,INC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8176",
+      "is_fpi": false,
+      "parent_fpi": "e128f224-c22a-5b2f-a165-46d1966bc0c9"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8176-004",
+          "parent_fpi": "e128f224-c22a-5b2f-a165-46d1966bc0c9",
+          "f_plan_id": "3f376d3d-d3eb-422b-a639-30992b91f46a",
+          "plan_name": "Molina Medicare Complete Care Plus (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

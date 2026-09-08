@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "34c8e646-7300-5a67-be17-cf8e6a6bb790",
+      "is_fpi": true,
+      "payerLegalName": "METROPLUS HEALTH PLAN, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "METROPLUS HEALTH PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0423",
+      "is_fpi": false,
+      "parent_fpi": "34c8e646-7300-5a67-be17-cf8e6a6bb790"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0423-001",
+          "parent_fpi": "34c8e646-7300-5a67-be17-cf8e6a6bb790",
+          "f_plan_id": "50e1ea91-1318-4a32-8829-4954ec5032ef",
+          "plan_name": "MetroPlus Advantage Plan (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0423-004",
+          "parent_fpi": "34c8e646-7300-5a67-be17-cf8e6a6bb790",
+          "f_plan_id": "e2aabbbb-7d5e-4e24-9920-f02751da12b6",
+          "plan_name": "MetroPlus Platinum Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0423-007",
+          "parent_fpi": "34c8e646-7300-5a67-be17-cf8e6a6bb790",
+          "f_plan_id": "37b06347-fd76-49ec-8043-7e5d50e6db1a",
+          "plan_name": "MetroPlus UltraCare (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

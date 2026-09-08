@@ -1,0 +1,84 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "35f70f0d-fff1-5683-8329-288cee159b9b",
+      "is_fpi": true,
+      "payerLegalName": "THE HEALTH PLAN OF WEST VIRGINIA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "THE HEALTH PLAN OF WEST VIRGINIA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3672",
+      "is_fpi": false,
+      "parent_fpi": "35f70f0d-fff1-5683-8329-288cee159b9b"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3672-013",
+          "parent_fpi": "35f70f0d-fff1-5683-8329-288cee159b9b",
+          "f_plan_id": "4cd9a4a3-d7d9-4479-b80d-ab2a0036c07d",
+          "plan_name": "The Health Plan SecureCare - Option II (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3672-014",
+          "parent_fpi": "35f70f0d-fff1-5683-8329-288cee159b9b",
+          "f_plan_id": "210849af-2d7b-4e9c-8275-939f8179f39a",
+          "plan_name": "The Health Plan SecureCare Integrity Plan 3 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3672-019",
+          "parent_fpi": "35f70f0d-fff1-5683-8329-288cee159b9b",
+          "f_plan_id": "c5ca9e55-4945-42ba-ba6c-8082b1b1bdb6",
+          "plan_name": "The Health Plan SecureCare SNP (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3672-020",
+          "parent_fpi": "35f70f0d-fff1-5683-8329-288cee159b9b",
+          "f_plan_id": "c463fc5d-2a55-4e1d-b3b7-74788c2bbf40",
+          "plan_name": "The Health Plan SecureCare - Option II (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3672-021",
+          "parent_fpi": "35f70f0d-fff1-5683-8329-288cee159b9b",
+          "f_plan_id": "0efeae43-70ad-4cbf-ab90-f353f21760da",
+          "plan_name": "The Health Plan SecureCare Integrity Plan 1 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3672-023",
+          "parent_fpi": "35f70f0d-fff1-5683-8329-288cee159b9b",
+          "f_plan_id": "9abf5be0-28bd-43bc-bf11-16551cc9f9d4",
+          "plan_name": "The Health Plan SecureCare Capitol Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3672-024",
+          "parent_fpi": "35f70f0d-fff1-5683-8329-288cee159b9b",
+          "f_plan_id": "9c1096fb-c747-40e7-a70e-f5adc95ded41",
+          "plan_name": "The Health Plan SecureCare Integrity Plan 2 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3672-805",
+          "parent_fpi": "35f70f0d-fff1-5683-8329-288cee159b9b",
+          "f_plan_id": "db8592c1-020b-4126-9588-3d1c27e00b92",
+          "plan_name": "The Health Plan SecureCare - Employer (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

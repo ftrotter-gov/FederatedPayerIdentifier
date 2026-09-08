@@ -1,0 +1,84 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "1b744087-dc26-50bf-b593-cd4cbf7914c4",
+      "is_fpi": true,
+      "payerLegalName": "SCAN HEALTH PLAN TEXAS, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SCAN HEALTH PLAN TEXAS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8902",
+      "is_fpi": false,
+      "parent_fpi": "1b744087-dc26-50bf-b593-cd4cbf7914c4"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8902-002",
+          "parent_fpi": "1b744087-dc26-50bf-b593-cd4cbf7914c4",
+          "f_plan_id": "c0b7e813-cc5a-4347-a57f-fcdd37a08e5f",
+          "plan_name": "SCAN Balance Texas (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8902-009",
+          "parent_fpi": "1b744087-dc26-50bf-b593-cd4cbf7914c4",
+          "f_plan_id": "c0b19f57-42a5-48a7-aa7f-547e983281c0",
+          "plan_name": "SCAN Strive Texas (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8902-010",
+          "parent_fpi": "1b744087-dc26-50bf-b593-cd4cbf7914c4",
+          "f_plan_id": "8ec374a6-06d8-41f9-8afc-9c223f79db0d",
+          "plan_name": "SCAN Classic Texas (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8902-011",
+          "parent_fpi": "1b744087-dc26-50bf-b593-cd4cbf7914c4",
+          "f_plan_id": "959ab57b-efea-4623-9219-cc23dd6a9e6e",
+          "plan_name": "SCAN MyChoice Texas (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8902-801",
+          "parent_fpi": "1b744087-dc26-50bf-b593-cd4cbf7914c4",
+          "f_plan_id": "8ec24b09-29b9-4d8a-9142-fd065b1e5ffd",
+          "plan_name": "SCAN Retiree Group (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8902-802",
+          "parent_fpi": "1b744087-dc26-50bf-b593-cd4cbf7914c4",
+          "f_plan_id": "26d48a2f-4c0b-477e-8e20-cc57404562fc",
+          "plan_name": "SCAN Retiree Group (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8902-803",
+          "parent_fpi": "1b744087-dc26-50bf-b593-cd4cbf7914c4",
+          "f_plan_id": "53a1f739-0a8f-4203-b7bf-367646d74ca9",
+          "plan_name": "SCAN Retiree Group (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8902-804",
+          "parent_fpi": "1b744087-dc26-50bf-b593-cd4cbf7914c4",
+          "f_plan_id": "6b40ab18-2a84-4564-937f-90d16cccade2",
+          "plan_name": "SCAN Retiree Group (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

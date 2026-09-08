@@ -1,0 +1,44 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "9c73ca0c-c3a3-530a-a7cb-165fc1d2d8bb",
+      "is_fpi": true,
+      "payerLegalName": "BANNER - UNIVERSITY CARE ADVANTAGE",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BANNER - UNIVERSITY CARE ADVANTAGE"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4931",
+      "is_fpi": false,
+      "parent_fpi": "9c73ca0c-c3a3-530a-a7cb-165fc1d2d8bb"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4931-007",
+          "parent_fpi": "9c73ca0c-c3a3-530a-a7cb-165fc1d2d8bb",
+          "f_plan_id": "d6ff740a-b6e6-4ad1-b1d7-b76948bfc877",
+          "plan_name": "Banner Medicare Advantage Dual (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4931-015",
+          "parent_fpi": "9c73ca0c-c3a3-530a-a7cb-165fc1d2d8bb",
+          "f_plan_id": "ea33afac-ba39-468c-846e-4286e2281f68",
+          "plan_name": "Banner Medicare Advantage Dual (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://www.bannerhealthnetwork.com/CMS_Provider_Directory/H4931/2027/index.json"
+      }
+    }
+  ],
+  "is_seeded": true
+}

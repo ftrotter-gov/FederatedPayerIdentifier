@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "23096bd9-ecd4-5d89-b44c-2e3fed58c0b1",
+      "is_fpi": true,
+      "payerLegalName": "VOLUNTEER STATE HEALTH PLAN",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "VOLUNTEER STATE HEALTH PLAN"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3259",
+      "is_fpi": false,
+      "parent_fpi": "23096bd9-ecd4-5d89-b44c-2e3fed58c0b1"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3259-001",
+          "parent_fpi": "23096bd9-ecd4-5d89-b44c-2e3fed58c0b1",
+          "f_plan_id": "15ec4b4d-f59b-40bf-9f35-f839dc195731",
+          "plan_name": "BlueCare Plus (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3259-002",
+          "parent_fpi": "23096bd9-ecd4-5d89-b44c-2e3fed58c0b1",
+          "f_plan_id": "32468700-cfb2-49b4-be5b-40c3bf7251d3",
+          "plan_name": "BlueCare Plus Choice (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3259-003",
+          "parent_fpi": "23096bd9-ecd4-5d89-b44c-2e3fed58c0b1",
+          "f_plan_id": "c30f5dbf-5c2b-471b-b4fd-1e0e9042b5a3",
+          "plan_name": "BlueCare Plus Select (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

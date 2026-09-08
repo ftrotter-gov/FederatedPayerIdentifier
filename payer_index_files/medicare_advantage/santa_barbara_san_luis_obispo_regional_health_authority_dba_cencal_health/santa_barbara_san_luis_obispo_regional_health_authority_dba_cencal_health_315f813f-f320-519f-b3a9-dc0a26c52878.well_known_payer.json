@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "315f813f-f320-519f-b3a9-dc0a26c52878",
+      "is_fpi": true,
+      "payerLegalName": "SANTA BARBARA SAN LUIS OBISPO REGIONAL HEALTH AUTHORITY DBA CENCAL HEALTH",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SANTA BARBARA SAN LUIS OBISPO REGIONAL HEALTH AUTHORITY DBA CENCAL HEALTH"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7620",
+      "is_fpi": false,
+      "parent_fpi": "315f813f-f320-519f-b3a9-dc0a26c52878"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7620-001",
+          "parent_fpi": "315f813f-f320-519f-b3a9-dc0a26c52878",
+          "f_plan_id": "e6e5215f-34fd-4063-9550-ef0fbb1dd9df",
+          "plan_name": "CenCal CareConnect (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

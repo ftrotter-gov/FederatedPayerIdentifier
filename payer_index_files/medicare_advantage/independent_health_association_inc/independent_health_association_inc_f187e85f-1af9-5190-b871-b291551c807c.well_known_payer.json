@@ -1,0 +1,98 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "f187e85f-1af9-5190-b871-b291551c807c",
+      "is_fpi": true,
+      "payerLegalName": "INDEPENDENT HEALTH ASSOCIATION, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "INDEPENDENT HEALTH ASSOCIATION, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3362",
+      "is_fpi": false,
+      "parent_fpi": "f187e85f-1af9-5190-b871-b291551c807c"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3362-016",
+          "parent_fpi": "f187e85f-1af9-5190-b871-b291551c807c",
+          "f_plan_id": "25208f90-9164-422f-a160-7ab8733c761d",
+          "plan_name": "Independent Health's Encompass 65 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3362-020",
+          "parent_fpi": "f187e85f-1af9-5190-b871-b291551c807c",
+          "f_plan_id": "1079daf6-b48d-4afd-80cb-2f54dc13bef6",
+          "plan_name": "Independent Health's Medicare Family Choice (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3362-040",
+          "parent_fpi": "f187e85f-1af9-5190-b871-b291551c807c",
+          "f_plan_id": "fbee2f92-5b12-4fe4-97e1-7afe93a5e46d",
+          "plan_name": "Independent Health's Assure Advantage (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3362-801",
+          "parent_fpi": "f187e85f-1af9-5190-b871-b291551c807c",
+          "f_plan_id": "c03e6a48-7d77-4b0f-a57c-ffce764030a7",
+          "plan_name": "Independent Health's Medicare Encompass (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3362-807",
+          "parent_fpi": "f187e85f-1af9-5190-b871-b291551c807c",
+          "f_plan_id": "bf0bae80-d982-4b26-a603-451219e30b01",
+          "plan_name": "Independent Health's Medicare Encompass (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3362-819",
+          "parent_fpi": "f187e85f-1af9-5190-b871-b291551c807c",
+          "f_plan_id": "6b2daf61-a0be-41c5-91a3-4bdf6eb08dd8",
+          "plan_name": "Independent Health's Medicare Encompass (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3362-820",
+          "parent_fpi": "f187e85f-1af9-5190-b871-b291551c807c",
+          "f_plan_id": "ec5929e4-4861-438d-9cb3-e6f74d625365",
+          "plan_name": "Independent Health's Medicare Encompass (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3362-042",
+          "parent_fpi": "f187e85f-1af9-5190-b871-b291551c807c",
+          "f_plan_id": "85f3f73f-2d88-4dc5-b6f6-df76fe6cedac",
+          "plan_name": "Independent Health's Encompass 65 RED 042 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3362-043",
+          "parent_fpi": "f187e85f-1af9-5190-b871-b291551c807c",
+          "f_plan_id": "eaa5d0d3-06aa-427b-b169-89cb530b4b65",
+          "plan_name": "Independent Health's Encompass 65 RED 043 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3362-044",
+          "parent_fpi": "f187e85f-1af9-5190-b871-b291551c807c",
+          "f_plan_id": "a5938a75-0ffe-4f56-80ec-2a08944cdb1a",
+          "plan_name": "Independent Health's Encompass 65 RED 044 (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

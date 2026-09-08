@@ -1,0 +1,160 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "2bf4e887-1f3b-5586-b90f-8197ab78cb09",
+      "is_fpi": true,
+      "payerLegalName": "MEDICA HEALTH PLANS",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MEDICA HEALTH PLANS"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2458",
+      "is_fpi": false,
+      "parent_fpi": "2bf4e887-1f3b-5586-b90f-8197ab78cb09"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8889",
+      "is_fpi": false,
+      "parent_fpi": "2bf4e887-1f3b-5586-b90f-8197ab78cb09"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2458-002",
+          "parent_fpi": "2bf4e887-1f3b-5586-b90f-8197ab78cb09",
+          "f_plan_id": "0712eb21-e283-458e-8e36-335c7267546e",
+          "plan_name": "Medica DUAL Solution (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8889-001",
+          "parent_fpi": "2bf4e887-1f3b-5586-b90f-8197ab78cb09",
+          "f_plan_id": "7b0ee827-d3f1-48b2-9c87-e106e888110f",
+          "plan_name": "Medica Advantage Solution H8889-001 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8889-002",
+          "parent_fpi": "2bf4e887-1f3b-5586-b90f-8197ab78cb09",
+          "f_plan_id": "1151d41a-d969-4bff-a96d-21edd58a04ca",
+          "plan_name": "Medica Advantage Solution H8889-002 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8889-003",
+          "parent_fpi": "2bf4e887-1f3b-5586-b90f-8197ab78cb09",
+          "f_plan_id": "dfc86970-b914-420c-a6fc-813e1ab5141e",
+          "plan_name": "Medica Advantage Solution H8889-003 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8889-004",
+          "parent_fpi": "2bf4e887-1f3b-5586-b90f-8197ab78cb09",
+          "f_plan_id": "606a71e5-68c4-49a6-8dc2-800d4da5f6e9",
+          "plan_name": "Medica Advantage Solution H8889-004 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8889-005",
+          "parent_fpi": "2bf4e887-1f3b-5586-b90f-8197ab78cb09",
+          "f_plan_id": "a497f24c-f4a3-407f-8e23-8c86888ae500",
+          "plan_name": "Medica Advantage Solution H8889-005 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8889-008",
+          "parent_fpi": "2bf4e887-1f3b-5586-b90f-8197ab78cb09",
+          "f_plan_id": "3b2170d7-be2b-42e7-848f-8f29d7c02abc",
+          "plan_name": "Medica Advantage Solution H8889-008 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8889-009",
+          "parent_fpi": "2bf4e887-1f3b-5586-b90f-8197ab78cb09",
+          "f_plan_id": "e2cf6ad7-9f3c-4971-ab33-fc5edf181f39",
+          "plan_name": "Medica Advantage Solution H8889-009 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8889-010",
+          "parent_fpi": "2bf4e887-1f3b-5586-b90f-8197ab78cb09",
+          "f_plan_id": "2a8ceadd-4aaf-44b1-97f1-ac408a4e2571",
+          "plan_name": "Medica Advantage Value (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8889-011",
+          "parent_fpi": "2bf4e887-1f3b-5586-b90f-8197ab78cb09",
+          "f_plan_id": "dd6fcaf0-32b4-4bc7-b3ff-212febbeea22",
+          "plan_name": "Medica Advantage Preferred (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8889-012",
+          "parent_fpi": "2bf4e887-1f3b-5586-b90f-8197ab78cb09",
+          "f_plan_id": "67b5028c-7541-4b74-97e5-c56982f0d738",
+          "plan_name": "Medica Advantage Select (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8889-013",
+          "parent_fpi": "2bf4e887-1f3b-5586-b90f-8197ab78cb09",
+          "f_plan_id": "c8dc23d9-87cf-4d29-8982-64e9396343ed",
+          "plan_name": "Medica Advantage Preferred (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8889-014",
+          "parent_fpi": "2bf4e887-1f3b-5586-b90f-8197ab78cb09",
+          "f_plan_id": "3f611a4a-7bcf-4635-94d5-f154443728e5",
+          "plan_name": "Medica Advantage Value (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8889-015",
+          "parent_fpi": "2bf4e887-1f3b-5586-b90f-8197ab78cb09",
+          "f_plan_id": "b86b6b87-9222-4b1e-97bc-a41958c747b5",
+          "plan_name": "Medica Advantage Select (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8889-016",
+          "parent_fpi": "2bf4e887-1f3b-5586-b90f-8197ab78cb09",
+          "f_plan_id": "8da6ef5a-736f-4d23-98c9-1bbbaac35aaf",
+          "plan_name": "Medica Advantage Dual (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8889-801",
+          "parent_fpi": "2bf4e887-1f3b-5586-b90f-8197ab78cb09",
+          "f_plan_id": "ba7aa762-99c6-424d-87f2-789a93d1e90e",
+          "plan_name": "Medica Group Advantage Solution (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8889-017",
+          "parent_fpi": "2bf4e887-1f3b-5586-b90f-8197ab78cb09",
+          "f_plan_id": "1dcf173a-058d-4ce4-ad21-f14cc17d5e4a",
+          "plan_name": "Medica Advantage Value (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8889-018",
+          "parent_fpi": "2bf4e887-1f3b-5586-b90f-8197ab78cb09",
+          "f_plan_id": "9f28fb79-ba0f-44c9-8497-df73bc8f7065",
+          "plan_name": "Medica Advantage Select (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

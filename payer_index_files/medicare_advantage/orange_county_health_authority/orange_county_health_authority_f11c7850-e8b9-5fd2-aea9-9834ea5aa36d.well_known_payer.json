@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "f11c7850-e8b9-5fd2-aea9-9834ea5aa36d",
+      "is_fpi": true,
+      "payerLegalName": "ORANGE COUNTY HEALTH AUTHORITY",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ORANGE COUNTY HEALTH AUTHORITY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5433",
+      "is_fpi": false,
+      "parent_fpi": "f11c7850-e8b9-5fd2-aea9-9834ea5aa36d"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5433-001",
+          "parent_fpi": "f11c7850-e8b9-5fd2-aea9-9834ea5aa36d",
+          "f_plan_id": "9976f10c-e743-4250-8024-fec844ebfc44",
+          "plan_name": "CalOptima Health OneCare Complete (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

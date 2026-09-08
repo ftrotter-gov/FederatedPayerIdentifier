@@ -1,0 +1,70 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "7f300332-8c25-5918-81f4-44b5e3ceb197",
+      "is_fpi": true,
+      "payerLegalName": "Preferred Care Network, Inc.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "Preferred Care Network, Inc."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5420",
+      "is_fpi": false,
+      "parent_fpi": "7f300332-8c25-5918-81f4-44b5e3ceb197"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5420-001",
+          "parent_fpi": "7f300332-8c25-5918-81f4-44b5e3ceb197",
+          "f_plan_id": "53166c7a-15c7-4a2d-863e-1838b4a2bc6a",
+          "plan_name": "UHC MedicareMax Medicare Advantage FL-0028 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5420-003",
+          "parent_fpi": "7f300332-8c25-5918-81f4-44b5e3ceb197",
+          "f_plan_id": "fceb271d-5b30-4bbd-82a5-ddc257619295",
+          "plan_name": "UHC MedicareMax Medicare Advantage FL-0029 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5420-006",
+          "parent_fpi": "7f300332-8c25-5918-81f4-44b5e3ceb197",
+          "f_plan_id": "b4dae300-52a7-4c3a-a378-85819f987f51",
+          "plan_name": "UHC MedicareMax Dual Complete FL-D4 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5420-014",
+          "parent_fpi": "7f300332-8c25-5918-81f4-44b5e3ceb197",
+          "f_plan_id": "e12fb09e-7acd-43e2-b03f-0647701e6622",
+          "plan_name": "UHC MedicareMax Complete Care FL-30 (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5420-015",
+          "parent_fpi": "7f300332-8c25-5918-81f4-44b5e3ceb197",
+          "f_plan_id": "7bcf3cc7-fd98-44a8-9a75-eeb091befcb3",
+          "plan_name": "UHC MedicareMax Dual Complete FL-V3 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5420-016",
+          "parent_fpi": "7f300332-8c25-5918-81f4-44b5e3ceb197",
+          "f_plan_id": "f3263037-d2ce-4e89-a10d-5d406c513bc3",
+          "plan_name": "UHC MedicareMax Dual Complete FL-Y6 (HMO-POS D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

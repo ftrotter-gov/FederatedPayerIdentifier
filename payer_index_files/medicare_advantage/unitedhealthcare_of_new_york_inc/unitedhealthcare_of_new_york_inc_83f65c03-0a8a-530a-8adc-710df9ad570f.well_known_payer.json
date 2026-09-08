@@ -1,0 +1,153 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "83f65c03-0a8a-530a-8adc-710df9ad570f",
+      "is_fpi": true,
+      "payerLegalName": "UNITEDHEALTHCARE OF NEW YORK, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "UNITEDHEALTHCARE OF NEW YORK, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3379",
+      "is_fpi": false,
+      "parent_fpi": "83f65c03-0a8a-530a-8adc-710df9ad570f"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3387",
+      "is_fpi": false,
+      "parent_fpi": "83f65c03-0a8a-530a-8adc-710df9ad570f"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3379-001",
+          "parent_fpi": "83f65c03-0a8a-530a-8adc-710df9ad570f",
+          "f_plan_id": "f958bb6d-1d3c-4b85-9f6d-5714a1df2e78",
+          "plan_name": "AARP Medicare Advantage from UHC NY-0005 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3379-039",
+          "parent_fpi": "83f65c03-0a8a-530a-8adc-710df9ad570f",
+          "f_plan_id": "76cde31b-4cf0-4fcf-bad2-e0ae85a9394d",
+          "plan_name": "AARP Medicare Advantage from UHC NY-0006 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3379-040",
+          "parent_fpi": "83f65c03-0a8a-530a-8adc-710df9ad570f",
+          "f_plan_id": "cb4c9c66-88e8-4880-bf8c-137c022e8281",
+          "plan_name": "AARP Medicare Advantage from UHC NY-0007 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3379-043",
+          "parent_fpi": "83f65c03-0a8a-530a-8adc-710df9ad570f",
+          "f_plan_id": "d039752f-4dab-4773-935f-e3016b5daa89",
+          "plan_name": "AARP Medicare Advantage from UHC NY-0009 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3379-052",
+          "parent_fpi": "83f65c03-0a8a-530a-8adc-710df9ad570f",
+          "f_plan_id": "36f34df6-97b4-4955-bed6-1902d35c7b21",
+          "plan_name": "AARP Medicare Advantage from UHC NY-29 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3379-053",
+          "parent_fpi": "83f65c03-0a8a-530a-8adc-710df9ad570f",
+          "f_plan_id": "0b8de2b5-9565-4a3f-862a-fb9d094b5b45",
+          "plan_name": "UHC Complete Care NY-30 (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3379-054",
+          "parent_fpi": "83f65c03-0a8a-530a-8adc-710df9ad570f",
+          "f_plan_id": "1c5d9429-2cff-4ae0-a5c6-0c006e1f8a47",
+          "plan_name": "UHC Complete Care NY-31 (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3379-056",
+          "parent_fpi": "83f65c03-0a8a-530a-8adc-710df9ad570f",
+          "f_plan_id": "8f5e835a-3d0f-40d0-917b-065b98501881",
+          "plan_name": "UHC Complete Care NY-33 (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3379-802",
+          "parent_fpi": "83f65c03-0a8a-530a-8adc-710df9ad570f",
+          "f_plan_id": "7b78b88e-47dd-4dd1-81e4-a2f947468732",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3379-803",
+          "parent_fpi": "83f65c03-0a8a-530a-8adc-710df9ad570f",
+          "f_plan_id": "20554199-7e19-4848-b459-f1ba9184eaa8",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3379-804",
+          "parent_fpi": "83f65c03-0a8a-530a-8adc-710df9ad570f",
+          "f_plan_id": "9f667cf0-a28b-4ad6-bf8f-ae4429902067",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3379-059",
+          "parent_fpi": "83f65c03-0a8a-530a-8adc-710df9ad570f",
+          "f_plan_id": "5fe2e377-7f05-4a13-8f21-31146c22e9b6",
+          "plan_name": "AARP Medicare Advantage from UHC NY-34 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3379-060",
+          "parent_fpi": "83f65c03-0a8a-530a-8adc-710df9ad570f",
+          "f_plan_id": "6285a611-1f82-49fe-ae5e-31c3b325563c",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx NY-MA3 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3387-013",
+          "parent_fpi": "83f65c03-0a8a-530a-8adc-710df9ad570f",
+          "f_plan_id": "b562afe4-7bb1-48e1-8b0e-784e680cea8d",
+          "plan_name": "UHC Dual Complete NY-Y001 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3387-014",
+          "parent_fpi": "83f65c03-0a8a-530a-8adc-710df9ad570f",
+          "f_plan_id": "df831131-6bfd-44d3-9374-df4824012835",
+          "plan_name": "UHC Dual Complete NY-S002 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3387-015",
+          "parent_fpi": "83f65c03-0a8a-530a-8adc-710df9ad570f",
+          "f_plan_id": "a719bd49-b6cb-4ff1-8674-4d32c1928220",
+          "plan_name": "UHC Dual Complete NY-Q001 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3387-017",
+          "parent_fpi": "83f65c03-0a8a-530a-8adc-710df9ad570f",
+          "f_plan_id": "26732e3e-7c34-483b-9742-1824d09fb834",
+          "plan_name": "UHC Dual Complete NY-S4 (HMO-POS D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

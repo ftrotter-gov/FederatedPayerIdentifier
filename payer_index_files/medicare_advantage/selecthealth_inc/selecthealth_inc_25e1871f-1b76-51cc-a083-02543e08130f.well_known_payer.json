@@ -1,0 +1,163 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "25e1871f-1b76-51cc-a083-02543e08130f",
+      "is_fpi": true,
+      "payerLegalName": "SELECTHEALTH, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SELECTHEALTH, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1994",
+      "is_fpi": false,
+      "parent_fpi": "25e1871f-1b76-51cc-a083-02543e08130f"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1994-001",
+          "parent_fpi": "25e1871f-1b76-51cc-a083-02543e08130f",
+          "f_plan_id": "ac7e296f-1519-4e8e-9618-4ebd14d885c4",
+          "plan_name": "Select Health Medicare Essential (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1994-012",
+          "parent_fpi": "25e1871f-1b76-51cc-a083-02543e08130f",
+          "f_plan_id": "ece26a47-e73f-45df-bb16-ae519a4a7a3c",
+          "plan_name": "Select Health Medicare Essential (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1994-015",
+          "parent_fpi": "25e1871f-1b76-51cc-a083-02543e08130f",
+          "f_plan_id": "5c9efb35-ee11-456f-9489-f003d5b321c6",
+          "plan_name": "Select Health Medicare Dual (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1994-016",
+          "parent_fpi": "25e1871f-1b76-51cc-a083-02543e08130f",
+          "f_plan_id": "4846acfd-2a2c-48c6-814b-0f235e73db25",
+          "plan_name": "Select Health Medicare NoRx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1994-017",
+          "parent_fpi": "25e1871f-1b76-51cc-a083-02543e08130f",
+          "f_plan_id": "9de05025-6199-4ec6-8687-1c1f27e51cac",
+          "plan_name": "Select Health Medicare Essential (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1994-021",
+          "parent_fpi": "25e1871f-1b76-51cc-a083-02543e08130f",
+          "f_plan_id": "6de67899-d0ba-47ca-99fb-00a2ddf95a87",
+          "plan_name": "Select Health Medicare + Kroger (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1994-022",
+          "parent_fpi": "25e1871f-1b76-51cc-a083-02543e08130f",
+          "f_plan_id": "9bd86dc1-3f79-4252-bd88-03adddb914a7",
+          "plan_name": "Select Health Medicare + Kroger (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1994-027",
+          "parent_fpi": "25e1871f-1b76-51cc-a083-02543e08130f",
+          "f_plan_id": "4420f4fb-238c-42f5-bd3f-e5236fe778e0",
+          "plan_name": "Select Health Medicare Essential (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1994-029",
+          "parent_fpi": "25e1871f-1b76-51cc-a083-02543e08130f",
+          "f_plan_id": "e440c755-a652-4c0b-93f2-a2d5d03e1bb6",
+          "plan_name": "Select Health Medicare Essential (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1994-030",
+          "parent_fpi": "25e1871f-1b76-51cc-a083-02543e08130f",
+          "f_plan_id": "ecf3d15b-13c5-4bfa-96d2-3f22aab6ae0f",
+          "plan_name": "Select Health Medicare + Kroger (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1994-031",
+          "parent_fpi": "25e1871f-1b76-51cc-a083-02543e08130f",
+          "f_plan_id": "bec57dd7-0b53-4844-8c7c-8437725d0dbf",
+          "plan_name": "Select Health Medicare Flex (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1994-033",
+          "parent_fpi": "25e1871f-1b76-51cc-a083-02543e08130f",
+          "f_plan_id": "71606567-53c0-4045-84e8-68971c92f8df",
+          "plan_name": "Select Health Medicare NoRx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1994-034",
+          "parent_fpi": "25e1871f-1b76-51cc-a083-02543e08130f",
+          "f_plan_id": "3902776d-788b-482e-86e9-102b2efcdc83",
+          "plan_name": "Select Health Medicare + Kroger (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1994-035",
+          "parent_fpi": "25e1871f-1b76-51cc-a083-02543e08130f",
+          "f_plan_id": "5bff38c0-5ec7-44e1-982f-c7d6c5e9dfb9",
+          "plan_name": "Select Health Medicare Active (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1994-040",
+          "parent_fpi": "25e1871f-1b76-51cc-a083-02543e08130f",
+          "f_plan_id": "acb6db3e-2e92-45a7-8701-9e1bde1bcf28",
+          "plan_name": "Select Health Medicare Dual (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1994-801",
+          "parent_fpi": "25e1871f-1b76-51cc-a083-02543e08130f",
+          "f_plan_id": "721b1a2d-a158-4fba-aca9-8f7a0da42f9e",
+          "plan_name": "Select Health Medicare EGWP (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1994-802",
+          "parent_fpi": "25e1871f-1b76-51cc-a083-02543e08130f",
+          "f_plan_id": "1e61a370-16de-4904-a5f7-9e46c9f5c79d",
+          "plan_name": "Select Health Medicare EGWP No Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1994-803",
+          "parent_fpi": "25e1871f-1b76-51cc-a083-02543e08130f",
+          "f_plan_id": "7af40bd8-3172-4c00-8daf-c6ab55e43fd4",
+          "plan_name": "Select Health Medicare EGWP Plan Year (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1994-044",
+          "parent_fpi": "25e1871f-1b76-51cc-a083-02543e08130f",
+          "f_plan_id": "18c2a468-eef4-4978-8953-45a0d6087c78",
+          "plan_name": "Select Health Medicare Wellness (HMO)"
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://ebu.intermountainhealthcare.org/shprovider/indexma.json"
+      }
+    }
+  ],
+  "is_seeded": true
+}

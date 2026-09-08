@@ -1,0 +1,76 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "42ef6515-685a-5ee1-8d07-936095dccb4f",
+      "is_fpi": true,
+      "payerLegalName": "COORDINATED CARE CORPORATION",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "COORDINATED CARE CORPORATION"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3499",
+      "is_fpi": false,
+      "parent_fpi": "42ef6515-685a-5ee1-8d07-936095dccb4f"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6348",
+      "is_fpi": false,
+      "parent_fpi": "42ef6515-685a-5ee1-8d07-936095dccb4f"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3499-002",
+          "parent_fpi": "42ef6515-685a-5ee1-8d07-936095dccb4f",
+          "f_plan_id": "2745b20d-df4b-43db-9b74-9b3676c68c96",
+          "plan_name": "Wellcare Simple (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3499-008",
+          "parent_fpi": "42ef6515-685a-5ee1-8d07-936095dccb4f",
+          "f_plan_id": "eb269367-4212-4e94-89a5-e42124bb2a05",
+          "plan_name": "Wellcare Assist (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6348-002",
+          "parent_fpi": "42ef6515-685a-5ee1-8d07-936095dccb4f",
+          "f_plan_id": "2be2af58-1dd4-40f9-86f2-a420f7432ca6",
+          "plan_name": "Wellcare Simple Open (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6348-005",
+          "parent_fpi": "42ef6515-685a-5ee1-8d07-936095dccb4f",
+          "f_plan_id": "5f7c8413-88e2-457c-8527-e6463f73f3f3",
+          "plan_name": "Wellcare Patriot Giveback Open (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6348-008",
+          "parent_fpi": "42ef6515-685a-5ee1-8d07-936095dccb4f",
+          "f_plan_id": "1b72afec-3587-4012-9f07-cddd1c1bac12",
+          "plan_name": "Wellcare Giveback Open (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6348-009",
+          "parent_fpi": "42ef6515-685a-5ee1-8d07-936095dccb4f",
+          "f_plan_id": "d4b14365-fca1-4886-bdc1-3c3b971b7014",
+          "plan_name": "Wellcare Assist Open (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

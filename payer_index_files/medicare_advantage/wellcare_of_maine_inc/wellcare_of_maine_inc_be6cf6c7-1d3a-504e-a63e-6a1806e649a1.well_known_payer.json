@@ -1,0 +1,56 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "be6cf6c7-1d3a-504e-a63e-6a1806e649a1",
+      "is_fpi": true,
+      "payerLegalName": "WELLCARE OF MAINE, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WELLCARE OF MAINE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9364",
+      "is_fpi": false,
+      "parent_fpi": "be6cf6c7-1d3a-504e-a63e-6a1806e649a1"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9364-001",
+          "parent_fpi": "be6cf6c7-1d3a-504e-a63e-6a1806e649a1",
+          "f_plan_id": "eed1f4ac-d43c-4503-b0f6-e95705bc1b9c",
+          "plan_name": "Wellcare Simple (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9364-002",
+          "parent_fpi": "be6cf6c7-1d3a-504e-a63e-6a1806e649a1",
+          "f_plan_id": "090ca71c-f65e-4368-8174-42e66b7a1c52",
+          "plan_name": "Wellcare Dual Access (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9364-003",
+          "parent_fpi": "be6cf6c7-1d3a-504e-a63e-6a1806e649a1",
+          "f_plan_id": "64e31d8a-f6d3-4c35-a15f-d3dfafbd0f25",
+          "plan_name": "Wellcare Dual Liberty (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9364-004",
+          "parent_fpi": "be6cf6c7-1d3a-504e-a63e-6a1806e649a1",
+          "f_plan_id": "bbe1779e-cd93-4ed1-abb8-ff75b572bd73",
+          "plan_name": "Wellcare Giveback (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

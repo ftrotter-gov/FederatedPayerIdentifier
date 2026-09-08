@@ -1,0 +1,111 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "b8e11313-3ebf-5d33-b92b-d3175e0e2cd7",
+      "is_fpi": true,
+      "payerLegalName": "MARTIN'S POINT GENERATIONS ADVANTAGE, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MARTIN'S POINT GENERATIONS ADVANTAGE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1365",
+      "is_fpi": false,
+      "parent_fpi": "b8e11313-3ebf-5d33-b92b-d3175e0e2cd7"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5591",
+      "is_fpi": false,
+      "parent_fpi": "b8e11313-3ebf-5d33-b92b-d3175e0e2cd7"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1365-001",
+          "parent_fpi": "b8e11313-3ebf-5d33-b92b-d3175e0e2cd7",
+          "f_plan_id": "f1d194f1-7cbf-4f63-a8c6-0e0501b6ddd9",
+          "plan_name": "Martin's Point Generations Advantage Select (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1365-802",
+          "parent_fpi": "b8e11313-3ebf-5d33-b92b-d3175e0e2cd7",
+          "f_plan_id": "7a3509df-99c1-4d12-9d28-e67eb17df049",
+          "plan_name": "Martin's Point Generations Advantage Premier Group (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1365-803",
+          "parent_fpi": "b8e11313-3ebf-5d33-b92b-d3175e0e2cd7",
+          "f_plan_id": "496538c6-29e5-440a-9013-2ad26587e346",
+          "plan_name": "Martin's Point Generations Advantage Premier Group (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1365-005",
+          "parent_fpi": "b8e11313-3ebf-5d33-b92b-d3175e0e2cd7",
+          "f_plan_id": "c616eedc-e9c0-48b0-96b7-75854d7194d6",
+          "plan_name": "Martin's Point Generations Advantage Select (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5591-003",
+          "parent_fpi": "b8e11313-3ebf-5d33-b92b-d3175e0e2cd7",
+          "f_plan_id": "11a23614-3bef-46c9-a1a3-42636f3bd8a2",
+          "plan_name": "Martin's Point Generations Advantage Alliance (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5591-006",
+          "parent_fpi": "b8e11313-3ebf-5d33-b92b-d3175e0e2cd7",
+          "f_plan_id": "902bec57-481c-4526-be1c-2dc34e42f83f",
+          "plan_name": "Martin's Point Generations Advantage Prime (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5591-016",
+          "parent_fpi": "b8e11313-3ebf-5d33-b92b-d3175e0e2cd7",
+          "f_plan_id": "786067ce-0f09-473d-ac87-63ff6a7c15c3",
+          "plan_name": "Martin's Point Generations Advantage Prime (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5591-801",
+          "parent_fpi": "b8e11313-3ebf-5d33-b92b-d3175e0e2cd7",
+          "f_plan_id": "65414c7e-7aa0-445a-acaa-dba67f82823f",
+          "plan_name": "Martin's Point Generations Advantage Prime Group (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5591-802",
+          "parent_fpi": "b8e11313-3ebf-5d33-b92b-d3175e0e2cd7",
+          "f_plan_id": "e3b15a45-521f-4b3a-81d6-f85a05f67fb2",
+          "plan_name": "Martin's Point Generations Advantage Prime Group (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5591-017",
+          "parent_fpi": "b8e11313-3ebf-5d33-b92b-d3175e0e2cd7",
+          "f_plan_id": "8783df15-5e7a-490f-a2b9-40b9748cb8f1",
+          "plan_name": "Martin's Point Generations Advantage Prime (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5591-018",
+          "parent_fpi": "b8e11313-3ebf-5d33-b92b-d3175e0e2cd7",
+          "f_plan_id": "51b0451c-0133-4673-a79d-be39625fbc87",
+          "plan_name": "Martin's Point Generations Advantage Essential (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,84 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "8c80369d-f1f8-52ae-9b2c-e0bc6c4eb938",
+      "is_fpi": true,
+      "payerLegalName": "SCAN HEALTH PLAN (NM)",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SCAN HEALTH PLAN (NM)"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5244",
+      "is_fpi": false,
+      "parent_fpi": "8c80369d-f1f8-52ae-9b2c-e0bc6c4eb938"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5244-001",
+          "parent_fpi": "8c80369d-f1f8-52ae-9b2c-e0bc6c4eb938",
+          "f_plan_id": "62acdf13-8a99-4e07-b0ac-1222c2563733",
+          "plan_name": "SCAN Classic (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5244-002",
+          "parent_fpi": "8c80369d-f1f8-52ae-9b2c-e0bc6c4eb938",
+          "f_plan_id": "fd51779b-51d1-4486-a7e0-1ade6cc1cc0c",
+          "plan_name": "SCAN Balance (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5244-004",
+          "parent_fpi": "8c80369d-f1f8-52ae-9b2c-e0bc6c4eb938",
+          "f_plan_id": "c7963a06-e10c-46ce-afb3-2685c8d82000",
+          "plan_name": "SCAN Strive (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5244-005",
+          "parent_fpi": "8c80369d-f1f8-52ae-9b2c-e0bc6c4eb938",
+          "f_plan_id": "3914a7d4-f2f0-4b8c-97db-51f90d89bf10",
+          "plan_name": "SCAN MyChoice (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5244-801",
+          "parent_fpi": "8c80369d-f1f8-52ae-9b2c-e0bc6c4eb938",
+          "f_plan_id": "4c99732d-b905-4f24-8d64-ac9e8b7e6654",
+          "plan_name": "SCAN Retiree Group (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5244-802",
+          "parent_fpi": "8c80369d-f1f8-52ae-9b2c-e0bc6c4eb938",
+          "f_plan_id": "9cdf8b50-f151-48aa-9744-1c69719613d4",
+          "plan_name": "SCAN Retiree Group (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5244-803",
+          "parent_fpi": "8c80369d-f1f8-52ae-9b2c-e0bc6c4eb938",
+          "f_plan_id": "e460cc25-7826-499a-be90-f46672399526",
+          "plan_name": "SCAN Retiree Group (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5244-804",
+          "parent_fpi": "8c80369d-f1f8-52ae-9b2c-e0bc6c4eb938",
+          "f_plan_id": "0ed22bde-6f32-47bd-b568-382de7ff0cc8",
+          "plan_name": "SCAN Retiree Group (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

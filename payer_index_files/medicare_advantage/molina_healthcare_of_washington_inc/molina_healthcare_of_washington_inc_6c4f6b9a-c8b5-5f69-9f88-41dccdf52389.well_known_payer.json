@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "6c4f6b9a-c8b5-5f69-9f88-41dccdf52389",
+      "is_fpi": true,
+      "payerLegalName": "MOLINA HEALTHCARE OF WASHINGTON, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MOLINA HEALTHCARE OF WASHINGTON, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5823",
+      "is_fpi": false,
+      "parent_fpi": "6c4f6b9a-c8b5-5f69-9f88-41dccdf52389"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5823-013",
+          "parent_fpi": "6c4f6b9a-c8b5-5f69-9f88-41dccdf52389",
+          "f_plan_id": "2cc6e077-7e61-4e53-be99-4cd70822d0f8",
+          "plan_name": "Molina Medicare Complete Care (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5823-010",
+          "parent_fpi": "6c4f6b9a-c8b5-5f69-9f88-41dccdf52389",
+          "f_plan_id": "8afd4d9b-2da7-4f0d-88a0-fc83aac106e4",
+          "plan_name": "Molina Medicare Complete Care Select (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

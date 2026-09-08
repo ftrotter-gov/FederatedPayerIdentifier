@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "6473aade-8332-5674-b1d8-f38869f77041",
+      "is_fpi": true,
+      "payerLegalName": "HAP CARESOURCE",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HAP CARESOURCE"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4193",
+      "is_fpi": false,
+      "parent_fpi": "6473aade-8332-5674-b1d8-f38869f77041"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4193-001",
+          "parent_fpi": "6473aade-8332-5674-b1d8-f38869f77041",
+          "f_plan_id": "3ac63a47-1cb0-4f72-887a-8e0e30696229",
+          "plan_name": "HAP CareSource MI Coordinated Health (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

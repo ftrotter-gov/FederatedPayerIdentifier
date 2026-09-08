@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "1955d5a8-aa01-5e2b-8613-c72132c7b87a",
+      "is_fpi": true,
+      "payerLegalName": "LONGEVITY HEALTH PLAN OF MICHIGAN, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "LONGEVITY HEALTH PLAN OF MICHIGAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7557",
+      "is_fpi": false,
+      "parent_fpi": "1955d5a8-aa01-5e2b-8613-c72132c7b87a"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7557-001",
+          "parent_fpi": "1955d5a8-aa01-5e2b-8613-c72132c7b87a",
+          "f_plan_id": "1de4af7c-38df-4d6a-a725-6bd3f8ba1cb8",
+          "plan_name": "Longevity Health Plan (HMO I-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

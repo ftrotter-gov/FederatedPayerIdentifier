@@ -1,0 +1,140 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "4e4196cb-9060-5a9c-a454-7b3aa817bd76",
+      "is_fpi": true,
+      "payerLegalName": "QUARTZ HEALTH PLAN CORPORATION",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "QUARTZ HEALTH PLAN CORPORATION"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5262",
+      "is_fpi": false,
+      "parent_fpi": "4e4196cb-9060-5a9c-a454-7b3aa817bd76"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5262-001",
+          "parent_fpi": "4e4196cb-9060-5a9c-a454-7b3aa817bd76",
+          "f_plan_id": "c4cd1e5c-4319-4ee7-a450-536c5e982b93",
+          "plan_name": "Gundersen Quartz Med Advantage Elite D (w/Rx) (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5262-003",
+          "parent_fpi": "4e4196cb-9060-5a9c-a454-7b3aa817bd76",
+          "f_plan_id": "d3102c9a-a1e4-4eb9-86b1-bf59f44566f2",
+          "plan_name": "Gundersen Quartz Med Advantage Value D (w/Rx) (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5262-004",
+          "parent_fpi": "4e4196cb-9060-5a9c-a454-7b3aa817bd76",
+          "f_plan_id": "3e38aec5-59fa-4dcb-9af6-7b2e7a29c425",
+          "plan_name": "Gundersen Quartz Med Advantage Value (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5262-005",
+          "parent_fpi": "4e4196cb-9060-5a9c-a454-7b3aa817bd76",
+          "f_plan_id": "7598f4bc-b530-4b2c-bb39-955ee5e3fc90",
+          "plan_name": "Gundersen Quartz Med Advantage Elite (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5262-007",
+          "parent_fpi": "4e4196cb-9060-5a9c-a454-7b3aa817bd76",
+          "f_plan_id": "d552966f-ed0a-4a30-a56e-b8a554caf570",
+          "plan_name": "UW Health Quartz Med Advantage Elite D (w/Rx) (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5262-008",
+          "parent_fpi": "4e4196cb-9060-5a9c-a454-7b3aa817bd76",
+          "f_plan_id": "b317d22b-f0c8-4ce6-95ae-e9b4b649be89",
+          "plan_name": "UW Health Quartz Med Advantage Value D (w/Rx) (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5262-009",
+          "parent_fpi": "4e4196cb-9060-5a9c-a454-7b3aa817bd76",
+          "f_plan_id": "ea17da78-2edd-4cd2-9bc5-7b67c4e56066",
+          "plan_name": "UW Health Quartz Med Advantage Value (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5262-010",
+          "parent_fpi": "4e4196cb-9060-5a9c-a454-7b3aa817bd76",
+          "f_plan_id": "a28ba90a-0b27-46dd-aebe-8a6b31a64b39",
+          "plan_name": "UW Health Quartz Med Advantage Elite (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5262-021",
+          "parent_fpi": "4e4196cb-9060-5a9c-a454-7b3aa817bd76",
+          "f_plan_id": "689d120b-5e9e-4435-99f0-1cc9220ab111",
+          "plan_name": "Gundersen Quartz Med Advantage Core D (w/Rx) (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5262-023",
+          "parent_fpi": "4e4196cb-9060-5a9c-a454-7b3aa817bd76",
+          "f_plan_id": "a04a996f-ba31-490e-99b7-d33a759e07c9",
+          "plan_name": "UW Health Quartz Med Advantage Core D (w/Rx) (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5262-029",
+          "parent_fpi": "4e4196cb-9060-5a9c-a454-7b3aa817bd76",
+          "f_plan_id": "45bf7c76-d11f-46df-bf65-3b60e81deaad",
+          "plan_name": "Gundersen Quartz Med Advantage Dual Eligible (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5262-030",
+          "parent_fpi": "4e4196cb-9060-5a9c-a454-7b3aa817bd76",
+          "f_plan_id": "2d1ecbcf-400e-41fa-ac1d-0216aa13d84e",
+          "plan_name": "UW Health Quartz Med Advantage Dual Eligible (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5262-801",
+          "parent_fpi": "4e4196cb-9060-5a9c-a454-7b3aa817bd76",
+          "f_plan_id": "5b619519-d35a-40e7-b475-a9a98d8f099a",
+          "plan_name": "Employer Group Quartz Medicare Advantage D (w/Rx) (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5262-802",
+          "parent_fpi": "4e4196cb-9060-5a9c-a454-7b3aa817bd76",
+          "f_plan_id": "43f7dd31-65d8-46bc-a3ce-b765a022f024",
+          "plan_name": "Employer Group Quartz Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5262-032",
+          "parent_fpi": "4e4196cb-9060-5a9c-a454-7b3aa817bd76",
+          "f_plan_id": "92f63a6d-4376-434e-877c-2eaca0615c99",
+          "plan_name": "Gundersen Quartz Med Advantage Basic D (w/Rx) (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5262-033",
+          "parent_fpi": "4e4196cb-9060-5a9c-a454-7b3aa817bd76",
+          "f_plan_id": "c9b387fd-5fe8-4af4-b4bc-5ed0e70720cf",
+          "plan_name": "UW Health Quartz Med Advantage Basic D (w/Rx) (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

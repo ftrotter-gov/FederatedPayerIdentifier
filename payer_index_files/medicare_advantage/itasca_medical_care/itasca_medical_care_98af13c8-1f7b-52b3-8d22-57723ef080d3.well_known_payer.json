@@ -1,0 +1,37 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "98af13c8-1f7b-52b3-8d22-57723ef080d3",
+      "is_fpi": true,
+      "payerLegalName": "ITASCA MEDICAL CARE",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ITASCA MEDICAL CARE"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2417",
+      "is_fpi": false,
+      "parent_fpi": "98af13c8-1f7b-52b3-8d22-57723ef080d3"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2417-001",
+          "parent_fpi": "98af13c8-1f7b-52b3-8d22-57723ef080d3",
+          "f_plan_id": "72a9c39a-b0a4-446d-822c-1ef484ff74a1",
+          "plan_name": "IMCare Classic (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://itascacountymn.gov/DocumentCenter/View/12887/MPF-Index-File"
+      }
+    }
+  ],
+  "is_seeded": true
+}

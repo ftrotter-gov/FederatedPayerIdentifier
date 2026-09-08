@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "1e4acf06-b25f-5a78-ac0d-fe929b0b6365",
+      "is_fpi": true,
+      "payerLegalName": "MOLINA HEALTHCARE OF OHIO, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MOLINA HEALTHCARE OF OHIO, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9955",
+      "is_fpi": false,
+      "parent_fpi": "1e4acf06-b25f-5a78-ac0d-fe929b0b6365"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9955-008",
+          "parent_fpi": "1e4acf06-b25f-5a78-ac0d-fe929b0b6365",
+          "f_plan_id": "4ec8f160-de3a-4708-bd67-8df7b3f6008e",
+          "plan_name": "Molina Complete Care for MyCare Ohio (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9955-007",
+          "parent_fpi": "1e4acf06-b25f-5a78-ac0d-fe929b0b6365",
+          "f_plan_id": "8b4a60e3-328e-48f1-93c1-32469bbb5ba4",
+          "plan_name": "Molina Medicare Complete Care (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

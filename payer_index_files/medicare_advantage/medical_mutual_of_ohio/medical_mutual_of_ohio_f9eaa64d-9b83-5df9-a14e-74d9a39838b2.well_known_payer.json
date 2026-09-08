@@ -1,0 +1,132 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "f9eaa64d-9b83-5df9-a14e-74d9a39838b2",
+      "is_fpi": true,
+      "payerLegalName": "MEDICAL MUTUAL OF OHIO",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MEDICAL MUTUAL OF OHIO"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4497",
+      "is_fpi": false,
+      "parent_fpi": "f9eaa64d-9b83-5df9-a14e-74d9a39838b2"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6723",
+      "is_fpi": false,
+      "parent_fpi": "f9eaa64d-9b83-5df9-a14e-74d9a39838b2"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4497-001",
+          "parent_fpi": "f9eaa64d-9b83-5df9-a14e-74d9a39838b2",
+          "f_plan_id": "470c1057-4f8c-42e0-a30e-7d6984dbd09f",
+          "plan_name": "MedMutual Advantage Select (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4497-002",
+          "parent_fpi": "f9eaa64d-9b83-5df9-a14e-74d9a39838b2",
+          "f_plan_id": "5f1f3395-0ead-4ce1-b363-6743298166e4",
+          "plan_name": "MedMutual Advantage Preferred (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4497-003",
+          "parent_fpi": "f9eaa64d-9b83-5df9-a14e-74d9a39838b2",
+          "f_plan_id": "2b5fd56a-ee74-4101-a06e-13637510d28a",
+          "plan_name": "MedMutual Advantage Premium (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4497-005",
+          "parent_fpi": "f9eaa64d-9b83-5df9-a14e-74d9a39838b2",
+          "f_plan_id": "3a5081d6-92eb-4ec0-aba1-9931bc84ff89",
+          "plan_name": "MedMutual Advantage Access (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4497-801",
+          "parent_fpi": "f9eaa64d-9b83-5df9-a14e-74d9a39838b2",
+          "f_plan_id": "9f9c4368-e9ae-4632-b415-acdd2919d8b0",
+          "plan_name": "MedMutual Advantage EGWP (Calendar Year) (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4497-802",
+          "parent_fpi": "f9eaa64d-9b83-5df9-a14e-74d9a39838b2",
+          "f_plan_id": "f1dac22a-4e79-4ba9-b6d2-baae2ded7eae",
+          "plan_name": "MedMutual Advantage EGWP (Non-Calendar Year) (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4497-803",
+          "parent_fpi": "f9eaa64d-9b83-5df9-a14e-74d9a39838b2",
+          "f_plan_id": "a91c4919-87dc-4c8e-8ec9-c600cf3dd4eb",
+          "plan_name": "MedMutual Advantage EGWP (MA-Only) (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6723-001",
+          "parent_fpi": "f9eaa64d-9b83-5df9-a14e-74d9a39838b2",
+          "f_plan_id": "d5847eca-c173-4345-8f2e-0534f690cd6a",
+          "plan_name": "MedMutual Advantage Classic (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6723-002",
+          "parent_fpi": "f9eaa64d-9b83-5df9-a14e-74d9a39838b2",
+          "f_plan_id": "1b3e4d9b-99a0-4c9f-9442-01669dca2838",
+          "plan_name": "MedMutual Advantage Choice (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6723-003",
+          "parent_fpi": "f9eaa64d-9b83-5df9-a14e-74d9a39838b2",
+          "f_plan_id": "a1b2ab19-c9bb-418a-b114-4db93fd1d538",
+          "plan_name": "MedMutual Advantage Plus (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6723-006",
+          "parent_fpi": "f9eaa64d-9b83-5df9-a14e-74d9a39838b2",
+          "f_plan_id": "5541cb03-ff94-4601-a037-dfc8a190390a",
+          "plan_name": "MedMutual Advantage Signature (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6723-801",
+          "parent_fpi": "f9eaa64d-9b83-5df9-a14e-74d9a39838b2",
+          "f_plan_id": "a4aef245-beab-4859-9f43-cf180120ea0b",
+          "plan_name": "MedMutual Advantage EGWP (Calendar Year) (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6723-802",
+          "parent_fpi": "f9eaa64d-9b83-5df9-a14e-74d9a39838b2",
+          "f_plan_id": "bef38a0b-7cd4-4fe0-8fd8-a03180547950",
+          "plan_name": "MedMutual Advantage EGWP (Non-Calendar Year) (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6723-803",
+          "parent_fpi": "f9eaa64d-9b83-5df9-a14e-74d9a39838b2",
+          "f_plan_id": "00ce5b45-4e36-4e9f-9300-d43d7fa07e4d",
+          "plan_name": "MedMutual Advantage EGWP (MA-Only) (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

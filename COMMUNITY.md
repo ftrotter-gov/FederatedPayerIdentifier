@@ -7,3 +7,10 @@ Federated Payer Identifier is supported by a dedicated team of individuals fulfi
 | Role   | Name    | Affiliation    |
 | :----- | :------ | :------------- |
 | Initial Developer | Fred Trotter | CMS |
+
+## Critical Upstream Data Releases
+
+| Upstream entity/project | Released data description |
+| :---------------------- | :------------------------ | 
+| [1up health](https://1up.health/) | Foundational ePA endpoint data | 
+

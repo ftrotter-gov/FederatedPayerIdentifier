@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "61cee842-3ddd-5253-99e2-050ff43a11ea",
+      "is_fpi": true,
+      "payerLegalName": "WELLCARE HEALTH INSURANCE COMPANY OF AMERICA",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WELLCARE HEALTH INSURANCE COMPANY OF AMERICA"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0270",
+      "is_fpi": false,
+      "parent_fpi": "61cee842-3ddd-5253-99e2-050ff43a11ea"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0270-001",
+          "parent_fpi": "61cee842-3ddd-5253-99e2-050ff43a11ea",
+          "f_plan_id": "d0061f7a-419e-4c9a-93b6-8098d5b3afc0",
+          "plan_name": "Wellcare Simple Open (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

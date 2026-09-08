@@ -1,0 +1,90 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "bf53b386-343f-5483-a4c1-e83f9027bc80",
+      "is_fpi": true,
+      "payerLegalName": "SAPPHIRE EDGE, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SAPPHIRE EDGE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3170",
+      "is_fpi": false,
+      "parent_fpi": "bf53b386-343f-5483-a4c1-e83f9027bc80"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8181",
+      "is_fpi": false,
+      "parent_fpi": "bf53b386-343f-5483-a4c1-e83f9027bc80"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3170-003",
+          "parent_fpi": "bf53b386-343f-5483-a4c1-e83f9027bc80",
+          "f_plan_id": "fe762baf-1645-4f05-ba0f-67a4a6aa63c2",
+          "plan_name": "Blue Cross and Blue Shield of Nebraska MA Core (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8181-001",
+          "parent_fpi": "bf53b386-343f-5483-a4c1-e83f9027bc80",
+          "f_plan_id": "175d030f-ab35-4ba6-9843-d04c21be7f90",
+          "plan_name": "Blue Cross and Blue Shield of Nebraska MA Access (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8181-002",
+          "parent_fpi": "bf53b386-343f-5483-a4c1-e83f9027bc80",
+          "f_plan_id": "a1bd4197-7785-44f0-b571-36557a4937a5",
+          "plan_name": "Blue Cross and Blue Shield of Nebraska MA Connect (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8181-003",
+          "parent_fpi": "bf53b386-343f-5483-a4c1-e83f9027bc80",
+          "f_plan_id": "dc9c50cd-a5f6-4979-b763-bd0b9853f838",
+          "plan_name": "Blue Cross and Blue Shield of Nebraska MA Secure (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8181-801",
+          "parent_fpi": "bf53b386-343f-5483-a4c1-e83f9027bc80",
+          "f_plan_id": "2c527569-129c-489b-931d-459e6e563c17",
+          "plan_name": "BCBSNE Employer Group Rx CY (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8181-802",
+          "parent_fpi": "bf53b386-343f-5483-a4c1-e83f9027bc80",
+          "f_plan_id": "f2e995ec-5226-4a3b-a899-31841274a3e1",
+          "plan_name": "BCBSNE Employer Group CY (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8181-803",
+          "parent_fpi": "bf53b386-343f-5483-a4c1-e83f9027bc80",
+          "f_plan_id": "6ce810ad-0f37-40dd-9b06-be9a1172cab0",
+          "plan_name": "BCBSNE Employer Group Rx NCY (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8181-804",
+          "parent_fpi": "bf53b386-343f-5483-a4c1-e83f9027bc80",
+          "f_plan_id": "491a0bb2-7aeb-4e9c-86f3-eddfd1a523d3",
+          "plan_name": "BCBSNE Employer Group Rx CY (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

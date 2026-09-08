@@ -1,0 +1,77 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "82f2775d-a3c1-55a6-b4bd-d1a137933262",
+      "is_fpi": true,
+      "payerLegalName": "SHARP HEALTH PLAN",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SHARP HEALTH PLAN"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5386",
+      "is_fpi": false,
+      "parent_fpi": "82f2775d-a3c1-55a6-b4bd-d1a137933262"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5386-003",
+          "parent_fpi": "82f2775d-a3c1-55a6-b4bd-d1a137933262",
+          "f_plan_id": "3e94a890-328d-40ab-84db-9645b0332c79",
+          "plan_name": "Sharp Direct Advantage Gold (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5386-004",
+          "parent_fpi": "82f2775d-a3c1-55a6-b4bd-d1a137933262",
+          "f_plan_id": "16e95c11-0c76-4e62-a8ff-e36fa086e185",
+          "plan_name": "Sharp Direct Advantage Platinum (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5386-005",
+          "parent_fpi": "82f2775d-a3c1-55a6-b4bd-d1a137933262",
+          "f_plan_id": "94bb9028-b9c5-4a66-a4e0-bfc10f6c5ed7",
+          "plan_name": "Sharp Direct Advantage VIP (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5386-801",
+          "parent_fpi": "82f2775d-a3c1-55a6-b4bd-d1a137933262",
+          "f_plan_id": "4367abc5-8914-4581-acc0-0b5194a47930",
+          "plan_name": "Sharp Direct Advantage Calendar Year (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5386-802",
+          "parent_fpi": "82f2775d-a3c1-55a6-b4bd-d1a137933262",
+          "f_plan_id": "0fb479a1-a2fd-4085-a418-d6e4b04d1995",
+          "plan_name": "Sharp Direct Advantage Non-Calendar Year (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5386-803",
+          "parent_fpi": "82f2775d-a3c1-55a6-b4bd-d1a137933262",
+          "f_plan_id": "fd18370c-a611-4630-b3d0-87f941b8bd02",
+          "plan_name": "Sharp Direct Advantage MA Only (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5386-006",
+          "parent_fpi": "82f2775d-a3c1-55a6-b4bd-d1a137933262",
+          "f_plan_id": "5870d7df-1a56-4daa-9eb6-79af39935d63",
+          "plan_name": "Sharp Direct Advantage VIP Plus (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

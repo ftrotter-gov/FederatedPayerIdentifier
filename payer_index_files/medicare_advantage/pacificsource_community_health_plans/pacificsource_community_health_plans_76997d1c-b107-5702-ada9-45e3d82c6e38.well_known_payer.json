@@ -1,0 +1,147 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "76997d1c-b107-5702-ada9-45e3d82c6e38",
+      "is_fpi": true,
+      "payerLegalName": "PACIFICSOURCE COMMUNITY HEALTH PLANS",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PACIFICSOURCE COMMUNITY HEALTH PLANS"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3864",
+      "is_fpi": false,
+      "parent_fpi": "76997d1c-b107-5702-ada9-45e3d82c6e38"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3864-002",
+          "parent_fpi": "76997d1c-b107-5702-ada9-45e3d82c6e38",
+          "f_plan_id": "c1dcc33c-c8aa-468d-a87c-6210305f1889",
+          "plan_name": "PacificSource Medicare Essentials Choice 2 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3864-006",
+          "parent_fpi": "76997d1c-b107-5702-ada9-45e3d82c6e38",
+          "f_plan_id": "de3c9789-d0b3-40bd-b704-7578ba36bd55",
+          "plan_name": "PacificSource Medicare Essentials Rx 6 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3864-014",
+          "parent_fpi": "76997d1c-b107-5702-ada9-45e3d82c6e38",
+          "f_plan_id": "2b70ca18-de0d-4056-8295-b83c76dc9539",
+          "plan_name": "PacificSource Medicare Essentials Choice Rx 14 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3864-024",
+          "parent_fpi": "76997d1c-b107-5702-ada9-45e3d82c6e38",
+          "f_plan_id": "dacd73f9-9945-4a6e-b2cb-6d8b92281aef",
+          "plan_name": "PacificSource Medicare MyCare Choice Rx 24 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3864-027",
+          "parent_fpi": "76997d1c-b107-5702-ada9-45e3d82c6e38",
+          "f_plan_id": "4504bd76-3349-4ccb-9d76-a1765d5bb511",
+          "plan_name": "PacificSource Medicare Essentials Rx 27 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3864-029",
+          "parent_fpi": "76997d1c-b107-5702-ada9-45e3d82c6e38",
+          "f_plan_id": "57b154ba-acae-40c3-a8ec-2e4f0414dbcd",
+          "plan_name": "PacificSource Medicare MyCare Choice Rx 29 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3864-030",
+          "parent_fpi": "76997d1c-b107-5702-ada9-45e3d82c6e38",
+          "f_plan_id": "2cab9cb2-ae12-4144-a88f-60a01705f601",
+          "plan_name": "PacificSource Medicare MyCare Choice 30 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3864-034",
+          "parent_fpi": "76997d1c-b107-5702-ada9-45e3d82c6e38",
+          "f_plan_id": "3984aab5-6545-45d4-bcfb-de4ac093731d",
+          "plan_name": "PacificSource Medicare MyCare Choice Rx 34 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3864-036",
+          "parent_fpi": "76997d1c-b107-5702-ada9-45e3d82c6e38",
+          "f_plan_id": "f05e1c89-07c1-4576-b3c6-b8e74ded2fad",
+          "plan_name": "PacificSource Medicare Essentials Choice Rx 36 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3864-040",
+          "parent_fpi": "76997d1c-b107-5702-ada9-45e3d82c6e38",
+          "f_plan_id": "48869090-1b25-492e-b176-cd98a1831968",
+          "plan_name": "PacificSource Medicare MyCare Rx 40 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3864-041",
+          "parent_fpi": "76997d1c-b107-5702-ada9-45e3d82c6e38",
+          "f_plan_id": "6ec7d24e-d07b-40f6-abdb-9d608728002b",
+          "plan_name": "PacificSource Medicare Essentials Rx 41 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3864-043",
+          "parent_fpi": "76997d1c-b107-5702-ada9-45e3d82c6e38",
+          "f_plan_id": "69c08ef1-12a8-4f9e-b9c9-f6dfc64dd390",
+          "plan_name": "PacificSource Dual Care (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3864-045",
+          "parent_fpi": "76997d1c-b107-5702-ada9-45e3d82c6e38",
+          "f_plan_id": "ecefeabe-886b-48a9-898f-29a7ce7dbc1b",
+          "plan_name": "PacificSource Dual Care Alliance (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3864-801",
+          "parent_fpi": "76997d1c-b107-5702-ada9-45e3d82c6e38",
+          "f_plan_id": "f4add4c0-cb0a-407d-ad88-5979abf1e1c1",
+          "plan_name": "PacificSource Medicare Essentials 801 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3864-803",
+          "parent_fpi": "76997d1c-b107-5702-ada9-45e3d82c6e38",
+          "f_plan_id": "ede3fa4b-5851-41e1-8ad2-1d7a5079b245",
+          "plan_name": "PacificSource Medicare Essentials Rx 803 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3864-805",
+          "parent_fpi": "76997d1c-b107-5702-ada9-45e3d82c6e38",
+          "f_plan_id": "9e132cf8-57a3-4d15-9147-c48cccbd3adb",
+          "plan_name": "PacificSource Medicare Essentials 805 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3864-806",
+          "parent_fpi": "76997d1c-b107-5702-ada9-45e3d82c6e38",
+          "f_plan_id": "5085f59e-0a4d-4910-a8c8-f9582d19e1d6",
+          "plan_name": "PacificSource Medicare Essentials Rx 806 (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

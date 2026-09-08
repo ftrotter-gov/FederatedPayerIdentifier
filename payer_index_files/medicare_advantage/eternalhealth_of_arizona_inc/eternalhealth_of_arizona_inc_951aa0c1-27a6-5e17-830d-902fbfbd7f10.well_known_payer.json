@@ -1,0 +1,56 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "951aa0c1-27a6-5e17-830d-902fbfbd7f10",
+      "is_fpi": true,
+      "payerLegalName": "ETERNALHEALTH OF ARIZONA INC",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ETERNALHEALTH OF ARIZONA INC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3551",
+      "is_fpi": false,
+      "parent_fpi": "951aa0c1-27a6-5e17-830d-902fbfbd7f10"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3551-001",
+          "parent_fpi": "951aa0c1-27a6-5e17-830d-902fbfbd7f10",
+          "f_plan_id": "4ccc2058-30ab-4f8e-9b10-df5a547e3fa1",
+          "plan_name": "eternalHealth Horizon (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3551-002",
+          "parent_fpi": "951aa0c1-27a6-5e17-830d-902fbfbd7f10",
+          "f_plan_id": "659bfc0f-a1a7-470b-8d53-8f4ddb9fe67b",
+          "plan_name": "eternalHealth Grand Give Back (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3551-003",
+          "parent_fpi": "951aa0c1-27a6-5e17-830d-902fbfbd7f10",
+          "f_plan_id": "531e4827-10b2-4896-90dd-7a14553a0ef4",
+          "plan_name": "eternalHealth Valor Give Back (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3551-004",
+          "parent_fpi": "951aa0c1-27a6-5e17-830d-902fbfbd7f10",
+          "f_plan_id": "ae8b1202-a4b7-4561-a647-cb1f633b2b1c",
+          "plan_name": "eternalHealth + Fry's Medicare Advantage (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

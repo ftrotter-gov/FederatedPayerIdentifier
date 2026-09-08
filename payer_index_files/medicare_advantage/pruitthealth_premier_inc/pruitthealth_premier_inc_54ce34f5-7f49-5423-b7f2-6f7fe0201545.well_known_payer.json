@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "54ce34f5-7f49-5423-b7f2-6f7fe0201545",
+      "is_fpi": true,
+      "payerLegalName": "PRUITTHEALTH PREMIER, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PRUITTHEALTH PREMIER, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3291",
+      "is_fpi": false,
+      "parent_fpi": "54ce34f5-7f49-5423-b7f2-6f7fe0201545"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3291-001",
+          "parent_fpi": "54ce34f5-7f49-5423-b7f2-6f7fe0201545",
+          "f_plan_id": "c42e4ebb-aadf-4cec-83ee-43b3293a4c47",
+          "plan_name": "PruittHealth Premier (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3291-002",
+          "parent_fpi": "54ce34f5-7f49-5423-b7f2-6f7fe0201545",
+          "f_plan_id": "d46ea755-c3ae-4eeb-b3b5-9bd7a5917c9c",
+          "plan_name": "PruittHealth Premier D-SNP (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3291-003",
+          "parent_fpi": "54ce34f5-7f49-5423-b7f2-6f7fe0201545",
+          "f_plan_id": "12d5086a-97f5-422d-9178-ecfd380e30ce",
+          "plan_name": "PruittHealth Premier Advantage (HMO I-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

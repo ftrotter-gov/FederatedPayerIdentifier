@@ -1,0 +1,70 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "85f7671c-33d9-5418-b9a3-2dd5624f7271",
+      "is_fpi": true,
+      "payerLegalName": "SECURITY HEALTH PLAN OF WISCONSIN, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SECURITY HEALTH PLAN OF WISCONSIN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5211",
+      "is_fpi": false,
+      "parent_fpi": "85f7671c-33d9-5418-b9a3-2dd5624f7271"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5211-001",
+          "parent_fpi": "85f7671c-33d9-5418-b9a3-2dd5624f7271",
+          "f_plan_id": "d34de5f5-254d-4870-a183-179fec1e1390",
+          "plan_name": "Spirit (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5211-002",
+          "parent_fpi": "85f7671c-33d9-5418-b9a3-2dd5624f7271",
+          "f_plan_id": "868a2957-34a3-4422-baa0-59158d415cef",
+          "plan_name": "Essence Rx (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5211-003",
+          "parent_fpi": "85f7671c-33d9-5418-b9a3-2dd5624f7271",
+          "f_plan_id": "cd170ae4-d5cb-4f65-8c18-c0cdd83e7d29",
+          "plan_name": "Compass (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5211-004",
+          "parent_fpi": "85f7671c-33d9-5418-b9a3-2dd5624f7271",
+          "f_plan_id": "5c57ffc7-7170-43f1-b8e5-18a4c95b9e05",
+          "plan_name": "Legacy Rx (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5211-010",
+          "parent_fpi": "85f7671c-33d9-5418-b9a3-2dd5624f7271",
+          "f_plan_id": "4fef80a4-9af1-4068-993e-e2ffe0996eaa",
+          "plan_name": "Ally Rx (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5211-012",
+          "parent_fpi": "85f7671c-33d9-5418-b9a3-2dd5624f7271",
+          "f_plan_id": "cc721c84-e830-455c-bd1d-42a293ef2341",
+          "plan_name": "Esteem Rx (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

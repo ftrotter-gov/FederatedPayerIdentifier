@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "dbe95878-5b08-5d02-a91a-342d665eb2f2",
+      "is_fpi": true,
+      "payerLegalName": "JOHNS HOPKINS HEALTH PLAN OF VIRGINIA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "JOHNS HOPKINS HEALTH PLAN OF VIRGINIA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1339",
+      "is_fpi": false,
+      "parent_fpi": "dbe95878-5b08-5d02-a91a-342d665eb2f2"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1339-001",
+          "parent_fpi": "dbe95878-5b08-5d02-a91a-342d665eb2f2",
+          "f_plan_id": "1d256bf0-92a6-4dc9-98bf-d9d8d9aaa785",
+          "plan_name": "Johns Hopkins Advantage MD Select (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

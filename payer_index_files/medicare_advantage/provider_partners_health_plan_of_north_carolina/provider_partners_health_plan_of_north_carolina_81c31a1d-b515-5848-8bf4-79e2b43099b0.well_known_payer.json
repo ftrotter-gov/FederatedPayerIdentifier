@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "81c31a1d-b515-5848-8bf4-79e2b43099b0",
+      "is_fpi": true,
+      "payerLegalName": "PROVIDER PARTNERS HEALTH PLAN OF NORTH CAROLINA",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PROVIDER PARTNERS HEALTH PLAN OF NORTH CAROLINA"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4439",
+      "is_fpi": false,
+      "parent_fpi": "81c31a1d-b515-5848-8bf4-79e2b43099b0"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4439-001",
+          "parent_fpi": "81c31a1d-b515-5848-8bf4-79e2b43099b0",
+          "f_plan_id": "9c63f939-86f5-4901-85af-5039e6ff21cb",
+          "plan_name": "Provider Partners North Carolina Advantage Plan (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4439-002",
+          "parent_fpi": "81c31a1d-b515-5848-8bf4-79e2b43099b0",
+          "f_plan_id": "c3339719-c9a7-4a47-a5e7-f4bafcc427c3",
+          "plan_name": "Provider Partners North Carolina Community Plan (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4439-003",
+          "parent_fpi": "81c31a1d-b515-5848-8bf4-79e2b43099b0",
+          "f_plan_id": "88f84e9e-6cc4-4d36-a47a-ae25307eca33",
+          "plan_name": "Provider Partners North Carolina Essential Plan (HMO I-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

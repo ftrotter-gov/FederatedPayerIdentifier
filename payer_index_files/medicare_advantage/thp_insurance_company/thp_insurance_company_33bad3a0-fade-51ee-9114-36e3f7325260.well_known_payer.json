@@ -1,0 +1,56 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "33bad3a0-fade-51ee-9114-36e3f7325260",
+      "is_fpi": true,
+      "payerLegalName": "THP INSURANCE COMPANY",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "THP INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8604",
+      "is_fpi": false,
+      "parent_fpi": "33bad3a0-fade-51ee-9114-36e3f7325260"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8604-011",
+          "parent_fpi": "33bad3a0-fade-51ee-9114-36e3f7325260",
+          "f_plan_id": "4c00f699-4ddd-4c3e-9787-7a61c8895450",
+          "plan_name": "The Health Plan SecureChoice - Option II (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8604-014",
+          "parent_fpi": "33bad3a0-fade-51ee-9114-36e3f7325260",
+          "f_plan_id": "6b9c0eda-ff83-40af-8263-787257c3acc5",
+          "plan_name": "The Health Plan SecureChoice Optimum (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8604-801",
+          "parent_fpi": "33bad3a0-fade-51ee-9114-36e3f7325260",
+          "f_plan_id": "592ba0e5-b627-4120-ad85-ca19b8383845",
+          "plan_name": "The Health Plan SecureChoice - Employer (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8604-015",
+          "parent_fpi": "33bad3a0-fade-51ee-9114-36e3f7325260",
+          "f_plan_id": "531e1db1-ca0e-44bf-aa6e-6d83acea17fd",
+          "plan_name": "The Health Plan SecureChoice Reliance (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

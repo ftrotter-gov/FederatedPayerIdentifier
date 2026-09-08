@@ -1,0 +1,273 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+      "is_fpi": true,
+      "payerLegalName": "MCS ADVANTAGE, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MCS ADVANTAGE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5577",
+      "is_fpi": false,
+      "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-002",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "67a63050-155c-4d6b-a335-f93e436368d9",
+          "plan_name": "MCS Classicare Platino Ideal (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-005",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "70fff02d-9c66-4021-9fa2-a9d61ff26fb3",
+          "plan_name": "MCS Classicare Efectivo (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-008",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "b644d45b-65ce-4952-86ed-f9a45ea5a3bd",
+          "plan_name": "MCS Classicare Essential (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-016",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "30d671b8-81ee-4129-a80d-89b56269827e",
+          "plan_name": "MCS Classicare Patriot (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-017",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "0a875e3e-597a-4522-ad67-cda822aa0ed8",
+          "plan_name": "MCS Classicare Platino Progreso (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-038",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "8b652ac9-cf6a-4fca-940b-bc891c6247c5",
+          "plan_name": "MCS Classicare Primero (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-042",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "7cae2387-c74f-43c2-839f-e608cffaeaca",
+          "plan_name": "MCS Classicare Firme (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-043",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "0b266e01-695d-435d-b6eb-1627b2bac4d2",
+          "plan_name": "MCS Classicare En Tu Hogar (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-044",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "9aeb94b3-a5ac-40ef-9a53-799e0df41e30",
+          "plan_name": "MCS Classicare Hero (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-046",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "fed5a545-b83a-43d7-9c2e-2a97a724c897",
+          "plan_name": "MCS Classicare Platino Total (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-052",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "0980c399-d5d6-4341-ba78-a4344b2ebb6f",
+          "plan_name": "MCS Classicare InteliCare (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-054",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "8e496fac-33b5-4533-be15-9bcc09788427",
+          "plan_name": "MCS Classicare Platino Maximo (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-056",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "5e4a8179-ad24-40a6-b1f5-cd69a3e4206a",
+          "plan_name": "MCS Classicare Excede (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-059",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "fc63bf04-3f3e-4121-8dce-2d9b17a922b3",
+          "plan_name": "MCS Classicare RxMax (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-801",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "1eabddbb-a6ef-4ae2-92cd-fbfc3302db4e",
+          "plan_name": "MCS Classicare MA Group (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-802",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "3a56b915-7a8d-4e3c-97bf-cff68fdeb02a",
+          "plan_name": "MCS Classicare MA-PD Group (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-809",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "19d40651-07e7-4f24-ba6f-140f4aa0e2b6",
+          "plan_name": "MCS Classicare MA-PD Group 2nd Formulary Opt. (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-818",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "a6f34a00-9439-4f8b-8d58-f6a33e909a2f",
+          "plan_name": "MCS Classicare MA-PD Group 2C (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-820",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "6cc7c1e1-8fe8-4cfb-aaf7-9c298a001223",
+          "plan_name": "MCS Classicare MA-PD Group 2E (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-821",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "e1179e20-9faf-46f0-9f15-bb8f0d70dfb7",
+          "plan_name": "MCS Classicare MA-PD Group 2F (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-822",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "c4b3c18c-0056-457b-b1b4-5e268b275b4b",
+          "plan_name": "MCS Classicare MA-PD Group 2G (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-824",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "1dc4d90e-8683-4477-a64c-99501d69a70c",
+          "plan_name": "MCS Classicare MA-PD Group 2I (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-827",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "78b66cf1-8c12-47b9-aa6e-2e0b7861ef6f",
+          "plan_name": "MCS Classicare MA-PD Group 2L (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-829",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "4974742b-bd0f-4129-b405-6142ee3d3c92",
+          "plan_name": "MCS Classicare MA-PD Group 2N (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-830",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "56eb9026-9a26-400a-92bf-b10b0811b65f",
+          "plan_name": "MCS Classicare MA-PD Group 2O (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-831",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "7af2344b-072d-4691-8946-09cb8678d8ce",
+          "plan_name": "MCS Classicare MA-PD Group 2P (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-060",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "843cad66-f722-4d31-923c-29966901419b",
+          "plan_name": "MCS Classicare Estrella (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-061",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "2b13dcaf-1d8e-40df-bc39-5a4dd9679016",
+          "plan_name": "MCS Classicare Platino Superior (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-062",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "ea1110f8-cfd3-4a9b-a941-55f4b3236966",
+          "plan_name": "MCS Classicare Platino 185 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-833",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "27374d55-5aca-462c-a11e-43d87fe13c5f",
+          "plan_name": "Segmented PH1 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-834",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "c1d721eb-7cf4-4d2b-a309-dee8076afaa3",
+          "plan_name": "Segmented PH2 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-835",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "7fa77c0e-8e55-4eb3-8efc-bcbd8414d767",
+          "plan_name": "Segmented PH3 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-836",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "78f666e8-c70a-4bde-b91b-d0882b917717",
+          "plan_name": "Segmented PH4 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-837",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "41894e97-d9a6-47cd-81ec-7d208f8a994a",
+          "plan_name": "Segmented PH5 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-838",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "c975b631-255e-44a3-9136-84a704082f2e",
+          "plan_name": "MCS Classicare MA-PD Group 2Q (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

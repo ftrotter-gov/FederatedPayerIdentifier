@@ -1,0 +1,70 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "1b981948-369d-5aed-8b77-67ae7b244a65",
+      "is_fpi": true,
+      "payerLegalName": "KAISER FOUNDATION HP OF THE N W",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "KAISER FOUNDATION HP OF THE N W"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9003",
+      "is_fpi": false,
+      "parent_fpi": "1b981948-369d-5aed-8b77-67ae7b244a65"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9003-001",
+          "parent_fpi": "1b981948-369d-5aed-8b77-67ae7b244a65",
+          "f_plan_id": "df2ac12c-4bc3-45c3-8c56-16711cf545ad",
+          "plan_name": "Kaiser Permanente Senior Advantage Enhanced (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9003-006",
+          "parent_fpi": "1b981948-369d-5aed-8b77-67ae7b244a65",
+          "f_plan_id": "dc7d4ec0-963f-42cb-8639-73c826dd5e84",
+          "plan_name": "Kaiser Permanente Senior Advantage Standard (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9003-008",
+          "parent_fpi": "1b981948-369d-5aed-8b77-67ae7b244a65",
+          "f_plan_id": "c84eb515-a60c-481f-bccb-3a25dac255e7",
+          "plan_name": "Kaiser Permanente Senior Advantage Value Lane (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9003-009",
+          "parent_fpi": "1b981948-369d-5aed-8b77-67ae7b244a65",
+          "f_plan_id": "5648bcec-064c-4300-8bd3-8bd386cb12fd",
+          "plan_name": "Kaiser Permanente Senior Advantage Value (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9003-801",
+          "parent_fpi": "1b981948-369d-5aed-8b77-67ae7b244a65",
+          "f_plan_id": "dc4b6dfa-f771-433f-9ac3-123bbf1c4db1",
+          "plan_name": "Employer Group Only with Part D (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9003-802",
+          "parent_fpi": "1b981948-369d-5aed-8b77-67ae7b244a65",
+          "f_plan_id": "fa40454d-d8b2-4bb8-904e-191538b546b2",
+          "plan_name": "Employer Group Only without Part D (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,126 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "bc68830d-2628-5ef2-88dc-fb78698b60b6",
+      "is_fpi": true,
+      "payerLegalName": "CAPITAL ADVANTAGE INSURANCE COMPANY",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CAPITAL ADVANTAGE INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3923",
+      "is_fpi": false,
+      "parent_fpi": "bc68830d-2628-5ef2-88dc-fb78698b60b6"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3923-013",
+          "parent_fpi": "bc68830d-2628-5ef2-88dc-fb78698b60b6",
+          "f_plan_id": "6a932502-fe51-41a6-9506-c21c48f7d82b",
+          "plan_name": "Capital Blue Cross Classic (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3923-017",
+          "parent_fpi": "bc68830d-2628-5ef2-88dc-fb78698b60b6",
+          "f_plan_id": "2fe85b05-b1be-467c-99ca-1fb8cc3a008b",
+          "plan_name": "Capital Blue Cross Prime (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3923-044",
+          "parent_fpi": "bc68830d-2628-5ef2-88dc-fb78698b60b6",
+          "f_plan_id": "235193cb-dc83-4bc8-bce1-92c33c61a51d",
+          "plan_name": "Capital Blue Cross Select (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3923-045",
+          "parent_fpi": "bc68830d-2628-5ef2-88dc-fb78698b60b6",
+          "f_plan_id": "661f811b-f8fb-44a5-a599-756e0c6fb4d8",
+          "plan_name": "Capital Blue Cross Value (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3923-046",
+          "parent_fpi": "bc68830d-2628-5ef2-88dc-fb78698b60b6",
+          "f_plan_id": "6237c282-825c-44ef-8ba8-73240b4f5b89",
+          "plan_name": "Capital Blue Cross Enhanced (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3923-047",
+          "parent_fpi": "bc68830d-2628-5ef2-88dc-fb78698b60b6",
+          "f_plan_id": "96b9921b-6aed-43d5-9d84-c05818108a4f",
+          "plan_name": "Capital Blue Cross Complete (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3923-801",
+          "parent_fpi": "bc68830d-2628-5ef2-88dc-fb78698b60b6",
+          "f_plan_id": "001c5389-23b0-46b6-b7e7-ba46ec7c12ef",
+          "plan_name": "Capital Blue Cross Group Rx (CY) (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3923-802",
+          "parent_fpi": "bc68830d-2628-5ef2-88dc-fb78698b60b6",
+          "f_plan_id": "bf654f94-1535-4baa-9c72-7d23422fc8c9",
+          "plan_name": "Capital Blue Cross Group No Rx (CY) (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3923-817",
+          "parent_fpi": "bc68830d-2628-5ef2-88dc-fb78698b60b6",
+          "f_plan_id": "3bdcc5c8-0d31-48f5-9e90-5b2fc2c7c569",
+          "plan_name": "Capital Blue Cross Group Custom Rx (CY) (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3923-818",
+          "parent_fpi": "bc68830d-2628-5ef2-88dc-fb78698b60b6",
+          "f_plan_id": "8761dabf-f81f-415f-a8e8-f4af686c4d2f",
+          "plan_name": "Capital Blue Cross Group Rx Complete (CY) (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3923-819",
+          "parent_fpi": "bc68830d-2628-5ef2-88dc-fb78698b60b6",
+          "f_plan_id": "b0770e11-584f-40c5-adfd-ea34ad0c77a2",
+          "plan_name": "Capital Blue Cross Group Rx Standard (CY) (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3923-820",
+          "parent_fpi": "bc68830d-2628-5ef2-88dc-fb78698b60b6",
+          "f_plan_id": "14b42a29-6efd-4549-89c1-15b67806dfc8",
+          "plan_name": "Capital Blue Cross Group Rx (FY) (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3923-832",
+          "parent_fpi": "bc68830d-2628-5ef2-88dc-fb78698b60b6",
+          "f_plan_id": "83c53b15-d2d0-4789-9da0-313dbfbbaf1d",
+          "plan_name": "Capital Blue Cross Group No Rx (FY) (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3923-048",
+          "parent_fpi": "bc68830d-2628-5ef2-88dc-fb78698b60b6",
+          "f_plan_id": "f948fbec-833b-40ca-953a-02ec3d5e4c0c",
+          "plan_name": "Capital Blue Cross Basic (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

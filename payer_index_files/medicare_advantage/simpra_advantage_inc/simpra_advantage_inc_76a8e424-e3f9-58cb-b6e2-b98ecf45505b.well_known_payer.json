@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "76a8e424-e3f9-58cb-b6e2-b98ecf45505b",
+      "is_fpi": true,
+      "payerLegalName": "SIMPRA ADVANTAGE, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SIMPRA ADVANTAGE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4091",
+      "is_fpi": false,
+      "parent_fpi": "76a8e424-e3f9-58cb-b6e2-b98ecf45505b"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4091-001",
+          "parent_fpi": "76a8e424-e3f9-58cb-b6e2-b98ecf45505b",
+          "f_plan_id": "f13fb5dd-92bb-43d5-9685-f41bb552051f",
+          "plan_name": "Simpra Advantage Nursing Home Plan (PPO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4091-002",
+          "parent_fpi": "76a8e424-e3f9-58cb-b6e2-b98ecf45505b",
+          "f_plan_id": "720bce56-5c34-4c26-8949-30f2f9cd29cd",
+          "plan_name": "Simpra Advantage Dual Care (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4091-003",
+          "parent_fpi": "76a8e424-e3f9-58cb-b6e2-b98ecf45505b",
+          "f_plan_id": "26b05477-b9ad-46ca-b041-4908bb0ca112",
+          "plan_name": "Simpra Advantage Assist (PPO I-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "5f615172-4d3d-502e-9e87-6383504566cf",
+      "is_fpi": true,
+      "payerLegalName": "WEST VIRGINIA SENIOR ADVANTAGE, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WEST VIRGINIA SENIOR ADVANTAGE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9153",
+      "is_fpi": false,
+      "parent_fpi": "5f615172-4d3d-502e-9e87-6383504566cf"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9153-001",
+          "parent_fpi": "5f615172-4d3d-502e-9e87-6383504566cf",
+          "f_plan_id": "de98fba2-94bc-4257-9544-d32af0942a32",
+          "plan_name": "WV Senior Advantage (HMO I-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

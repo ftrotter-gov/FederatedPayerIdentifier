@@ -1,0 +1,607 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "e3083786-ea3b-5182-9309-a4434b66219f",
+      "is_fpi": true,
+      "payerLegalName": "HEALTH CARE SERVICE CORPORATION",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HEALTH CARE SERVICE CORPORATION"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0107",
+      "is_fpi": false,
+      "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3822",
+      "is_fpi": false,
+      "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8634",
+      "is_fpi": false,
+      "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0107-003",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "c5ab56ec-021d-481e-9c21-b7494be564a9",
+          "plan_name": "Blue Cross Medicare Advantage Classic (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0107-004",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "5ae56907-9c27-431d-87b5-2130795c8647",
+          "plan_name": "Blue Cross Medicare Advantage Optimum (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0107-005",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "647836ff-a896-4013-94e4-9f2329317dd9",
+          "plan_name": "Blue Cross Medicare Advantage Choice Plus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0107-007",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "61fee057-6bb6-467d-9739-4c7a2a04d19e",
+          "plan_name": "Blue Cross Medicare Advantage Dental Premier (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0107-010",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "0d319ac8-1c76-4cef-aed0-7c5c48805683",
+          "plan_name": "Blue Cross Medicare Advantage Health Choice (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0107-011",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "9fecce12-f5c5-4424-b91c-860a8faf8901",
+          "plan_name": "Blue Cross Medicare Advantage Protect (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0107-801",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "067504e1-3110-4f7a-858c-f2dcdee8e6ef",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0107-802",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "9d46b76e-3e02-4078-9087-8961256f0097",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0107-803",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "ffb5a32a-ed5f-4b01-af05-e7204be41fb0",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0107-804",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "db35abef-f286-456f-a485-54139036705c",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0107-805",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "72d3a7f8-1b9f-4a0f-9022-ebd0693f12b4",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0107-806",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "918d026f-107c-4e6e-9697-afa2ed57f406",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0107-807",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "706f4811-1606-4c1f-87b7-3458999a80fe",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0107-808",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "0e91057e-260b-42e1-82e7-f97ccc847266",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0107-809",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "829396ef-39a2-405a-bdcb-7eae4fd1f2ed",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0107-810",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "116775ee-593c-40cb-83a4-ff252c16fdce",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0107-811",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "6c92e507-49fa-4f97-aecc-19443d825ee4",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0107-812",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "c0b4288a-dfd7-44d6-b8a1-20c06086137b",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0107-813",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "638f60a3-d68f-4337-b849-a08bf33c51d6",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0107-814",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "b00cbb73-28b7-4fd3-ab43-1acb9f930f49",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0107-815",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "77c07ae5-ebef-4bdf-8597-145ce25ea7a0",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0107-816",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "e1ad9212-fffd-4157-b292-e71dfdd91a0e",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0107-817",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "abc313cb-f7c2-43c1-ac4c-f4b877bcc55e",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0107-818",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "05e4b556-ae5c-4af3-a0d8-6ff6f4382d2d",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0107-819",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "f9e3783f-a55e-4582-abaf-1e9eb98bb352",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0107-820",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "48a93e96-3fff-41f8-bc86-92c7615ed666",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0107-821",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "149e7631-134f-444f-beb4-3e1e02308a79",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3822-001",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "7941bbd8-5c09-4d40-a121-a7c072ec40bd",
+          "plan_name": "Blue Cross Medicare Advantage Basic (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3822-002",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "03ef0da6-73fa-46a8-bb6d-29bd3c1a89f2",
+          "plan_name": "Blue Cross Medicare Advantage Basic (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3822-007",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "9caf65dd-c441-4883-81a2-3e54542131f1",
+          "plan_name": "Blue Cross Medicare Advantage Basic Plus (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3822-008",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "91ef18de-2aab-4424-8c01-819121aa5173",
+          "plan_name": "Blue Cross Medicare Advantage Premier Plus (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3822-012",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "b95ab489-813d-4158-858b-c2b048e4b640",
+          "plan_name": "Blue Cross Medicare Advantage Basic (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3822-014",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "6aca9281-3237-4a0d-a8f6-ac352d5bce0a",
+          "plan_name": "Blue Cross Medicare Advantage Value (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3822-801",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "cef0d066-9bda-49f8-81f0-4e1c502ea61c",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3822-802",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "1c6c0cef-3d74-401b-a550-01840bc8278b",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3822-805",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "b5c34277-1dd2-42f1-b080-319a94e300ca",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3822-806",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "289d74e7-d56b-47a0-8e28-f5cadbf477cd",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3822-809",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "d7b72b1b-ac98-404d-8d90-0fa178b14e51",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3822-810",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "96290cce-deea-4bc4-acd5-952fa1936f67",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3822-813",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "9b5ba43e-791e-4ca8-b29a-9f01d076074e",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3822-814",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "094330be-c326-4527-b0a6-c01de876058f",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3822-815",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "c3026255-4b6b-4324-8cd0-6ca73fbbcd99",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3822-816",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "0a292660-048a-446e-bf8f-309f9f99ac32",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3822-817",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "9dd1df5c-a5c1-49e8-91da-0270ead8aa2d",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3822-818",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "0bce2f97-b7d4-458b-8a1a-49b2890c50fe",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-022",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "9d1cc8b5-8f5d-48d2-8213-91fde4dc0baf",
+          "plan_name": "Blue Cross Medicare Advantage Classic (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-027",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "b85b77bc-8cec-472b-ad21-139140286ed7",
+          "plan_name": "Blue Cross Medicare Advantage Classic (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-023",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "10502978-ba9e-4d4e-a4b4-9ce135b93aa2",
+          "plan_name": "Blue Cross Medicare Advantage Complete (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-024",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "c0a050ea-8b66-499e-8425-c5d0f7d59553",
+          "plan_name": "Blue Cross Medicare Advantage Dental Premier (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-025",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "fa1a7236-d657-468a-b0c5-77dc3e89cb99",
+          "plan_name": "Blue Cross Medicare Advantage Health Choice (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-026",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "d3704d79-b7f3-40a4-8680-5d8e86accc9a",
+          "plan_name": "Blue Cross Medicare Advantage Protect (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-028",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "6abc5d99-0e58-4203-8347-81e78b21adce",
+          "plan_name": "Blue Cross Medicare Advantage Protect (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-029",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "a7c6fff6-137d-49f6-a8c7-8a600194ca78",
+          "plan_name": "Blue Cross Medicare Advantage Dental Premier (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-030",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "daddaf2b-209e-4bb9-9b6d-3cc9c07f0894",
+          "plan_name": "Blue Cross Medicare Advantage Health Choice (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-031",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "56f32c72-a80e-488e-9c6b-5a10f96c2209",
+          "plan_name": "Blue Cross Medicare Advantage Balance (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-032",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "9252104e-7997-4db1-aeed-dd6647c92d1d",
+          "plan_name": "Blue Cross Medicare Advantage Optimum (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-003",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "e2bf5290-05b9-439e-8521-a72e79b72f66",
+          "plan_name": "Blue Cross Medicare Advantage Choice Plus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-004",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "0cb9ccbd-2615-4739-9959-4d1777b9e2b3",
+          "plan_name": "Blue Cross Medicare Advantage Choice Premier (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-008",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "4b634c75-6cdd-413d-a6b7-1d0eab24ea75",
+          "plan_name": "Blue Cross Medicare Advantage Classic (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-009",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "27a95f1b-cff4-43a9-8af7-b00a337dffba",
+          "plan_name": "Blue Cross MA Dual Care Plus Preferred (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-010",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "bce6f910-45a8-48cf-ae7a-b3c9bb0aa64e",
+          "plan_name": "Blue Cross Medicare Advantage Classic (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-012",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "1fc44a47-2dee-4cfd-964c-de43c61e26e2",
+          "plan_name": "Blue Cross Medicare Advantage Essential (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-018",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "34a71757-fc61-4d94-80d8-f01f68426077",
+          "plan_name": "Blue Cross Medicare Advantage Health Choice (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-019",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "c563be19-5b85-42a9-99ec-3e2d1630793f",
+          "plan_name": "Blue Cross Medicare Advantage Protect (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-021",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "5f467268-b645-4343-a335-62b7c64bb4da",
+          "plan_name": "Blue Cross Medicare Advantage Dental Premier (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-801",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "0e281055-9bb3-41a1-ad56-027ac6b4e365",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-803",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "b371f7c1-2c90-4973-937c-5d20a3c89d8d",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-805",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "fa829cc9-56b4-4ffe-ac88-252129bc6c0e",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-807",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "980ee76d-e802-43db-81a3-c5d675c16a3d",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-809",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "949f154e-f9f3-4469-adb8-f666153867fe",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-811",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "5f2b6914-5106-4db0-a65b-6938672568a7",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-813",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "abf01228-7ee3-4a63-8c94-eeb600ff7354",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-815",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "41a52028-b055-47f6-a985-61b6a96b822a",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-817",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "fc090c87-4d63-481c-abae-22077dbae862",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-819",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "ccbe539d-f4df-4e5a-b157-b7ef913a6fee",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-820",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "73744466-1a7d-40ed-a3a9-0ae9d6b83260",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-821",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "310184ee-3e70-46ae-9725-32789a22d1fc",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-822",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "1685b35e-575a-43f3-bf41-163171c22239",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-823",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "938f08cb-0ff6-40c5-b818-4a025a54755f",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-824",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "d640fb30-1414-4d18-b343-05794934a05e",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8634-033",
+          "parent_fpi": "e3083786-ea3b-5182-9309-a4434b66219f",
+          "f_plan_id": "8495d2aa-f005-4865-af79-b26d1ac6434a",
+          "plan_name": "Blue Cross Medicare Advantage Preferred (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

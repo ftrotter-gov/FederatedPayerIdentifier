@@ -1,0 +1,70 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "a1f6e992-a7ff-5909-9f1d-36c4f6535a13",
+      "is_fpi": true,
+      "payerLegalName": "GOLD KIDNEY OF FLORIDA INC",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "GOLD KIDNEY OF FLORIDA INC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1526",
+      "is_fpi": false,
+      "parent_fpi": "a1f6e992-a7ff-5909-9f1d-36c4f6535a13"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1526-001",
+          "parent_fpi": "a1f6e992-a7ff-5909-9f1d-36c4f6535a13",
+          "f_plan_id": "b804efcd-68e7-4185-8f73-34d08be57cb1",
+          "plan_name": "Gold Heart & Diabetes (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1526-002",
+          "parent_fpi": "a1f6e992-a7ff-5909-9f1d-36c4f6535a13",
+          "f_plan_id": "83fa2960-85a6-46c2-aaab-af31f223b2c9",
+          "plan_name": "Gold Heart & Diabetes Complete (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1526-003",
+          "parent_fpi": "a1f6e992-a7ff-5909-9f1d-36c4f6535a13",
+          "f_plan_id": "7d4571d1-6a74-4b48-8c4e-f2c706703bc5",
+          "plan_name": "Gold Dialysis & Kidney (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1526-004",
+          "parent_fpi": "a1f6e992-a7ff-5909-9f1d-36c4f6535a13",
+          "f_plan_id": "75373f31-87c6-426c-8942-5160c739c8b0",
+          "plan_name": "Gold Dialysis & Kidney Complete (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1526-008",
+          "parent_fpi": "a1f6e992-a7ff-5909-9f1d-36c4f6535a13",
+          "f_plan_id": "e831d2a0-ebce-44a9-8253-1b99b590184e",
+          "plan_name": "Gold Health (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1526-009",
+          "parent_fpi": "a1f6e992-a7ff-5909-9f1d-36c4f6535a13",
+          "f_plan_id": "f46d090a-7283-455e-8429-bbedbf1c6371",
+          "plan_name": "Gold Dialysis & Kidney (HMO-POS C-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}
