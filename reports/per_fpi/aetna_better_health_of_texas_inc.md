@@ -25,13 +25,13 @@
 | davinci_crd_hook_endpoint#1.2 | None |
 | davinci_dtr_qpackage_endpoint#1.2 | None |
 | davinci_pas_submission_endpoint#1.2 | https://apix.cvshealth.com/priorauthorizationsupport/v1/Claim/$submit |
-| davinci_payer_to_payer_endpoint#1.1 | None |
+| davinci_pdex_payer_endpoint#1.1 | None |
 | davinci_pdex_formulary_endpoint#2.0 | https://apif1.aetna.com/fhir/v3/patientaccess/ |
 | davinci_pdex_patient_endpoint#2.0 | https://apif1.aetna.com/fhir/v3/patientaccess/ |
 | davinci_pdex_patient_endpoint#2.0_uscore3.1 | https://apif1.aetna.com/fhir/v2/patientaccess/ |
 | davinci_pdex_provider_directory_endpoint#1.1 | https://apif1.aetna.com/fhir/v1/providerdirectorydata/ |
 | davinci_pdex_provider_directory_endpoint_all_at_once#1.1 | None |
-| davinci_provider_payer_access_endpoint#1.1 | https://apix.cvshealth.com/provideraccess/v1/ |
+| davinci_pdex_provider_endpoint#1.1 | https://apix.cvshealth.com/provideraccess/v1/ |
 | ndh_meta_documentation_url | https://developerportal.aetna.com/fhirapiasegregation |
 | ndh_meta_fhir_signup_url | https://developerportal.aetna.com/ |
 | payer_homepage | https://www.aetna.com/ |

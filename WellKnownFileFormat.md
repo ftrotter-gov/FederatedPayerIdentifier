@@ -273,10 +273,10 @@ well_known_payer_json = {
             "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "http://example.org/foo/bar/provider-directory/all_at_once.ndjson.zip",
 
             // provider access endpoints
-            "davinci_provider_payer_access_endpoint#1.1": "http://example.org/foo/bar/provider-payer-access",
+            "davinci_pdex_provider_endpoint#1.1": "http://example.org/foo/bar/provider-payer-access",
 
             // payer to payer endpoints
-            "davinci_payer_to_payer_endpoint#1.1": "http://example.org/foo/bar/payer-to-payer",
+            "davinci_pdex_payer_endpoint#1.1": "http://example.org/foo/bar/payer-to-payer",
 
             // patient service endpoints
                 // carin bluebutton endpoints
@@ -352,3 +352,12 @@ accepted generated UUID version or a supported source identifier.
 has not yet been updated to emit the new multi-FPI format fields (`is_fpi`,
 `parent_fpi` on crosswalk identifiers, or `parent_fpi` on plan identifiers). Seeded
 files will not conform to the current format until the seeder is updated.
+
+## Endpoint Name ValueSet
+
+The endpoint-family names in this well-known format use the HL7 Da Vinci HRex
+[Endpoint Name ValueSet](https://www.hl7.org/fhir/us/davinci-hrex/en/ValueSet-hrex-endpoint-name.html)
+as a starting point. Version suffixes may be appended to an endpoint-family name
+when needed. This prototype may also define endpoint families that are not yet
+represented in that ValueSet, including endpoints from other implementation
+guides and non-FHIR interoperability resources.

@@ -30,12 +30,12 @@
     "documentation": "A bulk download URL for the payer's complete provider network directory delivered as a pre-generated NDJSON archive, intended for consumers who need the full dataset rather than incremental queries."
   },
   {
-    "type": "davinci_provider_payer_access_endpoint",
+    "type": "davinci_pdex_provider_endpoint",
     "ig_url": "https://hl7.org/fhir/us/davinci-pdex/",
     "documentation": "A FHIR endpoint that allows providers to access a patient's payer-held clinical and claims data, supporting care coordination and reducing duplicative data collection."
   },
   {
-    "type": "davinci_payer_to_payer_endpoint",
+    "type": "davinci_pdex_payer_endpoint",
     "ig_url": "https://hl7.org/fhir/us/davinci-pdex/",
     "documentation": "A FHIR endpoint that enables one payer to retrieve a member's clinical and claims data from a prior payer when the member transitions coverage, supporting continuity of care."
   },

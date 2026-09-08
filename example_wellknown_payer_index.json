@@ -135,9 +135,9 @@
         "davinci_pdex_provider_directory_endpoint#1.1": "http://example.org/foo/bar/provider-directory",
         "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "http://example.org/foo/bar/provider-directory/all_at_once.ndjson.zip",
 
-        "davinci_provider_payer_access_endpoint#1.1": "http://example.org/foo/bar/provider-payer-access",
+        "davinci_pdex_provider_endpoint#1.1": "http://example.org/foo/bar/provider-payer-access",
 
-        "davinci_payer_to_payer_endpoint#1.1": "http://example.org/foo/bar/payer-to-payer",
+        "davinci_pdex_payer_endpoint#1.1": "http://example.org/foo/bar/payer-to-payer",
 
         "carin_bluebutton_endpoint#1.0": "https://example.org/fhir/v3/patientaccess/",
         "carin_bluebutton_endpoint#1.0_uscore3.1": "https://example.org/fhir/v2/patientaccess/",
@@ -205,7 +205,7 @@
 
         "davinci_pdex_provider_directory_endpoint#1.1": "http://tx.example.org/foo/bar/provider-directory",
 
-        "davinci_payer_to_payer_endpoint#1.1": "http://tx.example.org/foo/bar/payer-to-payer",
+        "davinci_pdex_payer_endpoint#1.1": "http://tx.example.org/foo/bar/payer-to-payer",
 
         "carin_bluebutton_endpoint#1.0": "https://tx.example.org/fhir/v3/patientaccess/",
 
