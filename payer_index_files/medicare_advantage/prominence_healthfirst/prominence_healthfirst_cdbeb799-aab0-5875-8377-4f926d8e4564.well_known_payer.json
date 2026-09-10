@@ -1,0 +1,119 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "cdbeb799-aab0-5875-8377-4f926d8e4564",
+      "is_fpi": true,
+      "payerLegalName": "PROMINENCE HEALTHFIRST",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PROMINENCE HEALTHFIRST"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5945",
+      "is_fpi": false,
+      "parent_fpi": "cdbeb799-aab0-5875-8377-4f926d8e4564"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5945-001",
+          "parent_fpi": "cdbeb799-aab0-5875-8377-4f926d8e4564",
+          "f_plan_id": "a4b4b240-779b-4a86-8a58-2fa3c48d29c6",
+          "plan_name": "Prominence Plus (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5945-002",
+          "parent_fpi": "cdbeb799-aab0-5875-8377-4f926d8e4564",
+          "f_plan_id": "9361f5c4-929a-4b8f-9a68-62f2b43e6a33",
+          "plan_name": "Prominence Plus (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5945-013",
+          "parent_fpi": "cdbeb799-aab0-5875-8377-4f926d8e4564",
+          "f_plan_id": "814de532-3fbd-48a6-8a83-7b3bbb708c84",
+          "plan_name": "Prominence Extra Help (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5945-014",
+          "parent_fpi": "cdbeb799-aab0-5875-8377-4f926d8e4564",
+          "f_plan_id": "e6a2de8f-a889-470c-aff8-d8e5d9b59901",
+          "plan_name": "Prominence Extra Help (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5945-016",
+          "parent_fpi": "cdbeb799-aab0-5875-8377-4f926d8e4564",
+          "f_plan_id": "9220a8b0-46a3-4a03-a34e-fa7fd9e14419",
+          "plan_name": "Prominence Diabetes and Heart Giveback (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5945-017",
+          "parent_fpi": "cdbeb799-aab0-5875-8377-4f926d8e4564",
+          "f_plan_id": "429bdf61-885b-4ff2-b418-7d16e2d54da3",
+          "plan_name": "Prominence Dual (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5945-018",
+          "parent_fpi": "cdbeb799-aab0-5875-8377-4f926d8e4564",
+          "f_plan_id": "6800b7d7-84b3-4a8a-9880-f6952545b7de",
+          "plan_name": "Prominence Dual (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5945-027",
+          "parent_fpi": "cdbeb799-aab0-5875-8377-4f926d8e4564",
+          "f_plan_id": "9c09fdff-897d-48ff-9588-971809233c87",
+          "plan_name": "Prominence Giveback (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5945-032",
+          "parent_fpi": "cdbeb799-aab0-5875-8377-4f926d8e4564",
+          "f_plan_id": "f2aedcc9-4a0b-46c6-988f-b6bc5129f54f",
+          "plan_name": "Prominence Veteran (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5945-801",
+          "parent_fpi": "cdbeb799-aab0-5875-8377-4f926d8e4564",
+          "f_plan_id": "3073c256-e30b-4eed-ac35-a75e079371b9",
+          "plan_name": "Prominence Health Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5945-802",
+          "parent_fpi": "cdbeb799-aab0-5875-8377-4f926d8e4564",
+          "f_plan_id": "6dac4eea-fd4f-46a2-a6ba-de1b54d2e580",
+          "plan_name": "Prominence Health Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5945-804",
+          "parent_fpi": "cdbeb799-aab0-5875-8377-4f926d8e4564",
+          "f_plan_id": "ad55cd54-fd2a-4f43-bae5-8876be7c634b",
+          "plan_name": "Prominence Health Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5945-805",
+          "parent_fpi": "cdbeb799-aab0-5875-8377-4f926d8e4564",
+          "f_plan_id": "5ae0531f-8a33-4e4e-a273-15d11ce160d4",
+          "plan_name": "Prominence Health Plan (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

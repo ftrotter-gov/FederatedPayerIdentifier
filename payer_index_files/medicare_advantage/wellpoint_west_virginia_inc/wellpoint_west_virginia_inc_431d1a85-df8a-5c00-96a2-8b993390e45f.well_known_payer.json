@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "431d1a85-df8a-5c00-96a2-8b993390e45f",
+      "is_fpi": true,
+      "payerLegalName": "WELLPOINT WEST VIRGINIA , INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WELLPOINT WEST VIRGINIA , INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1212",
+      "is_fpi": false,
+      "parent_fpi": "431d1a85-df8a-5c00-96a2-8b993390e45f"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1212-001",
+          "parent_fpi": "431d1a85-df8a-5c00-96a2-8b993390e45f",
+          "f_plan_id": "3c5c0924-d9fa-476a-882b-c3bda9eb863c",
+          "plan_name": "Wellpoint Full Dual Advantage (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1212-002",
+          "parent_fpi": "431d1a85-df8a-5c00-96a2-8b993390e45f",
+          "f_plan_id": "c08662f5-98b8-4fa8-953d-eeed1c283f64",
+          "plan_name": "Wellpoint Dual Advantage (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1212-003",
+          "parent_fpi": "431d1a85-df8a-5c00-96a2-8b993390e45f",
+          "f_plan_id": "db834337-abae-4fc5-9cdc-c2cad12b734a",
+          "plan_name": "Wellpoint Medicare Advantage (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

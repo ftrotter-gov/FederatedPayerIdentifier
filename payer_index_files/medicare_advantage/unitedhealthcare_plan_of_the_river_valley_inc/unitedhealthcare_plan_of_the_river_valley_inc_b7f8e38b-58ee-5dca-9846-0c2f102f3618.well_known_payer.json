@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "b7f8e38b-58ee-5dca-9846-0c2f102f3618",
+      "is_fpi": true,
+      "payerLegalName": "UNITEDHEALTHCARE PLAN OF THE RIVER VALLEY, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "UNITEDHEALTHCARE PLAN OF THE RIVER VALLEY, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0251",
+      "is_fpi": false,
+      "parent_fpi": "b7f8e38b-58ee-5dca-9846-0c2f102f3618"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0251-002",
+          "parent_fpi": "b7f8e38b-58ee-5dca-9846-0c2f102f3618",
+          "f_plan_id": "8e70fbeb-23fd-4447-8399-4baea7495d8b",
+          "plan_name": "UHC Dual Complete TN-S001 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0251-004",
+          "parent_fpi": "b7f8e38b-58ee-5dca-9846-0c2f102f3618",
+          "f_plan_id": "98f9b017-70b0-434c-b0fd-91f00444833e",
+          "plan_name": "UHC Dual Complete TN-Y001 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0251-008",
+          "parent_fpi": "b7f8e38b-58ee-5dca-9846-0c2f102f3618",
+          "f_plan_id": "e55e396a-4d83-4e30-b6e6-5350f7bcd296",
+          "plan_name": "UHC Dual Complete TN-Y2 (HMO-POS D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

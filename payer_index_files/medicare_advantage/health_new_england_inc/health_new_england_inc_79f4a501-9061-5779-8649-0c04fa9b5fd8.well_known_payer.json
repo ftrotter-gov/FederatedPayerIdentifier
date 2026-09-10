@@ -1,0 +1,118 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "79f4a501-9061-5779-8649-0c04fa9b5fd8",
+      "is_fpi": true,
+      "payerLegalName": "HEALTH NEW ENGLAND, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HEALTH NEW ENGLAND, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2737",
+      "is_fpi": false,
+      "parent_fpi": "79f4a501-9061-5779-8649-0c04fa9b5fd8"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8578",
+      "is_fpi": false,
+      "parent_fpi": "79f4a501-9061-5779-8649-0c04fa9b5fd8"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2737-001",
+          "parent_fpi": "79f4a501-9061-5779-8649-0c04fa9b5fd8",
+          "f_plan_id": "08985a3d-a103-4e2b-87cc-398d6854c05f",
+          "plan_name": "Health New England Medicare Compass (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2737-801",
+          "parent_fpi": "79f4a501-9061-5779-8649-0c04fa9b5fd8",
+          "f_plan_id": "b73f81e9-b67f-421f-8376-e3a9f5eacb2a",
+          "plan_name": "Health New England Compass Group Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2737-802",
+          "parent_fpi": "79f4a501-9061-5779-8649-0c04fa9b5fd8",
+          "f_plan_id": "a76069ce-aa24-44a2-923b-4f15813f6d62",
+          "plan_name": "Health New England Compass Group Calendar (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2737-803",
+          "parent_fpi": "79f4a501-9061-5779-8649-0c04fa9b5fd8",
+          "f_plan_id": "1b7e420c-8321-443f-a1ee-1974d39ec689",
+          "plan_name": "Health New England Compass Group Non-Calendar (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8578-001",
+          "parent_fpi": "79f4a501-9061-5779-8649-0c04fa9b5fd8",
+          "f_plan_id": "bb12b345-9938-4c93-94a4-4c5811271647",
+          "plan_name": "Health New England Medicare Premium (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8578-003",
+          "parent_fpi": "79f4a501-9061-5779-8649-0c04fa9b5fd8",
+          "f_plan_id": "036e9af7-4838-4729-8ab1-89de7a945fca",
+          "plan_name": "Health New England Medicare Premium No Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8578-004",
+          "parent_fpi": "79f4a501-9061-5779-8649-0c04fa9b5fd8",
+          "f_plan_id": "ffe0e55a-31cf-4b56-8091-6a30e9d76401",
+          "plan_name": "Health New England Medicare Plus (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8578-009",
+          "parent_fpi": "79f4a501-9061-5779-8649-0c04fa9b5fd8",
+          "f_plan_id": "3f3265a5-7362-42ba-acb7-8c4ec39630f5",
+          "plan_name": "Health New England Medicare Basic No Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8578-012",
+          "parent_fpi": "79f4a501-9061-5779-8649-0c04fa9b5fd8",
+          "f_plan_id": "7235beba-c83e-4e71-813a-b899bb773479",
+          "plan_name": "Health New England Medicare Value (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8578-801",
+          "parent_fpi": "79f4a501-9061-5779-8649-0c04fa9b5fd8",
+          "f_plan_id": "865493e2-7e93-4a54-9467-8fd4f3df0ef1",
+          "plan_name": "Health New England Medicare Employer Group RX (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8578-802",
+          "parent_fpi": "79f4a501-9061-5779-8649-0c04fa9b5fd8",
+          "f_plan_id": "45548f55-a512-447c-83f5-6eebba81213d",
+          "plan_name": "HNE Medicare Employer Group Calendar (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8578-803",
+          "parent_fpi": "79f4a501-9061-5779-8649-0c04fa9b5fd8",
+          "f_plan_id": "7e7d53a5-11cb-43ff-80ce-ddec2dbbc019",
+          "plan_name": "HNE Medicare Employer Group Non-Calendar (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

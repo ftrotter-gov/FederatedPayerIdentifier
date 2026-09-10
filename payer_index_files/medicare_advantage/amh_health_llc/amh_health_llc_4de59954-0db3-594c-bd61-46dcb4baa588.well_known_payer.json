@@ -1,0 +1,56 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "4de59954-0db3-594c-bd61-46dcb4baa588",
+      "is_fpi": true,
+      "payerLegalName": "AMH HEALTH, LLC",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "AMH HEALTH, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9065",
+      "is_fpi": false,
+      "parent_fpi": "4de59954-0db3-594c-bd61-46dcb4baa588"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9065-001",
+          "parent_fpi": "4de59954-0db3-594c-bd61-46dcb4baa588",
+          "f_plan_id": "8fafad9e-afa4-4989-810e-9bdfbde750ca",
+          "plan_name": "Anthem I MaineHealth Advantage Dual Plus (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9065-002",
+          "parent_fpi": "4de59954-0db3-594c-bd61-46dcb4baa588",
+          "f_plan_id": "48f5efc5-9003-426b-9846-c3f29bd2ab62",
+          "plan_name": "Anthem I MaineHealth Advantage Choice (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9065-003",
+          "parent_fpi": "4de59954-0db3-594c-bd61-46dcb4baa588",
+          "f_plan_id": "f73150e2-e824-46a4-a56e-b3e5fb81f7f0",
+          "plan_name": "Anthem I MaineHealth Advantage Choice (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9065-008",
+          "parent_fpi": "4de59954-0db3-594c-bd61-46dcb4baa588",
+          "f_plan_id": "121886d1-da7e-4906-bf0d-c0ae39a1b6a1",
+          "plan_name": "Anthem I MaineHealth Advantage Plus (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

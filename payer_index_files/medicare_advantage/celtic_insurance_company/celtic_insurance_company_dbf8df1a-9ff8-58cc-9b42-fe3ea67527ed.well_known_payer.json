@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "dbf8df1a-9ff8-58cc-9b42-fe3ea67527ed",
+      "is_fpi": true,
+      "payerLegalName": "CELTIC INSURANCE COMPANY",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CELTIC INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4661",
+      "is_fpi": false,
+      "parent_fpi": "dbf8df1a-9ff8-58cc-9b42-fe3ea67527ed"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4661-001",
+          "parent_fpi": "dbf8df1a-9ff8-58cc-9b42-fe3ea67527ed",
+          "f_plan_id": "9b4bec71-4c94-40c1-942b-5bba1f8eb552",
+          "plan_name": "Wellcare Simple (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4661-003",
+          "parent_fpi": "dbf8df1a-9ff8-58cc-9b42-fe3ea67527ed",
+          "f_plan_id": "7004e486-c2d4-481f-95bf-77df53f2839c",
+          "plan_name": "Wellcare Delaware First Health Dual Align (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4661-005",
+          "parent_fpi": "dbf8df1a-9ff8-58cc-9b42-fe3ea67527ed",
+          "f_plan_id": "9695b2f4-612c-4897-a038-cbdbefa817e1",
+          "plan_name": "Wellcare Dual Select (HMO-POS D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

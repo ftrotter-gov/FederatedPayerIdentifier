@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "a4ec8013-260e-52f1-8a5a-c73cd8c40100",
+      "is_fpi": true,
+      "payerLegalName": "ALIGN SENIOR CARE FLORIDA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ALIGN SENIOR CARE FLORIDA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9917",
+      "is_fpi": false,
+      "parent_fpi": "a4ec8013-260e-52f1-8a5a-c73cd8c40100"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9917-001",
+          "parent_fpi": "a4ec8013-260e-52f1-8a5a-c73cd8c40100",
+          "f_plan_id": "0894a67f-2f6b-4e7a-9fee-de58eebf18f9",
+          "plan_name": "Senior Care (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9917-004",
+          "parent_fpi": "a4ec8013-260e-52f1-8a5a-c73cd8c40100",
+          "f_plan_id": "d0f2a2a9-9c48-4f53-8da9-914dcc614eb8",
+          "plan_name": "Premier Care (HMO I-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

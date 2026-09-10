@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "e3d1afaf-d0e1-50c1-8072-fd2c0c4a871a",
+      "is_fpi": true,
+      "payerLegalName": "VISITING NURSE ASSOCIATION OF CENTRAL NEW YORK",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "VISITING NURSE ASSOCIATION OF CENTRAL NEW YORK"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9066",
+      "is_fpi": false,
+      "parent_fpi": "e3d1afaf-d0e1-50c1-8072-fd2c0c4a871a"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9066-001",
+          "parent_fpi": "e3d1afaf-d0e1-50c1-8072-fd2c0c4a871a",
+          "f_plan_id": "ce857646-8fb4-42f3-9ed2-e0529beda77b",
+          "plan_name": "Nascentia Medicaid Advantage Plus (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9066-002",
+          "parent_fpi": "e3d1afaf-d0e1-50c1-8072-fd2c0c4a871a",
+          "f_plan_id": "a366a566-ceb5-41e2-9511-2a593bf68155",
+          "plan_name": "Nascentia Skilled Nursing Facility (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9066-003",
+          "parent_fpi": "e3d1afaf-d0e1-50c1-8072-fd2c0c4a871a",
+          "f_plan_id": "2aee0264-6171-4001-ac27-95628ab73fa2",
+          "plan_name": "Nascentia Dual Advantage (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

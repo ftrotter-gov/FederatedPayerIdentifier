@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "1ce4ce70-6fa0-5dab-8d25-3085a6396b3e",
+      "is_fpi": true,
+      "payerLegalName": "HEALTH PLAN OF CAREOREGON, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HEALTH PLAN OF CAREOREGON, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5859",
+      "is_fpi": false,
+      "parent_fpi": "1ce4ce70-6fa0-5dab-8d25-3085a6396b3e"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5859-001",
+          "parent_fpi": "1ce4ce70-6fa0-5dab-8d25-3085a6396b3e",
+          "f_plan_id": "3b4ee66d-74f5-4e0b-a092-0433a2ec24af",
+          "plan_name": "CareOregon Advantage Plus (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

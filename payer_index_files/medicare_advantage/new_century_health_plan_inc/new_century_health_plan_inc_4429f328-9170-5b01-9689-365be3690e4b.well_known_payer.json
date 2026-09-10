@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "4429f328-9170-5b01-9689-365be3690e4b",
+      "is_fpi": true,
+      "payerLegalName": "NEW CENTURY HEALTH PLAN, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "NEW CENTURY HEALTH PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4647",
+      "is_fpi": false,
+      "parent_fpi": "4429f328-9170-5b01-9689-365be3690e4b"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4647-001",
+          "parent_fpi": "4429f328-9170-5b01-9689-365be3690e4b",
+          "f_plan_id": "4c07831a-d663-4ae9-b088-29f46d32b8f8",
+          "plan_name": "UCLA Health Medicare Advantage Principal Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4647-002",
+          "parent_fpi": "4429f328-9170-5b01-9689-365be3690e4b",
+          "f_plan_id": "e2cf9354-3f10-4214-b457-04dc7c792af8",
+          "plan_name": "UCLA Health Medicare Advantage Prestige Plan (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

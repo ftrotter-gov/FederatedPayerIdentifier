@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "73acd73c-b15a-5b12-9b34-b0dc289a124a",
+      "is_fpi": true,
+      "payerLegalName": "SUNFLOWER STATE HEALTH PLAN, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SUNFLOWER STATE HEALTH PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6550",
+      "is_fpi": false,
+      "parent_fpi": "73acd73c-b15a-5b12-9b34-b0dc289a124a"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6550-003",
+          "parent_fpi": "73acd73c-b15a-5b12-9b34-b0dc289a124a",
+          "f_plan_id": "765421f0-b24c-4379-b484-da10f91ddec3",
+          "plan_name": "Wellcare Simple (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6550-004",
+          "parent_fpi": "73acd73c-b15a-5b12-9b34-b0dc289a124a",
+          "f_plan_id": "031786ff-e5d3-45c6-99e7-b5be297bbc52",
+          "plan_name": "Wellcare Dual Access Sync (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6550-009",
+          "parent_fpi": "73acd73c-b15a-5b12-9b34-b0dc289a124a",
+          "f_plan_id": "888a9c79-6299-4b99-897a-d35d2ae1a5b7",
+          "plan_name": "Wellcare Dual Liberty Sync (HMO-POS D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

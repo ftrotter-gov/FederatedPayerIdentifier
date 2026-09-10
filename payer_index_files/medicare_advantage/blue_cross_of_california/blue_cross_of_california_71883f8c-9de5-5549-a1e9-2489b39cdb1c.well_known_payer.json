@@ -1,0 +1,224 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
+      "is_fpi": true,
+      "payerLegalName": "BLUE CROSS OF CALIFORNIA",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BLUE CROSS OF CALIFORNIA"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0544",
+      "is_fpi": false,
+      "parent_fpi": "71883f8c-9de5-5549-a1e9-2489b39cdb1c"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0544-002",
+          "parent_fpi": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
+          "f_plan_id": "50ac1659-fe93-4e70-9657-7d723b3b47ed",
+          "plan_name": "Anthem I CareMore Medicare Advantage 2 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0544-004",
+          "parent_fpi": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
+          "f_plan_id": "82373660-7a3d-4d26-98e5-35edfa45a2fd",
+          "plan_name": "Anthem I CareMore Chronic Care (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0544-005",
+          "parent_fpi": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
+          "f_plan_id": "bbab2dd4-930a-41e5-a15f-0dce0ab3ac2a",
+          "plan_name": "Anthem I CareMore Home Care (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0544-010",
+          "parent_fpi": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
+          "f_plan_id": "b479992b-00cd-484c-aae4-f4e00ca14b48",
+          "plan_name": "Anthem I CareMore Chronic Care (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0544-014",
+          "parent_fpi": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
+          "f_plan_id": "00dae299-b973-4337-bfad-9c975bddc21a",
+          "plan_name": "Anthem I CareMore Lung Care (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0544-015",
+          "parent_fpi": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
+          "f_plan_id": "f5b0d7e8-7e27-4249-9b17-2c60fc55da36",
+          "plan_name": "Anthem I CareMore Kidney Care (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0544-019",
+          "parent_fpi": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
+          "f_plan_id": "d86108b9-125d-4c03-bc1b-129bfebed57c",
+          "plan_name": "Anthem I CareMore Lung Care (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0544-020",
+          "parent_fpi": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
+          "f_plan_id": "6c771aac-d2b1-48b3-8112-a8f21b2f243b",
+          "plan_name": "Anthem I CareMore Kidney Care (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0544-056",
+          "parent_fpi": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
+          "f_plan_id": "6e403b2f-7f56-428c-a76f-a54858941fe8",
+          "plan_name": "Anthem Medicare Advantage (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0544-058",
+          "parent_fpi": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
+          "f_plan_id": "a66f431f-beb0-41ea-8514-9a54f3f90b31",
+          "plan_name": "Anthem Select (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0544-061",
+          "parent_fpi": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
+          "f_plan_id": "da283714-18dd-4d84-afae-c164d7eaf3df",
+          "plan_name": "Anthem Medicare Advantage (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0544-062",
+          "parent_fpi": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
+          "f_plan_id": "680d0545-50a7-4805-8355-b74bcb852be9",
+          "plan_name": "Anthem Medicare Advantage (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0544-063",
+          "parent_fpi": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
+          "f_plan_id": "35e61680-66fe-4f0a-9a99-39829194163b",
+          "plan_name": "Anthem Medicare Advantage (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0544-064",
+          "parent_fpi": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
+          "f_plan_id": "b41ee10f-2b09-4ba1-8dd0-939ef8284aaf",
+          "plan_name": "Anthem Medicare Advantage (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0544-065",
+          "parent_fpi": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
+          "f_plan_id": "03393ea3-a2d9-4292-9e0c-5cf950df25bd",
+          "plan_name": "Anthem Medicare Advantage (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0544-066",
+          "parent_fpi": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
+          "f_plan_id": "0ecc9d47-d91a-4471-b8c0-eb9f1f3e77e2",
+          "plan_name": "Anthem Select (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0544-069",
+          "parent_fpi": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
+          "f_plan_id": "917ed2e3-eb49-4a86-91fa-36d28ec3984d",
+          "plan_name": "Anthem Select (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0544-091",
+          "parent_fpi": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
+          "f_plan_id": "420b6dbb-2fcb-40b4-8c76-62cbaaeca8bb",
+          "plan_name": "Anthem Select (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0544-095",
+          "parent_fpi": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
+          "f_plan_id": "bad346b7-0bb5-4f26-9cb1-ac0e9409d18e",
+          "plan_name": "Anthem Medicare Advantage (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0544-096",
+          "parent_fpi": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
+          "f_plan_id": "046d34d9-c3ff-4ef4-bc2e-f0a1c5aae39e",
+          "plan_name": "Anthem Medicare Advantage (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0544-098",
+          "parent_fpi": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
+          "f_plan_id": "7427f67a-168c-4ccd-a7bf-d576336b302b",
+          "plan_name": "Anthem Select (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0544-108",
+          "parent_fpi": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
+          "f_plan_id": "03182c17-25f2-405c-84d9-e3623e3cf08d",
+          "plan_name": "Anthem Medicare Advantage (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0544-805",
+          "parent_fpi": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
+          "f_plan_id": "fc6b28bf-0755-4d30-b76d-dd4dc8e08633",
+          "plan_name": "Senior Secure (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0544-806",
+          "parent_fpi": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
+          "f_plan_id": "d29803ab-6676-41eb-86cb-c68d3c2720d3",
+          "plan_name": "Senior Secure (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0544-808",
+          "parent_fpi": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
+          "f_plan_id": "a9f40838-52c9-4c4e-826d-a9bd4ac08d25",
+          "plan_name": "Senior Secure (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0544-809",
+          "parent_fpi": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
+          "f_plan_id": "b9ee5c7f-04ea-4158-aa6e-5011ba0f6b76",
+          "plan_name": "Senior Secure (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0544-810",
+          "parent_fpi": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
+          "f_plan_id": "da9b8165-5461-4080-9deb-654de77f9989",
+          "plan_name": "Senior Secure (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0544-812",
+          "parent_fpi": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
+          "f_plan_id": "d8e9046b-3636-4249-b073-8964f7c2927c",
+          "plan_name": "Senior Secure (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

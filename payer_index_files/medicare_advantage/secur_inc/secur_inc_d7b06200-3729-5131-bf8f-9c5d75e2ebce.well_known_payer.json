@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "d7b06200-3729-5131-bf8f-9c5d75e2ebce",
+      "is_fpi": true,
+      "payerLegalName": "SECUR INC",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SECUR INC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3048",
+      "is_fpi": false,
+      "parent_fpi": "d7b06200-3729-5131-bf8f-9c5d75e2ebce"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3048-001",
+          "parent_fpi": "d7b06200-3729-5131-bf8f-9c5d75e2ebce",
+          "f_plan_id": "9179218c-b4f2-45ab-a5d4-9e71150e808d",
+          "plan_name": "SECUR Advantage (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3048-002",
+          "parent_fpi": "d7b06200-3729-5131-bf8f-9c5d75e2ebce",
+          "f_plan_id": "ec784a71-f4ac-447e-9270-a445337d0fb2",
+          "plan_name": "SECUR Enhanced (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3048-003",
+          "parent_fpi": "d7b06200-3729-5131-bf8f-9c5d75e2ebce",
+          "f_plan_id": "adfcd0da-fe4d-4228-8ac3-e39d910ea7cf",
+          "plan_name": "SECUR Edge (HMO I-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

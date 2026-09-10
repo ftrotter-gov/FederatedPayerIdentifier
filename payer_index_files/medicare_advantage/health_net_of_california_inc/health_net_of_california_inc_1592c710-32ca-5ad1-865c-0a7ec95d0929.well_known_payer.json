@@ -1,0 +1,112 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "1592c710-32ca-5ad1-865c-0a7ec95d0929",
+      "is_fpi": true,
+      "payerLegalName": "HEALTH NET OF CALIFORNIA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HEALTH NET OF CALIFORNIA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0562",
+      "is_fpi": false,
+      "parent_fpi": "1592c710-32ca-5ad1-865c-0a7ec95d0929"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0562-012",
+          "parent_fpi": "1592c710-32ca-5ad1-865c-0a7ec95d0929",
+          "f_plan_id": "7e0c78cc-09a4-4adf-804e-d808370e85b7",
+          "plan_name": "Wellcare Low Premium (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0562-092",
+          "parent_fpi": "1592c710-32ca-5ad1-865c-0a7ec95d0929",
+          "f_plan_id": "d4df2b07-c68d-4ad7-bbe0-d1b3fbd638ea",
+          "plan_name": "Wellcare Specialty Simple (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0562-097",
+          "parent_fpi": "1592c710-32ca-5ad1-865c-0a7ec95d0929",
+          "f_plan_id": "e72ff9ae-4029-461b-9772-f42155d66d02",
+          "plan_name": "Wellcare Low Premium (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0562-125",
+          "parent_fpi": "1592c710-32ca-5ad1-865c-0a7ec95d0929",
+          "f_plan_id": "a18d6412-af7d-4a11-90ec-50bfbfd4d7bc",
+          "plan_name": "Wellcare Simple Focus (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0562-126",
+          "parent_fpi": "1592c710-32ca-5ad1-865c-0a7ec95d0929",
+          "f_plan_id": "3d4e4318-d683-417b-bdaa-5aa7bdc2c732",
+          "plan_name": "Wellcare Simple Focus (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0562-133",
+          "parent_fpi": "1592c710-32ca-5ad1-865c-0a7ec95d0929",
+          "f_plan_id": "100076fa-6966-4f36-9513-5c6de0ce7a9e",
+          "plan_name": "Wellcare Low Premium (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0562-136",
+          "parent_fpi": "1592c710-32ca-5ad1-865c-0a7ec95d0929",
+          "f_plan_id": "85ce15e1-dfc6-469f-9147-ae8712d64e14",
+          "plan_name": "Wellcare Low Premium (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0562-137",
+          "parent_fpi": "1592c710-32ca-5ad1-865c-0a7ec95d0929",
+          "f_plan_id": "0056baca-2ff2-4113-954d-aa223ffcd0ac",
+          "plan_name": "Wellcare Low Premium (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0562-801",
+          "parent_fpi": "1592c710-32ca-5ad1-865c-0a7ec95d0929",
+          "f_plan_id": "2be5743f-2fcd-4f92-af8c-adc714db417f",
+          "plan_name": "Health Net Seniority Plus Employer (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0562-803",
+          "parent_fpi": "1592c710-32ca-5ad1-865c-0a7ec95d0929",
+          "f_plan_id": "45e1bd0a-4e20-4b60-806c-34a18b45f686",
+          "plan_name": "Health Net Seniority Plus Employer (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0562-804",
+          "parent_fpi": "1592c710-32ca-5ad1-865c-0a7ec95d0929",
+          "f_plan_id": "8e250a78-950a-4196-b1ac-20d89f6a2ec4",
+          "plan_name": "Health Net Seniority Plus Employer (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0562-138",
+          "parent_fpi": "1592c710-32ca-5ad1-865c-0a7ec95d0929",
+          "f_plan_id": "5594144a-1386-4d9d-a2d8-b25a2abb9d0a",
+          "plan_name": "Wellcare Specialty Simple Focus (HMO C-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

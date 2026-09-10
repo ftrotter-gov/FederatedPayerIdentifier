@@ -1,0 +1,162 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "df53db1f-a123-5ec6-ac0f-44acd82ff900",
+      "is_fpi": true,
+      "payerLegalName": "ALIGNMENT HEALTH PLAN OF NORTH CAROLINA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ALIGNMENT HEALTH PLAN OF NORTH CAROLINA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5296",
+      "is_fpi": false,
+      "parent_fpi": "df53db1f-a123-5ec6-ac0f-44acd82ff900"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7074",
+      "is_fpi": false,
+      "parent_fpi": "df53db1f-a123-5ec6-ac0f-44acd82ff900"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5296-003",
+          "parent_fpi": "df53db1f-a123-5ec6-ac0f-44acd82ff900",
+          "f_plan_id": "6eb9382e-52d4-4c9a-89f7-c4adc9376a95",
+          "plan_name": "Alignment Health Platinum (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5296-004",
+          "parent_fpi": "df53db1f-a123-5ec6-ac0f-44acd82ff900",
+          "f_plan_id": "767dec9e-2886-438f-a345-3d413d486302",
+          "plan_name": "Alignment Health NC Duals (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5296-006",
+          "parent_fpi": "df53db1f-a123-5ec6-ac0f-44acd82ff900",
+          "f_plan_id": "ebde536a-5ea7-41a9-8791-276c287c6dc5",
+          "plan_name": "Alignment Health smartHMO (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5296-007",
+          "parent_fpi": "df53db1f-a123-5ec6-ac0f-44acd82ff900",
+          "f_plan_id": "e23b08dc-f929-4e88-a8b4-e63cf65c4e27",
+          "plan_name": "Alignment Health Platinum + Instacart (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5296-008",
+          "parent_fpi": "df53db1f-a123-5ec6-ac0f-44acd82ff900",
+          "f_plan_id": "a3c71b3b-b14c-4f6b-9c09-08dc4e99c30b",
+          "plan_name": "Alignment Health smartHMO (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5296-801",
+          "parent_fpi": "df53db1f-a123-5ec6-ac0f-44acd82ff900",
+          "f_plan_id": "59cd296c-c231-40d1-9c97-56694fab8ba0",
+          "plan_name": "Alignment Health Plan Retiree Options (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5296-802",
+          "parent_fpi": "df53db1f-a123-5ec6-ac0f-44acd82ff900",
+          "f_plan_id": "987ba847-a300-4074-bfd1-a2ae82175d7a",
+          "plan_name": "Alignment Health Plan Retiree Options (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5296-803",
+          "parent_fpi": "df53db1f-a123-5ec6-ac0f-44acd82ff900",
+          "f_plan_id": "06d7d1c1-f47b-4a2b-9b67-3f1e0274029e",
+          "plan_name": "Alignment Health Plan Retiree Options (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5296-804",
+          "parent_fpi": "df53db1f-a123-5ec6-ac0f-44acd82ff900",
+          "f_plan_id": "396184a9-1cfd-48f7-8a1c-e51f3f67bf9d",
+          "plan_name": "Alignment Health Plan Retiree Options (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5296-009",
+          "parent_fpi": "df53db1f-a123-5ec6-ac0f-44acd82ff900",
+          "f_plan_id": "f04ba23e-698b-4e30-a20a-58636476bb39",
+          "plan_name": "Alignment Health Heart & Diabetes NCPlus (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5296-010",
+          "parent_fpi": "df53db1f-a123-5ec6-ac0f-44acd82ff900",
+          "f_plan_id": "e5f3c39a-6433-4d8b-85f7-2b1cc6d97b78",
+          "plan_name": "Alignment Health Platinum Select (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5296-011",
+          "parent_fpi": "df53db1f-a123-5ec6-ac0f-44acd82ff900",
+          "f_plan_id": "ae58ece4-14a3-4a81-b0ee-233f1f72723a",
+          "plan_name": "Alignment Health Heart & Diabetes Care (HMO C-SNP)"
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://mpf.alignmenthealth.com/mpf-provider-directory/H5296-cms-data-index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7074-001",
+          "parent_fpi": "df53db1f-a123-5ec6-ac0f-44acd82ff900",
+          "f_plan_id": "ab479624-4bf8-405d-910f-353f1d83a119",
+          "plan_name": "Alignment Health AVA (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7074-801",
+          "parent_fpi": "df53db1f-a123-5ec6-ac0f-44acd82ff900",
+          "f_plan_id": "550359d5-c22e-4710-bbc8-1827db8363b3",
+          "plan_name": "Alignment Health Plan Retiree Options (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7074-802",
+          "parent_fpi": "df53db1f-a123-5ec6-ac0f-44acd82ff900",
+          "f_plan_id": "38e8336f-4783-4c55-8dfd-6d8ac7abc42d",
+          "plan_name": "Alignment Health Plan Retiree Options (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7074-803",
+          "parent_fpi": "df53db1f-a123-5ec6-ac0f-44acd82ff900",
+          "f_plan_id": "9811e3c3-313b-4548-bd97-3c32314c2556",
+          "plan_name": "Alignment Health Plan Retiree Options (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7074-804",
+          "parent_fpi": "df53db1f-a123-5ec6-ac0f-44acd82ff900",
+          "f_plan_id": "fe530214-3873-43c9-9d8d-d6475776debc",
+          "plan_name": "Alignment Health Plan Retiree Options (PPO)"
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://mpf.alignmenthealth.com/mpf-provider-directory/H7074-cms-data-index.json"
+      }
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "7501a471-031a-5103-ae44-2c69171eaa98",
+      "is_fpi": true,
+      "payerLegalName": "PRUITTHEALTH PREMIER NORTH CAROLINA, LLC",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PRUITTHEALTH PREMIER NORTH CAROLINA, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6345",
+      "is_fpi": false,
+      "parent_fpi": "7501a471-031a-5103-ae44-2c69171eaa98"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6345-001",
+          "parent_fpi": "7501a471-031a-5103-ae44-2c69171eaa98",
+          "f_plan_id": "3cd95799-f09e-4d21-a8a7-c0a63e4c3097",
+          "plan_name": "PruittHealth Premier (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6345-002",
+          "parent_fpi": "7501a471-031a-5103-ae44-2c69171eaa98",
+          "f_plan_id": "ad935ba8-60df-48d3-89b7-3c8194847abc",
+          "plan_name": "PruittHealth Premier (HMO I-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

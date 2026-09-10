@@ -1,0 +1,105 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "d4ce548c-92c8-5b9a-99f7-ffbf33b6d293",
+      "is_fpi": true,
+      "payerLegalName": "BLUECROSS AND BLUESHIELD OF SOUTH CAROLINA",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BLUECROSS AND BLUESHIELD OF SOUTH CAROLINA"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8003",
+      "is_fpi": false,
+      "parent_fpi": "d4ce548c-92c8-5b9a-99f7-ffbf33b6d293"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8003-001",
+          "parent_fpi": "d4ce548c-92c8-5b9a-99f7-ffbf33b6d293",
+          "f_plan_id": "9089844d-2dfd-4ed3-b71a-a630d15de783",
+          "plan_name": "BlueCross Total (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8003-002",
+          "parent_fpi": "d4ce548c-92c8-5b9a-99f7-ffbf33b6d293",
+          "f_plan_id": "d789dd5d-a289-4080-840f-ea782c0f646d",
+          "plan_name": "BlueCross Total (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8003-003",
+          "parent_fpi": "d4ce548c-92c8-5b9a-99f7-ffbf33b6d293",
+          "f_plan_id": "0f9269b6-3e9a-4c8a-bf9e-072036cba7c7",
+          "plan_name": "BlueCross Total (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8003-004",
+          "parent_fpi": "d4ce548c-92c8-5b9a-99f7-ffbf33b6d293",
+          "f_plan_id": "4959561f-3c28-45c8-879e-b4c95b4b541b",
+          "plan_name": "BlueCross Total Value (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8003-005",
+          "parent_fpi": "d4ce548c-92c8-5b9a-99f7-ffbf33b6d293",
+          "f_plan_id": "424434f7-ccb6-4866-82be-f8af966b3d61",
+          "plan_name": "BlueCross Total Value (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8003-006",
+          "parent_fpi": "d4ce548c-92c8-5b9a-99f7-ffbf33b6d293",
+          "f_plan_id": "a56fbeb0-df16-441e-9139-82a05afd1f78",
+          "plan_name": "BlueCross Total Value (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8003-007",
+          "parent_fpi": "d4ce548c-92c8-5b9a-99f7-ffbf33b6d293",
+          "f_plan_id": "088d1592-bd99-4c68-bbf2-84348f652552",
+          "plan_name": "BlueCross Blue Basic (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8003-801",
+          "parent_fpi": "d4ce548c-92c8-5b9a-99f7-ffbf33b6d293",
+          "f_plan_id": "f1e1f00f-cb6e-4f00-bd63-5a06a3f74555",
+          "plan_name": "BlueCross MAPD Calendar Year Group (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8003-802",
+          "parent_fpi": "d4ce548c-92c8-5b9a-99f7-ffbf33b6d293",
+          "f_plan_id": "2b57403d-3e3f-484c-ad32-12d95529736a",
+          "plan_name": "BlueCross MAPD Non-calendar Year Group (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8003-803",
+          "parent_fpi": "d4ce548c-92c8-5b9a-99f7-ffbf33b6d293",
+          "f_plan_id": "ad53036c-c4cc-48ba-a0cb-59d0077c1b42",
+          "plan_name": "BlueCross MA Only Calendar Year Group (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8003-804",
+          "parent_fpi": "d4ce548c-92c8-5b9a-99f7-ffbf33b6d293",
+          "f_plan_id": "487c7291-f278-4d6b-914c-85236fd5609a",
+          "plan_name": "BlueCross MA Only Non-calendar Year Group (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

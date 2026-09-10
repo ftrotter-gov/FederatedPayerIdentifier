@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "b16b145a-7c54-5902-9eed-0db82fc93f90",
+      "is_fpi": true,
+      "payerLegalName": "IMPERIAL HEALTH PLAN OF CALIFORNIA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "IMPERIAL HEALTH PLAN OF CALIFORNIA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5496",
+      "is_fpi": false,
+      "parent_fpi": "b16b145a-7c54-5902-9eed-0db82fc93f90"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5496-005",
+          "parent_fpi": "b16b145a-7c54-5902-9eed-0db82fc93f90",
+          "f_plan_id": "004bff5b-6c3f-4ab5-a326-54bb49d66dfd",
+          "plan_name": "Imperial Senior Value (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5496-012",
+          "parent_fpi": "b16b145a-7c54-5902-9eed-0db82fc93f90",
+          "f_plan_id": "27d50e08-7dba-4fc2-b8fb-8a1ddb003c78",
+          "plan_name": "Imperial Dynamic Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5496-016",
+          "parent_fpi": "b16b145a-7c54-5902-9eed-0db82fc93f90",
+          "f_plan_id": "c7a69f14-9ec9-4c27-9c89-d4388378600d",
+          "plan_name": "Imperial Courage Plan (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

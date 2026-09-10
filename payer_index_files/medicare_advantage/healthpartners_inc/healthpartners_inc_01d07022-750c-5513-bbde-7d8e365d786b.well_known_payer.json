@@ -1,0 +1,104 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "01d07022-750c-5513-bbde-7d8e365d786b",
+      "is_fpi": true,
+      "payerLegalName": "HEALTHPARTNERS, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HEALTHPARTNERS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2422",
+      "is_fpi": false,
+      "parent_fpi": "01d07022-750c-5513-bbde-7d8e365d786b"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4882",
+      "is_fpi": false,
+      "parent_fpi": "01d07022-750c-5513-bbde-7d8e365d786b"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2422-002",
+          "parent_fpi": "01d07022-750c-5513-bbde-7d8e365d786b",
+          "f_plan_id": "ae55ea5b-92a1-4d00-8a57-dd5952d01152",
+          "plan_name": "HealthPartners Minnesota Senior Health Options (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4882-003",
+          "parent_fpi": "01d07022-750c-5513-bbde-7d8e365d786b",
+          "f_plan_id": "443d95b2-647d-4f02-adb8-6beaa169b6be",
+          "plan_name": "HealthPartners Journey Steady (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4882-009",
+          "parent_fpi": "01d07022-750c-5513-bbde-7d8e365d786b",
+          "f_plan_id": "7c14dd31-d980-4da3-92ba-d4b2940daa27",
+          "plan_name": "HealthPartners Journey Pace (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4882-011",
+          "parent_fpi": "01d07022-750c-5513-bbde-7d8e365d786b",
+          "f_plan_id": "faf0c8f6-e9bb-42c8-887f-e4798ea1b1ba",
+          "plan_name": "HealthPartners Journey Stride (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4882-014",
+          "parent_fpi": "01d07022-750c-5513-bbde-7d8e365d786b",
+          "f_plan_id": "c96e3493-e88f-4a92-a5aa-64350d92f8ca",
+          "plan_name": "HealthPartners Journey Smart (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4882-801",
+          "parent_fpi": "01d07022-750c-5513-bbde-7d8e365d786b",
+          "f_plan_id": "9b8904b3-4dba-4cd6-a001-efc294118b7c",
+          "plan_name": "HealthPartners Group MAPD Calendar Year (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4882-803",
+          "parent_fpi": "01d07022-750c-5513-bbde-7d8e365d786b",
+          "f_plan_id": "0c26cd23-fdf8-41af-8375-d9d119a35827",
+          "plan_name": "HealthPartners Group MA Only (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4882-804",
+          "parent_fpi": "01d07022-750c-5513-bbde-7d8e365d786b",
+          "f_plan_id": "f8304103-7686-45df-935e-bbb39dc849a0",
+          "plan_name": "HealthPartners Group II MAPD Calendar Year (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4882-805",
+          "parent_fpi": "01d07022-750c-5513-bbde-7d8e365d786b",
+          "f_plan_id": "56bea80f-b2de-4834-9152-6c6cd4f7193f",
+          "plan_name": "HealthPartners Group II MA Only (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4882-806",
+          "parent_fpi": "01d07022-750c-5513-bbde-7d8e365d786b",
+          "f_plan_id": "4bfc27ad-c8b8-4693-bcf7-6934ae7032c5",
+          "plan_name": "HealthPartners Group III MAPD Calendar Year (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

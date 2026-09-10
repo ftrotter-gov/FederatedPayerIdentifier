@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "318fe529-af37-541b-b529-1f5c5ef84348",
+      "is_fpi": true,
+      "payerLegalName": "ALOHACARE",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ALOHACARE"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5969",
+      "is_fpi": false,
+      "parent_fpi": "318fe529-af37-541b-b529-1f5c5ef84348"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5969-002",
+          "parent_fpi": "318fe529-af37-541b-b529-1f5c5ef84348",
+          "f_plan_id": "06dd8149-4fbd-49ad-b0d7-c99d9c587585",
+          "plan_name": "AlohaCare Advantage Plus (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5969-003",
+          "parent_fpi": "318fe529-af37-541b-b529-1f5c5ef84348",
+          "f_plan_id": "08e8a41c-fd8d-413f-9e5e-24cf10aaaf16",
+          "plan_name": "AlohaCare Advantage (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

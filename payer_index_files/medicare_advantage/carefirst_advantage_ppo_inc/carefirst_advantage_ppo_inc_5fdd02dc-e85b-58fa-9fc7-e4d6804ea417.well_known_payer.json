@@ -1,0 +1,77 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "5fdd02dc-e85b-58fa-9fc7-e4d6804ea417",
+      "is_fpi": true,
+      "payerLegalName": "CAREFIRST ADVANTAGE PPO, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CAREFIRST ADVANTAGE PPO, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7379",
+      "is_fpi": false,
+      "parent_fpi": "5fdd02dc-e85b-58fa-9fc7-e4d6804ea417"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7379-001",
+          "parent_fpi": "5fdd02dc-e85b-58fa-9fc7-e4d6804ea417",
+          "f_plan_id": "88299acd-fa72-4774-9a47-dd0e34daa871",
+          "plan_name": "CareFirst BlueCross BlueShield Advantage Essential (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7379-002",
+          "parent_fpi": "5fdd02dc-e85b-58fa-9fc7-e4d6804ea417",
+          "f_plan_id": "63773a3e-32ae-4d6c-a9db-c0b8c0f7c320",
+          "plan_name": "CareFirst BlueCross BlueShield Advantage Complete (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7379-003",
+          "parent_fpi": "5fdd02dc-e85b-58fa-9fc7-e4d6804ea417",
+          "f_plan_id": "af5beddb-7d0f-4760-affa-47d34a8fde3b",
+          "plan_name": "CareFirst BlueCross BlueShield Advantage Salute (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7379-801",
+          "parent_fpi": "5fdd02dc-e85b-58fa-9fc7-e4d6804ea417",
+          "f_plan_id": "b491072a-7418-4813-be8c-eb58f5742456",
+          "plan_name": "CareFirst BlueCross BlueShield Group Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7379-802",
+          "parent_fpi": "5fdd02dc-e85b-58fa-9fc7-e4d6804ea417",
+          "f_plan_id": "5ff69946-2010-45ab-a5af-97e8f2545bc8",
+          "plan_name": "CareFirst BlueCross BlueShield Group Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7379-803",
+          "parent_fpi": "5fdd02dc-e85b-58fa-9fc7-e4d6804ea417",
+          "f_plan_id": "ab0acb6b-0d91-4589-b1c1-5c9ebca43374",
+          "plan_name": "CareFirst BlueCross BlueShield Group Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7379-804",
+          "parent_fpi": "5fdd02dc-e85b-58fa-9fc7-e4d6804ea417",
+          "f_plan_id": "2fc722fc-b7df-43c2-bec5-015087a37f6c",
+          "plan_name": "CareFirst BlueCross BlueShield Group Advantage (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

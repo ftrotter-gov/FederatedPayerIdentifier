@@ -1,0 +1,105 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "8a2b0108-a05a-57a6-b055-967c799fcda2",
+      "is_fpi": true,
+      "payerLegalName": "GEISINGER HEALTH PLAN",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "GEISINGER HEALTH PLAN"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3954",
+      "is_fpi": false,
+      "parent_fpi": "8a2b0108-a05a-57a6-b055-967c799fcda2"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3954-097",
+          "parent_fpi": "8a2b0108-a05a-57a6-b055-967c799fcda2",
+          "f_plan_id": "bb014842-1b3e-4e0d-b96a-253b5fe8a7bf",
+          "plan_name": "Geisinger Gold Secure Rx (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3954-157",
+          "parent_fpi": "8a2b0108-a05a-57a6-b055-967c799fcda2",
+          "f_plan_id": "536a5471-8948-4807-90a6-d305a8363bc0",
+          "plan_name": "Geisinger Gold Classic Advantage Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3954-158",
+          "parent_fpi": "8a2b0108-a05a-57a6-b055-967c799fcda2",
+          "f_plan_id": "6462697a-d756-4190-aec2-a5f76f30d357",
+          "plan_name": "Geisinger Gold Classic Complete Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3954-160",
+          "parent_fpi": "8a2b0108-a05a-57a6-b055-967c799fcda2",
+          "f_plan_id": "b4c9bc3a-833f-46dd-9647-687de4701368",
+          "plan_name": "Geisinger Gold Classic 360 Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3954-161",
+          "parent_fpi": "8a2b0108-a05a-57a6-b055-967c799fcda2",
+          "f_plan_id": "dac58b89-0a67-412b-b8cf-23e4862d5891",
+          "plan_name": "Geisinger Gold Classic Essential Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3954-162",
+          "parent_fpi": "8a2b0108-a05a-57a6-b055-967c799fcda2",
+          "f_plan_id": "afd34eca-0045-46dd-bc27-398edc7f7b7b",
+          "plan_name": "Geisinger Gold Heritage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3954-163",
+          "parent_fpi": "8a2b0108-a05a-57a6-b055-967c799fcda2",
+          "f_plan_id": "05ccc9e3-6a64-4aab-a7c8-7b68420478ac",
+          "plan_name": "Geisinger Gold Value Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3954-801",
+          "parent_fpi": "8a2b0108-a05a-57a6-b055-967c799fcda2",
+          "f_plan_id": "025dd55c-1b53-4119-9e27-e9d85e7298d6",
+          "plan_name": "Geisinger Gold Classic (Employer Group) (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3954-802",
+          "parent_fpi": "8a2b0108-a05a-57a6-b055-967c799fcda2",
+          "f_plan_id": "80df7b23-a562-4978-92db-900cd94c90e9",
+          "plan_name": "Geisinger Gold Classic Rx (Employer Group) (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3954-805",
+          "parent_fpi": "8a2b0108-a05a-57a6-b055-967c799fcda2",
+          "f_plan_id": "455a58be-c17b-4ee3-9b00-f85e24f8e20d",
+          "plan_name": "Geisinger Gold Classic Rx EGWP New Jersey (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3954-806",
+          "parent_fpi": "8a2b0108-a05a-57a6-b055-967c799fcda2",
+          "f_plan_id": "c65f2b52-7ba1-4fd7-a8d3-6933e8f7f190",
+          "plan_name": "Geisinger Gold FEHB Rx (Employer Group) (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

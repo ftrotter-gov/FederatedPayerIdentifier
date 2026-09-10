@@ -1,0 +1,56 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "31e1e607-57a8-5151-9e9a-7b354200da6d",
+      "is_fpi": true,
+      "payerLegalName": "INDEPENDENT HEALTH BENEFITS CORPORATION",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "INDEPENDENT HEALTH BENEFITS CORPORATION"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3344",
+      "is_fpi": false,
+      "parent_fpi": "31e1e607-57a8-5151-9e9a-7b354200da6d"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3344-013",
+          "parent_fpi": "31e1e607-57a8-5151-9e9a-7b354200da6d",
+          "f_plan_id": "54b383c2-e70d-483a-8e86-ee2adef14436",
+          "plan_name": "Independent Health's Medicare Passport Connect (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3344-801",
+          "parent_fpi": "31e1e607-57a8-5151-9e9a-7b354200da6d",
+          "f_plan_id": "6418c932-0e39-4f20-99f4-25d95ccc1ac7",
+          "plan_name": "Independent Health's Medicare PPO Base (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3344-804",
+          "parent_fpi": "31e1e607-57a8-5151-9e9a-7b354200da6d",
+          "f_plan_id": "f2966b84-4b55-4d25-9758-d2887bc968db",
+          "plan_name": "Independent Health's Medicare PPO Base (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3344-805",
+          "parent_fpi": "31e1e607-57a8-5151-9e9a-7b354200da6d",
+          "f_plan_id": "c0cab1d8-5295-46dd-b199-368a124a802b",
+          "plan_name": "Independent Health's Medicare PPO Base (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

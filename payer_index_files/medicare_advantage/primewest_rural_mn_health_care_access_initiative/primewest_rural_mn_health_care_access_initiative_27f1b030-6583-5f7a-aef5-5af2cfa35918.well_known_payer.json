@@ -1,0 +1,48 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "27f1b030-6583-5f7a-aef5-5af2cfa35918",
+      "is_fpi": true,
+      "payerLegalName": "PRIMEWEST RURAL MN HEALTH CARE ACCESS INITIATIVE",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PRIMEWEST RURAL MN HEALTH CARE ACCESS INITIATIVE"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2416",
+      "is_fpi": false,
+      "parent_fpi": "27f1b030-6583-5f7a-aef5-5af2cfa35918"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2926",
+      "is_fpi": false,
+      "parent_fpi": "27f1b030-6583-5f7a-aef5-5af2cfa35918"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2416-001",
+          "parent_fpi": "27f1b030-6583-5f7a-aef5-5af2cfa35918",
+          "f_plan_id": "e5ec3a77-849a-4d34-abc7-a7bedd0cf8df",
+          "plan_name": "PrimeWest Senior Health Complete (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2926-001",
+          "parent_fpi": "27f1b030-6583-5f7a-aef5-5af2cfa35918",
+          "f_plan_id": "f7049cd3-c658-4bda-9271-40e17b2ecc39",
+          "plan_name": "Prime Health Complete (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

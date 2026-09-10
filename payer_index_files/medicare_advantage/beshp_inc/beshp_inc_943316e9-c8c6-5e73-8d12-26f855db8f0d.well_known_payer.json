@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "943316e9-c8c6-5e73-8d12-26f855db8f0d",
+      "is_fpi": true,
+      "payerLegalName": "BESHP, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BESHP, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0816",
+      "is_fpi": false,
+      "parent_fpi": "943316e9-c8c6-5e73-8d12-26f855db8f0d"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0816-001",
+          "parent_fpi": "943316e9-c8c6-5e73-8d12-26f855db8f0d",
+          "f_plan_id": "f3e148af-81bc-4371-95b7-01322666b3b8",
+          "plan_name": "MyAdvocate Medicare Advantage GOLD (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0816-002",
+          "parent_fpi": "943316e9-c8c6-5e73-8d12-26f855db8f0d",
+          "f_plan_id": "3aa93f3e-439d-4930-add7-603654b4cb39",
+          "plan_name": "MyAdvocate Medicare Advantage SILVER (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

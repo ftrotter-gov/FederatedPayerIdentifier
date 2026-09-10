@@ -1,0 +1,55 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "3d1f1587-f654-5520-b69f-fc04d3bc8cca",
+      "is_fpi": true,
+      "payerLegalName": "USABLE HMO, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "USABLE HMO, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6158",
+      "is_fpi": false,
+      "parent_fpi": "3d1f1587-f654-5520-b69f-fc04d3bc8cca"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9699",
+      "is_fpi": false,
+      "parent_fpi": "3d1f1587-f654-5520-b69f-fc04d3bc8cca"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6158-001",
+          "parent_fpi": "3d1f1587-f654-5520-b69f-fc04d3bc8cca",
+          "f_plan_id": "72918d23-c224-4b4f-a169-0fe5284dcf75",
+          "plan_name": "BlueMedicare Premier (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6158-003",
+          "parent_fpi": "3d1f1587-f654-5520-b69f-fc04d3bc8cca",
+          "f_plan_id": "b11929fb-6cee-4459-98f4-9c493d6b3290",
+          "plan_name": "BlueMedicare Independence (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9699-007",
+          "parent_fpi": "3d1f1587-f654-5520-b69f-fc04d3bc8cca",
+          "f_plan_id": "6a1a83cc-3857-44f5-a521-0a485f80e669",
+          "plan_name": "BlueMedicare Classic Plus (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

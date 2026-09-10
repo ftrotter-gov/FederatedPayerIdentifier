@@ -1,0 +1,77 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "bf8f1e72-58f8-56a4-888d-1a59545b069d",
+      "is_fpi": true,
+      "payerLegalName": "BLUECROSS BLUESHIELD KANSAS SOLUTIONS, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BLUECROSS BLUESHIELD KANSAS SOLUTIONS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7063",
+      "is_fpi": false,
+      "parent_fpi": "bf8f1e72-58f8-56a4-888d-1a59545b069d"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7063-001",
+          "parent_fpi": "bf8f1e72-58f8-56a4-888d-1a59545b069d",
+          "f_plan_id": "97ccd543-b076-4c87-a634-31b3d255dbb9",
+          "plan_name": "Blue Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7063-006",
+          "parent_fpi": "bf8f1e72-58f8-56a4-888d-1a59545b069d",
+          "f_plan_id": "43672207-0ac9-4ce1-beae-149479d2e5e8",
+          "plan_name": "Blue Medicare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7063-007",
+          "parent_fpi": "bf8f1e72-58f8-56a4-888d-1a59545b069d",
+          "f_plan_id": "29fd047b-4618-403b-add0-30128f567fc3",
+          "plan_name": "Blue Medicare Advantage Comprehensive (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7063-012",
+          "parent_fpi": "bf8f1e72-58f8-56a4-888d-1a59545b069d",
+          "f_plan_id": "2f997827-d289-45a4-9811-58a728196103",
+          "plan_name": "Blue Medicare Advantage Choice (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7063-013",
+          "parent_fpi": "bf8f1e72-58f8-56a4-888d-1a59545b069d",
+          "f_plan_id": "2f0c0487-13ae-4b89-bc4b-4ceb6fe31f6f",
+          "plan_name": "Blue Medicare Advantage Freedom (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7063-801",
+          "parent_fpi": "bf8f1e72-58f8-56a4-888d-1a59545b069d",
+          "f_plan_id": "5d0a2c0b-4843-4efa-b8ef-6ca1da2af28b",
+          "plan_name": "MAPD Group Plan Calendar Year (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7063-802",
+          "parent_fpi": "bf8f1e72-58f8-56a4-888d-1a59545b069d",
+          "f_plan_id": "e2ec99c5-eb41-41de-845f-02cf63f0a1c5",
+          "plan_name": "MAPD Group Plan Calendar Year (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

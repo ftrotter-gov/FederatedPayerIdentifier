@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "0a46c060-a025-5755-836c-392fb2b5dbf6",
+      "is_fpi": true,
+      "payerLegalName": "LIFEWORKS ADVANTAGE, LLC",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "LIFEWORKS ADVANTAGE, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2185",
+      "is_fpi": false,
+      "parent_fpi": "0a46c060-a025-5755-836c-392fb2b5dbf6"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2185-001",
+          "parent_fpi": "0a46c060-a025-5755-836c-392fb2b5dbf6",
+          "f_plan_id": "5d8143d1-31cc-4d50-ade5-d302fe2306c9",
+          "plan_name": "Senior Care (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2185-003",
+          "parent_fpi": "0a46c060-a025-5755-836c-392fb2b5dbf6",
+          "f_plan_id": "f7e84d12-5f79-4b13-9b34-2e8a59137101",
+          "plan_name": "Premier Care (HMO-POS I-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

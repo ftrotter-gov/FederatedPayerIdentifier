@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "881c8dba-6622-5c23-840a-19f599be677d",
+      "is_fpi": true,
+      "payerLegalName": "LONGEVITY HEALTH PLAN OF ILLINOIS, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "LONGEVITY HEALTH PLAN OF ILLINOIS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9590",
+      "is_fpi": false,
+      "parent_fpi": "881c8dba-6622-5c23-840a-19f599be677d"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9590-001",
+          "parent_fpi": "881c8dba-6622-5c23-840a-19f599be677d",
+          "f_plan_id": "816fdc88-e0ed-4960-a2de-2a541dbca8ce",
+          "plan_name": "Longevity Health Plan (HMO I-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

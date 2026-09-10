@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "75a80eda-8c7e-5191-ae77-e6e61886223e",
+      "is_fpi": true,
+      "payerLegalName": "NHC ADVANTAGE, LLC",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "NHC ADVANTAGE, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4172",
+      "is_fpi": false,
+      "parent_fpi": "75a80eda-8c7e-5191-ae77-e6e61886223e"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4172-001",
+          "parent_fpi": "75a80eda-8c7e-5191-ae77-e6e61886223e",
+          "f_plan_id": "fecb34b2-775d-4147-b980-8fa06b8a8fbb",
+          "plan_name": "NHC Advantage (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4172-003",
+          "parent_fpi": "75a80eda-8c7e-5191-ae77-e6e61886223e",
+          "f_plan_id": "6bb29262-9e91-415a-81ae-586352233d7c",
+          "plan_name": "Senior Care (HMO I-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

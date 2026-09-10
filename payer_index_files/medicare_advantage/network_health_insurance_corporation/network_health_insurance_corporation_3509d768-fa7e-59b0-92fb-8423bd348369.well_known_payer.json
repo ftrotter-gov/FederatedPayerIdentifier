@@ -1,0 +1,132 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "3509d768-fa7e-59b0-92fb-8423bd348369",
+      "is_fpi": true,
+      "payerLegalName": "NETWORK HEALTH INSURANCE CORPORATION",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "NETWORK HEALTH INSURANCE CORPORATION"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1181",
+      "is_fpi": false,
+      "parent_fpi": "3509d768-fa7e-59b0-92fb-8423bd348369"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5215",
+      "is_fpi": false,
+      "parent_fpi": "3509d768-fa7e-59b0-92fb-8423bd348369"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1181-001",
+          "parent_fpi": "3509d768-fa7e-59b0-92fb-8423bd348369",
+          "f_plan_id": "6e80a58e-6cc0-498e-84ba-b9961a2520f4",
+          "plan_name": "Network Health Prime (MSA)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5215-002",
+          "parent_fpi": "3509d768-fa7e-59b0-92fb-8423bd348369",
+          "f_plan_id": "7c7d5c33-e07e-415d-9c06-fc7f89e80efc",
+          "plan_name": "Network Health PlusRx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5215-005",
+          "parent_fpi": "3509d768-fa7e-59b0-92fb-8423bd348369",
+          "f_plan_id": "7d86baa0-f6e1-47e5-963f-709c5f9eca1d",
+          "plan_name": "Network Health PremierRx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5215-007",
+          "parent_fpi": "3509d768-fa7e-59b0-92fb-8423bd348369",
+          "f_plan_id": "d75975ce-d05c-40bc-98fe-b22da9a78d9a",
+          "plan_name": "Network Health Cares (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5215-008",
+          "parent_fpi": "3509d768-fa7e-59b0-92fb-8423bd348369",
+          "f_plan_id": "e3de32b3-ba40-431c-b9d0-6f99add3a4a4",
+          "plan_name": "Network Health Select (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5215-009",
+          "parent_fpi": "3509d768-fa7e-59b0-92fb-8423bd348369",
+          "f_plan_id": "f11e2c3d-8404-48ff-b224-a8e7e33a08c1",
+          "plan_name": "Network Health Go (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5215-010",
+          "parent_fpi": "3509d768-fa7e-59b0-92fb-8423bd348369",
+          "f_plan_id": "47c59052-9705-4bf5-ae94-12e065dd98dc",
+          "plan_name": "Network Health Anywhere (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5215-011",
+          "parent_fpi": "3509d768-fa7e-59b0-92fb-8423bd348369",
+          "f_plan_id": "7074df29-470a-4799-a801-fdd4447087e6",
+          "plan_name": "Network Health Choice (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5215-012",
+          "parent_fpi": "3509d768-fa7e-59b0-92fb-8423bd348369",
+          "f_plan_id": "b6bf6201-b79b-4b51-acda-7efaccad6181",
+          "plan_name": "Network Health Zero (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5215-013",
+          "parent_fpi": "3509d768-fa7e-59b0-92fb-8423bd348369",
+          "f_plan_id": "f822c7a4-3b6b-4af7-b32c-5bca6fce1349",
+          "plan_name": "Network Health Armor (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5215-014",
+          "parent_fpi": "3509d768-fa7e-59b0-92fb-8423bd348369",
+          "f_plan_id": "ba1f9b92-7b86-4af3-9e1d-5b838a075b28",
+          "plan_name": "Network Health Bravo (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5215-806",
+          "parent_fpi": "3509d768-fa7e-59b0-92fb-8423bd348369",
+          "f_plan_id": "92ac5c29-fe7d-4618-b4cd-ab99a93bec95",
+          "plan_name": "Network PlatinumPlus Pharmacy EGP (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5215-807",
+          "parent_fpi": "3509d768-fa7e-59b0-92fb-8423bd348369",
+          "f_plan_id": "c9077536-2916-4fe4-bc5c-29f623786589",
+          "plan_name": "Network PlatinumPremier EGP (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5215-808",
+          "parent_fpi": "3509d768-fa7e-59b0-92fb-8423bd348369",
+          "f_plan_id": "0ce47424-ab35-470e-b18e-1a35a5035ce4",
+          "plan_name": "Network PlatinumPremier Pharmacy EGP (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

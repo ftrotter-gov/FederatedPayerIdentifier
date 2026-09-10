@@ -1,0 +1,189 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "0866e8ea-fc6d-578b-b96c-03cdb9296775",
+      "is_fpi": true,
+      "payerLegalName": "KAISER FOUNDATION HP OF CO",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "KAISER FOUNDATION HP OF CO"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0630",
+      "is_fpi": false,
+      "parent_fpi": "0866e8ea-fc6d-578b-b96c-03cdb9296775"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0630-013",
+          "parent_fpi": "0866e8ea-fc6d-578b-b96c-03cdb9296775",
+          "f_plan_id": "2de9df5d-593a-43b9-bc37-243ce852b8d9",
+          "plan_name": "Kaiser Permanente Senior Advantage Core DM (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0630-014",
+          "parent_fpi": "0866e8ea-fc6d-578b-b96c-03cdb9296775",
+          "f_plan_id": "6d3af765-17b3-4303-bc82-508ceb09f907",
+          "plan_name": "Kaiser Permanente Dual Essential (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0630-015",
+          "parent_fpi": "0866e8ea-fc6d-578b-b96c-03cdb9296775",
+          "f_plan_id": "45d5b29b-c861-412e-805a-0b8d22ede57b",
+          "plan_name": "Kaiser Permanente Senior Advantage Silver DM (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0630-016",
+          "parent_fpi": "0866e8ea-fc6d-578b-b96c-03cdb9296775",
+          "f_plan_id": "7b41be2b-09a8-4029-81b1-07319dee3873",
+          "plan_name": "Kaiser Permanente Senior Advantage Gold (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0630-017",
+          "parent_fpi": "0866e8ea-fc6d-578b-b96c-03cdb9296775",
+          "f_plan_id": "630cca57-b008-43f3-be73-231bcbe88b53",
+          "plan_name": "Kaiser Permanente Senior Advantage Core South (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0630-020",
+          "parent_fpi": "0866e8ea-fc6d-578b-b96c-03cdb9296775",
+          "f_plan_id": "d7298646-ad2e-4a8e-9e7c-80b815bf750f",
+          "plan_name": "Kaiser Permanente Senior Advantage Core North (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0630-021",
+          "parent_fpi": "0866e8ea-fc6d-578b-b96c-03cdb9296775",
+          "f_plan_id": "9f7be3fa-c717-4a90-9a3f-279931f3f360",
+          "plan_name": "Kaiser Permanente Senior Advantage Silver North (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0630-023",
+          "parent_fpi": "0866e8ea-fc6d-578b-b96c-03cdb9296775",
+          "f_plan_id": "bd668f26-3cba-4f9b-8da0-aff5c6865e55",
+          "plan_name": "Kaiser Permanente Senior Advantage Enhanced (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0630-024",
+          "parent_fpi": "0866e8ea-fc6d-578b-b96c-03cdb9296775",
+          "f_plan_id": "e1a3aa7f-28d5-46d0-883c-f2b4f09631cb",
+          "plan_name": "Kaiser Permanente Dual Complete Pueblo (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0630-025",
+          "parent_fpi": "0866e8ea-fc6d-578b-b96c-03cdb9296775",
+          "f_plan_id": "c59eb3b0-349d-466c-982e-aa81f6f1b4da",
+          "plan_name": "Kaiser Permanente Senior Advantage Bronze DM (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0630-027",
+          "parent_fpi": "0866e8ea-fc6d-578b-b96c-03cdb9296775",
+          "f_plan_id": "efa56545-bea7-432e-9309-df2d1fd1a1c2",
+          "plan_name": "Kaiser Permanente Dual Complete (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0630-805",
+          "parent_fpi": "0866e8ea-fc6d-578b-b96c-03cdb9296775",
+          "f_plan_id": "99d29b58-84f6-4e26-8b47-f73b2a699526",
+          "plan_name": "Senior Advantage Group MA-PD_Part B only (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0630-806",
+          "parent_fpi": "0866e8ea-fc6d-578b-b96c-03cdb9296775",
+          "f_plan_id": "b49cf7e6-0ede-4bb8-93b7-60697e642260",
+          "plan_name": "Senior Advantage Group MA only_Part B only (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0630-807",
+          "parent_fpi": "0866e8ea-fc6d-578b-b96c-03cdb9296775",
+          "f_plan_id": "ca0677fe-f03f-40f0-afda-4d60b3bb412e",
+          "plan_name": "Senior Advantage Group MA-PD (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0630-808",
+          "parent_fpi": "0866e8ea-fc6d-578b-b96c-03cdb9296775",
+          "f_plan_id": "baa91dd2-59db-45b9-b2e1-91a11295669a",
+          "plan_name": "Senior Adv_Group_MA only (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0630-811",
+          "parent_fpi": "0866e8ea-fc6d-578b-b96c-03cdb9296775",
+          "f_plan_id": "c8c5a5b6-ce67-4633-9238-a8d3d9e83c48",
+          "plan_name": "Senior Advantage Group MA-PD_Part B only (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0630-812",
+          "parent_fpi": "0866e8ea-fc6d-578b-b96c-03cdb9296775",
+          "f_plan_id": "43e5a670-5325-4675-b5c4-90ab6e2c4a65",
+          "plan_name": "Senior Advantage Group MA only_Part B only (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0630-813",
+          "parent_fpi": "0866e8ea-fc6d-578b-b96c-03cdb9296775",
+          "f_plan_id": "4db34579-807d-4add-a1ec-98e9ae0e4ffd",
+          "plan_name": "Senior Advantage Group MA-PD (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0630-814",
+          "parent_fpi": "0866e8ea-fc6d-578b-b96c-03cdb9296775",
+          "f_plan_id": "4fc13c60-32b1-4023-b465-f7e03d58bb9d",
+          "plan_name": "Senior Adv Group_MA only (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0630-817",
+          "parent_fpi": "0866e8ea-fc6d-578b-b96c-03cdb9296775",
+          "f_plan_id": "4ff9b721-b8e3-4167-ba92-9c70cb8658b0",
+          "plan_name": "Senior Advantage Group MAPD Part B Only (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0630-818",
+          "parent_fpi": "0866e8ea-fc6d-578b-b96c-03cdb9296775",
+          "f_plan_id": "3fd9421d-6d9b-4115-b6c8-caf3bd47f078",
+          "plan_name": "Senior Advantage Group MA Only Part B Only (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0630-819",
+          "parent_fpi": "0866e8ea-fc6d-578b-b96c-03cdb9296775",
+          "f_plan_id": "d6fe3827-2098-4d17-a071-a4a661ba546d",
+          "plan_name": "Senior Advantage Group MAPD (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0630-820",
+          "parent_fpi": "0866e8ea-fc6d-578b-b96c-03cdb9296775",
+          "f_plan_id": "ad0fe7ed-97a4-451a-8575-38a996d2392a",
+          "plan_name": "Senior Advantage Group MA Only (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

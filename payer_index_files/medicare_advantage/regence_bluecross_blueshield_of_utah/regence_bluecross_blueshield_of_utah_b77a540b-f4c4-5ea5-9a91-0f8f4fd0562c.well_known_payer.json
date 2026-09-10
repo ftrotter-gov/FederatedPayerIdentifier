@@ -1,0 +1,77 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "b77a540b-f4c4-5ea5-9a91-0f8f4fd0562c",
+      "is_fpi": true,
+      "payerLegalName": "REGENCE BLUECROSS BLUESHIELD OF UTAH",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "REGENCE BLUECROSS BLUESHIELD OF UTAH"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4605",
+      "is_fpi": false,
+      "parent_fpi": "b77a540b-f4c4-5ea5-9a91-0f8f4fd0562c"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4605-001",
+          "parent_fpi": "b77a540b-f4c4-5ea5-9a91-0f8f4fd0562c",
+          "f_plan_id": "ee81cb82-639d-470b-b887-f362332f877c",
+          "plan_name": "Regence Valiance (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4605-002",
+          "parent_fpi": "b77a540b-f4c4-5ea5-9a91-0f8f4fd0562c",
+          "f_plan_id": "cd19aeb5-1b85-46d5-9874-6cfa33761478",
+          "plan_name": "Regence MedAdvantage + Rx Classic (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4605-004",
+          "parent_fpi": "b77a540b-f4c4-5ea5-9a91-0f8f4fd0562c",
+          "f_plan_id": "3f00b04b-5701-435d-b6b9-9d87d350326a",
+          "plan_name": "Regence MedAdvantage + Rx Enhanced (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4605-801",
+          "parent_fpi": "b77a540b-f4c4-5ea5-9a91-0f8f4fd0562c",
+          "f_plan_id": "f4672914-bb7c-49e3-b679-a02ab36f8c3a",
+          "plan_name": "Regence MedAdvantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4605-802",
+          "parent_fpi": "b77a540b-f4c4-5ea5-9a91-0f8f4fd0562c",
+          "f_plan_id": "e7e51f82-baae-48e9-b686-0e9f0d5d0f67",
+          "plan_name": "Regence MedAdvantage + Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4605-803",
+          "parent_fpi": "b77a540b-f4c4-5ea5-9a91-0f8f4fd0562c",
+          "f_plan_id": "0fbc3dd3-2c10-413f-ba7a-3364263dc67a",
+          "plan_name": "Regence MedAdvantage + Rx 02 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4605-804",
+          "parent_fpi": "b77a540b-f4c4-5ea5-9a91-0f8f4fd0562c",
+          "f_plan_id": "fa7d087b-b2d4-4e46-b8f2-e6eb2c914955",
+          "plan_name": "Regence MedAdvantage + Rx 03 (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,44 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "0fc8de2b-bf28-56f2-bc1d-8322239e01ca",
+      "is_fpi": true,
+      "payerLegalName": "DENVER HEALTH MEDICAL PLAN, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "DENVER HEALTH MEDICAL PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5608",
+      "is_fpi": false,
+      "parent_fpi": "0fc8de2b-bf28-56f2-bc1d-8322239e01ca"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5608-001",
+          "parent_fpi": "0fc8de2b-bf28-56f2-bc1d-8322239e01ca",
+          "f_plan_id": "d88a325f-0242-435a-ae0a-487885ef5716",
+          "plan_name": "Elevate Medicare Choice (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5608-002",
+          "parent_fpi": "0fc8de2b-bf28-56f2-bc1d-8322239e01ca",
+          "f_plan_id": "da152cb1-0e19-405d-9732-922a1f66528e",
+          "plan_name": "Elevate Medicare Select (HMO)"
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://www.denverhealthmedicalplan.org/transparency-coverage/files/DHMP_ProviderRoster_06_11_2026.json"
+      }
+    }
+  ],
+  "is_seeded": true
+}

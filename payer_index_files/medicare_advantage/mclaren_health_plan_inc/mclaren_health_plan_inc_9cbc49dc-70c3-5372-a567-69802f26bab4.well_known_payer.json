@@ -1,0 +1,51 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "9cbc49dc-70c3-5372-a567-69802f26bab4",
+      "is_fpi": true,
+      "payerLegalName": "MCLAREN HEALTH PLAN, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MCLAREN HEALTH PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6322",
+      "is_fpi": false,
+      "parent_fpi": "9cbc49dc-70c3-5372-a567-69802f26bab4"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6322-001",
+          "parent_fpi": "9cbc49dc-70c3-5372-a567-69802f26bab4",
+          "f_plan_id": "33882103-f9f0-4e69-b08e-33e746d70d38",
+          "plan_name": "McLaren Medicare Inspire (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6322-002",
+          "parent_fpi": "9cbc49dc-70c3-5372-a567-69802f26bab4",
+          "f_plan_id": "26a48d4e-15a6-4841-8491-a217299b53f4",
+          "plan_name": "McLaren Medicare Inspire Plus (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6322-008",
+          "parent_fpi": "9cbc49dc-70c3-5372-a567-69802f26bab4",
+          "f_plan_id": "ce001319-ce4a-47d1-911c-0630442723c0",
+          "plan_name": "McLaren Medicare Inspire Select (HMO)"
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://www.mclaren.org/Uploads/Public/Documents/HealthPlan/documents/CMSUploads/cms-medicare-data-index-H6322-2026.json"
+      }
+    }
+  ],
+  "is_seeded": true
+}

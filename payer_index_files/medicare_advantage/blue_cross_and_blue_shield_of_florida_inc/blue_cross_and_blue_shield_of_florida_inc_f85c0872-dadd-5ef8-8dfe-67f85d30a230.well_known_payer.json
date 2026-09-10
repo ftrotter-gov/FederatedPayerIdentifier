@@ -1,0 +1,175 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "f85c0872-dadd-5ef8-8dfe-67f85d30a230",
+      "is_fpi": true,
+      "payerLegalName": "BLUE CROSS AND BLUE SHIELD OF FLORIDA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BLUE CROSS AND BLUE SHIELD OF FLORIDA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5434",
+      "is_fpi": false,
+      "parent_fpi": "f85c0872-dadd-5ef8-8dfe-67f85d30a230"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5434-002",
+          "parent_fpi": "f85c0872-dadd-5ef8-8dfe-67f85d30a230",
+          "f_plan_id": "6b4c03db-e835-4c7f-b96e-c5b918e58c35",
+          "plan_name": "BlueMedicare Select (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5434-023",
+          "parent_fpi": "f85c0872-dadd-5ef8-8dfe-67f85d30a230",
+          "f_plan_id": "596c9f36-3123-42c1-bcfb-c3f35f19e00b",
+          "plan_name": "BlueMedicare Value (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5434-024",
+          "parent_fpi": "f85c0872-dadd-5ef8-8dfe-67f85d30a230",
+          "f_plan_id": "bfe96f59-7810-4788-8d07-474519736149",
+          "plan_name": "BlueMedicare Value (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5434-025",
+          "parent_fpi": "f85c0872-dadd-5ef8-8dfe-67f85d30a230",
+          "f_plan_id": "032d7a1d-4491-44b8-bbb1-a29e0c5ec265",
+          "plan_name": "BlueMedicare Value (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5434-026",
+          "parent_fpi": "f85c0872-dadd-5ef8-8dfe-67f85d30a230",
+          "f_plan_id": "3808393d-504d-448d-8820-563c9259b557",
+          "plan_name": "BlueMedicare Value (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5434-030",
+          "parent_fpi": "f85c0872-dadd-5ef8-8dfe-67f85d30a230",
+          "f_plan_id": "2e4de50e-9f06-4a1a-a927-6bbdd32806d0",
+          "plan_name": "BlueMedicare Value (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5434-031",
+          "parent_fpi": "f85c0872-dadd-5ef8-8dfe-67f85d30a230",
+          "f_plan_id": "0b2aeca0-7adb-44f2-aa0d-89f718176807",
+          "plan_name": "BlueMedicare Value (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5434-034",
+          "parent_fpi": "f85c0872-dadd-5ef8-8dfe-67f85d30a230",
+          "f_plan_id": "722cd12d-67fb-487a-9270-713e05691a2e",
+          "plan_name": "BlueMedicare Value (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5434-035",
+          "parent_fpi": "f85c0872-dadd-5ef8-8dfe-67f85d30a230",
+          "f_plan_id": "f4f76068-8d12-4ee9-9c0e-06d4a6ee0e1e",
+          "plan_name": "BlueMedicare Value (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5434-036",
+          "parent_fpi": "f85c0872-dadd-5ef8-8dfe-67f85d30a230",
+          "f_plan_id": "92de9fdb-2c10-4694-8a96-bedd7c805eb2",
+          "plan_name": "BlueMedicare Value (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5434-038",
+          "parent_fpi": "f85c0872-dadd-5ef8-8dfe-67f85d30a230",
+          "f_plan_id": "e4745414-b571-4a65-836b-eb688030bd95",
+          "plan_name": "BlueMedicare Patriot (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5434-040",
+          "parent_fpi": "f85c0872-dadd-5ef8-8dfe-67f85d30a230",
+          "f_plan_id": "41b1e6fb-f6d9-4c68-8899-658cd15aee50",
+          "plan_name": "BlueMedicare Patriot (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5434-041",
+          "parent_fpi": "f85c0872-dadd-5ef8-8dfe-67f85d30a230",
+          "f_plan_id": "b3123900-6990-4a84-b613-3aca5ee4bd00",
+          "plan_name": "BlueMedicare Patriot (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5434-042",
+          "parent_fpi": "f85c0872-dadd-5ef8-8dfe-67f85d30a230",
+          "f_plan_id": "97d323d5-fc44-462f-8642-3cb36c85ec45",
+          "plan_name": "BlueMedicare Patriot (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5434-044",
+          "parent_fpi": "f85c0872-dadd-5ef8-8dfe-67f85d30a230",
+          "f_plan_id": "f2da8e33-98ca-451d-b2e3-cfdbe1b9e264",
+          "plan_name": "BlueMedicare Patriot (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5434-045",
+          "parent_fpi": "f85c0872-dadd-5ef8-8dfe-67f85d30a230",
+          "f_plan_id": "a159c688-6f2c-4c11-a29d-d5d75cf9d8e7",
+          "plan_name": "BlueMedicare Select (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5434-046",
+          "parent_fpi": "f85c0872-dadd-5ef8-8dfe-67f85d30a230",
+          "f_plan_id": "af002dd9-273d-4eb7-8990-06c19523d9b8",
+          "plan_name": "BlueMedicare Patriot (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5434-801",
+          "parent_fpi": "f85c0872-dadd-5ef8-8dfe-67f85d30a230",
+          "f_plan_id": "0bc9e8f4-f6e4-4c6f-a88f-cc734ddd5c6d",
+          "plan_name": "BlueMedicare Group PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5434-802",
+          "parent_fpi": "f85c0872-dadd-5ef8-8dfe-67f85d30a230",
+          "f_plan_id": "e3807cd3-a6ff-49f1-83ce-1f5396718ea3",
+          "plan_name": "BlueMedicare Group PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5434-806",
+          "parent_fpi": "f85c0872-dadd-5ef8-8dfe-67f85d30a230",
+          "f_plan_id": "0c911d49-d0f5-4237-8dda-e2eb1afa405a",
+          "plan_name": "BlueMedicare Group MA PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5434-807",
+          "parent_fpi": "f85c0872-dadd-5ef8-8dfe-67f85d30a230",
+          "f_plan_id": "2d660f48-57ab-4e7f-b3c6-7ba15293281f",
+          "plan_name": "BlueMedicare Group MA PPO (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

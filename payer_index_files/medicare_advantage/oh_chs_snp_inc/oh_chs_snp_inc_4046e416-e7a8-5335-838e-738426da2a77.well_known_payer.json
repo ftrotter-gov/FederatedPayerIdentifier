@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "4046e416-e7a8-5335-838e-738426da2a77",
+      "is_fpi": true,
+      "payerLegalName": "OH CHS SNP INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "OH CHS SNP INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3727",
+      "is_fpi": false,
+      "parent_fpi": "4046e416-e7a8-5335-838e-738426da2a77"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3727-001",
+          "parent_fpi": "4046e416-e7a8-5335-838e-738426da2a77",
+          "f_plan_id": "a8bb1459-3320-4177-bbb3-d3eb621db50e",
+          "plan_name": "CommuniCare Advantage CSNP (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3727-002",
+          "parent_fpi": "4046e416-e7a8-5335-838e-738426da2a77",
+          "f_plan_id": "8785f4a4-d498-47d4-998e-3fa76d3e198e",
+          "plan_name": "CommuniCare Advantage ISNP (HMO I-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

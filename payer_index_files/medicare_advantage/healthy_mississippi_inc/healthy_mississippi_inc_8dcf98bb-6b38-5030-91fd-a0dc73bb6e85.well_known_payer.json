@@ -1,0 +1,41 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "8dcf98bb-6b38-5030-91fd-a0dc73bb6e85",
+      "is_fpi": true,
+      "payerLegalName": "HEALTHY MISSISSIPPI, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HEALTHY MISSISSIPPI, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1823",
+      "is_fpi": false,
+      "parent_fpi": "8dcf98bb-6b38-5030-91fd-a0dc73bb6e85"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8879",
+      "is_fpi": false,
+      "parent_fpi": "8dcf98bb-6b38-5030-91fd-a0dc73bb6e85"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8879-001",
+          "parent_fpi": "8dcf98bb-6b38-5030-91fd-a0dc73bb6e85",
+          "f_plan_id": "f50a62bb-cf09-47a3-80b2-0f01afd73b0a",
+          "plan_name": "Healthy Mississippi Premier Advantage (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

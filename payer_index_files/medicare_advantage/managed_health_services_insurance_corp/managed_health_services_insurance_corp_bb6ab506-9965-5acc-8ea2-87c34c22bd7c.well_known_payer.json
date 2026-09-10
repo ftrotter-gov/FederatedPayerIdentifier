@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "bb6ab506-9965-5acc-8ea2-87c34c22bd7c",
+      "is_fpi": true,
+      "payerLegalName": "MANAGED HEALTH SERVICES INSURANCE CORP.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MANAGED HEALTH SERVICES INSURANCE CORP."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8189",
+      "is_fpi": false,
+      "parent_fpi": "bb6ab506-9965-5acc-8ea2-87c34c22bd7c"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8189-001",
+          "parent_fpi": "bb6ab506-9965-5acc-8ea2-87c34c22bd7c",
+          "f_plan_id": "586293ab-750e-4361-b739-142c13cd1b55",
+          "plan_name": "Wellcare Dual Access Sync (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8189-007",
+          "parent_fpi": "bb6ab506-9965-5acc-8ea2-87c34c22bd7c",
+          "f_plan_id": "42fa6168-5e09-4e05-8abd-fd56c6cf7717",
+          "plan_name": "Wellcare Dual Reserve (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8189-008",
+          "parent_fpi": "bb6ab506-9965-5acc-8ea2-87c34c22bd7c",
+          "f_plan_id": "53568788-289a-4750-8294-43eecd308b2f",
+          "plan_name": "Wellcare Simple (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "03aadf7e-9e67-56f1-95d5-c46ccc959696",
+      "is_fpi": true,
+      "payerLegalName": "UPMC HEALTH COVERAGE, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "UPMC HEALTH COVERAGE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7123",
+      "is_fpi": false,
+      "parent_fpi": "03aadf7e-9e67-56f1-95d5-c46ccc959696"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7123-001",
+          "parent_fpi": "03aadf7e-9e67-56f1-95d5-c46ccc959696",
+          "f_plan_id": "976a3036-c42b-4b2a-8ee7-8c387ae76cba",
+          "plan_name": "UPMC for Life Complete Care (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

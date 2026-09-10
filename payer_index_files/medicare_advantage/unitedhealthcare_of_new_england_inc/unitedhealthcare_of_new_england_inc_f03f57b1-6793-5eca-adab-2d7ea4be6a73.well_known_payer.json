@@ -1,0 +1,95 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "f03f57b1-6793-5eca-adab-2d7ea4be6a73",
+      "is_fpi": true,
+      "payerLegalName": "UNITEDHEALTHCARE OF NEW ENGLAND, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "UNITEDHEALTHCARE OF NEW ENGLAND, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0764",
+      "is_fpi": false,
+      "parent_fpi": "f03f57b1-6793-5eca-adab-2d7ea4be6a73"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2226",
+      "is_fpi": false,
+      "parent_fpi": "f03f57b1-6793-5eca-adab-2d7ea4be6a73"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2272",
+      "is_fpi": false,
+      "parent_fpi": "f03f57b1-6793-5eca-adab-2d7ea4be6a73"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4610",
+      "is_fpi": false,
+      "parent_fpi": "f03f57b1-6793-5eca-adab-2d7ea4be6a73"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0764-001",
+          "parent_fpi": "f03f57b1-6793-5eca-adab-2d7ea4be6a73",
+          "f_plan_id": "bdd8f8d3-714b-441f-8351-8637c84d1f9d",
+          "plan_name": "UHC Dual Complete RI-S001 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2226-001",
+          "parent_fpi": "f03f57b1-6793-5eca-adab-2d7ea4be6a73",
+          "f_plan_id": "63fa5930-979a-4a60-8ee5-e09c6c921bf5",
+          "plan_name": "UHC Senior Care Options MA-Y001 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2226-003",
+          "parent_fpi": "f03f57b1-6793-5eca-adab-2d7ea4be6a73",
+          "f_plan_id": "884e6d43-b4e9-46ec-a88b-7ec395b5580e",
+          "plan_name": "UHC Senior Care Options NHC MA-Y002 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2272-001",
+          "parent_fpi": "f03f57b1-6793-5eca-adab-2d7ea4be6a73",
+          "f_plan_id": "7bc8b8b3-3290-4e41-8b12-dcd1fb9b5330",
+          "plan_name": "UHC Dual Complete RI-V001 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2272-003",
+          "parent_fpi": "f03f57b1-6793-5eca-adab-2d7ea4be6a73",
+          "f_plan_id": "cf9db774-8a8f-43a0-b96b-01ff12d67741",
+          "plan_name": "UHC Dual Complete RI-S3 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4610-001",
+          "parent_fpi": "f03f57b1-6793-5eca-adab-2d7ea4be6a73",
+          "f_plan_id": "bc9e04be-4154-410e-9f1d-f9e9f67d6a06",
+          "plan_name": "UHC One Care MA-Y3 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4610-002",
+          "parent_fpi": "f03f57b1-6793-5eca-adab-2d7ea4be6a73",
+          "f_plan_id": "82aad1f7-5d45-4a2d-949a-0a3630038364",
+          "plan_name": "UHC One Care MA-Y4 (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

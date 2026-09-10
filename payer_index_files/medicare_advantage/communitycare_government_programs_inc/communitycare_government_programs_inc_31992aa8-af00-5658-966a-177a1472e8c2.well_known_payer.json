@@ -1,0 +1,77 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "31992aa8-af00-5658-966a-177a1472e8c2",
+      "is_fpi": true,
+      "payerLegalName": "COMMUNITYCARE GOVERNMENT PROGRAMS, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "COMMUNITYCARE GOVERNMENT PROGRAMS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3755",
+      "is_fpi": false,
+      "parent_fpi": "31992aa8-af00-5658-966a-177a1472e8c2"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3755-001",
+          "parent_fpi": "31992aa8-af00-5658-966a-177a1472e8c2",
+          "f_plan_id": "50a8de3e-ccd8-4343-b1fc-a829747fb56d",
+          "plan_name": "Senior Health Plan Platinum (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3755-002",
+          "parent_fpi": "31992aa8-af00-5658-966a-177a1472e8c2",
+          "f_plan_id": "350b8f49-5dda-4cec-a884-fcf34ed35b57",
+          "plan_name": "Senior Health Plan Silver (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3755-004",
+          "parent_fpi": "31992aa8-af00-5658-966a-177a1472e8c2",
+          "f_plan_id": "3a2df920-172f-415c-a5f9-5a5c5fda289d",
+          "plan_name": "Senior Health Plan Platinum Plus (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3755-005",
+          "parent_fpi": "31992aa8-af00-5658-966a-177a1472e8c2",
+          "f_plan_id": "ae19d28d-1560-4eb1-a540-f5cca165384f",
+          "plan_name": "Senior Health Plan Silver Plus (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3755-006",
+          "parent_fpi": "31992aa8-af00-5658-966a-177a1472e8c2",
+          "f_plan_id": "75781a7a-51d0-4e23-aaed-7858c657a0fb",
+          "plan_name": "Senior Health Plan Oklahoma Dual Complete (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3755-007",
+          "parent_fpi": "31992aa8-af00-5658-966a-177a1472e8c2",
+          "f_plan_id": "c064ac07-4dca-4df9-965a-4f16a617609d",
+          "plan_name": "Senior Health Plan Silver Savings (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3755-801",
+          "parent_fpi": "31992aa8-af00-5658-966a-177a1472e8c2",
+          "f_plan_id": "1bf5ff8d-b3b2-4683-8f28-02d3f1f06342",
+          "plan_name": "Senior Health EGHP+D (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

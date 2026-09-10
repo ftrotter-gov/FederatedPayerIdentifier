@@ -1,0 +1,56 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "59ce5f1b-785e-5167-bc59-e11e45cb0709",
+      "is_fpi": true,
+      "payerLegalName": "HEALTHPARTNERS INSURANCE COMPANY",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HEALTHPARTNERS INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6309",
+      "is_fpi": false,
+      "parent_fpi": "59ce5f1b-785e-5167-bc59-e11e45cb0709"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6309-001",
+          "parent_fpi": "59ce5f1b-785e-5167-bc59-e11e45cb0709",
+          "f_plan_id": "03ad83e4-3a8c-4886-83ec-ef48101650ca",
+          "plan_name": "HealthPartners Birch (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6309-002",
+          "parent_fpi": "59ce5f1b-785e-5167-bc59-e11e45cb0709",
+          "f_plan_id": "fc70068c-b70a-460d-8426-51ed7e490e6e",
+          "plan_name": "HealthPartners Cedar (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6309-801",
+          "parent_fpi": "59ce5f1b-785e-5167-bc59-e11e45cb0709",
+          "f_plan_id": "054a8dd8-0424-4f6b-a0d5-6666ff2a6923",
+          "plan_name": "HealthPartners Group MAPD Calendar Year (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6309-802",
+          "parent_fpi": "59ce5f1b-785e-5167-bc59-e11e45cb0709",
+          "f_plan_id": "e0828535-f299-4750-a3e3-f1940220c281",
+          "plan_name": "HealthPartners Group MA Only (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

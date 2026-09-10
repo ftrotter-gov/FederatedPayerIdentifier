@@ -1,0 +1,309 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "f845400e-1cb2-56c4-be5a-223ca536855f",
+      "is_fpi": true,
+      "payerLegalName": "TRIPLE S ADVANTAGE, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "TRIPLE S ADVANTAGE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4005",
+      "is_fpi": false,
+      "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5774",
+      "is_fpi": false,
+      "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4005-004",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "a7f0a122-211c-47a2-bc48-4df002e90ce9",
+          "plan_name": "\u00d3ptimo Plus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4005-801",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "cbef9494-305b-4810-8647-54a60c1a3aa0",
+          "plan_name": "\u00d3ptimo (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4005-802",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "6e853caa-54d7-4cab-a0b7-2b901954c1ed",
+          "plan_name": "\u00d3ptimo Plus A (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4005-804",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "fbb1f9ad-f14b-4b39-bc1a-afd45d429095",
+          "plan_name": "\u00d3ptimo Plus B (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4005-807",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "7207ff83-299e-421a-8ddd-6cab4eb5e06f",
+          "plan_name": "\u00d3ptimo Plus C (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4005-808",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "1ecd409a-c677-4c1c-ab54-bd1460906d0e",
+          "plan_name": "\u00d3ptimo Plus D (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4005-809",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "43503d2b-cff9-499e-95f6-11a1474ed01c",
+          "plan_name": "\u00d3ptimo Plus E (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4005-810",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "9e2ff0df-1db6-45e0-bcf3-8a3dc080cf0e",
+          "plan_name": "\u00d3ptimo Plus F (PPO)"
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://devtshcontenportalblob.blob.core.windows.net/mpf-files/index_H4005_2026.json"
+      }
+    },
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-022",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "610cb870-ee96-409c-83f3-e834ea57443a",
+          "plan_name": "Contigo Plus (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-028",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "34db0720-ca6c-4150-9769-3718b9acd224",
+          "plan_name": "Platino Blindao (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-031",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "000d0c51-fb80-46f2-a743-a60f4a58ced6",
+          "plan_name": "Brillante (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-035",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "7ba5e878-988d-4557-a501-5dedce4e4040",
+          "plan_name": "Platino Enlace (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-038",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "b447fe77-1c00-469c-9da4-77652855ccdb",
+          "plan_name": "Enlace Plus (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-041",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "76600cd3-6ace-4b33-81fa-e9cafd3ad7c0",
+          "plan_name": "PLATINO ADVANCE (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-043",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "94944b67-9bd8-4bd9-85bc-9b496149bde7",
+          "plan_name": "PLATINO PLUS (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-047",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "34eb38fe-6b76-4b65-83d6-b8bcaf29f292",
+          "plan_name": "Ahorro Plus (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-802",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "6715a8db-6f96-4862-86ca-2753f7c29e85",
+          "plan_name": "Royal A (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-808",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "1648343c-e987-43b7-8049-d1d12e07bbe3",
+          "plan_name": "Royal C (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-809",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "9980138c-2579-489c-896a-19e71ee76fa1",
+          "plan_name": "Royal D (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-810",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "3c7a66f6-40af-4d85-8674-71f678329a43",
+          "plan_name": "Royal E (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-811",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "f84f8f2d-0352-4928-bc50-06cb26245d35",
+          "plan_name": "Royal Plus A (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-812",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "497d68fe-faa7-4f68-a8e6-72cdd9186246",
+          "plan_name": "Employer BD 1 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-814",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "335a0aec-3003-40c9-a891-3f501a232159",
+          "plan_name": "Employer BD 3 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-816",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "54a70950-62e0-4b6d-b894-ef9517b2df9a",
+          "plan_name": "Employer BD 5 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-818",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "3dc2c36c-ca8e-413a-b2e2-2137c95a9806",
+          "plan_name": "Employer BD 7 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-820",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "b480bccd-0cd8-49b8-b8c7-9753d2139a6b",
+          "plan_name": "Employer BD 8 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-821",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "94b8c8d7-d094-46d1-b529-3f7cbc63da75",
+          "plan_name": "Employer BD 9 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-822",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "21678a2f-a681-4566-ad50-9782cb5413fe",
+          "plan_name": "Employer BD10 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-823",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "d86133e0-9892-4b64-9d81-39bbf0a0c18e",
+          "plan_name": "Employer BD11 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-824",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "6931bf8c-d4ed-4ea9-ab18-824762d909ad",
+          "plan_name": "Employer BD12 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-825",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "59f83c9f-91b6-4968-9380-0fdb02263e42",
+          "plan_name": "Employer BD13 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-046",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "3336b3dd-fad1-425e-aaac-d7fa32daa3af",
+          "plan_name": "ContigoEnMente (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-826",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "566223a5-4ad7-45b0-8108-f3dde94c3319",
+          "plan_name": "Employer BD14 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-827",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "42b06c7c-55be-4bd8-ad8d-ea03e2a81ccf",
+          "plan_name": "Employer BD15 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-828",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "462d1204-bc81-4a8a-98b1-72c7421e1f42",
+          "plan_name": "Employer BD16 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-829",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "569aca41-df36-4689-9450-85088aa8af45",
+          "plan_name": "Employer BD17 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-830",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "58d8b575-dc12-4a17-a010-95d591184a0a",
+          "plan_name": "Employer BD18 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-831",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "1cc7e040-88cb-4187-967f-bc388e701c45",
+          "plan_name": "Employer BD19 (HMO)"
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://devtshcontenportalblob.blob.core.windows.net/mpf-files/index_H5774_2026.json"
+      }
+    }
+  ],
+  "is_seeded": true
+}

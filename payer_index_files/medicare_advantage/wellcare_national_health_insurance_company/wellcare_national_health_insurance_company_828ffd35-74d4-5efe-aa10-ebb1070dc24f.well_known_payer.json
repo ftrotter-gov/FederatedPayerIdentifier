@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "828ffd35-74d4-5efe-aa10-ebb1070dc24f",
+      "is_fpi": true,
+      "payerLegalName": "WELLCARE NATIONAL HEALTH INSURANCE COMPANY",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WELLCARE NATIONAL HEALTH INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7323",
+      "is_fpi": false,
+      "parent_fpi": "828ffd35-74d4-5efe-aa10-ebb1070dc24f"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7323-007",
+          "parent_fpi": "828ffd35-74d4-5efe-aa10-ebb1070dc24f",
+          "f_plan_id": "7f1ec3b3-5b6e-4f35-b59e-cf0c8f81cf55",
+          "plan_name": "Wellcare Simple Open (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7323-012",
+          "parent_fpi": "828ffd35-74d4-5efe-aa10-ebb1070dc24f",
+          "f_plan_id": "6604e4a3-b651-477b-baa4-728ed29eaf42",
+          "plan_name": "Wellcare Simple Open (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

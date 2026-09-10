@@ -1,0 +1,55 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "1049ade9-b07a-5a3c-a8f2-3790bbc7d471",
+      "is_fpi": true,
+      "payerLegalName": "ETERNALHEALTH, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ETERNALHEALTH, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1280",
+      "is_fpi": false,
+      "parent_fpi": "1049ade9-b07a-5a3c-a8f2-3790bbc7d471"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2694",
+      "is_fpi": false,
+      "parent_fpi": "1049ade9-b07a-5a3c-a8f2-3790bbc7d471"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1280-001",
+          "parent_fpi": "1049ade9-b07a-5a3c-a8f2-3790bbc7d471",
+          "f_plan_id": "1f4ff44b-ca46-43cb-9127-b624d4f4fe6f",
+          "plan_name": "eternalHealth Forever (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2694-001",
+          "parent_fpi": "1049ade9-b07a-5a3c-a8f2-3790bbc7d471",
+          "f_plan_id": "f967f95f-c071-4518-b09c-e5140101dfd6",
+          "plan_name": "eternalHealth Freedom (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2694-002",
+          "parent_fpi": "1049ade9-b07a-5a3c-a8f2-3790bbc7d471",
+          "f_plan_id": "d1bd164c-b02f-4006-bc24-d95f3a82c71e",
+          "plan_name": "eternalHealth Give Back (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

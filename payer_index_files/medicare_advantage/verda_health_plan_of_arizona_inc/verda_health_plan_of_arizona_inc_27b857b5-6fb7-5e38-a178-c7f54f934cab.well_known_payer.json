@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "27b857b5-6fb7-5e38-a178-c7f54f934cab",
+      "is_fpi": true,
+      "payerLegalName": "VERDA HEALTH PLAN OF ARIZONA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "VERDA HEALTH PLAN OF ARIZONA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2630",
+      "is_fpi": false,
+      "parent_fpi": "27b857b5-6fb7-5e38-a178-c7f54f934cab"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2630-001",
+          "parent_fpi": "27b857b5-6fb7-5e38-a178-c7f54f934cab",
+          "f_plan_id": "aefb769b-beb4-4226-bcb8-ae7a6e7184f6",
+          "plan_name": "Verda Noble Care (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2630-002",
+          "parent_fpi": "27b857b5-6fb7-5e38-a178-c7f54f934cab",
+          "f_plan_id": "2556b9f6-b170-4f50-9820-531a54027bbd",
+          "plan_name": "Verda Noble Chronic Care (HMO C-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

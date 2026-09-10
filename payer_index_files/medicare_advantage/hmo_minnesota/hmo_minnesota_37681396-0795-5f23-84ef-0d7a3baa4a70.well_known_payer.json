@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "37681396-0795-5f23-84ef-0d7a3baa4a70",
+      "is_fpi": true,
+      "payerLegalName": "HMO Minnesota",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HMO Minnesota"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2425",
+      "is_fpi": false,
+      "parent_fpi": "37681396-0795-5f23-84ef-0d7a3baa4a70"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2425-001",
+          "parent_fpi": "37681396-0795-5f23-84ef-0d7a3baa4a70",
+          "f_plan_id": "3c3cef74-7dac-42b1-8f39-fedca492872e",
+          "plan_name": "SecureBlue (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

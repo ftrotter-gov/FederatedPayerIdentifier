@@ -1,0 +1,77 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "f427aab1-64d8-520c-b982-4f983675f0a6",
+      "is_fpi": true,
+      "payerLegalName": "WELLPOINT HEALTH PLANS, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WELLPOINT HEALTH PLANS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1423",
+      "is_fpi": false,
+      "parent_fpi": "f427aab1-64d8-520c-b982-4f983675f0a6"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1423-001",
+          "parent_fpi": "f427aab1-64d8-520c-b982-4f983675f0a6",
+          "f_plan_id": "1241569b-656d-436c-8266-453e31e404e1",
+          "plan_name": "Wellpoint Lung Care (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1423-002",
+          "parent_fpi": "f427aab1-64d8-520c-b982-4f983675f0a6",
+          "f_plan_id": "3eae197a-951a-4c87-84e5-17c274a2f1a9",
+          "plan_name": "Wellpoint Chronic Care (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1423-004",
+          "parent_fpi": "f427aab1-64d8-520c-b982-4f983675f0a6",
+          "f_plan_id": "31417309-57e6-4cad-ba11-c463820946f2",
+          "plan_name": "Wellpoint Medicare Advantage 1 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1423-005",
+          "parent_fpi": "f427aab1-64d8-520c-b982-4f983675f0a6",
+          "f_plan_id": "d1196b9b-73e4-4446-99b1-282aa90d5f4a",
+          "plan_name": "Wellpoint Premium Savings (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1423-007",
+          "parent_fpi": "f427aab1-64d8-520c-b982-4f983675f0a6",
+          "f_plan_id": "110f6835-8547-4f95-aee8-f95e5a186c7e",
+          "plan_name": "Wellpoint I CareMore Home Care (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1423-008",
+          "parent_fpi": "f427aab1-64d8-520c-b982-4f983675f0a6",
+          "f_plan_id": "5e810b5f-ab9c-40f5-906c-4b94c987cbd8",
+          "plan_name": "Wellpoint I CareMore Home Care (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1423-009",
+          "parent_fpi": "f427aab1-64d8-520c-b982-4f983675f0a6",
+          "f_plan_id": "b61ec4e2-a2f9-42cf-89c8-f97d9d82df11",
+          "plan_name": "Wellpoint Medicare Advantage (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

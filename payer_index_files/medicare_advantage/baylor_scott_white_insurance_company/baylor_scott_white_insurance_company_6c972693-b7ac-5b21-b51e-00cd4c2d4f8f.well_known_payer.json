@@ -1,0 +1,84 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "6c972693-b7ac-5b21-b51e-00cd4c2d4f8f",
+      "is_fpi": true,
+      "payerLegalName": "Baylor Scott & White Insurance Company",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "Baylor Scott & White Insurance Company"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2032",
+      "is_fpi": false,
+      "parent_fpi": "6c972693-b7ac-5b21-b51e-00cd4c2d4f8f"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2032-001",
+          "parent_fpi": "6c972693-b7ac-5b21-b51e-00cd4c2d4f8f",
+          "f_plan_id": "15bc0ab7-8fe8-4061-be01-d688849d7b19",
+          "plan_name": "BSW SeniorCare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2032-002",
+          "parent_fpi": "6c972693-b7ac-5b21-b51e-00cd4c2d4f8f",
+          "f_plan_id": "79e24c8e-eae3-4104-805a-d38fda7b669e",
+          "plan_name": "BSW SeniorCare Advantage Basic (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2032-003",
+          "parent_fpi": "6c972693-b7ac-5b21-b51e-00cd4c2d4f8f",
+          "f_plan_id": "2043bf17-4477-4cfa-a1aa-dae7bc532978",
+          "plan_name": "BSW SeniorCare Advantage Platinum (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2032-004",
+          "parent_fpi": "6c972693-b7ac-5b21-b51e-00cd4c2d4f8f",
+          "f_plan_id": "a5e42f25-1320-494c-b941-edb08e145f6f",
+          "plan_name": "BSW SeniorCare Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2032-801",
+          "parent_fpi": "6c972693-b7ac-5b21-b51e-00cd4c2d4f8f",
+          "f_plan_id": "66a6fd66-01f0-413c-99f0-6397da428ee8",
+          "plan_name": "BSW SeniorCare Advantage EGWP CY Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2032-802",
+          "parent_fpi": "6c972693-b7ac-5b21-b51e-00cd4c2d4f8f",
+          "f_plan_id": "303231b5-f371-469c-a377-a4ad94625b77",
+          "plan_name": "BSW SeniorCare Advantage EGWP CY (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2032-803",
+          "parent_fpi": "6c972693-b7ac-5b21-b51e-00cd4c2d4f8f",
+          "f_plan_id": "9dee2c5f-224c-4ecf-9c6d-38ee90426473",
+          "plan_name": "BSW SeniorCare Advantage EGWP FY Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2032-804",
+          "parent_fpi": "6c972693-b7ac-5b21-b51e-00cd4c2d4f8f",
+          "f_plan_id": "6d45b48a-5ebd-4c5c-b8e8-464d973f5f77",
+          "plan_name": "BSW SeniorCare Advantage EGWP FY (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

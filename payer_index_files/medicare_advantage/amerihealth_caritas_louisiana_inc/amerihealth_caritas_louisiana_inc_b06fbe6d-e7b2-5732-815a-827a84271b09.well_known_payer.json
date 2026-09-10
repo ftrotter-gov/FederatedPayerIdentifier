@@ -1,0 +1,35 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "b06fbe6d-e7b2-5732-815a-827a84271b09",
+      "is_fpi": true,
+      "payerLegalName": "AMERIHEALTH CARITAS LOUISIANA, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "AMERIHEALTH CARITAS LOUISIANA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2564",
+      "is_fpi": false,
+      "parent_fpi": "b06fbe6d-e7b2-5732-815a-827a84271b09"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2564-001",
+          "parent_fpi": "b06fbe6d-e7b2-5732-815a-827a84271b09",
+          "f_plan_id": "b4f01da2-d456-40a5-899f-0195869300ca",
+          "plan_name": "AmeriHealth Caritas VIP Care (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

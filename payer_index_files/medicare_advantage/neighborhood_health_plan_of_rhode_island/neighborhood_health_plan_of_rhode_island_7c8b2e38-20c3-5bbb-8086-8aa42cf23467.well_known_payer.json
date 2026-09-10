@@ -1,0 +1,48 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "7c8b2e38-20c3-5bbb-8086-8aa42cf23467",
+      "is_fpi": true,
+      "payerLegalName": "NEIGHBORHOOD HEALTH PLAN OF RHODE ISLAND",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "NEIGHBORHOOD HEALTH PLAN OF RHODE ISLAND"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2126",
+      "is_fpi": false,
+      "parent_fpi": "7c8b2e38-20c3-5bbb-8086-8aa42cf23467"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7635",
+      "is_fpi": false,
+      "parent_fpi": "7c8b2e38-20c3-5bbb-8086-8aa42cf23467"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2126-001",
+          "parent_fpi": "7c8b2e38-20c3-5bbb-8086-8aa42cf23467",
+          "f_plan_id": "22b42232-eef4-4e34-8a87-bd505162fbff",
+          "plan_name": "Neighborhood Dual CONNECT (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7635-001",
+          "parent_fpi": "7c8b2e38-20c3-5bbb-8086-8aa42cf23467",
+          "f_plan_id": "9ed46f70-3b3f-4bc8-916d-ed6f22022335",
+          "plan_name": "Neighborhood INTEGRITY for Duals (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,63 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "02e3888e-7e11-59db-8125-123684928490",
+      "is_fpi": true,
+      "payerLegalName": "PROMINENCE HEALTHFIRST OF FLORIDA INC",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PROMINENCE HEALTHFIRST OF FLORIDA INC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7239",
+      "is_fpi": false,
+      "parent_fpi": "02e3888e-7e11-59db-8125-123684928490"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7239-001",
+          "parent_fpi": "02e3888e-7e11-59db-8125-123684928490",
+          "f_plan_id": "2eb0ff99-fc7d-433e-9e49-4098ce803f3c",
+          "plan_name": "Prominence Plus (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7239-002",
+          "parent_fpi": "02e3888e-7e11-59db-8125-123684928490",
+          "f_plan_id": "3bb7dc93-ba62-4db2-b886-02552de1c12c",
+          "plan_name": "Prominence Dual (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7239-003",
+          "parent_fpi": "02e3888e-7e11-59db-8125-123684928490",
+          "f_plan_id": "13d2df19-1c83-4842-8995-bb8336129e90",
+          "plan_name": "Prominence Extra Help (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7239-004",
+          "parent_fpi": "02e3888e-7e11-59db-8125-123684928490",
+          "f_plan_id": "3c33775b-55c0-41f0-8e74-18fedaed1e1a",
+          "plan_name": "Prominence Giveback (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7239-005",
+          "parent_fpi": "02e3888e-7e11-59db-8125-123684928490",
+          "f_plan_id": "eb2ee76f-6f2c-4b3a-9123-4f901f1d2ad2",
+          "plan_name": "Prominence Diabetes and Heart Giveback (HMO C-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,77 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "dc97aa3c-b6ed-57cd-b67d-a7ced3fb4b25",
+      "is_fpi": true,
+      "payerLegalName": "ALLIANCE HEALTH AND LIFE INSURANCE COMPANY",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ALLIANCE HEALTH AND LIFE INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2322",
+      "is_fpi": false,
+      "parent_fpi": "dc97aa3c-b6ed-57cd-b67d-a7ced3fb4b25"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2322-008",
+          "parent_fpi": "dc97aa3c-b6ed-57cd-b67d-a7ced3fb4b25",
+          "f_plan_id": "c137cfbc-8809-458e-80d8-762d4de2f7e8",
+          "plan_name": "HAP Senior Plus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2322-011",
+          "parent_fpi": "dc97aa3c-b6ed-57cd-b67d-a7ced3fb4b25",
+          "f_plan_id": "315e78dd-ce03-48c3-a91c-b1b1e28ede63",
+          "plan_name": "HAP Medicare Explore (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2322-016",
+          "parent_fpi": "dc97aa3c-b6ed-57cd-b67d-a7ced3fb4b25",
+          "f_plan_id": "eb9a783c-f2c2-4f8d-bcb0-5d8c40a5ff80",
+          "plan_name": "HAP Medicare Prime (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2322-017",
+          "parent_fpi": "dc97aa3c-b6ed-57cd-b67d-a7ced3fb4b25",
+          "f_plan_id": "3f1a33b2-3a4c-4be3-bd49-63b320ba612e",
+          "plan_name": "HAP Member Assist (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2322-020",
+          "parent_fpi": "dc97aa3c-b6ed-57cd-b67d-a7ced3fb4b25",
+          "f_plan_id": "2bf59108-dcb5-490b-b43b-e2fd430b947e",
+          "plan_name": "HAP Medicare Complete Assist (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2322-801",
+          "parent_fpi": "dc97aa3c-b6ed-57cd-b67d-a7ced3fb4b25",
+          "f_plan_id": "95c11f4a-ec68-4e5f-81db-da4bd5a0f22b",
+          "plan_name": "HAP Senior Plus Group (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2322-803",
+          "parent_fpi": "dc97aa3c-b6ed-57cd-b67d-a7ced3fb4b25",
+          "f_plan_id": "3a90d2a6-327f-4403-b744-518a51ccb3b7",
+          "plan_name": "HAP Senior Plus Group (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

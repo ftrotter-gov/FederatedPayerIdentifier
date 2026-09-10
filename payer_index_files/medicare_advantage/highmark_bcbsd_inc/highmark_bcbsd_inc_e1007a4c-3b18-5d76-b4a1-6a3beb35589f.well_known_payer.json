@@ -1,0 +1,104 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "e1007a4c-3b18-5d76-b4a1-6a3beb35589f",
+      "is_fpi": true,
+      "payerLegalName": "HIGHMARK BCBSD, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HIGHMARK BCBSD, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7710",
+      "is_fpi": false,
+      "parent_fpi": "e1007a4c-3b18-5d76-b4a1-6a3beb35589f"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8166",
+      "is_fpi": false,
+      "parent_fpi": "e1007a4c-3b18-5d76-b4a1-6a3beb35589f"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7710-001",
+          "parent_fpi": "e1007a4c-3b18-5d76-b4a1-6a3beb35589f",
+          "f_plan_id": "b7cead6b-200a-40c8-9591-b14d2ac1f9a3",
+          "plan_name": "Highmark Health Options Duals (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7710-002",
+          "parent_fpi": "e1007a4c-3b18-5d76-b4a1-6a3beb35589f",
+          "f_plan_id": "0485c0ad-47ea-4e3b-a0c0-480c3899715a",
+          "plan_name": "Highmark Health Options Duals Select (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8166-003",
+          "parent_fpi": "e1007a4c-3b18-5d76-b4a1-6a3beb35589f",
+          "f_plan_id": "3d49e201-5251-40cd-a359-f41ae4361d80",
+          "plan_name": "Freedom Blue PPO Valor (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8166-801",
+          "parent_fpi": "e1007a4c-3b18-5d76-b4a1-6a3beb35589f",
+          "f_plan_id": "169a2efd-807f-4754-aca0-0e515a7188d4",
+          "plan_name": "Freedom Blue PPO MA DE CALENDAR (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8166-802",
+          "parent_fpi": "e1007a4c-3b18-5d76-b4a1-6a3beb35589f",
+          "f_plan_id": "d625cd6b-dc0d-4ce2-8a15-869d8adb733d",
+          "plan_name": "Freedom Blue PPO MAPD DE CALENDAR (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8166-803",
+          "parent_fpi": "e1007a4c-3b18-5d76-b4a1-6a3beb35589f",
+          "f_plan_id": "599fd194-3bb5-4103-9366-af341fa566af",
+          "plan_name": "Freedom Blue PPO MAPD DE Calendar (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8166-804",
+          "parent_fpi": "e1007a4c-3b18-5d76-b4a1-6a3beb35589f",
+          "f_plan_id": "94074d09-fead-4d92-8ae9-aeb9e25ceec3",
+          "plan_name": "Freedom Blue PPO MAPD DE ASO CALENDAR (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8166-005",
+          "parent_fpi": "e1007a4c-3b18-5d76-b4a1-6a3beb35589f",
+          "f_plan_id": "7f86d345-d389-4a59-8931-6abaf72458aa",
+          "plan_name": "Complete Blue PPO Signature (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8166-006",
+          "parent_fpi": "e1007a4c-3b18-5d76-b4a1-6a3beb35589f",
+          "f_plan_id": "3c1d9c05-2eeb-45fd-aeb5-b299b4db0a81",
+          "plan_name": "Complete Blue PPO Distinct (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8166-007",
+          "parent_fpi": "e1007a4c-3b18-5d76-b4a1-6a3beb35589f",
+          "f_plan_id": "30952b7c-3051-4e3f-97eb-92239b292cd9",
+          "plan_name": "Complete Blue PPO Distinct (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

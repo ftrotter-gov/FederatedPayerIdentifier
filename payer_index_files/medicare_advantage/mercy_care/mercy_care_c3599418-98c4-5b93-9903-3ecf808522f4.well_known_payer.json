@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "c3599418-98c4-5b93-9903-3ecf808522f4",
+      "is_fpi": true,
+      "payerLegalName": "MERCY CARE",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MERCY CARE"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5580",
+      "is_fpi": false,
+      "parent_fpi": "c3599418-98c4-5b93-9903-3ecf808522f4"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5580-001",
+          "parent_fpi": "c3599418-98c4-5b93-9903-3ecf808522f4",
+          "f_plan_id": "25094b74-9a74-4b20-b569-feb9cf33755e",
+          "plan_name": "Mercy Care Advantage (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5580-004",
+          "parent_fpi": "c3599418-98c4-5b93-9903-3ecf808522f4",
+          "f_plan_id": "c0bfa7cf-9609-42a9-8020-bd5c9daab021",
+          "plan_name": "Mercy Care Advantage (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5580-005",
+          "parent_fpi": "c3599418-98c4-5b93-9903-3ecf808522f4",
+          "f_plan_id": "11874818-410b-4efb-812a-274eb62a59d0",
+          "plan_name": "Mercy Care Advantage (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

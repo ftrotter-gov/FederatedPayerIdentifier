@@ -1,0 +1,76 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "1cc05dc0-cdc8-5bfc-9ac0-9e47c75fbcb6",
+      "is_fpi": true,
+      "payerLegalName": "SANFORD HEALTH PLAN",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SANFORD HEALTH PLAN"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1787",
+      "is_fpi": false,
+      "parent_fpi": "1cc05dc0-cdc8-5bfc-9ac0-9e47c75fbcb6"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8385",
+      "is_fpi": false,
+      "parent_fpi": "1cc05dc0-cdc8-5bfc-9ac0-9e47c75fbcb6"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1787-001",
+          "parent_fpi": "1cc05dc0-cdc8-5bfc-9ac0-9e47c75fbcb6",
+          "f_plan_id": "d7971fc4-9212-4eca-a1d4-ed6ae179680a",
+          "plan_name": "Great Plains Medicare Advantage (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1787-002",
+          "parent_fpi": "1cc05dc0-cdc8-5bfc-9ac0-9e47c75fbcb6",
+          "f_plan_id": "82792328-1a24-465a-9cfb-14e77decad82",
+          "plan_name": "Great Plain Medicare Advantage Gold (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8385-001",
+          "parent_fpi": "1cc05dc0-cdc8-5bfc-9ac0-9e47c75fbcb6",
+          "f_plan_id": "bcceb559-fd43-4009-b2d7-b03637f08050",
+          "plan_name": "Align ChoiceElite (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8385-002",
+          "parent_fpi": "1cc05dc0-cdc8-5bfc-9ac0-9e47c75fbcb6",
+          "f_plan_id": "3b749aa9-a8b5-428c-a4c9-a5bfc59f7288",
+          "plan_name": "Align ChoiceElite (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8385-003",
+          "parent_fpi": "1cc05dc0-cdc8-5bfc-9ac0-9e47c75fbcb6",
+          "f_plan_id": "3dc5e071-ffe4-4426-8e4a-453e7ca6df20",
+          "plan_name": "Align ChoicePlus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8385-004",
+          "parent_fpi": "1cc05dc0-cdc8-5bfc-9ac0-9e47c75fbcb6",
+          "f_plan_id": "ecaccbe9-99a1-43ad-a64a-b43435a6fce3",
+          "plan_name": "Align ChoicePlus (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

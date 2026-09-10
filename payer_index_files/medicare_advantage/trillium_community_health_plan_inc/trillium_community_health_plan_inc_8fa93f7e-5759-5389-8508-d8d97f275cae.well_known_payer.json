@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "8fa93f7e-5759-5389-8508-d8d97f275cae",
+      "is_fpi": true,
+      "payerLegalName": "TRILLIUM COMMUNITY HEALTH PLAN, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "TRILLIUM COMMUNITY HEALTH PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2174",
+      "is_fpi": false,
+      "parent_fpi": "8fa93f7e-5759-5389-8508-d8d97f275cae"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2174-001",
+          "parent_fpi": "8fa93f7e-5759-5389-8508-d8d97f275cae",
+          "f_plan_id": "dd481f6c-7cd4-4f93-8488-16c685236b38",
+          "plan_name": "Wellcare Dual Select Sync (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2174-012",
+          "parent_fpi": "8fa93f7e-5759-5389-8508-d8d97f275cae",
+          "f_plan_id": "895979e5-873d-4ceb-ad2e-7ac6e6d1b566",
+          "plan_name": "Wellcare Dual Reserve (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2174-013",
+          "parent_fpi": "8fa93f7e-5759-5389-8508-d8d97f275cae",
+          "f_plan_id": "eb33810e-2b42-450c-b39c-64e51cb71593",
+          "plan_name": "Wellcare Dual Access (HMO-POS D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,84 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "66e289de-d4a4-5f34-8aa9-e03731f6aacf",
+      "is_fpi": true,
+      "payerLegalName": "GLOBALHEALTH, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "GLOBALHEALTH, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3706",
+      "is_fpi": false,
+      "parent_fpi": "66e289de-d4a4-5f34-8aa9-e03731f6aacf"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3706-001",
+          "parent_fpi": "66e289de-d4a4-5f34-8aa9-e03731f6aacf",
+          "f_plan_id": "8d10bc74-3ce0-4a5f-80ec-058d6e3151f8",
+          "plan_name": "Generations Classic Rewards (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3706-009",
+          "parent_fpi": "66e289de-d4a4-5f34-8aa9-e03731f6aacf",
+          "f_plan_id": "7d43017d-e1b7-4ae0-9cda-cca3d85d26da",
+          "plan_name": "Generations Valor (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3706-023",
+          "parent_fpi": "66e289de-d4a4-5f34-8aa9-e03731f6aacf",
+          "f_plan_id": "b707871b-8555-44f7-a728-d8278e3a022b",
+          "plan_name": "Generations Classic Plus (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3706-024",
+          "parent_fpi": "66e289de-d4a4-5f34-8aa9-e03731f6aacf",
+          "f_plan_id": "38dd7540-890e-4958-93da-a29d396fb231",
+          "plan_name": "Generations Chronic Care (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3706-025",
+          "parent_fpi": "66e289de-d4a4-5f34-8aa9-e03731f6aacf",
+          "f_plan_id": "ad96fa5b-926d-4556-bde0-88936aa36636",
+          "plan_name": "Generations Chronic Care Savings (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3706-028",
+          "parent_fpi": "66e289de-d4a4-5f34-8aa9-e03731f6aacf",
+          "f_plan_id": "273051e2-2b85-4818-91ea-98dcd1284ab6",
+          "plan_name": "Generations Dual Support (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3706-029",
+          "parent_fpi": "66e289de-d4a4-5f34-8aa9-e03731f6aacf",
+          "f_plan_id": "0501ea68-6d2c-4138-a26b-07d78d285896",
+          "plan_name": "Generations Dual Premier (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3706-803",
+          "parent_fpi": "66e289de-d4a4-5f34-8aa9-e03731f6aacf",
+          "f_plan_id": "2416c467-02c6-4241-80eb-447c0008e94e",
+          "plan_name": "Generations EGHP CY (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

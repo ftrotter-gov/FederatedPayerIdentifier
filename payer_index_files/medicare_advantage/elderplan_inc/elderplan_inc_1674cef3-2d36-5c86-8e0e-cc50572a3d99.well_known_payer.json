@@ -1,0 +1,70 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "1674cef3-2d36-5c86-8e0e-cc50572a3d99",
+      "is_fpi": true,
+      "payerLegalName": "ELDERPLAN, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ELDERPLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3347",
+      "is_fpi": false,
+      "parent_fpi": "1674cef3-2d36-5c86-8e0e-cc50572a3d99"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3347-002",
+          "parent_fpi": "1674cef3-2d36-5c86-8e0e-cc50572a3d99",
+          "f_plan_id": "08d53ba9-1517-47dd-ba01-2ab02a5d2f1a",
+          "plan_name": "Elderplan For Medicaid Beneficiaries (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3347-003",
+          "parent_fpi": "1674cef3-2d36-5c86-8e0e-cc50572a3d99",
+          "f_plan_id": "1f33b3d4-fa86-44db-bc31-2d3124cae440",
+          "plan_name": "Elderplan Advantage For Nursing Home Residents (HMO-POS I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3347-007",
+          "parent_fpi": "1674cef3-2d36-5c86-8e0e-cc50572a3d99",
+          "f_plan_id": "1fd6a690-b884-4368-a1a5-28a373108506",
+          "plan_name": "Elderplan Plus Long-Term Care (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3347-009",
+          "parent_fpi": "1674cef3-2d36-5c86-8e0e-cc50572a3d99",
+          "f_plan_id": "a42c7ff9-06f6-4270-a570-49ef1e281bd3",
+          "plan_name": "Elderplan Extra Help (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3347-016",
+          "parent_fpi": "1674cef3-2d36-5c86-8e0e-cc50572a3d99",
+          "f_plan_id": "40da7ff3-fd4a-4cca-8852-4bbe649cc55c",
+          "plan_name": "Elderplan Flex (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3347-018",
+          "parent_fpi": "1674cef3-2d36-5c86-8e0e-cc50572a3d99",
+          "f_plan_id": "956c011c-5a3f-4419-a159-e457c273794e",
+          "plan_name": "Elderplan Select (HMO-POS I-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

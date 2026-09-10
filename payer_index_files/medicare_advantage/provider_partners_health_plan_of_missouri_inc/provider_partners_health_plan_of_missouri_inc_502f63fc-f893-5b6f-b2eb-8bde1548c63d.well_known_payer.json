@@ -1,0 +1,49 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "502f63fc-f893-5b6f-b2eb-8bde1548c63d",
+      "is_fpi": true,
+      "payerLegalName": "PROVIDER PARTNERS HEALTH PLAN OF MISSOURI, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PROVIDER PARTNERS HEALTH PLAN OF MISSOURI, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9191",
+      "is_fpi": false,
+      "parent_fpi": "502f63fc-f893-5b6f-b2eb-8bde1548c63d"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9191-001",
+          "parent_fpi": "502f63fc-f893-5b6f-b2eb-8bde1548c63d",
+          "f_plan_id": "c65e6421-58e7-4f55-b555-a8f87348467b",
+          "plan_name": "Provider Partners Missouri Advantage Plan (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9191-004",
+          "parent_fpi": "502f63fc-f893-5b6f-b2eb-8bde1548c63d",
+          "f_plan_id": "f2e6d3a9-ee30-4b85-ad73-9eb0e92d2be5",
+          "plan_name": "Provider Partners Missouri Community Plan (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9191-005",
+          "parent_fpi": "502f63fc-f893-5b6f-b2eb-8bde1548c63d",
+          "f_plan_id": "30a2d8b1-19ed-46e0-bb5e-91550216e325",
+          "plan_name": "Provider Partners Missouri Essential Plan (HMO I-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

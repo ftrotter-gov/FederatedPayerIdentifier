@@ -1,0 +1,138 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "62d427ba-0a19-51c0-a850-929a7a13b7fa",
+      "is_fpi": true,
+      "payerLegalName": "BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3404",
+      "is_fpi": false,
+      "parent_fpi": "62d427ba-0a19-51c0-a850-929a7a13b7fa"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3449",
+      "is_fpi": false,
+      "parent_fpi": "62d427ba-0a19-51c0-a850-929a7a13b7fa"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9147",
+      "is_fpi": false,
+      "parent_fpi": "62d427ba-0a19-51c0-a850-929a7a13b7fa"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3404-003",
+          "parent_fpi": "62d427ba-0a19-51c0-a850-929a7a13b7fa",
+          "f_plan_id": "c0537a0b-ec8f-4c25-926c-5e2258ca7218",
+          "plan_name": "Blue Medicare PPO Enhanced (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3404-004",
+          "parent_fpi": "62d427ba-0a19-51c0-a850-929a7a13b7fa",
+          "f_plan_id": "4c9af3b8-e433-4b46-899d-e7e7dbac5280",
+          "plan_name": "Blue Medicare Freedom+ (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3404-801",
+          "parent_fpi": "62d427ba-0a19-51c0-a850-929a7a13b7fa",
+          "f_plan_id": "541abe17-e66a-47d5-8c93-229b3375264d",
+          "plan_name": "Blue Medicare PPO EGWP Medical Only (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3404-810",
+          "parent_fpi": "62d427ba-0a19-51c0-a850-929a7a13b7fa",
+          "f_plan_id": "bdc53949-9448-40fd-a1be-64611bba56b6",
+          "plan_name": "Blue Medicare PPO EGWP Complete (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3404-811",
+          "parent_fpi": "62d427ba-0a19-51c0-a850-929a7a13b7fa",
+          "f_plan_id": "1f6375da-8719-4e62-8d49-d59914ed397b",
+          "plan_name": "Blue Medicare PPO EGWP Classic (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3449-012",
+          "parent_fpi": "62d427ba-0a19-51c0-a850-929a7a13b7fa",
+          "f_plan_id": "d39c9b1e-21de-432d-9eb0-362da476b88e",
+          "plan_name": "Blue Medicare Medical Only (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3449-023",
+          "parent_fpi": "62d427ba-0a19-51c0-a850-929a7a13b7fa",
+          "f_plan_id": "b6091498-eb75-4dac-ab11-a7f17ce5b4e6",
+          "plan_name": "Blue Medicare Essential Plus (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3449-024",
+          "parent_fpi": "62d427ba-0a19-51c0-a850-929a7a13b7fa",
+          "f_plan_id": "4985b982-6eee-4fae-81f1-481cee47a302",
+          "plan_name": "Blue Medicare Enhanced (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3449-026",
+          "parent_fpi": "62d427ba-0a19-51c0-a850-929a7a13b7fa",
+          "f_plan_id": "4583c1b5-d2d8-4e7d-a7c0-4aea3851dde7",
+          "plan_name": "Blue Medicare Choice (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3449-027",
+          "parent_fpi": "62d427ba-0a19-51c0-a850-929a7a13b7fa",
+          "f_plan_id": "aaee771a-fed5-4025-8d5c-f397f1eb0d1d",
+          "plan_name": "Blue Medicare Essential (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3449-805",
+          "parent_fpi": "62d427ba-0a19-51c0-a850-929a7a13b7fa",
+          "f_plan_id": "a99c3dc2-f0da-481e-8145-3842cc394fa2",
+          "plan_name": "Blue Medicare HMO EGWP Medical Only (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3449-814",
+          "parent_fpi": "62d427ba-0a19-51c0-a850-929a7a13b7fa",
+          "f_plan_id": "5bc5e2cd-fadf-47a6-a4e7-ad4a8d638301",
+          "plan_name": "Blue Medicare HMO EGWP Complete (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3449-815",
+          "parent_fpi": "62d427ba-0a19-51c0-a850-929a7a13b7fa",
+          "f_plan_id": "3284ed85-b89d-4551-9c2c-e602b562e118",
+          "plan_name": "Blue Medicare HMO EGWP Classic (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9147-001",
+          "parent_fpi": "62d427ba-0a19-51c0-a850-929a7a13b7fa",
+          "f_plan_id": "7e468f5f-8ef1-4329-b80a-3c379e67277d",
+          "plan_name": "Healthy Blue + Medicare (HMO-POS D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

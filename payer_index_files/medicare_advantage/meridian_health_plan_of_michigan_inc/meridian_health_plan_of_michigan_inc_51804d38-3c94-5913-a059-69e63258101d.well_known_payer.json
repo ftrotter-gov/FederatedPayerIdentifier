@@ -1,0 +1,76 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "51804d38-3c94-5913-a059-69e63258101d",
+      "is_fpi": true,
+      "payerLegalName": "MERIDIAN HEALTH PLAN OF MICHIGAN, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MERIDIAN HEALTH PLAN OF MICHIGAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5475",
+      "is_fpi": false,
+      "parent_fpi": "51804d38-3c94-5913-a059-69e63258101d"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7435",
+      "is_fpi": false,
+      "parent_fpi": "51804d38-3c94-5913-a059-69e63258101d"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5475-001",
+          "parent_fpi": "51804d38-3c94-5913-a059-69e63258101d",
+          "f_plan_id": "f3f224f0-83c7-42d7-828e-2cce1ba710a7",
+          "plan_name": "Wellcare Dual Access (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5475-026",
+          "parent_fpi": "51804d38-3c94-5913-a059-69e63258101d",
+          "f_plan_id": "2b174d4a-7aab-4fa1-820a-6da6c2fc9605",
+          "plan_name": "Wellcare Simple (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5475-031",
+          "parent_fpi": "51804d38-3c94-5913-a059-69e63258101d",
+          "f_plan_id": "93ecfd79-99da-409a-8b4d-d3142d5d4613",
+          "plan_name": "Wellcare Giveback (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5475-038",
+          "parent_fpi": "51804d38-3c94-5913-a059-69e63258101d",
+          "f_plan_id": "6a5adda3-977f-4204-b4df-f4402e5f145c",
+          "plan_name": "Wellcare Assist (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5475-039",
+          "parent_fpi": "51804d38-3c94-5913-a059-69e63258101d",
+          "f_plan_id": "abcdc839-3ac5-4076-8428-16f0759b1b78",
+          "plan_name": "Wellcare Dual Reserve (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7435-001",
+          "parent_fpi": "51804d38-3c94-5913-a059-69e63258101d",
+          "f_plan_id": "8455b4de-58f3-477d-930d-73b365b927d3",
+          "plan_name": "Wellcare Meridian Dual Align (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

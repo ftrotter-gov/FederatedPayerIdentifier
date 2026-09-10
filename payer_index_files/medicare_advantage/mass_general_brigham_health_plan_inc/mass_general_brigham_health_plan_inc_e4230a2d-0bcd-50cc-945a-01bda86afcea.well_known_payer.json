@@ -1,0 +1,144 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "e4230a2d-0bcd-50cc-945a-01bda86afcea",
+      "is_fpi": true,
+      "payerLegalName": "MASS GENERAL BRIGHAM HEALTH PLAN, INC",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MASS GENERAL BRIGHAM HEALTH PLAN, INC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0777",
+      "is_fpi": false,
+      "parent_fpi": "e4230a2d-0bcd-50cc-945a-01bda86afcea"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1611",
+      "is_fpi": false,
+      "parent_fpi": "e4230a2d-0bcd-50cc-945a-01bda86afcea"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6847",
+      "is_fpi": false,
+      "parent_fpi": "e4230a2d-0bcd-50cc-945a-01bda86afcea"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9485",
+      "is_fpi": false,
+      "parent_fpi": "e4230a2d-0bcd-50cc-945a-01bda86afcea"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0777-001",
+          "parent_fpi": "e4230a2d-0bcd-50cc-945a-01bda86afcea",
+          "f_plan_id": "dba4d187-27b9-4da6-81f4-9701e9b40bb7",
+          "plan_name": "Mass General Brigham SCO (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1611-001",
+          "parent_fpi": "e4230a2d-0bcd-50cc-945a-01bda86afcea",
+          "f_plan_id": "bb11e1f1-196c-4e87-8442-ffbcae8b4444",
+          "plan_name": "Mass General Brigham One Care (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6847-001",
+          "parent_fpi": "e4230a2d-0bcd-50cc-945a-01bda86afcea",
+          "f_plan_id": "d9a79fce-d5b8-4eac-a1e0-3c365821d3d6",
+          "plan_name": "Mass General Brigham Advantage Secure (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6847-801",
+          "parent_fpi": "e4230a2d-0bcd-50cc-945a-01bda86afcea",
+          "f_plan_id": "eba9acbf-714d-4bc0-bfd8-6821352c8ebc",
+          "plan_name": "Mass General Brigham Advantage Group (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6847-802",
+          "parent_fpi": "e4230a2d-0bcd-50cc-945a-01bda86afcea",
+          "f_plan_id": "9d5fe6ad-0759-445d-83bc-81a71e0018fa",
+          "plan_name": "No Rx - Mass General Brigham Adv Group HMO-POS (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6847-803",
+          "parent_fpi": "e4230a2d-0bcd-50cc-945a-01bda86afcea",
+          "f_plan_id": "e6943843-af76-4aa4-a76e-8e4df29085e7",
+          "plan_name": "Cal No Rx - Mass General Brigham Adv Group HMOPOS (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://apiuat.allwaysmember.org/cms_mpf/H6847_2027_index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9485-001",
+          "parent_fpi": "e4230a2d-0bcd-50cc-945a-01bda86afcea",
+          "f_plan_id": "c4111938-08bd-48a4-b04c-b3da2b050de4",
+          "plan_name": "Mass General Brigham Advantage (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9485-002",
+          "parent_fpi": "e4230a2d-0bcd-50cc-945a-01bda86afcea",
+          "f_plan_id": "bc29fece-3f32-40bc-8445-536c48bb3d5e",
+          "plan_name": "Mass General Brigham Advantage Premier (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9485-003",
+          "parent_fpi": "e4230a2d-0bcd-50cc-945a-01bda86afcea",
+          "f_plan_id": "bbf06697-9533-42fb-bddc-e7e43081d1d3",
+          "plan_name": "Mass General Brigham Advantage Signature (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9485-801",
+          "parent_fpi": "e4230a2d-0bcd-50cc-945a-01bda86afcea",
+          "f_plan_id": "d145a144-b975-4f30-80d9-935b7362dd15",
+          "plan_name": "Mass General Brigham Advantage Group PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9485-802",
+          "parent_fpi": "e4230a2d-0bcd-50cc-945a-01bda86afcea",
+          "f_plan_id": "5eb03f4d-12c7-49a2-8c40-38f8b92f4d8f",
+          "plan_name": "No Rx - Mass General Brigham Advantage Group PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9485-803",
+          "parent_fpi": "e4230a2d-0bcd-50cc-945a-01bda86afcea",
+          "f_plan_id": "01c88e0e-366d-4b2f-83a3-c2d204591724",
+          "plan_name": "Cal No Rx  - Mass General Brigham Adv Group PPO (PPO)"
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://apiuat.allwaysmember.org/cms_mpf/H9485_2027_index.json"
+      }
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,79 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "b76127f6-51ef-5520-84af-57c249fdf1dc",
+      "is_fpi": true,
+      "payerLegalName": "CHAMPION HEALTH PLAN OF CALIFORNIA INC",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CHAMPION HEALTH PLAN OF CALIFORNIA INC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6170",
+      "is_fpi": false,
+      "parent_fpi": "b76127f6-51ef-5520-84af-57c249fdf1dc"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6170-001",
+          "parent_fpi": "b76127f6-51ef-5520-84af-57c249fdf1dc",
+          "f_plan_id": "83deb03d-3ded-4f81-8dd2-761469caa2b5",
+          "plan_name": "Champion Advantage (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6170-002",
+          "parent_fpi": "b76127f6-51ef-5520-84af-57c249fdf1dc",
+          "f_plan_id": "5dae145a-0f73-4dde-aac1-fe897d55f66c",
+          "plan_name": "Champion Connect (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6170-003",
+          "parent_fpi": "b76127f6-51ef-5520-84af-57c249fdf1dc",
+          "f_plan_id": "f65a29eb-fe5c-460d-9b80-45ffff8dcdf6",
+          "plan_name": "Champion Select (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6170-007",
+          "parent_fpi": "b76127f6-51ef-5520-84af-57c249fdf1dc",
+          "f_plan_id": "ef43f192-c1fb-4655-ae15-75e5c881b531",
+          "plan_name": "Champion Ally (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6170-008",
+          "parent_fpi": "b76127f6-51ef-5520-84af-57c249fdf1dc",
+          "f_plan_id": "7eff8225-c84c-4d2c-bef3-47cf84b71076",
+          "plan_name": "Champion Care (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6170-009",
+          "parent_fpi": "b76127f6-51ef-5520-84af-57c249fdf1dc",
+          "f_plan_id": "4e7b5f48-2364-416b-a634-158e7b731d40",
+          "plan_name": "Champion Choice (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6170-010",
+          "parent_fpi": "b76127f6-51ef-5520-84af-57c249fdf1dc",
+          "f_plan_id": "680081d9-ea91-471b-88ee-00e45a82321d",
+          "plan_name": "Champion Plus (HMO C-SNP)"
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://championhmo.com/public_html/provider-directory/CA/index.json"
+      }
+    }
+  ],
+  "is_seeded": true
+}

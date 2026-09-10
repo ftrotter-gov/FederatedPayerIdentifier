@@ -1,0 +1,37 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "b830eda5-6733-5cc6-8f10-e8abf2d029b5",
+      "is_fpi": true,
+      "payerLegalName": "BANNER HEALTH PLAN, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BANNER HEALTH PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5843",
+      "is_fpi": false,
+      "parent_fpi": "b830eda5-6733-5cc6-8f10-e8abf2d029b5"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5843-001",
+          "parent_fpi": "b830eda5-6733-5cc6-8f10-e8abf2d029b5",
+          "f_plan_id": "2965e43e-302e-4f85-a62b-26e09044e7a5",
+          "plan_name": "Banner Medicare Advantage Prime (HMO)"
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://www.bannerhealthnetwork.com/CMS_Provider_Directory/H5843/2027/index.json"
+      }
+    }
+  ],
+  "is_seeded": true
+}

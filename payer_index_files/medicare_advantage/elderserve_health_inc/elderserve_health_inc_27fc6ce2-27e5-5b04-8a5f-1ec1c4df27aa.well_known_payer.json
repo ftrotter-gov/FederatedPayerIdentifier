@@ -1,0 +1,42 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "27fc6ce2-27e5-5b04-8a5f-1ec1c4df27aa",
+      "is_fpi": true,
+      "payerLegalName": "ELDERSERVE HEALTH, INC.",
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ELDERSERVE HEALTH, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6776",
+      "is_fpi": false,
+      "parent_fpi": "27fc6ce2-27e5-5b04-8a5f-1ec1c4df27aa"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6776-001",
+          "parent_fpi": "27fc6ce2-27e5-5b04-8a5f-1ec1c4df27aa",
+          "f_plan_id": "d46ab00e-1760-42e1-be3d-278697b0a636",
+          "plan_name": "RiverSpring Star (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6776-002",
+          "parent_fpi": "27fc6ce2-27e5-5b04-8a5f-1ec1c4df27aa",
+          "f_plan_id": "b2b4ed18-766d-42bf-ac19-2a91318696a0",
+          "plan_name": "RiverSpring MAP (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}
