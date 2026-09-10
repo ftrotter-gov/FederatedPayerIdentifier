@@ -223,3 +223,10 @@ __marimo__/
 *.swp
 *.swo
 *.swn
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
