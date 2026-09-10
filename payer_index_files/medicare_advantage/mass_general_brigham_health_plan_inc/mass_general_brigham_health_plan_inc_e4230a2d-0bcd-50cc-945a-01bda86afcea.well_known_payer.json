@@ -33,6 +33,13 @@
       "value": "H9485",
       "is_fpi": false,
       "parent_fpi": "e4230a2d-0bcd-50cc-945a-01bda86afcea"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/naic_id",
+      "value": "16375",
+      "is_fpi": false,
+      "parent_fpi": "e4230a2d-0bcd-50cc-945a-01bda86afcea",
+      "notes": "Supplied by HTE PayerEndpoints release data (NAIC)."
     }
   ],
   "plan_groups": [
@@ -53,7 +60,13 @@
           "plan_name": "Mass General Brigham One Care (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "carin_bluebutton_endpoint": "https://api.mgbhealthplanfhir.com/r4",
+        "davinci_pdex_patient_endpoint": "https://auth.mgbhealthplanfhir.com/oauth2/authorize/system",
+        "davinci_pdex_provider_directory_endpoint": "https://api.mgbhealthplanfhir.com/r4/public/Practitioner",
+        "ndh_meta_documentation_url": "http://docs.1up.health/docs",
+        "carin_bluebutton_endpoint#sandbox": "https://api.mgbhealthplanfhir.com/r4"
+      }
     },
     {
       "plan_identifiers": [
@@ -87,7 +100,12 @@
         }
       ],
       "plan_endpoints": {
-        "cms_provider_directory_machine_readable_format_endpoint": "https://apiuat.allwaysmember.org/cms_mpf/H6847_2027_index.json"
+        "cms_provider_directory_machine_readable_format_endpoint": "https://apiuat.allwaysmember.org/cms_mpf/H6847_2027_index.json",
+        "carin_bluebutton_endpoint": "https://api.mgbhealthplanfhir.com/r4",
+        "davinci_pdex_patient_endpoint": "https://auth.mgbhealthplanfhir.com/oauth2/authorize/system",
+        "davinci_pdex_provider_directory_endpoint": "https://api.mgbhealthplanfhir.com/r4/public/Practitioner",
+        "ndh_meta_documentation_url": "http://docs.1up.health/docs",
+        "carin_bluebutton_endpoint#sandbox": "https://api.mgbhealthplanfhir.com/r4"
       }
     },
     {
@@ -136,9 +154,15 @@
         }
       ],
       "plan_endpoints": {
-        "cms_provider_directory_machine_readable_format_endpoint": "https://apiuat.allwaysmember.org/cms_mpf/H9485_2027_index.json"
+        "cms_provider_directory_machine_readable_format_endpoint": "https://apiuat.allwaysmember.org/cms_mpf/H9485_2027_index.json",
+        "carin_bluebutton_endpoint": "https://api.mgbhealthplanfhir.com/r4",
+        "davinci_pdex_patient_endpoint": "https://auth.mgbhealthplanfhir.com/oauth2/authorize/system",
+        "davinci_pdex_provider_directory_endpoint": "https://api.mgbhealthplanfhir.com/r4/public/Practitioner",
+        "ndh_meta_documentation_url": "http://docs.1up.health/docs",
+        "carin_bluebutton_endpoint#sandbox": "https://api.mgbhealthplanfhir.com/r4"
       }
     }
   ],
-  "is_seeded": true
+  "is_seeded": false,
+  "has_conflict": false
 }

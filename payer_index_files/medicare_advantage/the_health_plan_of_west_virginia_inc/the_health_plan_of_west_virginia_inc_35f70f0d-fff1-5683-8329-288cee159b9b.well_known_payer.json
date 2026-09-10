@@ -15,6 +15,13 @@
       "value": "H3672",
       "is_fpi": false,
       "parent_fpi": "35f70f0d-fff1-5683-8329-288cee159b9b"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/naic_id",
+      "value": "60016",
+      "is_fpi": false,
+      "parent_fpi": "35f70f0d-fff1-5683-8329-288cee159b9b",
+      "notes": "Supplied by HTE PayerEndpoints release data (NAIC)."
     }
   ],
   "plan_groups": [
@@ -77,8 +84,15 @@
           "plan_name": "The Health Plan SecureCare - Employer (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "carin_bluebutton_endpoint": "https://api.thehealthplanfhir.com/r4",
+        "davinci_pdex_patient_endpoint": "https://auth.thehealthplanfhir.com/oauth2/authorize/system",
+        "davinci_pdex_provider_directory_endpoint": "https://api.thehealthplanfhir.com/r4/public/Practitioner",
+        "ndh_meta_documentation_url": "http://docs.1up.health/docs",
+        "carin_bluebutton_endpoint#sandbox": "https://api.thehealthplanfhir.com/r4"
+      }
     }
   ],
-  "is_seeded": true
+  "is_seeded": false,
+  "has_conflict": false
 }

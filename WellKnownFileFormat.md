@@ -33,6 +33,14 @@ well_known_payer_json = {
 
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition", // a FHIR-ish resourcetype not sure we want to keep this...
 
+  // has_conflict records whether this file contains contradictory assertions
+  // about the same endpoint, arising when two sources report different URLs
+  // for one protocol. It is false by default and set to true when a
+  // "#conflict_N" endpoint key is present (see plan_endpoints below).
+  // Consumers should treat a file with has_conflict true as needing human
+  // review before its endpoints are relied upon.
+  "has_conflict": false,
+
   // NOTE: payerLegalName, payerContactWebsite, and payer_level_string_search_matches
   // are NO LONGER top-level fields. They now live inside each FPI identifier entry
   // (see the identifier array below). This is a non-backward-compatible format change.
@@ -308,6 +316,22 @@ well_known_payer_json = {
             "plan_homepage#433": "https://example.com/plan_432",
 
 
+            // Sandbox and conflict annotations
+            //
+            // A "_sandbox" marker in the version position records a testing
+            // endpoint corresponding to the production key of the same family.
+            // A bare key takes "#sandbox"; a versioned key keeps its version,
+            // e.g. "carin_bluebutton_endpoint#1.0_sandbox".
+            "carin_bluebutton_endpoint#1.0_sandbox": "https://sandbox.example.org/fhir/v3/patientaccess/",
+            //
+            // A "conflict_N" marker records that a second source asserted a
+            // different URL for an endpoint that was already recorded. Both
+            // values are kept so neither source is silently discarded, and the
+            // file's top-level has_conflict is set to true. N increments so
+            // that repeated contradictions accumulate rather than overwrite.
+            // This is an interim encoding; see FutureSteps.md.
+            "davinci_pdex_provider_directory_endpoint#1.1_conflict_1": "https://other-source.example.org/fhir/provider-directory",
+
             // things we might add here in the future:
                 // Direct endpoints
                 // Further FHIR endpoints
@@ -341,6 +365,11 @@ implementation workflow:
 General-purpose seeders must not overwrite curated payer directories.
 Purpose-specific curation tools should preserve curated facts except for the
 fields they explicitly exist to change.
+
+`tools/overlay_HTE_release_format_payer_data/overlay.py` follows this rule when
+it folds HTE-format endpoint releases into the index: every file it writes is
+marked `is_seeded: false`, which is what stops a later seeding run from
+discarding the overlaid endpoints.
 
 The Medicare Advantage seeder temporarily derives seed FPIs from
 `LEGAL_NAME_HASH` because payer legal name is available in its source data.

@@ -21,6 +21,13 @@
       "value": "H8181",
       "is_fpi": false,
       "parent_fpi": "bf53b386-343f-5483-a4c1-e83f9027bc80"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/hios_id",
+      "value": "29678",
+      "is_fpi": false,
+      "parent_fpi": "bf53b386-343f-5483-a4c1-e83f9027bc80",
+      "notes": "Supplied by HTE PayerEndpoints release data (HIOS)."
     }
   ],
   "plan_groups": [
@@ -83,8 +90,15 @@
           "plan_name": "BCBSNE Employer Group Rx CY (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "carin_bluebutton_endpoint": "https://api.bcbsnefhir.com/r4",
+        "davinci_pdex_patient_endpoint": "https://auth.bcbsnefhir.com/oauth2/authorize/system",
+        "davinci_pdex_provider_directory_endpoint": "https://api.bcbsnefhir.com/r4/public/Practitioner",
+        "ndh_meta_documentation_url": "http://docs.1up.health/docs",
+        "carin_bluebutton_endpoint#sandbox": "https://api.bcbsnefhir.com/r4"
+      }
     }
   ],
-  "is_seeded": true
+  "is_seeded": false,
+  "has_conflict": false
 }

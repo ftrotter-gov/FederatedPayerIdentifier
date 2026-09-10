@@ -15,6 +15,13 @@
       "value": "H9986",
       "is_fpi": false,
       "parent_fpi": "d146bafe-15b5-5c0f-a052-178d2542a376"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/naic_id",
+      "value": "16982",
+      "is_fpi": false,
+      "parent_fpi": "d146bafe-15b5-5c0f-a052-178d2542a376",
+      "notes": "Supplied by HTE PayerEndpoints release data (NAIC)."
     }
   ],
   "plan_groups": [
@@ -42,8 +49,17 @@
           "plan_name": "Florida Complete Care-Duals VIP (HMO-POS D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "carin_bluebutton_endpoint": "https://api.ilshealthfhir.com/r4/",
+        "davinci_pdex_patient_endpoint": "https://auth.ilshealthfhir.com/oauth2/authorize/system-comm",
+        "davinci_pdex_patient_endpoint#conflict_1": "https://auth.ilshealthfhir.com/oauth2/authorize/system",
+        "davinci_pdex_provider_directory_endpoint": "https://api.ilshealthfhir.com/r4/publicFCC/Practitioner",
+        "davinci_pdex_provider_directory_endpoint#conflict_1": "https://api.ilshealthfhir.com/r4/publicFC2/Practitioner",
+        "ndh_meta_documentation_url": "http://docs.1up.health/docs",
+        "carin_bluebutton_endpoint#sandbox": "https://api.ilshealthfhir.com/r4/"
+      }
     }
   ],
-  "is_seeded": true
+  "is_seeded": false,
+  "has_conflict": true
 }

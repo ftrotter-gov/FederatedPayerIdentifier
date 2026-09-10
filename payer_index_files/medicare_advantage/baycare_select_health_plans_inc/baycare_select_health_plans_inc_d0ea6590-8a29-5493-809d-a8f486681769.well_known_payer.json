@@ -15,6 +15,13 @@
       "value": "H2235",
       "is_fpi": false,
       "parent_fpi": "d0ea6590-8a29-5493-809d-a8f486681769"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/naic_id",
+      "value": "16282",
+      "is_fpi": false,
+      "parent_fpi": "d0ea6590-8a29-5493-809d-a8f486681769",
+      "notes": "Supplied by HTE PayerEndpoints release data (NAIC)."
     }
   ],
   "plan_groups": [
@@ -42,8 +49,15 @@
           "plan_name": "BayCarePlus Premier (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "carin_bluebutton_endpoint": "https://api.baycarefhir.com/r4",
+        "davinci_pdex_patient_endpoint": "https://auth.baycarefhir.com/oauth2/authorize/system",
+        "davinci_pdex_provider_directory_endpoint": "https://api.baycarefhir.com/r4/public/Practitioner",
+        "ndh_meta_documentation_url": "http://docs.1up.health/docs",
+        "carin_bluebutton_endpoint#sandbox": "https://api.baycarefhir.com/r4"
+      }
     }
   ],
-  "is_seeded": true
+  "is_seeded": false,
+  "has_conflict": false
 }

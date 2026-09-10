@@ -21,6 +21,13 @@
       "value": "H3890",
       "is_fpi": false,
       "parent_fpi": "3ffb4943-7259-519f-8f2e-8f0a1c72504d"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/x12_payer_id_availity",
+      "value": "66003",
+      "is_fpi": false,
+      "parent_fpi": "3ffb4943-7259-519f-8f2e-8f0a1c72504d",
+      "notes": "Supplied by HTE PayerEndpoints release data (Availity/EDI Payer ID)."
     }
   ],
   "plan_groups": [
@@ -76,8 +83,15 @@
           "plan_name": "Johns Hopkins Advantage MD Group Plan CY (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "carin_bluebutton_endpoint": "https://api.jhhpfhir.com/r4",
+        "davinci_pdex_patient_endpoint": "https://auth.jhhpfhir.com/oauth2/authorize/system",
+        "davinci_pdex_provider_directory_endpoint": "https://api.jhhpfhir.com/r4/public-ma/Practitioner",
+        "ndh_meta_documentation_url": "http://docs.1up.health/docs",
+        "carin_bluebutton_endpoint#sandbox": "https://api.jhhpfhir.com/r4"
+      }
     }
   ],
-  "is_seeded": true
+  "is_seeded": false,
+  "has_conflict": false
 }

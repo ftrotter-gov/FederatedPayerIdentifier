@@ -86,6 +86,41 @@ format does not yet define durable plan identity or effective periods. Future
 work should decide whether plan membership is a dated assertion, how annual
 changes are represented, and when Git history is insufficient for consumers.
 
+## Recording the FHIR vendor
+
+The HTE PayerEndpoints release format carries a `fhir_url_vendor` column naming
+the company that operates an endpoint (for example `1upHealth`). The well-known
+index has no place to record it, so
+`tools/overlay_HTE_release_format_payer_data/overlay.py` currently discards it.
+
+That is a real loss. The index already exists to bridge payer-controlled
+publication to vendor-hosted services, and knowing which vendor operates an
+endpoint supports outage attribution, conformance expectations, and the
+domain-authority questions described above. Future work should decide whether
+the vendor belongs on the endpoint, the plan group, or the payer, whether it is
+a free-text name or a controlled identifier, and how it behaves when a payer
+migrates between vendors.
+
+## Representing conflicting endpoint assertions
+
+When two sources report different URLs for the same endpoint, the current
+encoding appends a `#conflict_N` marker to the endpoint key, keeps both values,
+and sets the top-level `has_conflict` to true.
+
+This is a deliberate kludge. It places a non-version token in the position the
+format otherwise reserves for a protocol version, so a parser that splits an
+endpoint key on `#` will read `conflict_1` as though it were a version string.
+It also records that a disagreement exists without recording who asserted each
+value, when, or which is believed correct. Future work should design a real
+representation for contested facts, including provenance per assertion and a
+resolution or precedence rule, and should then migrate the `#conflict_N` keys
+onto it.
+
+Sandbox endpoints use the same version position (`#sandbox`,
+`#1.0_sandbox`) and raise the same parsing question. Sandbox values are not
+conflict-tracked at all: a contradictory sandbox URL is reported as a warning
+and discarded.
+
 ## Documentation review findings
 
 The repository-wide review that produced this document identified several

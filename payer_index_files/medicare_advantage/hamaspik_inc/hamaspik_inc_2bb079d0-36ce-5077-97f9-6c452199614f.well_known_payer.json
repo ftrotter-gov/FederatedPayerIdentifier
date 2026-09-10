@@ -15,6 +15,13 @@
       "value": "H0034",
       "is_fpi": false,
       "parent_fpi": "2bb079d0-36ce-5077-97f9-6c452199614f"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/x12_payer_id_availity",
+      "value": "47738",
+      "is_fpi": false,
+      "parent_fpi": "2bb079d0-36ce-5077-97f9-6c452199614f",
+      "notes": "Supplied by HTE PayerEndpoints release data (Availity/EDI Payer ID)."
     }
   ],
   "plan_groups": [
@@ -35,8 +42,15 @@
           "plan_name": "Hamaspik Medicare Choice (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "carin_bluebutton_endpoint": "https://api.hamaspikfhir.com/r4",
+        "davinci_pdex_patient_endpoint": "https://auth.hamaspikfhir.com/oauth2/authorize/system",
+        "davinci_pdex_provider_directory_endpoint": "https://api.hamaspikfhir.com/r4/public/Practitioner",
+        "ndh_meta_documentation_url": "http://docs.1up.health/docs",
+        "carin_bluebutton_endpoint#sandbox": "https://api.hamaspikfhir.com/r4"
+      }
     }
   ],
-  "is_seeded": true
+  "is_seeded": false,
+  "has_conflict": false
 }

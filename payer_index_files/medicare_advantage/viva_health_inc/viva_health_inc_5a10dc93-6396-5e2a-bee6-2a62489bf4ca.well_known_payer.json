@@ -15,6 +15,13 @@
       "value": "H0154",
       "is_fpi": false,
       "parent_fpi": "5a10dc93-6396-5e2a-bee6-2a62489bf4ca"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/x12_payer_id_availity",
+      "value": "63114",
+      "is_fpi": false,
+      "parent_fpi": "5a10dc93-6396-5e2a-bee6-2a62489bf4ca",
+      "notes": "Supplied by HTE PayerEndpoints release data (Availity/EDI Payer ID)."
     }
   ],
   "plan_groups": [
@@ -91,8 +98,15 @@
           "plan_name": "VIVA Medicare Plus Group Plan with Rx (not CY) (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "carin_bluebutton_endpoint": "https://api.vivahealthfhir.com/r4",
+        "davinci_pdex_patient_endpoint": "https://auth.vivahealthfhir.com/oauth2/authorize/system",
+        "davinci_pdex_provider_directory_endpoint": "https://api.vivahealthfhir.com/r4/public/Practitioner",
+        "ndh_meta_documentation_url": "http://docs.1up.health/docs",
+        "carin_bluebutton_endpoint#sandbox": "https://api.vivahealthfhir.com/r4"
+      }
     }
   ],
-  "is_seeded": true
+  "is_seeded": false,
+  "has_conflict": false
 }

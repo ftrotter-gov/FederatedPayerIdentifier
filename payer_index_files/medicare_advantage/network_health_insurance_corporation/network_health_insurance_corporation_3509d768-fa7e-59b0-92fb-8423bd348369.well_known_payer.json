@@ -21,6 +21,13 @@
       "value": "H5215",
       "is_fpi": false,
       "parent_fpi": "3509d768-fa7e-59b0-92fb-8423bd348369"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/hios_id",
+      "value": "81413",
+      "is_fpi": false,
+      "parent_fpi": "3509d768-fa7e-59b0-92fb-8423bd348369",
+      "notes": "Supplied by HTE PayerEndpoints release data (HIOS)."
     }
   ],
   "plan_groups": [
@@ -125,8 +132,15 @@
           "plan_name": "Network PlatinumPremier Pharmacy EGP (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "carin_bluebutton_endpoint": "https://api.networkhealthfhir.com/r4",
+        "davinci_pdex_patient_endpoint": "https://auth.networkhealthfhir.com/oauth2/authorize/system",
+        "davinci_pdex_provider_directory_endpoint": "https://api.networkhealthfhir.com/r4/public/Practitioner",
+        "ndh_meta_documentation_url": "http://docs.1up.health/docs",
+        "carin_bluebutton_endpoint#sandbox": "https://api.networkhealthfhir.com/r4"
+      }
     }
   ],
-  "is_seeded": true
+  "is_seeded": false,
+  "has_conflict": false
 }

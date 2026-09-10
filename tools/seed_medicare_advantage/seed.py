@@ -390,7 +390,8 @@ def build_well_known_json(normalized_name, canonical_name, contract_entries, cro
 
 # The complete set of top-level keys the seed writes.
 # NOTE: "payerLegalName" is no longer a top-level key; it lives inside the FPI identifier entry.
-SEED_TOP_LEVEL_KEYS = {"copied_from_url", "is_seeded", "resourceType", "identifier", "plan_groups"}
+SEED_TOP_LEVEL_KEYS = {"copied_from_url", "is_seeded", "resourceType", "identifier",
+                       "plan_groups", "has_conflict"}
 
 # Keys the seed writes inside each plan_identifier entry.
 # parent_fpi and f_plan_id are new required fields from the multi-FPI format (PR #1).

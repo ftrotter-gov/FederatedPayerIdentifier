@@ -21,6 +21,13 @@
       "value": "H9808",
       "is_fpi": false,
       "parent_fpi": "adb8767f-3f31-51e6-bd37-3889dba67e84"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/naic_id",
+      "value": "15685",
+      "is_fpi": false,
+      "parent_fpi": "adb8767f-3f31-51e6-bd37-3889dba67e84",
+      "notes": "Supplied by HTE PayerEndpoints release data (NAIC)."
     }
   ],
   "plan_groups": [
@@ -76,8 +83,15 @@
           "plan_name": "HealthTeam Advantage Plan II EGWP (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "carin_bluebutton_endpoint": "https://api.healthteamadvantagefhir.com/r4",
+        "davinci_pdex_patient_endpoint": "https://auth.healthteamadvantagefhir.com/oauth2/authorize/system",
+        "davinci_pdex_provider_directory_endpoint": "https://api.healthteamadvantagefhir.com/r4/public/Practitioner",
+        "ndh_meta_documentation_url": "http://docs.1up.health/docs",
+        "carin_bluebutton_endpoint#sandbox": "https://api.healthteamadvantagefhir.com/r4"
+      }
     }
   ],
-  "is_seeded": true
+  "is_seeded": false,
+  "has_conflict": false
 }

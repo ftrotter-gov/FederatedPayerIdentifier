@@ -21,6 +21,13 @@
       "value": "H6876",
       "is_fpi": false,
       "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/naic_id",
+      "value": "16607",
+      "is_fpi": false,
+      "parent_fpi": "f3b818fd-0e36-5778-b571-b0ad18365a80",
+      "notes": "Supplied by HTE PayerEndpoints release data (NAIC)."
     }
   ],
   "plan_groups": [
@@ -258,8 +265,15 @@
           "plan_name": "Zing Open Choice TN (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "carin_bluebutton_endpoint": "https://api.zinghealthfhir.com/r4",
+        "davinci_pdex_patient_endpoint": "https://auth.zinghealthfhir.com/oauth2/authorize/system",
+        "davinci_pdex_provider_directory_endpoint": "https://api.zinghealthfhir.com/r4/public/Practitioner",
+        "ndh_meta_documentation_url": "http://docs.1up.health/docs",
+        "carin_bluebutton_endpoint#sandbox": "https://api.zinghealthfhir.com/r4"
+      }
     }
   ],
-  "is_seeded": true
+  "is_seeded": false,
+  "has_conflict": false
 }

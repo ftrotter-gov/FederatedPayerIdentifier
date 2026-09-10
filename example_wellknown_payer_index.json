@@ -5,6 +5,8 @@
 
   "is_seeded": false,
 
+  "has_conflict": false,
+
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",

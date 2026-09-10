@@ -15,6 +15,13 @@
       "value": "H0571",
       "is_fpi": false,
       "parent_fpi": "b69b1866-28a2-5981-afb3-38e7c81a3cbd"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/x12_payer_id_availity",
+      "value": "CCHS",
+      "is_fpi": false,
+      "parent_fpi": "b69b1866-28a2-5981-afb3-38e7c81a3cbd",
+      "notes": "Supplied by HTE PayerEndpoints release data (Availity/EDI Payer ID)."
     }
   ],
   "plan_groups": [
@@ -56,8 +63,15 @@
           "plan_name": "CCHP Senior Value Program (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "carin_bluebutton_endpoint": "https://api.chinesecommunityhealthplanfhir.com/r4",
+        "davinci_pdex_patient_endpoint": "https://auth.chinesecommunityhealthplanfhir.com/oauth2/authorize/system",
+        "davinci_pdex_provider_directory_endpoint": "https://api.chinesecommunityhealthplanfhir.com/r4/publicCCHP/Practitioner",
+        "ndh_meta_documentation_url": "http://docs.1up.health/docs",
+        "carin_bluebutton_endpoint#sandbox": "https://api.chinesecommunityhealthplanfhir.com/r4"
+      }
     }
   ],
-  "is_seeded": true
+  "is_seeded": false,
+  "has_conflict": false
 }
