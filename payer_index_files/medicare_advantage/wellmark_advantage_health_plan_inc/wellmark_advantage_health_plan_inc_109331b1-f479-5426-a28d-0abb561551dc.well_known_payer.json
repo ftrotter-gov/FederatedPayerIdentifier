@@ -1,0 +1,116 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "109331b1-f479-5426-a28d-0abb561551dc",
+      "is_fpi": true,
+      "payerLegalName": "WELLMARK ADVANTAGE HEALTH PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "WELLMARK ADVANTAGE HEALTH PLAN, INC.",
+        "Wellmark Advantage Health Plan",
+        "Blue Cross Blue Shield of Michigan Mutual Ins. Co."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WELLMARK ADVANTAGE HEALTH PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5900",
+      "is_fpi": false,
+      "parent_fpi": "109331b1-f479-5426-a28d-0abb561551dc"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8095",
+      "is_fpi": false,
+      "parent_fpi": "109331b1-f479-5426-a28d-0abb561551dc"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5900-001",
+          "parent_fpi": "109331b1-f479-5426-a28d-0abb561551dc",
+          "f_plan_id": "f55fc8c3-ad4c-4fbe-926d-f1871f9caecd",
+          "plan_name": "Blue Medicare Advantage PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5900-004",
+          "parent_fpi": "109331b1-f479-5426-a28d-0abb561551dc",
+          "f_plan_id": "51e6b907-11ec-432d-9cbb-f930d02162a8",
+          "plan_name": "Blue Medicare Advantage Enhanced PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5900-006",
+          "parent_fpi": "109331b1-f479-5426-a28d-0abb561551dc",
+          "f_plan_id": "825e9edd-c4f4-493d-b1fb-67263bb14272",
+          "plan_name": "Blue Medicare Advantage Valor PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5900-007",
+          "parent_fpi": "109331b1-f479-5426-a28d-0abb561551dc",
+          "f_plan_id": "f63da2ca-a55e-470b-99fe-89b9ee4ad606",
+          "plan_name": "Blue Medicare Advantage Valor PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5900-008",
+          "parent_fpi": "109331b1-f479-5426-a28d-0abb561551dc",
+          "f_plan_id": "f36f70d0-5a92-4b5f-962a-ce46c848a505",
+          "plan_name": "Blue Medicare Advantage Classic PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5900-801",
+          "parent_fpi": "109331b1-f479-5426-a28d-0abb561551dc",
+          "f_plan_id": "5f78d883-2913-446b-b967-2737938ae6d3",
+          "plan_name": "Blue Medicare Advantage Group PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5900-802",
+          "parent_fpi": "109331b1-f479-5426-a28d-0abb561551dc",
+          "f_plan_id": "af9d74ee-b451-421c-8f5a-f5c2e162c4fc",
+          "plan_name": "Blue Medicare Advantage Group PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8095-801",
+          "parent_fpi": "109331b1-f479-5426-a28d-0abb561551dc",
+          "f_plan_id": "9ac9a37f-5f12-4711-9a43-30c1208c628f",
+          "plan_name": "Blue Medicare Advantage Group HMO (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8095-802",
+          "parent_fpi": "109331b1-f479-5426-a28d-0abb561551dc",
+          "f_plan_id": "999bf53b-a999-4236-b674-c2005bb02faf",
+          "plan_name": "Blue Medicare Advantage Group HMO (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8095-807",
+          "parent_fpi": "109331b1-f479-5426-a28d-0abb561551dc",
+          "f_plan_id": "b31109fe-c37b-42e8-82b1-e91951312632",
+          "plan_name": "Blue Medicare Advantage Group HMOPOS (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8095-808",
+          "parent_fpi": "109331b1-f479-5426-a28d-0abb561551dc",
+          "f_plan_id": "76d9a028-b2b0-4ded-af39-e68cd06eb558",
+          "plan_name": "Blue Medicare Advantage Group HMOPOS (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

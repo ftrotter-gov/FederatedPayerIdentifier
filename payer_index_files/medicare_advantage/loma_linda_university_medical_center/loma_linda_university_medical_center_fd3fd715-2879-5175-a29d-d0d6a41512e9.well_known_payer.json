@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "fd3fd715-2879-5175-a29d-d0d6a41512e9",
+      "is_fpi": true,
+      "payerLegalName": "LOMA LINDA UNIVERSITY MEDICAL CENTER",
+      "payer_level_string_search_matches": [
+        "LOMA LINDA UNIVERSITY MEDICAL CENTER",
+        "Loma Linda University Health PACE"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "LOMA LINDA UNIVERSITY MEDICAL CENTER"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6147",
+      "is_fpi": false,
+      "parent_fpi": "fd3fd715-2879-5175-a29d-d0d6a41512e9"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6147-001",
+          "parent_fpi": "fd3fd715-2879-5175-a29d-d0d6a41512e9",
+          "f_plan_id": "3b960d95-09e4-47e0-b14b-29ee55c4fba3",
+          "plan_name": "Loma Linda University Health (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6147-002",
+          "parent_fpi": "fd3fd715-2879-5175-a29d-d0d6a41512e9",
+          "f_plan_id": "f53adfcc-233f-4ebc-b5b4-e47a1aac74d4",
+          "plan_name": "Loma Linda University Health PACE (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

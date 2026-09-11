@@ -7,6 +7,11 @@
       "value": "b830eda5-6733-5cc6-8f10-e8abf2d029b5",
       "is_fpi": true,
       "payerLegalName": "BANNER HEALTH PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "BANNER HEALTH PLAN, INC.",
+        "Banner Medicare Advantage",
+        "Banner Health"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "BANNER HEALTH PLAN, INC."
     },
@@ -29,7 +34,8 @@
         }
       ],
       "plan_endpoints": {
-        "cms_provider_directory_machine_readable_format_endpoint": "https://www.bannerhealthnetwork.com/CMS_Provider_Directory/H5843/2027/index.json"
+        "cms_provider_directory_machine_readable_format_endpoint": "https://bannerhealthnetwork.com/CMS_Provider_Directory/H5843/2027/index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://www.bannerhealthnetwork.com/CMS_Provider_Directory/H5843/FHIR/2027/index.json"
       }
     }
   ],

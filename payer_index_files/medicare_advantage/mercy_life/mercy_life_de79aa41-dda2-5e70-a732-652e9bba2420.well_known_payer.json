@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "de79aa41-dda2-5e70-a732-652e9bba2420",
+      "is_fpi": true,
+      "payerLegalName": "Mercy LIFE",
+      "payer_level_string_search_matches": [
+        "Mercy LIFE",
+        "Trinity Health Corporation"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "Mercy LIFE"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3919",
+      "is_fpi": false,
+      "parent_fpi": "de79aa41-dda2-5e70-a732-652e9bba2420"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3919-001",
+          "parent_fpi": "de79aa41-dda2-5e70-a732-652e9bba2420",
+          "f_plan_id": "1c692969-836d-4be8-b96b-46d1185d4d49",
+          "plan_name": "Mercy LIFE SEPA (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3919-002",
+          "parent_fpi": "de79aa41-dda2-5e70-a732-652e9bba2420",
+          "f_plan_id": "69bc4d64-951e-4a50-b5a2-1ea225846ad2",
+          "plan_name": "Mercy LIFE SEPA (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

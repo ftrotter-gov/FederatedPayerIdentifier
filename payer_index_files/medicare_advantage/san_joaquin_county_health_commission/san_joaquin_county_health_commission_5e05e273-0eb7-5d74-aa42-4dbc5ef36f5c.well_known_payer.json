@@ -7,6 +7,10 @@
       "value": "5e05e273-0eb7-5d74-aa42-4dbc5ef36f5c",
       "is_fpi": true,
       "payerLegalName": "SAN JOAQUIN COUNTY HEALTH COMMISSION",
+      "payer_level_string_search_matches": [
+        "SAN JOAQUIN COUNTY HEALTH COMMISSION",
+        "Health Plan of San Joaquin / Mountain Valley Health Plan Advantage D-SNP (HMO)"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SAN JOAQUIN COUNTY HEALTH COMMISSION"
     },
@@ -28,7 +32,10 @@
           "plan_name": "Advantage D-SNP (HMO) (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://uat120.fhir.edifecsfedcloud.com/hpsj_pdfhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.hpsj.com/find-a-doctor/"
+      }
     }
   ],
   "is_seeded": true

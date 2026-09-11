@@ -1,0 +1,117 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "2f6e8cd8-201f-574a-93c2-bcac9d031fcd",
+      "is_fpi": true,
+      "payerLegalName": "CENTRAL HEALTH PLAN OF CALIFORNIA, INC.",
+      "payer_level_string_search_matches": [
+        "CENTRAL HEALTH PLAN OF CALIFORNIA, INC.",
+        "Central Health Medicare Plan",
+        "Molina Healthcare, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CENTRAL HEALTH PLAN OF CALIFORNIA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5649",
+      "is_fpi": false,
+      "parent_fpi": "2f6e8cd8-201f-574a-93c2-bcac9d031fcd"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5649-001",
+          "parent_fpi": "2f6e8cd8-201f-574a-93c2-bcac9d031fcd",
+          "f_plan_id": "07864f4e-8838-4da7-aaaf-a46f15888fd2",
+          "plan_name": "Central Health Medicare Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5649-009",
+          "parent_fpi": "2f6e8cd8-201f-574a-93c2-bcac9d031fcd",
+          "f_plan_id": "3f6a4ded-c24f-4f53-b357-c8f7e20b4876",
+          "plan_name": "Central Health Medi-Medi Plan II (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5649-018",
+          "parent_fpi": "2f6e8cd8-201f-574a-93c2-bcac9d031fcd",
+          "f_plan_id": "30e25835-c959-4e09-98dc-c388a441b5f8",
+          "plan_name": "Central Health Classic Care Plan IV (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5649-022",
+          "parent_fpi": "2f6e8cd8-201f-574a-93c2-bcac9d031fcd",
+          "f_plan_id": "713ca98e-0dde-4092-9779-703a1e889f7c",
+          "plan_name": "Central Health Jade Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5649-023",
+          "parent_fpi": "2f6e8cd8-201f-574a-93c2-bcac9d031fcd",
+          "f_plan_id": "dda12125-3bc2-4e68-b692-e7bb68db4e42",
+          "plan_name": "Central Health Classic Care Plan III (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5649-024",
+          "parent_fpi": "2f6e8cd8-201f-574a-93c2-bcac9d031fcd",
+          "f_plan_id": "f577277d-7c12-421d-9458-2bc4f1824540",
+          "plan_name": "Central Health Dual Access Plan (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5649-025",
+          "parent_fpi": "2f6e8cd8-201f-574a-93c2-bcac9d031fcd",
+          "f_plan_id": "c0908bab-98ad-49be-b859-8646f578c7f5",
+          "plan_name": "Central Health Embrace Care Plan (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5649-026",
+          "parent_fpi": "2f6e8cd8-201f-574a-93c2-bcac9d031fcd",
+          "f_plan_id": "c0fa19b3-bebb-4ba6-a87c-de6e497cece3",
+          "plan_name": "Central Health Embrace Choice Plan (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5649-027",
+          "parent_fpi": "2f6e8cd8-201f-574a-93c2-bcac9d031fcd",
+          "f_plan_id": "1ad8d0f7-6aa6-40b1-9980-47b90a576139",
+          "plan_name": "Central Health Classic Care Plan I (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5649-028",
+          "parent_fpi": "2f6e8cd8-201f-574a-93c2-bcac9d031fcd",
+          "f_plan_id": "72e3c253-e086-4047-82cf-ad0990b4da61",
+          "plan_name": "Central Health Classic Care Plan II (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5649-029",
+          "parent_fpi": "2f6e8cd8-201f-574a-93c2-bcac9d031fcd",
+          "f_plan_id": "dc77508d-8af7-4b8d-b986-9223a1a45b9c",
+          "plan_name": "Central Health Part B Savings Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5649-030",
+          "parent_fpi": "2f6e8cd8-201f-574a-93c2-bcac9d031fcd",
+          "f_plan_id": "c415680c-c325-4d92-9101-f9c01af33829",
+          "plan_name": "Central Health Valor Care Plan (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

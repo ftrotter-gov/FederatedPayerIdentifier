@@ -7,6 +7,11 @@
       "value": "4046e416-e7a8-5335-838e-738426da2a77",
       "is_fpi": true,
       "payerLegalName": "OH CHS SNP INC.",
+      "payer_level_string_search_matches": [
+        "OH CHS SNP INC.",
+        "Communicare Advantage",
+        "SNP Holdings, LLC"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "OH CHS SNP INC."
     },
@@ -35,7 +40,10 @@
           "plan_name": "CommuniCare Advantage ISNP (HMO I-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cca.pdjson-h3727.prd.healixcloud.net/index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://CCA.fp-h3727.prd.healixcloud.net/pd/fhir/Practitioner?_count=10"
+      }
     }
   ],
   "is_seeded": true

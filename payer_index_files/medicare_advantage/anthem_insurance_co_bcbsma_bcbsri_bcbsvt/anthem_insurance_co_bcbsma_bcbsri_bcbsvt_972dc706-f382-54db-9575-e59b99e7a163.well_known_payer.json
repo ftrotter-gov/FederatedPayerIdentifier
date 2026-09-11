@@ -1,0 +1,61 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "972dc706-f382-54db-9575-e59b99e7a163",
+      "is_fpi": true,
+      "payerLegalName": "ANTHEM INSURANCE CO. & BCBSMA & BCBSRI & BCBSVT",
+      "payer_level_string_search_matches": [
+        "ANTHEM INSURANCE CO. & BCBSMA & BCBSRI & BCBSVT",
+        "Blue MedicareRx",
+        "Elevance Health, Inc. & BCBSMA & BCBSRI & BCBSVT"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ANTHEM INSURANCE CO. & BCBSMA & BCBSRI & BCBSVT"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S2893",
+      "is_fpi": false,
+      "parent_fpi": "972dc706-f382-54db-9575-e59b99e7a163"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S2893-001",
+          "parent_fpi": "972dc706-f382-54db-9575-e59b99e7a163",
+          "f_plan_id": "4c389541-3ab4-496f-9192-51ed5cba2e22",
+          "plan_name": "Blue MedicareRx Value Plus (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S2893-003",
+          "parent_fpi": "972dc706-f382-54db-9575-e59b99e7a163",
+          "f_plan_id": "0aedc586-0a01-4f11-8b90-925d18ab6aaa",
+          "plan_name": "Blue MedicareRx Premier (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S2893-801",
+          "parent_fpi": "972dc706-f382-54db-9575-e59b99e7a163",
+          "f_plan_id": "e6794618-8743-4299-a724-f5f30b50cc55",
+          "plan_name": "Blue MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S2893-802",
+          "parent_fpi": "972dc706-f382-54db-9575-e59b99e7a163",
+          "f_plan_id": "67426b87-35df-4502-9b43-3e7e395cf18b",
+          "plan_name": "Blue MedicareRx (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

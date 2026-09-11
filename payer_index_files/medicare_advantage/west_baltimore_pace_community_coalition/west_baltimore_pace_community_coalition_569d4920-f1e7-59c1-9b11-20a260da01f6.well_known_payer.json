@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "569d4920-f1e7-59c1-9b11-20a260da01f6",
+      "is_fpi": true,
+      "payerLegalName": "WEST BALTIMORE PACE COMMUNITY COALITION",
+      "payer_level_string_search_matches": [
+        "WEST BALTIMORE PACE COMMUNITY COALITION",
+        "PACE of West Baltimore",
+        "West Baltimore PACE Community Coalition LLC"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WEST BALTIMORE PACE COMMUNITY COALITION"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3740",
+      "is_fpi": false,
+      "parent_fpi": "569d4920-f1e7-59c1-9b11-20a260da01f6"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3740-001",
+          "parent_fpi": "569d4920-f1e7-59c1-9b11-20a260da01f6",
+          "f_plan_id": "f1781ed2-4b83-4bea-9754-a4ae09634c12",
+          "plan_name": "Edebridge PACE of West Baltimore-Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3740-002",
+          "parent_fpi": "569d4920-f1e7-59c1-9b11-20a260da01f6",
+          "f_plan_id": "6baf202e-6736-47a2-8f2b-55c2a387e7f2",
+          "plan_name": "Edenbridge PACE of West Baltimore- Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

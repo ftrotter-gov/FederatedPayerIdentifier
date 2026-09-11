@@ -1,0 +1,33 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "5a55ceb7-2770-53a0-bdce-3823a19d2b89",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF MICHIGAN",
+      "payer_level_string_search_matches": [
+        "DEVOTED HEALTH INSURANCE COMPANY OF MICHIGAN"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF MICHIGAN"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5177",
+      "is_fpi": false,
+      "parent_fpi": "5a55ceb7-2770-53a0-bdce-3823a19d2b89"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.devoted.com/fhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.devoted.com/H5177/2027"
+      }
+    }
+  ],
+  "is_seeded": true
+}

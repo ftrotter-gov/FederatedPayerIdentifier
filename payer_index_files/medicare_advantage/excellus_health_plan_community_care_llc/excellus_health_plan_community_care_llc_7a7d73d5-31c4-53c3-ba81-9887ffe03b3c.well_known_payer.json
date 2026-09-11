@@ -7,6 +7,10 @@
       "value": "7a7d73d5-31c4-53c3-ba81-9887ffe03b3c",
       "is_fpi": true,
       "payerLegalName": "EXCELLUS HEALTH PLAN COMMUNITY CARE LLC",
+      "payer_level_string_search_matches": [
+        "EXCELLUS HEALTH PLAN COMMUNITY CARE LLC",
+        "Lifetime Healthcare, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "EXCELLUS HEALTH PLAN COMMUNITY CARE LLC"
     },
@@ -49,7 +53,10 @@
           "plan_name": "Medicare Blue Dual Secure (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.excellusbcbs.com/fhir/api/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cms-uat.healthsparq.com/mpf/v1/H7524/2027/H7524-2027-index.json"
+      }
     }
   ],
   "is_seeded": true

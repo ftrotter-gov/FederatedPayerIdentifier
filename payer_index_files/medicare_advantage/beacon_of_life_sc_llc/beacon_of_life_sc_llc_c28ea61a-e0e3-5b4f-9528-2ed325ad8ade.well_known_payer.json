@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "c28ea61a-e0e3-5b4f-9528-2ed325ad8ade",
+      "is_fpi": true,
+      "payerLegalName": "BEACON OF LIFE SC, LLC",
+      "payer_level_string_search_matches": [
+        "BEACON OF LIFE SC, LLC",
+        "BoldAge PACE",
+        "BoldAge PACE, LLC"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BEACON OF LIFE SC, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9317",
+      "is_fpi": false,
+      "parent_fpi": "c28ea61a-e0e3-5b4f-9528-2ed325ad8ade"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9317-001",
+          "parent_fpi": "c28ea61a-e0e3-5b4f-9528-2ed325ad8ade",
+          "f_plan_id": "f2e9f275-94a3-4664-a126-e510499be469",
+          "plan_name": "BoldAge PACE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9317-002",
+          "parent_fpi": "c28ea61a-e0e3-5b4f-9528-2ed325ad8ade",
+          "f_plan_id": "eaaa7744-9cd4-42fb-a040-83ada71cc484",
+          "plan_name": "BoldAge PACE - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

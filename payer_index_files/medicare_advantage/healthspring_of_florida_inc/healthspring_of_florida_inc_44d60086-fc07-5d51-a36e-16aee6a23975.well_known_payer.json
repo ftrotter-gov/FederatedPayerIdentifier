@@ -7,6 +7,11 @@
       "value": "44d60086-fc07-5d51-a36e-16aee6a23975",
       "is_fpi": true,
       "payerLegalName": "HEALTHSPRING OF FLORIDA, INC.",
+      "payer_level_string_search_matches": [
+        "HEALTHSPRING OF FLORIDA, INC.",
+        "HealthSpring",
+        "Health Care Service Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HEALTHSPRING OF FLORIDA, INC."
     },
@@ -120,13 +125,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5410-808",
-          "parent_fpi": "44d60086-fc07-5d51-a36e-16aee6a23975",
-          "f_plan_id": "5d70f06c-1308-402c-9329-11f0f41bc51c",
-          "plan_name": "HealthSpring Preferred (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5410-059",
           "parent_fpi": "44d60086-fc07-5d51-a36e-16aee6a23975",
           "f_plan_id": "d655212d-0737-4d1e-8018-4c63ba0193d6",
@@ -138,10 +136,18 @@
           "parent_fpi": "44d60086-fc07-5d51-a36e-16aee6a23975",
           "f_plan_id": "ac9e5d2c-054a-4b0c-bd60-c311bbb8b7d2",
           "plan_name": "HealthSpring Preferred (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5410-808",
+          "parent_fpi": "44d60086-fc07-5d51-a36e-16aee6a23975",
+          "f_plan_id": "5d70f06c-1308-402c-9329-11f0f41bc51c",
+          "plan_name": "HealthSpring Preferred (HMO)"
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://data.healthspring.healthlx.com:8003/"
+        "cms_provider_directory_machine_readable_format_endpoint": "https://mpf.healthspring.com/H5410/index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://data.healthspring.healthlx.com:8003"
       }
     }
   ],

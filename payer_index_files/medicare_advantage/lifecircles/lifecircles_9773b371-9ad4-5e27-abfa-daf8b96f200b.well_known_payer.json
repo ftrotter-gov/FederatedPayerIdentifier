@@ -1,0 +1,45 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "9773b371-9ad4-5e27-abfa-daf8b96f200b",
+      "is_fpi": true,
+      "payerLegalName": "LIFECIRCLES",
+      "payer_level_string_search_matches": [
+        "LIFECIRCLES"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "LIFECIRCLES"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2936",
+      "is_fpi": false,
+      "parent_fpi": "9773b371-9ad4-5e27-abfa-daf8b96f200b"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2936-001",
+          "parent_fpi": "9773b371-9ad4-5e27-abfa-daf8b96f200b",
+          "f_plan_id": "8a6be7b5-f1c9-4d65-8869-25def7e39590",
+          "plan_name": "LifeCircles (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2936-002",
+          "parent_fpi": "9773b371-9ad4-5e27-abfa-daf8b96f200b",
+          "f_plan_id": "14fad6ae-51b2-4dde-b822-2ec1e497e265",
+          "plan_name": "002 - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

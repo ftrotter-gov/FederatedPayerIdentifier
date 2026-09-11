@@ -7,6 +7,11 @@
       "value": "eb661b6d-3f00-53ea-a01e-e30757c271fc",
       "is_fpi": true,
       "payerLegalName": "TROY HEALTH, INC.",
+      "payer_level_string_search_matches": [
+        "TROY HEALTH, INC.",
+        "Troy Medicare",
+        "Troy Holdings, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "TROY HEALTH, INC."
     },
@@ -36,7 +41,7 @@
         }
       ],
       "plan_endpoints": {
-        "cms_provider_directory_machine_readable_format_endpoint": "https://troymedicare.com/provider-directory/index.json"
+        "cms_provider_directory_machine_readable_format_endpoint": "https://providers.troymedicare.com/index.json"
       }
     }
   ],

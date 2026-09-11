@@ -7,6 +7,10 @@
       "value": "6c4f6b9a-c8b5-5f69-9f88-41dccdf52389",
       "is_fpi": true,
       "payerLegalName": "MOLINA HEALTHCARE OF WASHINGTON, INC.",
+      "payer_level_string_search_matches": [
+        "MOLINA HEALTHCARE OF WASHINGTON, INC.",
+        "Molina Healthcare, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "MOLINA HEALTHCARE OF WASHINGTON, INC."
     },
@@ -22,20 +26,23 @@
       "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5823-013",
-          "parent_fpi": "6c4f6b9a-c8b5-5f69-9f88-41dccdf52389",
-          "f_plan_id": "2cc6e077-7e61-4e53-be99-4cd70822d0f8",
-          "plan_name": "Molina Medicare Complete Care (HMO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5823-010",
           "parent_fpi": "6c4f6b9a-c8b5-5f69-9f88-41dccdf52389",
           "f_plan_id": "8afd4d9b-2da7-4f0d-88a0-fc83aac106e4",
           "plan_name": "Molina Medicare Complete Care Select (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5823-013",
+          "parent_fpi": "6c4f6b9a-c8b5-5f69-9f88-41dccdf52389",
+          "f_plan_id": "2cc6e077-7e61-4e53-be99-4cd70822d0f8",
+          "plan_name": "Molina Medicare Complete Care (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.molinahealthcare.com/cmsjson/378245/MCareFHIR/H5823/index.json"
+      }
     }
   ],
   "is_seeded": true

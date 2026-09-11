@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "0c162139-9fd8-57a0-9b59-03edc9705edc",
+      "is_fpi": true,
+      "payerLegalName": "SEQUOIA PACE, LLC",
+      "payer_level_string_search_matches": [
+        "SEQUOIA PACE, LLC",
+        "WelbeHealth",
+        "WelbeHealth LLC."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SEQUOIA PACE, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2384",
+      "is_fpi": false,
+      "parent_fpi": "0c162139-9fd8-57a0-9b59-03edc9705edc"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2384-001",
+          "parent_fpi": "0c162139-9fd8-57a0-9b59-03edc9705edc",
+          "f_plan_id": "b3fe7cd0-4430-4932-9017-c9d9a351497e",
+          "plan_name": "WelbeHealth Fresno, Visalia (Alt. Care Setting) (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2384-002",
+          "parent_fpi": "0c162139-9fd8-57a0-9b59-03edc9705edc",
+          "f_plan_id": "ef746a79-a0a8-4217-b1cd-bbc71d885d52",
+          "plan_name": "WelbeHealth Fresno, Visalia (Alt. Care Setting) (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

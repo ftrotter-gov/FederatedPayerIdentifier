@@ -7,6 +7,11 @@
       "value": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
       "is_fpi": true,
       "payerLegalName": "DEVOTED HEALTH PLAN OF TEXAS, INC.",
+      "payer_level_string_search_matches": [
+        "DEVOTED HEALTH PLAN OF TEXAS, INC.",
+        "Devoted Health",
+        "Devoted Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH PLAN OF TEXAS, INC."
     },
@@ -47,13 +52,6 @@
           "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
           "f_plan_id": "6a736836-f298-49a9-a8c6-9615dbafc0b3",
           "plan_name": "DEVOTED CORE 004 TX (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H7993-046",
-          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
-          "f_plan_id": "94b10984-1632-422e-8153-07a2e55b8117",
-          "plan_name": "DEVOTED C-SNP 046 TX (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -239,6 +237,13 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7993-046",
+          "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
+          "f_plan_id": "94b10984-1632-422e-8153-07a2e55b8117",
+          "plan_name": "DEVOTED C-SNP 046 TX (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7993-048",
           "parent_fpi": "f1e4bbd8-5aa9-5dc3-b34c-ea6fb6e8bad3",
           "f_plan_id": "10f2d1a2-f441-44f3-88ca-d2d3dcd13ac4",
@@ -246,7 +251,8 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.devoted.com/H7993/2026"
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.devoted.com/fhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.devoted.com/H7993/2027"
       }
     }
   ],

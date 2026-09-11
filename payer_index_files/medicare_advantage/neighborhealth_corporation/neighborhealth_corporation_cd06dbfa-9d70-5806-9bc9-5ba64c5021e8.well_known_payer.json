@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "cd06dbfa-9d70-5806-9bc9-5ba64c5021e8",
+      "is_fpi": true,
+      "payerLegalName": "NEIGHBORHEALTH CORPORATION",
+      "payer_level_string_search_matches": [
+        "NEIGHBORHEALTH CORPORATION",
+        "Neighborhood PACE"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "NEIGHBORHEALTH CORPORATION"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2223",
+      "is_fpi": false,
+      "parent_fpi": "cd06dbfa-9d70-5806-9bc9-5ba64c5021e8"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2223-001",
+          "parent_fpi": "cd06dbfa-9d70-5806-9bc9-5ba64c5021e8",
+          "f_plan_id": "072a39e9-99e9-439a-aa5b-02abbf5ddd21",
+          "plan_name": "Neighborhood PACE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2223-002",
+          "parent_fpi": "cd06dbfa-9d70-5806-9bc9-5ba64c5021e8",
+          "f_plan_id": "7f6b7a36-047d-4627-b057-75ceab9deecc",
+          "plan_name": "Neighborhood PACE (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

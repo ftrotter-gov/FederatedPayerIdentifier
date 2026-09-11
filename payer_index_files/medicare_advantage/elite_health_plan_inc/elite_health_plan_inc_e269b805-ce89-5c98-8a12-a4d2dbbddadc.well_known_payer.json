@@ -7,6 +7,10 @@
       "value": "e269b805-ce89-5c98-8a12-a4d2dbbddadc",
       "is_fpi": true,
       "payerLegalName": "ELITE HEALTH PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "ELITE HEALTH PLAN, INC.",
+        "Elite Health Systems, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ELITE HEALTH PLAN, INC."
     },
@@ -35,7 +39,10 @@
           "plan_name": "Elite Core HMO (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://mpf.elitehealthplan.com/",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://www.elitehealthplan.com/jsonproviderlist"
+      }
     }
   ],
   "is_seeded": true

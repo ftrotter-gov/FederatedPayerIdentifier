@@ -7,6 +7,11 @@
       "value": "c4ed9731-b5b6-5165-9374-bb09f3a7541e",
       "is_fpi": true,
       "payerLegalName": "MOLINA HEALTHCARE OF UTAH, INC.",
+      "payer_level_string_search_matches": [
+        "MOLINA HEALTHCARE OF UTAH, INC.",
+        "Molina Healthcare of Utah & Idaho",
+        "Molina Healthcare, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "MOLINA HEALTHCARE OF UTAH, INC."
     },
@@ -29,6 +34,13 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5628-012",
+          "parent_fpi": "c4ed9731-b5b6-5165-9374-bb09f3a7541e",
+          "f_plan_id": "643e35a3-2fce-4701-a271-9508a353870a",
+          "plan_name": "Molina Medicare Complete Care Select (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5628-013",
           "parent_fpi": "c4ed9731-b5b6-5165-9374-bb09f3a7541e",
           "f_plan_id": "19ab463d-ac89-4623-8bd9-33997b2ba8b0",
@@ -40,16 +52,12 @@
           "parent_fpi": "c4ed9731-b5b6-5165-9374-bb09f3a7541e",
           "f_plan_id": "60048f9b-4a1b-489e-8b7c-477a2ac62ed5",
           "plan_name": "Molina Medicare Complete Care Select (HMO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5628-012",
-          "parent_fpi": "c4ed9731-b5b6-5165-9374-bb09f3a7541e",
-          "f_plan_id": "643e35a3-2fce-4701-a271-9508a353870a",
-          "plan_name": "Molina Medicare Complete Care Select (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.molinahealthcare.com/cmsjson/378245/MCareFHIR/H5628/index.json"
+      }
     }
   ],
   "is_seeded": true

@@ -7,6 +7,11 @@
       "value": "4655fa59-e3ff-528e-9cff-67a5ede8bfe5",
       "is_fpi": true,
       "payerLegalName": "SCOTT AND WHITE HEALTH PLAN",
+      "payer_level_string_search_matches": [
+        "SCOTT AND WHITE HEALTH PLAN",
+        "Baylor Scott & White Health Plan",
+        "Baylor Scott & White Health"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SCOTT AND WHITE HEALTH PLAN"
     },
@@ -119,7 +124,10 @@
           "plan_name": "BSW SeniorCare Advantage EGWP FY (HMO-POS)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://wadcdnstorageprod.blob.core.windows.net/bswhp/JSON/BSWHP_CMS_MPF_H8142_2026_Index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://wadcdnstorageprod.blob.core.windows.net/bswhp/JSON/BSWHP_CMS_MPF_H8142_2026_Index_FHIR.json"
+      }
     }
   ],
   "is_seeded": true

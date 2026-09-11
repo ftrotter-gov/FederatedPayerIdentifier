@@ -1,0 +1,75 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "231fb284-233b-5545-8567-e1675317cf27",
+      "is_fpi": true,
+      "payerLegalName": "MATTHEW THORNTON HEALTH PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "MATTHEW THORNTON HEALTH PLAN, INC.",
+        "Anthem Blue Cross and Blue Shield",
+        "Elevance Health, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MATTHEW THORNTON HEALTH PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3536",
+      "is_fpi": false,
+      "parent_fpi": "231fb284-233b-5545-8567-e1675317cf27"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3536-801",
+          "parent_fpi": "231fb284-233b-5545-8567-e1675317cf27",
+          "f_plan_id": "bcffd0fc-f76f-4b0f-b602-4155d02677a3",
+          "plan_name": "Anthem Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3536-802",
+          "parent_fpi": "231fb284-233b-5545-8567-e1675317cf27",
+          "f_plan_id": "5a7e5062-a496-4357-91ce-8e4fe442156f",
+          "plan_name": "Anthem Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3536-803",
+          "parent_fpi": "231fb284-233b-5545-8567-e1675317cf27",
+          "f_plan_id": "fe90c82d-58aa-4f17-ad3e-232d72d0718a",
+          "plan_name": "Anthem Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3536-804",
+          "parent_fpi": "231fb284-233b-5545-8567-e1675317cf27",
+          "f_plan_id": "e501b0e7-2462-4229-aeae-8e4903c5b2d6",
+          "plan_name": "Anthem Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3536-806",
+          "parent_fpi": "231fb284-233b-5545-8567-e1675317cf27",
+          "f_plan_id": "2a1355ef-ad09-49de-8d46-e97965ab520f",
+          "plan_name": "Anthem Senior Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3536-808",
+          "parent_fpi": "231fb284-233b-5545-8567-e1675317cf27",
+          "f_plan_id": "1085806f-8d53-45ac-a769-42b284ece1eb",
+          "plan_name": "Anthem Senior Advantage (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

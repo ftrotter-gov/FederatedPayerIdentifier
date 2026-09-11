@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "0fa06367-64de-551a-b077-1545d28095f8",
+      "is_fpi": true,
+      "payerLegalName": "CONCERTOHEALTH OF NORTHERN VIRGINIA, LLC",
+      "payer_level_string_search_matches": [
+        "CONCERTOHEALTH OF NORTHERN VIRGINIA, LLC",
+        "Cherry Blossom PACE",
+        "Valir PACE Virginia, LLC"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CONCERTOHEALTH OF NORTHERN VIRGINIA, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3991",
+      "is_fpi": false,
+      "parent_fpi": "0fa06367-64de-551a-b077-1545d28095f8"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3991-001",
+          "parent_fpi": "0fa06367-64de-551a-b077-1545d28095f8",
+          "f_plan_id": "c0acb9a8-be6b-49d1-b058-f72976ecad2d",
+          "plan_name": "Cherry Blossom PACE - Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3991-002",
+          "parent_fpi": "0fa06367-64de-551a-b077-1545d28095f8",
+          "f_plan_id": "934ba407-6cca-4f2e-b81a-e8e6ce519a88",
+          "plan_name": "Cherry Blossom PACE - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

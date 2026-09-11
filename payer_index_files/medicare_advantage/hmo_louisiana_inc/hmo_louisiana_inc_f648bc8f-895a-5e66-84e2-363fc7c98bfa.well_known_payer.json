@@ -7,6 +7,11 @@
       "value": "f648bc8f-895a-5e66-84e2-363fc7c98bfa",
       "is_fpi": true,
       "payerLegalName": "HMO LOUISIANA, INC.",
+      "payer_level_string_search_matches": [
+        "HMO LOUISIANA, INC.",
+        "Blue Cross and Blue Shield of Louisiana",
+        "Louisiana Health Service & Indemnity Company"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HMO LOUISIANA, INC."
     },
@@ -85,7 +90,8 @@
         }
       ],
       "plan_endpoints": {
-        "cms_provider_directory_machine_readable_format_endpoint": "https://cdn.lablue.com/cms/H6453/H6453index.json"
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cdn.lablue.com/cms/H6453/H6453index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://gateway.api.lablue.com/ProviderDirectory/"
       }
     }
   ],

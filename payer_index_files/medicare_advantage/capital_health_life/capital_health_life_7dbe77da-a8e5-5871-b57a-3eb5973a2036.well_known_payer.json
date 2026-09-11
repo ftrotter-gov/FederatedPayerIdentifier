@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "7dbe77da-a8e5-5871-b57a-3eb5973a2036",
+      "is_fpi": true,
+      "payerLegalName": "CAPITAL HEALTH LIFE",
+      "payer_level_string_search_matches": [
+        "CAPITAL HEALTH LIFE",
+        "Capital Healthcare, INC."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CAPITAL HEALTH LIFE"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1234",
+      "is_fpi": false,
+      "parent_fpi": "7dbe77da-a8e5-5871-b57a-3eb5973a2036"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1234-001",
+          "parent_fpi": "7dbe77da-a8e5-5871-b57a-3eb5973a2036",
+          "f_plan_id": "8e721e37-949f-46db-bc8f-6a4621128fac",
+          "plan_name": "Capital Health LIFE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1234-002",
+          "parent_fpi": "7dbe77da-a8e5-5871-b57a-3eb5973a2036",
+          "f_plan_id": "2682aeda-cdde-4095-9195-8107cdc9f827",
+          "plan_name": "Capital Health LIFE -Medicare only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

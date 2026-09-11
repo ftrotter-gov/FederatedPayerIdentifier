@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "d98275fd-70e3-53fa-a3e8-4b9ec87f166f",
+      "is_fpi": true,
+      "payerLegalName": "HOPEWEST",
+      "payer_level_string_search_matches": [
+        "HOPEWEST",
+        "HopeWest PACE"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HOPEWEST"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9649",
+      "is_fpi": false,
+      "parent_fpi": "d98275fd-70e3-53fa-a3e8-4b9ec87f166f"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9649-001",
+          "parent_fpi": "d98275fd-70e3-53fa-a3e8-4b9ec87f166f",
+          "f_plan_id": "d79f83ce-edab-4e96-a124-843cbc141e24",
+          "plan_name": "HopeWest PACE Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9649-002",
+          "parent_fpi": "d98275fd-70e3-53fa-a3e8-4b9ec87f166f",
+          "f_plan_id": "45be17e8-abba-4e6e-a5a6-a46ecc829b67",
+          "plan_name": "HopeWest PACE Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

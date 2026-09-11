@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "a5a6e608-9695-534a-9e58-0a9bd47bec9a",
+      "is_fpi": true,
+      "payerLegalName": "PNW PACE PARTNERS, LLC",
+      "payer_level_string_search_matches": [
+        "PNW PACE PARTNERS, LLC",
+        "Pacific Northwest PACE Partners",
+        "MultiCare Health Systems"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PNW PACE PARTNERS, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3284",
+      "is_fpi": false,
+      "parent_fpi": "a5a6e608-9695-534a-9e58-0a9bd47bec9a"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3284-001",
+          "parent_fpi": "a5a6e608-9695-534a-9e58-0a9bd47bec9a",
+          "f_plan_id": "63e37b50-a1d2-4214-8990-e20d2cdf2dbf",
+          "plan_name": "PNW PACE Partners- Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3284-002",
+          "parent_fpi": "a5a6e608-9695-534a-9e58-0a9bd47bec9a",
+          "f_plan_id": "2f52f240-160b-429f-a37d-21a11ec88ffb",
+          "plan_name": "PNW PACE Partners- Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

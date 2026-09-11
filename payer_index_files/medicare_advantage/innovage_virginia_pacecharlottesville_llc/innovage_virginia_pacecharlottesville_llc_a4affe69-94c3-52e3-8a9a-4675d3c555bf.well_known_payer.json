@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "a4affe69-94c3-52e3-8a9a-4675d3c555bf",
+      "is_fpi": true,
+      "payerLegalName": "INNOVAGE VIRGINIA PACE-CHARLOTTESVILLE, LLC",
+      "payer_level_string_search_matches": [
+        "INNOVAGE VIRGINIA PACE-CHARLOTTESVILLE, LLC",
+        "InnovAge Virginia PACE - Blue Ridge",
+        "Total Community Options, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "INNOVAGE VIRGINIA PACE-CHARLOTTESVILLE, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3473",
+      "is_fpi": false,
+      "parent_fpi": "a4affe69-94c3-52e3-8a9a-4675d3c555bf"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3473-001",
+          "parent_fpi": "a4affe69-94c3-52e3-8a9a-4675d3c555bf",
+          "f_plan_id": "afda4213-f1ce-4472-bac1-bf5b27061ad3",
+          "plan_name": "InnovAge Blue Ridge PACE Dual (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3473-002",
+          "parent_fpi": "a4affe69-94c3-52e3-8a9a-4675d3c555bf",
+          "f_plan_id": "aab4cd1c-1e9e-480f-ad1e-402b186a8c5b",
+          "plan_name": "InnovAge Blue Ridge PACE Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

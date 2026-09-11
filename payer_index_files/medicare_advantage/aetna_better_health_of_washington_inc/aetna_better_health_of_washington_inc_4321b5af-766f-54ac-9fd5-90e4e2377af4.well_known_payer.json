@@ -7,6 +7,11 @@
       "value": "4321b5af-766f-54ac-9fd5-90e4e2377af4",
       "is_fpi": true,
       "payerLegalName": "AETNA BETTER HEALTH OF WASHINGTON, INC.",
+      "payer_level_string_search_matches": [
+        "AETNA BETTER HEALTH OF WASHINGTON, INC.",
+        "Aetna Medicare",
+        "CVS Health Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AETNA BETTER HEALTH OF WASHINGTON, INC."
     },
@@ -36,7 +41,7 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.aetna.com/interoperability/2027/H3748/index.json"
       }
     }
   ],

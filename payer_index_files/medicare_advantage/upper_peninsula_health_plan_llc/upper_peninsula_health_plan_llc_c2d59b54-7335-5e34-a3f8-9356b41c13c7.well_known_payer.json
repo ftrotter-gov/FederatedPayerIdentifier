@@ -7,6 +7,11 @@
       "value": "c2d59b54-7335-5e34-a3f8-9356b41c13c7",
       "is_fpi": true,
       "payerLegalName": "UPPER PENINSULA HEALTH PLAN, LLC",
+      "payer_level_string_search_matches": [
+        "UPPER PENINSULA HEALTH PLAN, LLC",
+        "Upper Peninsula Health Plan (UPHP) MI Coordinated Health",
+        "DLP Marquette Health Plan, LLC"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "UPPER PENINSULA HEALTH PLAN, LLC"
     },
@@ -28,7 +33,10 @@
           "plan_name": "Upper Peninsula Health Plan MI Coordinated Health (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.uphpfhir.com/r4/public-dsnp/Practitioner",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://gateway.1up.health/v1/uphp/r4/public-dsnp/mpf/H3127-CY2027/index.json"
+      }
     }
   ],
   "is_seeded": true

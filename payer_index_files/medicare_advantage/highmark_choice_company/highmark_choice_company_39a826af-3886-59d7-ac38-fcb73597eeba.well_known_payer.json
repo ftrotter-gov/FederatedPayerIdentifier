@@ -7,6 +7,11 @@
       "value": "39a826af-3886-59d7-ac38-fcb73597eeba",
       "is_fpi": true,
       "payerLegalName": "HIGHMARK CHOICE COMPANY",
+      "payer_level_string_search_matches": [
+        "HIGHMARK CHOICE COMPANY",
+        "Highmark Blue Cross Blue Shield or Highmark Blue Shield",
+        "Highmark Health"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HIGHMARK CHOICE COMPANY"
     },
@@ -26,13 +31,6 @@
           "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba",
           "f_plan_id": "ca55f910-0188-4e5b-b32f-927d5d4da41c",
           "plan_name": "Security Blue HMO-POS ValueRx (HMO-POS)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H3957-050",
-          "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba",
-          "f_plan_id": "cff943f3-4c6f-470a-bb0e-f505298ded10",
-          "plan_name": "Complete Blue HMO Distinct (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -82,6 +80,20 @@
           "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba",
           "f_plan_id": "a8a30992-7a9e-4096-98d0-29abb55588c7",
           "plan_name": "Together Blue Medicare HMO Signature (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3957-049",
+          "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba",
+          "f_plan_id": "7af5df74-a3ef-45d4-bd99-9759cf044377",
+          "plan_name": "Community Blue Medicare HMO Distinct (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3957-050",
+          "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba",
+          "f_plan_id": "cff943f3-4c6f-470a-bb0e-f505298ded10",
+          "plan_name": "Complete Blue HMO Distinct (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -166,16 +178,12 @@
           "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba",
           "f_plan_id": "aee849b7-b767-4c67-85f6-65cb81d18232",
           "plan_name": "Community Blue Medicare HMO MAPD ASO CALENDAR (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H3957-049",
-          "parent_fpi": "39a826af-3886-59d7-ac38-fcb73597eeba",
-          "f_plan_id": "7af5df74-a3ef-45d4-bd99-9759cf044377",
-          "plan_name": "Community Blue Medicare HMO Distinct (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://apicmsqa.hmhs.com/cms/fhir/v4/providers/HM/Practitioner",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://mrfdata.hmhs.com/files/smilecdr/inbound/HM_Provider_Directory_Index.json"
+      }
     }
   ],
   "is_seeded": true

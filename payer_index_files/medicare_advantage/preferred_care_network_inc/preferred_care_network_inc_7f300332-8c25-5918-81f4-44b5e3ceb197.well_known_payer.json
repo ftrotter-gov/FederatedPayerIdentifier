@@ -7,6 +7,11 @@
       "value": "7f300332-8c25-5918-81f4-44b5e3ceb197",
       "is_fpi": true,
       "payerLegalName": "Preferred Care Network, Inc.",
+      "payer_level_string_search_matches": [
+        "Preferred Care Network, Inc.",
+        "UnitedHealthcare",
+        "UnitedHealth Group, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "Preferred Care Network, Inc."
     },
@@ -63,7 +68,10 @@
           "plan_name": "UHC MedicareMax Dual Complete FL-Y6 (HMO-POS D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-mpf.optum-uhc-stage.net/api/cms/plans/H5420/2027",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://flex.optum.com/fhirpublic"
+      }
     }
   ],
   "is_seeded": true

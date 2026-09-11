@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "5d2e10e7-1814-5058-9fda-1130fae2ae2e",
+      "is_fpi": true,
+      "payerLegalName": "CHEROKEE NATION COMPREHENSIVE CARE AGENCY",
+      "payer_level_string_search_matches": [
+        "CHEROKEE NATION COMPREHENSIVE CARE AGENCY",
+        "Cherokee Elder Care"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CHEROKEE NATION COMPREHENSIVE CARE AGENCY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4142",
+      "is_fpi": false,
+      "parent_fpi": "5d2e10e7-1814-5058-9fda-1130fae2ae2e"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4142-001",
+          "parent_fpi": "5d2e10e7-1814-5058-9fda-1130fae2ae2e",
+          "f_plan_id": "96c5f79f-5813-42bf-b9b0-d645591d6840",
+          "plan_name": "Cherokee Elder Care (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4142-002",
+          "parent_fpi": "5d2e10e7-1814-5058-9fda-1130fae2ae2e",
+          "f_plan_id": "ecfc1cee-9d91-45cf-bafb-e27e5cc9fdc1",
+          "plan_name": "Cherokee Elder Care (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -7,6 +7,11 @@
       "value": "f99a29ff-28d2-533d-949b-5428218bde66",
       "is_fpi": true,
       "payerLegalName": "LIBERTY ADVANTAGE, LLC",
+      "payer_level_string_search_matches": [
+        "LIBERTY ADVANTAGE, LLC",
+        "Liberty Medicare Advantage",
+        "Liberty Healthcare Insurance"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "LIBERTY ADVANTAGE, LLC"
     },
@@ -42,7 +47,10 @@
           "plan_name": "Liberty Medicare Dual Plan (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.insurelytix.com/mpf/v1/tenants/liberty-medicare-advantage.insurelytix.com/contracts/H6351/2027/index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.insurelytix.com/fhir/r4/tenants/liberty-medicare-advantage.insurelytix.com"
+      }
     }
   ],
   "is_seeded": true

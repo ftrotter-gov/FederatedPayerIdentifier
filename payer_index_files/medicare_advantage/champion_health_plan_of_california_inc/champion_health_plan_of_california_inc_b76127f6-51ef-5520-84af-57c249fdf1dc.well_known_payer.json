@@ -7,6 +7,11 @@
       "value": "b76127f6-51ef-5520-84af-57c249fdf1dc",
       "is_fpi": true,
       "payerLegalName": "CHAMPION HEALTH PLAN OF CALIFORNIA INC",
+      "payer_level_string_search_matches": [
+        "CHAMPION HEALTH PLAN OF CALIFORNIA INC",
+        "Champion Heath Plan",
+        "Champion Health Plans-USA, LLC."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "CHAMPION HEALTH PLAN OF CALIFORNIA INC"
     },
@@ -71,7 +76,7 @@
         }
       ],
       "plan_endpoints": {
-        "cms_provider_directory_machine_readable_format_endpoint": "https://championhmo.com/public_html/provider-directory/CA/index.json"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://dtbvgvfrj0.execute-api.us-east-1.amazonaws.com/prod/fhir-directory/CA/r4/metadata"
       }
     }
   ],

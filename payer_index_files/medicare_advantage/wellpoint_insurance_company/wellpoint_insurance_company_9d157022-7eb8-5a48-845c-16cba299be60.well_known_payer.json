@@ -7,6 +7,11 @@
       "value": "9d157022-7eb8-5a48-845c-16cba299be60",
       "is_fpi": true,
       "payerLegalName": "WELLPOINT INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "WELLPOINT INSURANCE COMPANY",
+        "Wellpoint",
+        "Elevance Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "WELLPOINT INSURANCE COMPANY"
     },
@@ -70,7 +75,10 @@
           "plan_name": "Wellpoint Dual Advantage (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://totalview.healthos.Wellpoint.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://totalview.healthos.wellpoint.com/cms/H8849/index.json"
+      }
     }
   ],
   "is_seeded": true

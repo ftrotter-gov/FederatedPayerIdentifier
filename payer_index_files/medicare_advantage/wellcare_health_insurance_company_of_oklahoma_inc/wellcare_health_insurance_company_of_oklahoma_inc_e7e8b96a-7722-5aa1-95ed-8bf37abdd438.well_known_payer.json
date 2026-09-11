@@ -7,6 +7,11 @@
       "value": "e7e8b96a-7722-5aa1-95ed-8bf37abdd438",
       "is_fpi": true,
       "payerLegalName": "WELLCARE HEALTH INSURANCE COMPANY OF OKLAHOMA, INC.",
+      "payer_level_string_search_matches": [
+        "WELLCARE HEALTH INSURANCE COMPANY OF OKLAHOMA, INC.",
+        "Wellcare",
+        "Centene Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "WELLCARE HEALTH INSURANCE COMPANY OF OKLAHOMA, INC."
     },

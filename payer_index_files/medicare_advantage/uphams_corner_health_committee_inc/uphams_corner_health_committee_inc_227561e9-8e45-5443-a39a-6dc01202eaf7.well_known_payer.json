@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "227561e9-8e45-5443-a39a-6dc01202eaf7",
+      "is_fpi": true,
+      "payerLegalName": "UPHAMS CORNER HEALTH COMMITTEE, INC.",
+      "payer_level_string_search_matches": [
+        "UPHAMS CORNER HEALTH COMMITTEE, INC.",
+        "Upham's PACE"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "UPHAMS CORNER HEALTH COMMITTEE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2220",
+      "is_fpi": false,
+      "parent_fpi": "227561e9-8e45-5443-a39a-6dc01202eaf7"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2220-001",
+          "parent_fpi": "227561e9-8e45-5443-a39a-6dc01202eaf7",
+          "f_plan_id": "20962c3b-ef0e-4437-b06a-fa81026a385f",
+          "plan_name": "Upham's Corner Health Committee, Inc. (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2220-002",
+          "parent_fpi": "227561e9-8e45-5443-a39a-6dc01202eaf7",
+          "f_plan_id": "115eea19-23a7-4c8f-9ab3-b87985526b7d",
+          "plan_name": "Uphams Corner Health Committee, Inc. (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

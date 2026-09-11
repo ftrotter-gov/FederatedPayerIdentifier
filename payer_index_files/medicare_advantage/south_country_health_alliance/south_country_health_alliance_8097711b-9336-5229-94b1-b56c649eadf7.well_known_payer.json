@@ -7,6 +7,9 @@
       "value": "8097711b-9336-5229-94b1-b56c649eadf7",
       "is_fpi": true,
       "payerLegalName": "SOUTH COUNTRY HEALTH ALLIANCE",
+      "payer_level_string_search_matches": [
+        "SOUTH COUNTRY HEALTH ALLIANCE"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SOUTH COUNTRY HEALTH ALLIANCE"
     },
@@ -32,7 +35,15 @@
           "parent_fpi": "8097711b-9336-5229-94b1-b56c649eadf7",
           "f_plan_id": "ff2e7500-204e-468c-8c54-72838f2ce6d8",
           "plan_name": "SeniorCare Complete (HMO D-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.mnschafhir.com/r4/public/Practitioner",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://gateway.1up.health/v1/mnscha/r4/public/mpf/H2419-CY2027/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5703-001",
@@ -41,7 +52,10 @@
           "plan_name": "AbilityCare (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.mnschafhir.com/r4/public/Practitioner",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://gateway.1up.health/v1/mnscha/r4/public/mpf/H5703-CY2027/index.json"
+      }
     }
   ],
   "is_seeded": true

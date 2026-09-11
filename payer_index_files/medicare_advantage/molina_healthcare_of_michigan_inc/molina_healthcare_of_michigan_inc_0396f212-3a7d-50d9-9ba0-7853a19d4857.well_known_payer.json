@@ -7,6 +7,11 @@
       "value": "0396f212-3a7d-50d9-9ba0-7853a19d4857",
       "is_fpi": true,
       "payerLegalName": "MOLINA HEALTHCARE OF MICHIGAN, INC.",
+      "payer_level_string_search_matches": [
+        "MOLINA HEALTHCARE OF MICHIGAN, INC.",
+        "Molina Healthcare of Michigan",
+        "Molina Healthcare, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "MOLINA HEALTHCARE OF MICHIGAN, INC."
     },
@@ -42,7 +47,10 @@
           "plan_name": "Molina Dual MI Coordinated Health (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.molinahealthcare.com/cmsjson/378245/MCareFHIR/H5926/index.json"
+      }
     }
   ],
   "is_seeded": true

@@ -1,0 +1,30 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "0c33b0ec-88e8-5578-a8ff-10c680fc6d1f",
+      "is_fpi": true,
+      "payerLegalName": "HUMANADENTAL INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "HUMANADENTAL INSURANCE COMPANY"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HUMANADENTAL INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3642",
+      "is_fpi": false,
+      "parent_fpi": "0c33b0ec-88e8-5578-a8ff-10c680fc6d1f"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

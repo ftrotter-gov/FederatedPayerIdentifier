@@ -7,6 +7,11 @@
       "value": "e3bda3d2-7f04-50e7-a6c1-9e2758ce184b",
       "is_fpi": true,
       "payerLegalName": "MARQUIS ADVANTAGE, INC.",
+      "payer_level_string_search_matches": [
+        "MARQUIS ADVANTAGE, INC.",
+        "AgeRight Advantage",
+        "Marquis Companies I, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "MARQUIS ADVANTAGE, INC."
     },
@@ -42,7 +47,10 @@
           "plan_name": "AgeRight Advantage Premier Health Plan (HMO C-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.curanahealth.com/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhirmpf.curanahealth.com/H1372/2027/"
+      }
     }
   ],
   "is_seeded": true

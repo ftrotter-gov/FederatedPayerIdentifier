@@ -7,6 +7,11 @@
       "value": "0415a42d-47c6-55fa-91b8-c8faf3530002",
       "is_fpi": true,
       "payerLegalName": "AETNA BETTER HEALTH INC. (GA)",
+      "payer_level_string_search_matches": [
+        "AETNA BETTER HEALTH INC. (GA)",
+        "Aetna Medicare",
+        "CVS Health Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AETNA BETTER HEALTH INC. (GA)"
     },
@@ -106,13 +111,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H3146-801",
-          "parent_fpi": "0415a42d-47c6-55fa-91b8-c8faf3530002",
-          "f_plan_id": "7cbfdb8e-b160-4add-9947-515598c2111d",
-          "plan_name": "Aetna Medicare Plan (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3146-036",
           "parent_fpi": "0415a42d-47c6-55fa-91b8-c8faf3530002",
           "f_plan_id": "7b263e92-9370-4ba9-aa52-997cb5603f3c",
@@ -173,10 +171,17 @@
           "parent_fpi": "0415a42d-47c6-55fa-91b8-c8faf3530002",
           "f_plan_id": "3743f85c-abaf-4bfb-8208-860e30295129",
           "plan_name": "Aetna Medicare Enhanced (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3146-801",
+          "parent_fpi": "0415a42d-47c6-55fa-91b8-c8faf3530002",
+          "f_plan_id": "7cbfdb8e-b160-4add-9947-515598c2111d",
+          "plan_name": "Aetna Medicare Plan (HMO)"
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.aetna.com/interoperability/2027/H3146/index.json"
       }
     }
   ],

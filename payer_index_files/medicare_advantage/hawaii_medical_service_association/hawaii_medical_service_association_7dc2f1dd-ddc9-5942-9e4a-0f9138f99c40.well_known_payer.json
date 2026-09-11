@@ -7,6 +7,10 @@
       "value": "7dc2f1dd-ddc9-5942-9e4a-0f9138f99c40",
       "is_fpi": true,
       "payerLegalName": "HAWAII MEDICAL SERVICE ASSOCIATION",
+      "payer_level_string_search_matches": [
+        "HAWAII MEDICAL SERVICE ASSOCIATION",
+        "HMSA Akamai Advantage"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HAWAII MEDICAL SERVICE ASSOCIATION"
     },
@@ -77,7 +81,10 @@
           "plan_name": "HMSA Akamai Advantage Union Group Plan MAPD (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://hmsa.com/search/providers/MAProviderDirectory/H3832_2027_index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://io-api.hmsa-services.com:9443/fhir/r4/providerdirectory"
+      }
     }
   ],
   "is_seeded": true

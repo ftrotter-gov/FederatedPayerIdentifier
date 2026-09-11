@@ -1,0 +1,530 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+      "is_fpi": true,
+      "payerLegalName": "MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY",
+      "payer_level_string_search_matches": [
+        "MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY",
+        "HealthSpring",
+        "Health Care Service Corporation",
+        "Express Scripts Medicare"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MEDCO CONTAINMENT LIFE AND MEDCO CONTAINMENT NY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S5617",
+      "is_fpi": false,
+      "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S5660",
+      "is_fpi": false,
+      "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-003",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "4cc553bc-48e3-4783-bf72-85b40f921e74",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-008",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "75a7abe2-2690-447f-b297-f51fefe59968",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-013",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "134ac3bf-94b6-42f0-869f-ea89034ebe6b",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-018",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "2ffff93a-f5f7-4955-a1bd-b9ae05c357bb",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-068",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "eab685b0-064b-4341-bbeb-d24942e8a7a0",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-088",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "91fcd0f6-784d-4279-ab97-46fc744bea32",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-103",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "fc4aab6b-ecfa-4a2b-ba06-bdec418b08f9",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-108",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "02b5a3af-691e-460b-81f8-5c0782c57618",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-113",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "4ffea80d-d056-45e9-bba1-8de52876048d",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-118",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "2f2417d4-21af-4dca-b5d7-9e2c0c779b75",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-123",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "d583a3b0-7b67-46ab-8cf8-e2ffbe08cc20",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-128",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "8e91bde0-e3dc-4b52-820b-6592b2420b1f",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-133",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "da581c0f-1fe0-426e-b994-ee9afaa231da",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-138",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "37f042aa-f92b-49ab-a85f-930a156f8785",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-143",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "afa92a12-df75-46da-8c14-e2896907a555",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-148",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "54965319-0b1f-4f19-858c-3a889ac9f048",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-153",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "6846a8d6-633e-4254-958d-14c3dee01331",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-158",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "21184537-8836-46fc-a478-037baa45c32c",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-214",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "4f330f72-424f-460e-98c2-b0dd146eb364",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-215",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "a0d59253-bf34-441e-9434-35eee8792fd4",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-216",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "47e89cbb-d0c1-42f9-aa19-4b0a0b8b5a65",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-217",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "4451f1eb-36ac-4412-aa26-85faeadb3f9c",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-218",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "41a1feab-ee5e-4ddf-bd79-b9e39bd9ec5c",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-219",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "a8e5652b-8d6d-45be-b09b-df463c960969",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-220",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "21fc1b0a-0c3c-44f2-80d2-1a5350d4a3f5",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-221",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "cdd1bf7a-afed-45e4-b20b-7b2b68981ae4",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-222",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "9beb27cd-0915-4d27-aa97-71a3b582a238",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-223",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "37eed896-c825-4053-a4c3-037c80d22846",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-224",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "3c22f090-8a8c-44be-9964-97957ecca082",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-225",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "a8b4850f-23c2-43e4-b982-aa77984010df",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-226",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "5cc1c163-c231-4c95-a594-77ac038757eb",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-227",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "be4e981c-712e-4050-98b0-10dfd20ff285",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-348",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "57a6914f-f00c-440a-92ce-cda391b78a88",
+          "plan_name": "HealthSpring Assurance Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-353",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "ceb8fb15-f320-48d0-9a6f-d193416b967d",
+          "plan_name": "HealthSpring Extra Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-354",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "7932ed74-47b5-4310-bb1d-5ab3f5049804",
+          "plan_name": "HealthSpring Extra Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-355",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "519626e8-a323-4bc6-9388-24fd0629be17",
+          "plan_name": "HealthSpring Extra Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-356",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "d39d6e60-be66-4901-aa26-7143c88f50a4",
+          "plan_name": "HealthSpring Extra Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-358",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "71f142b4-764a-455c-a3e8-ff2f4e54f2cd",
+          "plan_name": "HealthSpring Extra Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-359",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "63a28be9-f2e9-41a2-9d67-1c80a39e8ac2",
+          "plan_name": "HealthSpring Extra Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-360",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "ccbd7e3e-0d47-4ad2-839d-bb03a84becba",
+          "plan_name": "HealthSpring Extra Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-362",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "c5b36e56-2ce7-4df0-8832-2a1ecf15ee51",
+          "plan_name": "HealthSpring Extra Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-363",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "18f06def-56c1-46ce-be3f-b29cf5db9bcb",
+          "plan_name": "HealthSpring Extra Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-364",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "24fc96e9-ad0c-4d02-9045-59632239486e",
+          "plan_name": "HealthSpring Extra Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-365",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "ea7d1b49-0ab5-42ab-b5db-1fa653321d9f",
+          "plan_name": "HealthSpring Extra Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-366",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "b95d5832-a3e6-4b50-a2a5-93415a767faf",
+          "plan_name": "HealthSpring Extra Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-367",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "de9a5c73-6490-41aa-95a1-6ce88adcf388",
+          "plan_name": "HealthSpring Extra Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-368",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "f9c20d4a-50ce-4570-9b4f-3aa37b7af211",
+          "plan_name": "HealthSpring Extra Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-369",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "f28b76cf-aa0d-4437-8bb0-e45bd07f1d47",
+          "plan_name": "HealthSpring Extra Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-370",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "195b7350-b48a-4b6b-b9bd-a98d501fbccc",
+          "plan_name": "HealthSpring Extra Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-371",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "f209aa96-52b7-4110-9e16-85b71a3ba5f5",
+          "plan_name": "HealthSpring Extra Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-372",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "47f08e51-adbd-4381-a7af-3dc262dd6a62",
+          "plan_name": "HealthSpring Extra Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-373",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "abf2688f-5edf-438e-830e-63f0d1f0c17d",
+          "plan_name": "HealthSpring Extra Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-375",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "a87a17c1-28d9-4898-97c7-70adecfb78de",
+          "plan_name": "HealthSpring Extra Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-377",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "264f1c8f-8816-450a-bada-af597dc69682",
+          "plan_name": "HealthSpring Extra Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-378",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "174323cd-be7d-4ced-9be5-042cbc39acc1",
+          "plan_name": "HealthSpring Extra Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-379",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "138fdf0b-565a-4272-81d1-630e3628fb91",
+          "plan_name": "HealthSpring Extra Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-380",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "187879bd-ea2d-41f8-b227-987c951266bd",
+          "plan_name": "HealthSpring Extra Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-381",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "c1565e12-1cf0-4f3c-acf6-3db3d4ba3241",
+          "plan_name": "HealthSpring Extra Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-382",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "c968b488-25d5-4b30-8755-02739f16a39d",
+          "plan_name": "HealthSpring Extra Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-385",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "9a13ceef-a4a5-4ecd-9a02-5a2838d06d78",
+          "plan_name": "HealthSpring Extra Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-801",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "fbbceede-3953-4046-8f79-081ee9aae825",
+          "plan_name": "HealthSpring RX (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-802",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "07d46ebb-6fd8-4d03-8130-4c6e8c06bcca",
+          "plan_name": "HealthSpring RX FY (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-805",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "24e6421e-50d7-43ef-9773-e566b2721015",
+          "plan_name": "HealthSpring RX (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5617-807",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "a670ddbf-35ce-4b4a-9428-89ef3c82ecc2",
+          "plan_name": "HealthSpring RX (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5660-801",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "bc17752d-f2c1-4f00-a70b-d198b9398b00",
+          "plan_name": "Express Scripts Medicare (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5660-802",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "9403da3e-bfd9-4869-b1af-3cdd404becc9",
+          "plan_name": "Express Scripts Medicare (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5660-803",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "4d5df7dc-54d0-40a3-bbc9-fdd13d3584ce",
+          "plan_name": "Express Scripts Medicare (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5660-804",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "eaeca577-7868-477f-aea3-1676a4c2c01a",
+          "plan_name": "Express Scripts Medicare FY (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5660-814",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "225dc07b-483b-473c-85c0-ec50a6fee812",
+          "plan_name": "Express Scripts Medicare (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5660-815",
+          "parent_fpi": "dcd99036-b7a0-565a-8fa5-3257c9830377",
+          "f_plan_id": "9838644b-0b1f-488b-bce1-cd46aa46e595",
+          "plan_name": "Express Scripts Medicare (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

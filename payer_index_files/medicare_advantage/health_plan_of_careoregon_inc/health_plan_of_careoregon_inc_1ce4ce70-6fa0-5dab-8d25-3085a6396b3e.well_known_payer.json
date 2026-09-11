@@ -7,6 +7,11 @@
       "value": "1ce4ce70-6fa0-5dab-8d25-3085a6396b3e",
       "is_fpi": true,
       "payerLegalName": "HEALTH PLAN OF CAREOREGON, INC.",
+      "payer_level_string_search_matches": [
+        "HEALTH PLAN OF CAREOREGON, INC.",
+        "CareOregon Advantage",
+        "CareOregon, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HEALTH PLAN OF CAREOREGON, INC."
     },
@@ -28,7 +33,10 @@
           "plan_name": "CareOregon Advantage Plus (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://careoregonadvantage.org/members/find-a-provider",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://us120.fhir.m2.edifecsfedcloud.com/cor_pd/practitionerrole"
+      }
     }
   ],
   "is_seeded": true

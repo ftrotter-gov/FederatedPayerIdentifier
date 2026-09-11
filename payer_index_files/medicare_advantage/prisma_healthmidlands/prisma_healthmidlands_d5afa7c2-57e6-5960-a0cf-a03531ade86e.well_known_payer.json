@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "d5afa7c2-57e6-5960-a0cf-a03531ade86e",
+      "is_fpi": true,
+      "payerLegalName": "PRISMA HEALTH-MIDLANDS",
+      "payer_level_string_search_matches": [
+        "PRISMA HEALTH-MIDLANDS",
+        "Prisma Health SeniorCare PACE-Midlands",
+        "Prisma Health"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PRISMA HEALTH-MIDLANDS"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4203",
+      "is_fpi": false,
+      "parent_fpi": "d5afa7c2-57e6-5960-a0cf-a03531ade86e"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4203-001",
+          "parent_fpi": "d5afa7c2-57e6-5960-a0cf-a03531ade86e",
+          "f_plan_id": "3e73c12e-3bb2-4ade-ba13-75797a694054",
+          "plan_name": "Prisma Health PACE-Midlands - Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4203-002",
+          "parent_fpi": "d5afa7c2-57e6-5960-a0cf-a03531ade86e",
+          "f_plan_id": "f2ca6a97-4d84-456e-bdb8-a77eb6b02f75",
+          "plan_name": "Prisma Health PACE-Midlands - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

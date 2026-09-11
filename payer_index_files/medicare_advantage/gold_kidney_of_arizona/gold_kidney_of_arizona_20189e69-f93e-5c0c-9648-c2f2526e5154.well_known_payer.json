@@ -7,6 +7,10 @@
       "value": "20189e69-f93e-5c0c-9648-c2f2526e5154",
       "is_fpi": true,
       "payerLegalName": "GOLD KIDNEY OF ARIZONA",
+      "payer_level_string_search_matches": [
+        "GOLD KIDNEY OF ARIZONA",
+        "Gold Kidney Health Plan"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "GOLD KIDNEY OF ARIZONA"
     },
@@ -56,7 +60,10 @@
           "plan_name": "Gold Dialysis & Kidney Complete (HMO-POS C-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.aaneelconnect.com/cms/r4/goldkidney-provider-directory-2027",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://stgeusconprdgksa001.blob.core.windows.net/gk-providerdirectory-2026/index.json"
+      }
     }
   ],
   "is_seeded": true

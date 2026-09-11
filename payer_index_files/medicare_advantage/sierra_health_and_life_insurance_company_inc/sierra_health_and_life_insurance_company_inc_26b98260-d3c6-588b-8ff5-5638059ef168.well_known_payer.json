@@ -7,6 +7,11 @@
       "value": "26b98260-d3c6-588b-8ff5-5638059ef168",
       "is_fpi": true,
       "payerLegalName": "SIERRA HEALTH AND LIFE INSURANCE COMPANY, INC.",
+      "payer_level_string_search_matches": [
+        "SIERRA HEALTH AND LIFE INSURANCE COMPANY, INC.",
+        "UnitedHealthcare",
+        "UnitedHealth Group, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SIERRA HEALTH AND LIFE INSURANCE COMPANY, INC."
     },
@@ -644,6 +649,13 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2001-139",
+          "parent_fpi": "26b98260-d3c6-588b-8ff5-5638059ef168",
+          "f_plan_id": "90b18cc0-e1c9-42b2-8c18-30289dfbbd13",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx SI-MA2 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2001-816",
           "parent_fpi": "26b98260-d3c6-588b-8ff5-5638059ef168",
           "f_plan_id": "54c67c94-cad2-499b-a4a9-f71e5699a37d",
@@ -1127,13 +1139,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H2001-139",
-          "parent_fpi": "26b98260-d3c6-588b-8ff5-5638059ef168",
-          "f_plan_id": "90b18cc0-e1c9-42b2-8c18-30289dfbbd13",
-          "plan_name": "AARP Medicare Advantage Patriot No Rx SI-MA2 (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2001-886",
           "parent_fpi": "26b98260-d3c6-588b-8ff5-5638059ef168",
           "f_plan_id": "968ee5e5-1a0a-40ad-b7e3-7340df06c23d",
@@ -1215,7 +1220,15 @@
           "parent_fpi": "26b98260-d3c6-588b-8ff5-5638059ef168",
           "f_plan_id": "a6f4b9da-6dd2-48c8-959b-7c84f8009168",
           "plan_name": "UnitedHealthcare Group Medicare Advantage (PPO)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-mpf.optum-uhc-stage.net/api/cms/plans/H2001/2027",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://flex.optum.com/fhirpublic"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5652-001",
@@ -1259,7 +1272,10 @@
           "plan_name": "Erickson Advantage Liberty (HMO-POS)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-mpf.optum-uhc-stage.net/api/cms/plans/H5652/2027",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://flex.optum.com/fhirpublic"
+      }
     }
   ],
   "is_seeded": true

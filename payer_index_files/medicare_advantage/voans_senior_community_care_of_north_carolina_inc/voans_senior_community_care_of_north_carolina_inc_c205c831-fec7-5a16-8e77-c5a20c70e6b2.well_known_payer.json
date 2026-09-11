@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "c205c831-fec7-5a16-8e77-c5a20c70e6b2",
+      "is_fpi": true,
+      "payerLegalName": "VOANS SENIOR COMMUNITY CARE OF NORTH CAROLINA, INC",
+      "payer_level_string_search_matches": [
+        "VOANS SENIOR COMMUNITY CARE OF NORTH CAROLINA, INC",
+        "Senior CommUnity Care of North Carolina",
+        "Volunteers of America National Services"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "VOANS SENIOR COMMUNITY CARE OF NORTH CAROLINA, INC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0839",
+      "is_fpi": false,
+      "parent_fpi": "c205c831-fec7-5a16-8e77-c5a20c70e6b2"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0839-001",
+          "parent_fpi": "c205c831-fec7-5a16-8e77-c5a20c70e6b2",
+          "f_plan_id": "6e4b7f27-dc61-4542-b2d5-1a095753b8bd",
+          "plan_name": "Senior CommUnity Care of North Carolina (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0839-002",
+          "parent_fpi": "c205c831-fec7-5a16-8e77-c5a20c70e6b2",
+          "f_plan_id": "20205091-74a4-4084-9340-c5623d83e0d6",
+          "plan_name": "Senior CommUnity Care of North Carolina (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

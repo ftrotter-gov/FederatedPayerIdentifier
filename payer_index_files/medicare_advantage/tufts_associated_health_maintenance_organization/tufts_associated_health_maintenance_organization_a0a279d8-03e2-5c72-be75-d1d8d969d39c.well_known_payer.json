@@ -7,6 +7,11 @@
       "value": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
       "is_fpi": true,
       "payerLegalName": "TUFTS ASSOCIATED HEALTH MAINTENANCE ORGANIZATION",
+      "payer_level_string_search_matches": [
+        "TUFTS ASSOCIATED HEALTH MAINTENANCE ORGANIZATION",
+        "Tufts Health Plan",
+        "Point32Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "TUFTS ASSOCIATED HEALTH MAINTENANCE ORGANIZATION"
     },
@@ -157,7 +162,15 @@
           "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
           "f_plan_id": "fb799ce1-b762-4c21-928f-e7ef6b584133",
           "plan_name": "Tufts Medicare Preferred HMO No Rx (HMO)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api-thp-prd.safhir.io/v1/api/provider-directory/cms-hpms-manifest/thp-h2256-nnn",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cms-uat.healthsparq.com/mpf/v1/H2256/2026/H2256-2026-index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8330-001",
@@ -171,6 +184,21 @@
           "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
           "f_plan_id": "babb8048-73ca-4417-ae0f-ed09f6fb26fd",
           "plan_name": "Tufts Health Plan Senior Care Options CW (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api-thp-prd.safhir.io/v1/api/provider-directory/cms-hpms-manifest/thp-h8330-nnn",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cms-uat.healthsparq.com/mpf/v1/H8330/2026/H8330-2026-index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9907-002",
+          "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
+          "f_plan_id": "2399bdca-ddee-4b47-a5ae-4cefa5012b58",
+          "plan_name": "Tufts Medicare Preferred PPO RX (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -199,16 +227,12 @@
           "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
           "f_plan_id": "2058ec80-b68d-455c-9d76-1989c9ba199a",
           "plan_name": "Tufts Medicare Preferred PPO No Rx (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H9907-002",
-          "parent_fpi": "a0a279d8-03e2-5c72-be75-d1d8d969d39c",
-          "f_plan_id": "2399bdca-ddee-4b47-a5ae-4cefa5012b58",
-          "plan_name": "Tufts Medicare Preferred PPO RX (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api-thp-prd.safhir.io/v1/api/provider-directory/cms-hpms-manifest/thp-h9907-nnn",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cms-uat.healthsparq.com/mpf/v1/H9907/2026/H9907-2026-index.json"
+      }
     }
   ],
   "is_seeded": true

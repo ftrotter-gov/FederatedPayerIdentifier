@@ -7,6 +7,11 @@
       "value": "0606f1aa-ca84-5a54-bf1b-e9d5c08dca9a",
       "is_fpi": true,
       "payerLegalName": "HEALTHSPRING HEALTHCARE OF COLORADO, INC.",
+      "payer_level_string_search_matches": [
+        "HEALTHSPRING HEALTHCARE OF COLORADO, INC.",
+        "HealthSpring",
+        "Health Care Service Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HEALTHSPRING HEALTHCARE OF COLORADO, INC."
     },
@@ -85,21 +90,22 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H0672-801",
-          "parent_fpi": "0606f1aa-ca84-5a54-bf1b-e9d5c08dca9a",
-          "f_plan_id": "8eeeabfe-c167-42d3-a0f1-b44e7c6ee4c7",
-          "plan_name": "HealthSpring Preferred (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0672-024",
           "parent_fpi": "0606f1aa-ca84-5a54-bf1b-e9d5c08dca9a",
           "f_plan_id": "8b2cdc23-6cb4-48b4-bd97-c352423aba8f",
           "plan_name": "HealthSpring Preferred (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0672-801",
+          "parent_fpi": "0606f1aa-ca84-5a54-bf1b-e9d5c08dca9a",
+          "f_plan_id": "8eeeabfe-c167-42d3-a0f1-b44e7c6ee4c7",
+          "plan_name": "HealthSpring Preferred (HMO)"
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://data.healthspring.healthlx.com:8003/"
+        "cms_provider_directory_machine_readable_format_endpoint": "https://mpf.healthspring.com/H0672/index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://data.healthspring.healthlx.com:8003"
       }
     }
   ],

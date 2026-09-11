@@ -7,6 +7,12 @@
       "value": "5674dcd3-81a7-5b24-80d0-79f3372f9e6e",
       "is_fpi": true,
       "payerLegalName": "BLUE CROSS OF CALIFORNIA PARTNERSHIP PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "BLUE CROSS OF CALIFORNIA PARTNERSHIP PLAN, INC.",
+        "Anthem Blue Cross Partnership Plan",
+        "Elevance Health, Inc.",
+        "Anthem Blue Cross"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "BLUE CROSS OF CALIFORNIA PARTNERSHIP PLAN, INC."
     },
@@ -130,7 +136,15 @@
           "parent_fpi": "5674dcd3-81a7-5b24-80d0-79f3372f9e6e",
           "f_plan_id": "20e46361-46ed-46f8-9b20-c14d80090985",
           "plan_name": "Anthem I CareMore Lung Care 2 (HMO-POS C-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://totalview.healthos.anthem.com/cms/H4161/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4471-005",
@@ -153,7 +167,10 @@
           "plan_name": "Anthem Full Dual Advantage Aligned (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://totalview.healthos.anthem.com/cms/H4471/index.json"
+      }
     }
   ],
   "is_seeded": true

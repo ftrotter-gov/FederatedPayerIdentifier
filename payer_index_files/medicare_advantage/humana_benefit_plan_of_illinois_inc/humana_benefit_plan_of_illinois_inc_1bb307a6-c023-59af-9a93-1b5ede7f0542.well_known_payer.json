@@ -7,6 +7,11 @@
       "value": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
       "is_fpi": true,
       "payerLegalName": "HUMANA BENEFIT PLAN OF ILLINOIS, INC.",
+      "payer_level_string_search_matches": [
+        "HUMANA BENEFIT PLAN OF ILLINOIS, INC.",
+        "Humana",
+        "Humana Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HUMANA BENEFIT PLAN OF ILLINOIS, INC."
     },
@@ -125,13 +130,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5525-086",
-          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
-          "f_plan_id": "0078a3d0-443e-40d4-aa54-fcfdd77d63e3",
-          "plan_name": "HumanaChoice H5525-086 (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-030",
           "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
           "f_plan_id": "2d7f9497-6c67-4674-867e-93d5884af599",
@@ -237,13 +235,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5525-085",
-          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
-          "f_plan_id": "6fbb5157-463f-4094-af7c-59eaf1ce0cc6",
-          "plan_name": "HumanaChoice Giveback H5525-085 (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-059",
           "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
           "f_plan_id": "6994c117-e318-443c-87e9-a3c7894aad8a",
@@ -328,6 +319,27 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5525-085",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "6fbb5157-463f-4094-af7c-59eaf1ce0cc6",
+          "plan_name": "HumanaChoice Giveback H5525-085 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5525-086",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "0078a3d0-443e-40d4-aa54-fcfdd77d63e3",
+          "plan_name": "HumanaChoice H5525-086 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5525-087",
+          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
+          "f_plan_id": "d5e7430b-fce0-4eb8-93be-bb298bf38dbf",
+          "plan_name": "HumanaChoice H5525-087 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5525-809",
           "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
           "f_plan_id": "8e62fe36-640f-48a4-b83f-a02cd957317a",
@@ -409,17 +421,10 @@
           "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
           "f_plan_id": "49845c0a-6834-42ce-a716-ef3c823438b9",
           "plan_name": "Humana Medicare Employer (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5525-087",
-          "parent_fpi": "1bb307a6-c023-59af-9a93-1b5ede7f0542",
-          "f_plan_id": "d5e7430b-fce0-4eb8-93be-bb298bf38dbf",
-          "plan_name": "HumanaChoice H5525-087 (PPO)"
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.humana.com/api"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.humana.com/api"
       }
     }
   ],

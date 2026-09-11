@@ -1,0 +1,95 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "fe57bd40-9242-5962-af53-529bd70a883d",
+      "is_fpi": true,
+      "payerLegalName": "MOUNT CARMEL HEALTH PLAN OF IDAHO, INC.",
+      "payer_level_string_search_matches": [
+        "MOUNT CARMEL HEALTH PLAN OF IDAHO, INC.",
+        "Saint Alphonsus Health Plan",
+        "Trinity Health Corporation"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MOUNT CARMEL HEALTH PLAN OF IDAHO, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3828",
+      "is_fpi": false,
+      "parent_fpi": "fe57bd40-9242-5962-af53-529bd70a883d"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6910",
+      "is_fpi": false,
+      "parent_fpi": "fe57bd40-9242-5962-af53-529bd70a883d"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3828-001",
+          "parent_fpi": "fe57bd40-9242-5962-af53-529bd70a883d",
+          "f_plan_id": "726b07c9-4646-40cd-aaf1-7ba14d9b3f4e",
+          "plan_name": "Saint Alphonsus Health Plan Choice (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3828-801",
+          "parent_fpi": "fe57bd40-9242-5962-af53-529bd70a883d",
+          "f_plan_id": "e6a04283-d1fb-4189-a5aa-e95288a915b7",
+          "plan_name": "Saint Alphonsus Health Plan Choice EGWP 1 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3828-802",
+          "parent_fpi": "fe57bd40-9242-5962-af53-529bd70a883d",
+          "f_plan_id": "90b0e2f4-ef39-4238-a4cf-1e9e856483a1",
+          "plan_name": "Saint Alphonsus Health Plan Choice EGWP 2 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6910-001",
+          "parent_fpi": "fe57bd40-9242-5962-af53-529bd70a883d",
+          "f_plan_id": "ee491702-4294-48f0-ba1b-f04a4a59f008",
+          "plan_name": "Saint Alphonsus Health Plan No Premium (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6910-004",
+          "parent_fpi": "fe57bd40-9242-5962-af53-529bd70a883d",
+          "f_plan_id": "b2eccaab-da17-4938-af1e-bee15d8c3823",
+          "plan_name": "Saint Alphonsus Health Plan Glory No RX (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6910-005",
+          "parent_fpi": "fe57bd40-9242-5962-af53-529bd70a883d",
+          "f_plan_id": "5c8e86e3-35be-40d7-9bd9-e0f1a2bcc67f",
+          "plan_name": "Saint Alphonsus Health Plan Cash Back (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6910-801",
+          "parent_fpi": "fe57bd40-9242-5962-af53-529bd70a883d",
+          "f_plan_id": "a8aaf0a7-7f49-41eb-8c97-8932aaaa84d5",
+          "plan_name": "Saint Alphonsus Health Plan EGWP 1 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6910-802",
+          "parent_fpi": "fe57bd40-9242-5962-af53-529bd70a883d",
+          "f_plan_id": "b2ad75e7-ea1d-463a-ae74-ea724f339faf",
+          "plan_name": "Saint Alphonsus Health Plan EGWP 2 (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

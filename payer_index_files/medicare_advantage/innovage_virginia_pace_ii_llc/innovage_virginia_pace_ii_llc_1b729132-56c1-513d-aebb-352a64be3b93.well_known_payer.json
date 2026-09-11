@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "1b729132-56c1-513d-aebb-352a64be3b93",
+      "is_fpi": true,
+      "payerLegalName": "INNOVAGE VIRGINIA PACE II, LLC",
+      "payer_level_string_search_matches": [
+        "INNOVAGE VIRGINIA PACE II, LLC",
+        "InnovAge Virginia PACE - Richmond and Peninsula",
+        "Total Community Options, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "INNOVAGE VIRGINIA PACE II, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8655",
+      "is_fpi": false,
+      "parent_fpi": "1b729132-56c1-513d-aebb-352a64be3b93"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8655-004",
+          "parent_fpi": "1b729132-56c1-513d-aebb-352a64be3b93",
+          "f_plan_id": "5c63dca5-ccef-45b0-8267-4f4ad9f040e0",
+          "plan_name": "InnovAge Virginia PACE II, LLC Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8655-005",
+          "parent_fpi": "1b729132-56c1-513d-aebb-352a64be3b93",
+          "f_plan_id": "b546e7fe-da73-4ff4-8a1d-af7818212246",
+          "plan_name": "InnovAge Virginia PACE II, LLC Medicare ONLY (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

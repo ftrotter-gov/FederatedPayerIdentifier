@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "2a517d70-20eb-59cd-9355-d11222ab184d",
+      "is_fpi": true,
+      "payerLegalName": "CAREPARTNERS REHABILITATION HOSPITAL, LLLP",
+      "payer_level_string_search_matches": [
+        "CAREPARTNERS REHABILITATION HOSPITAL, LLLP",
+        "CarePartners PACE",
+        "HCA Healthcare, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CAREPARTNERS REHABILITATION HOSPITAL, LLLP"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6846",
+      "is_fpi": false,
+      "parent_fpi": "2a517d70-20eb-59cd-9355-d11222ab184d"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6846-001",
+          "parent_fpi": "2a517d70-20eb-59cd-9355-d11222ab184d",
+          "f_plan_id": "0c2a5982-1df9-4960-ae61-382ee913384f",
+          "plan_name": "CarePartners PACE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6846-002",
+          "parent_fpi": "2a517d70-20eb-59cd-9355-d11222ab184d",
+          "f_plan_id": "dd4d7905-81a9-4f43-8b94-dcb25d40203b",
+          "plan_name": "CarePartners PACE (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

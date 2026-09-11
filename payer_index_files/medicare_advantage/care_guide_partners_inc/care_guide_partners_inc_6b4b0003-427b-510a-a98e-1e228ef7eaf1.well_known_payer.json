@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "6b4b0003-427b-510a-a98e-1e228ef7eaf1",
+      "is_fpi": true,
+      "payerLegalName": "CARE GUIDE PARTNERS, INC.",
+      "payer_level_string_search_matches": [
+        "CARE GUIDE PARTNERS, INC.",
+        "Care Guide Partners",
+        "Hosparus Health Inc"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CARE GUIDE PARTNERS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5622",
+      "is_fpi": false,
+      "parent_fpi": "6b4b0003-427b-510a-a98e-1e228ef7eaf1"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5622-001",
+          "parent_fpi": "6b4b0003-427b-510a-a98e-1e228ef7eaf1",
+          "f_plan_id": "92cbc3cf-e0b3-485a-bdc7-3088ffc9f524",
+          "plan_name": "Care Guide Partners PACE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5622-002",
+          "parent_fpi": "6b4b0003-427b-510a-a98e-1e228ef7eaf1",
+          "f_plan_id": "67a18a5b-8d67-4a69-b400-9542e50668e0",
+          "plan_name": "Care Guide Partners PACE-Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

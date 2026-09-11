@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "d8c3eeab-51d1-5c39-8934-11a3d017a9ff",
+      "is_fpi": true,
+      "payerLegalName": "PACE @ HOME, INC.",
+      "payer_level_string_search_matches": [
+        "PACE @ HOME, INC.",
+        "Senior TLC",
+        "PACE @ Home"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PACE @ HOME, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4326",
+      "is_fpi": false,
+      "parent_fpi": "d8c3eeab-51d1-5c39-8934-11a3d017a9ff"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4326-001",
+          "parent_fpi": "d8c3eeab-51d1-5c39-8934-11a3d017a9ff",
+          "f_plan_id": "97576e22-29c6-43ab-b7c1-a8836c43fe40",
+          "plan_name": "PACE at Home - dual (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4326-002",
+          "parent_fpi": "d8c3eeab-51d1-5c39-8934-11a3d017a9ff",
+          "f_plan_id": "2645dc54-3c44-4e57-9527-b4b75103c7e6",
+          "plan_name": "PACE at Home - medicare only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -7,6 +7,11 @@
       "value": "f85c0872-dadd-5ef8-8dfe-67f85d30a230",
       "is_fpi": true,
       "payerLegalName": "BLUE CROSS AND BLUE SHIELD OF FLORIDA, INC.",
+      "payer_level_string_search_matches": [
+        "BLUE CROSS AND BLUE SHIELD OF FLORIDA, INC.",
+        "Florida Blue",
+        "Guidewell Mutual Holding Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "BLUE CROSS AND BLUE SHIELD OF FLORIDA, INC."
     },
@@ -15,9 +20,48 @@
       "value": "H5434",
       "is_fpi": false,
       "parent_fpi": "f85c0872-dadd-5ef8-8dfe-67f85d30a230"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S5904",
+      "is_fpi": false,
+      "parent_fpi": "f85c0872-dadd-5ef8-8dfe-67f85d30a230"
     }
   ],
   "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5904-001",
+          "parent_fpi": "f85c0872-dadd-5ef8-8dfe-67f85d30a230",
+          "f_plan_id": "339ace5e-bfa8-458e-bf5c-7cd7020415bf",
+          "plan_name": "BlueMedicare Premier Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5904-002",
+          "parent_fpi": "f85c0872-dadd-5ef8-8dfe-67f85d30a230",
+          "f_plan_id": "5cbdf3a7-5ca7-44b8-8b02-6b37937542f4",
+          "plan_name": "BlueMedicare Complete Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5904-801",
+          "parent_fpi": "f85c0872-dadd-5ef8-8dfe-67f85d30a230",
+          "f_plan_id": "412af5bc-338c-4f2c-9ca3-3af41240a464",
+          "plan_name": "BlueMedicare Group Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5904-802",
+          "parent_fpi": "f85c0872-dadd-5ef8-8dfe-67f85d30a230",
+          "f_plan_id": "e7571f69-f287-4f71-8ad0-81f11089b301",
+          "plan_name": "BlueMedicare Group Rx (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
     {
       "plan_identifiers": [
         {
@@ -168,7 +212,10 @@
           "plan_name": "BlueMedicare Group MA PPO (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://q8ye948ddl.execute-api.us-east-1.amazonaws.com/prod/pd/H5434",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://apigw.bcbsfl.com/interop/interop-developer-portal/emr/api/v1/fhir/"
+      }
     }
   ],
   "is_seeded": true

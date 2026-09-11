@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "5f6673f6-2ced-5b28-94f2-a59248a48643",
+      "is_fpi": true,
+      "payerLegalName": "ROCKY MOUNTAIN HEALTH CARE SERVICES",
+      "payer_level_string_search_matches": [
+        "ROCKY MOUNTAIN HEALTH CARE SERVICES",
+        "Rocky Mountain PACE",
+        "Bethesda Foundation"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ROCKY MOUNTAIN HEALTH CARE SERVICES"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5167",
+      "is_fpi": false,
+      "parent_fpi": "5f6673f6-2ced-5b28-94f2-a59248a48643"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5167-001",
+          "parent_fpi": "5f6673f6-2ced-5b28-94f2-a59248a48643",
+          "f_plan_id": "72a1e83f-8dc8-4338-8629-df8095ed90db",
+          "plan_name": "Rocky Mountain PACE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5167-002",
+          "parent_fpi": "5f6673f6-2ced-5b28-94f2-a59248a48643",
+          "f_plan_id": "56893ad5-0b55-4746-8803-a2b9d7eb421d",
+          "plan_name": "Rocky Mountain PACE (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

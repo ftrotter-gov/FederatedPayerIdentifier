@@ -7,6 +7,10 @@
       "value": "52427a1f-5b72-5d63-a8c8-dad434f013e9",
       "is_fpi": true,
       "payerLegalName": "SAN MATEO HEALTH COMMISSION",
+      "payer_level_string_search_matches": [
+        "SAN MATEO HEALTH COMMISSION",
+        "HEALTH PLAN OF SAN MATEO"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SAN MATEO HEALTH COMMISSION"
     },
@@ -28,7 +32,10 @@
           "plan_name": "CareAdvantage (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.hpsmfhir.com/r4/public/Practitioner",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://gateway.1up.health/v1/hpsm/r4/public/mpf/H6019-CY2027/index.json"
+      }
     }
   ],
   "is_seeded": true

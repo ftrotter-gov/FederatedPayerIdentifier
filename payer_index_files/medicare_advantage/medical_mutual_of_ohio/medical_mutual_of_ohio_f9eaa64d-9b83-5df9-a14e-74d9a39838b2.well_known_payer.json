@@ -7,6 +7,9 @@
       "value": "f9eaa64d-9b83-5df9-a14e-74d9a39838b2",
       "is_fpi": true,
       "payerLegalName": "MEDICAL MUTUAL OF OHIO",
+      "payer_level_string_search_matches": [
+        "MEDICAL MUTUAL OF OHIO"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "MEDICAL MUTUAL OF OHIO"
     },
@@ -74,7 +77,15 @@
           "parent_fpi": "f9eaa64d-9b83-5df9-a14e-74d9a39838b2",
           "f_plan_id": "a91c4919-87dc-4c8e-8ec9-c600cf3dd4eb",
           "plan_name": "MedMutual Advantage EGWP (MA-Only) (PPO)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhirprovider.medmutual.com/provider/R4",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cms-uat.healthsparq.com/mpf/v1/H4497/2027/H4497-2027-index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6723-001",
@@ -125,7 +136,10 @@
           "plan_name": "MedMutual Advantage EGWP (MA-Only) (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhirprovider.medmutual.com/provider/R4",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cms-uat.healthsparq.com/mpf/v1/H6723/2027/H6723-2027-index.json"
+      }
     }
   ],
   "is_seeded": true

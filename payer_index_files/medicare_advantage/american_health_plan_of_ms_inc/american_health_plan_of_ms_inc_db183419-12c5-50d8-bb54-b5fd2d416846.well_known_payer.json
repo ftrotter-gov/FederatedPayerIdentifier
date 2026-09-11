@@ -7,6 +7,11 @@
       "value": "db183419-12c5-50d8-bb54-b5fd2d416846",
       "is_fpi": true,
       "payerLegalName": "AMERICAN HEALTH PLAN OF MS, INC.",
+      "payer_level_string_search_matches": [
+        "AMERICAN HEALTH PLAN OF MS, INC.",
+        "American Health Advantage of MS",
+        "Mitchell Family Office"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AMERICAN HEALTH PLAN OF MS, INC."
     },
@@ -29,6 +34,7 @@
         }
       ],
       "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://directory.amhealthplans.com/mpfdir/H9909/index.json",
         "davinci_pdex_provider_directory_endpoint#1.1": "https://api-ahp-prd.safhir.io/v1/api/provider-directory/metadata"
       }
     }

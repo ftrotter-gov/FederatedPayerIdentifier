@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "2456416a-8035-5a78-8519-09fc1d4e4026",
+      "is_fpi": true,
+      "payerLegalName": "SERENITY CARE, INC.",
+      "payer_level_string_search_matches": [
+        "SERENITY CARE, INC.",
+        "Serenity Care PACE"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SERENITY CARE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0477",
+      "is_fpi": false,
+      "parent_fpi": "2456416a-8035-5a78-8519-09fc1d4e4026"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0477-001",
+          "parent_fpi": "2456416a-8035-5a78-8519-09fc1d4e4026",
+          "f_plan_id": "e7d57904-eee4-4b71-980c-005c4d47947d",
+          "plan_name": "Serenity PACE Dual (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0477-002",
+          "parent_fpi": "2456416a-8035-5a78-8519-09fc1d4e4026",
+          "f_plan_id": "58810f0a-ff2d-40c7-8978-2af1d819b648",
+          "plan_name": "Serenity PACE Medicare only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

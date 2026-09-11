@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "12da8116-92fb-595e-b0f7-b094cc46234c",
+      "is_fpi": true,
+      "payerLegalName": "CAMBRIDGE PUBLIC HEALTH COMMISSION",
+      "payer_level_string_search_matches": [
+        "CAMBRIDGE PUBLIC HEALTH COMMISSION",
+        "CHA PACE",
+        "Cambridge Health Alliance"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CAMBRIDGE PUBLIC HEALTH COMMISSION"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2221",
+      "is_fpi": false,
+      "parent_fpi": "12da8116-92fb-595e-b0f7-b094cc46234c"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2221-001",
+          "parent_fpi": "12da8116-92fb-595e-b0f7-b094cc46234c",
+          "f_plan_id": "12f463fc-76d2-43c0-a4e0-308850f98531",
+          "plan_name": "CHA PACE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2221-002",
+          "parent_fpi": "12da8116-92fb-595e-b0f7-b094cc46234c",
+          "f_plan_id": "d9836aca-fc35-4a9e-b070-4246511f455d",
+          "plan_name": "CHA PACE (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

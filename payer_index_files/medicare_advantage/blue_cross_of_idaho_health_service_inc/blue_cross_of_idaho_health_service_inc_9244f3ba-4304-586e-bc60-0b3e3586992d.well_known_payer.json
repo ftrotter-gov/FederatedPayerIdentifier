@@ -7,6 +7,11 @@
       "value": "9244f3ba-4304-586e-bc60-0b3e3586992d",
       "is_fpi": true,
       "payerLegalName": "BLUE CROSS OF IDAHO HEALTH SERVICE, INC.",
+      "payer_level_string_search_matches": [
+        "BLUE CROSS OF IDAHO HEALTH SERVICE, INC.",
+        "Blue Cross of Idaho",
+        "Gemstone Holdings, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "BLUE CROSS OF IDAHO HEALTH SERVICE, INC."
     },
@@ -53,48 +58,21 @@
           "parent_fpi": "9244f3ba-4304-586e-bc60-0b3e3586992d",
           "f_plan_id": "1e95e927-83a0-4161-928b-d60db3e66290",
           "plan_name": "Secure Blue Employer (PPO)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://hkferwd394.execute-api.us-west-2.amazonaws.com/stage/mpf-export/H1302/2027/index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://hkferwd394.execute-api.us-west-2.amazonaws.com/stage/mpf-export/H1302/2027/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1350-006",
           "parent_fpi": "9244f3ba-4304-586e-bc60-0b3e3586992d",
           "f_plan_id": "1e7774ad-b362-41f5-b98e-33f65f5e5586",
           "plan_name": "True Blue Valor (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H1350-803",
-          "parent_fpi": "9244f3ba-4304-586e-bc60-0b3e3586992d",
-          "f_plan_id": "fa563f83-3e4b-4c50-81c3-3d1a30c7c28b",
-          "plan_name": "True Blue Employer (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H1350-804",
-          "parent_fpi": "9244f3ba-4304-586e-bc60-0b3e3586992d",
-          "f_plan_id": "ec9792f6-3fec-4f33-9381-f6eace6f2f1a",
-          "plan_name": "True Blue Employer (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H1350-805",
-          "parent_fpi": "9244f3ba-4304-586e-bc60-0b3e3586992d",
-          "f_plan_id": "49978aa0-0555-4e0b-85a4-19db9e251c09",
-          "plan_name": "True Blue Employer (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H1350-806",
-          "parent_fpi": "9244f3ba-4304-586e-bc60-0b3e3586992d",
-          "f_plan_id": "17fa138e-8a85-4d40-a356-555ae47eb2cf",
-          "plan_name": "True Blue Employer (HMO-POS)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H1350-807",
-          "parent_fpi": "9244f3ba-4304-586e-bc60-0b3e3586992d",
-          "f_plan_id": "cc5c9d3a-4632-4302-a416-e6d9b94a0d7f",
-          "plan_name": "True Blue Employer (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -137,9 +115,47 @@
           "parent_fpi": "9244f3ba-4304-586e-bc60-0b3e3586992d",
           "f_plan_id": "bc346f73-c651-4eb3-a8ba-98a6113ce1de",
           "plan_name": "True Blue Rx 37 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1350-803",
+          "parent_fpi": "9244f3ba-4304-586e-bc60-0b3e3586992d",
+          "f_plan_id": "fa563f83-3e4b-4c50-81c3-3d1a30c7c28b",
+          "plan_name": "True Blue Employer (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1350-804",
+          "parent_fpi": "9244f3ba-4304-586e-bc60-0b3e3586992d",
+          "f_plan_id": "ec9792f6-3fec-4f33-9381-f6eace6f2f1a",
+          "plan_name": "True Blue Employer (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1350-805",
+          "parent_fpi": "9244f3ba-4304-586e-bc60-0b3e3586992d",
+          "f_plan_id": "49978aa0-0555-4e0b-85a4-19db9e251c09",
+          "plan_name": "True Blue Employer (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1350-806",
+          "parent_fpi": "9244f3ba-4304-586e-bc60-0b3e3586992d",
+          "f_plan_id": "17fa138e-8a85-4d40-a356-555ae47eb2cf",
+          "plan_name": "True Blue Employer (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1350-807",
+          "parent_fpi": "9244f3ba-4304-586e-bc60-0b3e3586992d",
+          "f_plan_id": "cc5c9d3a-4632-4302-a416-e6d9b94a0d7f",
+          "plan_name": "True Blue Employer (HMO-POS)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://hkferwd394.execute-api.us-west-2.amazonaws.com/stage/mpf-export/H1350/2027/index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://hkferwd394.execute-api.us-west-2.amazonaws.com/stage/mpf-export/H1350/2027/index.json"
+      }
     }
   ],
   "is_seeded": true

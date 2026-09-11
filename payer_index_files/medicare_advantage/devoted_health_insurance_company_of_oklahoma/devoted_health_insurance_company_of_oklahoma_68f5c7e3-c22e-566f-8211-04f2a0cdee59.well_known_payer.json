@@ -7,6 +7,11 @@
       "value": "68f5c7e3-c22e-566f-8211-04f2a0cdee59",
       "is_fpi": true,
       "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF OKLAHOMA",
+      "payer_level_string_search_matches": [
+        "DEVOTED HEALTH INSURANCE COMPANY OF OKLAHOMA",
+        "Devoted Health",
+        "Devoted Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF OKLAHOMA"
     },
@@ -78,7 +83,8 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.devoted.com/H2845/2026"
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.devoted.com/fhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.devoted.com/H2845/2027"
       }
     }
   ],

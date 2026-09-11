@@ -7,6 +7,10 @@
       "value": "65ff12e6-070c-55f9-9e7c-57b153bd67b5",
       "is_fpi": true,
       "payerLegalName": "REGENCE BLUECROSS BLUESHIELD OF OREGON",
+      "payer_level_string_search_matches": [
+        "REGENCE BLUECROSS BLUESHIELD OF OREGON",
+        "Cambia Health Solutions, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "REGENCE BLUECROSS BLUESHIELD OF OREGON"
     },
@@ -81,7 +85,15 @@
           "parent_fpi": "65ff12e6-070c-55f9-9e7c-57b153bd67b5",
           "f_plan_id": "e398f659-d8de-496f-9578-ddff626d2604",
           "plan_name": "Regence MedAdvantage + Rx 03 (PPO)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://providers.regence.com/api/provider-fhir-service/v1/fhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cms.healthsparq.com/mpf/v1/H3817/2027/H3817-2027-index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6237-009",
@@ -90,7 +102,10 @@
           "plan_name": "Regence BlueAdvantage HMO (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://providers.regence.com/api/provider-fhir-service/v1/fhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cms.healthsparq.com/mpf/v1/H6237/2027/H6237-2027-index.json"
+      }
     }
   ],
   "is_seeded": true

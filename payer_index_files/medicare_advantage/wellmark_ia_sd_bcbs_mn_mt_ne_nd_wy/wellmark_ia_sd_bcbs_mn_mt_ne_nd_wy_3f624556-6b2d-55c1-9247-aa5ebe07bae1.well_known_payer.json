@@ -1,0 +1,54 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "3f624556-6b2d-55c1-9247-aa5ebe07bae1",
+      "is_fpi": true,
+      "payerLegalName": "WELLMARK  IA & SD, & BCBS MN, MT, NE, ND,& WY",
+      "payer_level_string_search_matches": [
+        "WELLMARK  IA & SD, & BCBS MN, MT, NE, ND,& WY",
+        "MedicareBlue Rx",
+        "BCBS MN, MT, NE, ND, WY, Wellmark IA and SD"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WELLMARK  IA & SD, & BCBS MN, MT, NE, ND,& WY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S5743",
+      "is_fpi": false,
+      "parent_fpi": "3f624556-6b2d-55c1-9247-aa5ebe07bae1"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5743-001",
+          "parent_fpi": "3f624556-6b2d-55c1-9247-aa5ebe07bae1",
+          "f_plan_id": "d552f709-6deb-48c2-90c7-de8b0e0469b0",
+          "plan_name": "MedicareBlue Rx Standard (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5743-802",
+          "parent_fpi": "3f624556-6b2d-55c1-9247-aa5ebe07bae1",
+          "f_plan_id": "b2c9bf47-44a1-4ca6-91a3-a506f45169b5",
+          "plan_name": "Group MedicareBlue Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5743-805",
+          "parent_fpi": "3f624556-6b2d-55c1-9247-aa5ebe07bae1",
+          "f_plan_id": "d4f74778-1e62-4f99-8f14-12ccbe2064ba",
+          "plan_name": "Group MedicareBlue Rx MN (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

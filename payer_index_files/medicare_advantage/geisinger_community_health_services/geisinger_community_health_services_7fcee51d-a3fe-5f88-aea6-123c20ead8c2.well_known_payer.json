@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "7fcee51d-a3fe-5f88-aea6-123c20ead8c2",
+      "is_fpi": true,
+      "payerLegalName": "GEISINGER COMMUNITY HEALTH SERVICES",
+      "payer_level_string_search_matches": [
+        "GEISINGER COMMUNITY HEALTH SERVICES",
+        "LIFE Geisinger",
+        "Risant Health, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "GEISINGER COMMUNITY HEALTH SERVICES"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2064",
+      "is_fpi": false,
+      "parent_fpi": "7fcee51d-a3fe-5f88-aea6-123c20ead8c2"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2064-001",
+          "parent_fpi": "7fcee51d-a3fe-5f88-aea6-123c20ead8c2",
+          "f_plan_id": "46c57254-769b-4b00-863c-3ed57d13ec8c",
+          "plan_name": "LIFE Geisinger (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2064-002",
+          "parent_fpi": "7fcee51d-a3fe-5f88-aea6-123c20ead8c2",
+          "f_plan_id": "49d46b9d-e3d5-4abc-8831-faa2e14babde",
+          "plan_name": "LIFE Geisinger (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

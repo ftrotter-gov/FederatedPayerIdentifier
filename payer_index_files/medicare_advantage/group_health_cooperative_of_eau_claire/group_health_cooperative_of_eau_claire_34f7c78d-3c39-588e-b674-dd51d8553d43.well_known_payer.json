@@ -7,6 +7,9 @@
       "value": "34f7c78d-3c39-588e-b674-dd51d8553d43",
       "is_fpi": true,
       "payerLegalName": "GROUP HEALTH COOPERATIVE OF EAU CLAIRE",
+      "payer_level_string_search_matches": [
+        "GROUP HEALTH COOPERATIVE OF EAU CLAIRE"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "GROUP HEALTH COOPERATIVE OF EAU CLAIRE"
     },
@@ -35,7 +38,10 @@
           "plan_name": "Cooperative Medicare Advantage (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.group-health.com/api/plannet",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://ghcmpf.blob.core.windows.net/h7598/2027/index.json"
+      }
     }
   ],
   "is_seeded": true

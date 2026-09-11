@@ -7,6 +7,11 @@
       "value": "b1db4583-cbc8-59d7-ba93-d3294ed80ba2",
       "is_fpi": true,
       "payerLegalName": "ALTERWOOD ADVANTAGE, INC.",
+      "payer_level_string_search_matches": [
+        "ALTERWOOD ADVANTAGE, INC.",
+        "Alterwood Advantage",
+        "LifeBridge Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ALTERWOOD ADVANTAGE, INC."
     },
@@ -63,7 +68,10 @@
           "plan_name": "Alterwood Advantage Select (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api-atwd-prd.safhir.io/v1/api/provider-directory",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://api-atwd-prd.safhir.io/v1/api/provider-directory/cms-hpms-manifest/ATWD-H9306"
+      }
     }
   ],
   "is_seeded": true

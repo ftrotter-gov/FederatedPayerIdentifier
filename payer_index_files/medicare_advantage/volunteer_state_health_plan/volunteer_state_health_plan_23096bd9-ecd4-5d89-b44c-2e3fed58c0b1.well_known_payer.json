@@ -7,6 +7,11 @@
       "value": "23096bd9-ecd4-5d89-b44c-2e3fed58c0b1",
       "is_fpi": true,
       "payerLegalName": "VOLUNTEER STATE HEALTH PLAN",
+      "payer_level_string_search_matches": [
+        "VOLUNTEER STATE HEALTH PLAN",
+        "BlueCare Plus Tennessee",
+        "BlueCross BlueShield of Tennessee"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "VOLUNTEER STATE HEALTH PLAN"
     },
@@ -42,7 +47,10 @@
           "plan_name": "BlueCare Plus Select (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://provider.bcbst.com/cms_assets/fhir/h3259_index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.bcbst.com/r4/providerdirectory/BCBST/metadata"
+      }
     }
   ],
   "is_seeded": true

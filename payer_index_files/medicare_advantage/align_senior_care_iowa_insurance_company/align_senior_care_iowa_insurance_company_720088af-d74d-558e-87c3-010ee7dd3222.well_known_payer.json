@@ -1,0 +1,33 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "720088af-d74d-558e-87c3-010ee7dd3222",
+      "is_fpi": true,
+      "payerLegalName": "ALIGN SENIOR CARE IOWA INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "ALIGN SENIOR CARE IOWA INSURANCE COMPANY"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ALIGN SENIOR CARE IOWA INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4127",
+      "is_fpi": false,
+      "parent_fpi": "720088af-d74d-558e-87c3-010ee7dd3222"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.curanahealth.com/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhirmpf.curanahealth.com/H4127/2027/"
+      }
+    }
+  ],
+  "is_seeded": true
+}

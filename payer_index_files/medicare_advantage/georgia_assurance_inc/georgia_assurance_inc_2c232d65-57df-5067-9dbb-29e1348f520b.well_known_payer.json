@@ -7,6 +7,11 @@
       "value": "2c232d65-57df-5067-9dbb-29e1348f520b",
       "is_fpi": true,
       "payerLegalName": "GEORGIA ASSURANCE, INC.",
+      "payer_level_string_search_matches": [
+        "GEORGIA ASSURANCE, INC.",
+        "Georgia Health Advantage",
+        "Mitchell Family Office"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "GEORGIA ASSURANCE, INC."
     },
@@ -36,6 +41,7 @@
         }
       ],
       "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://directory.amhealthplans.com/mpfdir/H8093/index.json",
         "davinci_pdex_provider_directory_endpoint#1.1": "https://api-ahp-prd.safhir.io/v1/api/provider-directory/metadata"
       }
     }

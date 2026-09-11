@@ -1,0 +1,60 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "9494bf46-99aa-5a88-a286-f7a4ffe06f65",
+      "is_fpi": true,
+      "payerLegalName": "ANTHEM BLUE CROSS LIFE AND HEALTH INS COMPANY",
+      "payer_level_string_search_matches": [
+        "ANTHEM BLUE CROSS LIFE AND HEALTH INS COMPANY",
+        "Anthem Blue Cross Life and Health Insurance Company",
+        "Elevance Health, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ANTHEM BLUE CROSS LIFE AND HEALTH INS COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4704",
+      "is_fpi": false,
+      "parent_fpi": "9494bf46-99aa-5a88-a286-f7a4ffe06f65"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8552",
+      "is_fpi": false,
+      "parent_fpi": "9494bf46-99aa-5a88-a286-f7a4ffe06f65"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4704-001",
+          "parent_fpi": "9494bf46-99aa-5a88-a286-f7a4ffe06f65",
+          "f_plan_id": "6a87c94f-7370-4f47-bd0b-a8f3050ef05c",
+          "plan_name": "Anthem Dual Advantage (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4704-002",
+          "parent_fpi": "9494bf46-99aa-5a88-a286-f7a4ffe06f65",
+          "f_plan_id": "84951fb9-83de-48fc-984a-56a676849f83",
+          "plan_name": "Anthem Dual Advantage 2 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8552-028",
+          "parent_fpi": "9494bf46-99aa-5a88-a286-f7a4ffe06f65",
+          "f_plan_id": "98c0d7c2-9382-4555-babd-2415841e81f2",
+          "plan_name": "Anthem Kidney Care (PPO C-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

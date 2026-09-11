@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "4f934323-1bde-5a82-a310-56febcce6c0e",
+      "is_fpi": true,
+      "payerLegalName": "COMMUNITY CARE, INC.",
+      "payer_level_string_search_matches": [
+        "COMMUNITY CARE, INC.",
+        "Community Care",
+        "CareSource"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "COMMUNITY CARE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5212",
+      "is_fpi": false,
+      "parent_fpi": "4f934323-1bde-5a82-a310-56febcce6c0e"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5212-001",
+          "parent_fpi": "4f934323-1bde-5a82-a310-56febcce6c0e",
+          "f_plan_id": "9d12e74b-c190-43a5-b7b1-9cc2163ea19c",
+          "plan_name": "Community Care's PACE Program (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5212-002",
+          "parent_fpi": "4f934323-1bde-5a82-a310-56febcce6c0e",
+          "f_plan_id": "3bde4596-7cf5-427e-9c5e-fe9bf0be2669",
+          "plan_name": "Community Care's PACE Program (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

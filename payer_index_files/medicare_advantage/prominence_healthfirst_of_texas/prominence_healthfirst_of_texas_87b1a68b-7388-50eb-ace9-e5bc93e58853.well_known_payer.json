@@ -7,6 +7,11 @@
       "value": "87b1a68b-7388-50eb-ace9-e5bc93e58853",
       "is_fpi": true,
       "payerLegalName": "PROMINENCE HEALTHFIRST OF TEXAS",
+      "payer_level_string_search_matches": [
+        "PROMINENCE HEALTHFIRST OF TEXAS",
+        "Prominence Health Plan",
+        "Universal Health Services, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "PROMINENCE HEALTHFIRST OF TEXAS"
     },
@@ -106,20 +111,22 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H7680-801",
-          "parent_fpi": "87b1a68b-7388-50eb-ace9-e5bc93e58853",
-          "f_plan_id": "0057026e-4b2c-487b-8736-3c1e36a12cc0",
-          "plan_name": "Prominence Health Plan (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7680-020",
           "parent_fpi": "87b1a68b-7388-50eb-ace9-e5bc93e58853",
           "f_plan_id": "e4c129b4-095e-49a0-b2b1-723532e7ed9d",
           "plan_name": "Prominence Diabetes and Heart Giveback (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7680-801",
+          "parent_fpi": "87b1a68b-7388-50eb-ace9-e5bc93e58853",
+          "f_plan_id": "0057026e-4b2c-487b-8736-3c1e36a12cc0",
+          "plan_name": "Prominence Health Plan (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://prominencemedicare.com/get-care/find-a-doctor/provider-and-pharmacy-directories/"
+      }
     }
   ],
   "is_seeded": true

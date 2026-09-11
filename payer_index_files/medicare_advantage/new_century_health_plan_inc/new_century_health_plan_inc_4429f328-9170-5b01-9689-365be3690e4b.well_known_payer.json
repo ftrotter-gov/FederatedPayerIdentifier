@@ -7,6 +7,11 @@
       "value": "4429f328-9170-5b01-9689-365be3690e4b",
       "is_fpi": true,
       "payerLegalName": "NEW CENTURY HEALTH PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "NEW CENTURY HEALTH PLAN, INC.",
+        "UCLA Health Medicare Advantage Plan",
+        "The Regents of the University of California"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "NEW CENTURY HEALTH PLAN, INC."
     },
@@ -35,7 +40,9 @@
           "plan_name": "UCLA Health Medicare Advantage Prestige Plan (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-compliance.tst-phynd.com/ucla-health/index.json"
+      }
     }
   ],
   "is_seeded": true

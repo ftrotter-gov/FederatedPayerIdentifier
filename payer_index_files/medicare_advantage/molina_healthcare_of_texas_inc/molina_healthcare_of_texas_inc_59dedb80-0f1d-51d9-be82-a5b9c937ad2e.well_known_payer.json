@@ -7,6 +7,10 @@
       "value": "59dedb80-0f1d-51d9-be82-a5b9c937ad2e",
       "is_fpi": true,
       "payerLegalName": "MOLINA HEALTHCARE OF TEXAS, INC.",
+      "payer_level_string_search_matches": [
+        "MOLINA HEALTHCARE OF TEXAS, INC.",
+        "Molina Healthcare, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "MOLINA HEALTHCARE OF TEXAS, INC."
     },
@@ -60,7 +64,15 @@
           "parent_fpi": "59dedb80-0f1d-51d9-be82-a5b9c937ad2e",
           "f_plan_id": "cd9b7eab-4a22-42b6-b8c9-25a65ad67e6c",
           "plan_name": "Molina Medicare Complete Care Plus (HMO D-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.molinahealthcare.com/cmsjson/378245/MCareFHIR/H6515/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7678-006",
@@ -69,7 +81,10 @@
           "plan_name": "Molina Medicare Complete Care (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.molinahealthcare.com/cmsjson/378245/MCareFHIR/H7678/index.json"
+      }
     }
   ],
   "is_seeded": true

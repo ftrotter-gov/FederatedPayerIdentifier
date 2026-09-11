@@ -7,6 +7,11 @@
       "value": "80b2acbb-a674-5a5d-97fd-e4006d9d2bd9",
       "is_fpi": true,
       "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF DELAWARE",
+      "payer_level_string_search_matches": [
+        "DEVOTED HEALTH INSURANCE COMPANY OF DELAWARE",
+        "Devoted Health",
+        "Devoted Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF DELAWARE"
     },
@@ -43,7 +48,8 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.devoted.com/H0413/2026"
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.devoted.com/fhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.devoted.com/H0413/2027"
       }
     }
   ],

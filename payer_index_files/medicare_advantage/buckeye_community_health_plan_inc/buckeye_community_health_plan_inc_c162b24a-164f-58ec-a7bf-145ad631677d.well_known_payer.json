@@ -7,6 +7,11 @@
       "value": "c162b24a-164f-58ec-a7bf-145ad631677d",
       "is_fpi": true,
       "payerLegalName": "BUCKEYE COMMUNITY HEALTH PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "BUCKEYE COMMUNITY HEALTH PLAN, INC.",
+        "Wellcare",
+        "Centene Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "BUCKEYE COMMUNITY HEALTH PLAN, INC."
     },
@@ -67,7 +72,12 @@
           "parent_fpi": "c162b24a-164f-58ec-a7bf-145ad631677d",
           "f_plan_id": "a26d2db3-a2f1-466b-a371-0ccc098a4299",
           "plan_name": "Wellcare Dual Liberty (HMO-POS D-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {}
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4158-001",
@@ -76,7 +86,10 @@
           "plan_name": "Wellcare Buckeye MyCare Ohio Dual Align (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H4158index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
     }
   ],
   "is_seeded": true

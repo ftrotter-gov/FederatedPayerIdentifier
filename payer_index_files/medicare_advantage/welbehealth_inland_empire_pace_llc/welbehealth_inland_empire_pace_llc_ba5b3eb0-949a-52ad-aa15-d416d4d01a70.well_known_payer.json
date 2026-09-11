@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "ba5b3eb0-949a-52ad-aa15-d416d4d01a70",
+      "is_fpi": true,
+      "payerLegalName": "WELBEHEALTH INLAND EMPIRE PACE, LLC",
+      "payer_level_string_search_matches": [
+        "WELBEHEALTH INLAND EMPIRE PACE, LLC",
+        "WELBEHEALTH",
+        "WelbeHealth LLC."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WELBEHEALTH INLAND EMPIRE PACE, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1917",
+      "is_fpi": false,
+      "parent_fpi": "ba5b3eb0-949a-52ad-aa15-d416d4d01a70"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1917-001",
+          "parent_fpi": "ba5b3eb0-949a-52ad-aa15-d416d4d01a70",
+          "f_plan_id": "c89e059a-2a9c-44b1-a7b1-67dc5b69c797",
+          "plan_name": "WelbeHealth Riverside, Coachella Valley (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1917-002",
+          "parent_fpi": "ba5b3eb0-949a-52ad-aa15-d416d4d01a70",
+          "f_plan_id": "1cc33309-788a-4dfb-91a0-1749a2454154",
+          "plan_name": "WelbeHealth Riverside, Coachella Valley (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

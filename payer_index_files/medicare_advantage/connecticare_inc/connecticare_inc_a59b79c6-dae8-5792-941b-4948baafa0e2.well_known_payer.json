@@ -1,0 +1,75 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "a59b79c6-dae8-5792-941b-4948baafa0e2",
+      "is_fpi": true,
+      "payerLegalName": "CONNECTICARE, INC.",
+      "payer_level_string_search_matches": [
+        "CONNECTICARE, INC.",
+        "ConnectiCare",
+        "Molina Healthcare, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CONNECTICARE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3528",
+      "is_fpi": false,
+      "parent_fpi": "a59b79c6-dae8-5792-941b-4948baafa0e2"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3528-003",
+          "parent_fpi": "a59b79c6-dae8-5792-941b-4948baafa0e2",
+          "f_plan_id": "440530ec-4535-41dc-b268-422f38f8071a",
+          "plan_name": "ConnectiCare Choice Plan 2 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3528-010",
+          "parent_fpi": "a59b79c6-dae8-5792-941b-4948baafa0e2",
+          "f_plan_id": "9ae6d8ec-a343-42a8-814f-43969878b9b6",
+          "plan_name": "ConnectiCare Passage Plan 1 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3528-011",
+          "parent_fpi": "a59b79c6-dae8-5792-941b-4948baafa0e2",
+          "f_plan_id": "900bc4b8-e673-4809-9ca1-e59e69b6aec3",
+          "plan_name": "ConnectiCare Flex Plan 3 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3528-014",
+          "parent_fpi": "a59b79c6-dae8-5792-941b-4948baafa0e2",
+          "f_plan_id": "5347e174-6251-4c9c-964b-2524d680965b",
+          "plan_name": "ConnectiCare Choice Plan 3 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3528-015",
+          "parent_fpi": "a59b79c6-dae8-5792-941b-4948baafa0e2",
+          "f_plan_id": "1d36edae-6845-4e57-afa3-5f45f9c2e822",
+          "plan_name": "ConnectiCare Flex Plan 2 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3528-016",
+          "parent_fpi": "a59b79c6-dae8-5792-941b-4948baafa0e2",
+          "f_plan_id": "da611e78-09a6-4a91-9952-756063bd035a",
+          "plan_name": "ConnectiCare Choice Plan 1 (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

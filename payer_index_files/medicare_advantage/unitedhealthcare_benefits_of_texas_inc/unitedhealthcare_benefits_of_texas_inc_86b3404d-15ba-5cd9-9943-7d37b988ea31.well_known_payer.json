@@ -7,6 +7,11 @@
       "value": "86b3404d-15ba-5cd9-9943-7d37b988ea31",
       "is_fpi": true,
       "payerLegalName": "UnitedHealthcare Benefits of Texas, Inc.",
+      "payer_level_string_search_matches": [
+        "UnitedHealthcare Benefits of Texas, Inc.",
+        "UnitedHealthcare",
+        "UnitedHealth Group, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "UnitedHealthcare Benefits of Texas, Inc."
     },
@@ -382,6 +387,20 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0609-079",
+          "parent_fpi": "86b3404d-15ba-5cd9-9943-7d37b988ea31",
+          "f_plan_id": "f4d7e049-e073-4023-9e99-3b26c6d58de9",
+          "plan_name": "AARP Medicare Advantage from UHC CO-21P (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0609-080",
+          "parent_fpi": "86b3404d-15ba-5cd9-9943-7d37b988ea31",
+          "f_plan_id": "39023444-1a33-4d9b-9275-22ed547daa7c",
+          "plan_name": "AARP Medicare Advantage Extras from UHC TX-48 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0609-801",
           "parent_fpi": "86b3404d-15ba-5cd9-9943-7d37b988ea31",
           "f_plan_id": "a785c703-2dfb-4a76-ae9f-a4cc95d5f0a2",
@@ -498,21 +517,15 @@
           "parent_fpi": "86b3404d-15ba-5cd9-9943-7d37b988ea31",
           "f_plan_id": "893d92e6-cfef-4a1a-8337-16e027125611",
           "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H0609-079",
-          "parent_fpi": "86b3404d-15ba-5cd9-9943-7d37b988ea31",
-          "f_plan_id": "f4d7e049-e073-4023-9e99-3b26c6d58de9",
-          "plan_name": "AARP Medicare Advantage from UHC CO-21P (HMO-POS)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H0609-080",
-          "parent_fpi": "86b3404d-15ba-5cd9-9943-7d37b988ea31",
-          "f_plan_id": "39023444-1a33-4d9b-9275-22ed547daa7c",
-          "plan_name": "AARP Medicare Advantage Extras from UHC TX-48 (HMO-POS)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-mpf.optum-uhc-stage.net/api/cms/plans/H0609/2027",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://flex.optum.com/fhirpublic"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0624-001",
@@ -526,7 +539,15 @@
           "parent_fpi": "86b3404d-15ba-5cd9-9943-7d37b988ea31",
           "f_plan_id": "23e841e0-f40c-42d8-ae97-37583346037a",
           "plan_name": "UHC Dual Complete CO-S4 (HMO-POS D-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-mpf.optum-uhc-stage.net/api/cms/plans/H0624/2027",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://flex.optum.com/fhirpublic"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1360-001",
@@ -547,7 +568,15 @@
           "parent_fpi": "86b3404d-15ba-5cd9-9943-7d37b988ea31",
           "f_plan_id": "cee9b6d6-1537-4374-94a8-fcc253b95e90",
           "plan_name": "UHC Dual Complete NV-S5 (HMO-POS D-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-mpf.optum-uhc-stage.net/api/cms/plans/H1360/2027",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://flex.optum.com/fhirpublic"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3805-001",
@@ -687,7 +716,15 @@
           "parent_fpi": "86b3404d-15ba-5cd9-9943-7d37b988ea31",
           "f_plan_id": "754926fc-55eb-4d1f-8fe1-8054c67d2728",
           "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-mpf.optum-uhc-stage.net/api/cms/plans/H3805/2027",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://flex.optum.com/fhirpublic"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6706-001",
@@ -696,7 +733,10 @@
           "plan_name": "AARP Medicare Advantage from UHC CO-0011 (HMO-POS)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-mpf.optum-uhc-stage.net/api/cms/plans/H6706/2027",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://flex.optum.com/fhirpublic"
+      }
     }
   ],
   "is_seeded": true

@@ -7,6 +7,13 @@
       "value": "5fdd02dc-e85b-58fa-9fc7-e4d6804ea417",
       "is_fpi": true,
       "payerLegalName": "CAREFIRST ADVANTAGE PPO, INC.",
+      "payer_level_string_search_matches": [
+        "CAREFIRST ADVANTAGE PPO, INC.",
+        "CareFirst BlueCross BlueShield Medicare Advantage",
+        "CareFirst, Inc.",
+        "CAREFIRST ADVANTAGE PPO, INC",
+        "CareFirst BlueCross BlueShield Group Prescription Drug Plan"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "CAREFIRST ADVANTAGE PPO, INC."
     },
@@ -15,9 +22,34 @@
       "value": "H7379",
       "is_fpi": false,
       "parent_fpi": "5fdd02dc-e85b-58fa-9fc7-e4d6804ea417"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S0375",
+      "is_fpi": false,
+      "parent_fpi": "5fdd02dc-e85b-58fa-9fc7-e4d6804ea417"
     }
   ],
   "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S0375-801",
+          "parent_fpi": "5fdd02dc-e85b-58fa-9fc7-e4d6804ea417",
+          "f_plan_id": "380ea0fd-ec51-42da-b2a7-6b4340a2e98b",
+          "plan_name": "CareFirst BlueCross BlueShield Group Medicare Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S0375-802",
+          "parent_fpi": "5fdd02dc-e85b-58fa-9fc7-e4d6804ea417",
+          "f_plan_id": "32ea7023-db6d-42b6-adc7-bd856ec9dea0",
+          "plan_name": "CareFirst BlueCross BlueShield Group Medicare Rx (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
     {
       "plan_identifiers": [
         {
@@ -70,7 +102,10 @@
           "plan_name": "CareFirst BlueCross BlueShield Group Advantage (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://www.carefirst.com/medicare-options/json/H7379-2027-index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://mapd-apix.carefirst.com/extfhirproviderdir/v1"
+      }
     }
   ],
   "is_seeded": true

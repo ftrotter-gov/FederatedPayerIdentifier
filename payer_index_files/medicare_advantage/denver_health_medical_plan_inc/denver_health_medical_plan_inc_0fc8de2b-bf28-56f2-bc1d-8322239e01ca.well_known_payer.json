@@ -7,6 +7,11 @@
       "value": "0fc8de2b-bf28-56f2-bc1d-8322239e01ca",
       "is_fpi": true,
       "payerLegalName": "DENVER HEALTH MEDICAL PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "DENVER HEALTH MEDICAL PLAN, INC.",
+        "Elevate Medicare Advantage",
+        "Denver Health and Hospital Authority"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DENVER HEALTH MEDICAL PLAN, INC."
     },
@@ -36,7 +41,8 @@
         }
       ],
       "plan_endpoints": {
-        "cms_provider_directory_machine_readable_format_endpoint": "https://www.denverhealthmedicalplan.org/transparency-coverage/files/DHMP_ProviderRoster_06_11_2026.json"
+        "cms_provider_directory_machine_readable_format_endpoint": "https://www.denverhealthmedicalplan.org/transparency-coverage/files/DHMP_Index_File_09_09_2026.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://www.denverhealthmedicalplan.org/transparency-coverage-co"
       }
     }
   ],

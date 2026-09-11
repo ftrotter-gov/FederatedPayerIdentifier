@@ -7,6 +7,11 @@
       "value": "7501a471-031a-5103-ae44-2c69171eaa98",
       "is_fpi": true,
       "payerLegalName": "PRUITTHEALTH PREMIER NORTH CAROLINA, LLC",
+      "payer_level_string_search_matches": [
+        "PRUITTHEALTH PREMIER NORTH CAROLINA, LLC",
+        "PruittHealth Premier",
+        "UNICO Services, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "PRUITTHEALTH PREMIER NORTH CAROLINA, LLC"
     },
@@ -35,7 +40,10 @@
           "plan_name": "PruittHealth Premier (HMO I-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.curanahealth.com/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhirmpf.curanahealth.com/H6345/2027/"
+      }
     }
   ],
   "is_seeded": true

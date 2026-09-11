@@ -7,6 +7,11 @@
       "value": "3df92505-613b-554c-bc5b-5625cfd2cc56",
       "is_fpi": true,
       "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF KANSAS",
+      "payer_level_string_search_matches": [
+        "DEVOTED HEALTH INSURANCE COMPANY OF KANSAS",
+        "Devoted Health",
+        "Devoted Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF KANSAS"
     },
@@ -71,7 +76,8 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.devoted.com/H4348/2026"
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.devoted.com/fhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.devoted.com/H4348/2027"
       }
     }
   ],

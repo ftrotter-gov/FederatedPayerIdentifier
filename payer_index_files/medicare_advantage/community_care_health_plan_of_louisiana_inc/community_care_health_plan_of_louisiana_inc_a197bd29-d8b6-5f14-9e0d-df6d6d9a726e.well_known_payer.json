@@ -7,6 +7,11 @@
       "value": "a197bd29-d8b6-5f14-9e0d-df6d6d9a726e",
       "is_fpi": true,
       "payerLegalName": "COMMUNITY CARE HEALTH PLAN OF LOUISIANA, INC.",
+      "payer_level_string_search_matches": [
+        "COMMUNITY CARE HEALTH PLAN OF LOUISIANA, INC.",
+        "Healthy Blue",
+        "Elevance Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "COMMUNITY CARE HEALTH PLAN OF LOUISIANA, INC."
     },
@@ -42,7 +47,10 @@
           "plan_name": "Healthy Blue Dual Advantage 2 (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://totalview.healthos.healthybluela.com/cms/H1947/index.json"
+      }
     }
   ],
   "is_seeded": true

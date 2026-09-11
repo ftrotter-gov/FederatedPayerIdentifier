@@ -7,6 +7,11 @@
       "value": "19b9ee07-50ea-5182-80cb-a5167b1e9592",
       "is_fpi": true,
       "payerLegalName": "AMERICAN HEALTH PLAN OF FL, INC.",
+      "payer_level_string_search_matches": [
+        "AMERICAN HEALTH PLAN OF FL, INC.",
+        "American Health Advantage of Florida",
+        "Mitchell Family Office"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AMERICAN HEALTH PLAN OF FL, INC."
     },
@@ -29,6 +34,7 @@
         }
       ],
       "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://directory.amhealthplans.com/mpfdir/H6652/index.json",
         "davinci_pdex_provider_directory_endpoint#1.1": "https://api-ahp-prd.safhir.io/v1/api/provider-directory/metadata"
       }
     }

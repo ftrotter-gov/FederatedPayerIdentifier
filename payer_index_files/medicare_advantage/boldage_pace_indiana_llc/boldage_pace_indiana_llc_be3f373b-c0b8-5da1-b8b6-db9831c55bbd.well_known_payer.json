@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "be3f373b-c0b8-5da1-b8b6-db9831c55bbd",
+      "is_fpi": true,
+      "payerLegalName": "BOLDAGE PACE INDIANA, LLC",
+      "payer_level_string_search_matches": [
+        "BOLDAGE PACE INDIANA, LLC",
+        "BoldAge PACE",
+        "BoldAge PACE, LLC"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BOLDAGE PACE INDIANA, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5080",
+      "is_fpi": false,
+      "parent_fpi": "be3f373b-c0b8-5da1-b8b6-db9831c55bbd"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5080-001",
+          "parent_fpi": "be3f373b-c0b8-5da1-b8b6-db9831c55bbd",
+          "f_plan_id": "4074e057-2e5e-4c57-892b-13593cea1a25",
+          "plan_name": "BoldAge PACE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5080-002",
+          "parent_fpi": "be3f373b-c0b8-5da1-b8b6-db9831c55bbd",
+          "f_plan_id": "c0b87535-2faa-4340-9419-178a0ff44870",
+          "plan_name": "BoldAge - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

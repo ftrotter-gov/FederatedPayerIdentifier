@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "e2859929-7af8-5c51-80aa-1c234e722af4",
+      "is_fpi": true,
+      "payerLegalName": "PACE OF NORTHEAST INDIANA, LLC",
+      "payer_level_string_search_matches": [
+        "PACE OF NORTHEAST INDIANA, LLC",
+        "Aging & In-Home Services of Northeast Indiana, Inc"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PACE OF NORTHEAST INDIANA, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0235",
+      "is_fpi": false,
+      "parent_fpi": "e2859929-7af8-5c51-80aa-1c234e722af4"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0235-001",
+          "parent_fpi": "e2859929-7af8-5c51-80aa-1c234e722af4",
+          "f_plan_id": "d92d8284-2500-4890-9de0-d09d6f4417d7",
+          "plan_name": "PACE of NE IN - Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0235-002",
+          "parent_fpi": "e2859929-7af8-5c51-80aa-1c234e722af4",
+          "f_plan_id": "8e887d62-a18f-4a82-9e8e-6232afa2c595",
+          "plan_name": "PACE of NE IN - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

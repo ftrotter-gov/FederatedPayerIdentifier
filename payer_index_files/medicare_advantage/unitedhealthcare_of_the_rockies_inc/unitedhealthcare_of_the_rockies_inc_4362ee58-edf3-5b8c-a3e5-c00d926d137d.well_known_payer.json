@@ -7,6 +7,11 @@
       "value": "4362ee58-edf3-5b8c-a3e5-c00d926d137d",
       "is_fpi": true,
       "payerLegalName": "UNITEDHEALTHCARE OF THE ROCKIES, INC.",
+      "payer_level_string_search_matches": [
+        "UNITEDHEALTHCARE OF THE ROCKIES, INC.",
+        "UnitedHealthcare",
+        "UnitedHealth Group, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "UNITEDHEALTHCARE OF THE ROCKIES, INC."
     },
@@ -39,7 +44,15 @@
           "parent_fpi": "4362ee58-edf3-5b8c-a3e5-c00d926d137d",
           "f_plan_id": "98cca3d8-3550-4671-afed-3e9704829740",
           "plan_name": "UHC Dual Complete ID-Q1 (HMO-POS D-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-mpf.optum-uhc-stage.net/api/cms/plans/H4032/2027",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://flex.optum.com/fhirpublic"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4604-003",
@@ -202,7 +215,10 @@
           "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-mpf.optum-uhc-stage.net/api/cms/plans/H4604/2027",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://flex.optum.com/fhirpublic"
+      }
     }
   ],
   "is_seeded": true

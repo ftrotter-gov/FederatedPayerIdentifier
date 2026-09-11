@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "162eddea-c52d-5962-98f9-2c3355758db3",
+      "is_fpi": true,
+      "payerLegalName": "REID HOSPITAL & HEALTH CARE SERVICES, INC.",
+      "payer_level_string_search_matches": [
+        "REID HOSPITAL & HEALTH CARE SERVICES, INC.",
+        "Reid Health PACE Center"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "REID HOSPITAL & HEALTH CARE SERVICES, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3522",
+      "is_fpi": false,
+      "parent_fpi": "162eddea-c52d-5962-98f9-2c3355758db3"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3522-001",
+          "parent_fpi": "162eddea-c52d-5962-98f9-2c3355758db3",
+          "f_plan_id": "632ce411-3648-4fe2-9f5b-3b51f8e62379",
+          "plan_name": "Reid Health PACE Center (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3522-002",
+          "parent_fpi": "162eddea-c52d-5962-98f9-2c3355758db3",
+          "f_plan_id": "a69d0e17-16de-4662-9f08-451ace5dfef5",
+          "plan_name": "Reid Health PACE Center (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

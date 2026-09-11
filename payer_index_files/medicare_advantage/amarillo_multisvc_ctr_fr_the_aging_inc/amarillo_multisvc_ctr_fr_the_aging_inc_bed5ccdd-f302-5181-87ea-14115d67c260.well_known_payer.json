@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "bed5ccdd-f302-5181-87ea-14115d67c260",
+      "is_fpi": true,
+      "payerLegalName": "AMARILLO MULTISVC CTR FR THE AGING INC",
+      "payer_level_string_search_matches": [
+        "AMARILLO MULTISVC CTR FR THE AGING INC",
+        "The Basics at Jan Werner"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "AMARILLO MULTISVC CTR FR THE AGING INC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4517",
+      "is_fpi": false,
+      "parent_fpi": "bed5ccdd-f302-5181-87ea-14115d67c260"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4517-001",
+          "parent_fpi": "bed5ccdd-f302-5181-87ea-14115d67c260",
+          "f_plan_id": "f892cef7-4613-48dc-9454-8b3194f32f7d",
+          "plan_name": "DUAL ELIGIBLE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4517-002",
+          "parent_fpi": "bed5ccdd-f302-5181-87ea-14115d67c260",
+          "f_plan_id": "6997aed0-4e1f-4f1b-b4c9-faf3eae4b699",
+          "plan_name": "MEDICARE ONLY (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -7,6 +7,11 @@
       "value": "ae722784-bbbc-592f-8849-04c7dfc70e44",
       "is_fpi": true,
       "payerLegalName": "ARKANSAS HEALTH & WELLNESS HEALTH PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "ARKANSAS HEALTH & WELLNESS HEALTH PLAN, INC.",
+        "Wellcare",
+        "Centene Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ARKANSAS HEALTH & WELLNESS HEALTH PLAN, INC."
     },
@@ -63,7 +68,10 @@
           "plan_name": "Wellcare Patriot Giveback Preferred (HMO-POS)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H9630index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
     }
   ],
   "is_seeded": true

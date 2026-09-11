@@ -1,0 +1,236 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+      "is_fpi": true,
+      "payerLegalName": "MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION",
+      "payer_level_string_search_matches": [
+        "MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION",
+        "Blue Cross and Blue Shield of IL, NM, OK, TX",
+        "Health Care Service Corporation"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MEDCO CONTAINMENT LIFE & MEDCO CONTAINMENT NY & HEALTH CARE SERVICE CORPORATION"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S5715",
+      "is_fpi": false,
+      "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5715-001",
+          "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+          "f_plan_id": "d482da3b-6790-469e-8ae4-0acc752d116b",
+          "plan_name": "Blue Cross MedicareRx Value (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5715-005",
+          "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+          "f_plan_id": "0be1f26b-ca47-4859-9cdd-ba4ff12d4349",
+          "plan_name": "Blue Cross MedicareRx Value (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5715-010",
+          "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+          "f_plan_id": "5a00db56-e98d-4f9e-93dd-699106f8faef",
+          "plan_name": "Blue Cross MedicareRx Value (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5715-012",
+          "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+          "f_plan_id": "885dbe28-9b2d-44e3-ab6f-ee7abe9291e9",
+          "plan_name": "Blue Cross MedicareRx Basic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5715-013",
+          "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+          "f_plan_id": "be7c555f-9995-4b7b-864e-fd21da53aefc",
+          "plan_name": "Blue Cross MedicareRx Basic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5715-014",
+          "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+          "f_plan_id": "0732a9bf-c28d-49e8-950f-dea941c896ae",
+          "plan_name": "Blue Cross MedicareRx Basic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5715-015",
+          "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+          "f_plan_id": "74667d26-4b5e-49d0-84ad-dec44a8e8da9",
+          "plan_name": "Blue Cross MedicareRx Basic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5715-020",
+          "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+          "f_plan_id": "7004be79-0d61-4528-95e0-f2bcf52fd322",
+          "plan_name": "Blue Cross MedicareRx Value (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5715-801",
+          "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+          "f_plan_id": "ea6f03b6-6a53-4dda-b533-db155f6765cd",
+          "plan_name": "Blue Cross Group MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5715-802",
+          "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+          "f_plan_id": "fb9437a8-38e9-490f-9e80-c994e431e24a",
+          "plan_name": "Blue Cross Group MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5715-803",
+          "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+          "f_plan_id": "31f55076-0699-4531-8ef4-1454bb8ad66c",
+          "plan_name": "Blue Cross Group MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5715-807",
+          "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+          "f_plan_id": "a72a99ea-f910-4f29-ae0d-1fdd09a7aa04",
+          "plan_name": "Blue Cross Group MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5715-809",
+          "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+          "f_plan_id": "1aab0f71-467b-4e9c-abac-3f710b4e0423",
+          "plan_name": "Blue Cross Group MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5715-811",
+          "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+          "f_plan_id": "9c7c7b24-0cb9-4e52-9765-57420efde71d",
+          "plan_name": "Blue Cross Group MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5715-813",
+          "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+          "f_plan_id": "ab73f352-72d2-4372-a6ae-b6dca6c02a9b",
+          "plan_name": "Blue Cross Group MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5715-815",
+          "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+          "f_plan_id": "5ccaba78-7e19-4d1d-afb6-594ea417a3d0",
+          "plan_name": "Blue Cross Group MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5715-817",
+          "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+          "f_plan_id": "94ea1f1e-5c96-47b8-9354-828751202bc4",
+          "plan_name": "Blue Cross Group MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5715-818",
+          "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+          "f_plan_id": "e6587f5e-2103-43a5-9a7c-6a435e644638",
+          "plan_name": "Blue Cross Group MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5715-819",
+          "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+          "f_plan_id": "4951a199-4401-4896-8774-9f97bca1e689",
+          "plan_name": "Blue Cross Group MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5715-820",
+          "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+          "f_plan_id": "f725d718-865d-43e7-adb6-efa1a7b42abc",
+          "plan_name": "Blue Cross Group MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5715-821",
+          "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+          "f_plan_id": "a77b7113-b8cb-4a49-909c-6a9827cced20",
+          "plan_name": "Blue Cross Group MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5715-822",
+          "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+          "f_plan_id": "39752ef1-fd88-4202-ac70-fa7f6193d183",
+          "plan_name": "Blue Cross Group MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5715-823",
+          "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+          "f_plan_id": "469ef12d-f925-43bf-888e-ecfe0c7e46cf",
+          "plan_name": "Blue Cross Group MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5715-824",
+          "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+          "f_plan_id": "120553f6-2c75-471f-9c2a-afe0e4cf76cf",
+          "plan_name": "Blue Cross Group MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5715-825",
+          "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+          "f_plan_id": "8213485f-4f19-44da-9b96-b6fa756ed805",
+          "plan_name": "Blue Cross Group MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5715-826",
+          "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+          "f_plan_id": "d2b59e59-0d89-4f51-9735-797f2ce028d1",
+          "plan_name": "Blue Cross Group MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5715-827",
+          "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+          "f_plan_id": "89fc863a-ba00-4213-982e-80f5cbb786e2",
+          "plan_name": "Blue Cross Group MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5715-828",
+          "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+          "f_plan_id": "5306a346-0bb8-4d82-9bac-8ef74d94876d",
+          "plan_name": "Blue Cross Group MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5715-829",
+          "parent_fpi": "a7ce6ba0-c7c0-5b83-a23b-639a8be0b867",
+          "f_plan_id": "90052030-959f-4253-a945-96457be24f58",
+          "plan_name": "Blue Cross Group MedicareRx (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

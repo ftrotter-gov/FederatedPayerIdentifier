@@ -7,6 +7,11 @@
       "value": "7ad24516-feda-5649-94fd-22a31b238622",
       "is_fpi": true,
       "payerLegalName": "PRIORITY HEALTH CHOICE, INC.",
+      "payer_level_string_search_matches": [
+        "PRIORITY HEALTH CHOICE, INC.",
+        "Priority Health Medicare",
+        "Corewell Health"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "PRIORITY HEALTH CHOICE, INC."
     },
@@ -35,7 +40,10 @@
           "plan_name": "PriorityMedicare Dual Premier (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://eppoa.spectrumhealth.org/FHIRProxy/api/FHIR/BulkPublish/Public/H8379_2027/MPF",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://eppoa.spectrumhealth.org/FHIRProxy/api/FHIR/BulkPublish/Public/H8379_2027/MPF"
+      }
     }
   ],
   "is_seeded": true

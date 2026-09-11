@@ -7,6 +7,11 @@
       "value": "d5568d7e-fe22-572b-9e58-444a992d906d",
       "is_fpi": true,
       "payerLegalName": "ABSOLUTE TOTAL CARE, INC.",
+      "payer_level_string_search_matches": [
+        "ABSOLUTE TOTAL CARE, INC.",
+        "Wellcare",
+        "Centene Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ABSOLUTE TOTAL CARE, INC."
     },
@@ -28,7 +33,10 @@
           "plan_name": "Wellcare Absolute Total Care Dual Align (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H5272index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
     }
   ],
   "is_seeded": true

@@ -7,6 +7,11 @@
       "value": "e128f224-c22a-5b2f-a165-46d1966bc0c9",
       "is_fpi": true,
       "payerLegalName": "MOLINA HEALTHCARE OF SOUTH CAROLINA,INC",
+      "payer_level_string_search_matches": [
+        "MOLINA HEALTHCARE OF SOUTH CAROLINA,INC",
+        "Molina Healthcare of South Carolina",
+        "Molina Healthcare, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "MOLINA HEALTHCARE OF SOUTH CAROLINA,INC"
     },
@@ -28,7 +33,10 @@
           "plan_name": "Molina Medicare Complete Care Plus (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.molinahealthcare.com/cmsjson/378245/MCareFHIR/H8176/index.json"
+      }
     }
   ],
   "is_seeded": true

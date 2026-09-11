@@ -7,6 +7,11 @@
       "value": "5f615172-4d3d-502e-9e87-6383504566cf",
       "is_fpi": true,
       "payerLegalName": "WEST VIRGINIA SENIOR ADVANTAGE, INC.",
+      "payer_level_string_search_matches": [
+        "WEST VIRGINIA SENIOR ADVANTAGE, INC.",
+        "West Virginia Senior Advantage",
+        "SNP Holdings, LLC"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "WEST VIRGINIA SENIOR ADVANTAGE, INC."
     },
@@ -28,7 +33,10 @@
           "plan_name": "WV Senior Advantage (HMO I-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://wvsa.pdjson-h9153.prd.healixcloud.net/index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://wvsa.fp-h9153.prd.healixcloud.net/pd/fhir/Practitioner?_count=10"
+      }
     }
   ],
   "is_seeded": true

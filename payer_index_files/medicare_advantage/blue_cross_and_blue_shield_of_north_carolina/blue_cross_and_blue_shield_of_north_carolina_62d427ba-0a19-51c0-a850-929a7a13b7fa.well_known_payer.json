@@ -7,6 +7,11 @@
       "value": "62d427ba-0a19-51c0-a850-929a7a13b7fa",
       "is_fpi": true,
       "payerLegalName": "BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA",
+      "payer_level_string_search_matches": [
+        "BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA",
+        "CuraCor Solutions Corp.",
+        "Experience Health"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA"
     },
@@ -24,12 +29,64 @@
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3777",
+      "is_fpi": false,
+      "parent_fpi": "62d427ba-0a19-51c0-a850-929a7a13b7fa"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
       "value": "H9147",
+      "is_fpi": false,
+      "parent_fpi": "62d427ba-0a19-51c0-a850-929a7a13b7fa"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S5540",
       "is_fpi": false,
       "parent_fpi": "62d427ba-0a19-51c0-a850-929a7a13b7fa"
     }
   ],
   "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3777-002",
+          "parent_fpi": "62d427ba-0a19-51c0-a850-929a7a13b7fa",
+          "f_plan_id": "93602c7c-c002-4617-a492-058e98d225d1",
+          "plan_name": "Experience Health Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5540-002",
+          "parent_fpi": "62d427ba-0a19-51c0-a850-929a7a13b7fa",
+          "f_plan_id": "13cbc4b5-676c-4d0c-82de-697747f2e24c",
+          "plan_name": "Blue Medicare Rx Standard (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5540-004",
+          "parent_fpi": "62d427ba-0a19-51c0-a850-929a7a13b7fa",
+          "f_plan_id": "d3fc1514-5fa5-4ec5-9d7b-10ff0961b3cc",
+          "plan_name": "Blue Medicare Rx Enhanced (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5540-803",
+          "parent_fpi": "62d427ba-0a19-51c0-a850-929a7a13b7fa",
+          "f_plan_id": "4661add6-2a6d-44ea-b739-bb656a9ee842",
+          "plan_name": "Blue Medicare Rx EGWP Complete (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5540-804",
+          "parent_fpi": "62d427ba-0a19-51c0-a850-929a7a13b7fa",
+          "f_plan_id": "7af4064e-8c6a-448e-a2c7-61fc75c1bae5",
+          "plan_name": "Blue Medicare Rx EGWP HCE COE (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
     {
       "plan_identifiers": [
         {
@@ -66,7 +123,15 @@
           "parent_fpi": "62d427ba-0a19-51c0-a850-929a7a13b7fa",
           "f_plan_id": "1f6375da-8719-4e62-8d49-d59914ed397b",
           "plan_name": "Blue Medicare PPO EGWP Classic (PPO)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://bcbsnc.sapphirecareselect.com/fhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.sapphirecareselect.com/fhir/mpf/ma/bcbsnc/H3404/2027/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3449-012",
@@ -122,7 +187,15 @@
           "parent_fpi": "62d427ba-0a19-51c0-a850-929a7a13b7fa",
           "f_plan_id": "3284ed85-b89d-4551-9c2c-e602b562e118",
           "plan_name": "Blue Medicare HMO EGWP Classic (HMO)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://bcbsnc.sapphirecareselect.com/fhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.sapphirecareselect.com/fhir/mpf/ma/bcbsnc/H3449/2027/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9147-001",
@@ -131,7 +204,10 @@
           "plan_name": "Healthy Blue + Medicare (HMO-POS D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://bcbsnc.sapphirecareselect.com/fhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.sapphirecareselect.com/fhir/mpf/ma/bcbsnc/H9147/2027/index.json"
+      }
     }
   ],
   "is_seeded": true

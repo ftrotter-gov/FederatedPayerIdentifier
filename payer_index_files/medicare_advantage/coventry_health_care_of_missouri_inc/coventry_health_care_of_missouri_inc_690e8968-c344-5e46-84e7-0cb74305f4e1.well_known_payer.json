@@ -7,6 +7,11 @@
       "value": "690e8968-c344-5e46-84e7-0cb74305f4e1",
       "is_fpi": true,
       "payerLegalName": "COVENTRY HEALTH CARE OF MISSOURI, INC.",
+      "payer_level_string_search_matches": [
+        "COVENTRY HEALTH CARE OF MISSOURI, INC.",
+        "Aetna Medicare",
+        "CVS Health Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "COVENTRY HEALTH CARE OF MISSOURI, INC."
     },
@@ -204,13 +209,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H2663-805",
-          "parent_fpi": "690e8968-c344-5e46-84e7-0cb74305f4e1",
-          "f_plan_id": "b605a6b3-41e7-4f44-a89e-94d43fcfd8e0",
-          "plan_name": "Aetna Medicare Plan (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2663-097",
           "parent_fpi": "690e8968-c344-5e46-84e7-0cb74305f4e1",
           "f_plan_id": "37faf91f-642a-4045-8d11-37884698d4b1",
@@ -250,10 +248,17 @@
           "parent_fpi": "690e8968-c344-5e46-84e7-0cb74305f4e1",
           "f_plan_id": "671c4f43-f823-4180-a6aa-e7c78c2e722c",
           "plan_name": "Aetna Medicare Signature (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2663-805",
+          "parent_fpi": "690e8968-c344-5e46-84e7-0cb74305f4e1",
+          "f_plan_id": "b605a6b3-41e7-4f44-a89e-94d43fcfd8e0",
+          "plan_name": "Aetna Medicare Plan (HMO)"
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.aetna.com/interoperability/2027/H2663/index.json"
       }
     }
   ],

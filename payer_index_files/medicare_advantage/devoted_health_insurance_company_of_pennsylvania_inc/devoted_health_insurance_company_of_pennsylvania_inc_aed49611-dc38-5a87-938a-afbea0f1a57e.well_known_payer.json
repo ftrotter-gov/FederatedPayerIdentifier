@@ -7,6 +7,11 @@
       "value": "aed49611-dc38-5a87-938a-afbea0f1a57e",
       "is_fpi": true,
       "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF PENNSYLVANIA INC",
+      "payer_level_string_search_matches": [
+        "DEVOTED HEALTH INSURANCE COMPANY OF PENNSYLVANIA INC",
+        "Devoted Health",
+        "Devoted Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF PENNSYLVANIA INC"
     },
@@ -64,7 +69,8 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.devoted.com/H6018/2026"
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.devoted.com/fhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.devoted.com/H6018/2027"
       }
     }
   ],

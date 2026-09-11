@@ -7,6 +7,11 @@
       "value": "e77f21f9-e818-5c56-b3d0-c779f3b6fb6c",
       "is_fpi": true,
       "payerLegalName": "MOLINA HEALTHCARE OF KENTUCKY, INC.",
+      "payer_level_string_search_matches": [
+        "MOLINA HEALTHCARE OF KENTUCKY, INC.",
+        "Passport Advantage",
+        "Molina Healthcare, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "MOLINA HEALTHCARE OF KENTUCKY, INC."
     },
@@ -42,7 +47,10 @@
           "plan_name": "Molina Medicare Complete Care (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.molinahealthcare.com/cmsjson/378245/MCareFHIR/H1799/index.json"
+      }
     }
   ],
   "is_seeded": true

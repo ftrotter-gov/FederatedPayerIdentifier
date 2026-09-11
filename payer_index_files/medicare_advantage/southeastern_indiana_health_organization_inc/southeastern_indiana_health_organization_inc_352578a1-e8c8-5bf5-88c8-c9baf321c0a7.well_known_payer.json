@@ -7,6 +7,11 @@
       "value": "352578a1-e8c8-5bf5-88c8-c9baf321c0a7",
       "is_fpi": true,
       "payerLegalName": "SOUTHEASTERN INDIANA HEALTH ORGANIZATION, INC.",
+      "payer_level_string_search_matches": [
+        "SOUTHEASTERN INDIANA HEALTH ORGANIZATION, INC.",
+        "MyTruAdvantage",
+        "SIHO Holding, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SOUTHEASTERN INDIANA HEALTH ORGANIZATION, INC."
     },
@@ -32,6 +37,21 @@
           "parent_fpi": "352578a1-e8c8-5bf5-88c8-c9baf321c0a7",
           "f_plan_id": "1ab795c6-3c0a-4abe-a21f-0c0050734dd7",
           "plan_name": "MyTruAdvantage Select (HMO)"
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://stmapdirexportprdeus2.z20.web.core.windows.net/mpf-provider-directory/2027/H6529/index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fa-itae-provportal-prd-eus2-egg3gpcxawceeggf.eastus2-01.azurewebsites.net/api/prov-search"
+      }
+    },
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9042-004",
+          "parent_fpi": "352578a1-e8c8-5bf5-88c8-c9baf321c0a7",
+          "f_plan_id": "b2fe02ca-0388-4a7e-85ab-ee22b95ef4e0",
+          "plan_name": "MyTruAdvantage Choice Complete (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -46,16 +66,12 @@
           "parent_fpi": "352578a1-e8c8-5bf5-88c8-c9baf321c0a7",
           "f_plan_id": "f5e9ba50-4ad1-400f-ae64-50898ddad0be",
           "plan_name": "Red, White and Tru (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H9042-004",
-          "parent_fpi": "352578a1-e8c8-5bf5-88c8-c9baf321c0a7",
-          "f_plan_id": "b2fe02ca-0388-4a7e-85ab-ee22b95ef4e0",
-          "plan_name": "MyTruAdvantage Choice Complete (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://stmapdirexportprdeus2.z20.web.core.windows.net/mpf-provider-directory/2027/H9042/index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fa-itae-provportal-prd-eus2-egg3gpcxawceeggf.eastus2-01.azurewebsites.net/api/prov-search"
+      }
     }
   ],
   "is_seeded": true

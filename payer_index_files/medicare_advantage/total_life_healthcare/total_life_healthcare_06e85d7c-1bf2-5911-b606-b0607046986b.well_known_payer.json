@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "06e85d7c-1bf2-5911-b606-b0607046986b",
+      "is_fpi": true,
+      "payerLegalName": "TOTAL LIFE HEALTHCARE",
+      "payer_level_string_search_matches": [
+        "TOTAL LIFE HEALTHCARE",
+        "St. Bernard's Healthcare"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "TOTAL LIFE HEALTHCARE"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4305",
+      "is_fpi": false,
+      "parent_fpi": "06e85d7c-1bf2-5911-b606-b0607046986b"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4305-001",
+          "parent_fpi": "06e85d7c-1bf2-5911-b606-b0607046986b",
+          "f_plan_id": "fbfd77b1-9bb6-4a46-a8b8-43ce32d1094a",
+          "plan_name": "Total Life Healthcare Dual (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4305-002",
+          "parent_fpi": "06e85d7c-1bf2-5911-b606-b0607046986b",
+          "f_plan_id": "9619b076-c1ea-4713-9b88-2fe3c82a35c8",
+          "plan_name": "Total Life Healthcare Medicare only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

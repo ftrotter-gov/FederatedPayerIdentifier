@@ -7,6 +7,11 @@
       "value": "76997d1c-b107-5702-ada9-45e3d82c6e38",
       "is_fpi": true,
       "payerLegalName": "PACIFICSOURCE COMMUNITY HEALTH PLANS",
+      "payer_level_string_search_matches": [
+        "PACIFICSOURCE COMMUNITY HEALTH PLANS",
+        "PacificSource Medicare",
+        "PacificSource"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "PACIFICSOURCE COMMUNITY HEALTH PLANS"
     },
@@ -15,9 +20,48 @@
       "value": "H3864",
       "is_fpi": false,
       "parent_fpi": "76997d1c-b107-5702-ada9-45e3d82c6e38"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4754",
+      "is_fpi": false,
+      "parent_fpi": "76997d1c-b107-5702-ada9-45e3d82c6e38"
     }
   ],
   "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4754-004",
+          "parent_fpi": "76997d1c-b107-5702-ada9-45e3d82c6e38",
+          "f_plan_id": "9d4342a2-7556-4ab3-9a04-e9a37e480faa",
+          "plan_name": "PacificSource Medicare Explorer Rx 4 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4754-006",
+          "parent_fpi": "76997d1c-b107-5702-ada9-45e3d82c6e38",
+          "f_plan_id": "1b38243a-0b00-42d0-aa9f-d960616906fc",
+          "plan_name": "PacificSource Medicare Explorer 6 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4754-801",
+          "parent_fpi": "76997d1c-b107-5702-ada9-45e3d82c6e38",
+          "f_plan_id": "869d0675-ce26-451d-8dc9-30cddc6fa47d",
+          "plan_name": "PacificSource Medicare Explorer 801 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4754-802",
+          "parent_fpi": "76997d1c-b107-5702-ada9-45e3d82c6e38",
+          "f_plan_id": "5cc6ac32-4b75-4adf-b72a-4067a196a07f",
+          "plan_name": "PacificSource Medicare Explorer Rx 802 (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
     {
       "plan_identifiers": [
         {
@@ -106,13 +150,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H3864-045",
-          "parent_fpi": "76997d1c-b107-5702-ada9-45e3d82c6e38",
-          "f_plan_id": "ecefeabe-886b-48a9-898f-29a7ce7dbc1b",
-          "plan_name": "PacificSource Dual Care Alliance (HMO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3864-801",
           "parent_fpi": "76997d1c-b107-5702-ada9-45e3d82c6e38",
           "f_plan_id": "f4add4c0-cb0a-407d-ad88-5979abf1e1c1",
@@ -140,7 +177,10 @@
           "plan_name": "PacificSource Medicare Essentials Rx 806 (HMO-POS)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://enroll.pacificsource.com/MRFMCR/cms-data-index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.apim.pacificsource.com/fhir/provider/R4/Practitioner"
+      }
     }
   ],
   "is_seeded": true

@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "70981a1b-6f9b-591c-b3f1-013bafde1847",
+      "is_fpi": true,
+      "payerLegalName": "HOPE HOSPICE AND COMMUNITY SERVICES, INC.",
+      "payer_level_string_search_matches": [
+        "HOPE HOSPICE AND COMMUNITY SERVICES, INC.",
+        "Hope PACE",
+        "Chapters Health System, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HOPE HOSPICE AND COMMUNITY SERVICES, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5934",
+      "is_fpi": false,
+      "parent_fpi": "70981a1b-6f9b-591c-b3f1-013bafde1847"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5934-001",
+          "parent_fpi": "70981a1b-6f9b-591c-b3f1-013bafde1847",
+          "f_plan_id": "50b21c2d-5111-4e0e-b68f-56a6b4ca35ea",
+          "plan_name": "Hope PACE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5934-002",
+          "parent_fpi": "70981a1b-6f9b-591c-b3f1-013bafde1847",
+          "f_plan_id": "99e78e89-4878-4e41-b2a2-6660e375aa4c",
+          "plan_name": "Hope PACE (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

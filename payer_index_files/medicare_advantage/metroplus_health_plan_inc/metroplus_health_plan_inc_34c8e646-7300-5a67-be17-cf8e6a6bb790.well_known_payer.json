@@ -7,6 +7,11 @@
       "value": "34c8e646-7300-5a67-be17-cf8e6a6bb790",
       "is_fpi": true,
       "payerLegalName": "METROPLUS HEALTH PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "METROPLUS HEALTH PLAN, INC.",
+        "MetroPlus Health Plan",
+        "New York City Health and Hospitals Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "METROPLUS HEALTH PLAN, INC."
     },
@@ -42,7 +47,10 @@
           "plan_name": "MetroPlus UltraCare (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://saeastmrfb2b.blob.core.windows.net/mrf-files/MAPROVIDERS_CODES_2027_20260701.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://interop.metroplus.org:9443/fhir/r4/providerdirectory"
+      }
     }
   ],
   "is_seeded": true

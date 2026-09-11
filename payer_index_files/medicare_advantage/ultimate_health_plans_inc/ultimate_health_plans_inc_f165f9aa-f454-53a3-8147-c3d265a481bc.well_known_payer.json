@@ -7,6 +7,11 @@
       "value": "f165f9aa-f454-53a3-8147-c3d265a481bc",
       "is_fpi": true,
       "payerLegalName": "ULTIMATE HEALTH PLANS, INC.",
+      "payer_level_string_search_matches": [
+        "ULTIMATE HEALTH PLANS, INC.",
+        "Ultimate Health Plans",
+        "Ultimate Healthcare Holdings, LLC"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ULTIMATE HEALTH PLANS, INC."
     },
@@ -133,7 +138,10 @@
           "plan_name": "Advantage Care by Ultimate (HMO C-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.aaneelconnect.com/cms/r4/ultimate-provider-directory-2027",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://stgeusconnectprdsa002.blob.core.windows.net/uhp-providerdirectory-2026/index.json"
+      }
     }
   ],
   "is_seeded": true

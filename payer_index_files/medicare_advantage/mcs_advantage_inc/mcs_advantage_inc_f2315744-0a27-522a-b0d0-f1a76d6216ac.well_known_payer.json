@@ -7,6 +7,11 @@
       "value": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
       "is_fpi": true,
       "payerLegalName": "MCS ADVANTAGE, INC.",
+      "payer_level_string_search_matches": [
+        "MCS ADVANTAGE, INC.",
+        "MCS Classicare",
+        "MHH Healthcare, L.P."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "MCS ADVANTAGE, INC."
     },
@@ -120,6 +125,27 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-060",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "843cad66-f722-4d31-923c-29966901419b",
+          "plan_name": "MCS Classicare Estrella (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-061",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "2b13dcaf-1d8e-40df-bc39-5a4dd9679016",
+          "plan_name": "MCS Classicare Platino Superior (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5577-062",
+          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
+          "f_plan_id": "ea1110f8-cfd3-4a9b-a941-55f4b3236966",
+          "plan_name": "MCS Classicare Platino 185 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5577-801",
           "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
           "f_plan_id": "1eabddbb-a6ef-4ae2-92cd-fbfc3302db4e",
@@ -204,27 +230,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5577-060",
-          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
-          "f_plan_id": "843cad66-f722-4d31-923c-29966901419b",
-          "plan_name": "MCS Classicare Estrella (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5577-061",
-          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
-          "f_plan_id": "2b13dcaf-1d8e-40df-bc39-5a4dd9679016",
-          "plan_name": "MCS Classicare Platino Superior (HMO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5577-062",
-          "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
-          "f_plan_id": "ea1110f8-cfd3-4a9b-a941-55f4b3236966",
-          "plan_name": "MCS Classicare Platino 185 (HMO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5577-833",
           "parent_fpi": "f2315744-0a27-522a-b0d0-f1a76d6216ac",
           "f_plan_id": "27374d55-5aca-462c-a11e-43d87fe13c5f",
@@ -266,7 +271,10 @@
           "plan_name": "MCS Classicare MA-PD Group 2Q (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.mcsfhir.com/r4/public/Practitioner",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://gateway.1up.health/v1/mcs/r4/public/mpf/H5577-CY2027/index.json"
+      }
     }
   ],
   "is_seeded": true

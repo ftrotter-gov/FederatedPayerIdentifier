@@ -7,6 +7,11 @@
       "value": "d6799be6-ce1d-58d0-b114-8d4711e7d92d",
       "is_fpi": true,
       "payerLegalName": "AETNA BETTER HEALTH OF OKLAHOMA INC.",
+      "payer_level_string_search_matches": [
+        "AETNA BETTER HEALTH OF OKLAHOMA INC.",
+        "Aetna Medicare",
+        "CVS Health Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AETNA BETTER HEALTH OF OKLAHOMA INC."
     },
@@ -43,7 +48,7 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.aetna.com/interoperability/2027/H4835/index.json"
       }
     }
   ],

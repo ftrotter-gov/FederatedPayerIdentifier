@@ -7,6 +7,11 @@
       "value": "d200dd80-cef2-5f2d-973f-8c34cfcf9779",
       "is_fpi": true,
       "payerLegalName": "HEALTHKEEPERS, INC.",
+      "payer_level_string_search_matches": [
+        "HEALTHKEEPERS, INC.",
+        "Anthem HealthKeepers",
+        "Elevance Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HEALTHKEEPERS, INC."
     },
@@ -129,6 +134,13 @@
           "parent_fpi": "d200dd80-cef2-5f2d-973f-8c34cfcf9779",
           "f_plan_id": "d183038b-f623-4071-a528-b892bc2726a6",
           "plan_name": "Anthem Full Dual Advantage 2 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3447-056",
+          "parent_fpi": "d200dd80-cef2-5f2d-973f-8c34cfcf9779",
+          "f_plan_id": "f3808d8c-939c-4751-9ca8-705e847b57a7",
+          "plan_name": "Anthem Chronic Care (HMO-POS C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -255,14 +267,15 @@
           "parent_fpi": "d200dd80-cef2-5f2d-973f-8c34cfcf9779",
           "f_plan_id": "29a024fe-c9ed-4172-b222-6a5db28f7c39",
           "plan_name": "Anthem Senior Advantage (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H3447-056",
-          "parent_fpi": "d200dd80-cef2-5f2d-973f-8c34cfcf9779",
-          "f_plan_id": "f3808d8c-939c-4751-9ca8-705e847b57a7",
-          "plan_name": "Anthem Chronic Care (HMO-POS C-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://totalview.healthos.anthem.com/cms/H3447/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4694-001",
@@ -290,7 +303,15 @@
           "parent_fpi": "d200dd80-cef2-5f2d-973f-8c34cfcf9779",
           "f_plan_id": "2c402a51-9162-4bb2-8e37-f0d672027ae4",
           "plan_name": "Anthem Full Dual Advantage (HMO D-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://totalview.healthos.anthem.com/cms/H4694/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7220-004",
@@ -313,7 +334,10 @@
           "plan_name": "Anthem Medicare Advantage 4 (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://totalview.healthos.anthem.com/cms/H7220/index.json"
+      }
     }
   ],
   "is_seeded": true

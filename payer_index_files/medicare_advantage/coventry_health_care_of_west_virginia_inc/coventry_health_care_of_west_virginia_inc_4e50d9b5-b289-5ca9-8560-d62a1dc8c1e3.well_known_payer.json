@@ -7,6 +7,11 @@
       "value": "4e50d9b5-b289-5ca9-8560-d62a1dc8c1e3",
       "is_fpi": true,
       "payerLegalName": "COVENTRY HEALTH CARE OF WEST VIRGINIA, INC.",
+      "payer_level_string_search_matches": [
+        "COVENTRY HEALTH CARE OF WEST VIRGINIA, INC.",
+        "Aetna Medicare",
+        "CVS Health Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "COVENTRY HEALTH CARE OF WEST VIRGINIA, INC."
     },
@@ -64,7 +69,7 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.aetna.com/interoperability/2027/H1692/index.json"
       }
     }
   ],

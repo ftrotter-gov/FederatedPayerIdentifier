@@ -1,0 +1,816 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+      "is_fpi": true,
+      "payerLegalName": "UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY",
+      "payer_level_string_search_matches": [
+        "UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY",
+        "UnitedHealthcare",
+        "UnitedHealth Group, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "UNITEDHEALTHCARE INS. CO. & UHC INS. CO. OF NY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S5820",
+      "is_fpi": false,
+      "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S5921",
+      "is_fpi": false,
+      "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-034",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "1a0cd343-3304-4683-84e1-3dc03b50ea2b",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-035",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "6d8fd719-3248-44b5-8bb6-873c327de101",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-036",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "da12af88-39e8-4009-a62d-6fda002fca3f",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-037",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "3a7be97a-c496-4370-832f-cd8a5e5f9534",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-038",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "8013c565-f4c1-4abf-b9df-f6111ca79ec7",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-803",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "db74bbbd-4082-4422-a949-dece2457f814",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-804",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "4cdb32ae-af7f-4ec4-b357-1ab609974ac4",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-807",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "c6623a78-6f6c-44c1-a3e1-58014c575549",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-808",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "d413041b-8f5e-4da6-b06a-265541ade5d8",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-810",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "8399cfc7-aac1-40d6-ba87-f56b351a057c",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-811",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "dbda06a3-efe2-4630-9ea4-b188bd43c551",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-812",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "8d48f150-115a-4de5-b28d-b4b3f96f34df",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-813",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "f7c61ea1-ec13-4717-b723-2cbbbf680283",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-814",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "281fee6d-c9ac-4120-b52f-077fe008f102",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-815",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "0a1dd1ec-d78c-4dbc-83b2-9ce0e794474f",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-816",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "61400042-dc32-4f78-b46f-ca5b5726de4c",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-817",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "bbe99924-585d-4d93-95f3-e76f9d414ec1",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-818",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "43ed4a75-9b39-42cc-8889-0ef82f3ebd0f",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-819",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "048da143-a20b-481d-ae42-798709040ad2",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-820",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "ca56d6a6-f180-4e65-ac29-d94ce5ff1a38",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-821",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "fb1968b1-ed67-49fa-98c2-a6f61989e4fb",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-822",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "26b61d0e-acc7-44c7-ad40-3be184d70a8c",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-823",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "8bb1d04a-643d-46e5-a569-acb80706c531",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-824",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "6156837f-bf08-47ee-b776-64a50fb6db54",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-825",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "406a2686-4765-4cf6-9cab-4ba5e86fc24d",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-826",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "6e3bbf6a-72c1-48a4-90cd-af419d3d39cd",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-827",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "926152bc-789e-48f1-9b0a-18fa84e17efb",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-828",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "49028c3f-9342-4601-a448-6a5915115d71",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-829",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "7fcdae9a-cfe5-44de-973e-b48612f31c38",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-830",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "5e644e04-f7ff-4f1c-9044-878ddf78090b",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-831",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "f123cbdf-390d-4eec-8523-76df71b1fced",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-832",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "06c416cd-dc55-4353-bc17-73578f1dae49",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-833",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "39430697-94e1-4eac-92b5-782bfd886567",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-834",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "702efbe5-6976-4398-a44a-158e1af48ced",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-835",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "ff983388-183e-4dd4-8400-80965b6c9822",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5820-836",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "e8e72a85-eb53-417d-a52a-4e8d0756a320",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-348",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "7d345dae-b026-45e9-b075-f2d1b21fb4c7",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-349",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "ecded28b-cd2a-4bb6-920b-a53ead2456a4",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-350",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "a6aadffb-874e-4fc3-a264-51bacc42fd49",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-351",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "90d5fa34-133a-42b0-9131-93ea6d5a3d71",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-352",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "59958195-c4c8-42c2-a81d-543987ab9dbf",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-353",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "05b44feb-0c0e-4beb-bf3b-e0abd575ee39",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-354",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "d9eb2219-5eb7-4063-a7d3-be311c96d005",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-355",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "56cb0d7e-688e-48b0-a03a-2e19aa9e0670",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-356",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "918c6fa5-f3f8-4a21-b671-ec07edcba975",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-357",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "0f092ce3-16f7-43a2-b211-8e867baf79e9",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-358",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "96512e28-876b-42d9-8e15-cd842de147cd",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-359",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "7fab5391-487e-4775-8234-2f3fdc165c32",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-360",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "4273bc39-f675-4605-897d-2b8b71d145ee",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-361",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "38c62313-d1b4-4644-b224-d19432869dc7",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-362",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "4aab7830-e043-4e95-a1c4-dc76a99c90ae",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-363",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "ac420cc1-b910-4df2-bf04-fc10226a3afe",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-364",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "be42861a-fd13-41a2-9e5a-4a9344003ab7",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-365",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "80a24f8b-d62c-42fc-923f-ec1637a027ae",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-366",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "b94afa56-7536-4aa8-9354-5461f3899e0c",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-367",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "66f4440c-9eb1-4b0b-a9cb-c333f7de550f",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-368",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "49968503-1f44-4558-a96d-0cef25f1ff04",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-369",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "0eaacc94-e617-467c-bbcf-80412b4129b7",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-370",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "9fe0649e-6075-4e8a-8601-367fa49166a0",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-371",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "d17710e6-9e72-449b-984e-0eeb14f3c9eb",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-372",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "917ea451-e572-4f80-96ec-e09b8a7b7cc1",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-373",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "6189edbd-318a-49b4-b261-20d11aedc435",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-374",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "cb3c29af-c21b-49bc-8fc8-4a287f30c810",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-375",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "71b22787-8439-4c9e-9f92-31140533cf88",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-376",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "c37d552e-0905-43c7-8926-fb97cf62ec68",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-377",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "332d6ed4-a367-47bc-bc99-9345eb8385f4",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-378",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "941ed50f-2ea8-4e34-9ffa-0925e36afba2",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-379",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "5f341246-58fb-47ce-9227-a33c6a24c731",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-380",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "0268ebcd-055f-4c3b-857d-ababb686d3c1",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-381",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "087d2d3c-9674-4382-ac30-83e4ea9661ea",
+          "plan_name": "AARP Medicare Rx Saver from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-382",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "a4a1064a-2f1a-42c9-a3c4-d61efc88f7b3",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-383",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "f822aac7-7569-4217-b433-44af64344e4e",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-384",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "264a8079-2716-4bd3-bc1e-6edc75e06d51",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-385",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "1ff3eb2a-f85d-4ac5-a629-21ca6c339a3b",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-386",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "29025126-6a2b-4d2a-b02c-99b0b710be5f",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-387",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "0ec7ee73-1968-4471-9e45-16872ab3edb0",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-388",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "d855a183-49df-49ce-adc2-882b1c6596bb",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-389",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "010f0a32-7329-44b8-b591-1b50d4dd1644",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-390",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "63b2426a-503d-4bd0-b83a-07d8c38443a9",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-391",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "6890d067-6704-42c6-8321-720557181161",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-392",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "25cc6c9d-c3c4-4099-890b-6333d17e9797",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-393",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "fa8780b3-2ef1-4057-abc2-c90709c923d3",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-394",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "57c4df3c-3bca-4f6b-87d7-da72c62c9e7b",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-395",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "226d2ef9-f73e-49e8-8f02-d707474f5f1c",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-396",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "8fd225cf-775d-4703-9632-d9d378679795",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-397",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "335e04f5-97f1-430d-95af-351932914cf8",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-398",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "bdc32164-3c97-455f-90ee-05cea7c460cd",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-399",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "13157357-441f-4dcc-ad6a-fc66c87c5bf6",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-400",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "d101a9b2-d8f0-4e63-ad2b-34897087a156",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-401",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "e8747718-7ba9-4f23-82ea-a0ae6dbc5ea4",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-402",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "0a96c1ee-0cac-42d5-9a2a-b2c968e4127d",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-403",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "03baae98-21d2-4996-b442-6523d9a07374",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-404",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "ceae7cbb-fbea-459b-bfcf-76e51d0ce2d5",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-405",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "7defd70e-77d1-429c-9001-dd7c79980864",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-406",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "dfafb875-a794-43c7-9377-b9feffb5d972",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-407",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "5edc2634-4a9d-45e7-992e-1a289147c186",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-408",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "c221fb7f-5120-43c5-b0c7-ccc595d4c529",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-409",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "2904b34e-7b2a-47f3-8692-683bf694a545",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-410",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "99acf1de-4b7b-41a4-9f73-0e698c1dd1c3",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-411",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "f320646d-44f8-4535-bc0d-de88bcc6c6c2",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-412",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "55efa945-384a-4816-9549-51d17e13cc31",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-413",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "698bcb1b-86b4-4314-a1f4-3474c1bde475",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-414",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "4b460092-5b70-4476-ba0e-1754ad0e23a3",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-415",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "1f6f2d81-96ff-420a-b6d5-f5d23245293b",
+          "plan_name": "AARP Medicare Rx Preferred from UHC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-802",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "99f211d4-f6a8-4b6d-9dc1-87546a9d6f73",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-837",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "600d1749-cb10-45df-a6d2-78303586d1f9",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-890",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "240a4712-b799-4194-b8fe-e5ba7c9beeb7",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-891",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "c08fee46-33d9-44b2-8475-cb65efed3274",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-892",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "6409fbc1-f07f-415b-bd83-7c4b7e6b423b",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-893",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "fe3ef117-b3b3-42dc-97ee-c79c7bc4df81",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5921-894",
+          "parent_fpi": "08eac1f4-81cb-5916-b6ac-932ab165e626",
+          "f_plan_id": "be66cef2-0295-48f1-9307-abb5f50e16bf",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

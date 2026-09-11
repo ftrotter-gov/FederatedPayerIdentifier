@@ -1,0 +1,54 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "5f200667-823c-5bc0-ae4f-e8f2f9925811",
+      "is_fpi": true,
+      "payerLegalName": "WELLPOINT LIFE AND HEALTH INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "WELLPOINT LIFE AND HEALTH INSURANCE COMPANY",
+        "Wellpoint",
+        "Elevance Health, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WELLPOINT LIFE AND HEALTH INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S5960",
+      "is_fpi": false,
+      "parent_fpi": "5f200667-823c-5bc0-ae4f-e8f2f9925811"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5960-803",
+          "parent_fpi": "5f200667-823c-5bc0-ae4f-e8f2f9925811",
+          "f_plan_id": "52653d98-ddf9-499d-9b08-b14e27a4eaa2",
+          "plan_name": "MedicareRx Rewards (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5960-804",
+          "parent_fpi": "5f200667-823c-5bc0-ae4f-e8f2f9925811",
+          "f_plan_id": "27ec6bfc-eb0b-4332-8e2d-25f2e5a1e1d5",
+          "plan_name": "MedicareRx Rewards (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5960-805",
+          "parent_fpi": "5f200667-823c-5bc0-ae4f-e8f2f9925811",
+          "f_plan_id": "a890da6d-aace-46d3-8728-9b361356e845",
+          "plan_name": "MedicareRx Rewards (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "f5e711f8-94a2-5ee3-ad95-95ef18cbd05a",
+      "is_fpi": true,
+      "payerLegalName": "SENIOR LIFE ALTOONA, INC.",
+      "payer_level_string_search_matches": [
+        "SENIOR LIFE ALTOONA, INC.",
+        "Senior LIFE Altoona / Ebensburg / Indiana"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SENIOR LIFE ALTOONA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5902",
+      "is_fpi": false,
+      "parent_fpi": "f5e711f8-94a2-5ee3-ad95-95ef18cbd05a"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5902-001",
+          "parent_fpi": "f5e711f8-94a2-5ee3-ad95-95ef18cbd05a",
+          "f_plan_id": "e33507c1-17cb-497d-af92-9e89f0769070",
+          "plan_name": "Senior LIFE Altoona Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5902-002",
+          "parent_fpi": "f5e711f8-94a2-5ee3-ad95-95ef18cbd05a",
+          "f_plan_id": "097c3ead-7b00-4e41-a31a-b6375790bd3c",
+          "plan_name": "Senior LIFE Altoona Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,33 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "6b357203-5fc2-539d-a1d8-9869e55316bc",
+      "is_fpi": true,
+      "payerLegalName": "SCAN HEALTH PLAN (OR)",
+      "payer_level_string_search_matches": [
+        "SCAN HEALTH PLAN (OR)"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SCAN HEALTH PLAN (OR)"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3879",
+      "is_fpi": false,
+      "parent_fpi": "6b357203-5fc2-539d-a1d8-9869e55316bc"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://scan-q-002.sitecorecontenthub.cloud/api/public/content/provider_H3879.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://providerdirectory.scanhealthplan.com"
+      }
+    }
+  ],
+  "is_seeded": true
+}

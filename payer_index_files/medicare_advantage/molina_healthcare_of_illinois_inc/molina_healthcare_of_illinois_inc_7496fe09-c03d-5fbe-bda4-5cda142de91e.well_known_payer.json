@@ -6,9 +6,21 @@
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
       "value": "7496fe09-c03d-5fbe-bda4-5cda142de91e",
       "is_fpi": true,
-      "payerLegalName": "MOLINA HEALTHCARE OF ILLINOIS, INC.",
+      "payerLegalName": "MOLINA HEALTHCARE OF ILLINOIS INC",
+      "payer_level_string_search_matches": [
+        "MOLINA HEALTHCARE OF ILLINOIS INC",
+        "Molina Healthcare of Illinois",
+        "Molina Healthcare, Inc.",
+        "MOLINA HEALTHCARE OF ILLINOIS, INC."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
-      "fpi_source_value": "MOLINA HEALTHCARE OF ILLINOIS, INC."
+      "fpi_source_value": "MOLINA HEALTHCARE OF ILLINOIS INC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2715",
+      "is_fpi": false,
+      "parent_fpi": "7496fe09-c03d-5fbe-bda4-5cda142de91e"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
@@ -18,6 +30,25 @@
     }
   ],
   "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2715-003",
+          "parent_fpi": "7496fe09-c03d-5fbe-bda4-5cda142de91e",
+          "f_plan_id": "77e405f6-476a-4083-a95f-920906ff57b4",
+          "plan_name": "Molina Medicare Choice Care (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2715-006",
+          "parent_fpi": "7496fe09-c03d-5fbe-bda4-5cda142de91e",
+          "f_plan_id": "46908c53-9a0a-4333-b6b5-ae4a543ef5df",
+          "plan_name": "Molina Medicare Complete Care (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
     {
       "plan_identifiers": [
         {
@@ -56,7 +87,10 @@
           "plan_name": "Molina Medicare Complete Care Plus (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.molinahealthcare.com/cmsjson/378245/MCareFHIR/H3093/index.json"
+      }
     }
   ],
   "is_seeded": true

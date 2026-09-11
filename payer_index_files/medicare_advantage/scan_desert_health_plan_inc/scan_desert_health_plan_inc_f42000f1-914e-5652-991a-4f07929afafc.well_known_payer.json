@@ -7,6 +7,11 @@
       "value": "f42000f1-914e-5652-991a-4f07929afafc",
       "is_fpi": true,
       "payerLegalName": "SCAN DESERT HEALTH PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "SCAN DESERT HEALTH PLAN, INC.",
+        "SCAN Health Plan",
+        "SCAN Group"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SCAN DESERT HEALTH PLAN, INC."
     },
@@ -57,6 +62,13 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1822-008",
+          "parent_fpi": "f42000f1-914e-5652-991a-4f07929afafc",
+          "f_plan_id": "22ba6130-0be8-4986-ae50-7b4cc2810415",
+          "plan_name": "SCAN Embrace Together (HMO-POS I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1822-801",
           "parent_fpi": "f42000f1-914e-5652-991a-4f07929afafc",
           "f_plan_id": "eb70148f-b56d-499f-a531-6ea0c6ffbea5",
@@ -68,13 +80,6 @@
           "parent_fpi": "f42000f1-914e-5652-991a-4f07929afafc",
           "f_plan_id": "939f6b61-2a5d-46ba-9cc8-0146830ab6e9",
           "plan_name": "SCAN Retiree Group (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H1822-008",
-          "parent_fpi": "f42000f1-914e-5652-991a-4f07929afafc",
-          "f_plan_id": "22ba6130-0be8-4986-ae50-7b4cc2810415",
-          "plan_name": "SCAN Embrace Together (HMO-POS I-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -91,7 +96,10 @@
           "plan_name": "SCAN Retiree Group (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://scan-q-002.sitecorecontenthub.cloud/api/public/content/provider_H1822.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://providerdirectory.scanhealthplan.com"
+      }
     }
   ],
   "is_seeded": true

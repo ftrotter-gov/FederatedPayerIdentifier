@@ -1,0 +1,45 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "019b031a-762a-59ba-841b-2b1b30c9a12f",
+      "is_fpi": true,
+      "payerLegalName": "BIENVIVIR SENIOR HEALTH SERVICES",
+      "payer_level_string_search_matches": [
+        "BIENVIVIR SENIOR HEALTH SERVICES"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BIENVIVIR SENIOR HEALTH SERVICES"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4518",
+      "is_fpi": false,
+      "parent_fpi": "019b031a-762a-59ba-841b-2b1b30c9a12f"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4518-001",
+          "parent_fpi": "019b031a-762a-59ba-841b-2b1b30c9a12f",
+          "f_plan_id": "355408ee-f5c5-4444-a003-825a6c4285a4",
+          "plan_name": "BSHS Part D, Dual Eligibles (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4518-002",
+          "parent_fpi": "019b031a-762a-59ba-841b-2b1b30c9a12f",
+          "f_plan_id": "b6fed072-314f-406e-af43-5872a1602d07",
+          "plan_name": "BSHS Part D, Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,81 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "a1ae6152-0213-5280-9799-197e9cb9ac60",
+      "is_fpi": true,
+      "payerLegalName": "Avalon Insurance Company",
+      "payer_level_string_search_matches": [
+        "Avalon Insurance Company",
+        "CAPITAL BLUE CROSS"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "Avalon Insurance Company"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S8067",
+      "is_fpi": false,
+      "parent_fpi": "a1ae6152-0213-5280-9799-197e9cb9ac60"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S8067-801",
+          "parent_fpi": "a1ae6152-0213-5280-9799-197e9cb9ac60",
+          "f_plan_id": "fc2e5d32-e46f-422b-83ad-a5e2f58ea6e9",
+          "plan_name": "SecureRx Group PDP Rx (CY) (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S8067-803",
+          "parent_fpi": "a1ae6152-0213-5280-9799-197e9cb9ac60",
+          "f_plan_id": "7f41971a-169a-42a3-a16a-272b0e95d0c6",
+          "plan_name": "SecureRx Group PDP Custom Rx (CY) (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S8067-804",
+          "parent_fpi": "a1ae6152-0213-5280-9799-197e9cb9ac60",
+          "f_plan_id": "ae1203c5-0084-4803-a19a-00eb98ea373d",
+          "plan_name": "SecureRx Group PDP Standard Rx (CY) (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S8067-805",
+          "parent_fpi": "a1ae6152-0213-5280-9799-197e9cb9ac60",
+          "f_plan_id": "5ab44dc4-98df-4a0f-b08b-098c66499ef8",
+          "plan_name": "SecureRx Group PDP Complete Rx (CY) (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S8067-806",
+          "parent_fpi": "a1ae6152-0213-5280-9799-197e9cb9ac60",
+          "f_plan_id": "67532c77-dc4d-48b0-85c7-f71e51853b2b",
+          "plan_name": "SecureRx Group PDP Custom Rx (FY) (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S8067-807",
+          "parent_fpi": "a1ae6152-0213-5280-9799-197e9cb9ac60",
+          "f_plan_id": "ff324c1a-8fb3-45fb-ad16-47aac4f65a69",
+          "plan_name": "SecureRx Group PDP Standard Rx (FY) (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S8067-808",
+          "parent_fpi": "a1ae6152-0213-5280-9799-197e9cb9ac60",
+          "f_plan_id": "878105b4-65b4-42d9-a88d-c406fefdd191",
+          "plan_name": "SecureRx Group PDP Rx (FY) (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

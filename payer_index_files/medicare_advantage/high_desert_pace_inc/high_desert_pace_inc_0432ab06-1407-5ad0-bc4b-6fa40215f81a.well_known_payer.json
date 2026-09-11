@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "0432ab06-1407-5ad0-bc4b-6fa40215f81a",
+      "is_fpi": true,
+      "payerLegalName": "HIGH DESERT PACE, INC,",
+      "payer_level_string_search_matches": [
+        "HIGH DESERT PACE, INC,",
+        "High Desert PACE",
+        "High Desert PACE, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HIGH DESERT PACE, INC,"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6081",
+      "is_fpi": false,
+      "parent_fpi": "0432ab06-1407-5ad0-bc4b-6fa40215f81a"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6081-001",
+          "parent_fpi": "0432ab06-1407-5ad0-bc4b-6fa40215f81a",
+          "f_plan_id": "8300c40c-b0e6-43d2-b960-ecabbb75d9a1",
+          "plan_name": "High Desert PACE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6081-002",
+          "parent_fpi": "0432ab06-1407-5ad0-bc4b-6fa40215f81a",
+          "f_plan_id": "09ecf039-0cf1-4a9b-9c01-eb7a1377bc54",
+          "plan_name": "High Desert PACE (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

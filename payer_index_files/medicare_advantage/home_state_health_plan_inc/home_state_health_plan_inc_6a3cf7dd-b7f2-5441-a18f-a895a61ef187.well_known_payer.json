@@ -7,6 +7,11 @@
       "value": "6a3cf7dd-b7f2-5441-a18f-a895a61ef187",
       "is_fpi": true,
       "payerLegalName": "HOME STATE HEALTH PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "HOME STATE HEALTH PLAN, INC.",
+        "Wellcare",
+        "Centene Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HOME STATE HEALTH PLAN, INC."
     },
@@ -49,7 +54,10 @@
           "plan_name": "Wellcare Dual Reserve (HMO-POS D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H1664index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
     }
   ],
   "is_seeded": true

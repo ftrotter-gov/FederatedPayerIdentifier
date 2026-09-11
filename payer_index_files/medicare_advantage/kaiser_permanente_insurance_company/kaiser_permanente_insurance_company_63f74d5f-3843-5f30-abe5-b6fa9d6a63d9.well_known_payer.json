@@ -1,0 +1,102 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "63f74d5f-3843-5f30-abe5-b6fa9d6a63d9",
+      "is_fpi": true,
+      "payerLegalName": "KAISER PERMANENTE INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "KAISER PERMANENTE INSURANCE COMPANY",
+        "Kaiser Permanente",
+        "Kaiser Foundation Health Plan, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "KAISER PERMANENTE INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3138",
+      "is_fpi": false,
+      "parent_fpi": "63f74d5f-3843-5f30-abe5-b6fa9d6a63d9"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S0262",
+      "is_fpi": false,
+      "parent_fpi": "63f74d5f-3843-5f30-abe5-b6fa9d6a63d9"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3138-001",
+          "parent_fpi": "63f74d5f-3843-5f30-abe5-b6fa9d6a63d9",
+          "f_plan_id": "5907dfc9-45f0-4917-8e2f-acf22c57aa70",
+          "plan_name": "Kaiser Permanente Senior Advantage Choice DM (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3138-002",
+          "parent_fpi": "63f74d5f-3843-5f30-abe5-b6fa9d6a63d9",
+          "f_plan_id": "e1204124-e17c-4a5c-bbf7-e0e6b3bbacd7",
+          "plan_name": "Kaiser Permanente Senior Advantage Choice South (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3138-003",
+          "parent_fpi": "63f74d5f-3843-5f30-abe5-b6fa9d6a63d9",
+          "f_plan_id": "39db9415-887d-48f2-97f0-db26c3f0a506",
+          "plan_name": "Kaiser Permanente Senior Advantage Choice North (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S0262-830",
+          "parent_fpi": "63f74d5f-3843-5f30-abe5-b6fa9d6a63d9",
+          "f_plan_id": "3ed15ce1-a6be-4694-8b1b-7569b6dd6a57",
+          "plan_name": "Kaiser Permanente Medicare Part D Group Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S0262-832",
+          "parent_fpi": "63f74d5f-3843-5f30-abe5-b6fa9d6a63d9",
+          "f_plan_id": "ece1ded6-0fc8-4a0a-ae7f-0fa0bf4f7df5",
+          "plan_name": "Kaiser Permanente Medicare Part D Group Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S0262-833",
+          "parent_fpi": "63f74d5f-3843-5f30-abe5-b6fa9d6a63d9",
+          "f_plan_id": "dc661f19-9cef-4ebc-8efd-dea717db3eeb",
+          "plan_name": "Kaiser Permanente Medicare Part D Group Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S0262-834",
+          "parent_fpi": "63f74d5f-3843-5f30-abe5-b6fa9d6a63d9",
+          "f_plan_id": "7c92e695-e95b-4ef8-8e8c-414efc70d4f0",
+          "plan_name": "Kaiser Permanente Medicare Part D Group Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S0262-835",
+          "parent_fpi": "63f74d5f-3843-5f30-abe5-b6fa9d6a63d9",
+          "f_plan_id": "2d69e68c-8e75-48e4-8956-d8012ab59aad",
+          "plan_name": "Kaiser Permanente Medicare Part D Group Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S0262-836",
+          "parent_fpi": "63f74d5f-3843-5f30-abe5-b6fa9d6a63d9",
+          "f_plan_id": "de386277-40a6-42ec-83aa-5d2dd7c4be3e",
+          "plan_name": "Kaiser Permanente Medicare Part D Group Plan (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

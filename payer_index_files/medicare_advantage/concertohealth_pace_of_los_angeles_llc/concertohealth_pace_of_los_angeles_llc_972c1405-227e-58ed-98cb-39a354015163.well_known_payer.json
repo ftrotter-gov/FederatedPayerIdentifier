@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "972c1405-227e-58ed-98cb-39a354015163",
+      "is_fpi": true,
+      "payerLegalName": "CONCERTOHEALTH PACE OF LOS ANGELES, LLC",
+      "payer_level_string_search_matches": [
+        "CONCERTOHEALTH PACE OF LOS ANGELES, LLC",
+        "InnovAge California PACE - Crenshaw",
+        "Total Community Options, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CONCERTOHEALTH PACE OF LOS ANGELES, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7366",
+      "is_fpi": false,
+      "parent_fpi": "972c1405-227e-58ed-98cb-39a354015163"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7366-001",
+          "parent_fpi": "972c1405-227e-58ed-98cb-39a354015163",
+          "f_plan_id": "9c309017-fbaa-4c80-b75e-0ffff280c5e7",
+          "plan_name": "ConcertoPACE of LA - Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7366-002",
+          "parent_fpi": "972c1405-227e-58ed-98cb-39a354015163",
+          "f_plan_id": "7f0b0515-c656-410b-9f31-85cf43ce8666",
+          "plan_name": "ConcertoPACE of LA - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

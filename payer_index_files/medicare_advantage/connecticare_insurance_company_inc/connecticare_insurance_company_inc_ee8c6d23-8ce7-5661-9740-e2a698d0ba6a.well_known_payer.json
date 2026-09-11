@@ -1,0 +1,40 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "ee8c6d23-8ce7-5661-9740-e2a698d0ba6a",
+      "is_fpi": true,
+      "payerLegalName": "CONNECTICARE INSURANCE COMPANY, INC.",
+      "payer_level_string_search_matches": [
+        "CONNECTICARE INSURANCE COMPANY, INC.",
+        "ConnectiCare",
+        "Molina Healthcare, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CONNECTICARE INSURANCE COMPANY, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3276",
+      "is_fpi": false,
+      "parent_fpi": "ee8c6d23-8ce7-5661-9740-e2a698d0ba6a"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3276-001",
+          "parent_fpi": "ee8c6d23-8ce7-5661-9740-e2a698d0ba6a",
+          "f_plan_id": "dca76f99-efc7-4fb0-994f-6ed71a23941d",
+          "plan_name": "ConnectiCare Choice Dual (HMO-POS D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

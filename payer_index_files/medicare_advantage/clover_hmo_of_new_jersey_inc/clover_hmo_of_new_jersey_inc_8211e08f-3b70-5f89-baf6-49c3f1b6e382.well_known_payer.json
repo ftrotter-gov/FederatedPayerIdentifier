@@ -7,6 +7,11 @@
       "value": "8211e08f-3b70-5f89-baf6-49c3f1b6e382",
       "is_fpi": true,
       "payerLegalName": "CLOVER HMO OF NEW JERSEY INC.",
+      "payer_level_string_search_matches": [
+        "CLOVER HMO OF NEW JERSEY INC.",
+        "Clover Health",
+        "Clover Health Holdings, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "CLOVER HMO OF NEW JERSEY INC."
     },
@@ -35,7 +40,10 @@
           "plan_name": "Clover Health Value (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://public-api.cloverhealth.com/swagger",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.cloverhealth.com/members/find-provider"
+      }
     }
   ],
   "is_seeded": true

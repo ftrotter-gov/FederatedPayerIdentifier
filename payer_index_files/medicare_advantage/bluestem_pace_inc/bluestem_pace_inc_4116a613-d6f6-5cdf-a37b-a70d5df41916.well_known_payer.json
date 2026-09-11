@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "4116a613-d6f6-5cdf-a37b-a70d5df41916",
+      "is_fpi": true,
+      "payerLegalName": "BLUESTEM PACE, INC.",
+      "payer_level_string_search_matches": [
+        "BLUESTEM PACE, INC.",
+        "Bluestem PACE",
+        "Bluestem Communities, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BLUESTEM PACE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9438",
+      "is_fpi": false,
+      "parent_fpi": "4116a613-d6f6-5cdf-a37b-a70d5df41916"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9438-001",
+          "parent_fpi": "4116a613-d6f6-5cdf-a37b-a70d5df41916",
+          "f_plan_id": "b751a147-261a-4d6e-b940-0d65aac7f4ac",
+          "plan_name": "Bluestem PACE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9438-002",
+          "parent_fpi": "4116a613-d6f6-5cdf-a37b-a70d5df41916",
+          "f_plan_id": "225f32b7-34cf-4e42-b9cf-32893cbabc50",
+          "plan_name": "Bluestem PACE (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

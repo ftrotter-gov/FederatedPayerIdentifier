@@ -1,0 +1,40 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "e0d51c64-f709-5c4f-b0af-2739056d7e11",
+      "is_fpi": true,
+      "payerLegalName": "LOUISIANA HEALTHCARE CONNECTIONS, INC.",
+      "payer_level_string_search_matches": [
+        "LOUISIANA HEALTHCARE CONNECTIONS, INC.",
+        "Wellcare",
+        "Centene Corporation"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "LOUISIANA HEALTHCARE CONNECTIONS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5117",
+      "is_fpi": false,
+      "parent_fpi": "e0d51c64-f709-5c4f-b0af-2739056d7e11"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5117-801",
+          "parent_fpi": "e0d51c64-f709-5c4f-b0af-2739056d7e11",
+          "f_plan_id": "024fde5d-da64-4cca-bd13-8d8e86d74f0c",
+          "plan_name": "Allwell Group (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

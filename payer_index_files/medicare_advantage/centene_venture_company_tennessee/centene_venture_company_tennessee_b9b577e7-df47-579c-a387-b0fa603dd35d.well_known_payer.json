@@ -1,0 +1,53 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "b9b577e7-df47-579c-a387-b0fa603dd35d",
+      "is_fpi": true,
+      "payerLegalName": "CENTENE VENTURE COMPANY TENNESSEE",
+      "payer_level_string_search_matches": [
+        "CENTENE VENTURE COMPANY TENNESSEE",
+        "Ascension Complete",
+        "Centene Corporation"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CENTENE VENTURE COMPANY TENNESSEE"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2853",
+      "is_fpi": false,
+      "parent_fpi": "b9b577e7-df47-579c-a387-b0fa603dd35d"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8121",
+      "is_fpi": false,
+      "parent_fpi": "b9b577e7-df47-579c-a387-b0fa603dd35d"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2853-801",
+          "parent_fpi": "b9b577e7-df47-579c-a387-b0fa603dd35d",
+          "f_plan_id": "672855a1-8c21-4679-b37c-b77fc86efe28",
+          "plan_name": "Centene Venture Company Tennessee (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8121-801",
+          "parent_fpi": "b9b577e7-df47-579c-a387-b0fa603dd35d",
+          "f_plan_id": "7bc612ff-ef83-4d2f-90ea-e95eb012505b",
+          "plan_name": "Centene Venture Company Tennesee (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

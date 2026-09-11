@@ -1,0 +1,32 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "28122919-e0d1-52f8-8589-113fa8223676",
+      "is_fpi": true,
+      "payerLegalName": "UNITED MINE WORKERS OF AMERICA HLTH & RETIREMENT",
+      "payer_level_string_search_matches": [
+        "UNITED MINE WORKERS OF AMERICA HLTH & RETIREMENT",
+        "United Mine Workers of America Health & Retirement",
+        "UMWA Health and Retirement Funds"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "UNITED MINE WORKERS OF AMERICA HLTH & RETIREMENT"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "90091",
+      "is_fpi": false,
+      "parent_fpi": "28122919-e0d1-52f8-8589-113fa8223676"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

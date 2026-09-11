@@ -7,6 +7,11 @@
       "value": "7bda142b-a492-5f6a-931e-fca836ff940f",
       "is_fpi": true,
       "payerLegalName": "WELLCARE OF CALIFORNIA, INC.",
+      "payer_level_string_search_matches": [
+        "WELLCARE OF CALIFORNIA, INC.",
+        "Wellcare",
+        "Centene Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "WELLCARE OF CALIFORNIA, INC."
     },
@@ -29,20 +34,23 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5087-034",
-          "parent_fpi": "7bda142b-a492-5f6a-931e-fca836ff940f",
-          "f_plan_id": "2c53e806-037b-41c0-b479-5cfb56b4458b",
-          "plan_name": "Wellcare Simple (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5087-032",
           "parent_fpi": "7bda142b-a492-5f6a-931e-fca836ff940f",
           "f_plan_id": "31a30225-c790-4ab9-aeef-d56e8e7bf82c",
           "plan_name": "Wellcare Giveback (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5087-034",
+          "parent_fpi": "7bda142b-a492-5f6a-931e-fca836ff940f",
+          "f_plan_id": "2c53e806-037b-41c0-b479-5cfb56b4458b",
+          "plan_name": "Wellcare Simple (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H5087index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
     }
   ],
   "is_seeded": true

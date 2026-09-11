@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "ce275cd2-8713-5667-8913-0093bf1777e8",
+      "is_fpi": true,
+      "payerLegalName": "ON LOK SENIOR HEALTH SERVICES",
+      "payer_level_string_search_matches": [
+        "ON LOK SENIOR HEALTH SERVICES",
+        "On Lok PACE",
+        "On Lok, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ON LOK SENIOR HEALTH SERVICES"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5403",
+      "is_fpi": false,
+      "parent_fpi": "ce275cd2-8713-5667-8913-0093bf1777e8"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5403-001",
+          "parent_fpi": "ce275cd2-8713-5667-8913-0093bf1777e8",
+          "f_plan_id": "c3a66d92-345f-4f3d-8c30-a7c40656ad03",
+          "plan_name": "On Lok PACE (Dual Eligibles) (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5403-002",
+          "parent_fpi": "ce275cd2-8713-5667-8913-0093bf1777e8",
+          "f_plan_id": "f3631b56-8bd4-4d4a-8273-ea7f7d67b552",
+          "plan_name": "On Lok PACE (Medicare Only) (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

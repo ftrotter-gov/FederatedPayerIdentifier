@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "51fd762a-c7d5-566e-a877-4502e068ac81",
+      "is_fpi": true,
+      "payerLegalName": "SAINT JOSEPH PACE",
+      "payer_level_string_search_matches": [
+        "SAINT JOSEPH PACE",
+        "Trinity Health Corporation"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SAINT JOSEPH PACE"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9842",
+      "is_fpi": false,
+      "parent_fpi": "51fd762a-c7d5-566e-a877-4502e068ac81"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9842-001",
+          "parent_fpi": "51fd762a-c7d5-566e-a877-4502e068ac81",
+          "f_plan_id": "1cfeae52-5d00-44f3-99c9-9a2f86b61501",
+          "plan_name": "Saint Joseph PACE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9842-002",
+          "parent_fpi": "51fd762a-c7d5-566e-a877-4502e068ac81",
+          "f_plan_id": "3be989b3-4122-4c86-acbf-76027840c812",
+          "plan_name": "Saint Joseph PACE - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

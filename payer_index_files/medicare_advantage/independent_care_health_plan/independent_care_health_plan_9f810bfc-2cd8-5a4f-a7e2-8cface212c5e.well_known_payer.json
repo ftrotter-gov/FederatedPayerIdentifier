@@ -7,6 +7,11 @@
       "value": "9f810bfc-2cd8-5a4f-a7e2-8cface212c5e",
       "is_fpi": true,
       "payerLegalName": "INDEPENDENT CARE HEALTH PLAN",
+      "payer_level_string_search_matches": [
+        "INDEPENDENT CARE HEALTH PLAN",
+        "iCare",
+        "Humana Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "INDEPENDENT CARE HEALTH PLAN"
     },
@@ -29,7 +34,8 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.humana.com/api"
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api-icar-prd.safhir.io/v1/api/provider-directory/metadata",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://api-icar-prd.safhir.io/v1/api/provider-directory/cms-hpms-manifest/H2237-007-000"
       }
     }
   ],

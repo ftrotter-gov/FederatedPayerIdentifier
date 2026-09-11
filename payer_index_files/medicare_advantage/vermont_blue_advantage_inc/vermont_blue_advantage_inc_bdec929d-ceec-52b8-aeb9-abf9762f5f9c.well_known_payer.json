@@ -1,0 +1,130 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "bdec929d-ceec-52b8-aeb9-abf9762f5f9c",
+      "is_fpi": true,
+      "payerLegalName": "VERMONT BLUE ADVANTAGE, INC.",
+      "payer_level_string_search_matches": [
+        "VERMONT BLUE ADVANTAGE, INC.",
+        "Vermont Blue Advantage",
+        "Blue Cross Blue Shield of Michigan Mutual Ins. Co."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "VERMONT BLUE ADVANTAGE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6898",
+      "is_fpi": false,
+      "parent_fpi": "bdec929d-ceec-52b8-aeb9-abf9762f5f9c"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9489",
+      "is_fpi": false,
+      "parent_fpi": "bdec929d-ceec-52b8-aeb9-abf9762f5f9c"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6898-801",
+          "parent_fpi": "bdec929d-ceec-52b8-aeb9-abf9762f5f9c",
+          "f_plan_id": "72877af8-38ff-457f-a56f-989db3074960",
+          "plan_name": "Vermont Blue Advantage Group PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6898-802",
+          "parent_fpi": "bdec929d-ceec-52b8-aeb9-abf9762f5f9c",
+          "f_plan_id": "af60f500-b7a9-4cd9-811a-70f020507412",
+          "plan_name": "Vermont Blue Advantage Group PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6898-803",
+          "parent_fpi": "bdec929d-ceec-52b8-aeb9-abf9762f5f9c",
+          "f_plan_id": "23925a6e-824c-4f85-8f9a-589ec02193e8",
+          "plan_name": "Vermont Blue Advantage Group PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6898-804",
+          "parent_fpi": "bdec929d-ceec-52b8-aeb9-abf9762f5f9c",
+          "f_plan_id": "444c3033-5db7-4462-8490-6adc484590f4",
+          "plan_name": "Vermont Blue Advantage Group PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6898-805",
+          "parent_fpi": "bdec929d-ceec-52b8-aeb9-abf9762f5f9c",
+          "f_plan_id": "21c7f26d-5a02-492c-a266-38710c88b702",
+          "plan_name": "Vermont Blue Advantage Diocese Group PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9489-801",
+          "parent_fpi": "bdec929d-ceec-52b8-aeb9-abf9762f5f9c",
+          "f_plan_id": "6138a292-e653-48ab-be05-a7efcc04f7cd",
+          "plan_name": "Vermont Blue Advantage Group HMO (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9489-802",
+          "parent_fpi": "bdec929d-ceec-52b8-aeb9-abf9762f5f9c",
+          "f_plan_id": "191f11f8-6dda-40a5-bf52-75abd240d8cf",
+          "plan_name": "Vermont Blue Advantage Group HMOPOS (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9489-803",
+          "parent_fpi": "bdec929d-ceec-52b8-aeb9-abf9762f5f9c",
+          "f_plan_id": "11f1cc70-4094-4b25-8468-39316d11ef7a",
+          "plan_name": "Vermont Blue Advantage Group HMO (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9489-804",
+          "parent_fpi": "bdec929d-ceec-52b8-aeb9-abf9762f5f9c",
+          "f_plan_id": "03479955-2456-4728-b882-0a54eb03b8c3",
+          "plan_name": "Vermont Blue Advantage Group HMOPOS (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9489-805",
+          "parent_fpi": "bdec929d-ceec-52b8-aeb9-abf9762f5f9c",
+          "f_plan_id": "30cf4613-9117-481b-b109-35c80d0465aa",
+          "plan_name": "Vermont Blue Advantage Group HMO (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9489-806",
+          "parent_fpi": "bdec929d-ceec-52b8-aeb9-abf9762f5f9c",
+          "f_plan_id": "e0a8225b-b1a1-471b-a4e0-3e1212960e3f",
+          "plan_name": "Vermont Blue Advantage Group HMOPOS (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9489-807",
+          "parent_fpi": "bdec929d-ceec-52b8-aeb9-abf9762f5f9c",
+          "f_plan_id": "8176d918-3cbb-45d3-8c0d-fd62d1850a65",
+          "plan_name": "Vermont Blue Advantage Group HMO (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9489-808",
+          "parent_fpi": "bdec929d-ceec-52b8-aeb9-abf9762f5f9c",
+          "f_plan_id": "60c1b3dd-d9f6-42ef-92e5-ed989203874c",
+          "plan_name": "Vermont Blue Advantage Group HMOPOS (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

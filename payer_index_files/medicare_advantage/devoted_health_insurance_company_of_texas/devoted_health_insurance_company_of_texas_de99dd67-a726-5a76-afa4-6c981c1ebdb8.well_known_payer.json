@@ -7,6 +7,11 @@
       "value": "de99dd67-a726-5a76-afa4-6c981c1ebdb8",
       "is_fpi": true,
       "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF TEXAS",
+      "payer_level_string_search_matches": [
+        "DEVOTED HEALTH INSURANCE COMPANY OF TEXAS",
+        "Devoted Health",
+        "Devoted Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF TEXAS"
     },
@@ -36,7 +41,8 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.devoted.com/H6813/2026"
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.devoted.com/fhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.devoted.com/H6813/2027"
       }
     }
   ],

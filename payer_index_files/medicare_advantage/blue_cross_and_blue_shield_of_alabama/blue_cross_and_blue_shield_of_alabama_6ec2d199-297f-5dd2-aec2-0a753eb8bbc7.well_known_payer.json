@@ -7,6 +7,10 @@
       "value": "6ec2d199-297f-5dd2-aec2-0a753eb8bbc7",
       "is_fpi": true,
       "payerLegalName": "BLUE CROSS AND BLUE SHIELD OF ALABAMA",
+      "payer_level_string_search_matches": [
+        "BLUE CROSS AND BLUE SHIELD OF ALABAMA",
+        "BlueCross BlueShield of Alabama"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "BLUE CROSS AND BLUE SHIELD OF ALABAMA"
     },
@@ -106,7 +110,8 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://employers.bcbsal.org/portal/documents/d/guest/index-json"
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api-bcbsal-prd.safhir.io/v1/api/provider-directory",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.bcbsal.org/mpf/provider_directory_index.json"
       }
     }
   ],

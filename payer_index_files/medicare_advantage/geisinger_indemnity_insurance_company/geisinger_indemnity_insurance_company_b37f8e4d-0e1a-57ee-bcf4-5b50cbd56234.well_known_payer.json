@@ -7,6 +7,11 @@
       "value": "b37f8e4d-0e1a-57ee-bcf4-5b50cbd56234",
       "is_fpi": true,
       "payerLegalName": "GEISINGER INDEMNITY INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "GEISINGER INDEMNITY INSURANCE COMPANY",
+        "Geisinger Gold",
+        "Risant Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "GEISINGER INDEMNITY INSURANCE COMPANY"
     },
@@ -49,7 +54,10 @@
           "plan_name": "Geisinger Gold Preferred Basic/Deluxe (+) EGWP (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api-v2.geisinger.org/api/provider-directory/v1/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cms.healthsparq.com/mpf/v1/H3924/2027/H3924-2027-index.json"
+      }
     }
   ],
   "is_seeded": true

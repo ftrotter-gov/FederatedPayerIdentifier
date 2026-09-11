@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "29cdeba0-18c3-5a99-a28c-9a247b05e30c",
+      "is_fpi": true,
+      "payerLegalName": "CENTER FOR ELDERS INDEPENDENCE",
+      "payer_level_string_search_matches": [
+        "CENTER FOR ELDERS INDEPENDENCE",
+        "Center For Elders' Independence"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CENTER FOR ELDERS INDEPENDENCE"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5405",
+      "is_fpi": false,
+      "parent_fpi": "29cdeba0-18c3-5a99-a28c-9a247b05e30c"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5405-001",
+          "parent_fpi": "29cdeba0-18c3-5a99-a28c-9a247b05e30c",
+          "f_plan_id": "a1dcedc5-be00-49c3-bb58-946a9ae26e46",
+          "plan_name": "Center for Elders' Independence - Part D (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5405-002",
+          "parent_fpi": "29cdeba0-18c3-5a99-a28c-9a247b05e30c",
+          "f_plan_id": "04b2b258-09b2-46dc-b6f7-a75de82b55d9",
+          "plan_name": "Center for Elders' Independence (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

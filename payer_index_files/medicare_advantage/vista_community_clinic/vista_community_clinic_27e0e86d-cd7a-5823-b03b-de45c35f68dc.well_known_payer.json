@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "27e0e86d-cd7a-5823-b03b-de45c35f68dc",
+      "is_fpi": true,
+      "payerLegalName": "VISTA COMMUNITY CLINIC",
+      "payer_level_string_search_matches": [
+        "VISTA COMMUNITY CLINIC",
+        "Vista Community Clinic PACE"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "VISTA COMMUNITY CLINIC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5380",
+      "is_fpi": false,
+      "parent_fpi": "27e0e86d-cd7a-5823-b03b-de45c35f68dc"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5380-001",
+          "parent_fpi": "27e0e86d-cd7a-5823-b03b-de45c35f68dc",
+          "f_plan_id": "0b226368-ce8c-4efa-9563-694bcac5fe54",
+          "plan_name": "Vista Community Clinic PACE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5380-002",
+          "parent_fpi": "27e0e86d-cd7a-5823-b03b-de45c35f68dc",
+          "f_plan_id": "462dc2cd-ac9d-42f8-9aa5-bd910d319528",
+          "plan_name": "Vista Community Clinic PACE (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

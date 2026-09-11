@@ -7,6 +7,11 @@
       "value": "2aaa0b79-5315-5566-999f-e17c5622d6ce",
       "is_fpi": true,
       "payerLegalName": "WELLCARE OF GEORGIA, INC.",
+      "payer_level_string_search_matches": [
+        "WELLCARE OF GEORGIA, INC.",
+        "Wellcare",
+        "Centene Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "WELLCARE OF GEORGIA, INC."
     },
@@ -46,7 +51,15 @@
           "parent_fpi": "2aaa0b79-5315-5566-999f-e17c5622d6ce",
           "f_plan_id": "b0a13b7d-fd11-4b1d-af27-ddcf9d2f8572",
           "plan_name": "Wellcare Patriot Giveback Open (PPO)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H0111index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1112-006",
@@ -132,7 +145,10 @@
           "plan_name": "Wellcare Simple (HMO-POS)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H1112index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
     }
   ],
   "is_seeded": true

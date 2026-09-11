@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "391652ff-f18b-5ecf-b1eb-a52323c661fb",
+      "is_fpi": true,
+      "payerLegalName": "GARY AND MARY WEST SENIOR SERVICES, INC.",
+      "payer_level_string_search_matches": [
+        "GARY AND MARY WEST SENIOR SERVICES, INC.",
+        "Gary and Mary West PACE"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "GARY AND MARY WEST SENIOR SERVICES, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3563",
+      "is_fpi": false,
+      "parent_fpi": "391652ff-f18b-5ecf-b1eb-a52323c661fb"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3563-001",
+          "parent_fpi": "391652ff-f18b-5ecf-b1eb-a52323c661fb",
+          "f_plan_id": "0b9285ee-d966-4b73-a686-b3563aa4be42",
+          "plan_name": "Gary and Mary West Senior Services, Inc (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3563-002",
+          "parent_fpi": "391652ff-f18b-5ecf-b1eb-a52323c661fb",
+          "f_plan_id": "7cb3b766-0304-4edf-8dbe-4c552bd9f7e9",
+          "plan_name": "Gary and Mary West Senior Services, Inc (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -7,6 +7,11 @@
       "value": "25e1871f-1b76-51cc-a083-02543e08130f",
       "is_fpi": true,
       "payerLegalName": "SELECTHEALTH, INC.",
+      "payer_level_string_search_matches": [
+        "SELECTHEALTH, INC.",
+        "Select Health",
+        "Intermountain Health Care, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SELECTHEALTH, INC."
     },
@@ -127,6 +132,13 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1994-044",
+          "parent_fpi": "25e1871f-1b76-51cc-a083-02543e08130f",
+          "f_plan_id": "18c2a468-eef4-4978-8953-45a0d6087c78",
+          "plan_name": "Select Health Medicare Wellness (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1994-801",
           "parent_fpi": "25e1871f-1b76-51cc-a083-02543e08130f",
           "f_plan_id": "721b1a2d-a158-4fba-aca9-8f7a0da42f9e",
@@ -145,17 +157,11 @@
           "parent_fpi": "25e1871f-1b76-51cc-a083-02543e08130f",
           "f_plan_id": "7af40bd8-3172-4c00-8daf-c6ab55e43fd4",
           "plan_name": "Select Health Medicare EGWP Plan Year (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H1994-044",
-          "parent_fpi": "25e1871f-1b76-51cc-a083-02543e08130f",
-          "f_plan_id": "18c2a468-eef4-4978-8953-45a0d6087c78",
-          "plan_name": "Select Health Medicare Wellness (HMO)"
         }
       ],
       "plan_endpoints": {
-        "cms_provider_directory_machine_readable_format_endpoint": "https://ebu.intermountainhealthcare.org/shprovider/indexma.json"
+        "cms_provider_directory_machine_readable_format_endpoint": "https://ebu.intermountainhealthcare.org/shprovider/indexma.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.selecthealth.org/provider-directory/v1/metadata"
       }
     }
   ],

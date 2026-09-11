@@ -7,6 +7,11 @@
       "value": "79f4a501-9061-5779-8649-0c04fa9b5fd8",
       "is_fpi": true,
       "payerLegalName": "HEALTH NEW ENGLAND, INC.",
+      "payer_level_string_search_matches": [
+        "HEALTH NEW ENGLAND, INC.",
+        "Health New England Medicare Advantage Plans",
+        "Baystate Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HEALTH NEW ENGLAND, INC."
     },
@@ -53,7 +58,15 @@
           "parent_fpi": "79f4a501-9061-5779-8649-0c04fa9b5fd8",
           "f_plan_id": "1b7e420c-8321-443f-a1ee-1974d39ec689",
           "plan_name": "Health New England Compass Group Non-Calendar (PPO)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://us120.fhir.m2.edifecsfedcloud.com/hne_pd",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://us120.fhir.m2.edifecsfedcloud.com/hne_cmsreport/H2737/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8578-001",
@@ -111,7 +124,10 @@
           "plan_name": "HNE Medicare Employer Group Non-Calendar (HMO-POS)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://us120.fhir.m2.edifecsfedcloud.com/hne_pd",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://us120.fhir.m2.edifecsfedcloud.com/hne_cmsreport/H8578/index.json"
+      }
     }
   ],
   "is_seeded": true

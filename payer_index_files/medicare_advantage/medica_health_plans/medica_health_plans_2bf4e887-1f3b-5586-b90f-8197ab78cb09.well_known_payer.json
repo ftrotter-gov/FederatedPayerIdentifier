@@ -7,12 +7,23 @@
       "value": "2bf4e887-1f3b-5586-b90f-8197ab78cb09",
       "is_fpi": true,
       "payerLegalName": "MEDICA HEALTH PLANS",
+      "payer_level_string_search_matches": [
+        "MEDICA HEALTH PLANS",
+        "Medica",
+        "Medica Holding Company"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "MEDICA HEALTH PLANS"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
       "value": "H2458",
+      "is_fpi": false,
+      "parent_fpi": "2bf4e887-1f3b-5586-b90f-8197ab78cb09"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6154",
       "is_fpi": false,
       "parent_fpi": "2bf4e887-1f3b-5586-b90f-8197ab78cb09"
     },
@@ -28,11 +39,31 @@
       "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6154-001",
+          "parent_fpi": "2bf4e887-1f3b-5586-b90f-8197ab78cb09",
+          "f_plan_id": "f3cf4773-bf42-4363-bf27-20ac18d4e006",
+          "plan_name": "Medica Advantage Solution H6154-001 (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2458-002",
           "parent_fpi": "2bf4e887-1f3b-5586-b90f-8197ab78cb09",
           "f_plan_id": "0712eb21-e283-458e-8e36-335c7267546e",
           "plan_name": "Medica DUAL Solution (HMO D-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-uat.healthsparq.com/mpf/v1/H2458/2027/H2458-2027-index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://medica.healthsparq.com/api/provider-fhir-service/v1/fhir/"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8889-001",
@@ -133,13 +164,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H8889-801",
-          "parent_fpi": "2bf4e887-1f3b-5586-b90f-8197ab78cb09",
-          "f_plan_id": "ba7aa762-99c6-424d-87f2-789a93d1e90e",
-          "plan_name": "Medica Group Advantage Solution (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8889-017",
           "parent_fpi": "2bf4e887-1f3b-5586-b90f-8197ab78cb09",
           "f_plan_id": "1dcf173a-058d-4ce4-ad21-f14cc17d5e4a",
@@ -151,9 +175,19 @@
           "parent_fpi": "2bf4e887-1f3b-5586-b90f-8197ab78cb09",
           "f_plan_id": "9f28fb79-ba0f-44c9-8497-df73bc8f7065",
           "plan_name": "Medica Advantage Select (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8889-801",
+          "parent_fpi": "2bf4e887-1f3b-5586-b90f-8197ab78cb09",
+          "f_plan_id": "ba7aa762-99c6-424d-87f2-789a93d1e90e",
+          "plan_name": "Medica Group Advantage Solution (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-uat.healthsparq.com/mpf/v1/H8889/2027/H8889-2027-index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://medica.healthsparq.com/api/provider-fhir-service/v1/fhir/"
+      }
     }
   ],
   "is_seeded": true

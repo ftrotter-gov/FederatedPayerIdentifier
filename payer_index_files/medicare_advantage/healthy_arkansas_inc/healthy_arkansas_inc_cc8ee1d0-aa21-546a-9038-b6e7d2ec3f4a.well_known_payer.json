@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "cc8ee1d0-aa21-546a-9038-b6e7d2ec3f4a",
+      "is_fpi": true,
+      "payerLegalName": "HEALTHY ARKANSAS, INC.",
+      "payer_level_string_search_matches": [
+        "HEALTHY ARKANSAS, INC."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HEALTHY ARKANSAS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4086",
+      "is_fpi": false,
+      "parent_fpi": "cc8ee1d0-aa21-546a-9038-b6e7d2ec3f4a"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7440",
+      "is_fpi": false,
+      "parent_fpi": "cc8ee1d0-aa21-546a-9038-b6e7d2ec3f4a"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.healthy-ar.com/plan-net/H4086/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://directory.healthy-ar.com/mpf/2027/H4086/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.healthy-ar.com/plan-net/H7440/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://directory.healthy-ar.com/mpf/2027/H7440/index.json"
+      }
+    }
+  ],
+  "is_seeded": true
+}

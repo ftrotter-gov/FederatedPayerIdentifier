@@ -7,12 +7,23 @@
       "value": "05685002-f569-596d-ab46-2483cce42cc4",
       "is_fpi": true,
       "payerLegalName": "Sunshine State Health Plan, Inc.",
+      "payer_level_string_search_matches": [
+        "Sunshine State Health Plan, Inc.",
+        "Wellcare",
+        "Centene Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "Sunshine State Health Plan, Inc."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
       "value": "H1032",
+      "is_fpi": false,
+      "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5190",
       "is_fpi": false,
       "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4"
     }
@@ -22,18 +33,16 @@
       "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H1032-244",
+          "value": "H5190-801",
           "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4",
-          "f_plan_id": "86aa73b3-1e49-405a-8d2d-05e22717089f",
-          "plan_name": "Wellcare Dual Access Sync (HMO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H1032-245",
-          "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4",
-          "f_plan_id": "e9c2917e-463a-4332-91f3-ca4ddc385013",
-          "plan_name": "Wellcare Sunshine Health Dual Align (HMO D-SNP)"
-        },
+          "f_plan_id": "f535263e-c4e1-4cf9-ba8f-17ab2cd290c3",
+          "plan_name": "Wellcare Group Medicare Advantage (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1032-193",
@@ -180,9 +189,26 @@
           "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4",
           "f_plan_id": "2febc76b-eca8-41bb-afb0-e5de3059f26a",
           "plan_name": "Wellcare Sunshine Health Dual Align (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1032-244",
+          "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4",
+          "f_plan_id": "86aa73b3-1e49-405a-8d2d-05e22717089f",
+          "plan_name": "Wellcare Dual Access Sync (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1032-245",
+          "parent_fpi": "05685002-f569-596d-ab46-2483cce42cc4",
+          "f_plan_id": "e9c2917e-463a-4332-91f3-ca4ddc385013",
+          "plan_name": "Wellcare Sunshine Health Dual Align (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H1032index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
     }
   ],
   "is_seeded": true

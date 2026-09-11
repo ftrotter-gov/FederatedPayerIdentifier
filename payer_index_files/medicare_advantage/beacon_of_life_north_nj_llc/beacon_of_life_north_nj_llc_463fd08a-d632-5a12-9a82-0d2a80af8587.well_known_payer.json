@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "463fd08a-d632-5a12-9a82-0d2a80af8587",
+      "is_fpi": true,
+      "payerLegalName": "BEACON OF LIFE NORTH NJ, LLC",
+      "payer_level_string_search_matches": [
+        "BEACON OF LIFE NORTH NJ, LLC",
+        "BoldAge PACE, LLC"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BEACON OF LIFE NORTH NJ, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8573",
+      "is_fpi": false,
+      "parent_fpi": "463fd08a-d632-5a12-9a82-0d2a80af8587"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8573-001",
+          "parent_fpi": "463fd08a-d632-5a12-9a82-0d2a80af8587",
+          "f_plan_id": "843f9cd9-e7a8-42d1-8e46-dd750453218b",
+          "plan_name": "Beacon of LIFE PACE North NJ (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8573-002",
+          "parent_fpi": "463fd08a-d632-5a12-9a82-0d2a80af8587",
+          "f_plan_id": "9308ac20-d8e5-4a63-bd80-4945cb359582",
+          "plan_name": "Beacon of LIFE PACE North NJ - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

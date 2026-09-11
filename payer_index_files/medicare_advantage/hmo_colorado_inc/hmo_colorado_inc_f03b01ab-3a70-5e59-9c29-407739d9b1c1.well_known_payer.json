@@ -7,6 +7,11 @@
       "value": "f03b01ab-3a70-5e59-9c29-407739d9b1c1",
       "is_fpi": true,
       "payerLegalName": "HMO COLORADO, INC.",
+      "payer_level_string_search_matches": [
+        "HMO COLORADO, INC.",
+        "Anthem Blue Cross and Blue Shield",
+        "Elevance Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HMO COLORADO, INC."
     },
@@ -75,6 +80,20 @@
           "parent_fpi": "f03b01ab-3a70-5e59-9c29-407739d9b1c1",
           "f_plan_id": "5f9b7601-7bdd-473e-a4c3-dde989626a37",
           "plan_name": "Anthem Full Dual Advantage (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4346-030",
+          "parent_fpi": "f03b01ab-3a70-5e59-9c29-407739d9b1c1",
+          "f_plan_id": "e4d860b2-c222-44d4-957f-bd0e9b239578",
+          "plan_name": "Anthem I CareMore Kidney Care (HMO-POS C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4346-031",
+          "parent_fpi": "f03b01ab-3a70-5e59-9c29-407739d9b1c1",
+          "f_plan_id": "b1d28670-1704-4c9c-a443-d4fb6128481e",
+          "plan_name": "Anthem Full Dual Advantage 2 (HMO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -159,23 +178,12 @@
           "parent_fpi": "f03b01ab-3a70-5e59-9c29-407739d9b1c1",
           "f_plan_id": "2747f09b-d73a-48c5-84ed-af2b7500747e",
           "plan_name": "Anthem Senior Advantage (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H4346-030",
-          "parent_fpi": "f03b01ab-3a70-5e59-9c29-407739d9b1c1",
-          "f_plan_id": "e4d860b2-c222-44d4-957f-bd0e9b239578",
-          "plan_name": "Anthem I CareMore Kidney Care (HMO-POS C-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H4346-031",
-          "parent_fpi": "f03b01ab-3a70-5e59-9c29-407739d9b1c1",
-          "f_plan_id": "b1d28670-1704-4c9c-a443-d4fb6128481e",
-          "plan_name": "Anthem Full Dual Advantage 2 (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://totalview.healthos.anthem.com/cms/H4346/index.json"
+      }
     }
   ],
   "is_seeded": true

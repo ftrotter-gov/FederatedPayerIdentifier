@@ -7,6 +7,11 @@
       "value": "dbf8df1a-9ff8-58cc-9b42-fe3ea67527ed",
       "is_fpi": true,
       "payerLegalName": "CELTIC INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "CELTIC INSURANCE COMPANY",
+        "Wellcare",
+        "Centene Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "CELTIC INSURANCE COMPANY"
     },
@@ -42,7 +47,10 @@
           "plan_name": "Wellcare Dual Select (HMO-POS D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H4661index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
     }
   ],
   "is_seeded": true

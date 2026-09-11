@@ -7,6 +7,11 @@
       "value": "6c79d2e0-7d7c-5e19-b891-4ee2fbe726f7",
       "is_fpi": true,
       "payerLegalName": "LONGEVITY HEALTH PLAN OF NORTH CAROLINA, INC.",
+      "payer_level_string_search_matches": [
+        "LONGEVITY HEALTH PLAN OF NORTH CAROLINA, INC.",
+        "Longevity Health Plan",
+        "Longevity Health Founders, LLC"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "LONGEVITY HEALTH PLAN OF NORTH CAROLINA, INC."
     },
@@ -28,7 +33,10 @@
           "plan_name": "Longevity Health Plan (HMO I-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://nc26dir.longevityhealthplan.com",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://nc26fhir.longevityhealthplan.com"
+      }
     }
   ],
   "is_seeded": true

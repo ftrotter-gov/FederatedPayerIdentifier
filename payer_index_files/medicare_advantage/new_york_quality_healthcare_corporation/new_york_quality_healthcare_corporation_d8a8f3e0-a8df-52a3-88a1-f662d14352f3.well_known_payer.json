@@ -7,8 +7,19 @@
       "value": "d8a8f3e0-a8df-52a3-88a1-f662d14352f3",
       "is_fpi": true,
       "payerLegalName": "NEW YORK QUALITY HEALTHCARE CORPORATION",
+      "payer_level_string_search_matches": [
+        "NEW YORK QUALITY HEALTHCARE CORPORATION",
+        "Wellcare",
+        "Centene Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "NEW YORK QUALITY HEALTHCARE CORPORATION"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4868",
+      "is_fpi": false,
+      "parent_fpi": "d8a8f3e0-a8df-52a3-88a1-f662d14352f3"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
@@ -22,11 +33,44 @@
       "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5599-013",
+          "value": "H4868-003",
           "parent_fpi": "d8a8f3e0-a8df-52a3-88a1-f662d14352f3",
-          "f_plan_id": "681090f8-fb38-4934-849a-5d03ca98b9ae",
-          "plan_name": "Wellcare Fidelis Dual Liberty Sync (HMO D-SNP)"
+          "f_plan_id": "92e22e6e-42fa-4e7e-831b-1078018636c7",
+          "plan_name": "Wellcare Patriot Simple (HMO-POS)"
         },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4868-004",
+          "parent_fpi": "d8a8f3e0-a8df-52a3-88a1-f662d14352f3",
+          "f_plan_id": "832895de-6267-4079-bd09-a01baa1a63f0",
+          "plan_name": "Wellcare Dual Access (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4868-014",
+          "parent_fpi": "d8a8f3e0-a8df-52a3-88a1-f662d14352f3",
+          "f_plan_id": "832b2028-a370-40c8-9612-d977e5959682",
+          "plan_name": "Wellcare Dual Access (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4868-016",
+          "parent_fpi": "d8a8f3e0-a8df-52a3-88a1-f662d14352f3",
+          "f_plan_id": "e09bac05-7273-4498-9255-8bc7ea3b71a0",
+          "plan_name": "Wellcare Assist (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4868-019",
+          "parent_fpi": "d8a8f3e0-a8df-52a3-88a1-f662d14352f3",
+          "f_plan_id": "a5ed812b-d8cb-40b5-975b-d0f9a4724fce",
+          "plan_name": "Wellcare Simple (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5599-002",
@@ -54,9 +98,19 @@
           "parent_fpi": "d8a8f3e0-a8df-52a3-88a1-f662d14352f3",
           "f_plan_id": "c87338fc-738d-4d67-ab93-4ec4c1999d71",
           "plan_name": "Wellcare Fidelis Patriot Simple (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5599-013",
+          "parent_fpi": "d8a8f3e0-a8df-52a3-88a1-f662d14352f3",
+          "f_plan_id": "681090f8-fb38-4934-849a-5d03ca98b9ae",
+          "plan_name": "Wellcare Fidelis Dual Liberty Sync (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H5599index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
     }
   ],
   "is_seeded": true

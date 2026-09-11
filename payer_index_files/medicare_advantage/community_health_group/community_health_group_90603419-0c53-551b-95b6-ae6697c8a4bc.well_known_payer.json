@@ -7,6 +7,9 @@
       "value": "90603419-0c53-551b-95b6-ae6697c8a4bc",
       "is_fpi": true,
       "payerLegalName": "COMMUNITY HEALTH GROUP",
+      "payer_level_string_search_matches": [
+        "COMMUNITY HEALTH GROUP"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "COMMUNITY HEALTH GROUP"
     },
@@ -32,7 +35,15 @@
           "parent_fpi": "90603419-0c53-551b-95b6-ae6697c8a4bc",
           "f_plan_id": "6e5f010c-a85d-4cc7-98b2-a9e802dd298b",
           "plan_name": "CommuniCare Advantage (HMO D-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api-chgsd-prd.safhir.io/v1/api/provider-directory/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cmsproviderdirectory.chgsd.com/H4733/2026/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6248-001",
@@ -41,7 +52,10 @@
           "plan_name": "Community y M\u00e1s (HMO C-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api-chgsd-prd.safhir.io/v1/api/provider-directory/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cmsproviderdirectory.chgsd.com/H6248/2026/index.json"
+      }
     }
   ],
   "is_seeded": true

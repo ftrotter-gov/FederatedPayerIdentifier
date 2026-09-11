@@ -7,6 +7,11 @@
       "value": "f26c3fb5-972a-58ec-9c7b-52d8c44edd91",
       "is_fpi": true,
       "payerLegalName": "UNITEDHEALTHCARE COMMUNITY PLAN OF TEXAS, L.L.C.",
+      "payer_level_string_search_matches": [
+        "UNITEDHEALTHCARE COMMUNITY PLAN OF TEXAS, L.L.C.",
+        "UnitedHealthcare",
+        "UnitedHealth Group, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "UNITEDHEALTHCARE COMMUNITY PLAN OF TEXAS, L.L.C."
     },
@@ -32,7 +37,15 @@
           "parent_fpi": "f26c3fb5-972a-58ec-9c7b-52d8c44edd91",
           "f_plan_id": "4c161dbf-5d19-43b1-8286-268e9218b727",
           "plan_name": "UHC Dual Complete TX-Y1 (HMO-POS D-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-mpf.optum-uhc-stage.net/api/cms/plans/H3868/2027",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://flex.optum.com/fhirpublic"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4514-007",
@@ -125,7 +138,10 @@
           "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-mpf.optum-uhc-stage.net/api/cms/plans/H4514/2027",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://flex.optum.com/fhirpublic"
+      }
     }
   ],
   "is_seeded": true

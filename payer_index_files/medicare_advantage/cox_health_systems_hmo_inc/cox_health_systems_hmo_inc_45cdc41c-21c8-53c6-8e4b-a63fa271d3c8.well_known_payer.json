@@ -7,6 +7,11 @@
       "value": "45cdc41c-21c8-53c6-8e4b-a63fa271d3c8",
       "is_fpi": true,
       "payerLegalName": "COX HEALTH SYSTEMS HMO INC",
+      "payer_level_string_search_matches": [
+        "COX HEALTH SYSTEMS HMO INC",
+        "Cox HealthPlans",
+        "CoxHealth"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "COX HEALTH SYSTEMS HMO INC"
     },
@@ -42,7 +47,10 @@
           "plan_name": "Phelps Health Medicare Advantage (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.coxhealthplanfhir.com/r4/publicProdMa/Practitioner",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://gateway.1up.health/v1/cox/r4/publicProdMa/mpf/H2942-CY2027/index.json"
+      }
     }
   ],
   "is_seeded": true

@@ -1,0 +1,31 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "09630ef2-1b25-551c-99d8-adaa567f6489",
+      "is_fpi": true,
+      "payerLegalName": "UNION HEALTH SERVICES, INC.",
+      "payer_level_string_search_matches": [
+        "UNION HEALTH SERVICES, INC.",
+        "Union Health Service, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "UNION HEALTH SERVICES, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6142",
+      "is_fpi": false,
+      "parent_fpi": "09630ef2-1b25-551c-99d8-adaa567f6489"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

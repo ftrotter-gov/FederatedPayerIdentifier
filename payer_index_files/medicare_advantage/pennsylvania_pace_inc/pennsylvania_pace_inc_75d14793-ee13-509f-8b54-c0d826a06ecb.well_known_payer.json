@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "75d14793-ee13-509f-8b54-c0d826a06ecb",
+      "is_fpi": true,
+      "payerLegalName": "PENNSYLVANIA PACE, INC.",
+      "payer_level_string_search_matches": [
+        "PENNSYLVANIA PACE, INC.",
+        "Senior LIFE Johnstown"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PENNSYLVANIA PACE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3925",
+      "is_fpi": false,
+      "parent_fpi": "75d14793-ee13-509f-8b54-c0d826a06ecb"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3925-001",
+          "parent_fpi": "75d14793-ee13-509f-8b54-c0d826a06ecb",
+          "f_plan_id": "58f93a15-6a68-4735-b884-4baf72cb5265",
+          "plan_name": "Senior LIFE Johnstown Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3925-002",
+          "parent_fpi": "75d14793-ee13-509f-8b54-c0d826a06ecb",
+          "f_plan_id": "443315c4-4fa2-4366-945c-a8f7af275530",
+          "plan_name": "Senior LIFE Johnstown Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

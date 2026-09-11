@@ -1,0 +1,40 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "fc48f28c-4b4d-5d0e-a8c1-885efe12277d",
+      "is_fpi": true,
+      "payerLegalName": "CENTENE VENTURE COMPANY MICHIGAN",
+      "payer_level_string_search_matches": [
+        "CENTENE VENTURE COMPANY MICHIGAN",
+        "Ascension Complete",
+        "Centene Corporation"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CENTENE VENTURE COMPANY MICHIGAN"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7512",
+      "is_fpi": false,
+      "parent_fpi": "fc48f28c-4b4d-5d0e-a8c1-885efe12277d"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7512-801",
+          "parent_fpi": "fc48f28c-4b4d-5d0e-a8c1-885efe12277d",
+          "f_plan_id": "7ee03110-5637-4b88-be81-f8fac761bcc6",
+          "plan_name": "Centene Venture Company Michigan (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

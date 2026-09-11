@@ -7,6 +7,11 @@
       "value": "1592c710-32ca-5ad1-865c-0a7ec95d0929",
       "is_fpi": true,
       "payerLegalName": "HEALTH NET OF CALIFORNIA, INC.",
+      "payer_level_string_search_matches": [
+        "HEALTH NET OF CALIFORNIA, INC.",
+        "Wellcare",
+        "Centene Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HEALTH NET OF CALIFORNIA, INC."
     },
@@ -78,6 +83,13 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0562-138",
+          "parent_fpi": "1592c710-32ca-5ad1-865c-0a7ec95d0929",
+          "f_plan_id": "5594144a-1386-4d9d-a2d8-b25a2abb9d0a",
+          "plan_name": "Wellcare Specialty Simple Focus (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0562-801",
           "parent_fpi": "1592c710-32ca-5ad1-865c-0a7ec95d0929",
           "f_plan_id": "2be5743f-2fcd-4f92-af8c-adc714db417f",
@@ -96,16 +108,12 @@
           "parent_fpi": "1592c710-32ca-5ad1-865c-0a7ec95d0929",
           "f_plan_id": "8e250a78-950a-4196-b1ac-20d89f6a2ec4",
           "plan_name": "Health Net Seniority Plus Employer (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H0562-138",
-          "parent_fpi": "1592c710-32ca-5ad1-865c-0a7ec95d0929",
-          "f_plan_id": "5594144a-1386-4d9d-a2d8-b25a2abb9d0a",
-          "plan_name": "Wellcare Specialty Simple Focus (HMO C-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H0562index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
     }
   ],
   "is_seeded": true

@@ -7,6 +7,9 @@
       "value": "318fe529-af37-541b-b529-1f5c5ef84348",
       "is_fpi": true,
       "payerLegalName": "ALOHACARE",
+      "payer_level_string_search_matches": [
+        "ALOHACARE"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ALOHACARE"
     },
@@ -35,7 +38,10 @@
           "plan_name": "AlohaCare Advantage (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://www.alohacare.org/userfiles/MONTHLY%20WEBSITE%20UPDATES/AlohaCare%20Provider%20Directory_AAP.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://st.edifecscloud.com/alc_pd"
+      }
     }
   ],
   "is_seeded": true

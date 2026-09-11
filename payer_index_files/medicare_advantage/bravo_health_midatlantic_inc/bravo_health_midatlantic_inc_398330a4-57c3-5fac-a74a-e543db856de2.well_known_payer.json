@@ -7,6 +7,11 @@
       "value": "398330a4-57c3-5fac-a74a-e543db856de2",
       "is_fpi": true,
       "payerLegalName": "BRAVO HEALTH MID-ATLANTIC, INC.",
+      "payer_level_string_search_matches": [
+        "BRAVO HEALTH MID-ATLANTIC, INC.",
+        "HealthSpring",
+        "Health Care Service Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "BRAVO HEALTH MID-ATLANTIC, INC."
     },
@@ -64,13 +69,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H2108-801",
-          "parent_fpi": "398330a4-57c3-5fac-a74a-e543db856de2",
-          "f_plan_id": "6e047b42-52bb-4362-bff6-83d88c5fc90a",
-          "plan_name": "HealthSpring Preferred (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2108-044",
           "parent_fpi": "398330a4-57c3-5fac-a74a-e543db856de2",
           "f_plan_id": "f74410c1-f52a-4ce9-accd-65a9d8653edc",
@@ -82,10 +80,18 @@
           "parent_fpi": "398330a4-57c3-5fac-a74a-e543db856de2",
           "f_plan_id": "7c1d4df9-8098-4d38-a21c-6d7acafbba3b",
           "plan_name": "HealthSpring Courage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2108-801",
+          "parent_fpi": "398330a4-57c3-5fac-a74a-e543db856de2",
+          "f_plan_id": "6e047b42-52bb-4362-bff6-83d88c5fc90a",
+          "plan_name": "HealthSpring Preferred (HMO)"
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://data.healthspring.healthlx.com:8003/"
+        "cms_provider_directory_machine_readable_format_endpoint": "https://mpf.healthspring.com/H2108/index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://data.healthspring.healthlx.com:8003"
       }
     }
   ],

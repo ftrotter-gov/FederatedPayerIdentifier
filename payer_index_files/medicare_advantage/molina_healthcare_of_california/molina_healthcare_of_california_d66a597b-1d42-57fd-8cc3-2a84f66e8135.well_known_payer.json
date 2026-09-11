@@ -7,6 +7,10 @@
       "value": "d66a597b-1d42-57fd-8cc3-2a84f66e8135",
       "is_fpi": true,
       "payerLegalName": "MOLINA HEALTHCARE OF CALIFORNIA",
+      "payer_level_string_search_matches": [
+        "MOLINA HEALTHCARE OF CALIFORNIA",
+        "Molina Healthcare, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "MOLINA HEALTHCARE OF CALIFORNIA"
     },
@@ -15,9 +19,27 @@
       "value": "H3038",
       "is_fpi": false,
       "parent_fpi": "d66a597b-1d42-57fd-8cc3-2a84f66e8135"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5810",
+      "is_fpi": false,
+      "parent_fpi": "d66a597b-1d42-57fd-8cc3-2a84f66e8135"
     }
   ],
   "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5810-014",
+          "parent_fpi": "d66a597b-1d42-57fd-8cc3-2a84f66e8135",
+          "f_plan_id": "94496831-f001-48b5-91f7-7fb6cd7eec8e",
+          "plan_name": "Molina Medicare Choice Care (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
     {
       "plan_identifiers": [
         {
@@ -35,7 +57,10 @@
           "plan_name": "Molina Medicare Complete Care Plus (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.molinahealthcare.com/cmsjson/378245/MCareFHIR/H3038/index.json"
+      }
     }
   ],
   "is_seeded": true

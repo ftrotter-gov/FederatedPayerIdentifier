@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "29298aaa-28fc-5c8e-823a-6a045f70eabb",
+      "is_fpi": true,
+      "payerLegalName": "CENTERLIGHT HEALTHCARE, INC.",
+      "payer_level_string_search_matches": [
+        "CENTERLIGHT HEALTHCARE, INC.",
+        "CenterLight Healthcare PACE",
+        "CenterLight Health System, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CENTERLIGHT HEALTHCARE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3329",
+      "is_fpi": false,
+      "parent_fpi": "29298aaa-28fc-5c8e-823a-6a045f70eabb"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3329-001",
+          "parent_fpi": "29298aaa-28fc-5c8e-823a-6a045f70eabb",
+          "f_plan_id": "04f852b3-b9de-46e5-acc5-29c54d4e253b",
+          "plan_name": "CenterLight Healthcare PACE Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3329-002",
+          "parent_fpi": "29298aaa-28fc-5c8e-823a-6a045f70eabb",
+          "f_plan_id": "d7a907bd-679e-43e0-89cd-54f3c9390dbd",
+          "plan_name": "CenterLight Healthcare - PACE - Medicare only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

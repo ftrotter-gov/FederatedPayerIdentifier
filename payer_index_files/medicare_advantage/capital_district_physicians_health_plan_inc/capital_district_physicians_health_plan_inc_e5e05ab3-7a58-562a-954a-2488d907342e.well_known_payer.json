@@ -7,6 +7,11 @@
       "value": "e5e05ab3-7a58-562a-954a-2488d907342e",
       "is_fpi": true,
       "payerLegalName": "CAPITAL DISTRICT PHYSICIANS' HEALTH PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "CAPITAL DISTRICT PHYSICIANS' HEALTH PLAN, INC.",
+        "CDPHP Medicare Advantage",
+        "Lifetime Healthcare, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "CAPITAL DISTRICT PHYSICIANS' HEALTH PLAN, INC."
     },
@@ -43,6 +48,13 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3388-020",
+          "parent_fpi": "e5e05ab3-7a58-562a-954a-2488d907342e",
+          "f_plan_id": "2f349e33-34a0-4931-8847-60b7993022da",
+          "plan_name": "CDPHP Clear Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3388-801",
           "parent_fpi": "e5e05ab3-7a58-562a-954a-2488d907342e",
           "f_plan_id": "439440c0-eb55-42db-a4b8-2314f925d9c9",
@@ -61,16 +73,12 @@
           "parent_fpi": "e5e05ab3-7a58-562a-954a-2488d907342e",
           "f_plan_id": "34936fc7-772d-445d-acfa-1a62abd5a200",
           "plan_name": "CDPHP Group Medicare (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H3388-020",
-          "parent_fpi": "e5e05ab3-7a58-562a-954a-2488d907342e",
-          "f_plan_id": "2f349e33-34a0-4931-8847-60b7993022da",
-          "plan_name": "CDPHP Clear Rx (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://cdphpfhir.healthsparq.com/api/provider-fhir-service/v1/fhir/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cms-uat.healthsparq.com/mpf/v1/H3388/2027/H3388-2027-index.json"
+      }
     }
   ],
   "is_seeded": true

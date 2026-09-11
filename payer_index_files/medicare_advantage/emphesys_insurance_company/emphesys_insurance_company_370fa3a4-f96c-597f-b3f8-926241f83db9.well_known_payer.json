@@ -7,6 +7,11 @@
       "value": "370fa3a4-f96c-597f-b3f8-926241f83db9",
       "is_fpi": true,
       "payerLegalName": "EMPHESYS INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "EMPHESYS INSURANCE COMPANY",
+        "Humana",
+        "Humana Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "EMPHESYS INSURANCE COMPANY"
     },
@@ -20,90 +25,6 @@
   "plan_groups": [
     {
       "plan_identifiers": [
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H7617-801",
-          "parent_fpi": "370fa3a4-f96c-597f-b3f8-926241f83db9",
-          "f_plan_id": "11b3123b-7276-4de9-ab51-eddcd64787a1",
-          "plan_name": "Humana Medicare Employer (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H7617-802",
-          "parent_fpi": "370fa3a4-f96c-597f-b3f8-926241f83db9",
-          "f_plan_id": "16a841d1-212d-485a-a2f8-9918e9131865",
-          "plan_name": "Humana Medicare Employer (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H7617-803",
-          "parent_fpi": "370fa3a4-f96c-597f-b3f8-926241f83db9",
-          "f_plan_id": "bb6981a1-66b5-43dd-8d71-0e78d0056033",
-          "plan_name": "Humana Medicare Employer (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H7617-804",
-          "parent_fpi": "370fa3a4-f96c-597f-b3f8-926241f83db9",
-          "f_plan_id": "e628bb6e-f381-4f9c-b8a1-4569f43221be",
-          "plan_name": "Humana Medicare Employer (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H7617-805",
-          "parent_fpi": "370fa3a4-f96c-597f-b3f8-926241f83db9",
-          "f_plan_id": "363f1d7b-9192-444a-988e-52bdfff5180d",
-          "plan_name": "Humana Medicare Employer (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H7617-806",
-          "parent_fpi": "370fa3a4-f96c-597f-b3f8-926241f83db9",
-          "f_plan_id": "b0e6abe6-d135-4146-8b46-7f6176a6ba7f",
-          "plan_name": "Humana Medicare Employer (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H7617-807",
-          "parent_fpi": "370fa3a4-f96c-597f-b3f8-926241f83db9",
-          "f_plan_id": "4d30ca59-be99-4296-b78f-42fab6c9af83",
-          "plan_name": "Humana Medicare Employer (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H7617-808",
-          "parent_fpi": "370fa3a4-f96c-597f-b3f8-926241f83db9",
-          "f_plan_id": "ba912c02-ec23-4fb9-b60e-765213916f40",
-          "plan_name": "Humana Medicare Employer (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H7617-811",
-          "parent_fpi": "370fa3a4-f96c-597f-b3f8-926241f83db9",
-          "f_plan_id": "91dd062f-6e8c-4e84-a175-1ba3a4a56e38",
-          "plan_name": "Humana Medicare Employer (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H7617-812",
-          "parent_fpi": "370fa3a4-f96c-597f-b3f8-926241f83db9",
-          "f_plan_id": "b233e536-db4b-4774-8ecb-5044169fd35f",
-          "plan_name": "Humana Medicare Employer (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H7617-817",
-          "parent_fpi": "370fa3a4-f96c-597f-b3f8-926241f83db9",
-          "f_plan_id": "903e77ea-83d1-41eb-87c4-f9f34196a3a3",
-          "plan_name": "Humana Medicare Employer (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H7617-818",
-          "parent_fpi": "370fa3a4-f96c-597f-b3f8-926241f83db9",
-          "f_plan_id": "e2166951-d568-4494-b5b8-9d8843df0c50",
-          "plan_name": "Humana Medicare Employer (PPO)"
-        },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7617-003",
@@ -824,10 +745,94 @@
           "parent_fpi": "370fa3a4-f96c-597f-b3f8-926241f83db9",
           "f_plan_id": "84a3ce14-3524-467d-937a-3d28a191b4d2",
           "plan_name": "HumanaChoice Florida SNP-DE H7617-113 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7617-801",
+          "parent_fpi": "370fa3a4-f96c-597f-b3f8-926241f83db9",
+          "f_plan_id": "11b3123b-7276-4de9-ab51-eddcd64787a1",
+          "plan_name": "Humana Medicare Employer (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7617-802",
+          "parent_fpi": "370fa3a4-f96c-597f-b3f8-926241f83db9",
+          "f_plan_id": "16a841d1-212d-485a-a2f8-9918e9131865",
+          "plan_name": "Humana Medicare Employer (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7617-803",
+          "parent_fpi": "370fa3a4-f96c-597f-b3f8-926241f83db9",
+          "f_plan_id": "bb6981a1-66b5-43dd-8d71-0e78d0056033",
+          "plan_name": "Humana Medicare Employer (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7617-804",
+          "parent_fpi": "370fa3a4-f96c-597f-b3f8-926241f83db9",
+          "f_plan_id": "e628bb6e-f381-4f9c-b8a1-4569f43221be",
+          "plan_name": "Humana Medicare Employer (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7617-805",
+          "parent_fpi": "370fa3a4-f96c-597f-b3f8-926241f83db9",
+          "f_plan_id": "363f1d7b-9192-444a-988e-52bdfff5180d",
+          "plan_name": "Humana Medicare Employer (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7617-806",
+          "parent_fpi": "370fa3a4-f96c-597f-b3f8-926241f83db9",
+          "f_plan_id": "b0e6abe6-d135-4146-8b46-7f6176a6ba7f",
+          "plan_name": "Humana Medicare Employer (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7617-807",
+          "parent_fpi": "370fa3a4-f96c-597f-b3f8-926241f83db9",
+          "f_plan_id": "4d30ca59-be99-4296-b78f-42fab6c9af83",
+          "plan_name": "Humana Medicare Employer (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7617-808",
+          "parent_fpi": "370fa3a4-f96c-597f-b3f8-926241f83db9",
+          "f_plan_id": "ba912c02-ec23-4fb9-b60e-765213916f40",
+          "plan_name": "Humana Medicare Employer (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7617-811",
+          "parent_fpi": "370fa3a4-f96c-597f-b3f8-926241f83db9",
+          "f_plan_id": "91dd062f-6e8c-4e84-a175-1ba3a4a56e38",
+          "plan_name": "Humana Medicare Employer (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7617-812",
+          "parent_fpi": "370fa3a4-f96c-597f-b3f8-926241f83db9",
+          "f_plan_id": "b233e536-db4b-4774-8ecb-5044169fd35f",
+          "plan_name": "Humana Medicare Employer (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7617-817",
+          "parent_fpi": "370fa3a4-f96c-597f-b3f8-926241f83db9",
+          "f_plan_id": "903e77ea-83d1-41eb-87c4-f9f34196a3a3",
+          "plan_name": "Humana Medicare Employer (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7617-818",
+          "parent_fpi": "370fa3a4-f96c-597f-b3f8-926241f83db9",
+          "f_plan_id": "e2166951-d568-4494-b5b8-9d8843df0c50",
+          "plan_name": "Humana Medicare Employer (PPO)"
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.humana.com/api"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.humana.com/api"
       }
     }
   ],

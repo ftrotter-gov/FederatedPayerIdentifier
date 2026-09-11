@@ -7,6 +7,11 @@
       "value": "31992aa8-af00-5658-966a-177a1472e8c2",
       "is_fpi": true,
       "payerLegalName": "COMMUNITYCARE GOVERNMENT PROGRAMS, INC.",
+      "payer_level_string_search_matches": [
+        "COMMUNITYCARE GOVERNMENT PROGRAMS, INC.",
+        "CommunityCare Senior Health Plan (HMO)",
+        "St Francis Health System & St John Health System"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "COMMUNITYCARE GOVERNMENT PROGRAMS, INC."
     },
@@ -70,7 +75,10 @@
           "plan_name": "Senior Health EGHP+D (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.communitycarefhir.com/r4/public-prod-ma/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://gateway.1up.health/v1/ccok/r4/public-prod-ma/mpf/H377-CY2027/index.json"
+      }
     }
   ],
   "is_seeded": true

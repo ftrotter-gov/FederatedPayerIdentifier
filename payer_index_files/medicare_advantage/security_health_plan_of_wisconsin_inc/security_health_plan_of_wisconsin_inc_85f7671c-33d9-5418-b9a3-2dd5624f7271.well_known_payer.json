@@ -7,6 +7,10 @@
       "value": "85f7671c-33d9-5418-b9a3-2dd5624f7271",
       "is_fpi": true,
       "payerLegalName": "SECURITY HEALTH PLAN OF WISCONSIN, INC.",
+      "payer_level_string_search_matches": [
+        "SECURITY HEALTH PLAN OF WISCONSIN, INC.",
+        "Sanford Health"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SECURITY HEALTH PLAN OF WISCONSIN, INC."
     },
@@ -63,7 +67,10 @@
           "plan_name": "Esteem Rx (HMO-POS)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://shp-web-public.s3.amazonaws.com/PRD/medicare/h5211/mpf-data-index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.securityhealth.org/hspd/r4/"
+      }
     }
   ],
   "is_seeded": true

@@ -1,0 +1,75 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "118ccf73-69a4-5c6c-9e26-1d7f9285af6c",
+      "is_fpi": true,
+      "payerLegalName": "DEAN HEALTH INSURANCE, INC.",
+      "payer_level_string_search_matches": [
+        "DEAN HEALTH INSURANCE, INC.",
+        "Navitus MedicareRx",
+        "Medica Holding Company"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "DEAN HEALTH INSURANCE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S9701",
+      "is_fpi": false,
+      "parent_fpi": "118ccf73-69a4-5c6c-9e26-1d7f9285af6c"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S9701-801",
+          "parent_fpi": "118ccf73-69a4-5c6c-9e26-1d7f9285af6c",
+          "f_plan_id": "09f3172d-c2c1-456f-b849-f57cd69c1099",
+          "plan_name": "Navitus MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S9701-802",
+          "parent_fpi": "118ccf73-69a4-5c6c-9e26-1d7f9285af6c",
+          "f_plan_id": "a33a2c3c-99c4-405d-bf66-4fbe3c084df9",
+          "plan_name": "Navitus MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S9701-803",
+          "parent_fpi": "118ccf73-69a4-5c6c-9e26-1d7f9285af6c",
+          "f_plan_id": "149b6dfa-aa6f-4874-8ecf-7fd987fbafe9",
+          "plan_name": "Navitus MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S9701-804",
+          "parent_fpi": "118ccf73-69a4-5c6c-9e26-1d7f9285af6c",
+          "f_plan_id": "cbff5b4d-1a60-4820-8c2c-4e89178986bc",
+          "plan_name": "Navitus MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S9701-807",
+          "parent_fpi": "118ccf73-69a4-5c6c-9e26-1d7f9285af6c",
+          "f_plan_id": "e087a45a-52c6-4b3b-acbc-2c9a0cd45259",
+          "plan_name": "Navitus MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S9701-808",
+          "parent_fpi": "118ccf73-69a4-5c6c-9e26-1d7f9285af6c",
+          "f_plan_id": "3f643495-e1d5-4698-aaed-e22b81c9fba0",
+          "plan_name": "Navitus MedicareRx (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "d9d44612-1aa6-5cb6-a4c1-10924a3be1f5",
+      "is_fpi": true,
+      "payerLegalName": "BLUE RIDGE INDEPENDENCE AT HOME, INC.",
+      "payer_level_string_search_matches": [
+        "BLUE RIDGE INDEPENDENCE AT HOME, INC.",
+        "Blue Ridge Independence at Home",
+        "Blue Ridge Hospice, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BLUE RIDGE INDEPENDENCE AT HOME, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0870",
+      "is_fpi": false,
+      "parent_fpi": "d9d44612-1aa6-5cb6-a4c1-10924a3be1f5"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0870-001",
+          "parent_fpi": "d9d44612-1aa6-5cb6-a4c1-10924a3be1f5",
+          "f_plan_id": "e2494b49-f77b-4a94-9c77-e8486cadfc91",
+          "plan_name": "Blue Ridge Independence at Home (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0870-002",
+          "parent_fpi": "d9d44612-1aa6-5cb6-a4c1-10924a3be1f5",
+          "f_plan_id": "d82897e0-f396-4f4f-a3eb-adb405bb21b3",
+          "plan_name": "Blue Ridge Independence at Home (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

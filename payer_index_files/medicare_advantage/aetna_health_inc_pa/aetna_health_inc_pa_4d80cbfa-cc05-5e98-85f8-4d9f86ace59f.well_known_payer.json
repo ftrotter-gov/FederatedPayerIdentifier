@@ -7,6 +7,11 @@
       "value": "4d80cbfa-cc05-5e98-85f8-4d9f86ace59f",
       "is_fpi": true,
       "payerLegalName": "AETNA HEALTH INC. (PA)",
+      "payer_level_string_search_matches": [
+        "AETNA HEALTH INC. (PA)",
+        "Aetna Medicare",
+        "CVS Health Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AETNA HEALTH INC. (PA)"
     },
@@ -209,20 +214,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H3931-801",
-          "parent_fpi": "4d80cbfa-cc05-5e98-85f8-4d9f86ace59f",
-          "f_plan_id": "f7c9a963-0167-4fd3-b87d-e20c8eacf3d9",
-          "plan_name": "Aetna Medicare Plan (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H3931-804",
-          "parent_fpi": "4d80cbfa-cc05-5e98-85f8-4d9f86ace59f",
-          "f_plan_id": "ca575a14-1964-454a-9e83-feeee3bef1f1",
-          "plan_name": "Aetna Medicare Plan w/Rx (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3931-188",
           "parent_fpi": "4d80cbfa-cc05-5e98-85f8-4d9f86ace59f",
           "f_plan_id": "460c72c7-9902-407e-bea8-3d8cf3ffddeb",
@@ -256,6 +247,27 @@
           "f_plan_id": "a367537d-a4c4-46ff-ab4f-74a699d0169e",
           "plan_name": "Aetna Medicare Signature (HMO)"
         },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3931-801",
+          "parent_fpi": "4d80cbfa-cc05-5e98-85f8-4d9f86ace59f",
+          "f_plan_id": "f7c9a963-0167-4fd3-b87d-e20c8eacf3d9",
+          "plan_name": "Aetna Medicare Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3931-804",
+          "parent_fpi": "4d80cbfa-cc05-5e98-85f8-4d9f86ace59f",
+          "f_plan_id": "ca575a14-1964-454a-9e83-feeee3bef1f1",
+          "plan_name": "Aetna Medicare Plan w/Rx (HMO)"
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.aetna.com/interoperability/2027/H3931/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3959-001",
@@ -426,13 +438,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H3959-804",
-          "parent_fpi": "4d80cbfa-cc05-5e98-85f8-4d9f86ace59f",
-          "f_plan_id": "29ec6ef5-28d7-4120-a29b-47f3ed0fbfea",
-          "plan_name": "Aetna Medicare Plan w/Rx (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3959-083",
           "parent_fpi": "4d80cbfa-cc05-5e98-85f8-4d9f86ace59f",
           "f_plan_id": "a630f1be-7789-46a0-a52d-f0168bd825ea",
@@ -452,6 +457,20 @@
           "f_plan_id": "8b6619ee-08a7-4a83-82ce-26c554297e63",
           "plan_name": "Aetna Medicare Chronic Care Value (HMO C-SNP)"
         },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3959-804",
+          "parent_fpi": "4d80cbfa-cc05-5e98-85f8-4d9f86ace59f",
+          "f_plan_id": "29ec6ef5-28d7-4120-a29b-47f3ed0fbfea",
+          "plan_name": "Aetna Medicare Plan w/Rx (HMO)"
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.aetna.com/interoperability/2027/H3959/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7149-001",
@@ -482,7 +501,7 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.aetna.com/interoperability/2027/H7149/index.json"
       }
     }
   ],

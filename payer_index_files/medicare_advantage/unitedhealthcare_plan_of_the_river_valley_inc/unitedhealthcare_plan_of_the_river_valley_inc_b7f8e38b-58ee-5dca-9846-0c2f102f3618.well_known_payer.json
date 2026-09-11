@@ -7,6 +7,11 @@
       "value": "b7f8e38b-58ee-5dca-9846-0c2f102f3618",
       "is_fpi": true,
       "payerLegalName": "UNITEDHEALTHCARE PLAN OF THE RIVER VALLEY, INC.",
+      "payer_level_string_search_matches": [
+        "UNITEDHEALTHCARE PLAN OF THE RIVER VALLEY, INC.",
+        "UnitedHealthcare",
+        "UnitedHealth Group, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "UNITEDHEALTHCARE PLAN OF THE RIVER VALLEY, INC."
     },
@@ -42,7 +47,10 @@
           "plan_name": "UHC Dual Complete TN-Y2 (HMO-POS D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-mpf.optum-uhc-stage.net/api/cms/plans/H0251/2027",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://flex.optum.com/fhirpublic"
+      }
     }
   ],
   "is_seeded": true

@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "88bc2de8-b688-5a31-9728-566f77e5c9e5",
+      "is_fpi": true,
+      "payerLegalName": "REGION VII AREA AGENCY ON AGING",
+      "payer_level_string_search_matches": [
+        "REGION VII AREA AGENCY ON AGING",
+        "Sunrise PACE",
+        "Region VII Area Agency on Aging, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "REGION VII AREA AGENCY ON AGING"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9052",
+      "is_fpi": false,
+      "parent_fpi": "88bc2de8-b688-5a31-9728-566f77e5c9e5"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9052-001",
+          "parent_fpi": "88bc2de8-b688-5a31-9728-566f77e5c9e5",
+          "f_plan_id": "77197b96-8e10-4d47-84ea-37ba41ca623b",
+          "plan_name": "Dual Eligible Plan 01 (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9052-002",
+          "parent_fpi": "88bc2de8-b688-5a31-9728-566f77e5c9e5",
+          "f_plan_id": "964f8696-a219-45fc-b654-a344a16b9ff7",
+          "plan_name": "Medicare Only 02 (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

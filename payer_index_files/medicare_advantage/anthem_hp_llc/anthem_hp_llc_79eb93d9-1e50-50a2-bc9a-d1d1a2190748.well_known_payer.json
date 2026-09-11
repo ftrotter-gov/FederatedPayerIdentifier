@@ -7,6 +7,12 @@
       "value": "79eb93d9-1e50-50a2-bc9a-d1d1a2190748",
       "is_fpi": true,
       "payerLegalName": "Anthem HP, LLC",
+      "payer_level_string_search_matches": [
+        "Anthem HP, LLC",
+        "Anthem Blue Cross and Blue Shield HP",
+        "Elevance Health, Inc.",
+        "ANTHEM HP, LLC."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "Anthem HP, LLC"
     },
@@ -67,7 +73,15 @@
           "parent_fpi": "79eb93d9-1e50-50a2-bc9a-d1d1a2190748",
           "f_plan_id": "dab0337f-5770-4d5b-b401-3c5c8d5431de",
           "plan_name": "Anthem Medicare Advantage 2 (HMO-POS)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://totalview.healthos.anthem.com/cms/H6988/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8432-009",
@@ -167,7 +181,10 @@
           "plan_name": "Anthem Senior Advantage (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://totalview.healthos.anthem.com/cms/H8432/index.json"
+      }
     }
   ],
   "is_seeded": true

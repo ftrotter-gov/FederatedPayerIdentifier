@@ -7,6 +7,11 @@
       "value": "37681396-0795-5f23-84ef-0d7a3baa4a70",
       "is_fpi": true,
       "payerLegalName": "HMO Minnesota",
+      "payer_level_string_search_matches": [
+        "HMO Minnesota",
+        "Blue Plus",
+        "Aware Integrated, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HMO Minnesota"
     },
@@ -28,7 +33,10 @@
           "plan_name": "SecureBlue (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir-developer.bluecrossmn.com/provider-directory",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir-developer.bluecrossmn.com/provider-directory"
+      }
     }
   ],
   "is_seeded": true

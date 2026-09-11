@@ -7,6 +7,11 @@
       "value": "3810db9f-6f86-5ffa-aae8-dcac4ad54100",
       "is_fpi": true,
       "payerLegalName": "ANTHEM INSURANCE COMPANIES, INC.",
+      "payer_level_string_search_matches": [
+        "ANTHEM INSURANCE COMPANIES, INC.",
+        "Anthem Blue Cross and Blue Shield",
+        "Elevance Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ANTHEM INSURANCE COMPANIES, INC."
     },
@@ -51,9 +56,69 @@
       "value": "R5941",
       "is_fpi": false,
       "parent_fpi": "3810db9f-6f86-5ffa-aae8-dcac4ad54100"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S5596",
+      "is_fpi": false,
+      "parent_fpi": "3810db9f-6f86-5ffa-aae8-dcac4ad54100"
     }
   ],
   "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5596-803",
+          "parent_fpi": "3810db9f-6f86-5ffa-aae8-dcac4ad54100",
+          "f_plan_id": "af69743d-6628-4cde-aeaf-9f6ac6a5ea28",
+          "plan_name": "Blue MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5596-804",
+          "parent_fpi": "3810db9f-6f86-5ffa-aae8-dcac4ad54100",
+          "f_plan_id": "5b62a7b5-0fc7-49d8-9ae2-56c234edb387",
+          "plan_name": "Blue MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5596-844",
+          "parent_fpi": "3810db9f-6f86-5ffa-aae8-dcac4ad54100",
+          "f_plan_id": "6a269c17-2423-4b11-a9e1-5ee6c28301b6",
+          "plan_name": "Blue MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5596-845",
+          "parent_fpi": "3810db9f-6f86-5ffa-aae8-dcac4ad54100",
+          "f_plan_id": "45401c6b-121c-46ef-8f6d-420155b7f072",
+          "plan_name": "Blue MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5596-846",
+          "parent_fpi": "3810db9f-6f86-5ffa-aae8-dcac4ad54100",
+          "f_plan_id": "1c50d4b9-9dd9-4629-afcf-f5925e0e3e05",
+          "plan_name": "Blue MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5596-847",
+          "parent_fpi": "3810db9f-6f86-5ffa-aae8-dcac4ad54100",
+          "f_plan_id": "6a6a3440-a566-4bba-94ac-4d802b9a1727",
+          "plan_name": "Blue MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5596-848",
+          "parent_fpi": "3810db9f-6f86-5ffa-aae8-dcac4ad54100",
+          "f_plan_id": "39c93512-e59e-40bd-82fa-dcbf7cb28a40",
+          "plan_name": "Blue MedicareRx (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
     {
       "plan_identifiers": [
         {
@@ -83,7 +148,15 @@
           "parent_fpi": "3810db9f-6f86-5ffa-aae8-dcac4ad54100",
           "f_plan_id": "e95b483f-d9e6-42dd-8d2a-54985fa492a8",
           "plan_name": "Anthem I PathWays Dual Care Advantage NFLOC (HMO D-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://totalview.healthos.anthem.com/cms/H0629/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1607-012",
@@ -160,14 +233,37 @@
           "parent_fpi": "3810db9f-6f86-5ffa-aae8-dcac4ad54100",
           "f_plan_id": "4d3f285b-1401-4fd9-81b6-69fc0148b476",
           "plan_name": "Anthem Medicare Preferred (PPO)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://totalview.healthos.anthem.com/cms/H1607/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2441-001",
           "parent_fpi": "3810db9f-6f86-5ffa-aae8-dcac4ad54100",
           "f_plan_id": "70697a60-7050-4c89-8526-7d97ad96816c",
           "plan_name": "Anthem Dual Advantage (PPO D-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://totalview.healthos.anthem.com/cms/H2441/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://totalview.healthos.anthem.com/cms/H3529/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4036-008",
@@ -391,7 +487,15 @@
           "parent_fpi": "3810db9f-6f86-5ffa-aae8-dcac4ad54100",
           "f_plan_id": "3312eb8e-9d77-485e-82ac-24f88fa8c4be",
           "plan_name": "Anthem Medicare Preferred (PPO)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://totalview.healthos.anthem.com/cms/H4036/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4909-014",
@@ -489,14 +593,15 @@
           "parent_fpi": "3810db9f-6f86-5ffa-aae8-dcac4ad54100",
           "f_plan_id": "2e78327f-9239-4047-b2c7-c313b498a229",
           "plan_name": "Anthem Medicare Preferred (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "R5941-016",
-          "parent_fpi": "3810db9f-6f86-5ffa-aae8-dcac4ad54100",
-          "f_plan_id": "ca61bf24-2ecf-4fb2-be60-70a502ce2d75",
-          "plan_name": "Anthem Medicare Advantage (Regional PPO)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://totalview.healthos.anthem.com/cms/H4909/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "R5941-013",
@@ -510,9 +615,19 @@
           "parent_fpi": "3810db9f-6f86-5ffa-aae8-dcac4ad54100",
           "f_plan_id": "535d3781-4cbc-4d0e-a489-e386051044ee",
           "plan_name": "Anthem Medicare Advantage (Regional PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "R5941-016",
+          "parent_fpi": "3810db9f-6f86-5ffa-aae8-dcac4ad54100",
+          "f_plan_id": "ca61bf24-2ecf-4fb2-be60-70a502ce2d75",
+          "plan_name": "Anthem Medicare Advantage (Regional PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://totalview.healthos.anthem.com/cms/R5941/index.json"
+      }
     }
   ],
   "is_seeded": true

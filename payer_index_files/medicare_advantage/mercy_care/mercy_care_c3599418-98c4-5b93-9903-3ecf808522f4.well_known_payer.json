@@ -7,6 +7,10 @@
       "value": "c3599418-98c4-5b93-9903-3ecf808522f4",
       "is_fpi": true,
       "payerLegalName": "MERCY CARE",
+      "payer_level_string_search_matches": [
+        "MERCY CARE",
+        "Mercy Care Advantage"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "MERCY CARE"
     },
@@ -42,7 +46,9 @@
           "plan_name": "Mercy Care Advantage (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://www.mercycareaz.org/content/dam/mercycare/pdf/index.json"
+      }
     }
   ],
   "is_seeded": true

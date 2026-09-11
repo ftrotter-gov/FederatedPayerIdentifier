@@ -7,6 +7,12 @@
       "value": "e1007a4c-3b18-5d76-b4a1-6a3beb35589f",
       "is_fpi": true,
       "payerLegalName": "HIGHMARK BCBSD, INC.",
+      "payer_level_string_search_matches": [
+        "HIGHMARK BCBSD, INC.",
+        "Highmark Blue Cross Blue Shield",
+        "Highmark Health",
+        "HIGHMARK BCBSD INC."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HIGHMARK BCBSD, INC."
     },
@@ -39,13 +45,42 @@
           "parent_fpi": "e1007a4c-3b18-5d76-b4a1-6a3beb35589f",
           "f_plan_id": "0485c0ad-47ea-4e3b-a0c0-480c3899715a",
           "plan_name": "Highmark Health Options Duals Select (HMO D-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://apicmsqa.hmhs.com/cms/fhir/v4/providers/BCBSDE/Practitioner",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cms.healthsparq.com/mpf/v1/H7710/2027/H7710-2027-index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8166-003",
           "parent_fpi": "e1007a4c-3b18-5d76-b4a1-6a3beb35589f",
           "f_plan_id": "3d49e201-5251-40cd-a359-f41ae4361d80",
           "plan_name": "Freedom Blue PPO Valor (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8166-005",
+          "parent_fpi": "e1007a4c-3b18-5d76-b4a1-6a3beb35589f",
+          "f_plan_id": "7f86d345-d389-4a59-8931-6abaf72458aa",
+          "plan_name": "Complete Blue PPO Signature (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8166-006",
+          "parent_fpi": "e1007a4c-3b18-5d76-b4a1-6a3beb35589f",
+          "f_plan_id": "3c1d9c05-2eeb-45fd-aeb5-b299b4db0a81",
+          "plan_name": "Complete Blue PPO Distinct (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8166-007",
+          "parent_fpi": "e1007a4c-3b18-5d76-b4a1-6a3beb35589f",
+          "f_plan_id": "30952b7c-3051-4e3f-97eb-92239b292cd9",
+          "plan_name": "Complete Blue PPO Distinct (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -74,30 +109,12 @@
           "parent_fpi": "e1007a4c-3b18-5d76-b4a1-6a3beb35589f",
           "f_plan_id": "94074d09-fead-4d92-8ae9-aeb9e25ceec3",
           "plan_name": "Freedom Blue PPO MAPD DE ASO CALENDAR (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H8166-005",
-          "parent_fpi": "e1007a4c-3b18-5d76-b4a1-6a3beb35589f",
-          "f_plan_id": "7f86d345-d389-4a59-8931-6abaf72458aa",
-          "plan_name": "Complete Blue PPO Signature (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H8166-006",
-          "parent_fpi": "e1007a4c-3b18-5d76-b4a1-6a3beb35589f",
-          "f_plan_id": "3c1d9c05-2eeb-45fd-aeb5-b299b4db0a81",
-          "plan_name": "Complete Blue PPO Distinct (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H8166-007",
-          "parent_fpi": "e1007a4c-3b18-5d76-b4a1-6a3beb35589f",
-          "f_plan_id": "30952b7c-3051-4e3f-97eb-92239b292cd9",
-          "plan_name": "Complete Blue PPO Distinct (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://apicmsqa.hmhs.com/cms/fhir/v4/providers/HMDE/Practitioner",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://mrfdata.hmhs.com/files/smilecdr/inbound/HMDE_Provider_Directory_Index.json"
+      }
     }
   ],
   "is_seeded": true

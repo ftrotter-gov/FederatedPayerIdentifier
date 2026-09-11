@@ -7,6 +7,11 @@
       "value": "b7054fda-df11-586c-8928-b0bd96a6d3c0",
       "is_fpi": true,
       "payerLegalName": "PARTNERS INSURANCE COMPANY INC",
+      "payer_level_string_search_matches": [
+        "PARTNERS INSURANCE COMPANY INC",
+        "Jefferson Health Plans",
+        "Thomas Jefferson University"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "PARTNERS INSURANCE COMPANY INC"
     },
@@ -42,7 +47,10 @@
           "plan_name": "Jefferson Health Plans Flex Pro (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://providerfhirapi.healthpartnersplans.com",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://medicare-advantage-plan-finder-provider-directory.jeffersonhealthplans.com/h1619/2027/index.json"
+      }
     }
   ],
   "is_seeded": true

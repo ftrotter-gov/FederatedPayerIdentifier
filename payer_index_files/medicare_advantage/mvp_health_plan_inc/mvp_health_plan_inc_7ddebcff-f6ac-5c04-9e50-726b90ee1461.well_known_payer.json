@@ -7,6 +7,11 @@
       "value": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
       "is_fpi": true,
       "payerLegalName": "MVP HEALTH PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "MVP HEALTH PLAN, INC.",
+        "MVP HEALTH CARE",
+        "MVP Health Care, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "MVP HEALTH PLAN, INC."
     },
@@ -21,9 +26,27 @@
       "value": "H9615",
       "is_fpi": false,
       "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S0586",
+      "is_fpi": false,
+      "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461"
     }
   ],
   "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S0586-801",
+          "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
+          "f_plan_id": "f22c28c3-091b-4b30-ad61-174b76eb31eb",
+          "plan_name": "MVP RxCare - Employer Group (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
     {
       "plan_identifiers": [
         {
@@ -88,6 +111,42 @@
           "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
           "f_plan_id": "2925983d-5877-48d6-9997-60e40da4c567",
           "plan_name": "MVP Preferred Gold Rx - Employer Group (HMO-POS)"
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.mvphealthcare.com/provdirfhirapi/metadata",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cms-uat.healthsparq.com/mpf/v1/H3305/2026/H3305-2026-index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9615-021",
+          "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
+          "f_plan_id": "c03422cf-3e1a-459f-a25e-e13e8ab5b6b0",
+          "plan_name": "MVP Medicare WellSelect with Part D (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9615-022",
+          "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
+          "f_plan_id": "ddf5e3c2-b2f2-43ea-83c4-d2a8b2e0057e",
+          "plan_name": "MVP Medicare Complete Wellness with Part D (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9615-023",
+          "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
+          "f_plan_id": "aa984117-8b1b-45b6-a0f3-ac62ff92f8e2",
+          "plan_name": "MVP Medicare Complete Wellness with Part D (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9615-024",
+          "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
+          "f_plan_id": "41f9e7f9-ba29-4c41-b780-551134462591",
+          "plan_name": "MVP Medicare Complete Wellness with Part D (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -116,37 +175,12 @@
           "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
           "f_plan_id": "82a505f5-432b-4d32-8dbe-4d336e579bc4",
           "plan_name": "MVP USA Care without Part D - Employer Group (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H9615-021",
-          "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
-          "f_plan_id": "c03422cf-3e1a-459f-a25e-e13e8ab5b6b0",
-          "plan_name": "MVP Medicare WellSelect with Part D (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H9615-022",
-          "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
-          "f_plan_id": "ddf5e3c2-b2f2-43ea-83c4-d2a8b2e0057e",
-          "plan_name": "MVP Medicare Complete Wellness with Part D (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H9615-023",
-          "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
-          "f_plan_id": "aa984117-8b1b-45b6-a0f3-ac62ff92f8e2",
-          "plan_name": "MVP Medicare Complete Wellness with Part D (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H9615-024",
-          "parent_fpi": "7ddebcff-f6ac-5c04-9e50-726b90ee1461",
-          "f_plan_id": "41f9e7f9-ba29-4c41-b780-551134462591",
-          "plan_name": "MVP Medicare Complete Wellness with Part D (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.mvphealthcare.com/provdirfhirapi/metadata",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cms-uat.healthsparq.com/mpf/v1/H9615/2026/H9615-2026-index.json"
+      }
     }
   ],
   "is_seeded": true

@@ -7,6 +7,11 @@
       "value": "73acd73c-b15a-5b12-9b34-b0dc289a124a",
       "is_fpi": true,
       "payerLegalName": "SUNFLOWER STATE HEALTH PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "SUNFLOWER STATE HEALTH PLAN, INC.",
+        "Wellcare",
+        "Centene Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SUNFLOWER STATE HEALTH PLAN, INC."
     },
@@ -15,9 +20,41 @@
       "value": "H6550",
       "is_fpi": false,
       "parent_fpi": "73acd73c-b15a-5b12-9b34-b0dc289a124a"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9387",
+      "is_fpi": false,
+      "parent_fpi": "73acd73c-b15a-5b12-9b34-b0dc289a124a"
     }
   ],
   "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9387-001",
+          "parent_fpi": "73acd73c-b15a-5b12-9b34-b0dc289a124a",
+          "f_plan_id": "fd39e783-38c2-4518-9492-97eabeefd5bc",
+          "plan_name": "Wellcare Simple Open (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9387-002",
+          "parent_fpi": "73acd73c-b15a-5b12-9b34-b0dc289a124a",
+          "f_plan_id": "26958b65-5245-4bd4-aaab-1a5de43fe8af",
+          "plan_name": "Wellcare Patriot Giveback Open (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9387-004",
+          "parent_fpi": "73acd73c-b15a-5b12-9b34-b0dc289a124a",
+          "f_plan_id": "05c96db7-07ee-459f-9839-f8f8e1d62022",
+          "plan_name": "Wellcare Dual Access Sync Open (PPO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
     {
       "plan_identifiers": [
         {
@@ -42,7 +79,10 @@
           "plan_name": "Wellcare Dual Liberty Sync (HMO-POS D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H6550index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
     }
   ],
   "is_seeded": true

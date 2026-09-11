@@ -7,6 +7,11 @@
       "value": "1a67e9f0-ac60-5d46-9e26-fd6513140a33",
       "is_fpi": true,
       "payerLegalName": "KAISER FOUNDATION HP OF GA, INC.",
+      "payer_level_string_search_matches": [
+        "KAISER FOUNDATION HP OF GA, INC.",
+        "Kaiser Permanente",
+        "Kaiser Foundation Health Plan, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "KAISER FOUNDATION HP OF GA, INC."
     },
@@ -78,20 +83,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H1170-801",
-          "parent_fpi": "1a67e9f0-ac60-5d46-9e26-fd6513140a33",
-          "f_plan_id": "f3d53067-754f-4f19-b8b4-a39689508f6f",
-          "plan_name": "Kaiser Permanente Employer Group Plan (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H1170-802",
-          "parent_fpi": "1a67e9f0-ac60-5d46-9e26-fd6513140a33",
-          "f_plan_id": "cc5ba5f8-f2fd-4346-9efc-483e9e5733c5",
-          "plan_name": "Kaiser Employer Group With Part D (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1170-016",
           "parent_fpi": "1a67e9f0-ac60-5d46-9e26-fd6513140a33",
           "f_plan_id": "e48f941c-1d5c-4e44-abe8-9564eb68242f",
@@ -103,9 +94,26 @@
           "parent_fpi": "1a67e9f0-ac60-5d46-9e26-fd6513140a33",
           "f_plan_id": "685039bd-ec00-4c45-8d1d-f4630ae4dc36",
           "plan_name": "Kaiser Permanente Sr Advantage Liberty Giveback (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1170-801",
+          "parent_fpi": "1a67e9f0-ac60-5d46-9e26-fd6513140a33",
+          "f_plan_id": "f3d53067-754f-4f19-b8b4-a39689508f6f",
+          "plan_name": "Kaiser Permanente Employer Group Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1170-802",
+          "parent_fpi": "1a67e9f0-ac60-5d46-9e26-fd6513140a33",
+          "f_plan_id": "cc5ba5f8-f2fd-4346-9efc-483e9e5733c5",
+          "plan_name": "Kaiser Employer Group With Part D (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://healthy.kaiserpermanente.org/content/dam/kporg/data/ga/mpf-medicare.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://kpx-service-bus.kp.org/service/hp/mhpo/healthplanproviderv1rc"
+      }
     }
   ],
   "is_seeded": true

@@ -1,0 +1,32 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "25daac3a-c4fb-579d-b83b-cae93ccc5812",
+      "is_fpi": true,
+      "payerLegalName": "NY HOTEL TRADES COUNCIL & HOTEL ASSOCIATION OF NYC",
+      "payer_level_string_search_matches": [
+        "NY HOTEL TRADES COUNCIL & HOTEL ASSOCIATION OF NYC",
+        "NY Hotel Trades Council and Hotel Assn. of NYC",
+        "NY Hotel Trades Council&Hotel Assn of NYC"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "NY HOTEL TRADES COUNCIL & HOTEL ASSOCIATION OF NYC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6334",
+      "is_fpi": false,
+      "parent_fpi": "25daac3a-c4fb-579d-b83b-cae93ccc5812"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

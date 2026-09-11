@@ -7,6 +7,11 @@
       "value": "9c73ca0c-c3a3-530a-a7cb-165fc1d2d8bb",
       "is_fpi": true,
       "payerLegalName": "BANNER - UNIVERSITY CARE ADVANTAGE",
+      "payer_level_string_search_matches": [
+        "BANNER - UNIVERSITY CARE ADVANTAGE",
+        "Banner Medicare Advantage",
+        "Banner Health"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "BANNER - UNIVERSITY CARE ADVANTAGE"
     },
@@ -36,7 +41,8 @@
         }
       ],
       "plan_endpoints": {
-        "cms_provider_directory_machine_readable_format_endpoint": "https://www.bannerhealthnetwork.com/CMS_Provider_Directory/H4931/2027/index.json"
+        "cms_provider_directory_machine_readable_format_endpoint": "https://bannerhealthnetwork.com/CMS_Provider_Directory/H4931/2027/index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://www.bannerhealthnetwork.com/CMS_Provider_Directory/H4931/FHIR/2027/index.json"
       }
     }
   ],

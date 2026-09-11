@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "1a161a89-9d96-5802-a949-c69d7154e767",
+      "is_fpi": true,
+      "payerLegalName": "NORTH EAST MEDICAL SERVICES",
+      "payer_level_string_search_matches": [
+        "NORTH EAST MEDICAL SERVICES",
+        "North East Medical Services - Program of All-Inclusive Care for the Elderly (PACE)"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "NORTH EAST MEDICAL SERVICES"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1622",
+      "is_fpi": false,
+      "parent_fpi": "1a161a89-9d96-5802-a949-c69d7154e767"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1622-001",
+          "parent_fpi": "1a161a89-9d96-5802-a949-c69d7154e767",
+          "f_plan_id": "8c6d42bd-b12a-4790-a38d-fd57c7f64b56",
+          "plan_name": "NEMS PACE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1622-003",
+          "parent_fpi": "1a161a89-9d96-5802-a949-c69d7154e767",
+          "f_plan_id": "5bb60781-fa59-4212-bfa3-1cf54a8d7f67",
+          "plan_name": "NEMS PACE \u2013 Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

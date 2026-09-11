@@ -7,6 +7,11 @@
       "value": "92cdb058-4280-5a82-b390-1deb2cba96a6",
       "is_fpi": true,
       "payerLegalName": "UHC OF CALIFORNIA",
+      "payer_level_string_search_matches": [
+        "UHC OF CALIFORNIA",
+        "UnitedHealthcare",
+        "UnitedHealth Group, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "UHC OF CALIFORNIA"
     },
@@ -295,27 +300,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H0543-802",
-          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
-          "f_plan_id": "dfa14dab-9d41-458d-9c40-c29ff54c4b4e",
-          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H0543-805",
-          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
-          "f_plan_id": "9a71ebaf-90bf-4601-b182-708b48edf74a",
-          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H0543-806",
-          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
-          "f_plan_id": "6b0935b7-4842-4a5f-89a6-36b06c8327e7",
-          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0543-254",
           "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
           "f_plan_id": "1b26fac6-12b4-40de-9945-f68798acd65f",
@@ -337,13 +321,37 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-802",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "dfa14dab-9d41-458d-9c40-c29ff54c4b4e",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-805",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "9a71ebaf-90bf-4601-b182-708b48edf74a",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0543-806",
+          "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
+          "f_plan_id": "6b0935b7-4842-4a5f-89a6-36b06c8327e7",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0543-810",
           "parent_fpi": "92cdb058-4280-5a82-b390-1deb2cba96a6",
           "f_plan_id": "90f9dce2-3ad1-4068-aff8-34514ca3c35b",
           "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-mpf.optum-uhc-stage.net/api/cms/plans/H0543/2027",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://flex.optum.com/fhirpublic"
+      }
     }
   ],
   "is_seeded": true

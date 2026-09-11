@@ -1,0 +1,67 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "9472dac0-a1b9-5f40-a0dc-42047d73468e",
+      "is_fpi": true,
+      "payerLegalName": "BOSTON MEDICAL CENTER HEALTH PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "BOSTON MEDICAL CENTER HEALTH PLAN, INC.",
+        "WellSense Health Plan",
+        "BMC Health System, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BOSTON MEDICAL CENTER HEALTH PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6851",
+      "is_fpi": false,
+      "parent_fpi": "9472dac0-a1b9-5f40-a0dc-42047d73468e"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7980",
+      "is_fpi": false,
+      "parent_fpi": "9472dac0-a1b9-5f40-a0dc-42047d73468e"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6851-001",
+          "parent_fpi": "9472dac0-a1b9-5f40-a0dc-42047d73468e",
+          "f_plan_id": "42e971fa-30b6-472f-bc5f-a0e87f0ff06b",
+          "plan_name": "WellSense Added Value (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6851-002",
+          "parent_fpi": "9472dac0-a1b9-5f40-a0dc-42047d73468e",
+          "f_plan_id": "1d3073fd-7c8e-45dd-871f-70c129c60625",
+          "plan_name": "WellSense Signature (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6851-003",
+          "parent_fpi": "9472dac0-a1b9-5f40-a0dc-42047d73468e",
+          "f_plan_id": "f8c6a825-8ed3-4774-bcf1-ea20cc662e6b",
+          "plan_name": "WellSense Choice (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7980-001",
+          "parent_fpi": "9472dac0-a1b9-5f40-a0dc-42047d73468e",
+          "f_plan_id": "02757554-ae08-4b60-b7f6-6bb3ea28c7ed",
+          "plan_name": "WellSense Signature Access (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

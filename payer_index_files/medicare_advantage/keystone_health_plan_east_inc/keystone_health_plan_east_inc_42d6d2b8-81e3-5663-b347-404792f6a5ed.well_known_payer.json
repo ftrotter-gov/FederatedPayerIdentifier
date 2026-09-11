@@ -7,6 +7,11 @@
       "value": "42d6d2b8-81e3-5663-b347-404792f6a5ed",
       "is_fpi": true,
       "payerLegalName": "KEYSTONE HEALTH PLAN EAST, INC.",
+      "payer_level_string_search_matches": [
+        "KEYSTONE HEALTH PLAN EAST, INC.",
+        "Independence Blue Cross",
+        "Independence Health Group, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "KEYSTONE HEALTH PLAN EAST, INC."
     },
@@ -120,7 +125,8 @@
         }
       ],
       "plan_endpoints": {
-        "cms_provider_directory_machine_readable_format_endpoint": "https://ibx.healthsparq.com/healthsparq/public/#/one/insurerCode=BLUEIBX_I&brandCode=BLUEIBXMCARE&productCode=ALL"
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://eapics.ibx.com/provider/v1/fhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://eapics.qa.ibx.com/api/mpf/IBC/2027/H3952/index.json"
       }
     }
   ],

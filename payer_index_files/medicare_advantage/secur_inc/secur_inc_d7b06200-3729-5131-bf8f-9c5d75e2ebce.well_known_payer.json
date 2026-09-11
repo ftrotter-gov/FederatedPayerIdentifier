@@ -7,6 +7,11 @@
       "value": "d7b06200-3729-5131-bf8f-9c5d75e2ebce",
       "is_fpi": true,
       "payerLegalName": "SECUR INC",
+      "payer_level_string_search_matches": [
+        "SECUR INC",
+        "SECUR Health Plan",
+        "Chapters CareNu Inc"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SECUR INC"
     },
@@ -42,7 +47,10 @@
           "plan_name": "SECUR Edge (HMO I-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.aaneelconnect.com/cms/r4/secur-provider-directory-2027",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://stgeusconnectprdsa001.blob.core.windows.net/secur-provider-directory-2026/index.json"
+      }
     }
   ],
   "is_seeded": true

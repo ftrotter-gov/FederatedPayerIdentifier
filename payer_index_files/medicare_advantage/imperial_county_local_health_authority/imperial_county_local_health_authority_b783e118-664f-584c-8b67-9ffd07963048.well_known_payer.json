@@ -7,6 +7,10 @@
       "value": "b783e118-664f-584c-8b67-9ffd07963048",
       "is_fpi": true,
       "payerLegalName": "IMPERIAL COUNTY LOCAL HEALTH AUTHORITY",
+      "payer_level_string_search_matches": [
+        "IMPERIAL COUNTY LOCAL HEALTH AUTHORITY",
+        "Community Health Plan of Imperial Valley"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "IMPERIAL COUNTY LOCAL HEALTH AUTHORITY"
     },
@@ -28,7 +32,10 @@
           "plan_name": "Community Advantage Plus (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://advantageplus.chpiv.org/Advantage%20Plus%20Brochures/Provider%20Directory/Provider%20Directory%20JSON.zip",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api-chpiv-prd.safhir.io/v1/api/provider-directory/"
+      }
     }
   ],
   "is_seeded": true

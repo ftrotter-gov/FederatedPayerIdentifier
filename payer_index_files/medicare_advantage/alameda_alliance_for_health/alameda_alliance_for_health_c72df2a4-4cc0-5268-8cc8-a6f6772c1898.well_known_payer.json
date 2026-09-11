@@ -7,6 +7,9 @@
       "value": "c72df2a4-4cc0-5268-8cc8-a6f6772c1898",
       "is_fpi": true,
       "payerLegalName": "ALAMEDA ALLIANCE FOR HEALTH",
+      "payer_level_string_search_matches": [
+        "ALAMEDA ALLIANCE FOR HEALTH"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ALAMEDA ALLIANCE FOR HEALTH"
     },
@@ -28,7 +31,10 @@
           "plan_name": "Alameda Alliance Wellness (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cmsmedicare.blob.core.windows.net/cmsmedicare/Index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://us120.fhir.edifecsfedcloud.com/aha_pdfhir"
+      }
     }
   ],
   "is_seeded": true

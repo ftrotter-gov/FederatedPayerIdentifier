@@ -1,0 +1,45 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "eb514f6f-7a3b-571a-8ec3-43dde56c8f7b",
+      "is_fpi": true,
+      "payerLegalName": "PACE AT HUDSON HEADWATERS, INC.",
+      "payer_level_string_search_matches": [
+        "PACE AT HUDSON HEADWATERS, INC."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PACE AT HUDSON HEADWATERS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2397",
+      "is_fpi": false,
+      "parent_fpi": "eb514f6f-7a3b-571a-8ec3-43dde56c8f7b"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2397-001",
+          "parent_fpi": "eb514f6f-7a3b-571a-8ec3-43dde56c8f7b",
+          "f_plan_id": "7854b5b9-c116-4d0e-aa8a-c5ff220d4938",
+          "plan_name": "PACE at Hudson Headwaters, Inc. (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2397-002",
+          "parent_fpi": "eb514f6f-7a3b-571a-8ec3-43dde56c8f7b",
+          "f_plan_id": "7c346aa9-9ad6-4571-8f56-0fa3ad1d8d33",
+          "plan_name": "PACE at Hudson Headwaters, Inc. -  Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

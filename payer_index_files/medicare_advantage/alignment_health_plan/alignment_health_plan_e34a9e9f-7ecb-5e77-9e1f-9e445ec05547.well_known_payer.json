@@ -7,6 +7,10 @@
       "value": "e34a9e9f-7ecb-5e77-9e1f-9e445ec05547",
       "is_fpi": true,
       "payerLegalName": "ALIGNMENT HEALTH PLAN",
+      "payer_level_string_search_matches": [
+        "ALIGNMENT HEALTH PLAN",
+        "Alignment Healthcare USA, LLC"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ALIGNMENT HEALTH PLAN"
     },
@@ -231,34 +235,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H3815-801",
-          "parent_fpi": "e34a9e9f-7ecb-5e77-9e1f-9e445ec05547",
-          "f_plan_id": "e04c0b7f-8fff-4069-889d-96479b766ebb",
-          "plan_name": "Alignment Health Plan Retiree Options (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H3815-802",
-          "parent_fpi": "e34a9e9f-7ecb-5e77-9e1f-9e445ec05547",
-          "f_plan_id": "bff62461-cabb-4e47-819f-ec1f21305696",
-          "plan_name": "Alignment Health Plan Retiree Options (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H3815-803",
-          "parent_fpi": "e34a9e9f-7ecb-5e77-9e1f-9e445ec05547",
-          "f_plan_id": "ee2e9f6e-abaf-4b9f-8dd7-df4fa4b46131",
-          "plan_name": "Alignment Health Plan Retiree Options (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H3815-804",
-          "parent_fpi": "e34a9e9f-7ecb-5e77-9e1f-9e445ec05547",
-          "f_plan_id": "d4ceff63-cd70-4d9e-a93c-b7e7f8885116",
-          "plan_name": "Alignment Health Plan Retiree Options (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3815-052",
           "parent_fpi": "e34a9e9f-7ecb-5e77-9e1f-9e445ec05547",
           "f_plan_id": "12126304-a511-42a7-b732-4011cb105905",
@@ -291,10 +267,39 @@
           "parent_fpi": "e34a9e9f-7ecb-5e77-9e1f-9e445ec05547",
           "f_plan_id": "4f6cc294-3902-4091-a5c3-9456167267d7",
           "plan_name": "Alignment Health S.D. Premium Giveback (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3815-801",
+          "parent_fpi": "e34a9e9f-7ecb-5e77-9e1f-9e445ec05547",
+          "f_plan_id": "e04c0b7f-8fff-4069-889d-96479b766ebb",
+          "plan_name": "Alignment Health Plan Retiree Options (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3815-802",
+          "parent_fpi": "e34a9e9f-7ecb-5e77-9e1f-9e445ec05547",
+          "f_plan_id": "bff62461-cabb-4e47-819f-ec1f21305696",
+          "plan_name": "Alignment Health Plan Retiree Options (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3815-803",
+          "parent_fpi": "e34a9e9f-7ecb-5e77-9e1f-9e445ec05547",
+          "f_plan_id": "ee2e9f6e-abaf-4b9f-8dd7-df4fa4b46131",
+          "plan_name": "Alignment Health Plan Retiree Options (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3815-804",
+          "parent_fpi": "e34a9e9f-7ecb-5e77-9e1f-9e445ec05547",
+          "f_plan_id": "d4ceff63-cd70-4d9e-a93c-b7e7f8885116",
+          "plan_name": "Alignment Health Plan Retiree Options (HMO)"
         }
       ],
       "plan_endpoints": {
-        "cms_provider_directory_machine_readable_format_endpoint": "https://mpf.alignmenthealth.com/mpf-provider-directory/H3815-cms-data-index.json"
+        "cms_provider_directory_machine_readable_format_endpoint": "https://mpf.alignmenthealth.com/mpf-provider-directory/H3815-cms-data-index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://adasgateway.ahcusa.com/providerfhir/Practitioner"
       }
     },
     {
@@ -350,7 +355,8 @@
         }
       ],
       "plan_endpoints": {
-        "cms_provider_directory_machine_readable_format_endpoint": "https://mpf.alignmenthealth.com/mpf-provider-directory/H4961-cms-data-index.json"
+        "cms_provider_directory_machine_readable_format_endpoint": "https://mpf.alignmenthealth.com/mpf-provider-directory/H4961-cms-data-index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://adasgateway.ahcusa.com/providerfhir/Practitioner"
       }
     }
   ],

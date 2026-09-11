@@ -7,6 +7,10 @@
       "value": "7ce29967-93bf-5099-a2e3-4f88bc8e6ac9",
       "is_fpi": true,
       "payerLegalName": "SIMPLY HEALTHCARE PLANS, INC.",
+      "payer_level_string_search_matches": [
+        "SIMPLY HEALTHCARE PLANS, INC.",
+        "Elevance Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SIMPLY HEALTHCARE PLANS, INC."
     },
@@ -371,7 +375,10 @@
           "plan_name": "Simply Integrated Platinum (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://totalview.healthos.Wellpoint.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://totalview.healthos.simplyhealthcareplans.com/cms/H5471/index.json"
+      }
     }
   ],
   "is_seeded": true

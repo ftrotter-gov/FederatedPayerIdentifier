@@ -7,6 +7,11 @@
       "value": "dbe95878-5b08-5d02-a91a-342d665eb2f2",
       "is_fpi": true,
       "payerLegalName": "JOHNS HOPKINS HEALTH PLAN OF VIRGINIA, INC.",
+      "payer_level_string_search_matches": [
+        "JOHNS HOPKINS HEALTH PLAN OF VIRGINIA, INC.",
+        "Johns Hopkins Advantage MD",
+        "Johns Hopkins Healthcare LLC"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "JOHNS HOPKINS HEALTH PLAN OF VIRGINIA, INC."
     },
@@ -28,7 +33,10 @@
           "plan_name": "Johns Hopkins Advantage MD Select (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://gateway.1up.health/v1/jhhp/r4/public-ma/mpf/H1339-CY2027/index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.jhhpfhir.com/r4/public-ma/"
+      }
     }
   ],
   "is_seeded": true

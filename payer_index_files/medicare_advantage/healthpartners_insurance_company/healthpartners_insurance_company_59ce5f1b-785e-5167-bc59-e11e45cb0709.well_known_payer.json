@@ -7,6 +7,11 @@
       "value": "59ce5f1b-785e-5167-bc59-e11e45cb0709",
       "is_fpi": true,
       "payerLegalName": "HEALTHPARTNERS INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "HEALTHPARTNERS INSURANCE COMPANY",
+        "HealthPartners",
+        "HealthPartners, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HEALTHPARTNERS INSURANCE COMPANY"
     },
@@ -49,7 +54,10 @@
           "plan_name": "HealthPartners Group MA Only (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api-developerportal.healthpartners.com/interop/external/fhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.healthpartners.com/cms/provider-directory"
+      }
     }
   ],
   "is_seeded": true

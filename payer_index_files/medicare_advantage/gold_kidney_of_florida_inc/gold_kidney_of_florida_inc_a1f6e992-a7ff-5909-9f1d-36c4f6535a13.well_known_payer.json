@@ -7,6 +7,10 @@
       "value": "a1f6e992-a7ff-5909-9f1d-36c4f6535a13",
       "is_fpi": true,
       "payerLegalName": "GOLD KIDNEY OF FLORIDA INC",
+      "payer_level_string_search_matches": [
+        "GOLD KIDNEY OF FLORIDA INC",
+        "Gold Kidney Health Plan"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "GOLD KIDNEY OF FLORIDA INC"
     },
@@ -63,7 +67,10 @@
           "plan_name": "Gold Dialysis & Kidney (HMO-POS C-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.aaneelconnect.com/cms/r4/goldkidney-provider-directory-2027",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://stgeusconprdgksa001.blob.core.windows.net/gk-providerdirectory-2026/index.json"
+      }
     }
   ],
   "is_seeded": true

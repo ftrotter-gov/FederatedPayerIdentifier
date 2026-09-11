@@ -7,6 +7,11 @@
       "value": "76a8e424-e3f9-58cb-b6e2-b98ecf45505b",
       "is_fpi": true,
       "payerLegalName": "SIMPRA ADVANTAGE, INC.",
+      "payer_level_string_search_matches": [
+        "SIMPRA ADVANTAGE, INC.",
+        "Simpra Advantage",
+        "Associated Care Ventures, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SIMPRA ADVANTAGE, INC."
     },
@@ -42,7 +47,10 @@
           "plan_name": "Simpra Advantage Assist (PPO I-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://data.healthlx.com:8004/SIMPRA",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://providerdirectory.healthlx.com/SIMPRA/H4091/2027/index.json"
+      }
     }
   ],
   "is_seeded": true

@@ -7,6 +7,11 @@
       "value": "8d72f9f6-b44e-5b9b-9f8c-b87df42c9d4e",
       "is_fpi": true,
       "payerLegalName": "PROVIDENCE HEALTH ASSURANCE",
+      "payer_level_string_search_matches": [
+        "PROVIDENCE HEALTH ASSURANCE",
+        "Providence Medicare Advantage Plans",
+        "Providence St Joseph Health"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "PROVIDENCE HEALTH ASSURANCE"
     },

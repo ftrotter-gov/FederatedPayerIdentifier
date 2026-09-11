@@ -1,0 +1,33 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "11be517a-1e6c-55c0-8d84-9cb7d480803e",
+      "is_fpi": true,
+      "payerLegalName": "AMERIHEALTH HMO, INC",
+      "payer_level_string_search_matches": [
+        "AMERIHEALTH HMO, INC"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "AMERIHEALTH HMO, INC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6407",
+      "is_fpi": false,
+      "parent_fpi": "11be517a-1e6c-55c0-8d84-9cb7d480803e"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://eapics.amerihealth.com/provider/v1/fhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://eapics.qa.amerihealth.com/api/mpf/AH/2027/H6407/index.json"
+      }
+    }
+  ],
+  "is_seeded": true
+}

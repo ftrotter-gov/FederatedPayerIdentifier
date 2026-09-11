@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "7cdf5496-fdaa-5950-bd51-807dbf625578",
+      "is_fpi": true,
+      "payerLegalName": "PACE SOUTHEAST MICHIGAN",
+      "payer_level_string_search_matches": [
+        "PACE SOUTHEAST MICHIGAN",
+        "Henry Ford Health System"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PACE SOUTHEAST MICHIGAN"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2318",
+      "is_fpi": false,
+      "parent_fpi": "7cdf5496-fdaa-5950-bd51-807dbf625578"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2318-001",
+          "parent_fpi": "7cdf5496-fdaa-5950-bd51-807dbf625578",
+          "f_plan_id": "45151519-8a3c-4a46-a9d1-436450ed889a",
+          "plan_name": "PACE Southeast Michigan (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2318-002",
+          "parent_fpi": "7cdf5496-fdaa-5950-bd51-807dbf625578",
+          "f_plan_id": "b0d0cf17-1a10-48b3-8108-59d7f76a7944",
+          "plan_name": "PACE Southeast Michigan (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

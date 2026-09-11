@@ -1,0 +1,68 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "fa324734-aa63-5cd1-984d-0a592f8e9244",
+      "is_fpi": true,
+      "payerLegalName": "HORIZON INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "HORIZON INSURANCE COMPANY",
+        "Horizon Blue Cross Blue Shield of New Jersey",
+        "Horizon Mutual Holdings, Inc"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HORIZON INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S5993",
+      "is_fpi": false,
+      "parent_fpi": "fa324734-aa63-5cd1-984d-0a592f8e9244"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5993-001",
+          "parent_fpi": "fa324734-aa63-5cd1-984d-0a592f8e9244",
+          "f_plan_id": "d674fecc-6cfc-477d-aa4f-c19886a3015a",
+          "plan_name": "Horizon Medicare Blue Rx Standard (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5993-003",
+          "parent_fpi": "fa324734-aa63-5cd1-984d-0a592f8e9244",
+          "f_plan_id": "553de000-08b0-4f9c-b5be-81d1ac656ec1",
+          "plan_name": "Horizon Medicare Blue Rx Enhanced (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5993-801",
+          "parent_fpi": "fa324734-aa63-5cd1-984d-0a592f8e9244",
+          "f_plan_id": "fda668ab-3a95-4849-824a-22593c188a9d",
+          "plan_name": "Horizon Medicare Blue Group Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5993-804",
+          "parent_fpi": "fa324734-aa63-5cd1-984d-0a592f8e9244",
+          "f_plan_id": "63ef7188-0ac9-46bd-88a2-a4d5969efbaf",
+          "plan_name": "Horizon Medicare Blue Group Rx Plus (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5993-806",
+          "parent_fpi": "fa324734-aa63-5cd1-984d-0a592f8e9244",
+          "f_plan_id": "f896ab98-f194-4e52-9815-b5cb995ef827",
+          "plan_name": "Horizon Medicare Group RX ASO (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

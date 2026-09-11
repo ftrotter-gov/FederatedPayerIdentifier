@@ -7,6 +7,11 @@
       "value": "71883f8c-9de5-5549-a1e9-2489b39cdb1c",
       "is_fpi": true,
       "payerLegalName": "BLUE CROSS OF CALIFORNIA",
+      "payer_level_string_search_matches": [
+        "BLUE CROSS OF CALIFORNIA",
+        "Anthem Blue Cross",
+        "Elevance Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "BLUE CROSS OF CALIFORNIA"
     },
@@ -217,7 +222,10 @@
           "plan_name": "Senior Secure (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://totalview.healthos.anthem.com/cms/H0544/index.json"
+      }
     }
   ],
   "is_seeded": true

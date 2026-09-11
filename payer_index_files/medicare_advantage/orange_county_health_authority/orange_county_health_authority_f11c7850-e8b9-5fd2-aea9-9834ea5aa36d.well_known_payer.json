@@ -7,6 +7,11 @@
       "value": "f11c7850-e8b9-5fd2-aea9-9834ea5aa36d",
       "is_fpi": true,
       "payerLegalName": "ORANGE COUNTY HEALTH AUTHORITY",
+      "payer_level_string_search_matches": [
+        "ORANGE COUNTY HEALTH AUTHORITY",
+        "CalOptima Health OneCare",
+        "CalOptima Health PACE"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ORANGE COUNTY HEALTH AUTHORITY"
     },
@@ -15,9 +20,34 @@
       "value": "H5433",
       "is_fpi": false,
       "parent_fpi": "f11c7850-e8b9-5fd2-aea9-9834ea5aa36d"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7501",
+      "is_fpi": false,
+      "parent_fpi": "f11c7850-e8b9-5fd2-aea9-9834ea5aa36d"
     }
   ],
   "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7501-001",
+          "parent_fpi": "f11c7850-e8b9-5fd2-aea9-9834ea5aa36d",
+          "f_plan_id": "2ad723e9-988f-417a-ab15-6184a48e5816",
+          "plan_name": "CalOptima Health PACE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7501-002",
+          "parent_fpi": "f11c7850-e8b9-5fd2-aea9-9834ea5aa36d",
+          "f_plan_id": "5e208f46-689a-4d11-9227-ef19b2d25e07",
+          "plan_name": "CalOptima Health PACE (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
     {
       "plan_identifiers": [
         {
@@ -28,7 +58,10 @@
           "plan_name": "CalOptima Health OneCare Complete (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms.caloptima.org/MPF/H5433/indexdata.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://cms.caloptima.org/MPF/H5433/indexfhir.json"
+      }
     }
   ],
   "is_seeded": true

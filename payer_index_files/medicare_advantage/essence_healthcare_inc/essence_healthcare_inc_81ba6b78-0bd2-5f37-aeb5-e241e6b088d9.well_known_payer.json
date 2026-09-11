@@ -7,6 +7,11 @@
       "value": "81ba6b78-0bd2-5f37-aeb5-e241e6b088d9",
       "is_fpi": true,
       "payerLegalName": "ESSENCE HEALTHCARE, INC.",
+      "payer_level_string_search_matches": [
+        "ESSENCE HEALTHCARE, INC.",
+        "Essence Healthcare",
+        "Lumeris Group Holdings Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ESSENCE HEALTHCARE, INC."
     },
@@ -119,7 +124,10 @@
           "plan_name": "Essence Advantage EGWP HMOPOS MA Only non-Cal Yr (HMO-POS)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://data.healthlx.com:8004/LMRS",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://providerdirectory.healthlx.com/LUMERIS/H2610/2027/index.json"
+      }
     }
   ],
   "is_seeded": true

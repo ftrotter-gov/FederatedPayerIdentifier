@@ -7,6 +7,11 @@
       "value": "2efc44e0-b96f-5d5c-9efb-35fcc6ec8642",
       "is_fpi": true,
       "payerLegalName": "WELLPOINT IOWA, INC.",
+      "payer_level_string_search_matches": [
+        "WELLPOINT IOWA, INC.",
+        "Wellpoint",
+        "Elevance Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "WELLPOINT IOWA, INC."
     },
@@ -35,7 +40,10 @@
           "plan_name": "Wellpoint Full Dual Advantage 2 (HMO-POS D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://totalview.healthos.Wellpoint.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://totalview.healthos.wellpoint.com/cms/H0907/index.json"
+      }
     }
   ],
   "is_seeded": true

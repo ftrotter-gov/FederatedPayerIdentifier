@@ -7,6 +7,11 @@
       "value": "0d68c7e6-4a83-58e2-8021-e6027f526622",
       "is_fpi": true,
       "payerLegalName": "SUMMACARE INC.",
+      "payer_level_string_search_matches": [
+        "SUMMACARE INC.",
+        "SummaCare Medicare Advantage Plans",
+        "General Catalyst Group Management Holdings LP"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SUMMACARE INC."
     },
@@ -64,6 +69,13 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3660-057",
+          "parent_fpi": "0d68c7e6-4a83-58e2-8021-e6027f526622",
+          "f_plan_id": "db8a2730-e012-431f-b56d-e1b798b66248",
+          "plan_name": "SummaCare Medicare Quartz (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3660-801",
           "parent_fpi": "0d68c7e6-4a83-58e2-8021-e6027f526622",
           "f_plan_id": "8b9c2fba-c73e-412c-be22-8f69dd88b605",
@@ -89,16 +101,11 @@
           "parent_fpi": "0d68c7e6-4a83-58e2-8021-e6027f526622",
           "f_plan_id": "d71deb4a-7731-49b2-9f0c-b32c586a9548",
           "plan_name": "SummaCare Medicare Employer Plan without Part D (HMO-POS)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H3660-057",
-          "parent_fpi": "0d68c7e6-4a83-58e2-8021-e6027f526622",
-          "f_plan_id": "db8a2730-e012-431f-b56d-e1b798b66248",
-          "plan_name": "SummaCare Medicare Quartz (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://files.myplancentral.com/MA/H3660_Index.json"
+      }
     }
   ],
   "is_seeded": true

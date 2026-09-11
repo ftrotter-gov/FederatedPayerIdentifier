@@ -7,6 +7,11 @@
       "value": "98db7c7a-69f6-5afa-bc4a-300ff25d0901",
       "is_fpi": true,
       "payerLegalName": "AETNA HEALTH INC. (CT)",
+      "payer_level_string_search_matches": [
+        "AETNA HEALTH INC. (CT)",
+        "Aetna Medicare",
+        "CVS Health Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AETNA HEALTH INC. (CT)"
     },
@@ -92,7 +97,7 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.aetna.com/interoperability/2027/H5793/index.json"
       }
     }
   ],

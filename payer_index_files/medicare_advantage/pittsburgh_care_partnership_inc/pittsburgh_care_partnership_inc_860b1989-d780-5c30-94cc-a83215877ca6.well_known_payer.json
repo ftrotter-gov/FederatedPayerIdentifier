@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "860b1989-d780-5c30-94cc-a83215877ca6",
+      "is_fpi": true,
+      "payerLegalName": "PITTSBURGH CARE PARTNERSHIP, INC.",
+      "payer_level_string_search_matches": [
+        "PITTSBURGH CARE PARTNERSHIP, INC.",
+        "Community LIFE",
+        "UPMC Health System"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PITTSBURGH CARE PARTNERSHIP, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3917",
+      "is_fpi": false,
+      "parent_fpi": "860b1989-d780-5c30-94cc-a83215877ca6"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3917-001",
+          "parent_fpi": "860b1989-d780-5c30-94cc-a83215877ca6",
+          "f_plan_id": "f4745be0-943f-4893-a454-d2d1c44dfd66",
+          "plan_name": "Community LIFE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3917-002",
+          "parent_fpi": "860b1989-d780-5c30-94cc-a83215877ca6",
+          "f_plan_id": "daa0094c-8ac3-40c2-9fd0-6f641f76fd26",
+          "plan_name": "Community LIFE (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

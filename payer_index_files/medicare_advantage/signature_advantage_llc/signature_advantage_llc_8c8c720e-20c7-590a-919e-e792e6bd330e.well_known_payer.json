@@ -7,6 +7,11 @@
       "value": "8c8c720e-20c7-590a-919e-e792e6bd330e",
       "is_fpi": true,
       "payerLegalName": "SIGNATURE ADVANTAGE, LLC",
+      "payer_level_string_search_matches": [
+        "SIGNATURE ADVANTAGE, LLC",
+        "Abilis Health (HMO SNP)",
+        "BrightSpring Health Services, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SIGNATURE ADVANTAGE, LLC"
     },
@@ -35,7 +40,10 @@
           "plan_name": "Abilis Health Community (HMO I-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://abilishealth.com/interoperability-information/",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://sapfhir.prod.healthaxis.net/api/fhir/practitioner"
+      }
     }
   ],
   "is_seeded": true

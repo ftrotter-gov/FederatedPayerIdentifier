@@ -7,6 +7,12 @@
       "value": "f845400e-1cb2-56c4-be5a-223ca536855f",
       "is_fpi": true,
       "payerLegalName": "TRIPLE S ADVANTAGE, INC.",
+      "payer_level_string_search_matches": [
+        "TRIPLE S ADVANTAGE, INC.",
+        "Triple-S Advantage",
+        "Guidewell Mutual Holding Corporation",
+        "Triple S Advantage"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "TRIPLE S ADVANTAGE, INC."
     },
@@ -84,7 +90,8 @@
         }
       ],
       "plan_endpoints": {
-        "cms_provider_directory_machine_readable_format_endpoint": "https://devtshcontenportalblob.blob.core.windows.net/mpf-files/index_H4005_2026.json"
+        "cms_provider_directory_machine_readable_format_endpoint": "https://devtshcontenportalblob.blob.core.windows.net/mpf-files/index_H4005_2026.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fdp.edifecsfedcloud.com/#/portal/triple.s/fhir-apis"
       }
     },
     {
@@ -137,6 +144,13 @@
           "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
           "f_plan_id": "94944b67-9bd8-4bd9-85bc-9b496149bde7",
           "plan_name": "PLATINO PLUS (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5774-046",
+          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
+          "f_plan_id": "3336b3dd-fad1-425e-aaac-d7fa32daa3af",
+          "plan_name": "ContigoEnMente (HMO C-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -252,13 +266,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5774-046",
-          "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
-          "f_plan_id": "3336b3dd-fad1-425e-aaac-d7fa32daa3af",
-          "plan_name": "ContigoEnMente (HMO C-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5774-826",
           "parent_fpi": "f845400e-1cb2-56c4-be5a-223ca536855f",
           "f_plan_id": "566223a5-4ad7-45b0-8108-f3dde94c3319",
@@ -301,7 +308,8 @@
         }
       ],
       "plan_endpoints": {
-        "cms_provider_directory_machine_readable_format_endpoint": "https://devtshcontenportalblob.blob.core.windows.net/mpf-files/index_H5774_2026.json"
+        "cms_provider_directory_machine_readable_format_endpoint": "https://devtshcontenportalblob.blob.core.windows.net/mpf-files/index_H5774_2026.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fdp.edifecsfedcloud.com/#/portal/triple.s/fhir-apis"
       }
     }
   ],

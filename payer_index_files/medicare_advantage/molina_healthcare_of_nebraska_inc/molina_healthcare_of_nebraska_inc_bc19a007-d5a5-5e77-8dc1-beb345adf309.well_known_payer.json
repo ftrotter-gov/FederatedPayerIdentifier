@@ -1,0 +1,33 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "bc19a007-d5a5-5e77-8dc1-beb345adf309",
+      "is_fpi": true,
+      "payerLegalName": "MOLINA HEALTHCARE OF NEBRASKA, INC.",
+      "payer_level_string_search_matches": [
+        "MOLINA HEALTHCARE OF NEBRASKA, INC."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MOLINA HEALTHCARE OF NEBRASKA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6585",
+      "is_fpi": false,
+      "parent_fpi": "bc19a007-d5a5-5e77-8dc1-beb345adf309"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.molinahealthcare.com/cmsjson/378245/MCareFHIR/H6585/index.json"
+      }
+    }
+  ],
+  "is_seeded": true
+}

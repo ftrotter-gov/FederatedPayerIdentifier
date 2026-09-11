@@ -7,6 +7,11 @@
       "value": "98af13c8-1f7b-52b3-8d22-57723ef080d3",
       "is_fpi": true,
       "payerLegalName": "ITASCA MEDICAL CARE",
+      "payer_level_string_search_matches": [
+        "ITASCA MEDICAL CARE",
+        "Itasca Medical Care/IMCare Classic",
+        "Itasca County"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ITASCA MEDICAL CARE"
     },
@@ -29,7 +34,8 @@
         }
       ],
       "plan_endpoints": {
-        "cms_provider_directory_machine_readable_format_endpoint": "https://itascacountymn.gov/DocumentCenter/View/12887/MPF-Index-File"
+        "cms_provider_directory_machine_readable_format_endpoint": "https://itascacountymn.gov/DocumentCenter/View/12887/MPF-Index-File",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://apis.ssctech.com/interop-imc/open/fhir/R4/Organization?_tag=provider&_source=provider"
       }
     }
   ],

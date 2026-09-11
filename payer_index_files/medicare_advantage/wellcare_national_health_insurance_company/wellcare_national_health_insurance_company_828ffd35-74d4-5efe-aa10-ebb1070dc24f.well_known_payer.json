@@ -7,6 +7,11 @@
       "value": "828ffd35-74d4-5efe-aa10-ebb1070dc24f",
       "is_fpi": true,
       "payerLegalName": "WELLCARE NATIONAL HEALTH INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "WELLCARE NATIONAL HEALTH INSURANCE COMPANY",
+        "Wellcare",
+        "Centene Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "WELLCARE NATIONAL HEALTH INSURANCE COMPANY"
     },

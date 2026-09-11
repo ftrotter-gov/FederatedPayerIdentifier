@@ -1,0 +1,75 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "30d54fcd-ff52-57ea-b99b-029f4b725c94",
+      "is_fpi": true,
+      "payerLegalName": "PARAMOUNT CARE, INC.",
+      "payer_level_string_search_matches": [
+        "PARAMOUNT CARE, INC.",
+        "Paramount Elite Medicare Plans",
+        "MEDICAL MUTUAL OF OHIO"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PARAMOUNT CARE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3653",
+      "is_fpi": false,
+      "parent_fpi": "30d54fcd-ff52-57ea-b99b-029f4b725c94"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3653-004",
+          "parent_fpi": "30d54fcd-ff52-57ea-b99b-029f4b725c94",
+          "f_plan_id": "83c5a98c-bbcb-4f84-8415-002a92748da8",
+          "plan_name": "Paramount Elite Enhanced (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3653-015",
+          "parent_fpi": "30d54fcd-ff52-57ea-b99b-029f4b725c94",
+          "f_plan_id": "b031f9ab-ea83-467e-8c55-cc91eacba513",
+          "plan_name": "Paramount Elite Standard (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3653-022",
+          "parent_fpi": "30d54fcd-ff52-57ea-b99b-029f4b725c94",
+          "f_plan_id": "1b7b2ad3-a239-44de-a1f9-40959c1912ab",
+          "plan_name": "Paramount Elite Prime (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3653-803",
+          "parent_fpi": "30d54fcd-ff52-57ea-b99b-029f4b725c94",
+          "f_plan_id": "b7900a36-a984-44f7-ae47-4629e210d5dc",
+          "plan_name": "Paramount Elite - Emp Group A/B No Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3653-806",
+          "parent_fpi": "30d54fcd-ff52-57ea-b99b-029f4b725c94",
+          "f_plan_id": "c8e5098b-659e-42b9-9780-eb1d99285968",
+          "plan_name": "Paramount Elite - Emp Group B Only No Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3653-809",
+          "parent_fpi": "30d54fcd-ff52-57ea-b99b-029f4b725c94",
+          "f_plan_id": "03c9fa38-78cd-40fe-9b12-9515e461be72",
+          "plan_name": "Paramount Elite-Emp Group A/B Rx (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

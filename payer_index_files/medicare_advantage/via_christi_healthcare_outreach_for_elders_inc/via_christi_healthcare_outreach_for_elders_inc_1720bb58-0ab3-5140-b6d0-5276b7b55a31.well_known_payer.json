@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "1720bb58-0ab3-5140-b6d0-5276b7b55a31",
+      "is_fpi": true,
+      "payerLegalName": "VIA CHRISTI HEALTHCARE OUTREACH FOR ELDERS, INC.",
+      "payer_level_string_search_matches": [
+        "VIA CHRISTI HEALTHCARE OUTREACH FOR ELDERS, INC.",
+        "Ascension Living HOPE",
+        "Ascension Health Alliance"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "VIA CHRISTI HEALTHCARE OUTREACH FOR ELDERS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1714",
+      "is_fpi": false,
+      "parent_fpi": "1720bb58-0ab3-5140-b6d0-5276b7b55a31"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1714-001",
+          "parent_fpi": "1720bb58-0ab3-5140-b6d0-5276b7b55a31",
+          "f_plan_id": "56c1a0e9-fa6e-4873-92fa-d305e4c76451",
+          "plan_name": "Ascension Living HOPE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1714-002",
+          "parent_fpi": "1720bb58-0ab3-5140-b6d0-5276b7b55a31",
+          "f_plan_id": "fe6209c6-77b1-4608-9bb0-c65c8ed50a40",
+          "plan_name": "Ascension Living HOPE (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

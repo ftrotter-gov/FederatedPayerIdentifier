@@ -7,6 +7,11 @@
       "value": "63318594-05ad-5f06-b8b1-d70a16f16321",
       "is_fpi": true,
       "payerLegalName": "ALIGNMENT HEALTH PLAN OF ARIZONA, INC.",
+      "payer_level_string_search_matches": [
+        "ALIGNMENT HEALTH PLAN OF ARIZONA, INC.",
+        "Alignment Health Plan",
+        "Alignment Healthcare USA, LLC"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ALIGNMENT HEALTH PLAN OF ARIZONA, INC."
     },
@@ -57,6 +62,13 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3443-007",
+          "parent_fpi": "63318594-05ad-5f06-b8b1-d70a16f16321",
+          "f_plan_id": "1086a18f-0e00-43eb-9830-59859cdbde44",
+          "plan_name": "Alignment Health Heart & Diabetes AZPlus (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3443-801",
           "parent_fpi": "63318594-05ad-5f06-b8b1-d70a16f16321",
           "f_plan_id": "57bc2ac4-5fe1-4847-9374-e20cbd8f1a1a",
@@ -82,17 +94,11 @@
           "parent_fpi": "63318594-05ad-5f06-b8b1-d70a16f16321",
           "f_plan_id": "e3c1780a-30b3-4af2-a696-ce12d8195358",
           "plan_name": "Alignment Health Plan Retiree Options (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H3443-007",
-          "parent_fpi": "63318594-05ad-5f06-b8b1-d70a16f16321",
-          "f_plan_id": "1086a18f-0e00-43eb-9830-59859cdbde44",
-          "plan_name": "Alignment Health Heart & Diabetes AZPlus (HMO C-SNP)"
         }
       ],
       "plan_endpoints": {
-        "cms_provider_directory_machine_readable_format_endpoint": "https://mpf.alignmenthealth.com/mpf-provider-directory/H3443-cms-data-index.json"
+        "cms_provider_directory_machine_readable_format_endpoint": "https://mpf.alignmenthealth.com/mpf-provider-directory/H3443-cms-data-index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://adasgateway.ahcusa.com/providerfhir/Practitioner"
       }
     }
   ],

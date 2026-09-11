@@ -7,6 +7,10 @@
       "value": "2bb079d0-36ce-5077-97f9-6c452199614f",
       "is_fpi": true,
       "payerLegalName": "HAMASPIK, INC.",
+      "payer_level_string_search_matches": [
+        "HAMASPIK, INC.",
+        "Hamaspik of Rockland County, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HAMASPIK, INC."
     },
@@ -35,7 +39,10 @@
           "plan_name": "Hamaspik Medicare Choice (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.hamaspikfhir.com/r4/public/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://gateway.1up.health/v1/hamaspik/r4/public/mpf/H0034-CY2027/index.json"
+      }
     }
   ],
   "is_seeded": true

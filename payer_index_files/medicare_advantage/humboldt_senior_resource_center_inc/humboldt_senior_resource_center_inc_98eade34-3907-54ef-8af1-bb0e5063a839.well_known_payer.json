@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "98eade34-3907-54ef-8af1-bb0e5063a839",
+      "is_fpi": true,
+      "payerLegalName": "HUMBOLDT SENIOR RESOURCE CENTER, INC.",
+      "payer_level_string_search_matches": [
+        "HUMBOLDT SENIOR RESOURCE CENTER, INC.",
+        "Redwood Coast PACE"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HUMBOLDT SENIOR RESOURCE CENTER, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3517",
+      "is_fpi": false,
+      "parent_fpi": "98eade34-3907-54ef-8af1-bb0e5063a839"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3517-001",
+          "parent_fpi": "98eade34-3907-54ef-8af1-bb0e5063a839",
+          "f_plan_id": "5f636b87-7320-4dea-8bac-230354a135bd",
+          "plan_name": "Redwood  Coast PACE-Dual (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3517-002",
+          "parent_fpi": "98eade34-3907-54ef-8af1-bb0e5063a839",
+          "f_plan_id": "4edd95b5-c737-417a-9dd4-2452ca98ae10",
+          "plan_name": "Redwood Coast PACE-Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -7,6 +7,11 @@
       "value": "91465cdf-74b6-5090-8697-3aa0975ade02",
       "is_fpi": true,
       "payerLegalName": "QUARTZ HEALTH PLAN MN CORPORATION",
+      "payer_level_string_search_matches": [
+        "QUARTZ HEALTH PLAN MN CORPORATION",
+        "Quartz Medicare Advantage (HMO)",
+        "University of Wisconsin Hospitals and Clincs Autho"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "QUARTZ HEALTH PLAN MN CORPORATION"
     },
@@ -56,7 +61,10 @@
           "plan_name": "Gundersen MN Quartz Med Advantage Basic D (w/Rx) (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://quartzfhir.healthsparq.com/api/provider-fhir-service/v1/fhir/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cms.healthsparq.com/mpf/v1/H9834/2027/H9834-2027-index.json"
+      }
     }
   ],
   "is_seeded": true

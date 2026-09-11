@@ -7,6 +7,11 @@
       "value": "4cc7f3b4-7b76-5379-9a62-8ff250e10567",
       "is_fpi": true,
       "payerLegalName": "SAN FRANCISCO HEALTH AUTHORITY DBA SAN FRANCISCO HEALTH PLAN",
+      "payer_level_string_search_matches": [
+        "SAN FRANCISCO HEALTH AUTHORITY DBA SAN FRANCISCO HEALTH PLAN",
+        "San Francisco Health Plan",
+        "SAN FRANCISCO HEALTH AUTHORITY"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SAN FRANCISCO HEALTH AUTHORITY DBA SAN FRANCISCO HEALTH PLAN"
     },
@@ -28,7 +33,10 @@
           "plan_name": "SFHP Care Plus (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://us120.fhir.edifecsfedcloud.com/sfhp_pdfhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://uat120.fhir.edifecsfedcloud.com/sfhp_cms/cms-report/H8051/index.json"
+      }
     }
   ],
   "is_seeded": true

@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "5872ad70-db23-59ca-b5f9-c2c26086f3e5",
+      "is_fpi": true,
+      "payerLegalName": "ELDERHAUS INC.",
+      "payer_level_string_search_matches": [
+        "ELDERHAUS INC.",
+        "Elderhaus PACE",
+        "EveryAge"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ELDERHAUS INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3942",
+      "is_fpi": false,
+      "parent_fpi": "5872ad70-db23-59ca-b5f9-c2c26086f3e5"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3942-001",
+          "parent_fpi": "5872ad70-db23-59ca-b5f9-c2c26086f3e5",
+          "f_plan_id": "f8c77216-a5ba-429d-a48d-de39e10f7314",
+          "plan_name": "Elderhaus PACE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3942-002",
+          "parent_fpi": "5872ad70-db23-59ca-b5f9-c2c26086f3e5",
+          "f_plan_id": "15c7f70b-43c5-478b-8a24-cc1e4efaaeae",
+          "plan_name": "Elderhaus PACE (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

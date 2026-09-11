@@ -1,0 +1,61 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "af6583ee-72b2-517f-a389-cf6de5e12e01",
+      "is_fpi": true,
+      "payerLegalName": "WELLCARE HEALTH INSURANCE COMPANY OF WASHINGTON",
+      "payer_level_string_search_matches": [
+        "WELLCARE HEALTH INSURANCE COMPANY OF WASHINGTON",
+        "Wellcare",
+        "Centene Corporation"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WELLCARE HEALTH INSURANCE COMPANY OF WASHINGTON"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5965",
+      "is_fpi": false,
+      "parent_fpi": "af6583ee-72b2-517f-a389-cf6de5e12e01"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5965-003",
+          "parent_fpi": "af6583ee-72b2-517f-a389-cf6de5e12e01",
+          "f_plan_id": "1ee0aee3-add9-40c2-a818-b0dfe4365546",
+          "plan_name": "Wellcare Patriot Giveback Open (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5965-004",
+          "parent_fpi": "af6583ee-72b2-517f-a389-cf6de5e12e01",
+          "f_plan_id": "10bcf0ce-d820-44f7-b3a3-ed440c6835fd",
+          "plan_name": "Wellcare Dual Liberty Sync Open (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5965-006",
+          "parent_fpi": "af6583ee-72b2-517f-a389-cf6de5e12e01",
+          "f_plan_id": "7f34f8e1-6209-4631-a616-09c00f53c6f7",
+          "plan_name": "Wellcare Dual Access Open (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5965-008",
+          "parent_fpi": "af6583ee-72b2-517f-a389-cf6de5e12e01",
+          "f_plan_id": "59095062-605e-47fb-b916-d5173cbee937",
+          "plan_name": "Wellcare Simple Open (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

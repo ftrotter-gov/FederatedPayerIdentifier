@@ -7,6 +7,11 @@
       "value": "f771c63e-8db8-5cad-a6a1-e43c2d064194",
       "is_fpi": true,
       "payerLegalName": "SUPERIOR HEALTHPLAN, INC.",
+      "payer_level_string_search_matches": [
+        "SUPERIOR HEALTHPLAN, INC.",
+        "Wellcare",
+        "Centene Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SUPERIOR HEALTHPLAN, INC."
     },
@@ -39,7 +44,15 @@
           "parent_fpi": "f771c63e-8db8-5cad-a6a1-e43c2d064194",
           "f_plan_id": "7992d66a-9ce2-4276-916f-7517a5a39b86",
           "plan_name": "Wellcare Superior HealthPlan Dual Align (HMO D-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H0062index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5294-010",
@@ -139,7 +152,10 @@
           "plan_name": "Wellcare Dual Liberty Sync (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H5294index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
     }
   ],
   "is_seeded": true

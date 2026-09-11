@@ -7,6 +7,11 @@
       "value": "a9bc102f-0525-55d3-8496-fc0bdd25d8a1",
       "is_fpi": true,
       "payerLegalName": "AMERIHEALTH MICHIGAN, INC.",
+      "payer_level_string_search_matches": [
+        "AMERIHEALTH MICHIGAN, INC.",
+        "AmeriHealth Caritas VIP Care",
+        "Independence Health Group, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AMERIHEALTH MICHIGAN, INC."
     },
@@ -28,7 +33,10 @@
           "plan_name": "AmeriHealth Caritas VIP Care (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms.healthsparq.com/mpf/v1/H6341/2027/H6341-2027-index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api-ext.amerihealthcaritas.com/MIDS/provider-api/swagger-ui/"
+      }
     }
   ],
   "is_seeded": true

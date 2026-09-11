@@ -7,6 +7,11 @@
       "value": "e8af7381-fdae-5781-b158-48587617ace4",
       "is_fpi": true,
       "payerLegalName": "ASTIVA HEALTH, INC.",
+      "payer_level_string_search_matches": [
+        "ASTIVA HEALTH, INC.",
+        "Astiva Health",
+        "Astiva Health Holdings Incorporated"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ASTIVA HEALTH, INC."
     },
@@ -70,7 +75,10 @@
           "plan_name": "Astiva Health Premier Plan (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://afs.astivahealth.com/fhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://afs.astivahealth.com/fhirjson/MPF-Provider-Directory/H1993/2027/index.json"
+      }
     }
   ],
   "is_seeded": true

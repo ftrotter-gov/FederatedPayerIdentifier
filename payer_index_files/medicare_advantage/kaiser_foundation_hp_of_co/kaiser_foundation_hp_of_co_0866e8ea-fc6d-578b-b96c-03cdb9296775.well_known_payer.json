@@ -7,6 +7,11 @@
       "value": "0866e8ea-fc6d-578b-b96c-03cdb9296775",
       "is_fpi": true,
       "payerLegalName": "KAISER FOUNDATION HP OF CO",
+      "payer_level_string_search_matches": [
+        "KAISER FOUNDATION HP OF CO",
+        "Kaiser Permanente",
+        "Kaiser Foundation Health Plan, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "KAISER FOUNDATION HP OF CO"
     },
@@ -182,7 +187,10 @@
           "plan_name": "Senior Advantage Group MA Only (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://healthy.kaiserpermanente.org/content/dam/kporg/data/co/index-mpf.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://kpx-service-bus.kp.org/service/hp/mhpo/healthplanproviderv1rc"
+      }
     }
   ],
   "is_seeded": true

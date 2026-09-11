@@ -7,6 +7,12 @@
       "value": "616f8458-a32e-5437-8153-d6044228372e",
       "is_fpi": true,
       "payerLegalName": "ALIGNMENT HEALTH ADVANTAGE PLAN INC.",
+      "payer_level_string_search_matches": [
+        "ALIGNMENT HEALTH ADVANTAGE PLAN INC.",
+        "ALIGNMENT HEALTH ADVANTAGE PLAN INC",
+        "Alignment Health Plan",
+        "Alignment Healthcare USA, LLC"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ALIGNMENT HEALTH ADVANTAGE PLAN INC."
     },
@@ -26,7 +32,10 @@
   "plan_groups": [
     {
       "plan_identifiers": [],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://mpf.alignmenthealth.com/mpf-provider-directory/H6697-cms-data-index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://adasgateway.ahcusa.com/providerfhir/Practitioner1"
+      }
     },
     {
       "plan_identifiers": [
@@ -81,7 +90,8 @@
         }
       ],
       "plan_endpoints": {
-        "cms_provider_directory_machine_readable_format_endpoint": "https://mpf.alignmenthealth.com/mpf-provider-directory/H8832-cms-data-index.json"
+        "cms_provider_directory_machine_readable_format_endpoint": "https://mpf.alignmenthealth.com/mpf-provider-directory/H8832-cms-data-index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://adasgateway.ahcusa.com/providerfhir/Practitioner"
       }
     }
   ],

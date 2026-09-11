@@ -7,6 +7,11 @@
       "value": "44681ced-513f-5281-9d49-b06e6b34a068",
       "is_fpi": true,
       "payerLegalName": "AETNA HEALTH INC. (NJ)",
+      "payer_level_string_search_matches": [
+        "AETNA HEALTH INC. (NJ)",
+        "Aetna Medicare",
+        "CVS Health Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AETNA HEALTH INC. (NJ)"
     },
@@ -78,7 +83,7 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.aetna.com/interoperability/2027/H3152/index.json"
       }
     }
   ],

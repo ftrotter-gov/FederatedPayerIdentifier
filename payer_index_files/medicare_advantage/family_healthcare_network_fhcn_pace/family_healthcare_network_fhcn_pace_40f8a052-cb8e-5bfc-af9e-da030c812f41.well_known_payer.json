@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "40f8a052-cb8e-5bfc-af9e-da030c812f41",
+      "is_fpi": true,
+      "payerLegalName": "Family HealthCare Network (FHCN) PACE",
+      "payer_level_string_search_matches": [
+        "Family HealthCare Network (FHCN) PACE",
+        "Family HealthCare Network PACE",
+        "Family Healthcare Network"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "Family HealthCare Network (FHCN) PACE"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6517",
+      "is_fpi": false,
+      "parent_fpi": "40f8a052-cb8e-5bfc-af9e-da030c812f41"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6517-001",
+          "parent_fpi": "40f8a052-cb8e-5bfc-af9e-da030c812f41",
+          "f_plan_id": "f246f2a6-369b-4ba1-825e-aae1878c34f2",
+          "plan_name": "FHCN PACE - Dual (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6517-002",
+          "parent_fpi": "40f8a052-cb8e-5bfc-af9e-da030c812f41",
+          "f_plan_id": "138ab4b4-0875-493b-91c9-46534a73585b",
+          "plan_name": "FHCN PACE - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

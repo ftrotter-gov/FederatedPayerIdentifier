@@ -7,6 +7,10 @@
       "value": "b16b145a-7c54-5902-9eed-0db82fc93f90",
       "is_fpi": true,
       "payerLegalName": "IMPERIAL HEALTH PLAN OF CALIFORNIA, INC.",
+      "payer_level_string_search_matches": [
+        "IMPERIAL HEALTH PLAN OF CALIFORNIA, INC.",
+        "Imperial Health Plan of California"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "IMPERIAL HEALTH PLAN OF CALIFORNIA, INC."
     },
@@ -42,7 +46,10 @@
           "plan_name": "Imperial Courage Plan (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://imperialhealthplan.com/california/los-angeles/members/provider-directory/",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://developers.imperialhealthholdings.com/api/getProviderList"
+      }
     }
   ],
   "is_seeded": true

@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "b4c90288-f426-566b-bab8-3ce782bf3bcb",
+      "is_fpi": true,
+      "payerLegalName": "BEACON OF LIFE CENTRAL NJ, LLC",
+      "payer_level_string_search_matches": [
+        "BEACON OF LIFE CENTRAL NJ, LLC",
+        "BoldAge PACE",
+        "BoldAge PACE, LLC"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BEACON OF LIFE CENTRAL NJ, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9323",
+      "is_fpi": false,
+      "parent_fpi": "b4c90288-f426-566b-bab8-3ce782bf3bcb"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9323-001",
+          "parent_fpi": "b4c90288-f426-566b-bab8-3ce782bf3bcb",
+          "f_plan_id": "0d7f5cdf-a521-4777-bdb4-62921c02a6a6",
+          "plan_name": "Beacon of LIFE PACE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9323-002",
+          "parent_fpi": "b4c90288-f426-566b-bab8-3ce782bf3bcb",
+          "f_plan_id": "94d4f068-a0cc-43f0-8e0d-59305308e616",
+          "plan_name": "Beacon of LIFE PACE (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

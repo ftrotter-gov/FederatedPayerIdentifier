@@ -7,6 +7,11 @@
       "value": "6c972693-b7ac-5b21-b51e-00cd4c2d4f8f",
       "is_fpi": true,
       "payerLegalName": "Baylor Scott & White Insurance Company",
+      "payer_level_string_search_matches": [
+        "Baylor Scott & White Insurance Company",
+        "Baylor Scott & White Health Plan",
+        "Baylor Scott & White Health"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "Baylor Scott & White Insurance Company"
     },
@@ -77,7 +82,10 @@
           "plan_name": "BSW SeniorCare Advantage EGWP FY (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://wadcdnstorageprod.blob.core.windows.net/bswhp/JSON/BSWHP_CMS_MPF_H2032_2026_Index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://wadcdnstorageprod.blob.core.windows.net/bswhp/JSON/BSWHP_CMS_MPF_H2032_2026_Index_FHIR.json"
+      }
     }
   ],
   "is_seeded": true

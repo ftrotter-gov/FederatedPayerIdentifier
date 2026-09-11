@@ -7,6 +7,11 @@
       "value": "8afdc11a-ae6c-551b-9aa6-34541b23cc68",
       "is_fpi": true,
       "payerLegalName": "SENTARA HEALTH PLANS",
+      "payer_level_string_search_matches": [
+        "SENTARA HEALTH PLANS",
+        "Sentara Medicare",
+        "Sentara Health Care (SHC)"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SENTARA HEALTH PLANS"
     },
@@ -41,7 +46,10 @@
           "plan_name": "Sentara Community Complete (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://www.sentarahealthplans.com/en/vendor/machine-readable-data",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://shpp.interop.sentara.com/shpp/api/plannet/Practitioner"
+      }
     }
   ],
   "is_seeded": true

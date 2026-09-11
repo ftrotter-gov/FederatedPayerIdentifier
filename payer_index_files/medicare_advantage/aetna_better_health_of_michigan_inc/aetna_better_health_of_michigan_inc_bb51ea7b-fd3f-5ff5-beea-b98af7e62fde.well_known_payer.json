@@ -7,6 +7,12 @@
       "value": "bb51ea7b-fd3f-5ff5-beea-b98af7e62fde",
       "is_fpi": true,
       "payerLegalName": "AETNA BETTER HEALTH OF MICHIGAN INC.",
+      "payer_level_string_search_matches": [
+        "AETNA BETTER HEALTH OF MICHIGAN INC.",
+        "Aetna Medicare",
+        "CVS Health Corporation",
+        "Aetna Medicare HIDE"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AETNA BETTER HEALTH OF MICHIGAN INC."
     },
@@ -53,7 +59,14 @@
           "parent_fpi": "bb51ea7b-fd3f-5ff5-beea-b98af7e62fde",
           "f_plan_id": "3d7b99f8-3a92-401e-a034-ed5b6604a704",
           "plan_name": "Aetna Medicare Plan w/Rx (HMO)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.aetna.com/interoperability/2026/H2056/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9314-001",
@@ -63,7 +76,7 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.aetna.com/interoperability/2027/H9314/index.json"
       }
     }
   ],

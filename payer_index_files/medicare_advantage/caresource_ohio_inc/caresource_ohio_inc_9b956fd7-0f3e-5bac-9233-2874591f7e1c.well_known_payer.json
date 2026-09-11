@@ -7,6 +7,11 @@
       "value": "9b956fd7-0f3e-5bac-9233-2874591f7e1c",
       "is_fpi": true,
       "payerLegalName": "CARESOURCE OHIO, INC.",
+      "payer_level_string_search_matches": [
+        "CARESOURCE OHIO, INC.",
+        "CareSource MyCare Ohio (HMO D-SNP)",
+        "CareSource"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "CARESOURCE OHIO, INC."
     },
@@ -28,7 +33,10 @@
           "plan_name": "CareSource MyCare Ohio (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://www.caresource.com/rest/cs/data/1.0/provider-directory/oh/dual/2026",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://orchestrateserver.caresource.careevolution.com/api/fhir/provider-directory/metadata"
+      }
     }
   ],
   "is_seeded": true

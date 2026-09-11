@@ -1,0 +1,31 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "f487e10a-cfde-53e0-84fb-8a8adca3c78c",
+      "is_fpi": true,
+      "payerLegalName": "C AND O EMPLOYEES' HOSPITAL ASSOCIATION",
+      "payer_level_string_search_matches": [
+        "C AND O EMPLOYEES' HOSPITAL ASSOCIATION",
+        "C & O Employees' Hospital Association"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "C AND O EMPLOYEES' HOSPITAL ASSOCIATION"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4906",
+      "is_fpi": false,
+      "parent_fpi": "f487e10a-cfde-53e0-84fb-8a8adca3c78c"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

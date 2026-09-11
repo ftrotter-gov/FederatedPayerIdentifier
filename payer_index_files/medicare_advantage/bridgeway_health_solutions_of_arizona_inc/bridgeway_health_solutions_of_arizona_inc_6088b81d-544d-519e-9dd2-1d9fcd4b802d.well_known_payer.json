@@ -7,6 +7,11 @@
       "value": "6088b81d-544d-519e-9dd2-1d9fcd4b802d",
       "is_fpi": true,
       "payerLegalName": "Bridgeway Health Solutions of Arizona, Inc.",
+      "payer_level_string_search_matches": [
+        "Bridgeway Health Solutions of Arizona, Inc.",
+        "Wellcare",
+        "Centene Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "Bridgeway Health Solutions of Arizona, Inc."
     },
@@ -35,7 +40,10 @@
           "plan_name": "Wellcare Arizona Complete Health Dual Align (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H5590index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
     }
   ],
   "is_seeded": true

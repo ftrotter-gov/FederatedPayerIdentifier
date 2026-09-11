@@ -7,6 +7,12 @@
       "value": "7b88c479-1427-53d0-89ea-66e293006983",
       "is_fpi": true,
       "payerLegalName": "GHS INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "GHS INSURANCE COMPANY",
+        "Blue Cross and Blue Shield of Texas",
+        "Health Care Service Corporation",
+        "Blue Cross and Blue Shield of OK, TX"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "GHS INSURANCE COMPANY"
     },

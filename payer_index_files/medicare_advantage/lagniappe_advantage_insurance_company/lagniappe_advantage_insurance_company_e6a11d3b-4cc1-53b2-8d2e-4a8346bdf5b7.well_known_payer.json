@@ -7,6 +7,11 @@
       "value": "e6a11d3b-4cc1-53b2-8d2e-4a8346bdf5b7",
       "is_fpi": true,
       "payerLegalName": "LAGNIAPPE ADVANTAGE INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "LAGNIAPPE ADVANTAGE INSURANCE COMPANY",
+        "Lagniappe Advantage",
+        "Curana Health Holdings, LLC"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "LAGNIAPPE ADVANTAGE INSURANCE COMPANY"
     },
@@ -28,7 +33,10 @@
           "plan_name": "Lagniappe Advantage (PPO I-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.curanahealth.com/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhirmpf.curanahealth.com/H6566/2027/"
+      }
     }
   ],
   "is_seeded": true

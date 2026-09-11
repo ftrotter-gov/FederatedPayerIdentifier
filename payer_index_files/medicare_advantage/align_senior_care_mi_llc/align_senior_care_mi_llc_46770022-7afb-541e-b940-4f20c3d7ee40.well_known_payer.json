@@ -7,6 +7,11 @@
       "value": "46770022-7afb-541e-b940-4f20c3d7ee40",
       "is_fpi": true,
       "payerLegalName": "ALIGN SENIOR CARE MI, LLC",
+      "payer_level_string_search_matches": [
+        "ALIGN SENIOR CARE MI, LLC",
+        "Align Senior Care",
+        "Curana Health Holdings, LLC"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ALIGN SENIOR CARE MI, LLC"
     },
@@ -35,7 +40,10 @@
           "plan_name": "Premier Care (HMO-POS I-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.curanahealth.com/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhirmpf.curanahealth.com/H6832/2027/"
+      }
     }
   ],
   "is_seeded": true

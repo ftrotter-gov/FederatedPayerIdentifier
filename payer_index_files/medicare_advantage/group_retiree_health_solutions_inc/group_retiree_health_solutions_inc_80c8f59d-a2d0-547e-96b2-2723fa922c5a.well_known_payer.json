@@ -1,0 +1,75 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "80c8f59d-a2d0-547e-96b2-2723fa922c5a",
+      "is_fpi": true,
+      "payerLegalName": "Group Retiree Health Solutions, Inc.",
+      "payer_level_string_search_matches": [
+        "Group Retiree Health Solutions, Inc.",
+        "Blue Medicare Advantage",
+        "Elevance Health, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "Group Retiree Health Solutions, Inc."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6078",
+      "is_fpi": false,
+      "parent_fpi": "80c8f59d-a2d0-547e-96b2-2723fa922c5a"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6078-801",
+          "parent_fpi": "80c8f59d-a2d0-547e-96b2-2723fa922c5a",
+          "f_plan_id": "37837ba7-0f41-4100-8813-baa090a1a2fb",
+          "plan_name": "Secure Preferred (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6078-802",
+          "parent_fpi": "80c8f59d-a2d0-547e-96b2-2723fa922c5a",
+          "f_plan_id": "7285342e-9b2c-4efd-a0bf-f9eab69cb5f2",
+          "plan_name": "Secure Preferred (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6078-803",
+          "parent_fpi": "80c8f59d-a2d0-547e-96b2-2723fa922c5a",
+          "f_plan_id": "6f65eb02-8b53-41e8-9c0b-f88ca1becf8b",
+          "plan_name": "Secure Preferred (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6078-804",
+          "parent_fpi": "80c8f59d-a2d0-547e-96b2-2723fa922c5a",
+          "f_plan_id": "310ef9c9-3e2e-4642-a3e9-bc2ab5d900a8",
+          "plan_name": "Secure Preferred (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6078-805",
+          "parent_fpi": "80c8f59d-a2d0-547e-96b2-2723fa922c5a",
+          "f_plan_id": "769f23f6-2d60-4dc7-ac88-c864d5001dc4",
+          "plan_name": "Secure Preferred (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6078-806",
+          "parent_fpi": "80c8f59d-a2d0-547e-96b2-2723fa922c5a",
+          "f_plan_id": "d7ba72c7-cb0e-43f7-888b-55dc13ead689",
+          "plan_name": "Secure Preferred (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

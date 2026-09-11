@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "7caf9241-b3ea-598e-a68c-12ecc5a91bbf",
+      "is_fpi": true,
+      "payerLegalName": "TOTAL SENIOR CARE, INC.",
+      "payer_level_string_search_matches": [
+        "TOTAL SENIOR CARE, INC.",
+        "Community Care of Western New York, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "TOTAL SENIOR CARE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8800",
+      "is_fpi": false,
+      "parent_fpi": "7caf9241-b3ea-598e-a68c-12ecc5a91bbf"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8800-001",
+          "parent_fpi": "7caf9241-b3ea-598e-a68c-12ecc5a91bbf",
+          "f_plan_id": "04f29acf-4df4-4213-94a5-3cf08aac35ff",
+          "plan_name": "Total Senior Care - Dual (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8800-002",
+          "parent_fpi": "7caf9241-b3ea-598e-a68c-12ecc5a91bbf",
+          "f_plan_id": "d6681df1-faad-4fdc-918b-140cdbb33e46",
+          "plan_name": "Total Senior Care - Medicare Small Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -7,6 +7,11 @@
       "value": "cd4ee33d-e65d-51eb-9017-baefee71d11d",
       "is_fpi": true,
       "payerLegalName": "HARMONY HEALTH PLAN,  INC.",
+      "payer_level_string_search_matches": [
+        "HARMONY HEALTH PLAN,  INC.",
+        "Wellcare",
+        "Centene Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HARMONY HEALTH PLAN,  INC."
     },
@@ -175,7 +180,10 @@
           "plan_name": "Wellcare Assist (HMO-POS)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H1416index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
     }
   ],
   "is_seeded": true

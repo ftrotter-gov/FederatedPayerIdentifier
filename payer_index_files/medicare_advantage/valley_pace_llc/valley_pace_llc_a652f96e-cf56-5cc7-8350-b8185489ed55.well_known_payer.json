@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "a652f96e-cf56-5cc7-8350-b8185489ed55",
+      "is_fpi": true,
+      "payerLegalName": "VALLEY PACE, LLC",
+      "payer_level_string_search_matches": [
+        "VALLEY PACE, LLC",
+        "BoldAge PACE"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "VALLEY PACE, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7656",
+      "is_fpi": false,
+      "parent_fpi": "a652f96e-cf56-5cc7-8350-b8185489ed55"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7656-001",
+          "parent_fpi": "a652f96e-cf56-5cc7-8350-b8185489ed55",
+          "f_plan_id": "81a17a70-903b-413f-9667-da489d0ae19f",
+          "plan_name": "BoldAge PACE - Dual (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7656-002",
+          "parent_fpi": "a652f96e-cf56-5cc7-8350-b8185489ed55",
+          "f_plan_id": "c216b620-cd24-4278-bff2-2140062f398b",
+          "plan_name": "BoldAge PACE - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

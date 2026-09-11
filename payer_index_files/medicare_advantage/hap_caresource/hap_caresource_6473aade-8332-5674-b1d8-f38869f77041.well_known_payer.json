@@ -7,6 +7,11 @@
       "value": "6473aade-8332-5674-b1d8-f38869f77041",
       "is_fpi": true,
       "payerLegalName": "HAP CARESOURCE",
+      "payer_level_string_search_matches": [
+        "HAP CARESOURCE",
+        "HAP CareSource MI Coordinated Health",
+        "Henry Ford Health System"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HAP CARESOURCE"
     },
@@ -28,7 +33,10 @@
           "plan_name": "HAP CareSource MI Coordinated Health (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://www.caresource.com/rest/cs/data/1.0/provider-directory/mi/dual/2026",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://orchestrateserver.caresource.careevolution.com/api/fhir/provider-directory/metadata"
+      }
     }
   ],
   "is_seeded": true

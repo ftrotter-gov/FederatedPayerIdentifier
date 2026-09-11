@@ -7,6 +7,11 @@
       "value": "42ef6515-685a-5ee1-8d07-936095dccb4f",
       "is_fpi": true,
       "payerLegalName": "COORDINATED CARE CORPORATION",
+      "payer_level_string_search_matches": [
+        "COORDINATED CARE CORPORATION",
+        "Wellcare",
+        "Centene Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "COORDINATED CARE CORPORATION"
     },
@@ -39,7 +44,15 @@
           "parent_fpi": "42ef6515-685a-5ee1-8d07-936095dccb4f",
           "f_plan_id": "eb269367-4212-4e94-89a5-e42124bb2a05",
           "plan_name": "Wellcare Assist (HMO-POS)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H3499index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6348-002",
@@ -69,7 +82,10 @@
           "plan_name": "Wellcare Assist Open (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H6348index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
     }
   ],
   "is_seeded": true

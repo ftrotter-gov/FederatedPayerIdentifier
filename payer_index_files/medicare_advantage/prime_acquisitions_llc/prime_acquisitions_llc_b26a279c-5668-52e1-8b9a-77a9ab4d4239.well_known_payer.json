@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "b26a279c-5668-52e1-8b9a-77a9ab4d4239",
+      "is_fpi": true,
+      "payerLegalName": "PRIME ACQUISITIONS, LLC",
+      "payer_level_string_search_matches": [
+        "PRIME ACQUISITIONS, LLC",
+        "EverTrue PACE",
+        "Midwest Christian Villages, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PRIME ACQUISITIONS, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7831",
+      "is_fpi": false,
+      "parent_fpi": "b26a279c-5668-52e1-8b9a-77a9ab4d4239"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7831-001",
+          "parent_fpi": "b26a279c-5668-52e1-8b9a-77a9ab4d4239",
+          "f_plan_id": "02cbcc16-ba3b-4686-96fc-cd46742aeb08",
+          "plan_name": "New Horizons PACE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7831-002",
+          "parent_fpi": "b26a279c-5668-52e1-8b9a-77a9ab4d4239",
+          "f_plan_id": "08fc5ea1-dd52-4810-92f2-4450eee460dc",
+          "plan_name": "New Horizons PACE (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

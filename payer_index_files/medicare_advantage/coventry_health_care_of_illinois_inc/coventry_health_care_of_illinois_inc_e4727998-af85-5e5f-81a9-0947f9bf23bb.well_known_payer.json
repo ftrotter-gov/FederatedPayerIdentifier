@@ -7,6 +7,11 @@
       "value": "e4727998-af85-5e5f-81a9-0947f9bf23bb",
       "is_fpi": true,
       "payerLegalName": "COVENTRY HEALTH CARE OF ILLINOIS, INC.",
+      "payer_level_string_search_matches": [
+        "COVENTRY HEALTH CARE OF ILLINOIS, INC.",
+        "Aetna Medicare",
+        "CVS Health Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "COVENTRY HEALTH CARE OF ILLINOIS, INC."
     },
@@ -49,13 +54,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H1206-801",
-          "parent_fpi": "e4727998-af85-5e5f-81a9-0947f9bf23bb",
-          "f_plan_id": "5c1d1db6-8028-400f-a375-e2f0e8bc979c",
-          "plan_name": "Aetna Medicare Plan (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1206-008",
           "parent_fpi": "e4727998-af85-5e5f-81a9-0947f9bf23bb",
           "f_plan_id": "520a1d27-c110-4a64-ae11-773494d2dde9",
@@ -68,6 +66,20 @@
           "f_plan_id": "ac62090c-b872-4430-9993-9bc0ad7e51e9",
           "plan_name": "Aetna Medicare Prime Chronic Total (HMO C-SNP)"
         },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1206-801",
+          "parent_fpi": "e4727998-af85-5e5f-81a9-0947f9bf23bb",
+          "f_plan_id": "5c1d1db6-8028-400f-a375-e2f0e8bc979c",
+          "plan_name": "Aetna Medicare Plan (HMO)"
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.aetna.com/interoperability/2027/H1206/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7301-002",
@@ -126,13 +138,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H7301-803",
-          "parent_fpi": "e4727998-af85-5e5f-81a9-0947f9bf23bb",
-          "f_plan_id": "87a2506f-ac3a-48d8-9e61-4b0d7af5d676",
-          "plan_name": "Aetna Medicare Plan (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7301-032",
           "parent_fpi": "e4727998-af85-5e5f-81a9-0947f9bf23bb",
           "f_plan_id": "3c167c6f-5327-4ba6-9573-74def13094bd",
@@ -151,10 +156,17 @@
           "parent_fpi": "e4727998-af85-5e5f-81a9-0947f9bf23bb",
           "f_plan_id": "e7418f97-802e-4654-a215-29ce599c6673",
           "plan_name": "Aetna Medicare Enhanced (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7301-803",
+          "parent_fpi": "e4727998-af85-5e5f-81a9-0947f9bf23bb",
+          "f_plan_id": "87a2506f-ac3a-48d8-9e61-4b0d7af5d676",
+          "plan_name": "Aetna Medicare Plan (PPO)"
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.aetna.com/interoperability/2027/H7301/index.json"
       }
     }
   ],

@@ -1,0 +1,60 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "09b436c4-ccd4-5cfd-ba5d-b52328b06509",
+      "is_fpi": true,
+      "payerLegalName": "BLUE CROSS AND BLUE SHIELD OF KANSAS",
+      "payer_level_string_search_matches": [
+        "BLUE CROSS AND BLUE SHIELD OF KANSAS",
+        "Blue Cross Blue Shield of Kansas"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BLUE CROSS AND BLUE SHIELD OF KANSAS"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S5726",
+      "is_fpi": false,
+      "parent_fpi": "09b436c4-ccd4-5cfd-ba5d-b52328b06509"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5726-013",
+          "parent_fpi": "09b436c4-ccd4-5cfd-ba5d-b52328b06509",
+          "f_plan_id": "b345050b-7bd5-41d1-b2a6-43e3f068323d",
+          "plan_name": "Blue MedicareRx Value (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5726-014",
+          "parent_fpi": "09b436c4-ccd4-5cfd-ba5d-b52328b06509",
+          "f_plan_id": "0cbc9806-9452-439e-99a8-087ec95699b5",
+          "plan_name": "Blue MedicareRx Plus (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5726-020",
+          "parent_fpi": "09b436c4-ccd4-5cfd-ba5d-b52328b06509",
+          "f_plan_id": "5f69708d-a269-4ee8-95c2-2bea9b2f7bd4",
+          "plan_name": "Blue MedicareRx Essentials (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5726-805",
+          "parent_fpi": "09b436c4-ccd4-5cfd-ba5d-b52328b06509",
+          "f_plan_id": "60b79078-2071-4020-a0cf-ab9ad0906d31",
+          "plan_name": "Blue MedicareRx (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "9fe8a944-4945-5e72-9540-20629d60c332",
+      "is_fpi": true,
+      "payerLegalName": "TRINITY HEALTH PACE OF PENSACOLA",
+      "payer_level_string_search_matches": [
+        "TRINITY HEALTH PACE OF PENSACOLA",
+        "Trinity Health Corporation"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "TRINITY HEALTH PACE OF PENSACOLA"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5538",
+      "is_fpi": false,
+      "parent_fpi": "9fe8a944-4945-5e72-9540-20629d60c332"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5538-001",
+          "parent_fpi": "9fe8a944-4945-5e72-9540-20629d60c332",
+          "f_plan_id": "3690a26a-0457-4b11-bdf4-c24c495e4f6c",
+          "plan_name": "Trinity Health PACE of Pennsacola (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5538-002",
+          "parent_fpi": "9fe8a944-4945-5e72-9540-20629d60c332",
+          "f_plan_id": "3be346d0-1928-4638-947d-fcb4366be6af",
+          "plan_name": "Trinity Health PACE of Pennsacola (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

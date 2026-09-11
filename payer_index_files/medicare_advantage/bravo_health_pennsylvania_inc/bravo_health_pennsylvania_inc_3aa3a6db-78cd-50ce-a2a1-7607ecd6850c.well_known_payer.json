@@ -7,6 +7,11 @@
       "value": "3aa3a6db-78cd-50ce-a2a1-7607ecd6850c",
       "is_fpi": true,
       "payerLegalName": "BRAVO HEALTH PENNSYLVANIA, INC.",
+      "payer_level_string_search_matches": [
+        "BRAVO HEALTH PENNSYLVANIA, INC.",
+        "HealthSpring",
+        "Health Care Service Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "BRAVO HEALTH PENNSYLVANIA, INC."
     },
@@ -86,14 +91,30 @@
           "parent_fpi": "3aa3a6db-78cd-50ce-a2a1-7607ecd6850c",
           "f_plan_id": "8c5764e6-1507-4b3b-8e2d-0369ad88d24e",
           "plan_name": "HealthSpring Preferred FY (HMO)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://mpf.healthspring.com/H0354/index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://data.healthspring.healthlx.com:8003"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2752-003",
           "parent_fpi": "3aa3a6db-78cd-50ce-a2a1-7607ecd6850c",
           "f_plan_id": "2d3a0258-bba4-463c-b686-427551b36e14",
           "plan_name": "HealthSpring TotalCare Plus (HMO D-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://mpf.healthspring.com/H2752/index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://data.healthspring.healthlx.com:8003"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3949-009",
@@ -173,18 +194,26 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H3949-804",
-          "parent_fpi": "3aa3a6db-78cd-50ce-a2a1-7607ecd6850c",
-          "f_plan_id": "350b4263-f73b-4048-90a0-ae601739600e",
-          "plan_name": "HealthSpring Preferred (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3949-054",
           "parent_fpi": "3aa3a6db-78cd-50ce-a2a1-7607ecd6850c",
           "f_plan_id": "c2c1f310-a0aa-49b2-9488-9466b117360b",
           "plan_name": "HealthSpring Preferred (HMO)"
         },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3949-804",
+          "parent_fpi": "3aa3a6db-78cd-50ce-a2a1-7607ecd6850c",
+          "f_plan_id": "350b4263-f73b-4048-90a0-ae601739600e",
+          "plan_name": "HealthSpring Preferred (HMO)"
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://mpf.healthspring.com/H3949/index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://data.healthspring.healthlx.com:8003"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9725-003",
@@ -198,13 +227,6 @@
           "parent_fpi": "3aa3a6db-78cd-50ce-a2a1-7607ecd6850c",
           "f_plan_id": "00ac07ed-e7e9-4ed0-8ea6-c7b6ae40df42",
           "plan_name": "HealthSpring Courage (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H9725-017",
-          "parent_fpi": "3aa3a6db-78cd-50ce-a2a1-7607ecd6850c",
-          "f_plan_id": "918feec5-da3c-423e-ab28-f5eed88944be",
-          "plan_name": "HealthSpring Preferred Plus (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -243,10 +265,10 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H9725-801",
+          "value": "H9725-017",
           "parent_fpi": "3aa3a6db-78cd-50ce-a2a1-7607ecd6850c",
-          "f_plan_id": "13637c18-0712-43f0-8707-80c19baececa",
-          "plan_name": "HealthSpring Preferred (HMO)"
+          "f_plan_id": "918feec5-da3c-423e-ab28-f5eed88944be",
+          "plan_name": "HealthSpring Preferred Plus (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -261,10 +283,18 @@
           "parent_fpi": "3aa3a6db-78cd-50ce-a2a1-7607ecd6850c",
           "f_plan_id": "2a4417d9-3424-49ac-9862-b95a6a577428",
           "plan_name": "HealthSpring Courage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9725-801",
+          "parent_fpi": "3aa3a6db-78cd-50ce-a2a1-7607ecd6850c",
+          "f_plan_id": "13637c18-0712-43f0-8707-80c19baececa",
+          "plan_name": "HealthSpring Preferred (HMO)"
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://data.healthspring.healthlx.com:8003/"
+        "cms_provider_directory_machine_readable_format_endpoint": "https://mpf.healthspring.com/H9725/index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://data.healthspring.healthlx.com:8003"
       }
     }
   ],

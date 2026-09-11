@@ -7,6 +7,11 @@
       "value": "0b4c9d01-a10c-50fa-9f17-eff87f42dfe9",
       "is_fpi": true,
       "payerLegalName": "FIRST HEALTH LIFE & HEALTH INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "FIRST HEALTH LIFE & HEALTH INSURANCE COMPANY",
+        "Aetna Medicare",
+        "CVS Health Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "FIRST HEALTH LIFE & HEALTH INSURANCE COMPANY"
     },
@@ -36,7 +41,7 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.aetna.com/interoperability/2027/H9431/index.json"
       }
     }
   ],

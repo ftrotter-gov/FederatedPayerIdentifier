@@ -7,6 +7,11 @@
       "value": "fbec3978-71ec-59a3-9d22-e284132f39af",
       "is_fpi": true,
       "payerLegalName": "DEVOTED HEALTH PLAN OF TENNESSEE INC",
+      "payer_level_string_search_matches": [
+        "DEVOTED HEALTH PLAN OF TENNESSEE INC",
+        "Devoted Health",
+        "Devoted Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH PLAN OF TENNESSEE INC"
     },
@@ -50,13 +55,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H7605-016",
-          "parent_fpi": "fbec3978-71ec-59a3-9d22-e284132f39af",
-          "f_plan_id": "6265238a-738d-4d1e-a9f1-cbed16899fce",
-          "plan_name": "DEVOTED C-SNP PREMIUM 016 TN (HMO C-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7605-007",
           "parent_fpi": "fbec3978-71ec-59a3-9d22-e284132f39af",
           "f_plan_id": "23ab5c6f-0370-497a-8e34-217f868c3429",
@@ -82,10 +80,18 @@
           "parent_fpi": "fbec3978-71ec-59a3-9d22-e284132f39af",
           "f_plan_id": "3c076e40-ba91-475a-aac7-c6bfbb1e6e81",
           "plan_name": "DEVOTED CORE 010 TN (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7605-016",
+          "parent_fpi": "fbec3978-71ec-59a3-9d22-e284132f39af",
+          "f_plan_id": "6265238a-738d-4d1e-a9f1-cbed16899fce",
+          "plan_name": "DEVOTED C-SNP PREMIUM 016 TN (HMO C-SNP)"
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.devoted.com/H7605/2026"
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.devoted.com/fhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.devoted.com/H7605/2027"
       }
     }
   ],

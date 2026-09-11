@@ -7,6 +7,11 @@
       "value": "943316e9-c8c6-5e73-8d12-26f855db8f0d",
       "is_fpi": true,
       "payerLegalName": "BESHP, INC.",
+      "payer_level_string_search_matches": [
+        "BESHP, INC.",
+        "MyAdvocate Medicare Advantage",
+        "Sanford Health"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "BESHP, INC."
     },
@@ -35,7 +40,10 @@
           "plan_name": "MyAdvocate Medicare Advantage SILVER (HMO-POS)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://shp-web-public.s3.amazonaws.com/PRD/medicare/h0816/mpf-data-index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.myadvocatema.com/hspd/r4/"
+      }
     }
   ],
   "is_seeded": true

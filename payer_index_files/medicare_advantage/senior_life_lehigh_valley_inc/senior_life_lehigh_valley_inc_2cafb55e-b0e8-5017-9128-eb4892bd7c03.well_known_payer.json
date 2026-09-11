@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "2cafb55e-b0e8-5017-9128-eb4892bd7c03",
+      "is_fpi": true,
+      "payerLegalName": "SENIOR LIFE LEHIGH VALLEY, INC.",
+      "payer_level_string_search_matches": [
+        "SENIOR LIFE LEHIGH VALLEY, INC.",
+        "Senior LIFE Lehigh Valley / Reading"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SENIOR LIFE LEHIGH VALLEY, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5978",
+      "is_fpi": false,
+      "parent_fpi": "2cafb55e-b0e8-5017-9128-eb4892bd7c03"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5978-001",
+          "parent_fpi": "2cafb55e-b0e8-5017-9128-eb4892bd7c03",
+          "f_plan_id": "ad7b03be-be8e-471e-84f5-5e681e847f86",
+          "plan_name": "Senior LIFE Lehigh Valley Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5978-002",
+          "parent_fpi": "2cafb55e-b0e8-5017-9128-eb4892bd7c03",
+          "f_plan_id": "6d1e4c2b-64cb-4b08-b252-32dcb746b64c",
+          "plan_name": "Senior LIFE Lehigh Valley Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

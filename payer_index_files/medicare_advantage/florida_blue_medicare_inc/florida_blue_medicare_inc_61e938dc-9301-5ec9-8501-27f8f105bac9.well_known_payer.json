@@ -7,6 +7,11 @@
       "value": "61e938dc-9301-5ec9-8501-27f8f105bac9",
       "is_fpi": true,
       "payerLegalName": "FLORIDA BLUE MEDICARE, INC.",
+      "payer_level_string_search_matches": [
+        "FLORIDA BLUE MEDICARE, INC.",
+        "Florida Blue HMO",
+        "Guidewell Mutual Holding Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "FLORIDA BLUE MEDICARE, INC."
     },
@@ -154,7 +159,10 @@
           "plan_name": "BlueMedicare Group MA HMO (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://q8ye948ddl.execute-api.us-east-1.amazonaws.com/prod/pd/H1035",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://apigw.bcbsfl.com/interop/interop-developer-portal/emr/api/v1/fhir/"
+      }
     }
   ],
   "is_seeded": true

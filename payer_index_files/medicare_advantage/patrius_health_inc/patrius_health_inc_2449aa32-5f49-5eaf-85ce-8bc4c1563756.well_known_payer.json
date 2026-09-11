@@ -1,0 +1,54 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "2449aa32-5f49-5eaf-85ce-8bc4c1563756",
+      "is_fpi": true,
+      "payerLegalName": "PATRIUS HEALTH, INC.",
+      "payer_level_string_search_matches": [
+        "PATRIUS HEALTH, INC.",
+        "Patrius Health",
+        "BlueCross BlueShield of Alabama"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PATRIUS HEALTH, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1347",
+      "is_fpi": false,
+      "parent_fpi": "2449aa32-5f49-5eaf-85ce-8bc4c1563756"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1347-001",
+          "parent_fpi": "2449aa32-5f49-5eaf-85ce-8bc4c1563756",
+          "f_plan_id": "77b93105-500e-4ade-9591-45c33cd6283a",
+          "plan_name": "Blue Advantage Plus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1347-002",
+          "parent_fpi": "2449aa32-5f49-5eaf-85ce-8bc4c1563756",
+          "f_plan_id": "7b3fc540-2c2d-4cef-9200-b7dea3378b53",
+          "plan_name": "Blue Advantage Capital (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1347-003",
+          "parent_fpi": "2449aa32-5f49-5eaf-85ce-8bc4c1563756",
+          "f_plan_id": "bc4ae90d-2c76-4232-9126-e9be86c1f744",
+          "plan_name": "Blue Advantage Magnolia (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

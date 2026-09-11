@@ -7,6 +7,11 @@
       "value": "28712fb4-71b5-56f0-b154-3fdeb59ce409",
       "is_fpi": true,
       "payerLegalName": "GOOD SAMARITAN INSURANCE PLAN OF NEBRASKA, INC.",
+      "payer_level_string_search_matches": [
+        "GOOD SAMARITAN INSURANCE PLAN OF NEBRASKA, INC.",
+        "Great Plains Medicare Advantage",
+        "Sanford Health"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "GOOD SAMARITAN INSURANCE PLAN OF NEBRASKA, INC."
     },
@@ -35,7 +40,10 @@
           "plan_name": "Great Plains Medicare Advantage Gold (HMO I-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://shp-web-public.s3.amazonaws.com/PRD/medicare/h7511/mpf-data-index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.greatplainsmedicareadvantage.com/hspd/r4/"
+      }
     }
   ],
   "is_seeded": true

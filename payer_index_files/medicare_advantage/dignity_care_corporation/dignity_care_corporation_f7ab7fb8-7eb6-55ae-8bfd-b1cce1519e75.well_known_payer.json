@@ -7,6 +7,11 @@
       "value": "f7ab7fb8-7eb6-55ae-8bfd-b1cce1519e75",
       "is_fpi": true,
       "payerLegalName": "DIGNITY CARE CORPORATION",
+      "payer_level_string_search_matches": [
+        "DIGNITY CARE CORPORATION",
+        "American Health Advantage of Louisiana",
+        "Mitchell Family Office"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DIGNITY CARE CORPORATION"
     },
@@ -29,6 +34,7 @@
         }
       ],
       "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://directory.amhealthplans.com/mpfdir/H8492/index.json",
         "davinci_pdex_provider_directory_endpoint#1.1": "https://api-ahp-prd.safhir.io/v1/api/provider-directory/metadata"
       }
     }

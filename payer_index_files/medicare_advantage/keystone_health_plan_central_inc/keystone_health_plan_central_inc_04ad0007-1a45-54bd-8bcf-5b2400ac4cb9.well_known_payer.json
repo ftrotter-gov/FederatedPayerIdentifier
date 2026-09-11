@@ -7,6 +7,10 @@
       "value": "04ad0007-1a45-54bd-8bcf-5b2400ac4cb9",
       "is_fpi": true,
       "payerLegalName": "KEYSTONE HEALTH PLAN CENTRAL, INC.",
+      "payer_level_string_search_matches": [
+        "KEYSTONE HEALTH PLAN CENTRAL, INC.",
+        "Capital Blue Cross"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "KEYSTONE HEALTH PLAN CENTRAL, INC."
     },
@@ -77,7 +81,10 @@
           "plan_name": "Capital Blue Cross Group No Rx (FY) (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.capitalbluecrossfhir.com/r4/public-ma/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://gateway.1up.health/v1/capital-blue-cross/r4/public-ma/mpf/H3962-CY2027/index.json"
+      }
     }
   ],
   "is_seeded": true

@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "4c2f96a1-29c1-5a3a-88b6-0dfdaf5da92c",
+      "is_fpi": true,
+      "payerLegalName": "MYPLACE SOUTH LA PACE INC.",
+      "payer_level_string_search_matches": [
+        "MYPLACE SOUTH LA PACE INC.",
+        "myPlace PACE",
+        "SCAN Group"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MYPLACE SOUTH LA PACE INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8811",
+      "is_fpi": false,
+      "parent_fpi": "4c2f96a1-29c1-5a3a-88b6-0dfdaf5da92c"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8811-001",
+          "parent_fpi": "4c2f96a1-29c1-5a3a-88b6-0dfdaf5da92c",
+          "f_plan_id": "d5bb2c77-5ae4-4493-a7ca-a664529eb0f5",
+          "plan_name": "myPlace South LA PACE Inc. (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8811-002",
+          "parent_fpi": "4c2f96a1-29c1-5a3a-88b6-0dfdaf5da92c",
+          "f_plan_id": "cb6dac5a-d782-43c1-8345-3c29a9710897",
+          "plan_name": "myPlace South LA PACE Inc. (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

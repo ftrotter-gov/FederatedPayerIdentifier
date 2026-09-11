@@ -7,6 +7,11 @@
       "value": "a4ec8013-260e-52f1-8a5a-c73cd8c40100",
       "is_fpi": true,
       "payerLegalName": "ALIGN SENIOR CARE FLORIDA, INC.",
+      "payer_level_string_search_matches": [
+        "ALIGN SENIOR CARE FLORIDA, INC.",
+        "Align Senior Care",
+        "Curana Health Holdings, LLC"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ALIGN SENIOR CARE FLORIDA, INC."
     },
@@ -35,7 +40,10 @@
           "plan_name": "Premier Care (HMO I-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.curanahealth.com/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhirmpf.curanahealth.com/H9917/2027/"
+      }
     }
   ],
   "is_seeded": true

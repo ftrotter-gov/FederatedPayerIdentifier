@@ -7,6 +7,11 @@
       "value": "73f59c79-a1a6-5339-9720-e0c4981b0884",
       "is_fpi": true,
       "payerLegalName": "HUMANA EMPLOYERS HEALTH PLAN OF GEORGIA, INC.",
+      "payer_level_string_search_matches": [
+        "HUMANA EMPLOYERS HEALTH PLAN OF GEORGIA, INC.",
+        "Humana",
+        "Humana Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HUMANA EMPLOYERS HEALTH PLAN OF GEORGIA, INC."
     },
@@ -57,6 +62,20 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4141-024",
+          "parent_fpi": "73f59c79-a1a6-5339-9720-e0c4981b0884",
+          "f_plan_id": "6cf4b100-5c30-4225-9ce3-7ee20b47973c",
+          "plan_name": "Humana Gold Plus SNP-DE H4141-024 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4141-025",
+          "parent_fpi": "73f59c79-a1a6-5339-9720-e0c4981b0884",
+          "f_plan_id": "5c9b397a-bf66-4f54-9a6b-2cc489f5acf4",
+          "plan_name": "Humana Gold Plus SNP-DE H4141-025 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4141-801",
           "parent_fpi": "73f59c79-a1a6-5339-9720-e0c4981b0884",
           "f_plan_id": "a47fe9a6-c8bb-4dcc-b1d5-889cb1c5890a",
@@ -82,24 +101,10 @@
           "parent_fpi": "73f59c79-a1a6-5339-9720-e0c4981b0884",
           "f_plan_id": "85e6ce5f-151e-4561-b97c-4a53b23b9562",
           "plan_name": "Humana Medicare Employer (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H4141-024",
-          "parent_fpi": "73f59c79-a1a6-5339-9720-e0c4981b0884",
-          "f_plan_id": "6cf4b100-5c30-4225-9ce3-7ee20b47973c",
-          "plan_name": "Humana Gold Plus SNP-DE H4141-024 (HMO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H4141-025",
-          "parent_fpi": "73f59c79-a1a6-5339-9720-e0c4981b0884",
-          "f_plan_id": "5c9b397a-bf66-4f54-9a6b-2cc489f5acf4",
-          "plan_name": "Humana Gold Plus SNP-DE H4141-025 (HMO D-SNP)"
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.humana.com/api"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.humana.com/api"
       }
     }
   ],

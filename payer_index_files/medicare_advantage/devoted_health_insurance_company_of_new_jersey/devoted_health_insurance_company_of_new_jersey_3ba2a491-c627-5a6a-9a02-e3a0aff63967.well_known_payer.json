@@ -1,0 +1,33 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "3ba2a491-c627-5a6a-9a02-e3a0aff63967",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF NEW JERSEY",
+      "payer_level_string_search_matches": [
+        "DEVOTED HEALTH INSURANCE COMPANY OF NEW JERSEY"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF NEW JERSEY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1390",
+      "is_fpi": false,
+      "parent_fpi": "3ba2a491-c627-5a6a-9a02-e3a0aff63967"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.devoted.com/fhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.devoted.com/H1390/2027"
+      }
+    }
+  ],
+  "is_seeded": true
+}

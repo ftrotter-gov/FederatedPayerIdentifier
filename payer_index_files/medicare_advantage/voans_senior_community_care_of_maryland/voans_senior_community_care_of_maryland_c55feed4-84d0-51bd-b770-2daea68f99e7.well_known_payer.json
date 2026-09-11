@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "c55feed4-84d0-51bd-b770-2daea68f99e7",
+      "is_fpi": true,
+      "payerLegalName": "VOANS SENIOR COMMUNITY CARE OF MARYLAND",
+      "payer_level_string_search_matches": [
+        "VOANS SENIOR COMMUNITY CARE OF MARYLAND",
+        "Senior CommUnity Care of Maryland",
+        "Volunteers of America National Services"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "VOANS SENIOR COMMUNITY CARE OF MARYLAND"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7233",
+      "is_fpi": false,
+      "parent_fpi": "c55feed4-84d0-51bd-b770-2daea68f99e7"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7233-001",
+          "parent_fpi": "c55feed4-84d0-51bd-b770-2daea68f99e7",
+          "f_plan_id": "eaf56229-932a-434e-8989-7d95659ef818",
+          "plan_name": "VOANS Senior Community Care of Maryland (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7233-002",
+          "parent_fpi": "c55feed4-84d0-51bd-b770-2daea68f99e7",
+          "f_plan_id": "9fc0bdae-5631-4289-b5e4-29c1afa8b54f",
+          "plan_name": "VOANS Senior Community Care of Maryland (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,33 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "e105b254-c0bf-5d55-9eed-9160a85409ab",
+      "is_fpi": true,
+      "payerLegalName": "ST. LUKE'S HEALTH PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "ST. LUKE'S HEALTH PLAN, INC."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ST. LUKE'S HEALTH PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3012",
+      "is_fpi": false,
+      "parent_fpi": "e105b254-c0bf-5d55-9eed-9160a85409ab"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://medicare.stlukeshealthplan.org/files",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://medicare.stlukeshealthplan.org/files"
+      }
+    }
+  ],
+  "is_seeded": true
+}

@@ -7,6 +7,11 @@
       "value": "9b30f550-5316-51a5-96ff-d93443eb530e",
       "is_fpi": true,
       "payerLegalName": "AMERIHEALTH INSURANCE COMPANY OF NEW JERSEY",
+      "payer_level_string_search_matches": [
+        "AMERIHEALTH INSURANCE COMPANY OF NEW JERSEY",
+        "AmeriHealth",
+        "Independence Health Group, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AMERIHEALTH INSURANCE COMPANY OF NEW JERSEY"
     },
@@ -43,7 +48,8 @@
         }
       ],
       "plan_endpoints": {
-        "cms_provider_directory_machine_readable_format_endpoint": "https://ah.healthsparq.com/healthsparq/public/#/one/insurerCode=AHRED_I&brandCode=AHREDMCARE&productCode=ALL"
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://eapics.amerihealth.com/provider/v1/fhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://eapics.qa.amerihealth.com/api/mpf/AH/2027/H5361/index.json"
       }
     }
   ],

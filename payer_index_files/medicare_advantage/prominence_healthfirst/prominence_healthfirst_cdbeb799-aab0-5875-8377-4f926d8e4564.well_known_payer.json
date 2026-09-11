@@ -7,6 +7,11 @@
       "value": "cdbeb799-aab0-5875-8377-4f926d8e4564",
       "is_fpi": true,
       "payerLegalName": "PROMINENCE HEALTHFIRST",
+      "payer_level_string_search_matches": [
+        "PROMINENCE HEALTHFIRST",
+        "Prominence Health Plan",
+        "Universal Health Services, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "PROMINENCE HEALTHFIRST"
     },
@@ -112,7 +117,9 @@
           "plan_name": "Prominence Health Plan (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://prominencemedicare.com/get-care/find-a-doctor/provider-and-pharmacy-directories/"
+      }
     }
   ],
   "is_seeded": true

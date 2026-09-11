@@ -7,6 +7,11 @@
       "value": "eaca3ed6-1d8c-5db5-ab20-af87c8651f38",
       "is_fpi": true,
       "payerLegalName": "HIGHMARK HEALTH OPTIONS WEST VIRGINIA INC.",
+      "payer_level_string_search_matches": [
+        "HIGHMARK HEALTH OPTIONS WEST VIRGINIA INC.",
+        "Highmark Blue Cross Blue Shield",
+        "Highmark Health"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HIGHMARK HEALTH OPTIONS WEST VIRGINIA INC."
     },
@@ -28,7 +33,10 @@
           "plan_name": "Highmark Health Options Duals (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://apicmsqa.hmhs.com/cms/fhir/v4/providers/HMWVMS/Practitioner",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cms.healthsparq.com/mpf/v1/H6224/2027/H6224-2027-index.json"
+      }
     }
   ],
   "is_seeded": true

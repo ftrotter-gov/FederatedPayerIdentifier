@@ -1,0 +1,40 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "3fc1c678-7d7c-5a31-bfef-ba639409d4c8",
+      "is_fpi": true,
+      "payerLegalName": "BUCKEYE HEALTH PLAN COMMUNITY SOLUTIONS, Inc.",
+      "payer_level_string_search_matches": [
+        "BUCKEYE HEALTH PLAN COMMUNITY SOLUTIONS, Inc.",
+        "Wellcare",
+        "Centene Corporation"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BUCKEYE HEALTH PLAN COMMUNITY SOLUTIONS, Inc."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0724",
+      "is_fpi": false,
+      "parent_fpi": "3fc1c678-7d7c-5a31-bfef-ba639409d4c8"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0724-801",
+          "parent_fpi": "3fc1c678-7d7c-5a31-bfef-ba639409d4c8",
+          "f_plan_id": "b4e44a70-f1b2-488f-9e33-125f62e5319e",
+          "plan_name": "Allwell Group (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

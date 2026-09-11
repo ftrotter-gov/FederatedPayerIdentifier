@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "b8be4d41-2b3e-5dcc-8001-528ae42d8e3d",
+      "is_fpi": true,
+      "payerLegalName": "WELBEHEALTH SAN BERNARDINO PACE, LLC",
+      "payer_level_string_search_matches": [
+        "WELBEHEALTH SAN BERNARDINO PACE, LLC",
+        "WELBEHEALTH",
+        "WelbeHealth LLC."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WELBEHEALTH SAN BERNARDINO PACE, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1219",
+      "is_fpi": false,
+      "parent_fpi": "b8be4d41-2b3e-5dcc-8001-528ae42d8e3d"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1219-001",
+          "parent_fpi": "b8be4d41-2b3e-5dcc-8001-528ae42d8e3d",
+          "f_plan_id": "770966f0-3eb5-4a56-b799-aa22a183df28",
+          "plan_name": "WelbeHealth San Bernardino (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1219-002",
+          "parent_fpi": "b8be4d41-2b3e-5dcc-8001-528ae42d8e3d",
+          "f_plan_id": "8119e1ad-8774-4bbe-b430-f166f005ed8c",
+          "plan_name": "WelbeHealth San Bernardino (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

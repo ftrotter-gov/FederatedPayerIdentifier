@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "ba3f23cf-7674-5a51-82ba-25490a1f5844",
+      "is_fpi": true,
+      "payerLegalName": "ONE SENIOR CARE OHIO, LLC",
+      "payer_level_string_search_matches": [
+        "ONE SENIOR CARE OHIO, LLC",
+        "Buckeye PACE",
+        "One Senior Care, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ONE SENIOR CARE OHIO, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1188",
+      "is_fpi": false,
+      "parent_fpi": "ba3f23cf-7674-5a51-82ba-25490a1f5844"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1188-001",
+          "parent_fpi": "ba3f23cf-7674-5a51-82ba-25490a1f5844",
+          "f_plan_id": "97ec6051-5f98-4515-84e7-6cbd26ab8ae4",
+          "plan_name": "One Senior Care, OH (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1188-003",
+          "parent_fpi": "ba3f23cf-7674-5a51-82ba-25490a1f5844",
+          "f_plan_id": "c3ad36be-223f-42c2-a71c-7dcd9ad49445",
+          "plan_name": "One Senior Care OH (Medicare Only) (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

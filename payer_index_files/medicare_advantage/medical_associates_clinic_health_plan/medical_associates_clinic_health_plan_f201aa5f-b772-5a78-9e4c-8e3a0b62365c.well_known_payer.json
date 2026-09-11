@@ -1,0 +1,61 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "f201aa5f-b772-5a78-9e4c-8e3a0b62365c",
+      "is_fpi": true,
+      "payerLegalName": "MEDICAL ASSOCIATES CLINIC HEALTH PLAN",
+      "payer_level_string_search_matches": [
+        "MEDICAL ASSOCIATES CLINIC HEALTH PLAN",
+        "Medical Associates Clinic Health Plan of Wisconsin",
+        "Medical Associates Clinic, P.C."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MEDICAL ASSOCIATES CLINIC HEALTH PLAN"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5256",
+      "is_fpi": false,
+      "parent_fpi": "f201aa5f-b772-5a78-9e4c-8e3a0b62365c"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5256-001",
+          "parent_fpi": "f201aa5f-b772-5a78-9e4c-8e3a0b62365c",
+          "f_plan_id": "4493a9ac-fe85-4f0e-aa5a-7cd206e7d81b",
+          "plan_name": "Medical Associates SmartPlan (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5256-002",
+          "parent_fpi": "f201aa5f-b772-5a78-9e4c-8e3a0b62365c",
+          "f_plan_id": "f0937e1e-0ecb-447c-8f4f-e0c6c00c7495",
+          "plan_name": "Medical Associates Community Plan (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5256-004",
+          "parent_fpi": "f201aa5f-b772-5a78-9e4c-8e3a0b62365c",
+          "f_plan_id": "3898cb7f-072c-4667-8b31-1b0cf72b3f9e",
+          "plan_name": "Medical Associates Freedom Plan (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5256-005",
+          "parent_fpi": "f201aa5f-b772-5a78-9e4c-8e3a0b62365c",
+          "f_plan_id": "4cd3e7c7-b7e7-4730-9419-d4fa9a768ce0",
+          "plan_name": "Mercy Cedar Rapids Senior Plan (Cost)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

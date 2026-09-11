@@ -7,6 +7,11 @@
       "value": "8df5ebc9-a58d-5dbb-bc4e-269fd0379bc0",
       "is_fpi": true,
       "payerLegalName": "PROVIDER PARTNERS HEALTH PLAN OF TEXAS, INC.",
+      "payer_level_string_search_matches": [
+        "PROVIDER PARTNERS HEALTH PLAN OF TEXAS, INC.",
+        "Provider Partners Health Plans",
+        "Rifkin Managed Care Holding, LLC"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "PROVIDER PARTNERS HEALTH PLAN OF TEXAS, INC."
     },
@@ -28,7 +33,10 @@
           "plan_name": "Provider Partners Texas Advantage Plan (HMO I-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://www.pphealthplan.com/directory-search/JSON/H4054/2027",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://www.pphealthplan.com/directory-search/FHIR/H4054/2027"
+      }
     }
   ],
   "is_seeded": true

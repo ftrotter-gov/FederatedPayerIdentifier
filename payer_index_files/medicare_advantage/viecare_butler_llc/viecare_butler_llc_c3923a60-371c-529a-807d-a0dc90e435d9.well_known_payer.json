@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "c3923a60-371c-529a-807d-a0dc90e435d9",
+      "is_fpi": true,
+      "payerLegalName": "VIECARE BUTLER, LLC",
+      "payer_level_string_search_matches": [
+        "VIECARE BUTLER, LLC",
+        "LIFE Butler County",
+        "Lutheran SeniorLife"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "VIECARE BUTLER, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3060",
+      "is_fpi": false,
+      "parent_fpi": "c3923a60-371c-529a-807d-a0dc90e435d9"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3060-001",
+          "parent_fpi": "c3923a60-371c-529a-807d-a0dc90e435d9",
+          "f_plan_id": "7d594551-789f-4d54-a39a-1d38e0a0f82e",
+          "plan_name": "VieCare Butler, LLC dba LIFE Butler County (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3060-002",
+          "parent_fpi": "c3923a60-371c-529a-807d-a0dc90e435d9",
+          "f_plan_id": "90b49008-35e6-4d09-9e92-5add12943794",
+          "plan_name": "VieCare Butler, LLC dba LIFE Butler County (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

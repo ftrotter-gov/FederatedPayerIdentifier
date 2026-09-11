@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "f243b3f2-a8c1-594b-b36c-8a8b57d12b85",
+      "is_fpi": true,
+      "payerLegalName": "San Diego PACE, LLC",
+      "payer_level_string_search_matches": [
+        "San Diego PACE, LLC",
+        "San Diego PACE",
+        "Centro de Salud de la Comunidad de San Ysidro"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "San Diego PACE, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9616",
+      "is_fpi": false,
+      "parent_fpi": "f243b3f2-a8c1-594b-b36c-8a8b57d12b85"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9616-001",
+          "parent_fpi": "f243b3f2-a8c1-594b-b36c-8a8b57d12b85",
+          "f_plan_id": "d7bf08bd-e23d-4e41-a873-218a4af65959",
+          "plan_name": "San Diego PACE (Duals) (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9616-002",
+          "parent_fpi": "f243b3f2-a8c1-594b-b36c-8a8b57d12b85",
+          "f_plan_id": "14172994-c5a4-4eba-8446-25ef00a4e212",
+          "plan_name": "San Diego PACE (Medicare Only) (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

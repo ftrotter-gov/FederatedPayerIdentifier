@@ -1,0 +1,75 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "5e28bbd9-6e5c-584f-ac41-f0bfff9dc645",
+      "is_fpi": true,
+      "payerLegalName": "HM HEALTH INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "HM HEALTH INSURANCE COMPANY",
+        "Highmark Blue Shield",
+        "Highmark Health"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HM HEALTH INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S5593",
+      "is_fpi": false,
+      "parent_fpi": "5e28bbd9-6e5c-584f-ac41-f0bfff9dc645"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5593-002",
+          "parent_fpi": "5e28bbd9-6e5c-584f-ac41-f0bfff9dc645",
+          "f_plan_id": "bce1daa4-8c4c-449c-b1c0-048788c84baa",
+          "plan_name": "Blue Rx PDP Plus (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5593-003",
+          "parent_fpi": "5e28bbd9-6e5c-584f-ac41-f0bfff9dc645",
+          "f_plan_id": "0ac9a726-7a97-4c87-b542-f6223dd0ff28",
+          "plan_name": "Blue Rx PDP Complete (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5593-801",
+          "parent_fpi": "5e28bbd9-6e5c-584f-ac41-f0bfff9dc645",
+          "f_plan_id": "1293fae1-34b2-4f28-98f0-27cd1737f0a2",
+          "plan_name": "Blue Rx PDP Employer Group Calendar (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5593-802",
+          "parent_fpi": "5e28bbd9-6e5c-584f-ac41-f0bfff9dc645",
+          "f_plan_id": "f2b68868-0c7f-43f1-a583-c3a4b77dc906",
+          "plan_name": "Blue Rx PDP Employer Group Calendar Performance (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5593-807",
+          "parent_fpi": "5e28bbd9-6e5c-584f-ac41-f0bfff9dc645",
+          "f_plan_id": "5169016f-31dd-409e-9757-04bbc3e76d2d",
+          "plan_name": "Blue Rx PDP ASO 1 CALENDAR (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5593-808",
+          "parent_fpi": "5e28bbd9-6e5c-584f-ac41-f0bfff9dc645",
+          "f_plan_id": "dd2d81d0-a53b-48ba-9d87-83e939c09328",
+          "plan_name": "Blue Rx PDP ASO 2 CALENDAR (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -7,6 +7,11 @@
       "value": "66582bf2-5e52-5584-ba8a-6128c3768264",
       "is_fpi": true,
       "payerLegalName": "HOMETOWN HEALTH PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "HOMETOWN HEALTH PLAN, INC.",
+        "Kaiser Permanente",
+        "Kaiser Foundation Health Plan, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HOMETOWN HEALTH PLAN, INC."
     },
@@ -77,7 +82,10 @@
           "plan_name": "Senior Care Plus: Value Group Plan (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://apps.hometownhealth.com/Services/_V3.0/ProviderDirectory/gql",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://renown-provider-fhir-api-v1-p2pznb.scqos5-1.usa-w1.cloudhub.io/api/providers/fhir-search"
+      }
     }
   ],
   "is_seeded": true

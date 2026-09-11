@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "c4573594-4072-54de-931b-5b42d6c4c721",
+      "is_fpi": true,
+      "payerLegalName": "STOCKTON PACE",
+      "payer_level_string_search_matches": [
+        "STOCKTON PACE",
+        "WelbeHealth",
+        "WelbeHealth LLC."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "STOCKTON PACE"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8082",
+      "is_fpi": false,
+      "parent_fpi": "c4573594-4072-54de-931b-5b42d6c4c721"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8082-001",
+          "parent_fpi": "c4573594-4072-54de-931b-5b42d6c4c721",
+          "f_plan_id": "14b429ec-2f4c-4eba-baf9-18a2a47c1e95",
+          "plan_name": "WelbeHealth Stockton, Modesto, Elk Grove (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8082-002",
+          "parent_fpi": "c4573594-4072-54de-931b-5b42d6c4c721",
+          "f_plan_id": "0388e2dc-e4a1-4082-8c72-cc43fbd6c747",
+          "plan_name": "WelbeHealth Stockton, Modesto, Elk Grove (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

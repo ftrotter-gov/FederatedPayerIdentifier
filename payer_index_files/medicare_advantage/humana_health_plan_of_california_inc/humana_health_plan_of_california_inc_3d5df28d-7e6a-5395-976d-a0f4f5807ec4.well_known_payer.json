@@ -1,0 +1,30 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "3d5df28d-7e6a-5395-976d-a0f4f5807ec4",
+      "is_fpi": true,
+      "payerLegalName": "HUMANA HEALTH PLAN OF CALIFORNIA, INC.",
+      "payer_level_string_search_matches": [
+        "HUMANA HEALTH PLAN OF CALIFORNIA, INC."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HUMANA HEALTH PLAN OF CALIFORNIA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3767",
+      "is_fpi": false,
+      "parent_fpi": "3d5df28d-7e6a-5395-976d-a0f4f5807ec4"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

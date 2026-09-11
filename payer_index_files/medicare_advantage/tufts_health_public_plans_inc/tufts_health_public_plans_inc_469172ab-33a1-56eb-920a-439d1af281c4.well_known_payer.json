@@ -7,6 +7,11 @@
       "value": "469172ab-33a1-56eb-920a-439d1af281c4",
       "is_fpi": true,
       "payerLegalName": "TUFTS HEALTH PUBLIC PLANS, INC.",
+      "payer_level_string_search_matches": [
+        "TUFTS HEALTH PUBLIC PLANS, INC.",
+        "Tufts Health Plan",
+        "Point32Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "TUFTS HEALTH PUBLIC PLANS, INC."
     },
@@ -35,7 +40,10 @@
           "plan_name": "Tufts Health One Care CW (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api-thp-prd.safhir.io/v1/api/provider-directory/cms-hpms-manifest/thp-h5314-nnn",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cms-uat.healthsparq.com/mpf/v1/H5314/2026/H5314-2026-index.json"
+      }
     }
   ],
   "is_seeded": true

@@ -7,6 +7,11 @@
       "value": "8301d0ec-de53-5a41-a140-32019352714d",
       "is_fpi": true,
       "payerLegalName": "PENNSYLVANIA HEALTH & WELLNESS, INC.",
+      "payer_level_string_search_matches": [
+        "PENNSYLVANIA HEALTH & WELLNESS, INC.",
+        "Wellcare",
+        "Centene Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "PENNSYLVANIA HEALTH & WELLNESS, INC."
     },
@@ -56,7 +61,10 @@
           "plan_name": "Wellcare Dual Select (HMO-POS D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H2915index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
     }
   ],
   "is_seeded": true

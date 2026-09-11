@@ -7,6 +7,11 @@
       "value": "da717792-b48e-5a3d-987b-32d90d0d1232",
       "is_fpi": true,
       "payerLegalName": "KERN HEALTH SYSTEMS",
+      "payer_level_string_search_matches": [
+        "KERN HEALTH SYSTEMS",
+        "Kern Family Health Care Medicare (D-SNP)",
+        "Kern Health Systems (KHS)"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "KERN HEALTH SYSTEMS"
     },
@@ -28,7 +33,10 @@
           "plan_name": "Kern Family Health Care Medicare (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://h4057.khs-net.com/provider-directory/h4057/2026/index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.edifecscloud.com/khs_meta/pd/R4/Practitioner"
+      }
     }
   ],
   "is_seeded": true

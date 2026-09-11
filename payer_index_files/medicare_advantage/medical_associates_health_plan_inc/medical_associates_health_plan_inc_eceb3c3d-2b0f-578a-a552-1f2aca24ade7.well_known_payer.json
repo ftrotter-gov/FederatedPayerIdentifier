@@ -1,0 +1,95 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "eceb3c3d-2b0f-578a-a552-1f2aca24ade7",
+      "is_fpi": true,
+      "payerLegalName": "MEDICAL ASSOCIATES HEALTH PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "MEDICAL ASSOCIATES HEALTH PLAN, INC.",
+        "Medical Associates Clinic, P.C."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MEDICAL ASSOCIATES HEALTH PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1651",
+      "is_fpi": false,
+      "parent_fpi": "eceb3c3d-2b0f-578a-a552-1f2aca24ade7"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1651-001",
+          "parent_fpi": "eceb3c3d-2b0f-578a-a552-1f2aca24ade7",
+          "f_plan_id": "846e93cc-4f0e-4c91-847f-c43de64d0555",
+          "plan_name": "Medical Associates SmartPlan (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1651-002",
+          "parent_fpi": "eceb3c3d-2b0f-578a-a552-1f2aca24ade7",
+          "f_plan_id": "9d4f4110-1867-4c7b-a7b5-d3b94d4552ce",
+          "plan_name": "Medical Associates Basic Plan (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1651-003",
+          "parent_fpi": "eceb3c3d-2b0f-578a-a552-1f2aca24ade7",
+          "f_plan_id": "9168987b-17fa-4c7f-bce8-1a72d7c07957",
+          "plan_name": "Medical Associates SmartPlan (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1651-004",
+          "parent_fpi": "eceb3c3d-2b0f-578a-a552-1f2aca24ade7",
+          "f_plan_id": "c92972d8-cc0e-4f04-981b-da5439613689",
+          "plan_name": "Medical Associates Community Plan (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1651-005",
+          "parent_fpi": "eceb3c3d-2b0f-578a-a552-1f2aca24ade7",
+          "f_plan_id": "564e3e2b-ed77-4c35-bf16-1611dac9e0fa",
+          "plan_name": "Medical Associates Community Plan (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1651-008",
+          "parent_fpi": "eceb3c3d-2b0f-578a-a552-1f2aca24ade7",
+          "f_plan_id": "375f2384-bfa8-44fc-9d8b-8885a983dbb3",
+          "plan_name": "Medical Associates Freedom Plan (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1651-009",
+          "parent_fpi": "eceb3c3d-2b0f-578a-a552-1f2aca24ade7",
+          "f_plan_id": "6feb992a-9fb6-47bf-bfa8-715fda52c380",
+          "plan_name": "Medical Associates Freedom Plan (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1651-013",
+          "parent_fpi": "eceb3c3d-2b0f-578a-a552-1f2aca24ade7",
+          "f_plan_id": "02d23da2-3bc6-4141-b6f7-956bf98f3698",
+          "plan_name": "MAHP Quad Cities Senior Plan (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1651-015",
+          "parent_fpi": "eceb3c3d-2b0f-578a-a552-1f2aca24ade7",
+          "f_plan_id": "fdaef74c-ace9-4dd1-ba3b-a50c64e24713",
+          "plan_name": "MAHP North Iowa Senior Plan (Cost)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

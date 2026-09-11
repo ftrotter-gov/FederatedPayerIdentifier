@@ -1,0 +1,45 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "a10446b9-1e2a-5737-a06a-11e6c5324650",
+      "is_fpi": true,
+      "payerLegalName": "LAWNDALE CHRISTIAN HEALTH CENTER",
+      "payer_level_string_search_matches": [
+        "LAWNDALE CHRISTIAN HEALTH CENTER"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "LAWNDALE CHRISTIAN HEALTH CENTER"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5993",
+      "is_fpi": false,
+      "parent_fpi": "a10446b9-1e2a-5737-a06a-11e6c5324650"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5993-001",
+          "parent_fpi": "a10446b9-1e2a-5737-a06a-11e6c5324650",
+          "f_plan_id": "b2a7f4e4-2b0a-4fbd-b307-ae6cbc352a59",
+          "plan_name": "Lawndale Christian Health Center (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5993-002",
+          "parent_fpi": "a10446b9-1e2a-5737-a06a-11e6c5324650",
+          "f_plan_id": "cd10bfa9-6391-4c62-85c6-c9dbd9d7922c",
+          "plan_name": "Lawndale Christian Health Center (PACE Medicare O) (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "78c22b51-1062-53b1-974d-a6bde8725de7",
+      "is_fpi": true,
+      "payerLegalName": "ESPERANZA HEALTH CENTERS",
+      "payer_level_string_search_matches": [
+        "ESPERANZA HEALTH CENTERS",
+        "Panorama PACE"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ESPERANZA HEALTH CENTERS"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7027",
+      "is_fpi": false,
+      "parent_fpi": "78c22b51-1062-53b1-974d-a6bde8725de7"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7027-001",
+          "parent_fpi": "78c22b51-1062-53b1-974d-a6bde8725de7",
+          "f_plan_id": "da25f6c9-a641-43a5-9784-a3c0f00eb6cf",
+          "plan_name": "Esperanza Health Centers - Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7027-002",
+          "parent_fpi": "78c22b51-1062-53b1-974d-a6bde8725de7",
+          "f_plan_id": "d9b7fe19-ba51-49c7-8096-94e0dd038fb2",
+          "plan_name": "Esperanza Health Centers - Medicare Only (PACE (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

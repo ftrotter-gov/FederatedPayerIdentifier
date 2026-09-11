@@ -7,6 +7,11 @@
       "value": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
       "is_fpi": true,
       "payerLegalName": "COVENTRY HEALTH AND LIFE INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "COVENTRY HEALTH AND LIFE INSURANCE COMPANY",
+        "Aetna Medicare",
+        "CVS Health Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "COVENTRY HEALTH AND LIFE INSURANCE COMPANY"
     },
@@ -246,20 +251,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H1608-120",
-          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
-          "f_plan_id": "0ae425e8-00bb-4fcd-a611-187c86c810f9",
-          "plan_name": "Aetna Medicare Signature (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H1608-801",
-          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
-          "f_plan_id": "1669852b-c418-4519-9444-95a9b81eec9c",
-          "plan_name": "Aetna Medicare Plan (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-117",
           "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
           "f_plan_id": "059eabca-c702-43e0-9f00-0acd5eb6a5b7",
@@ -281,14 +272,28 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-120",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "0ae425e8-00bb-4fcd-a611-187c86c810f9",
+          "plan_name": "Aetna Medicare Signature (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1608-121",
           "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
           "f_plan_id": "6326f3d3-95a5-4c48-970a-bc985cc399d8",
           "plan_name": "Aetna Medicare Full Dual (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1608-801",
+          "parent_fpi": "d2688a5e-7e05-59a7-80d3-62c27e80162a",
+          "f_plan_id": "1669852b-c418-4519-9444-95a9b81eec9c",
+          "plan_name": "Aetna Medicare Plan (PPO)"
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.aetna.com/interoperability/2027/H1608/index.json"
       }
     }
   ],

@@ -7,12 +7,23 @@
       "value": "2815d5d6-0a50-5989-b7f1-6d8d953f2e27",
       "is_fpi": true,
       "payerLegalName": "WELLCARE HEALTH INSURANCE OF ARIZONA, INC.",
+      "payer_level_string_search_matches": [
+        "WELLCARE HEALTH INSURANCE OF ARIZONA, INC.",
+        "Wellcare",
+        "Centene Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "WELLCARE HEALTH INSURANCE OF ARIZONA, INC."
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
       "value": "H2491",
+      "is_fpi": false,
+      "parent_fpi": "2815d5d6-0a50-5989-b7f1-6d8d953f2e27"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9916",
       "is_fpi": false,
       "parent_fpi": "2815d5d6-0a50-5989-b7f1-6d8d953f2e27"
     }
@@ -22,24 +33,22 @@
       "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9916-001",
+          "parent_fpi": "2815d5d6-0a50-5989-b7f1-6d8d953f2e27",
+          "f_plan_id": "348fcd76-277b-4efc-b873-eda17f451812",
+          "plan_name": "Wellcare 'Ohana Dual Align (HMO-POS D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2491-010",
           "parent_fpi": "2815d5d6-0a50-5989-b7f1-6d8d953f2e27",
           "f_plan_id": "9da13846-e665-4f95-8f28-d3b185f304d5",
           "plan_name": "Wellcare Assist (HMO-POS)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H2491-033",
-          "parent_fpi": "2815d5d6-0a50-5989-b7f1-6d8d953f2e27",
-          "f_plan_id": "a18b8d4b-633c-45ab-8998-586bce077069",
-          "plan_name": "Wellcare Dual Access (HMO-POS D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H2491-032",
-          "parent_fpi": "2815d5d6-0a50-5989-b7f1-6d8d953f2e27",
-          "f_plan_id": "0e31652d-8075-4b89-9678-29a49352c687",
-          "plan_name": "Wellcare Dual Liberty (HMO-POS D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -82,9 +91,26 @@
           "parent_fpi": "2815d5d6-0a50-5989-b7f1-6d8d953f2e27",
           "f_plan_id": "6e5c93e4-2130-4fd9-b071-754e9ee758b6",
           "plan_name": "Wellcare Giveback (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2491-032",
+          "parent_fpi": "2815d5d6-0a50-5989-b7f1-6d8d953f2e27",
+          "f_plan_id": "0e31652d-8075-4b89-9678-29a49352c687",
+          "plan_name": "Wellcare Dual Liberty (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2491-033",
+          "parent_fpi": "2815d5d6-0a50-5989-b7f1-6d8d953f2e27",
+          "f_plan_id": "a18b8d4b-633c-45ab-8998-586bce077069",
+          "plan_name": "Wellcare Dual Access (HMO-POS D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H2491index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
     }
   ],
   "is_seeded": true

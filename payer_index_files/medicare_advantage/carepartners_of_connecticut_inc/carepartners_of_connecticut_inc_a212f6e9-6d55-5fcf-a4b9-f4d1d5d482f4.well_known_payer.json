@@ -1,0 +1,109 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "a212f6e9-6d55-5fcf-a4b9-f4d1d5d482f4",
+      "is_fpi": true,
+      "payerLegalName": "CAREPARTNERS OF CONNECTICUT, INC.",
+      "payer_level_string_search_matches": [
+        "CAREPARTNERS OF CONNECTICUT, INC.",
+        "CarePartners of Connecticut",
+        "Point32Health, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CAREPARTNERS OF CONNECTICUT, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0342",
+      "is_fpi": false,
+      "parent_fpi": "a212f6e9-6d55-5fcf-a4b9-f4d1d5d482f4"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5273",
+      "is_fpi": false,
+      "parent_fpi": "a212f6e9-6d55-5fcf-a4b9-f4d1d5d482f4"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0342-001",
+          "parent_fpi": "a212f6e9-6d55-5fcf-a4b9-f4d1d5d482f4",
+          "f_plan_id": "67168011-ce7b-40dc-910f-70c9bd3b0f5d",
+          "plan_name": "CarePartners Access (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0342-801",
+          "parent_fpi": "a212f6e9-6d55-5fcf-a4b9-f4d1d5d482f4",
+          "f_plan_id": "e5e3d014-c127-4fff-bafb-99049df4b3c1",
+          "plan_name": "CarePartners Access Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0342-802",
+          "parent_fpi": "a212f6e9-6d55-5fcf-a4b9-f4d1d5d482f4",
+          "f_plan_id": "4791df35-bd3f-4234-a3d8-a54517e01ee6",
+          "plan_name": "CarePartners Access Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0342-803",
+          "parent_fpi": "a212f6e9-6d55-5fcf-a4b9-f4d1d5d482f4",
+          "f_plan_id": "9e0b3dc3-cd6b-4b83-9960-3b65b2617e44",
+          "plan_name": "CarePartners Access No Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0342-804",
+          "parent_fpi": "a212f6e9-6d55-5fcf-a4b9-f4d1d5d482f4",
+          "f_plan_id": "2ebe6ac6-9a89-4d2b-858c-25b92d69cba6",
+          "plan_name": "CarePartners Access No Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5273-001",
+          "parent_fpi": "a212f6e9-6d55-5fcf-a4b9-f4d1d5d482f4",
+          "f_plan_id": "174308c9-737f-4165-aab9-4cba733d03b2",
+          "plan_name": "CarePartners of CT CareAdvantage Preferred (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5273-801",
+          "parent_fpi": "a212f6e9-6d55-5fcf-a4b9-f4d1d5d482f4",
+          "f_plan_id": "84a4ee48-3c42-42e0-99ad-34f39f6115f6",
+          "plan_name": "CarePartners of CT CareAdvantage Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5273-802",
+          "parent_fpi": "a212f6e9-6d55-5fcf-a4b9-f4d1d5d482f4",
+          "f_plan_id": "314b0467-f64a-4557-8c50-0dfb80f231b4",
+          "plan_name": "CarePartners of CT CareAdvantage Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5273-803",
+          "parent_fpi": "a212f6e9-6d55-5fcf-a4b9-f4d1d5d482f4",
+          "f_plan_id": "1000e187-1c8a-4460-9fde-610da85f8135",
+          "plan_name": "CarePartners of CT CareAdvantage No Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5273-804",
+          "parent_fpi": "a212f6e9-6d55-5fcf-a4b9-f4d1d5d482f4",
+          "f_plan_id": "6195caf0-011f-46a5-8a0b-3ffd4fbfce2e",
+          "plan_name": "CarePartners of CT CareAdvantage No Rx (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

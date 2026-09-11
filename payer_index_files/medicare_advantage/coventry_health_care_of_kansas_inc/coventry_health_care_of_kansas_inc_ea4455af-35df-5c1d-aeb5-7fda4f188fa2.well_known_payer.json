@@ -7,6 +7,11 @@
       "value": "ea4455af-35df-5c1d-aeb5-7fda4f188fa2",
       "is_fpi": true,
       "payerLegalName": "COVENTRY HEALTH CARE OF KANSAS, INC.",
+      "payer_level_string_search_matches": [
+        "COVENTRY HEALTH CARE OF KANSAS, INC.",
+        "Aetna Medicare",
+        "CVS Health Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "COVENTRY HEALTH CARE OF KANSAS, INC."
     },
@@ -92,7 +97,7 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.aetna.com/interoperability/2027/H5325/index.json"
       }
     }
   ],

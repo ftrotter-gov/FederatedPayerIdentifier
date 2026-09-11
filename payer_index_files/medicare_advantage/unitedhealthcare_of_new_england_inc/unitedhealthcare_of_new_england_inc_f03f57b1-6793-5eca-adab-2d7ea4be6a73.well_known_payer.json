@@ -7,6 +7,11 @@
       "value": "f03f57b1-6793-5eca-adab-2d7ea4be6a73",
       "is_fpi": true,
       "payerLegalName": "UNITEDHEALTHCARE OF NEW ENGLAND, INC.",
+      "payer_level_string_search_matches": [
+        "UNITEDHEALTHCARE OF NEW ENGLAND, INC.",
+        "UnitedHealthcare",
+        "UnitedHealth Group, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "UNITEDHEALTHCARE OF NEW ENGLAND, INC."
     },
@@ -44,7 +49,15 @@
           "parent_fpi": "f03f57b1-6793-5eca-adab-2d7ea4be6a73",
           "f_plan_id": "bdd8f8d3-714b-441f-8351-8637c84d1f9d",
           "plan_name": "UHC Dual Complete RI-S001 (PPO D-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-mpf.optum-uhc-stage.net/api/cms/plans/H0764/2027",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://flex.optum.com/fhirpublic"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2226-001",
@@ -58,7 +71,15 @@
           "parent_fpi": "f03f57b1-6793-5eca-adab-2d7ea4be6a73",
           "f_plan_id": "884e6d43-b4e9-46ec-a88b-7ec395b5580e",
           "plan_name": "UHC Senior Care Options NHC MA-Y002 (HMO D-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-mpf.optum-uhc-stage.net/api/cms/plans/H2226/2027",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://flex.optum.com/fhirpublic"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2272-001",
@@ -72,7 +93,15 @@
           "parent_fpi": "f03f57b1-6793-5eca-adab-2d7ea4be6a73",
           "f_plan_id": "cf9db774-8a8f-43a0-b96b-01ff12d67741",
           "plan_name": "UHC Dual Complete RI-S3 (HMO-POS D-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-mpf.optum-uhc-stage.net/api/cms/plans/H2272/2027",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://flex.optum.com/fhirpublic"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4610-001",
@@ -88,7 +117,10 @@
           "plan_name": "UHC One Care MA-Y4 (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-mpf.optum-uhc-stage.net/api/cms/plans/H4610/2027",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://flex.optum.com/fhirpublic"
+      }
     }
   ],
   "is_seeded": true

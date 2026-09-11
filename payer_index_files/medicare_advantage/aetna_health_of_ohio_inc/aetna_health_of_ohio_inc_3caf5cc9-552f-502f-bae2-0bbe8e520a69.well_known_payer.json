@@ -7,6 +7,11 @@
       "value": "3caf5cc9-552f-502f-bae2-0bbe8e520a69",
       "is_fpi": true,
       "payerLegalName": "AETNA HEALTH OF OHIO INC.",
+      "payer_level_string_search_matches": [
+        "AETNA HEALTH OF OHIO INC.",
+        "Aetna Medicare",
+        "CVS Health Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AETNA HEALTH OF OHIO INC."
     },
@@ -120,27 +125,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H0628-040",
-          "parent_fpi": "3caf5cc9-552f-502f-bae2-0bbe8e520a69",
-          "f_plan_id": "9efc9ce1-68d7-4978-9a2b-e155d5c5ac2c",
-          "plan_name": "Aetna Medicare Partial Dual (HMO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H0628-041",
-          "parent_fpi": "3caf5cc9-552f-502f-bae2-0bbe8e520a69",
-          "f_plan_id": "6ca5307b-4070-4cf0-936d-044b8e075fe7",
-          "plan_name": "Aetna Medicare Partial Dual (HMO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H0628-801",
-          "parent_fpi": "3caf5cc9-552f-502f-bae2-0bbe8e520a69",
-          "f_plan_id": "a8231bf7-b0f4-4432-80d7-bb5f7c5c8676",
-          "plan_name": "Aetna Medicare Plan (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0628-031",
           "parent_fpi": "3caf5cc9-552f-502f-bae2-0bbe8e520a69",
           "f_plan_id": "7fd62a36-79d0-4341-a21a-70f93f1659bb",
@@ -201,10 +185,31 @@
           "parent_fpi": "3caf5cc9-552f-502f-bae2-0bbe8e520a69",
           "f_plan_id": "e70d6be5-2205-41c0-a4b5-3d3445ba8856",
           "plan_name": "Aetna Medicare Chronic Care (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0628-040",
+          "parent_fpi": "3caf5cc9-552f-502f-bae2-0bbe8e520a69",
+          "f_plan_id": "9efc9ce1-68d7-4978-9a2b-e155d5c5ac2c",
+          "plan_name": "Aetna Medicare Partial Dual (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0628-041",
+          "parent_fpi": "3caf5cc9-552f-502f-bae2-0bbe8e520a69",
+          "f_plan_id": "6ca5307b-4070-4cf0-936d-044b8e075fe7",
+          "plan_name": "Aetna Medicare Partial Dual (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0628-801",
+          "parent_fpi": "3caf5cc9-552f-502f-bae2-0bbe8e520a69",
+          "f_plan_id": "a8231bf7-b0f4-4432-80d7-bb5f7c5c8676",
+          "plan_name": "Aetna Medicare Plan (HMO)"
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.aetna.com/interoperability/2027/H0628/index.json"
       }
     }
   ],

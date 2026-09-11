@@ -7,6 +7,11 @@
       "value": "6c19728c-663a-5670-be98-9159991269c1",
       "is_fpi": true,
       "payerLegalName": "AETNA HEALTH OF CALIFORNIA INC.",
+      "payer_level_string_search_matches": [
+        "AETNA HEALTH OF CALIFORNIA INC.",
+        "Aetna Medicare",
+        "CVS Health Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AETNA HEALTH OF CALIFORNIA INC."
     },
@@ -64,20 +69,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H0523-801",
-          "parent_fpi": "6c19728c-663a-5670-be98-9159991269c1",
-          "f_plan_id": "c9fe01c2-f5e6-404e-a963-7a7647f8da62",
-          "plan_name": "Aetna Medicare Plan (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H0523-805",
-          "parent_fpi": "6c19728c-663a-5670-be98-9159991269c1",
-          "f_plan_id": "e48961c5-16e3-425c-ac4f-77b200ae5b38",
-          "plan_name": "Aetna Medicare Plan w/Rx (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0523-083",
           "parent_fpi": "6c19728c-663a-5670-be98-9159991269c1",
           "f_plan_id": "6e2b14f8-6f59-4eea-b463-4232ecdef6ae",
@@ -124,10 +115,24 @@
           "parent_fpi": "6c19728c-663a-5670-be98-9159991269c1",
           "f_plan_id": "de26eeba-a238-4545-8661-29e81bcf2908",
           "plan_name": "Aetna Medicare Signature Extra (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0523-801",
+          "parent_fpi": "6c19728c-663a-5670-be98-9159991269c1",
+          "f_plan_id": "c9fe01c2-f5e6-404e-a963-7a7647f8da62",
+          "plan_name": "Aetna Medicare Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0523-805",
+          "parent_fpi": "6c19728c-663a-5670-be98-9159991269c1",
+          "f_plan_id": "e48961c5-16e3-425c-ac4f-77b200ae5b38",
+          "plan_name": "Aetna Medicare Plan w/Rx (HMO)"
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.aetna.com/interoperability/2027/H0523/index.json"
       }
     }
   ],

@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "7a24a5f9-fb96-5bd4-80af-22ade7456d8e",
+      "is_fpi": true,
+      "payerLegalName": "BEACON PACE ILLINOIS, LLC",
+      "payer_level_string_search_matches": [
+        "BEACON PACE ILLINOIS, LLC",
+        "BoldAge PACE",
+        "BoldAge PACE, LLC"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BEACON PACE ILLINOIS, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8171",
+      "is_fpi": false,
+      "parent_fpi": "7a24a5f9-fb96-5bd4-80af-22ade7456d8e"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8171-001",
+          "parent_fpi": "7a24a5f9-fb96-5bd4-80af-22ade7456d8e",
+          "f_plan_id": "7d7d6feb-5998-4124-a95a-0b47317a51f6",
+          "plan_name": "BoldAge PACE Crestwood (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8171-002",
+          "parent_fpi": "7a24a5f9-fb96-5bd4-80af-22ade7456d8e",
+          "f_plan_id": "88fc078a-36a3-4b37-96e6-a65ada872646",
+          "plan_name": "BoldAge PACE Crestwood - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

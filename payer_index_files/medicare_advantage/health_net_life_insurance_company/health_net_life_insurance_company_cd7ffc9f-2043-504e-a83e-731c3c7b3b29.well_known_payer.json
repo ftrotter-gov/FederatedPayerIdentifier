@@ -7,6 +7,11 @@
       "value": "cd7ffc9f-2043-504e-a83e-731c3c7b3b29",
       "is_fpi": true,
       "payerLegalName": "HEALTH NET LIFE INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "HEALTH NET LIFE INSURANCE COMPANY",
+        "Wellcare",
+        "Centene Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HEALTH NET LIFE INSURANCE COMPANY"
     },
@@ -43,20 +48,23 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5439-022",
-          "parent_fpi": "cd7ffc9f-2043-504e-a83e-731c3c7b3b29",
-          "f_plan_id": "52b3ede8-2af2-419b-9e00-e7f5de1f23c4",
-          "plan_name": "Wellcare Simple Open (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5439-019",
           "parent_fpi": "cd7ffc9f-2043-504e-a83e-731c3c7b3b29",
           "f_plan_id": "7eab4aa0-3acb-42eb-b500-32228289188c",
           "plan_name": "Wellcare Low Premium Open (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5439-022",
+          "parent_fpi": "cd7ffc9f-2043-504e-a83e-731c3c7b3b29",
+          "f_plan_id": "52b3ede8-2af2-419b-9e00-e7f5de1f23c4",
+          "plan_name": "Wellcare Simple Open (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H5439index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
     }
   ],
   "is_seeded": true

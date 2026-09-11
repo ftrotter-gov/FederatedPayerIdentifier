@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "48446f5c-8b49-5aee-8500-683a91378528",
+      "is_fpi": true,
+      "payerLegalName": "TRU COMMUNITY CARE",
+      "payer_level_string_search_matches": [
+        "TRU COMMUNITY CARE",
+        "TRU PACE"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "TRU COMMUNITY CARE"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7262",
+      "is_fpi": false,
+      "parent_fpi": "48446f5c-8b49-5aee-8500-683a91378528"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7262-001",
+          "parent_fpi": "48446f5c-8b49-5aee-8500-683a91378528",
+          "f_plan_id": "e7c90aa3-2340-490a-85b2-07de45f5cb65",
+          "plan_name": "TRU Community Care (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7262-002",
+          "parent_fpi": "48446f5c-8b49-5aee-8500-683a91378528",
+          "f_plan_id": "af2b4c5d-6259-481f-b343-99d0499f88fb",
+          "plan_name": "TRU Community Care (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "9da8ab28-7956-5150-98d1-e7526d19a22f",
+      "is_fpi": true,
+      "payerLegalName": "PACIFICSOURCE PACE, LLC",
+      "payer_level_string_search_matches": [
+        "PACIFICSOURCE PACE, LLC",
+        "PacificSource PACE",
+        "PacificSource"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PACIFICSOURCE PACE, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8261",
+      "is_fpi": false,
+      "parent_fpi": "9da8ab28-7956-5150-98d1-e7526d19a22f"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8261-001",
+          "parent_fpi": "9da8ab28-7956-5150-98d1-e7526d19a22f",
+          "f_plan_id": "7e8522f7-d9e8-4594-a0fb-2690d84a3631",
+          "plan_name": "PacificSource PACE - Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8261-002",
+          "parent_fpi": "9da8ab28-7956-5150-98d1-e7526d19a22f",
+          "f_plan_id": "7943a251-1487-4aa7-8f8b-74c7e11d2b7b",
+          "plan_name": "PacificSource PACE - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

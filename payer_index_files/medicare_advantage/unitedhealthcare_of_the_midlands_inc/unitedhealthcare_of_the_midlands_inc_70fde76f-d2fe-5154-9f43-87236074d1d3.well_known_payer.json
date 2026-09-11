@@ -7,6 +7,11 @@
       "value": "70fde76f-d2fe-5154-9f43-87236074d1d3",
       "is_fpi": true,
       "payerLegalName": "UNITEDHEALTHCARE OF THE MIDLANDS, INC.",
+      "payer_level_string_search_matches": [
+        "UNITEDHEALTHCARE OF THE MIDLANDS, INC.",
+        "UnitedHealthcare",
+        "UnitedHealth Group, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "UNITEDHEALTHCARE OF THE MIDLANDS, INC."
     },
@@ -67,7 +72,15 @@
           "parent_fpi": "70fde76f-d2fe-5154-9f43-87236074d1d3",
           "f_plan_id": "1f2f31c5-201d-43be-8fdd-ea940f59710c",
           "plan_name": "UHC Complete Care AL-5 (HMO-POS C-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-mpf.optum-uhc-stage.net/api/cms/plans/H0432/2027",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://flex.optum.com/fhirpublic"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2802-001",
@@ -343,6 +356,41 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2802-075",
+          "parent_fpi": "70fde76f-d2fe-5154-9f43-87236074d1d3",
+          "f_plan_id": "ca90f9e5-bd61-4fb4-9dfb-8891f3fa1568",
+          "plan_name": "AARP Medicare Advantage Extras from UHC IL-9 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2802-076",
+          "parent_fpi": "70fde76f-d2fe-5154-9f43-87236074d1d3",
+          "f_plan_id": "0fcd15aa-abde-4386-991e-f6d87a27a82c",
+          "plan_name": "AARP Medicare Advantage Essentials from UHC KC-6 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2802-077",
+          "parent_fpi": "70fde76f-d2fe-5154-9f43-87236074d1d3",
+          "f_plan_id": "da9bfb8e-2083-4752-90f6-88e161b13ed1",
+          "plan_name": "AARP Medicare Advantage Patriot No Rx KS-MA2 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2802-078",
+          "parent_fpi": "70fde76f-d2fe-5154-9f43-87236074d1d3",
+          "f_plan_id": "a50ef35c-c6e0-4800-8081-720ea5a40268",
+          "plan_name": "AARP Medicare Advantage Extras from UHC AR-7 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2802-079",
+          "parent_fpi": "70fde76f-d2fe-5154-9f43-87236074d1d3",
+          "f_plan_id": "47e6f2b5-30b5-4950-9541-57e0372bac4a",
+          "plan_name": "AARP Medicare Advantage from UHC AL-6 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2802-801",
           "parent_fpi": "70fde76f-d2fe-5154-9f43-87236074d1d3",
           "f_plan_id": "61a692ef-4193-44b6-a0da-f1542aebcf21",
@@ -466,44 +514,12 @@
           "parent_fpi": "70fde76f-d2fe-5154-9f43-87236074d1d3",
           "f_plan_id": "97895e42-f2da-4b15-b51b-b57ed8d2c94a",
           "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H2802-075",
-          "parent_fpi": "70fde76f-d2fe-5154-9f43-87236074d1d3",
-          "f_plan_id": "ca90f9e5-bd61-4fb4-9dfb-8891f3fa1568",
-          "plan_name": "AARP Medicare Advantage Extras from UHC IL-9 (HMO-POS)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H2802-076",
-          "parent_fpi": "70fde76f-d2fe-5154-9f43-87236074d1d3",
-          "f_plan_id": "0fcd15aa-abde-4386-991e-f6d87a27a82c",
-          "plan_name": "AARP Medicare Advantage Essentials from UHC KC-6 (HMO-POS)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H2802-077",
-          "parent_fpi": "70fde76f-d2fe-5154-9f43-87236074d1d3",
-          "f_plan_id": "da9bfb8e-2083-4752-90f6-88e161b13ed1",
-          "plan_name": "AARP Medicare Advantage Patriot No Rx KS-MA2 (HMO-POS)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H2802-078",
-          "parent_fpi": "70fde76f-d2fe-5154-9f43-87236074d1d3",
-          "f_plan_id": "a50ef35c-c6e0-4800-8081-720ea5a40268",
-          "plan_name": "AARP Medicare Advantage Extras from UHC AR-7 (HMO-POS)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H2802-079",
-          "parent_fpi": "70fde76f-d2fe-5154-9f43-87236074d1d3",
-          "f_plan_id": "47e6f2b5-30b5-4950-9541-57e0372bac4a",
-          "plan_name": "AARP Medicare Advantage from UHC AL-6 (HMO-POS)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-mpf.optum-uhc-stage.net/api/cms/plans/H2802/2027",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://flex.optum.com/fhirpublic"
+      }
     }
   ],
   "is_seeded": true

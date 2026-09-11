@@ -7,6 +7,11 @@
       "value": "02127131-1361-56b0-89db-124e66127a74",
       "is_fpi": true,
       "payerLegalName": "Molina Healthcare of Wisconsin, Inc.",
+      "payer_level_string_search_matches": [
+        "Molina Healthcare of Wisconsin, Inc.",
+        "Molina Healthcare of Wisconsin",
+        "Molina Healthcare, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "Molina Healthcare of Wisconsin, Inc."
     },
@@ -35,7 +40,10 @@
           "plan_name": "My Choice Wisconsin Medicare Dual Advantage Plan (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.molinahealthcare.com/cmsjson/378245/MCareFHIR/H5209/index.json"
+      }
     }
   ],
   "is_seeded": true

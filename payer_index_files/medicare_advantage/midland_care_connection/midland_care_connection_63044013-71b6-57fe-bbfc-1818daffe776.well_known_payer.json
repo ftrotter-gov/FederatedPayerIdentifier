@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "63044013-71b6-57fe-bbfc-1818daffe776",
+      "is_fpi": true,
+      "payerLegalName": "MIDLAND CARE CONNECTION",
+      "payer_level_string_search_matches": [
+        "MIDLAND CARE CONNECTION",
+        "Midland Care PACE",
+        "Midland Care Connection, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MIDLAND CARE CONNECTION"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5822",
+      "is_fpi": false,
+      "parent_fpi": "63044013-71b6-57fe-bbfc-1818daffe776"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5822-001",
+          "parent_fpi": "63044013-71b6-57fe-bbfc-1818daffe776",
+          "f_plan_id": "51e26b27-c4a4-4d00-ab69-255e26ac4169",
+          "plan_name": "Midland Care Connection - Dual Eligibles (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5822-002",
+          "parent_fpi": "63044013-71b6-57fe-bbfc-1818daffe776",
+          "f_plan_id": "21a97291-d612-460e-93d0-096f251196a3",
+          "plan_name": "Midland Care Connection - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

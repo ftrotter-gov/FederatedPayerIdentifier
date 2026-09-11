@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "1db2d530-f01a-5c85-9207-889b27e8df9d",
+      "is_fpi": true,
+      "payerLegalName": "FALLON HEALTH WEINBERG, INC.",
+      "payer_level_string_search_matches": [
+        "FALLON HEALTH WEINBERG, INC.",
+        "Fallon Health Weinberg",
+        "Fallon Community Health Plan, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "FALLON HEALTH WEINBERG, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6596",
+      "is_fpi": false,
+      "parent_fpi": "1db2d530-f01a-5c85-9207-889b27e8df9d"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6596-001",
+          "parent_fpi": "1db2d530-f01a-5c85-9207-889b27e8df9d",
+          "f_plan_id": "0518b509-a819-4c93-96e8-69f9bfbc9188",
+          "plan_name": "Fallon Health Weinberg-PACE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6596-002",
+          "parent_fpi": "1db2d530-f01a-5c85-9207-889b27e8df9d",
+          "f_plan_id": "118cf839-6ec6-4848-8e46-917a49e38223",
+          "plan_name": "Fallon Health Weinberg-PACE (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

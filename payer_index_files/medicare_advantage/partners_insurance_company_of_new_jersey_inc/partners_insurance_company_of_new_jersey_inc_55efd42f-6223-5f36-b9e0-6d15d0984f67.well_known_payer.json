@@ -7,6 +7,11 @@
       "value": "55efd42f-6223-5f36-b9e0-6d15d0984f67",
       "is_fpi": true,
       "payerLegalName": "PARTNERS INSURANCE COMPANY OF NEW JERSEY INC",
+      "payer_level_string_search_matches": [
+        "PARTNERS INSURANCE COMPANY OF NEW JERSEY INC",
+        "Jefferson Health Plans",
+        "Thomas Jefferson University"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "PARTNERS INSURANCE COMPANY OF NEW JERSEY INC"
     },
@@ -35,7 +40,10 @@
           "plan_name": "Jefferson Health Plans Choice (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://providerfhirapi.healthpartnersplans.com",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://medicare-advantage-plan-finder-provider-directory.jeffersonhealthplans.com/h3124/2027/index.json"
+      }
     }
   ],
   "is_seeded": true

@@ -7,6 +7,11 @@
       "value": "4864ef82-b5ea-5bf9-a413-7752bcb6fe8e",
       "is_fpi": true,
       "payerLegalName": "NEXTBLUE OF NORTH DAKOTA INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "NEXTBLUE OF NORTH DAKOTA INSURANCE COMPANY",
+        "NextBlue of North Dakota",
+        "Blue Cross Blue Shield of Michigan Mutual Ins. Co."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "NEXTBLUE OF NORTH DAKOTA INSURANCE COMPANY"
     },
@@ -26,6 +31,20 @@
           "parent_fpi": "4864ef82-b5ea-5bf9-a413-7752bcb6fe8e",
           "f_plan_id": "bf731977-5912-4752-ac22-6045329376d0",
           "plan_name": "NextBlue Freedom PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6202-004",
+          "parent_fpi": "4864ef82-b5ea-5bf9-a413-7752bcb6fe8e",
+          "f_plan_id": "961b5017-8f3b-432e-a579-6e0d2d02fdb8",
+          "plan_name": "NextBlue Discover PPO (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6202-005",
+          "parent_fpi": "4864ef82-b5ea-5bf9-a413-7752bcb6fe8e",
+          "f_plan_id": "6233be4c-53d6-447d-beeb-b56a6ad0a7ec",
+          "plan_name": "NextBlue Summit PPO (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -54,20 +73,6 @@
           "parent_fpi": "4864ef82-b5ea-5bf9-a413-7752bcb6fe8e",
           "f_plan_id": "29008c95-3bec-4981-a759-4683b9118055",
           "plan_name": "NextBlue of North Dakota Group PPO (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H6202-004",
-          "parent_fpi": "4864ef82-b5ea-5bf9-a413-7752bcb6fe8e",
-          "f_plan_id": "961b5017-8f3b-432e-a579-6e0d2d02fdb8",
-          "plan_name": "NextBlue Discover PPO (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H6202-005",
-          "parent_fpi": "4864ef82-b5ea-5bf9-a413-7752bcb6fe8e",
-          "f_plan_id": "6233be4c-53d6-447d-beeb-b56a6ad0a7ec",
-          "plan_name": "NextBlue Summit PPO (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",

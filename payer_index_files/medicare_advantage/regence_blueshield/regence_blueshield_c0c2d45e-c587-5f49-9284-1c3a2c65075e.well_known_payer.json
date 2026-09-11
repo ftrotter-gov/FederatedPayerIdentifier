@@ -7,6 +7,10 @@
       "value": "c0c2d45e-c587-5f49-9284-1c3a2c65075e",
       "is_fpi": true,
       "payerLegalName": "REGENCE BLUESHIELD",
+      "payer_level_string_search_matches": [
+        "REGENCE BLUESHIELD",
+        "Cambia Health Solutions, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "REGENCE BLUESHIELD"
     },
@@ -32,7 +36,15 @@
           "parent_fpi": "c0c2d45e-c587-5f49-9284-1c3a2c65075e",
           "f_plan_id": "e9997eb0-b4d0-41ef-8c89-1f71e86dddc0",
           "plan_name": "Regence BlueAdvantage HMO (HMO)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://providers.regence.com/api/provider-fhir-service/v1/fhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cms.healthsparq.com/mpf/v1/H1997/2027/H1997-2027-index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5009-002",
@@ -76,7 +88,10 @@
           "plan_name": "Regence MedAdvantage + Rx 03 (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://providers.regence.com/api/provider-fhir-service/v1/fhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cms.healthsparq.com/mpf/v1/H5009/2027/H5009-2027-index.json"
+      }
     }
   ],
   "is_seeded": true

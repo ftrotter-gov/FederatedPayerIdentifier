@@ -7,6 +7,11 @@
       "value": "94a40cd9-7d79-5151-aa9d-cd80d6cf2cff",
       "is_fpi": true,
       "payerLegalName": "HIGHMARK SENIOR SOLUTIONS COMPANY",
+      "payer_level_string_search_matches": [
+        "HIGHMARK SENIOR SOLUTIONS COMPANY",
+        "Highmark Blue Cross Blue Shield",
+        "Highmark Health"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HIGHMARK SENIOR SOLUTIONS COMPANY"
     },
@@ -22,13 +27,6 @@
       "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5106-034",
-          "parent_fpi": "94a40cd9-7d79-5151-aa9d-cd80d6cf2cff",
-          "f_plan_id": "5727a07d-18b2-40ae-8769-031bb622b4e7",
-          "plan_name": "Freedom Blue PPO Standard (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5106-029",
           "parent_fpi": "94a40cd9-7d79-5151-aa9d-cd80d6cf2cff",
           "f_plan_id": "35028c4c-68e7-4a19-ad64-e68c779757e1",
@@ -40,6 +38,27 @@
           "parent_fpi": "94a40cd9-7d79-5151-aa9d-cd80d6cf2cff",
           "f_plan_id": "cd7e8f4e-77fb-42b3-88f0-52a803a14c0a",
           "plan_name": "Complete Blue PPO Signature (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5106-034",
+          "parent_fpi": "94a40cd9-7d79-5151-aa9d-cd80d6cf2cff",
+          "f_plan_id": "5727a07d-18b2-40ae-8769-031bb622b4e7",
+          "plan_name": "Freedom Blue PPO Standard (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5106-035",
+          "parent_fpi": "94a40cd9-7d79-5151-aa9d-cd80d6cf2cff",
+          "f_plan_id": "39511a32-0907-41b8-9c82-bf0f39ca00d6",
+          "plan_name": "Complete Blue PPO Signature (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5106-036",
+          "parent_fpi": "94a40cd9-7d79-5151-aa9d-cd80d6cf2cff",
+          "f_plan_id": "f33ea58a-6be4-4d30-9edb-ab2c4ed17687",
+          "plan_name": "Complete Blue PPO Distinct (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -82,23 +101,12 @@
           "parent_fpi": "94a40cd9-7d79-5151-aa9d-cd80d6cf2cff",
           "f_plan_id": "12287b2c-e11b-4b37-85b9-4a5bd7c91076",
           "plan_name": "Freedom Blue PPO MAPD WV ASO CALENDAR (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5106-035",
-          "parent_fpi": "94a40cd9-7d79-5151-aa9d-cd80d6cf2cff",
-          "f_plan_id": "39511a32-0907-41b8-9c82-bf0f39ca00d6",
-          "plan_name": "Complete Blue PPO Signature (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5106-036",
-          "parent_fpi": "94a40cd9-7d79-5151-aa9d-cd80d6cf2cff",
-          "f_plan_id": "f33ea58a-6be4-4d30-9edb-ab2c4ed17687",
-          "plan_name": "Complete Blue PPO Distinct (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://apicmsqa.hmhs.com/cms/fhir/v4/providers/HMWV/Practitioner",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://mrfdata.hmhs.com/files/smilecdr/inbound/HMWV_Provider_Directory_Index.json"
+      }
     }
   ],
   "is_seeded": true

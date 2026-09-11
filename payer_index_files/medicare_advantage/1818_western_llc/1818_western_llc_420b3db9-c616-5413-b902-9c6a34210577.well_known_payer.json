@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "420b3db9-c616-5413-b902-9c6a34210577",
+      "is_fpi": true,
+      "payerLegalName": "1818 WESTERN, LLC",
+      "payer_level_string_search_matches": [
+        "1818 WESTERN, LLC",
+        "HeritAge PACE",
+        "1818 WESTERN LLC"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "1818 WESTERN, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9411",
+      "is_fpi": false,
+      "parent_fpi": "420b3db9-c616-5413-b902-9c6a34210577"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9411-001",
+          "parent_fpi": "420b3db9-c616-5413-b902-9c6a34210577",
+          "f_plan_id": "1361bccb-a831-47f3-a36e-dd32727373d7",
+          "plan_name": "HeritAge PACE Dual (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9411-004",
+          "parent_fpi": "420b3db9-c616-5413-b902-9c6a34210577",
+          "f_plan_id": "64f5db17-15f6-4d40-b809-5ec70af5a32f",
+          "plan_name": "HeritAge PACE - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

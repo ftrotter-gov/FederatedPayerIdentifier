@@ -1,0 +1,33 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "cee2fbd7-9ba5-5f9d-bc71-9a33c62e22f9",
+      "is_fpi": true,
+      "payerLegalName": "MOLINA HEALTHCARE OF IOWA, INC.",
+      "payer_level_string_search_matches": [
+        "MOLINA HEALTHCARE OF IOWA, INC."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MOLINA HEALTHCARE OF IOWA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4367",
+      "is_fpi": false,
+      "parent_fpi": "cee2fbd7-9ba5-5f9d-bc71-9a33c62e22f9"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.molinahealthcare.com/cmsjson/378245/MCareFHIR/H4367/index.json"
+      }
+    }
+  ],
+  "is_seeded": true
+}

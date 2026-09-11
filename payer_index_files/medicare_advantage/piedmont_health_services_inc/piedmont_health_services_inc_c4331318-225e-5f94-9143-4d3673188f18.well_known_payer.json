@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "c4331318-225e-5f94-9143-4d3673188f18",
+      "is_fpi": true,
+      "payerLegalName": "PIEDMONT HEALTH SERVICES, INC.",
+      "payer_level_string_search_matches": [
+        "PIEDMONT HEALTH SERVICES, INC.",
+        "Piedmont Health SeniorCare"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PIEDMONT HEALTH SERVICES, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9266",
+      "is_fpi": false,
+      "parent_fpi": "c4331318-225e-5f94-9143-4d3673188f18"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9266-001",
+          "parent_fpi": "c4331318-225e-5f94-9143-4d3673188f18",
+          "f_plan_id": "20cdb024-c3b5-4dfb-9148-1c0ab641234f",
+          "plan_name": "Piedmont Health SeniorCare - Dual (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9266-003",
+          "parent_fpi": "c4331318-225e-5f94-9143-4d3673188f18",
+          "f_plan_id": "c6207997-1433-42a9-a68f-d5d7672397d5",
+          "plan_name": "Piedmont Health SeniorCare - Medicare-only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

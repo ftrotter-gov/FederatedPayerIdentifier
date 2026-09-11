@@ -7,6 +7,11 @@
       "value": "daad03cc-f8c6-52d4-8b26-456170a58607",
       "is_fpi": true,
       "payerLegalName": "CONTRA COSTA COUNTY MEDICAL SERVICE DBA CONTRA COSTA HEALTH PLAN",
+      "payer_level_string_search_matches": [
+        "CONTRA COSTA COUNTY MEDICAL SERVICE DBA CONTRA COSTA HEALTH PLAN",
+        "Contra Costa Health Care Plus (HMO D-SNP)",
+        "Contra Costa Health Services"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "CONTRA COSTA COUNTY MEDICAL SERVICE DBA CONTRA COSTA HEALTH PLAN"
     },
@@ -29,7 +34,8 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://ihyml0v6d9.execute-api.us-east-1.amazonaws.com/hxprod/metadata"
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://ihyml0v6d9.execute-api.us-east-1.amazonaws.com/hxprod/metadata",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cdn.mpulse.com/fhir/H5119/2027/index.json"
       }
     }
   ],

@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "fdabe56c-215d-5589-92f4-815845f6446e",
+      "is_fpi": true,
+      "payerLegalName": "Center for Gerontology",
+      "payer_level_string_search_matches": [
+        "Center for Gerontology",
+        "Ascension Living PACE Michigan",
+        "Ascension Health Alliance"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "Center for Gerontology"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8769",
+      "is_fpi": false,
+      "parent_fpi": "fdabe56c-215d-5589-92f4-815845f6446e"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8769-001",
+          "parent_fpi": "fdabe56c-215d-5589-92f4-815845f6446e",
+          "f_plan_id": "66c0b6af-4ed9-4815-93fa-d77ee6c6652b",
+          "plan_name": "Ascension Living PACE Michigan (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8769-002",
+          "parent_fpi": "fdabe56c-215d-5589-92f4-815845f6446e",
+          "f_plan_id": "77272f5b-24a5-46c4-adb9-b8fe5a5a3ce9",
+          "plan_name": "Ascension Living PACE Michigan (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

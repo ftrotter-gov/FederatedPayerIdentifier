@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "c673b91b-f67b-59fc-8651-10eccdca3d8e",
+      "is_fpi": true,
+      "payerLegalName": "BOLDAGE PACE KENTUCKY, LLC",
+      "payer_level_string_search_matches": [
+        "BOLDAGE PACE KENTUCKY, LLC",
+        "BoldAge PACE",
+        "BoldAge PACE, LLC"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BOLDAGE PACE KENTUCKY, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6868",
+      "is_fpi": false,
+      "parent_fpi": "c673b91b-f67b-59fc-8651-10eccdca3d8e"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6868-001",
+          "parent_fpi": "c673b91b-f67b-59fc-8651-10eccdca3d8e",
+          "f_plan_id": "46c5fcf0-9f8b-4b98-89da-f6f72e17614f",
+          "plan_name": "BoldAge PACE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6868-002",
+          "parent_fpi": "c673b91b-f67b-59fc-8651-10eccdca3d8e",
+          "f_plan_id": "438c6a27-9159-4834-91b8-d2ce41b77021",
+          "plan_name": "BoldAge PACE - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

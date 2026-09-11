@@ -1,0 +1,789 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+      "is_fpi": true,
+      "payerLegalName": "Humana Insurance Co. & Humana Insurance Co. of NY",
+      "payer_level_string_search_matches": [
+        "Humana Insurance Co. & Humana Insurance Co. of NY",
+        "Humana",
+        "Humana Inc.",
+        "Medicare's Limited Income NET Program"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "Humana Insurance Co. & Humana Insurance Co. of NY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S5884",
+      "is_fpi": false,
+      "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "X0001",
+      "is_fpi": false,
+      "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-101",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "1dfd1530-c289-4283-b2b2-ef78cc5842f5",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-102",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "1cd09da3-e16f-4dda-a504-220b6ca2184a",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-103",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "a0b87399-af5a-4c6c-8732-43755e73f31c",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-104",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "d7905d78-e79f-4034-9a91-edbdfe8797c5",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-105",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "1d84bc9c-6aae-4cc4-8807-0f8864334d35",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-106",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "a9425fc0-343c-4e1a-bb61-d92ea6e42e99",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-107",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "18593fe6-6e04-4933-8f61-c69b535eef81",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-108",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "599e53eb-14e6-45cb-841e-c8ede1447f86",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-109",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "58aa7a41-acae-4592-bf60-b091ea58f6ef",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-110",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "4297c967-f6dc-4b71-8e14-820baa436e44",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-111",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "be830681-d926-4bc6-a6fc-52a0b299051e",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-112",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "28309f80-6e91-4666-9e6f-b79830eb41e4",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-113",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "1392c5f4-b19f-43c9-9350-846b4cec5001",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-114",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "35de084a-6f3a-4258-82a4-ea57f2192591",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-115",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "3e34ee99-19cb-42c3-989b-bbb23ffd7ae7",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-116",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "5454629d-496d-40b5-9f1f-6d162586a5bf",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-131",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "029a1c45-a1e4-4c13-a694-820259c0e6f4",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-132",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "fc573eff-e167-4a3f-9518-272fe99061ea",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-133",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "3afa054d-480d-448f-a815-326c38511e3a",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-134",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "7a1c3df1-6898-4198-a928-0b86b9d42d57",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-135",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "fae19568-5c42-4afa-937f-e7a9bcba101d",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-136",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "1f4a32c6-a314-491d-a570-869fcb013ab2",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-137",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "81bb0714-efce-458c-a7dd-f97cd09bbad2",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-138",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "c454641d-81f8-40bb-bef1-84cda1c2690e",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-139",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "d9583d2c-04c2-4b71-b7cb-8ed202bcbf95",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-140",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "bf2db8ff-bc09-4457-a670-27e5a805f767",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-141",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "ff4c9d45-1c47-4a1c-a564-84e923c53894",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-142",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "441967f8-6ca6-4ccf-a2bb-d5ddf3d74562",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-143",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "578a5247-248d-4d0c-a415-2873cf21e0a6",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-144",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "a557cbca-a12e-45d6-8738-249a3137fecc",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-145",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "3b02fa99-94df-44b8-8238-16abc6ee2636",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-146",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "b1c72403-d595-47dc-9ba5-43e6d2eadedc",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-147",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "7049f344-6990-4ee4-8da5-571656df4415",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-148",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "8eef0f75-6b4c-4fd5-b74a-6e0bc12619f0",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-149",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "c02929c2-6692-4bc6-8dd0-dd04d2cfc60f",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-150",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "737adc94-6cfe-401c-8c08-b1fafbab82db",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-151",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "1dc81108-78a8-4efa-b502-c02c07156b32",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-152",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "cf75240b-452d-4ced-a39f-c56854d7ea85",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-153",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "a651bee2-0787-47e9-b16e-dd653e87ab18",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-154",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "f9eea414-6351-4052-9509-45ce86a536a6",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-155",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "81095cef-52de-4d18-a83b-401a3443c2a8",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-156",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "e55fa2fc-685c-4a73-b3df-cad1df67c730",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-157",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "397fc630-979d-4e27-8853-e4bb1e067544",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-158",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "2d1a351b-e5d1-45e2-8e21-983346ea7ab2",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-159",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "4da8308e-67dc-4862-bf49-6e4b660f56c7",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-160",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "e883050d-6696-4d08-b3e9-390410ad4bfe",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-161",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "e46946ca-f2f0-4404-ab8c-120c505014b3",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-162",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "a9076e31-fa5f-4307-adba-9006a5e1922d",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-163",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "210006ab-5789-4503-b390-17d542e18257",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-164",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "27d8dd25-03e0-4dd5-b780-69fe56beb2f2",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-165",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "b065584e-3188-426f-9560-bb708cdd284a",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-166",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "24291617-cd6f-4d21-95ba-9ae541211493",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-167",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "fe905a9c-6ea3-411d-bc55-a7f48071cd2a",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-168",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "e0eb4bc0-3d95-437b-b39d-7d3b264e7abc",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-169",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "28caaefb-2851-40c9-a674-0d8d3fd70262",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-170",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "d32132d4-bdda-43a2-86bf-e19faa600c2c",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-171",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "003ab436-01b9-4289-bd80-b5c21c3cbe27",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-172",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "07cb7014-2b89-478d-a37b-c5433e7be499",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-173",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "1c21d11e-cfac-4302-86e2-3aad5c9c38d8",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-174",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "4c143466-fc80-4011-a369-f4741e773146",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-175",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "babef497-a022-4c96-92b7-5266c2905826",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-176",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "d0f906cb-a6c2-4df2-8f7a-630df90a330d",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-177",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "a5e2cb53-5caf-486b-8143-f1885aef5e52",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-178",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "eef7ba8f-520a-48d9-b847-90f17ae8e327",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-179",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "8e4412fd-17f6-41cd-9df7-078b5e667a2d",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-180",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "7b0e93bf-9c77-4346-ba9e-3241bc403bb5",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-181",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "b66dc82f-f76c-423c-bb7b-ce432814946f",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-182",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "f9fea8af-6361-4e6d-bc7a-f5d7274c0431",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-183",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "2bf3cc42-f11a-4cac-8e32-580c5563afc5",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-184",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "fc3b8c2a-9f9b-4220-a6ef-2cd190695240",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-185",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "95ef1295-23fd-456a-ac34-9c874e5b17bf",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-186",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "603aa430-8f6d-4306-b420-115b7faf9477",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-187",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "6a141b95-fb2d-4282-aa0b-a46883fe5d56",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-188",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "ca34fd61-4f6a-4049-9871-b3ca7d0cbd12",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-189",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "8527fc2e-907c-4ceb-9498-7e8460030d4b",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-190",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "071da0dc-67cc-416c-8562-3e728838c2ec",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-191",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "3caa92d5-4749-43f1-8a4d-04b84e4cdf5d",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-192",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "77b71de7-f8ef-41b2-be8a-050c1f0cc90d",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-193",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "c6f6ff53-077b-49e6-a0bc-c0a50272bc52",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-194",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "7b2f398a-1407-4099-b9f6-aba6e9b84e0e",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-195",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "d52726c3-d14d-4d0a-af43-f6c231355fc0",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-196",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "eeabe7ec-bfd7-42f1-8fe1-1b413ef76511",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-197",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "19226257-8803-4f96-92bf-cbdf644e7e27",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-198",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "792b7ad9-f2b8-40af-9001-acf1325dc400",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-199",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "5cef9865-f407-4af9-a4f4-fd72a71312c2",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-200",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "38784119-75cb-49b6-9e99-7224fe331f84",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-201",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "0728dc33-a604-49b3-a5a4-fa1f30db2e0a",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-202",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "94e2c4b9-97ee-443c-8103-9e5427283f1f",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-203",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "4f494913-f213-44df-9733-a3696fa62972",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-204",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "fdc01532-3050-4b2d-8ef0-2298a05cc793",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-205",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "c64054df-520a-40d5-846c-341deb366983",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-206",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "27a4becf-3fa4-402d-9c7c-508afee1829e",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-207",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "c5dd7599-6ae7-4ec3-b137-b78465d6c5ab",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-208",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "52692e9f-1917-4fd6-877e-9875ae0a8f14",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-209",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "5aa24a25-e5ec-4608-bbe3-f0d366d9e02f",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-210",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "af6a46d6-6e65-495d-bf39-ea28ddc31d08",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-211",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "e05c6be6-9598-4e65-8365-d6ed7f406e98",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-212",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "a0413f05-c152-4273-92c1-483a43da7ec2",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-213",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "bc02e801-3a3a-412f-b940-0c4102696179",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-216",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "a8f0c03e-5373-4ec9-8d92-8c5b9be9bb33",
+          "plan_name": "Humana Basic Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-217",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "c0712c26-0f4a-4f78-9e0e-b6ef552ea8b8",
+          "plan_name": "Humana Premier Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-218",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "2f575def-0cca-4205-bfd7-f87eba28bd9f",
+          "plan_name": "Humana Value Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-834",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "7b977a88-03e1-42ae-bd54-397a19ce11e9",
+          "plan_name": "Humana Medicare Employer (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-837",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "fb8f21cd-faee-4991-adc8-7c32d9e85849",
+          "plan_name": "Humana Medicare Employer (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5884-838",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "ed3edfab-80d9-4efe-a558-bcf0aeaf0a74",
+          "plan_name": "Humana Medicare Employer (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "X0001-015",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "504e5db3-7475-47f5-943f-ceed34b99450",
+          "plan_name": "Limited Income NET Program (Point-of-Sale CTR)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "X0001-016",
+          "parent_fpi": "2e3bb0d7-5ae6-56fd-84b4-10db172d1d6c",
+          "f_plan_id": "adb7f725-a909-4862-b174-43b2770a4098",
+          "plan_name": "Limited Income NET Program (Point-of-Sale CTR)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

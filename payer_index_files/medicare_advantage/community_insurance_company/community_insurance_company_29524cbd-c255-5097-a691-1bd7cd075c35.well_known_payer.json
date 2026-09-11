@@ -7,6 +7,11 @@
       "value": "29524cbd-c255-5097-a691-1bd7cd075c35",
       "is_fpi": true,
       "payerLegalName": "COMMUNITY INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "COMMUNITY INSURANCE COMPANY",
+        "Anthem Blue Cross and Blue Shield",
+        "Elevance Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "COMMUNITY INSURANCE COMPANY"
     },
@@ -59,7 +64,15 @@
           "parent_fpi": "29524cbd-c255-5097-a691-1bd7cd075c35",
           "f_plan_id": "30fbf5e1-dcb5-4637-a5cc-259c84892e6a",
           "plan_name": "Anthem Dual Advantage (HMO D-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://totalview.healthos.anthem.com/cms/H2628/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3655-041",
@@ -115,7 +128,15 @@
           "parent_fpi": "29524cbd-c255-5097-a691-1bd7cd075c35",
           "f_plan_id": "55c45176-195a-49f6-8505-e1751ea68e83",
           "plan_name": "Anthem Senior Advantage (HMO)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://totalview.healthos.anthem.com/cms/H3655/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7093-001",
@@ -131,7 +152,10 @@
           "plan_name": "Anthem Medicare Advantage (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://totalview.healthos.anthem.com/cms/H7093/index.json"
+      }
     }
   ],
   "is_seeded": true

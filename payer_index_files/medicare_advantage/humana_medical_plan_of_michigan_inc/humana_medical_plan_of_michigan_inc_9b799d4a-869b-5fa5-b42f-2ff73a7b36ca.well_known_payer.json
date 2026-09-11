@@ -7,6 +7,11 @@
       "value": "9b799d4a-869b-5fa5-b42f-2ff73a7b36ca",
       "is_fpi": true,
       "payerLegalName": "HUMANA MEDICAL PLAN OF MICHIGAN, INC.",
+      "payer_level_string_search_matches": [
+        "HUMANA MEDICAL PLAN OF MICHIGAN, INC.",
+        "Humana",
+        "Humana Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HUMANA MEDICAL PLAN OF MICHIGAN, INC."
     },
@@ -98,7 +103,7 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.humana.com/api"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.humana.com/api"
       }
     }
   ],

@@ -7,12 +7,21 @@
       "value": "802add3a-5485-5113-8382-9f99ed799975",
       "is_fpi": true,
       "payerLegalName": "ATRIO HEALTH PLANS",
+      "payer_level_string_search_matches": [
+        "ATRIO HEALTH PLANS"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ATRIO HEALTH PLANS"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
       "value": "H3814",
+      "is_fpi": false,
+      "parent_fpi": "802add3a-5485-5113-8382-9f99ed799975"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5995",
       "is_fpi": false,
       "parent_fpi": "802add3a-5485-5113-8382-9f99ed799975"
     },
@@ -34,6 +43,18 @@
       "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5995-004",
+          "parent_fpi": "802add3a-5485-5113-8382-9f99ed799975",
+          "f_plan_id": "52e2eb29-c9a0-461a-a191-aa571c5ac1fb",
+          "plan_name": "ATRIO Prime Rx (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3814-007",
           "parent_fpi": "802add3a-5485-5113-8382-9f99ed799975",
           "f_plan_id": "db7be66a-a1f5-4fb5-90e2-555214366378",
@@ -45,7 +66,15 @@
           "parent_fpi": "802add3a-5485-5113-8382-9f99ed799975",
           "f_plan_id": "6bf2c8fc-39ec-4a4a-b708-b90f4bad9ecf",
           "plan_name": "ATRIO Special Needs Plan (HMO D-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://animas-static.azureedge.net/mpf/ATRIO/2026/H3814/index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://client-api.providerlenz.com/api/publicAPI/LoadFHIRDirectoryProviders/ATRIO"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6743-001",
@@ -136,7 +165,15 @@
           "parent_fpi": "802add3a-5485-5113-8382-9f99ed799975",
           "f_plan_id": "6104c364-6e93-4733-b585-46fcaa2d89a1",
           "plan_name": "Employer Group Plan (PPO)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://animas-static.azureedge.net/mpf/ATRIO/2026/H6743/index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://client-api.providerlenz.com/api/publicAPI/LoadFHIRDirectoryProviders/ATRIO"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7006-007",
@@ -166,7 +203,10 @@
           "plan_name": "ATRIO Support Rx (PPO C-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://animas-static.azureedge.net/mpf/ATRIO/2026/H7006/index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://client-api.providerlenz.com/api/publicAPI/LoadFHIRDirectoryProviders/ATRIO"
+      }
     }
   ],
   "is_seeded": true

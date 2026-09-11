@@ -7,6 +7,11 @@
       "value": "3f2c6711-c405-5110-84e6-b322cdbe97a0",
       "is_fpi": true,
       "payerLegalName": "AETNA BETTER HEALTH, INC. (LA)",
+      "payer_level_string_search_matches": [
+        "AETNA BETTER HEALTH, INC. (LA)",
+        "Aetna Medicare",
+        "CVS Health Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AETNA BETTER HEALTH, INC. (LA)"
     },
@@ -134,7 +139,7 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.aetna.com/interoperability/2027/H3239/index.json"
       }
     }
   ],

@@ -1,0 +1,40 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "14388739-9d4c-592d-b5bd-1dc795bf6a30",
+      "is_fpi": true,
+      "payerLegalName": "KAISER FOUNDATION HEALTH PLAN OF WASHINGTON OPTIONS INC",
+      "payer_level_string_search_matches": [
+        "KAISER FOUNDATION HEALTH PLAN OF WASHINGTON OPTIONS INC",
+        "Kaiser Permanente",
+        "Kaiser Foundation Health Plan, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "KAISER FOUNDATION HEALTH PLAN OF WASHINGTON OPTIONS INC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S4983",
+      "is_fpi": false,
+      "parent_fpi": "14388739-9d4c-592d-b5bd-1dc795bf6a30"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4983-801",
+          "parent_fpi": "14388739-9d4c-592d-b5bd-1dc795bf6a30",
+          "f_plan_id": "d5481c87-41b5-432c-b796-c528bbea70b0",
+          "plan_name": "Kaiser Permanente Medicare Part D Group Plan (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

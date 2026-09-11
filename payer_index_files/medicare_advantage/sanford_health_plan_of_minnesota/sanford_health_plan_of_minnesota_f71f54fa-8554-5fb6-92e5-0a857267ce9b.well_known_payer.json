@@ -7,6 +7,11 @@
       "value": "f71f54fa-8554-5fb6-92e5-0a857267ce9b",
       "is_fpi": true,
       "payerLegalName": "SANFORD HEALTH PLAN OF MINNESOTA",
+      "payer_level_string_search_matches": [
+        "SANFORD HEALTH PLAN OF MINNESOTA",
+        "Align powered by Sanford Health Plan",
+        "Sanford Health"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SANFORD HEALTH PLAN OF MINNESOTA"
     },
@@ -35,7 +40,10 @@
           "plan_name": "Align ChoicePlus (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://shp-web-public.s3.amazonaws.com/PRD/medicare/h3186/mpf-data-index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.greatplainsmedicareadvantage.com/hspd/r4/"
+      }
     }
   ],
   "is_seeded": true

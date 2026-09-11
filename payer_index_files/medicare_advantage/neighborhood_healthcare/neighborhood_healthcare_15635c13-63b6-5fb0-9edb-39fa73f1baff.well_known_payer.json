@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "15635c13-63b6-5fb0-9edb-39fa73f1baff",
+      "is_fpi": true,
+      "payerLegalName": "NEIGHBORHOOD HEALTHCARE",
+      "payer_level_string_search_matches": [
+        "NEIGHBORHOOD HEALTHCARE",
+        "Neighborhood Healthcare PACE"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "NEIGHBORHOOD HEALTHCARE"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4185",
+      "is_fpi": false,
+      "parent_fpi": "15635c13-63b6-5fb0-9edb-39fa73f1baff"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4185-001",
+          "parent_fpi": "15635c13-63b6-5fb0-9edb-39fa73f1baff",
+          "f_plan_id": "54ef4b23-c6d4-4bf2-8c56-136da268eb1e",
+          "plan_name": "Neighborhood Healthcare PACE Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4185-002",
+          "parent_fpi": "15635c13-63b6-5fb0-9edb-39fa73f1baff",
+          "f_plan_id": "d4de188e-e792-4e49-bfcb-95c97ac8d63d",
+          "plan_name": "Neighborhood Healthcare PACE Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

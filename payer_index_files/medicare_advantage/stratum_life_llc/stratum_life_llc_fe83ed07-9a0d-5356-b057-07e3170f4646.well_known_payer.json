@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "fe83ed07-9a0d-5356-b057-07e3170f4646",
+      "is_fpi": true,
+      "payerLegalName": "STRATUM LIFE, LLC",
+      "payer_level_string_search_matches": [
+        "STRATUM LIFE, LLC",
+        "Stratum LIFE",
+        "Empath Health, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "STRATUM LIFE, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7059",
+      "is_fpi": false,
+      "parent_fpi": "fe83ed07-9a0d-5356-b057-07e3170f4646"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7059-001",
+          "parent_fpi": "fe83ed07-9a0d-5356-b057-07e3170f4646",
+          "f_plan_id": "60c6ec61-1f72-430c-81bb-0a0270b228db",
+          "plan_name": "Stratum LIFE, LLC (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7059-002",
+          "parent_fpi": "fe83ed07-9a0d-5356-b057-07e3170f4646",
+          "f_plan_id": "2ef4cd03-0c31-4a11-a968-8cc6a12d2980",
+          "plan_name": "Stratum LIFE, LLC (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

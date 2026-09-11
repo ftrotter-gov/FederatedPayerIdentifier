@@ -7,6 +7,11 @@
       "value": "732dac1f-75ef-554e-97c6-0e83f241e6e6",
       "is_fpi": true,
       "payerLegalName": "MERIDIAN HEALTH PLAN OF ILLINOIS, INC.",
+      "payer_level_string_search_matches": [
+        "MERIDIAN HEALTH PLAN OF ILLINOIS, INC.",
+        "Wellcare",
+        "Centene Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "MERIDIAN HEALTH PLAN OF ILLINOIS, INC."
     },
@@ -60,7 +65,15 @@
           "parent_fpi": "732dac1f-75ef-554e-97c6-0e83f241e6e6",
           "f_plan_id": "2a41c1dc-5372-4998-9f62-271ad877479f",
           "plan_name": "Wellcare Patriot Giveback (HMO)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H5779index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6971-001",
@@ -69,7 +82,10 @@
           "plan_name": "Wellcare Meridian Dual Align (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H6971index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
     }
   ],
   "is_seeded": true

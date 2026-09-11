@@ -7,6 +7,11 @@
       "value": "9f540191-73cf-55bf-ba18-fef64558e4e9",
       "is_fpi": true,
       "payerLegalName": "AmeriHealth Caritas VIP Next, Inc.",
+      "payer_level_string_search_matches": [
+        "AmeriHealth Caritas VIP Next, Inc.",
+        "AmeriHealth Caritas VIP Care (HMO-D-SNP)",
+        "Independence Health Group, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AmeriHealth Caritas VIP Next, Inc."
     },
@@ -35,7 +40,10 @@
           "plan_name": "AmeriHealth Caritas VIP Care Choice (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms.healthsparq.com/mpf/v1/H0738/2027/H0738-2027-index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api-ext.amerihealthcaritas.com/DEDS/provider-api/swagger-ui/"
+      }
     }
   ],
   "is_seeded": true

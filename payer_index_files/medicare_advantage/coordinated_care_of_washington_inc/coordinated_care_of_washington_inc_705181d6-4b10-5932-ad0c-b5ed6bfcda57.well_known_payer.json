@@ -7,6 +7,11 @@
       "value": "705181d6-4b10-5932-ad0c-b5ed6bfcda57",
       "is_fpi": true,
       "payerLegalName": "COORDINATED CARE OF WASHINGTON, INC.",
+      "payer_level_string_search_matches": [
+        "COORDINATED CARE OF WASHINGTON, INC.",
+        "Wellcare",
+        "Centene Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "COORDINATED CARE OF WASHINGTON, INC."
     },
@@ -56,7 +61,10 @@
           "plan_name": "Wellcare Simple (HMO-POS)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H0029index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
     }
   ],
   "is_seeded": true

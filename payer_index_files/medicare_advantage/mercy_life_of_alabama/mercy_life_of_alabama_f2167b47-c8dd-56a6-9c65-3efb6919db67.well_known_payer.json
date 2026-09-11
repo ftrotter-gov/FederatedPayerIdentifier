@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "f2167b47-c8dd-56a6-9c65-3efb6919db67",
+      "is_fpi": true,
+      "payerLegalName": "MERCY LIFE OF ALABAMA",
+      "payer_level_string_search_matches": [
+        "MERCY LIFE OF ALABAMA",
+        "Trinity Health Corporation"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MERCY LIFE OF ALABAMA"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4074",
+      "is_fpi": false,
+      "parent_fpi": "f2167b47-c8dd-56a6-9c65-3efb6919db67"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4074-001",
+          "parent_fpi": "f2167b47-c8dd-56a6-9c65-3efb6919db67",
+          "f_plan_id": "04ffcb9b-22eb-4548-9e5a-e8e570db8bf6",
+          "plan_name": "Mercy LIFE of Alabama (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4074-002",
+          "parent_fpi": "f2167b47-c8dd-56a6-9c65-3efb6919db67",
+          "f_plan_id": "c33df101-14d6-4d7c-929e-a8abd8c9673d",
+          "plan_name": "Mercy LIFE of Alabama (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

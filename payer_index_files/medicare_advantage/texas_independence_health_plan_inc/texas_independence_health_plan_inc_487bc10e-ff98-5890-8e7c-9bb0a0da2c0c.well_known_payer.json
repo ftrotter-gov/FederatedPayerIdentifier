@@ -7,6 +7,11 @@
       "value": "487bc10e-ff98-5890-8e7c-9bb0a0da2c0c",
       "is_fpi": true,
       "payerLegalName": "TEXAS INDEPENDENCE HEALTH PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "TEXAS INDEPENDENCE HEALTH PLAN, INC.",
+        "Texas Independence Health Plan",
+        "Regency ISNP Holdings LLC"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "TEXAS INDEPENDENCE HEALTH PLAN, INC."
     },
@@ -36,7 +41,8 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://api-tihp-prd.safhir.io/v1/api/provider-directory/metadata"
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api-tihp-prd.safhir.io/v1/api/provider-directory",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://api-tihp-prd.safhir.io/v1/api/provider-directory/cms-hpms-manifest/H5015-001-001"
       }
     }
   ],

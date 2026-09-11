@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "b5e0ce09-f479-544f-b880-a1612bcbc462",
+      "is_fpi": true,
+      "payerLegalName": "WELLQUEST RIVER VALLEY, LLC",
+      "payer_level_string_search_matches": [
+        "WELLQUEST RIVER VALLEY, LLC",
+        "WellQuest River Valley"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WELLQUEST RIVER VALLEY, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0725",
+      "is_fpi": false,
+      "parent_fpi": "b5e0ce09-f479-544f-b880-a1612bcbc462"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0725-001",
+          "parent_fpi": "b5e0ce09-f479-544f-b880-a1612bcbc462",
+          "f_plan_id": "3411bf75-7309-4105-a705-77bae613ad9e",
+          "plan_name": "WellQuest PACE - River Valley Dual (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0725-002",
+          "parent_fpi": "b5e0ce09-f479-544f-b880-a1612bcbc462",
+          "f_plan_id": "33033167-42ea-4057-96df-9f0268abad9e",
+          "plan_name": "WellQuest PACE - River Valley Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

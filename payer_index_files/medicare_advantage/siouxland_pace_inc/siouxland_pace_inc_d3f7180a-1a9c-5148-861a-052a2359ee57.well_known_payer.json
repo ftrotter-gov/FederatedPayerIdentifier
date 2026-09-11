@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "d3f7180a-1a9c-5148-861a-052a2359ee57",
+      "is_fpi": true,
+      "payerLegalName": "SIOUXLAND PACE, INC.",
+      "payer_level_string_search_matches": [
+        "SIOUXLAND PACE, INC.",
+        "UnityPoint Health PACE Senior Care",
+        "Iowa Health System"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SIOUXLAND PACE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8424",
+      "is_fpi": false,
+      "parent_fpi": "d3f7180a-1a9c-5148-861a-052a2359ee57"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8424-001",
+          "parent_fpi": "d3f7180a-1a9c-5148-861a-052a2359ee57",
+          "f_plan_id": "8c93cab5-3f9f-47d9-bcc0-54c6d737d9da",
+          "plan_name": "Siouxland PACE, INC (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8424-002",
+          "parent_fpi": "d3f7180a-1a9c-5148-861a-052a2359ee57",
+          "f_plan_id": "6c200639-a82e-4d00-8866-9026f4cd1a84",
+          "plan_name": "Siouxland PACE, INC (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

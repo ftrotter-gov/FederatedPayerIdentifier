@@ -7,6 +7,11 @@
       "value": "84852ef7-4f58-5825-ba93-6e81df167e8c",
       "is_fpi": true,
       "payerLegalName": "VISTA HEALTH PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "VISTA HEALTH PLAN, INC.",
+        "VISTA Health Plan Inc.",
+        "Independence Health Group, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "VISTA HEALTH PLAN, INC."
     },
@@ -35,7 +40,10 @@
           "plan_name": "AmeriHealth Caritas VIP Care (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms.healthsparq.com/mpf/v1/H4227/2027/H4227-2027-index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api-ext.amerihealthcaritas.com/PA01/provider-api/swagger-ui/"
+      }
     }
   ],
   "is_seeded": true

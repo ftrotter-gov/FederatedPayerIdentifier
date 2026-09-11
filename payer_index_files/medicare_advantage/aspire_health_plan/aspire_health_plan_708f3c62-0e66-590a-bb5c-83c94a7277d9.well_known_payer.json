@@ -7,6 +7,11 @@
       "value": "708f3c62-0e66-590a-bb5c-83c94a7277d9",
       "is_fpi": true,
       "payerLegalName": "ASPIRE HEALTH PLAN",
+      "payer_level_string_search_matches": [
+        "ASPIRE HEALTH PLAN",
+        "Aspire Health",
+        "Montage Health"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ASPIRE HEALTH PLAN"
     },
@@ -56,7 +61,10 @@
           "plan_name": "Aspire Health Group Plus (HMO-POS)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.phtech.com/ahp/provider/v1/fhir/swagger-ui/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://aspire-medicare-plan-finder-prod.s3.us-west-2.amazonaws.com/index.html"
+      }
     }
   ],
   "is_seeded": true

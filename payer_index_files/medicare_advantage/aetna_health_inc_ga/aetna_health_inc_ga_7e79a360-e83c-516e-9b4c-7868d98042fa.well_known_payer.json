@@ -7,6 +7,11 @@
       "value": "7e79a360-e83c-516e-9b4c-7868d98042fa",
       "is_fpi": true,
       "payerLegalName": "AETNA HEALTH INC. (GA)",
+      "payer_level_string_search_matches": [
+        "AETNA HEALTH INC. (GA)",
+        "Aetna Medicare",
+        "CVS Health Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AETNA HEALTH INC. (GA)"
     },
@@ -46,7 +51,14 @@
           "parent_fpi": "7e79a360-e83c-516e-9b4c-7868d98042fa",
           "f_plan_id": "f7a1d629-c86b-405d-96a8-f91e63c00de1",
           "plan_name": "Aetna Medicare Plan w/Rx (HMO)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.aetna.com/interoperability/2027/H1109/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5302-012",
@@ -77,13 +89,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5302-809",
-          "parent_fpi": "7e79a360-e83c-516e-9b4c-7868d98042fa",
-          "f_plan_id": "d674ac6f-8922-4cdf-9b15-2f63bd9cd783",
-          "plan_name": "Aetna Medicare Plan (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5302-024",
           "parent_fpi": "7e79a360-e83c-516e-9b4c-7868d98042fa",
           "f_plan_id": "3a002019-7c90-46f0-838b-042199cf8df9",
@@ -95,10 +100,17 @@
           "parent_fpi": "7e79a360-e83c-516e-9b4c-7868d98042fa",
           "f_plan_id": "44c9c9bc-8ee2-4007-a389-ed3ef0c7674b",
           "plan_name": "Aetna Medicare Chronic Care (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5302-809",
+          "parent_fpi": "7e79a360-e83c-516e-9b4c-7868d98042fa",
+          "f_plan_id": "d674ac6f-8922-4cdf-9b15-2f63bd9cd783",
+          "plan_name": "Aetna Medicare Plan (HMO)"
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.aetna.com/interoperability/2027/H5302/index.json"
       }
     }
   ],

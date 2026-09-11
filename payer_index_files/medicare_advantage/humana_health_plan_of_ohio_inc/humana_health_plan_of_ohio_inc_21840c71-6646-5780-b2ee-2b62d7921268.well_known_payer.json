@@ -7,6 +7,11 @@
       "value": "21840c71-6646-5780-b2ee-2b62d7921268",
       "is_fpi": true,
       "payerLegalName": "HUMANA HEALTH PLAN OF OHIO, INC.",
+      "payer_level_string_search_matches": [
+        "HUMANA HEALTH PLAN OF OHIO, INC.",
+        "Humana",
+        "Humana Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HUMANA HEALTH PLAN OF OHIO, INC."
     },
@@ -43,7 +48,7 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.humana.com/api"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.humana.com/api"
       }
     }
   ],

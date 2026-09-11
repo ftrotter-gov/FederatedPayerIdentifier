@@ -7,6 +7,11 @@
       "value": "c46a23e9-2b83-5cdf-8e8e-dd92926ea321",
       "is_fpi": true,
       "payerLegalName": "LONGEVITY HEALTH PLAN OF NEW JERSEY INSURANCE COMP",
+      "payer_level_string_search_matches": [
+        "LONGEVITY HEALTH PLAN OF NEW JERSEY INSURANCE COMP",
+        "Longevity Health Plan",
+        "Longevity Health Founders, LLC"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "LONGEVITY HEALTH PLAN OF NEW JERSEY INSURANCE COMP"
     },
@@ -35,7 +40,10 @@
           "plan_name": "Longevity Health Plan (PPO I-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://nj26dir.longevityhealthplan.com",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://nj26fhir.longevityhealthplan.com"
+      }
     }
   ],
   "is_seeded": true

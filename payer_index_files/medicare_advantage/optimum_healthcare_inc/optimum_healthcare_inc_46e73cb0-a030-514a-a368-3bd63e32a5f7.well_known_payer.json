@@ -7,6 +7,10 @@
       "value": "46e73cb0-a030-514a-a368-3bd63e32a5f7",
       "is_fpi": true,
       "payerLegalName": "OPTIMUM HEALTHCARE, INC.",
+      "payer_level_string_search_matches": [
+        "OPTIMUM HEALTHCARE, INC.",
+        "Elevance Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "OPTIMUM HEALTHCARE, INC."
     },
@@ -127,7 +131,8 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://stgwusconnectstgsa002.blob.core.windows.net/optimum-provider-directory-2026/index.json"
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.aaneelconnect.com/cms/r4/optimum-provider-directory-2027",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://stgwus2connectprdsa001.blob.core.windows.net/optimum-providerdirectory-2027/index.json"
       }
     }
   ],

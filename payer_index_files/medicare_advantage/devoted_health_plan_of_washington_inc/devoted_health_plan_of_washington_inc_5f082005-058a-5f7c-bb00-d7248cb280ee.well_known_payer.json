@@ -1,0 +1,33 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "5f082005-058a-5f7c-bb00-d7248cb280ee",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH PLAN OF WASHINGTON, INC.",
+      "payer_level_string_search_matches": [
+        "DEVOTED HEALTH PLAN OF WASHINGTON, INC."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "DEVOTED HEALTH PLAN OF WASHINGTON, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3515",
+      "is_fpi": false,
+      "parent_fpi": "5f082005-058a-5f7c-bb00-d7248cb280ee"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.devoted.com/fhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.devoted.com/H3515/2027"
+      }
+    }
+  ],
+  "is_seeded": true
+}

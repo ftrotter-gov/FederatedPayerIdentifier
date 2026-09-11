@@ -1,0 +1,103 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "881f267e-e9cd-5597-960e-ecd0444c5630",
+      "is_fpi": true,
+      "payerLegalName": "GRANITE ALLIANCE INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "GRANITE ALLIANCE INSURANCE COMPANY",
+        "Granite Alliance",
+        "Prime Therapeutics, LLC."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "GRANITE ALLIANCE INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S3875",
+      "is_fpi": false,
+      "parent_fpi": "881f267e-e9cd-5597-960e-ecd0444c5630"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3875-802",
+          "parent_fpi": "881f267e-e9cd-5597-960e-ecd0444c5630",
+          "f_plan_id": "b0c3b273-b3f0-4925-863d-9c63c4ca3bdb",
+          "plan_name": "Granite Alliance Insurance Company (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3875-803",
+          "parent_fpi": "881f267e-e9cd-5597-960e-ecd0444c5630",
+          "f_plan_id": "b489d891-db98-43d9-a001-1cb9f92fd120",
+          "plan_name": "Granite Alliance Insurance Company (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3875-804",
+          "parent_fpi": "881f267e-e9cd-5597-960e-ecd0444c5630",
+          "f_plan_id": "305278f0-f9cf-4b16-b085-f0b0eaf40b7b",
+          "plan_name": "Granite Alliance Insurance Company (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3875-805",
+          "parent_fpi": "881f267e-e9cd-5597-960e-ecd0444c5630",
+          "f_plan_id": "cdddb007-5cd7-40bc-86c1-a5f8b7105fdf",
+          "plan_name": "Granite Alliance Insurance Company (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3875-806",
+          "parent_fpi": "881f267e-e9cd-5597-960e-ecd0444c5630",
+          "f_plan_id": "ec6f5374-762b-4035-9d47-6edadefea64f",
+          "plan_name": "Granite Alliance Insurance Company (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3875-807",
+          "parent_fpi": "881f267e-e9cd-5597-960e-ecd0444c5630",
+          "f_plan_id": "9a4d2b37-1d3a-4850-9a3e-60104e047028",
+          "plan_name": "Granite Alliance Insurance Company (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3875-808",
+          "parent_fpi": "881f267e-e9cd-5597-960e-ecd0444c5630",
+          "f_plan_id": "5e66226d-9680-438a-992f-a20caebb4f97",
+          "plan_name": "Granite Alliance Insurance Company (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3875-809",
+          "parent_fpi": "881f267e-e9cd-5597-960e-ecd0444c5630",
+          "f_plan_id": "ce945181-1cd4-40bb-8d7c-77bb5bc2c476",
+          "plan_name": "Granite Alliance Insurance Company (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3875-810",
+          "parent_fpi": "881f267e-e9cd-5597-960e-ecd0444c5630",
+          "f_plan_id": "38149bec-9729-4bb9-8d22-a43990792a7c",
+          "plan_name": "Granite Alliance Insurance Company (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3875-811",
+          "parent_fpi": "881f267e-e9cd-5597-960e-ecd0444c5630",
+          "f_plan_id": "5d1811bd-d53c-433a-9d34-7dce079745d1",
+          "plan_name": "Granite Alliance Insurance Company (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

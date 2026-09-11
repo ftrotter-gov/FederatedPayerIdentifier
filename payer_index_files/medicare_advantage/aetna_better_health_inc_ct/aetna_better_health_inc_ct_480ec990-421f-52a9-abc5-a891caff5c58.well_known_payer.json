@@ -1,0 +1,32 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "480ec990-421f-52a9-abc5-a891caff5c58",
+      "is_fpi": true,
+      "payerLegalName": "AETNA BETTER HEALTH INC. (CT)",
+      "payer_level_string_search_matches": [
+        "AETNA BETTER HEALTH INC. (CT)"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "AETNA BETTER HEALTH INC. (CT)"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6303",
+      "is_fpi": false,
+      "parent_fpi": "480ec990-421f-52a9-abc5-a891caff5c58"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.aetna.com/interoperability/2027/H6303/index.json"
+      }
+    }
+  ],
+  "is_seeded": true
+}

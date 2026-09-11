@@ -7,6 +7,11 @@
       "value": "f0d7eff2-057a-5080-bd16-e590d7d13ac4",
       "is_fpi": true,
       "payerLegalName": "SELECT HEALTH OF SOUTH CAROLINA, INC.",
+      "payer_level_string_search_matches": [
+        "SELECT HEALTH OF SOUTH CAROLINA, INC.",
+        "First Choice VIP Care (HMO D-SNP)",
+        "Independence Health Group, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SELECT HEALTH OF SOUTH CAROLINA, INC."
     },
@@ -28,7 +33,10 @@
           "plan_name": "First Choice VIP Care (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms.healthsparq.com/mpf/v1/H4739/2027/H4739-2027-index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api-ext.amerihealthcaritas.com/SCDS/provider-api/swagger-ui/"
+      }
     }
   ],
   "is_seeded": true

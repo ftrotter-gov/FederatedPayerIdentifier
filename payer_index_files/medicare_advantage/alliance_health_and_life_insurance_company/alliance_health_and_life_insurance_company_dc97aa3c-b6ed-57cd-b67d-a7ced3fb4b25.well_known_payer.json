@@ -7,6 +7,11 @@
       "value": "dc97aa3c-b6ed-57cd-b67d-a7ced3fb4b25",
       "is_fpi": true,
       "payerLegalName": "ALLIANCE HEALTH AND LIFE INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "ALLIANCE HEALTH AND LIFE INSURANCE COMPANY",
+        "Health Alliance Plan by Henry Ford Health",
+        "Henry Ford Health System"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ALLIANCE HEALTH AND LIFE INSURANCE COMPANY"
     },
@@ -70,7 +75,10 @@
           "plan_name": "HAP Senior Plus Group (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://yr8zbspehmylgikk.public.blob.vercel-storage.com/cms/h2322/h2322_index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://provider-directory-cms-r4.api.hap.org/"
+      }
     }
   ],
   "is_seeded": true

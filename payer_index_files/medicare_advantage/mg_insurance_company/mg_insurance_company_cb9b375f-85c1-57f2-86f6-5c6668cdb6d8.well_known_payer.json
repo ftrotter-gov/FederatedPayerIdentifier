@@ -1,0 +1,158 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "cb9b375f-85c1-57f2-86f6-5c6668cdb6d8",
+      "is_fpi": true,
+      "payerLegalName": "MG INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "MG INSURANCE COMPANY",
+        "MedImpact Holdings, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MG INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S3285",
+      "is_fpi": false,
+      "parent_fpi": "cb9b375f-85c1-57f2-86f6-5c6668cdb6d8"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3285-801",
+          "parent_fpi": "cb9b375f-85c1-57f2-86f6-5c6668cdb6d8",
+          "f_plan_id": "7394c713-c57a-4cb1-8dfd-0c06468bc5e7",
+          "plan_name": "VibrantRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3285-802",
+          "parent_fpi": "cb9b375f-85c1-57f2-86f6-5c6668cdb6d8",
+          "f_plan_id": "16c17709-b67b-4808-ad3e-5248c1ac8a3c",
+          "plan_name": "VibrantRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3285-803",
+          "parent_fpi": "cb9b375f-85c1-57f2-86f6-5c6668cdb6d8",
+          "f_plan_id": "b7b04886-2bfc-4168-970b-edca60e25e0d",
+          "plan_name": "VibrantRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3285-804",
+          "parent_fpi": "cb9b375f-85c1-57f2-86f6-5c6668cdb6d8",
+          "f_plan_id": "41dc33d6-9ffa-429b-ade7-0430e8a2c87e",
+          "plan_name": "VibrantRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3285-805",
+          "parent_fpi": "cb9b375f-85c1-57f2-86f6-5c6668cdb6d8",
+          "f_plan_id": "8666dfa3-6c38-4c56-a086-ecccdd509252",
+          "plan_name": "VibrantRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3285-806",
+          "parent_fpi": "cb9b375f-85c1-57f2-86f6-5c6668cdb6d8",
+          "f_plan_id": "5d79c525-6655-4eba-ac97-d4004a6f2810",
+          "plan_name": "VibrantRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3285-807",
+          "parent_fpi": "cb9b375f-85c1-57f2-86f6-5c6668cdb6d8",
+          "f_plan_id": "1d2919fc-f868-4e70-8033-a84a383ffe64",
+          "plan_name": "VibrantRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3285-808",
+          "parent_fpi": "cb9b375f-85c1-57f2-86f6-5c6668cdb6d8",
+          "f_plan_id": "c57c451a-83bc-4baa-b9d2-bf31cdfa5c67",
+          "plan_name": "VibrantRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3285-809",
+          "parent_fpi": "cb9b375f-85c1-57f2-86f6-5c6668cdb6d8",
+          "f_plan_id": "4f0364ca-76b0-4b04-a974-ecf49913d8dd",
+          "plan_name": "VibrantRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3285-810",
+          "parent_fpi": "cb9b375f-85c1-57f2-86f6-5c6668cdb6d8",
+          "f_plan_id": "cf9de3a6-2d73-4fc2-b546-cd70cc855fc3",
+          "plan_name": "VibrantRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3285-811",
+          "parent_fpi": "cb9b375f-85c1-57f2-86f6-5c6668cdb6d8",
+          "f_plan_id": "144e4982-9e05-4512-8a76-38749a0e143e",
+          "plan_name": "Retiree RxCare Premier (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3285-812",
+          "parent_fpi": "cb9b375f-85c1-57f2-86f6-5c6668cdb6d8",
+          "f_plan_id": "3ee1795c-6a7a-46c3-9c58-d2005c7a44ed",
+          "plan_name": "Retiree RxCare Premier Plus (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3285-813",
+          "parent_fpi": "cb9b375f-85c1-57f2-86f6-5c6668cdb6d8",
+          "f_plan_id": "64130f14-2ec3-4698-98e5-d4034310675a",
+          "plan_name": "VibrantRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3285-814",
+          "parent_fpi": "cb9b375f-85c1-57f2-86f6-5c6668cdb6d8",
+          "f_plan_id": "bd8d4b13-5356-4463-bcbb-3b82e3683005",
+          "plan_name": "VibrantRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3285-815",
+          "parent_fpi": "cb9b375f-85c1-57f2-86f6-5c6668cdb6d8",
+          "f_plan_id": "da2798b5-1a97-485d-9ea3-b9034d4e2b7a",
+          "plan_name": "VibrantRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3285-816",
+          "parent_fpi": "cb9b375f-85c1-57f2-86f6-5c6668cdb6d8",
+          "f_plan_id": "911d41e2-328a-4c2f-b2e8-d09188a779d3",
+          "plan_name": "Rightway MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3285-817",
+          "parent_fpi": "cb9b375f-85c1-57f2-86f6-5c6668cdb6d8",
+          "f_plan_id": "7b8577e4-5794-45a5-aae4-5195574d6bf8",
+          "plan_name": "Rightway MedicareRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3285-818",
+          "parent_fpi": "cb9b375f-85c1-57f2-86f6-5c6668cdb6d8",
+          "f_plan_id": "e21d94ec-7fa7-478f-b405-89bf53560b6c",
+          "plan_name": "Rightway MedicareRx (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

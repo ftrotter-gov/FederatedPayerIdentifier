@@ -7,6 +7,10 @@
       "value": "bc68830d-2628-5ef2-88dc-fb78698b60b6",
       "is_fpi": true,
       "payerLegalName": "CAPITAL ADVANTAGE INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "CAPITAL ADVANTAGE INSURANCE COMPANY",
+        "Capital Blue Cross"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "CAPITAL ADVANTAGE INSURANCE COMPANY"
     },
@@ -64,6 +68,13 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3923-048",
+          "parent_fpi": "bc68830d-2628-5ef2-88dc-fb78698b60b6",
+          "f_plan_id": "f948fbec-833b-40ca-953a-02ec3d5e4c0c",
+          "plan_name": "Capital Blue Cross Basic (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3923-801",
           "parent_fpi": "bc68830d-2628-5ef2-88dc-fb78698b60b6",
           "f_plan_id": "001c5389-23b0-46b6-b7e7-ba46ec7c12ef",
@@ -110,16 +121,12 @@
           "parent_fpi": "bc68830d-2628-5ef2-88dc-fb78698b60b6",
           "f_plan_id": "83c53b15-d2d0-4789-9da0-313dbfbbaf1d",
           "plan_name": "Capital Blue Cross Group No Rx (FY) (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H3923-048",
-          "parent_fpi": "bc68830d-2628-5ef2-88dc-fb78698b60b6",
-          "f_plan_id": "f948fbec-833b-40ca-953a-02ec3d5e4c0c",
-          "plan_name": "Capital Blue Cross Basic (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.capitalbluecrossfhir.com/r4/public-ma/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://gateway.1up.health/v1/capital-blue-cross/r4/public-ma/mpf/H3923-CY2027/index.json"
+      }
     }
   ],
   "is_seeded": true

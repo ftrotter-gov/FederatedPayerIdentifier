@@ -7,6 +7,10 @@
       "value": "635d88a7-4343-5d10-b6f9-19557bb2c090",
       "is_fpi": true,
       "payerLegalName": "CALIFORNIA PHYSICIANS' SERVICE",
+      "payer_level_string_search_matches": [
+        "CALIFORNIA PHYSICIANS' SERVICE",
+        "Blue Shield of California"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "CALIFORNIA PHYSICIANS' SERVICE"
     },
@@ -24,12 +28,106 @@
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4937",
+      "is_fpi": false,
+      "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
       "value": "H5928",
+      "is_fpi": false,
+      "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S2468",
       "is_fpi": false,
       "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090"
     }
   ],
   "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4937-801",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "9479238a-f4b6-4812-bae3-003e66a0eb3c",
+          "plan_name": "Blue Shield Medicare (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4937-802",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "4c45e0f5-e405-4341-9906-d3fc04d5295a",
+          "plan_name": "Blue Shield Medicare (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4937-803",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "96f093f1-7768-4b7d-a9e5-d8832bd58c69",
+          "plan_name": "Blue Shield Medicare without Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4937-804",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "ef7dabdc-730a-4316-8465-19407df0f9ea",
+          "plan_name": "Blue Shield Medicare without Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4937-805",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "0fca6874-ac21-40fa-8bdb-a5bbc000c24c",
+          "plan_name": "CCPOA Medical Plan Medicare (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4937-806",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "6701b27a-198e-4cc3-b0ed-a561bebba5bc",
+          "plan_name": "Blue Shield Medicare (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4937-807",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "fea26dac-d78c-4714-bc00-2422685360cf",
+          "plan_name": "Blue Shield Medicare (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S2468-003",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "dea9801d-b0fe-4252-8b48-1b79fe59425e",
+          "plan_name": "Blue Shield Rx Plus (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S2468-004",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "fca86918-9c68-4dad-98f1-0d38eaa4cd57",
+          "plan_name": "Blue Shield Rx Enhanced (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S2468-801",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "bdac3ed0-1079-4a1e-be89-4ec7da925b27",
+          "plan_name": "Blue Shield of California Medicare Rx Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S2468-802",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "3c608c90-3192-439d-8768-a78802fcb2e7",
+          "plan_name": "Blue Shield of California Medicare Rx Plan (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
     {
       "plan_identifiers": [
         {
@@ -111,6 +209,13 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0504-050",
+          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
+          "f_plan_id": "503debd2-c823-4b85-b8bb-73434da6fede",
+          "plan_name": "Blue Shield Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0504-803",
           "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
           "f_plan_id": "039d52ea-5c86-49f3-a4c3-1238733c144e",
@@ -136,17 +241,11 @@
           "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
           "f_plan_id": "e86b85bf-bc63-40f0-b260-2f56ff6524bc",
           "plan_name": "Blue Shield 65 Plus without Rx (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H0504-050",
-          "parent_fpi": "635d88a7-4343-5d10-b6f9-19557bb2c090",
-          "f_plan_id": "503debd2-c823-4b85-b8bb-73434da6fede",
-          "plan_name": "Blue Shield Advantage (HMO)"
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://cloud-api.blueshieldca.com/fhir-cms-client/api/cms-export/H0504/2026"
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.blueshieldca.com/bsc/fhir/fhir-server/api/v4/cloud/provider-directory/metadata",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cloud-api.blueshieldca.com/fhir-cms-client/api/cms-export/H0504/2027"
       }
     },
     {
@@ -160,7 +259,8 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://cloud-api.blueshieldca.com/fhir-cms-client/api/cms-export/H2819/2026"
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.blueshieldca.com/bsc/fhir/fhir-server/api/v4/cloud/provider-directory/metadata",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cloud-api.blueshieldca.com/fhir-cms-client/api/cms-export/H2819/2027"
       }
     },
     {
@@ -181,7 +281,8 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://cloud-api.blueshieldca.com/fhir-cms-client/api/cms-export/H5928/2026"
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.blueshieldca.com/bsc/fhir/fhir-server/api/v4/cloud/provider-directory/metadata",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cloud-api.blueshieldca.com/fhir-cms-client/api/cms-export/H5928/2027"
       }
     }
   ],

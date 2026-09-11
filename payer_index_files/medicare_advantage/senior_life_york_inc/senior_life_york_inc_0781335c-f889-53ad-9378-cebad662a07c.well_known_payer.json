@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "0781335c-f889-53ad-9378-cebad662a07c",
+      "is_fpi": true,
+      "payerLegalName": "SENIOR LIFE YORK, INC.",
+      "payer_level_string_search_matches": [
+        "SENIOR LIFE YORK, INC.",
+        "Senior LIFE York"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SENIOR LIFE YORK, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0819",
+      "is_fpi": false,
+      "parent_fpi": "0781335c-f889-53ad-9378-cebad662a07c"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0819-001",
+          "parent_fpi": "0781335c-f889-53ad-9378-cebad662a07c",
+          "f_plan_id": "9cc1c644-26a1-438f-8e7f-37ad2e8ede88",
+          "plan_name": "Senior LIFE York & Harrisburg Dual Eligibile (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0819-002",
+          "parent_fpi": "0781335c-f889-53ad-9378-cebad662a07c",
+          "f_plan_id": "250a34c9-1641-489b-9316-b447d63c398c",
+          "plan_name": "Senior LIFE York & Harrisburg Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

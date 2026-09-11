@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "0cb87db5-5412-5534-9951-bf4c5b55efa9",
+      "is_fpi": true,
+      "payerLegalName": "PSERS HOP PROGRAM",
+      "payer_level_string_search_matches": [
+        "PSERS HOP PROGRAM",
+        "Pennsylvania Public School Employees Retirement Sy",
+        "Commonwealth of PA Pub Schools Retirement System"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PSERS HOP PROGRAM"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "E3014",
+      "is_fpi": false,
+      "parent_fpi": "0cb87db5-5412-5534-9951-bf4c5b55efa9"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "E3014-801",
+          "parent_fpi": "0cb87db5-5412-5534-9951-bf4c5b55efa9",
+          "f_plan_id": "3552a4b8-7549-4948-9c20-158e4d23bc48",
+          "plan_name": "PSERS Health Options Program Plus (Employer PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "E3014-802",
+          "parent_fpi": "0cb87db5-5412-5534-9951-bf4c5b55efa9",
+          "f_plan_id": "a325a9b9-da9c-4d3e-b293-4910b44da7e1",
+          "plan_name": "PSERS Health Options Program Standard (Employer PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

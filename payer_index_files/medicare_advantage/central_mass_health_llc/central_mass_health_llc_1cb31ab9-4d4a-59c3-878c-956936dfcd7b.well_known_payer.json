@@ -1,0 +1,67 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "1cb31ab9-4d4a-59c3-878c-956936dfcd7b",
+      "is_fpi": true,
+      "payerLegalName": "CENTRAL MASS HEALTH, LLC",
+      "payer_level_string_search_matches": [
+        "CENTRAL MASS HEALTH, LLC",
+        "Mass Advantage",
+        "Central Mass Health Holding LLC"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CENTRAL MASS HEALTH, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7670",
+      "is_fpi": false,
+      "parent_fpi": "1cb31ab9-4d4a-59c3-878c-956936dfcd7b"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9904",
+      "is_fpi": false,
+      "parent_fpi": "1cb31ab9-4d4a-59c3-878c-956936dfcd7b"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7670-001",
+          "parent_fpi": "1cb31ab9-4d4a-59c3-878c-956936dfcd7b",
+          "f_plan_id": "c2c290b6-1ea9-4695-b899-6276b29eff16",
+          "plan_name": "Mass Advantage Basic (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7670-002",
+          "parent_fpi": "1cb31ab9-4d4a-59c3-878c-956936dfcd7b",
+          "f_plan_id": "e1441595-8528-4441-acca-ac02823ea792",
+          "plan_name": "Mass Advantage Plus (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9904-001",
+          "parent_fpi": "1cb31ab9-4d4a-59c3-878c-956936dfcd7b",
+          "f_plan_id": "134e70cf-95d4-46ce-a89c-b6708310acf5",
+          "plan_name": "Mass Advantage Premiere (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9904-002",
+          "parent_fpi": "1cb31ab9-4d4a-59c3-878c-956936dfcd7b",
+          "f_plan_id": "a09913c8-b88d-463e-8fda-d59c79e02a2e",
+          "plan_name": "Mass Advantage Extra (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

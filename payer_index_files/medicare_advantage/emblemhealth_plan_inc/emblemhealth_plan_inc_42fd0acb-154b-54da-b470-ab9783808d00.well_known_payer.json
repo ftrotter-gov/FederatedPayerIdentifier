@@ -1,0 +1,68 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "42fd0acb-154b-54da-b470-ab9783808d00",
+      "is_fpi": true,
+      "payerLegalName": "EMBLEMHEALTH PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "EMBLEMHEALTH PLAN, INC.",
+        "EmblemHealth",
+        "EmblemHealth, Inc.",
+        "EMBLEMHEALTH PLAN, INC"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "EMBLEMHEALTH PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5528",
+      "is_fpi": false,
+      "parent_fpi": "42fd0acb-154b-54da-b470-ab9783808d00"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S5966",
+      "is_fpi": false,
+      "parent_fpi": "42fd0acb-154b-54da-b470-ab9783808d00"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5528-807",
+          "parent_fpi": "42fd0acb-154b-54da-b470-ab9783808d00",
+          "f_plan_id": "e516234a-1bd1-4b5d-9bc2-cd276bf8a391",
+          "plan_name": "EmblemHealth Group Access Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5528-815",
+          "parent_fpi": "42fd0acb-154b-54da-b470-ab9783808d00",
+          "f_plan_id": "5502dfcf-0057-4347-bbf6-8af4a1588a01",
+          "plan_name": "EmblemHealth Group Access Rx Carveout (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5966-803",
+          "parent_fpi": "42fd0acb-154b-54da-b470-ab9783808d00",
+          "f_plan_id": "68348669-7c1c-4367-a84b-f99cd3ffedbf",
+          "plan_name": "EmblemHealth National Drug Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5966-804",
+          "parent_fpi": "42fd0acb-154b-54da-b470-ab9783808d00",
+          "f_plan_id": "03dc0837-2c8c-456b-9798-969f1a39a9e0",
+          "plan_name": "EmblemHealth National Drug Plan (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

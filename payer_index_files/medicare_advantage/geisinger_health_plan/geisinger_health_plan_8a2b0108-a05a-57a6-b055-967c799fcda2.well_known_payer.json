@@ -7,6 +7,11 @@
       "value": "8a2b0108-a05a-57a6-b055-967c799fcda2",
       "is_fpi": true,
       "payerLegalName": "GEISINGER HEALTH PLAN",
+      "payer_level_string_search_matches": [
+        "GEISINGER HEALTH PLAN",
+        "Geisinger Gold",
+        "Risant Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "GEISINGER HEALTH PLAN"
     },
@@ -98,7 +103,10 @@
           "plan_name": "Geisinger Gold FEHB Rx (Employer Group) (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api-v2.geisinger.org/api/provider-directory/v1/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cms.healthsparq.com/mpf/v1/H3954/2027/H3954-2027-index.json"
+      }
     }
   ],
   "is_seeded": true

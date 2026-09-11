@@ -7,6 +7,11 @@
       "value": "891f883a-9652-59fa-bb6d-e610c20ef26f",
       "is_fpi": true,
       "payerLegalName": "BCBS  OF MASSACHUSETTS HMO BLUE, INC.",
+      "payer_level_string_search_matches": [
+        "BCBS  OF MASSACHUSETTS HMO BLUE, INC.",
+        "Blue Cross Blue Shield of Massachusetts",
+        "Blue Cross and Blue Shield of Massachusetts, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "BCBS  OF MASSACHUSETTS HMO BLUE, INC."
     },
@@ -42,6 +47,13 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2230-019",
+          "parent_fpi": "891f883a-9652-59fa-bb6d-e610c20ef26f",
+          "f_plan_id": "5fb4dd75-eba6-438d-b2b9-bae22e401e3c",
+          "plan_name": "Medicare PPO Blue EssentialRx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2230-801",
           "parent_fpi": "891f883a-9652-59fa-bb6d-e610c20ef26f",
           "f_plan_id": "8938a3fb-cc60-4955-a7e3-468a150f1e68",
@@ -60,14 +72,15 @@
           "parent_fpi": "891f883a-9652-59fa-bb6d-e610c20ef26f",
           "f_plan_id": "3e2513cd-ba62-4700-afc1-8659125af6ef",
           "plan_name": "Medicare PPO Blue (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H2230-019",
-          "parent_fpi": "891f883a-9652-59fa-bb6d-e610c20ef26f",
-          "f_plan_id": "5fb4dd75-eba6-438d-b2b9-bae22e401e3c",
-          "plan_name": "Medicare PPO Blue EssentialRx (PPO)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir-prd-a-bcbsma.aws.mdx.med",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.sapphirecareselect.com/fhir/mpf/ma/bcbsma/H2230/2027/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2261-005",
@@ -111,7 +124,10 @@
           "plan_name": "Medicare HMO Blue (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir-prd-a-bcbsma.aws.mdx.med",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.sapphirecareselect.com/fhir/mpf/ma/bcbsma/H2261/2027/index.json"
+      }
     }
   ],
   "is_seeded": true

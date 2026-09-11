@@ -7,6 +7,11 @@
       "value": "7bfc9422-b9e8-5393-a738-be518372b4af",
       "is_fpi": true,
       "payerLegalName": "MMM HEALTHCARE, LLC",
+      "payer_level_string_search_matches": [
+        "MMM HEALTHCARE, LLC",
+        "Medicare y Mucho Mas (MMM)",
+        "Elevance Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "MMM HEALTHCARE, LLC"
     },
@@ -21,9 +26,118 @@
       "value": "H4004",
       "is_fpi": false,
       "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7522",
+      "is_fpi": false,
+      "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af"
     }
   ],
   "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7522-801",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "d2066517-3830-4dfd-a9f8-cd06afbe4712",
+          "plan_name": "MMM Advantage Group A Calendar (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7522-802",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "5334db2f-5f67-4cb1-baa4-169ffe15a92b",
+          "plan_name": "MMM Advantage Group B Calendar (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7522-804",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "40e85b5e-2f19-42f0-a4f0-0145b5b50b54",
+          "plan_name": "MMM Advantage Group C Calendar (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7522-805",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "e519dc17-2510-4de9-8db8-44412fa8ad63",
+          "plan_name": "MMM Advantage Group D Calendar (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7522-806",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "3e14b016-ead5-441d-ab80-4ec2deb99281",
+          "plan_name": "MMM Advantage Group A Non-Calendar (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7522-807",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "02b64621-7b12-4c43-bc08-8a8c14e198cc",
+          "plan_name": "MMM Advantage Group B Non-Calendar (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7522-808",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "b9b704be-84d1-4d82-bc1b-9e335e337e0b",
+          "plan_name": "MMM Advantage Group C Non-Calendar (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7522-809",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "bb8a1aa2-940f-4356-9ede-10162f52da80",
+          "plan_name": "MMM Advantage Group D Non-Calendar (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7522-810",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "f3002b40-7ff6-443c-9959-edccb4efc04d",
+          "plan_name": "MMM Advantage Group E Calendar (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7522-811",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "e27198af-c5b3-4ee5-9b19-04ac4c843a42",
+          "plan_name": "MMM Advantage Group E Non-Calendar (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7522-812",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "287ebb0f-55e2-4de3-b27f-21c9f4d6a0b7",
+          "plan_name": "MMM Advantage Group F Calendar (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7522-813",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "d9960342-c2dc-4574-9519-fd73db92bfb6",
+          "plan_name": "MMM Advantage Group F Non-Calendar (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7522-814",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "7a786fce-c50a-4e44-8f01-7b7cfdc5938e",
+          "plan_name": "MMM Advantage Group G Calendar (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7522-815",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "f8cc0b03-5b45-4827-b6f8-9a7f189057e2",
+          "plan_name": "MMM Advantage Group G Non-Calendar (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
     {
       "plan_identifiers": [
         {
@@ -165,7 +279,15 @@
           "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
           "f_plan_id": "5a35eaaf-9d2b-435b-b952-3c5a115844a9",
           "plan_name": "MMM Group G Non-Calendar (HMO-POS)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.mmmhealthcarefhir.com/r4/public-ma/Practitioner",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://gateway.1up.health/v1/mmm/r4/public-ma/mpf/H4003-CY2027/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4004-048",
@@ -179,20 +301,6 @@
           "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
           "f_plan_id": "196e8d45-9f1c-4184-8c93-c75b82e057ff",
           "plan_name": "PMC Max (HMO-POS)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H4004-072",
-          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
-          "f_plan_id": "ce90fac2-d131-4282-bb26-79537732cee5",
-          "plan_name": "MMM Relax Platino (HMO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H4004-073",
-          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
-          "f_plan_id": "939dc9db-0c15-4092-9370-0e47d471b404",
-          "plan_name": "MMM Balance (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -235,6 +343,20 @@
           "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
           "f_plan_id": "aaa7d876-3d59-4734-9d95-dc0b65a8b356",
           "plan_name": "MMM Mega Flex (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4004-072",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "ce90fac2-d131-4282-bb26-79537732cee5",
+          "plan_name": "MMM Relax Platino (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4004-073",
+          "parent_fpi": "7bfc9422-b9e8-5393-a738-be518372b4af",
+          "f_plan_id": "939dc9db-0c15-4092-9370-0e47d471b404",
+          "plan_name": "MMM Balance (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -336,7 +458,8 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.mmmhealthcarefhir.com/r4/public-ma/Practitioner"
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.mmmhealthcarefhir.com/r4/public-ma/Practitioner",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://gateway.1up.health/v1/mmm/r4/public-ma/mpf/H4004-CY2027/index.json"
       }
     }
   ],

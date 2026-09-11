@@ -1,0 +1,264 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+      "is_fpi": true,
+      "payerLegalName": "UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK",
+      "payer_level_string_search_matches": [
+        "UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK",
+        "UnitedHealthcare",
+        "UnitedHealth Group, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "UNITEDHEALTHCARE INSURANCE COMPANY OF NEW YORK"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S5805",
+      "is_fpi": false,
+      "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-803",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "c039184e-7070-496e-9447-5b37ed1c4217",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-804",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "a257062f-4ecd-42e8-9cd9-e52cf5af2533",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-807",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "98eccf1b-4fc4-4682-9445-8aa38ca1ddca",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-808",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "c84be215-22fc-4a8c-9290-084abd23125b",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-809",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "1c716909-68e7-45df-96b6-49dbe81bcf8c",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-810",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "d8352f23-25ec-435c-8b50-8486c2cb1b77",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-811",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "70fc857c-87bc-49f3-86d8-25a35a13312a",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-812",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "8719eb87-a2cc-4f73-b5a0-d77a37863258",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-813",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "8de8a10c-3f78-42cc-b2a0-c8a3e994ea6a",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-814",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "465da331-4327-46e3-88de-2e02fe665f87",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-815",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "c8f947f1-709e-4f9b-8442-b74b9d42c256",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-816",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "86fe57e7-878c-420e-857b-afe4af7e1e64",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-818",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "8c9a2d84-9f9c-4c7d-a0dc-2eed92824e04",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-819",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "ecd89746-06b0-4551-9377-69678eadd85a",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-820",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "33e74f74-990d-4ac6-b670-7176073ca6f4",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-821",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "b86528cd-1e1b-443a-a2fa-dd7dca0cd810",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-822",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "8213b5da-e210-497f-8282-f49a00030a18",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-823",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "e7b7f1ce-3079-4fa1-a98e-03585030e3c3",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-824",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "99de2748-db88-42f5-b3f8-36c25bde16f3",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-825",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "992b7d33-c5e0-49f1-95ad-df96ecbee04f",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-826",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "caf1fdb1-e8cf-4f6f-bf31-19564b13f9bd",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-827",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "5fb86d3d-a3a4-40ba-a061-59e7d0934f30",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-828",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "a7677bd8-a662-46af-918a-716374a357a9",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-829",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "15593ab9-bd66-4992-ada6-fedffb364c85",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-830",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "3719de3f-e43d-4a29-83ed-57b2f023bbdd",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-831",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "242c42b9-a098-4999-8875-aefe1003e4fe",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-832",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "518e39a8-95b5-4cb6-a492-d65fe22dc9b8",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-833",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "cf9bb93e-58ee-4768-9fc0-f16a8e986091",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-834",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "2a02ad4f-8f4e-4b3f-8faf-46a3288a7504",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-835",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "ae49126f-b387-446f-bdd0-86eb5a39176a",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-836",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "06aba2ad-5676-4b25-aaf3-0b977c8aaa92",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-837",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "bebe4eb5-95c1-4562-886d-cc380a52a13d",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5805-838",
+          "parent_fpi": "88eeadce-ebf0-5f68-ba8f-f2cbeaff5f5f",
+          "f_plan_id": "26205164-5124-4bfd-95b7-6efe2067e802",
+          "plan_name": "UnitedHealthcare MedicareRx for Groups (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

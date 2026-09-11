@@ -7,6 +7,10 @@
       "value": "1674cef3-2d36-5c86-8e0e-cc50572a3d99",
       "is_fpi": true,
       "payerLegalName": "ELDERPLAN, INC.",
+      "payer_level_string_search_matches": [
+        "ELDERPLAN, INC.",
+        "Elderplan"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ELDERPLAN, INC."
     },
@@ -63,7 +67,10 @@
           "plan_name": "Elderplan Select (HMO-POS I-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://elderplan.providerlenz.com/",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://providerlenz.com/client-api-documentation?apikey=193E1470-5CB7-408F-8E07-F06C7C87FCFE"
+      }
     }
   ],
   "is_seeded": true

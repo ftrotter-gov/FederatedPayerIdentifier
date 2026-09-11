@@ -7,6 +7,11 @@
       "value": "7140441f-fdae-5656-8b04-0e4555b5e45d",
       "is_fpi": true,
       "payerLegalName": "ANTHEM HEALTH PLANS, INC.",
+      "payer_level_string_search_matches": [
+        "ANTHEM HEALTH PLANS, INC.",
+        "Anthem Blue Cross and Blue Shield",
+        "Elevance Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ANTHEM HEALTH PLANS, INC."
     },
@@ -39,7 +44,15 @@
           "parent_fpi": "7140441f-fdae-5656-8b04-0e4555b5e45d",
           "f_plan_id": "f6d53c66-dd7e-4f19-a123-2097ba0ed9a1",
           "plan_name": "Anthem Dual Advantage (PPO D-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://totalview.healthos.anthem.com/cms/H2836/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5854-012",
@@ -118,7 +131,10 @@
           "plan_name": "Anthem Senior Advantage (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://totalview.healthos.anthem.com/cms/H5854/index.json"
+      }
     }
   ],
   "is_seeded": true

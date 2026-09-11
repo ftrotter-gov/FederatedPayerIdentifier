@@ -7,6 +7,11 @@
       "value": "4e4196cb-9060-5a9c-a454-7b3aa817bd76",
       "is_fpi": true,
       "payerLegalName": "QUARTZ HEALTH PLAN CORPORATION",
+      "payer_level_string_search_matches": [
+        "QUARTZ HEALTH PLAN CORPORATION",
+        "Quartz Medicare Advantage (HMO)",
+        "University of Wisconsin Hospitals and Clincs Autho"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "QUARTZ HEALTH PLAN CORPORATION"
     },
@@ -106,20 +111,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5262-801",
-          "parent_fpi": "4e4196cb-9060-5a9c-a454-7b3aa817bd76",
-          "f_plan_id": "5b619519-d35a-40e7-b475-a9a98d8f099a",
-          "plan_name": "Employer Group Quartz Medicare Advantage D (w/Rx) (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5262-802",
-          "parent_fpi": "4e4196cb-9060-5a9c-a454-7b3aa817bd76",
-          "f_plan_id": "43f7dd31-65d8-46bc-a3ce-b765a022f024",
-          "plan_name": "Employer Group Quartz Medicare Advantage (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5262-032",
           "parent_fpi": "4e4196cb-9060-5a9c-a454-7b3aa817bd76",
           "f_plan_id": "92f63a6d-4376-434e-877c-2eaca0615c99",
@@ -131,9 +122,26 @@
           "parent_fpi": "4e4196cb-9060-5a9c-a454-7b3aa817bd76",
           "f_plan_id": "c9b387fd-5fe8-4af4-b4bc-5ed0e70720cf",
           "plan_name": "UW Health Quartz Med Advantage Basic D (w/Rx) (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5262-801",
+          "parent_fpi": "4e4196cb-9060-5a9c-a454-7b3aa817bd76",
+          "f_plan_id": "5b619519-d35a-40e7-b475-a9a98d8f099a",
+          "plan_name": "Employer Group Quartz Medicare Advantage D (w/Rx) (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5262-802",
+          "parent_fpi": "4e4196cb-9060-5a9c-a454-7b3aa817bd76",
+          "f_plan_id": "43f7dd31-65d8-46bc-a3ce-b765a022f024",
+          "plan_name": "Employer Group Quartz Medicare Advantage (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://quartzfhir.healthsparq.com/api/provider-fhir-service/v1/fhir/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cms.healthsparq.com/mpf/v1/H5262/2027/H5262-2027-index.json"
+      }
     }
   ],
   "is_seeded": true

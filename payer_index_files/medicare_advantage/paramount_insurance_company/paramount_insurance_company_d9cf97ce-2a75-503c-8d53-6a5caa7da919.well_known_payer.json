@@ -1,0 +1,40 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "d9cf97ce-2a75-503c-8d53-6a5caa7da919",
+      "is_fpi": true,
+      "payerLegalName": "PARAMOUNT INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "PARAMOUNT INSURANCE COMPANY",
+        "Paramount Elite Medicare Plans",
+        "MEDICAL MUTUAL OF OHIO"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PARAMOUNT INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5232",
+      "is_fpi": false,
+      "parent_fpi": "d9cf97ce-2a75-503c-8d53-6a5caa7da919"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5232-001",
+          "parent_fpi": "d9cf97ce-2a75-503c-8d53-6a5caa7da919",
+          "f_plan_id": "ff3efc32-118f-434e-a305-225b395f10d3",
+          "plan_name": "Paramount Elite Preferred (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

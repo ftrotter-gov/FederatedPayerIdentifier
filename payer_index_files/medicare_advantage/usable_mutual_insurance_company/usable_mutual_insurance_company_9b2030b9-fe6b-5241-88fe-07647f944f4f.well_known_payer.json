@@ -7,6 +7,10 @@
       "value": "9b2030b9-fe6b-5241-88fe-07647f944f4f",
       "is_fpi": true,
       "payerLegalName": "USABLE MUTUAL INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "USABLE MUTUAL INSURANCE COMPANY",
+        "Arkansas Blue Medicare"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "USABLE MUTUAL INSURANCE COMPANY"
     },
@@ -15,9 +19,62 @@
       "value": "H4213",
       "is_fpi": false,
       "parent_fpi": "9b2030b9-fe6b-5241-88fe-07647f944f4f"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S5795",
+      "is_fpi": false,
+      "parent_fpi": "9b2030b9-fe6b-5241-88fe-07647f944f4f"
     }
   ],
   "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5795-002",
+          "parent_fpi": "9b2030b9-fe6b-5241-88fe-07647f944f4f",
+          "f_plan_id": "f5cdb924-1b5b-4dcb-90c0-1b6e3a5cb273",
+          "plan_name": "BlueMedicare Premier Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5795-003",
+          "parent_fpi": "9b2030b9-fe6b-5241-88fe-07647f944f4f",
+          "f_plan_id": "a80bf780-1b89-4d16-996d-434f5cb5b446",
+          "plan_name": "BlueMedicare Value Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5795-804",
+          "parent_fpi": "9b2030b9-fe6b-5241-88fe-07647f944f4f",
+          "f_plan_id": "9b6063f2-1415-4c83-ad4c-3a64de10ed8a",
+          "plan_name": "BlueMedicare Def Std Employer CY (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5795-809",
+          "parent_fpi": "9b2030b9-fe6b-5241-88fe-07647f944f4f",
+          "f_plan_id": "89112de3-e681-47b5-bc1f-1be1f0aa0fac",
+          "plan_name": "BlueMedicare Def Std Employer NCY (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5795-811",
+          "parent_fpi": "9b2030b9-fe6b-5241-88fe-07647f944f4f",
+          "f_plan_id": "d958f0c9-5654-4b61-915e-969c3338ad2a",
+          "plan_name": "BlueMedicare Group Basic CY (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5795-812",
+          "parent_fpi": "9b2030b9-fe6b-5241-88fe-07647f944f4f",
+          "f_plan_id": "ad2f79dc-d761-410f-8487-03d7b095ffdf",
+          "plan_name": "BlueMedicare Group Basic NCY (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
     {
       "plan_identifiers": [
         {
@@ -63,7 +120,10 @@
           "plan_name": "BlueMedicare Value Group NCY (PFFS)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://arkbluecross.healthsparq.com/api/provider-fhir-service",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cms.healthsparq.com/mpf/v1/H4213/2027/H4213-2027-index.json"
+      }
     }
   ],
   "is_seeded": true

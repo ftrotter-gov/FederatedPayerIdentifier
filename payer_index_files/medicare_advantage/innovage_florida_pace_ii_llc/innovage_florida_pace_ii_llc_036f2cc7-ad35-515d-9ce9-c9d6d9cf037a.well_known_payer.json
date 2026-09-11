@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "036f2cc7-ad35-515d-9ce9-c9d6d9cf037a",
+      "is_fpi": true,
+      "payerLegalName": "INNOVAGE FLORIDA PACE II, LLC",
+      "payer_level_string_search_matches": [
+        "INNOVAGE FLORIDA PACE II, LLC",
+        "InnovAge Florida PACE - Orlando",
+        "Total Community Options, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "INNOVAGE FLORIDA PACE II, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0424",
+      "is_fpi": false,
+      "parent_fpi": "036f2cc7-ad35-515d-9ce9-c9d6d9cf037a"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0424-001",
+          "parent_fpi": "036f2cc7-ad35-515d-9ce9-c9d6d9cf037a",
+          "f_plan_id": "1f8a0bfb-ecb4-40b6-b74e-4a723d46dfa2",
+          "plan_name": "InnovAge Florida PACE - Orlando - Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0424-002",
+          "parent_fpi": "036f2cc7-ad35-515d-9ce9-c9d6d9cf037a",
+          "f_plan_id": "930103b8-9035-43c0-9278-3504b78fdb6e",
+          "plan_name": "InnovAge Florida PACE - Orlando - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

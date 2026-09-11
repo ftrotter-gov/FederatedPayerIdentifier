@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "e6dd799b-5e53-53ec-9d85-5da54f8c5c94",
+      "is_fpi": true,
+      "payerLegalName": "PACE NEBRASKA",
+      "payer_level_string_search_matches": [
+        "PACE NEBRASKA",
+        "Immanuel Pathways Omaha",
+        "Immanuel"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PACE NEBRASKA"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7003",
+      "is_fpi": false,
+      "parent_fpi": "e6dd799b-5e53-53ec-9d85-5da54f8c5c94"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7003-001",
+          "parent_fpi": "e6dd799b-5e53-53ec-9d85-5da54f8c5c94",
+          "f_plan_id": "fbe473b7-1c73-4baf-a765-e6a5dec2c940",
+          "plan_name": "PACE Nebraska (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7003-002",
+          "parent_fpi": "e6dd799b-5e53-53ec-9d85-5da54f8c5c94",
+          "f_plan_id": "bfe74d6c-4259-4a16-8ab7-07e39c1c077f",
+          "plan_name": "PACE Nebraska (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

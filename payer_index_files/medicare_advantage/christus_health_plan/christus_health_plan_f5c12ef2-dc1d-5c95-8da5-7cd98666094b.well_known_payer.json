@@ -1,0 +1,89 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "f5c12ef2-dc1d-5c95-8da5-7cd98666094b",
+      "is_fpi": true,
+      "payerLegalName": "CHRISTUS HEALTH PLAN",
+      "payer_level_string_search_matches": [
+        "CHRISTUS HEALTH PLAN",
+        "CHRISTUS Health Advantage",
+        "CHRISTUS Health"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CHRISTUS HEALTH PLAN"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1189",
+      "is_fpi": false,
+      "parent_fpi": "f5c12ef2-dc1d-5c95-8da5-7cd98666094b"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1189-002",
+          "parent_fpi": "f5c12ef2-dc1d-5c95-8da5-7cd98666094b",
+          "f_plan_id": "b653990c-8f87-449a-8843-e8a5a298414a",
+          "plan_name": "CHRISTUS Health Medicare Plus (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1189-003",
+          "parent_fpi": "f5c12ef2-dc1d-5c95-8da5-7cd98666094b",
+          "f_plan_id": "cd2acf77-fd31-4bc5-a153-d27763a94cac",
+          "plan_name": "CHRISTUS Health Medicare Complete (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1189-004",
+          "parent_fpi": "f5c12ef2-dc1d-5c95-8da5-7cd98666094b",
+          "f_plan_id": "6177d078-ff8a-42ca-9ea2-4504843bc2aa",
+          "plan_name": "CHRISTUS Health Medicare Plus (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1189-005",
+          "parent_fpi": "f5c12ef2-dc1d-5c95-8da5-7cd98666094b",
+          "f_plan_id": "face3cb3-e4f0-4c1b-b43b-dcaa2303351e",
+          "plan_name": "CHRISTUS Health Medicare Plus (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1189-007",
+          "parent_fpi": "f5c12ef2-dc1d-5c95-8da5-7cd98666094b",
+          "f_plan_id": "fbff32e5-b0d4-4f32-9dd4-31a7bd782ebe",
+          "plan_name": "CHRISTUS Health Medicare Guardian (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1189-008",
+          "parent_fpi": "f5c12ef2-dc1d-5c95-8da5-7cd98666094b",
+          "f_plan_id": "e34e8991-cc0b-4bac-884f-36840d753f9e",
+          "plan_name": "CHRISTUS Health Medicare Guardian (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1189-009",
+          "parent_fpi": "f5c12ef2-dc1d-5c95-8da5-7cd98666094b",
+          "f_plan_id": "c6fec55e-e8f9-426e-b3e4-cc923e793a2b",
+          "plan_name": "CHRISTUS Health Medicare Plus (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1189-010",
+          "parent_fpi": "f5c12ef2-dc1d-5c95-8da5-7cd98666094b",
+          "f_plan_id": "1a11f77e-2225-4773-9671-844ddce7c792",
+          "plan_name": "CHRISTUS Health Medicare Plus (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

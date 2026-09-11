@@ -1,0 +1,45 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "ace4edb0-4ff2-5f77-b35b-5079c5c0b968",
+      "is_fpi": true,
+      "payerLegalName": "PACE NORTHEAST MICHIGAN",
+      "payer_level_string_search_matches": [
+        "PACE NORTHEAST MICHIGAN"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PACE NORTHEAST MICHIGAN"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6700",
+      "is_fpi": false,
+      "parent_fpi": "ace4edb0-4ff2-5f77-b35b-5079c5c0b968"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6700-001",
+          "parent_fpi": "ace4edb0-4ff2-5f77-b35b-5079c5c0b968",
+          "f_plan_id": "39b17722-6ffc-44e0-bf45-bf2fe23d0e76",
+          "plan_name": "PACE NEMI (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6700-002",
+          "parent_fpi": "ace4edb0-4ff2-5f77-b35b-5079c5c0b968",
+          "f_plan_id": "0a883d49-a99f-4a7d-94f7-b90217317f76",
+          "plan_name": "PACE NEMI Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

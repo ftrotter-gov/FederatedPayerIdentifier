@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "ae70a8ec-5e18-5b8d-bb9a-55adcf9f4159",
+      "is_fpi": true,
+      "payerLegalName": "HARBOR HEALTH SERVICES, INC.",
+      "payer_level_string_search_matches": [
+        "HARBOR HEALTH SERVICES, INC.",
+        "Elder Service Plan of Harbor Health Services, Inc"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HARBOR HEALTH SERVICES, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2218",
+      "is_fpi": false,
+      "parent_fpi": "ae70a8ec-5e18-5b8d-bb9a-55adcf9f4159"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2218-001",
+          "parent_fpi": "ae70a8ec-5e18-5b8d-bb9a-55adcf9f4159",
+          "f_plan_id": "4d210c29-9be8-4105-b9cc-ae58e441ec59",
+          "plan_name": "Harbor Health Elder Service Plan, Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2218-002",
+          "parent_fpi": "ae70a8ec-5e18-5b8d-bb9a-55adcf9f4159",
+          "f_plan_id": "5baa39a1-fac8-48de-972d-04906c38244f",
+          "plan_name": "Harbor Health Elder Service Plan, Medicare only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

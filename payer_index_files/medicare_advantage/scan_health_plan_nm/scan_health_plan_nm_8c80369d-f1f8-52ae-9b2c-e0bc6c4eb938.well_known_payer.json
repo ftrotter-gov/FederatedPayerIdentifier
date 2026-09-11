@@ -7,6 +7,11 @@
       "value": "8c80369d-f1f8-52ae-9b2c-e0bc6c4eb938",
       "is_fpi": true,
       "payerLegalName": "SCAN HEALTH PLAN (NM)",
+      "payer_level_string_search_matches": [
+        "SCAN HEALTH PLAN (NM)",
+        "SCAN Health Plan",
+        "SCAN Group"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SCAN HEALTH PLAN (NM)"
     },

@@ -1,0 +1,53 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "4abe342b-e6ec-5c2f-bc08-adf270924bfb",
+      "is_fpi": true,
+      "payerLegalName": "ASURIS NORTHWEST HEALTH",
+      "payer_level_string_search_matches": [
+        "ASURIS NORTHWEST HEALTH",
+        "Cambia Health Solutions, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ASURIS NORTHWEST HEALTH"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S5609",
+      "is_fpi": false,
+      "parent_fpi": "4abe342b-e6ec-5c2f-bc08-adf270924bfb"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5609-802",
+          "parent_fpi": "4abe342b-e6ec-5c2f-bc08-adf270924bfb",
+          "f_plan_id": "19dbeb28-0916-4fa3-9f46-093f94612908",
+          "plan_name": "Asuris Medicare Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5609-804",
+          "parent_fpi": "4abe342b-e6ec-5c2f-bc08-adf270924bfb",
+          "f_plan_id": "01f049fc-0ca9-43b1-b269-3ad8a74e05a1",
+          "plan_name": "Asuris Medicare Script 02 (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5609-805",
+          "parent_fpi": "4abe342b-e6ec-5c2f-bc08-adf270924bfb",
+          "f_plan_id": "f3662665-42d6-478e-b8cb-e0c067b6ea8b",
+          "plan_name": "Asuris Medicare Script 03 (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

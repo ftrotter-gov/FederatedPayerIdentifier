@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "67e9659e-49cb-5ae9-ae38-3c3f94c915fc",
+      "is_fpi": true,
+      "payerLegalName": "COMPREHENSIVE SENIOR CARE CORPORATION",
+      "payer_level_string_search_matches": [
+        "COMPREHENSIVE SENIOR CARE CORPORATION",
+        "Senior Care Partners P.A.C.E."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "COMPREHENSIVE SENIOR CARE CORPORATION"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1310",
+      "is_fpi": false,
+      "parent_fpi": "67e9659e-49cb-5ae9-ae38-3c3f94c915fc"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1310-001",
+          "parent_fpi": "67e9659e-49cb-5ae9-ae38-3c3f94c915fc",
+          "f_plan_id": "fb7e095e-4c72-46c9-a3b6-b2150123b902",
+          "plan_name": "Senior Care Partners PACE Dual (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1310-003",
+          "parent_fpi": "67e9659e-49cb-5ae9-ae38-3c3f94c915fc",
+          "f_plan_id": "715049f0-2f85-43d4-a1f1-7896225c53ed",
+          "plan_name": "Senior Care Partners PACE Medicare-only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

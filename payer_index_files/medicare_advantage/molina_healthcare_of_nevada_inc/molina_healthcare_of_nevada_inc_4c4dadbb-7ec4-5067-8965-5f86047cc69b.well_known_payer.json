@@ -1,0 +1,40 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "4c4dadbb-7ec4-5067-8965-5f86047cc69b",
+      "is_fpi": true,
+      "payerLegalName": "MOLINA HEALTHCARE OF NEVADA INC",
+      "payer_level_string_search_matches": [
+        "MOLINA HEALTHCARE OF NEVADA INC",
+        "Molina Healthcare of Nevada",
+        "Molina Healthcare, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MOLINA HEALTHCARE OF NEVADA INC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2478",
+      "is_fpi": false,
+      "parent_fpi": "4c4dadbb-7ec4-5067-8965-5f86047cc69b"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2478-001",
+          "parent_fpi": "4c4dadbb-7ec4-5067-8965-5f86047cc69b",
+          "f_plan_id": "c53b3636-6420-4abb-bf63-c94fd28f3ef5",
+          "plan_name": "Molina Medicare Complete Care (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

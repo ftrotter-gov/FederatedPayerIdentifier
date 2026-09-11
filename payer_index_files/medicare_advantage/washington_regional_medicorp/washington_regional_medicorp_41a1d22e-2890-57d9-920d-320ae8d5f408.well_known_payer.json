@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "41a1d22e-2890-57d9-920d-320ae8d5f408",
+      "is_fpi": true,
+      "payerLegalName": "WASHINGTON REGIONAL MEDICORP",
+      "payer_level_string_search_matches": [
+        "WASHINGTON REGIONAL MEDICORP",
+        "PACE of the Ozarks",
+        "Washington Regional Medical System"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WASHINGTON REGIONAL MEDICORP"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6425",
+      "is_fpi": false,
+      "parent_fpi": "41a1d22e-2890-57d9-920d-320ae8d5f408"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6425-001",
+          "parent_fpi": "41a1d22e-2890-57d9-920d-320ae8d5f408",
+          "f_plan_id": "afe07814-5086-4081-8104-51710d42d944",
+          "plan_name": "Washington Regional Medicorp PACE of the Ozarks (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6425-002",
+          "parent_fpi": "41a1d22e-2890-57d9-920d-320ae8d5f408",
+          "f_plan_id": "babbfb96-ba45-4995-a7a4-c0b096497e0c",
+          "plan_name": "Washington Regional Medicorp PACE of the Ozarks (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

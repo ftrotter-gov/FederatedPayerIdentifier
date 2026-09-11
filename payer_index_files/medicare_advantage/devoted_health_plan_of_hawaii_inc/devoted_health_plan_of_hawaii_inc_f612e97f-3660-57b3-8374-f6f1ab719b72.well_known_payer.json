@@ -7,6 +7,11 @@
       "value": "f612e97f-3660-57b3-8374-f6f1ab719b72",
       "is_fpi": true,
       "payerLegalName": "DEVOTED HEALTH PLAN OF HAWAII, INC.",
+      "payer_level_string_search_matches": [
+        "DEVOTED HEALTH PLAN OF HAWAII, INC.",
+        "Devoted Health",
+        "Devoted Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH PLAN OF HAWAII, INC."
     },
@@ -57,7 +62,8 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.devoted.com/H5397/2026"
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.devoted.com/fhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.devoted.com/H5397/2027"
       }
     }
   ],

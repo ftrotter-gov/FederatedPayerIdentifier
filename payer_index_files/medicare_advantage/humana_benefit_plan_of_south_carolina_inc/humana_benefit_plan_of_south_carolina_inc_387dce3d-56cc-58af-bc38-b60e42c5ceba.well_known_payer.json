@@ -7,6 +7,11 @@
       "value": "387dce3d-56cc-58af-bc38-b60e42c5ceba",
       "is_fpi": true,
       "payerLegalName": "HUMANA BENEFIT PLAN OF SOUTH CAROLINA, INC.",
+      "payer_level_string_search_matches": [
+        "HUMANA BENEFIT PLAN OF SOUTH CAROLINA, INC.",
+        "Humana",
+        "Humana Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HUMANA BENEFIT PLAN OF SOUTH CAROLINA, INC."
     },
@@ -29,7 +34,7 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.humana.com/api"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.humana.com/api"
       }
     }
   ],

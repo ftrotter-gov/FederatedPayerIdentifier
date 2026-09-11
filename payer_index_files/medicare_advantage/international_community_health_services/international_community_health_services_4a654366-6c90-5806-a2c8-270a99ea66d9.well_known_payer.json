@@ -1,0 +1,45 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "4a654366-6c90-5806-a2c8-270a99ea66d9",
+      "is_fpi": true,
+      "payerLegalName": "INTERNATIONAL COMMUNITY HEALTH SERVICES",
+      "payer_level_string_search_matches": [
+        "INTERNATIONAL COMMUNITY HEALTH SERVICES"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "INTERNATIONAL COMMUNITY HEALTH SERVICES"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3084",
+      "is_fpi": false,
+      "parent_fpi": "4a654366-6c90-5806-a2c8-270a99ea66d9"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3084-001",
+          "parent_fpi": "4a654366-6c90-5806-a2c8-270a99ea66d9",
+          "f_plan_id": "fd05846e-1472-4ff8-afd4-a989c56b82bf",
+          "plan_name": "ICHS PACE - Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3084-002",
+          "parent_fpi": "4a654366-6c90-5806-a2c8-270a99ea66d9",
+          "f_plan_id": "49e426fd-df12-4297-ac7e-f928dd5daaa0",
+          "plan_name": "ICHS PACE - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

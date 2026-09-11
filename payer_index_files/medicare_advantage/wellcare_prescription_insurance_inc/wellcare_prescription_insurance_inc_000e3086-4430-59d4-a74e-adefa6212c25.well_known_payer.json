@@ -1,0 +1,509 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "000e3086-4430-59d4-a74e-adefa6212c25",
+      "is_fpi": true,
+      "payerLegalName": "WELLCARE PRESCRIPTION INSURANCE, INC.",
+      "payer_level_string_search_matches": [
+        "WELLCARE PRESCRIPTION INSURANCE, INC.",
+        "Wellcare",
+        "Centene Corporation"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WELLCARE PRESCRIPTION INSURANCE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S4802",
+      "is_fpi": false,
+      "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-012",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "41635956-3c2e-4e8c-b12e-bbb7bf6299f5",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-013",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "f06d82da-1696-4b99-be5d-a4b43fc2078f",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-014",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "ee5829b8-67f1-46c4-ac5e-231c1f07b324",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-020",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "98875e36-ff56-4eeb-b937-55f6147c8a69",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-021",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "f73b0776-0f48-41ca-b3d0-89b3537b47f2",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-069",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "5658bcdb-9697-4724-8b87-f98385c5bfd1",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-070",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "6020b600-a1e5-44ff-b9c9-140c0e1a9383",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-071",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "791acc15-e60f-456e-932a-ff2f442e58c6",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-072",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "96689b26-1d48-4967-b8fa-516092cff469",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-073",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "456a2496-d490-4729-9283-f33ad943a07d",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-074",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "30b0bf2f-29e3-4134-a167-b7074d367359",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-075",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "dc0dc251-ee23-4ff3-981a-5aaaa128aa10",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-076",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "28b5a543-9002-4d17-830d-fda36e82ec1c",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-077",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "7eb2f3ab-0259-44b8-b32a-ca815c41aca5",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-078",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "382adb76-d21d-4847-9d08-32fbc8f1665c",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-079",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "4990ac47-91de-401a-8a8a-18897a021892",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-080",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "f34b5b09-7ce4-499d-8bb3-309d8fb87030",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-081",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "bb25d9b0-a8e5-4e24-9a65-99b3e0828010",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-082",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "e08bebc8-0ba9-4fbd-b655-96273f35ec49",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-083",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "d1a4e2c1-0ba0-4e0a-bc6a-2d32d988dad3",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-084",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "84d9c5d9-6159-4bce-bfcb-0a938606f907",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-085",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "bd6af472-893d-4dcd-a994-9d2996cabab2",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-086",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "aa807c60-4582-481b-a096-d1e495d1bac4",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-087",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "cb5ca17b-327c-4a97-83d9-a2c6c9909672",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-088",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "41fb0cc6-b907-4928-90b4-67cea81b0609",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-089",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "8c95a519-6a18-49ec-a5d0-85dc6f52b025",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-090",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "10c4e93a-3404-468d-b99c-18b9ff1e6b8c",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-091",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "c1c198ec-61cc-4476-b0c2-a3826cc5ee3d",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-092",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "9b7eaccc-5399-44ed-9f4d-b74ebf4313c6",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-093",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "953a9b1b-580c-424f-9c85-c7a4fe2b4cba",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-094",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "fa62ea18-874c-4a63-90d3-35bd634bdb46",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-095",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "af2322cd-76cf-42a0-a367-05069380377d",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-096",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "61ce1f00-4895-43bf-9087-57f8868649fa",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-097",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "96b3ea26-debf-4932-b501-67cd6f41a769",
+          "plan_name": "Wellcare Classic (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-132",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "3b6052b9-16ea-4cbf-bf6f-d5838f7e7d34",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-133",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "d4375482-cc21-4ca8-9a33-c9d871d9ba15",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-134",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "f5408412-16da-429a-b2e6-04f0d03a92cc",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-135",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "b5cc6eb0-44d4-43c4-8d56-3222d39085c6",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-136",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "b28f9fc0-3332-4574-818d-205474137f76",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-137",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "954d140a-e847-4a27-9370-1f76d319b89c",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-138",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "2b30cb41-0e70-4bd9-a3a5-206c0f5edb7d",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-139",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "9aea6679-0c8d-4f03-bf2f-3aa9c04b2327",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-140",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "2b73411c-b55c-4789-962b-fd40705c6b8e",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-141",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "157030a2-3114-4da8-8524-62e69f310138",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-142",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "179e6c95-c98f-42c1-aa21-b91558a4cf3a",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-143",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "253d2a55-d4ba-4ea4-8d49-266e220ac027",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-144",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "9cfe9596-629f-410b-a660-dccd09917f63",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-145",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "807b32d9-dc70-4294-a152-3b007a36d68a",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-146",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "ee683394-1436-4cfd-a76c-6fcc7cd514c6",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-147",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "191e85d4-2f58-4a7a-83b0-075568668076",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-148",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "d8ea34c5-d032-443c-9e1e-34232b0bb538",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-149",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "405f7db7-4763-4464-b3bd-f503873cbcb3",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-150",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "b656b5b8-4b76-4ad0-9776-ea8b471c1a4e",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-151",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "e40226b8-eb17-42b6-9618-dcbec6aaddbe",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-152",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "f1e5dcce-f2c5-4867-aa3c-39e42e3cdbbe",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-153",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "5b29630d-baeb-43cb-ad6c-e91cca101ad5",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-154",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "0eadfa2f-96b9-4350-8be3-65f1c6b0205b",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-155",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "13cb3ee4-df8a-4f4f-ae58-87465fa24173",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-156",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "42033186-af93-4b80-b864-5487a2d47b63",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-157",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "ea2885ee-5f23-4740-936c-7db526dc5e99",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-158",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "1c72b93e-e97e-42c0-a687-f76905ef74b4",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-159",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "08821240-9032-43ed-a334-8aea835b41e3",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-160",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "7e21a507-b130-40fb-b3fd-e71cc783c432",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-161",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "5c551e33-1804-4a3e-a7fb-01a865c4f965",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-162",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "a11c7ee5-f052-414a-ac4a-6cb2608c3ffc",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-163",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "20325e2a-bfec-4672-9f1e-b76ff01fbe65",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-164",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "ef2d61f1-364d-4aa1-bb2f-7ec2c14b93b2",
+          "plan_name": "Wellcare Value Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4802-165",
+          "parent_fpi": "000e3086-4430-59d4-a74e-adefa6212c25",
+          "f_plan_id": "555da286-e4a6-4c8b-b869-4bd3a384715e",
+          "plan_name": "Wellcare Value Script (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

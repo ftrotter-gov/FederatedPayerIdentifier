@@ -1,0 +1,45 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "7c87526a-ba55-54aa-bae1-0d80234761f7",
+      "is_fpi": true,
+      "payerLegalName": "PACE ORGANIZATION OF RHODE ISLAND",
+      "payer_level_string_search_matches": [
+        "PACE ORGANIZATION OF RHODE ISLAND"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PACE ORGANIZATION OF RHODE ISLAND"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4105",
+      "is_fpi": false,
+      "parent_fpi": "7c87526a-ba55-54aa-bae1-0d80234761f7"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4105-001",
+          "parent_fpi": "7c87526a-ba55-54aa-bae1-0d80234761f7",
+          "f_plan_id": "006bda47-6e35-4d28-b59b-7be39b94611e",
+          "plan_name": "PACE Organization of Rhode Island (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4105-002",
+          "parent_fpi": "7c87526a-ba55-54aa-bae1-0d80234761f7",
+          "f_plan_id": "eca11d76-53c7-4680-885f-ec05050aec30",
+          "plan_name": "PACE Organization of Rhode Island (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -7,6 +7,11 @@
       "value": "7f24a6d2-b8df-5ad7-a9fb-7c0ec42c5604",
       "is_fpi": true,
       "payerLegalName": "UNITEDHEALTHCARE OF FLORIDA, INC.",
+      "payer_level_string_search_matches": [
+        "UNITEDHEALTHCARE OF FLORIDA, INC.",
+        "UnitedHealthcare",
+        "UnitedHealth Group, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "UNITEDHEALTHCARE OF FLORIDA, INC."
     },
@@ -42,7 +47,10 @@
           "plan_name": "UHC Dual Complete FL-Y5 (HMO-POS D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-mpf.optum-uhc-stage.net/api/cms/plans/H2509/2027",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://flex.optum.com/fhirpublic"
+      }
     }
   ],
   "is_seeded": true

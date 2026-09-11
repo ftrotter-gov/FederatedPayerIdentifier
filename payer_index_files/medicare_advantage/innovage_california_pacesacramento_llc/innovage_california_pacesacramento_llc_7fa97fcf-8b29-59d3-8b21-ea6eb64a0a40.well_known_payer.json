@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "7fa97fcf-8b29-59d3-8b21-ea6eb64a0a40",
+      "is_fpi": true,
+      "payerLegalName": "INNOVAGE CALIFORNIA PACE-SACRAMENTO, LLC",
+      "payer_level_string_search_matches": [
+        "INNOVAGE CALIFORNIA PACE-SACRAMENTO, LLC",
+        "InnovAge California PACE - Sacramento",
+        "Total Community Options, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "INNOVAGE CALIFORNIA PACE-SACRAMENTO, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2368",
+      "is_fpi": false,
+      "parent_fpi": "7fa97fcf-8b29-59d3-8b21-ea6eb64a0a40"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2368-001",
+          "parent_fpi": "7fa97fcf-8b29-59d3-8b21-ea6eb64a0a40",
+          "f_plan_id": "bef45831-660f-4261-8deb-28c498a04e91",
+          "plan_name": "InnovAge California PACE Sacramento Dual Eligibles (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2368-002",
+          "parent_fpi": "7fa97fcf-8b29-59d3-8b21-ea6eb64a0a40",
+          "f_plan_id": "d99a7ed3-2f96-4511-b929-3fcd2aeec08d",
+          "plan_name": "InnovAge California PACE Sacramento Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

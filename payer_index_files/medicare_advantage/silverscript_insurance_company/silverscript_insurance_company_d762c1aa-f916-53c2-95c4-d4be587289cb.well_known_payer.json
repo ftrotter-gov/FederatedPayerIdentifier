@@ -7,6 +7,11 @@
       "value": "d762c1aa-f916-53c2-95c4-d4be587289cb",
       "is_fpi": true,
       "payerLegalName": "SILVERSCRIPT INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "SILVERSCRIPT INSURANCE COMPANY",
+        "Aetna Medicare",
+        "CVS Health Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SILVERSCRIPT INSURANCE COMPANY"
     },
@@ -15,9 +20,412 @@
       "value": "H2293",
       "is_fpi": false,
       "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S5601",
+      "is_fpi": false,
+      "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb"
     }
   ],
   "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-002",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "97151ce1-9849-49ca-bd25-d554e9f8f7a9",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-004",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "2f85e4c9-d944-46da-94a3-bd97ddfb9f8d",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-006",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "83471b25-0223-4cad-8a00-4d504c5cdd45",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-008",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "d483f412-dd9c-464f-93ce-1807ae400619",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-010",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "3da2a954-68c7-4af2-a3fa-3764bdfadbef",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-012",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "2bbc74d6-2b06-4550-abc6-d72ecbe54f38",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-014",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "60f947bb-b50d-45c0-97a8-4fa3b8a864f2",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-016",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "8d2e25e7-d708-4147-a036-b934c678b146",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-018",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "c26d37d1-7865-4bbc-a088-9364193e0e69",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-020",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "c654fed1-364b-40e1-b605-69c2d0fe78a4",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-022",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "75363213-53dc-4dd8-9a49-f5396fdb7560",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-024",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "20281de2-6e0c-4fe7-b79b-6b41c684ec03",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-026",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "55b927cb-d9bc-40ba-90b7-2fa573016b44",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-028",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "8a61d63f-8678-4089-a540-c8feea744754",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-030",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "18be2f0e-f4e8-418e-95b5-aefaf0396f27",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-032",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "0dc68eda-1922-4997-b24d-a6a2a8f682fe",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-034",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "c9743d3b-45af-4761-b078-5e18f1c6e03b",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-036",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "7c04978a-e194-467e-9321-1bb246bcaef8",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-038",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "35c76b0f-2b16-47fa-bc69-580dc01fb595",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-040",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "7a899870-877c-4e02-94c0-b471aa09d2b3",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-042",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "f147112e-69fd-43c4-ade6-ccd42717791a",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-044",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "6dcfc91f-c38c-45c3-8988-03b36f1f71aa",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-048",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "7e951fc7-7783-4614-abe5-55d86083520f",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-050",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "2df4b1dc-9a05-4068-802c-f8b6fdfde677",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-052",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "bfab165f-29d5-490e-9ff2-a7302d558086",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-054",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "e7b97458-105b-451d-b1a2-9f0465e2383d",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-056",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "71905ee6-50be-48a1-a4ec-05b22b177bfd",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-058",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "3585f156-4733-4797-84cc-d714553625d6",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-060",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "e7a71a05-4c5f-4304-ac49-0c97d03ddcde",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-062",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "ab785a18-679e-4236-be24-aeb10cf9ec8a",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-064",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "9efe5bf3-e320-469f-a583-1364eaf71a35",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-066",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "785bba97-c10d-45cd-a755-f892f3aedeb0",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-068",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "55e8d18c-1a7a-4ae5-90e5-aa9dc45c141a",
+          "plan_name": "SilverScript Choice (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-801",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "084704dc-2941-4147-a319-6dbd84cc89c5",
+          "plan_name": "SilverScript Group (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-802",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "60da58b7-d968-404f-be43-77a0247f31d5",
+          "plan_name": "SilverScript Group (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-803",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "6b7d17e4-a2a6-48ca-96a3-5b101fbdbdb2",
+          "plan_name": "SilverScript Group FI AET (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-804",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "834efc91-ccc4-415e-8f99-f06d13ff54b3",
+          "plan_name": "SilverScript Group FI (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-805",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "aafbaad9-0a8d-4743-b5d0-2b214f0929df",
+          "plan_name": "SilverScript Group SF (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-806",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "03076a49-4672-4c53-adca-58f316b73fb4",
+          "plan_name": "SilverScript Group SF AET (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-807",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "7d6b6d1f-5870-4c30-a320-42f544a290f6",
+          "plan_name": "SilverScript Group SF (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-808",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "af472b15-1a5b-4024-85ce-f55355442a82",
+          "plan_name": "SilverScript Group SF - Non Calendar (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-809",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "eeef98ba-fbc9-4487-9089-0aebdd2050ed",
+          "plan_name": "SilverScript Group SF (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-810",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "b844b817-9ba6-4a2a-8d21-9f62fd0d581e",
+          "plan_name": "SilverScript Group SF - Non Calendar (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-811",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "63c43554-47f7-46f3-98a4-e412deadbb09",
+          "plan_name": "SilverScript Group - State of NY (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-812",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "b92b3963-6d0e-48e3-8752-ace530697e89",
+          "plan_name": "SilverScript Group SF- Titanium (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-813",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "0b8e8806-a744-45a0-995a-a2de661714c5",
+          "plan_name": "SilverScript Group SF (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-814",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "43c8ca8e-284e-4f37-b69a-35e2ab9d19cd",
+          "plan_name": "AMRx SilverScript-FI-Standalone MA+PDP Signature+ (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-815",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "f5d384f2-4797-4ed7-b015-5c1298f3d333",
+          "plan_name": "SilverScript Group SF (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-816",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "e8a2562d-8bbc-45bb-ace1-efcf2065b576",
+          "plan_name": "Aetna Medicare Rx offered by SilverScript - FI (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-818",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "0a3ed0c5-8406-4ab0-9c82-c6b95d15bc8a",
+          "plan_name": "Aetna Medicare Rx offered by SilverScript - SF (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-820",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "f31ebad2-8240-414e-beee-42a9dcdb2fb3",
+          "plan_name": "Aetna Medicare Rx offered by SilverScript - DC (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-822",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "297bf86f-9585-4a42-b488-240edfb59441",
+          "plan_name": "AMRx SilverScript - FI - Standalone MA+PDP (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-823",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "a01bbf42-5018-4b92-a6ef-0f11a6f38185",
+          "plan_name": "AMRx SilverScript-SF-Standalone MA+PDP (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-824",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "f8ee19ed-55ff-4066-9ac4-2d8b498371b2",
+          "plan_name": "SilverScript Group-SF-Standalone MA+PDP (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-825",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "6c464946-f348-4493-8e3f-ef4b6e257f12",
+          "plan_name": "SilverScript Group SF AET - Standalone MA+PDP (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5601-826",
+          "parent_fpi": "d762c1aa-f916-53c2-95c4-d4be587289cb",
+          "f_plan_id": "1d6dc25f-645b-4784-8e75-9a650f2c9eed",
+          "plan_name": "SilverScript Group - CalPERS (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
     {
       "plan_identifiers": [
         {
@@ -141,7 +549,7 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.aetna.com/interoperability/2027/H2293/index.json"
       }
     }
   ],

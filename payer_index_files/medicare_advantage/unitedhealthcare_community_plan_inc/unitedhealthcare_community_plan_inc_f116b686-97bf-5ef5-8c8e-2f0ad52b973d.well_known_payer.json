@@ -7,6 +7,11 @@
       "value": "f116b686-97bf-5ef5-8c8e-2f0ad52b973d",
       "is_fpi": true,
       "payerLegalName": "UNITEDHEALTHCARE COMMUNITY PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "UNITEDHEALTHCARE COMMUNITY PLAN, INC.",
+        "UnitedHealthcare",
+        "UnitedHealth Group, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "UNITEDHEALTHCARE COMMUNITY PLAN, INC."
     },
@@ -55,7 +60,17 @@
           "plan_name": "UHC Dual Complete MI-Y1 (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-mpf.optum-uhc-stage.net/api/cms/plans/H2247/2027",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://flex.optum.com/fhirpublic"
+      }
+    },
+    {
+      "plan_identifiers": [],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-mpf.optum-uhc-stage.net/api/cms/plans/H2736/2027",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://flex.optum.com/fhirpublic"
+      }
     }
   ],
   "is_seeded": true

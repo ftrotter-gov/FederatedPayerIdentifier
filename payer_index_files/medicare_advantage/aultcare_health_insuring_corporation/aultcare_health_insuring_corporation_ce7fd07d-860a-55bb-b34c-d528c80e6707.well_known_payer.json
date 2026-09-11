@@ -7,6 +7,11 @@
       "value": "ce7fd07d-860a-55bb-b34c-d528c80e6707",
       "is_fpi": true,
       "payerLegalName": "AULTCARE HEALTH INSURING CORPORATION",
+      "payer_level_string_search_matches": [
+        "AULTCARE HEALTH INSURING CORPORATION",
+        "PrimeTime Health Plan",
+        "Aultman Health Foundation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AULTCARE HEALTH INSURING CORPORATION"
     },
@@ -92,7 +97,8 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://s3.us-east-1.amazonaws.com/cms.providerimport/ProvidorUrlIndex.json"
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://achealthdataservices-providerdirectory.fhir.azurehealthcareapis.com/metadata",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://s3.us-east-1.amazonaws.com/cms.providerimport/index.json"
       }
     }
   ],

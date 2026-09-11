@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "de173cc6-2c06-5a61-9ffb-524a12020861",
+      "is_fpi": true,
+      "payerLegalName": "PACE GREATER NEW ORLEANS",
+      "payer_level_string_search_matches": [
+        "PACE GREATER NEW ORLEANS",
+        "Catholic Charities Archdiocese of New Orleans"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PACE GREATER NEW ORLEANS"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1904",
+      "is_fpi": false,
+      "parent_fpi": "de173cc6-2c06-5a61-9ffb-524a12020861"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1904-001",
+          "parent_fpi": "de173cc6-2c06-5a61-9ffb-524a12020861",
+          "f_plan_id": "83ef8d0a-2ad4-4524-ac66-6a81350890e5",
+          "plan_name": "PACE Greater New Orleans (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1904-002",
+          "parent_fpi": "de173cc6-2c06-5a61-9ffb-524a12020861",
+          "f_plan_id": "488731a4-d2f6-409b-befb-0593e5ac45b6",
+          "plan_name": "PACE Greater New Orleans (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

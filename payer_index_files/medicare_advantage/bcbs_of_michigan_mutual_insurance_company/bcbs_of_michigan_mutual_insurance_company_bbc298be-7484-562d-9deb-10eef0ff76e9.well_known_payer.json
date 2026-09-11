@@ -7,6 +7,11 @@
       "value": "bbc298be-7484-562d-9deb-10eef0ff76e9",
       "is_fpi": true,
       "payerLegalName": "BCBS OF MICHIGAN MUTUAL INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "BCBS OF MICHIGAN MUTUAL INSURANCE COMPANY",
+        "Blue Cross Blue Shield of Michigan",
+        "Blue Cross Blue Shield of Michigan Mutual Ins. Co."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "BCBS OF MICHIGAN MUTUAL INSURANCE COMPANY"
     },
@@ -15,9 +20,48 @@
       "value": "H9572",
       "is_fpi": false,
       "parent_fpi": "bbc298be-7484-562d-9deb-10eef0ff76e9"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S5584",
+      "is_fpi": false,
+      "parent_fpi": "bbc298be-7484-562d-9deb-10eef0ff76e9"
     }
   ],
   "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5584-001",
+          "parent_fpi": "bbc298be-7484-562d-9deb-10eef0ff76e9",
+          "f_plan_id": "c30f5c0c-7999-40b4-8415-311aa31c0084",
+          "plan_name": "Prescription Blue Select (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5584-002",
+          "parent_fpi": "bbc298be-7484-562d-9deb-10eef0ff76e9",
+          "f_plan_id": "e00a11db-f696-496f-9a22-8266e19851b1",
+          "plan_name": "Prescription Blue Premium (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5584-801",
+          "parent_fpi": "bbc298be-7484-562d-9deb-10eef0ff76e9",
+          "f_plan_id": "75aa4849-2c20-4745-ad59-581a59fd9f70",
+          "plan_name": "Prescription Blue Employer Plan CY (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5584-802",
+          "parent_fpi": "bbc298be-7484-562d-9deb-10eef0ff76e9",
+          "f_plan_id": "1492e578-852d-49e7-adb7-1381685785fe",
+          "plan_name": "Prescription Blue Employer Plan non-CY (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
     {
       "plan_identifiers": [
         {
@@ -57,27 +101,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H9572-801",
-          "parent_fpi": "bbc298be-7484-562d-9deb-10eef0ff76e9",
-          "f_plan_id": "68f4a2a6-0745-48a0-bc3f-19740a488f37",
-          "plan_name": "Medicare Plus Blue PPO Employer Rx CY (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H9572-802",
-          "parent_fpi": "bbc298be-7484-562d-9deb-10eef0ff76e9",
-          "f_plan_id": "30f4b094-4f87-429c-8cce-9a091c56db16",
-          "plan_name": "Medicare Plus Blue PPO Employer CY (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H9572-806",
-          "parent_fpi": "bbc298be-7484-562d-9deb-10eef0ff76e9",
-          "f_plan_id": "10ce0420-d354-4af1-b661-c76efaa8e127",
-          "plan_name": "Medicare Plus Blue PPO UT (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9572-008",
           "parent_fpi": "bbc298be-7484-562d-9deb-10eef0ff76e9",
           "f_plan_id": "3c8059aa-bfda-4b5c-81d2-b4ba7994e266",
@@ -99,13 +122,37 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9572-801",
+          "parent_fpi": "bbc298be-7484-562d-9deb-10eef0ff76e9",
+          "f_plan_id": "68f4a2a6-0745-48a0-bc3f-19740a488f37",
+          "plan_name": "Medicare Plus Blue PPO Employer Rx CY (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9572-802",
+          "parent_fpi": "bbc298be-7484-562d-9deb-10eef0ff76e9",
+          "f_plan_id": "30f4b094-4f87-429c-8cce-9a091c56db16",
+          "plan_name": "Medicare Plus Blue PPO Employer CY (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9572-806",
+          "parent_fpi": "bbc298be-7484-562d-9deb-10eef0ff76e9",
+          "f_plan_id": "10ce0420-d354-4af1-b661-c76efaa8e127",
+          "plan_name": "Medicare Plus Blue PPO UT (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9572-807",
           "parent_fpi": "bbc298be-7484-562d-9deb-10eef0ff76e9",
           "f_plan_id": "cbd1e3a3-f61e-48d1-adda-4cd8d83df713",
           "plan_name": "Medicare Plus Blue PPO UT CY (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://cms-uat.healthsparq.com/mpf/v1/H9572/2027/H9572-2027-index.json",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cms-uat.healthsparq.com/mpf/v1/H9572/2027/H9572-2027-index.json"
+      }
     }
   ],
   "is_seeded": true

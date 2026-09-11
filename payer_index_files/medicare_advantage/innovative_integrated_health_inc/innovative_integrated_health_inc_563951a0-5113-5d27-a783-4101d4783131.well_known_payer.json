@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "563951a0-5113-5d27-a783-4101d4783131",
+      "is_fpi": true,
+      "payerLegalName": "INNOVATIVE INTEGRATED HEALTH, INC.",
+      "payer_level_string_search_matches": [
+        "INNOVATIVE INTEGRATED HEALTH, INC.",
+        "Innovative Integrated Health Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "INNOVATIVE INTEGRATED HEALTH, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9592",
+      "is_fpi": false,
+      "parent_fpi": "563951a0-5113-5d27-a783-4101d4783131"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9592-001",
+          "parent_fpi": "563951a0-5113-5d27-a783-4101d4783131",
+          "f_plan_id": "bc3d9c3c-d05e-40b0-b01c-4b53ec038e64",
+          "plan_name": "Innovative Integrated Health (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9592-002",
+          "parent_fpi": "563951a0-5113-5d27-a783-4101d4783131",
+          "f_plan_id": "8d0d281a-6a6b-4dad-a2d0-46d634e759cd",
+          "plan_name": "Innovative Integrated Health (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

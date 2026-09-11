@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "3568f966-dce7-58cb-812d-8f27b8a65408",
+      "is_fpi": true,
+      "payerLegalName": "WELLPOINT WASHINGTON, INC.",
+      "payer_level_string_search_matches": [
+        "WELLPOINT WASHINGTON, INC.",
+        "Wellpoint",
+        "Elevance Health, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WELLPOINT WASHINGTON, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1894",
+      "is_fpi": false,
+      "parent_fpi": "3568f966-dce7-58cb-812d-8f27b8a65408"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1894-002",
+          "parent_fpi": "3568f966-dce7-58cb-812d-8f27b8a65408",
+          "f_plan_id": "bf4bf1e2-7044-4f24-a17d-2fd5407cbedb",
+          "plan_name": "Wellpoint Full Dual Advantage (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1894-011",
+          "parent_fpi": "3568f966-dce7-58cb-812d-8f27b8a65408",
+          "f_plan_id": "791ab420-1129-47d3-845e-e1ce4e2cbd96",
+          "plan_name": "Wellpoint Dual Advantage (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

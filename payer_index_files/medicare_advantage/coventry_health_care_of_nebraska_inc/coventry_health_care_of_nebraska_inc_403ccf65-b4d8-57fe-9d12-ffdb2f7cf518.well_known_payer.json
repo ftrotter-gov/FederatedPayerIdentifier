@@ -7,6 +7,11 @@
       "value": "403ccf65-b4d8-57fe-9d12-ffdb2f7cf518",
       "is_fpi": true,
       "payerLegalName": "COVENTRY HEALTH CARE OF NEBRASKA, INC.",
+      "payer_level_string_search_matches": [
+        "COVENTRY HEALTH CARE OF NEBRASKA, INC.",
+        "Aetna Medicare",
+        "CVS Health Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "COVENTRY HEALTH CARE OF NEBRASKA, INC."
     },
@@ -85,7 +90,7 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.aetna.com/interoperability/2027/H4711/index.json"
       }
     }
   ],

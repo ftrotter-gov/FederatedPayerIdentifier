@@ -1,0 +1,45 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "f4479834-baf4-5f8f-984a-2957156068cb",
+      "is_fpi": true,
+      "payerLegalName": "CARE RESOURCES",
+      "payer_level_string_search_matches": [
+        "CARE RESOURCES"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CARE RESOURCES"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5610",
+      "is_fpi": false,
+      "parent_fpi": "f4479834-baf4-5f8f-984a-2957156068cb"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5610-001",
+          "parent_fpi": "f4479834-baf4-5f8f-984a-2957156068cb",
+          "f_plan_id": "bb9ee0f6-14d8-4ed0-be0e-5e58e4a6b2b8",
+          "plan_name": "Care Resources (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5610-003",
+          "parent_fpi": "f4479834-baf4-5f8f-984a-2957156068cb",
+          "f_plan_id": "a6bec0c8-8211-404f-94f5-a27a96eb535d",
+          "plan_name": "Care Resources (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

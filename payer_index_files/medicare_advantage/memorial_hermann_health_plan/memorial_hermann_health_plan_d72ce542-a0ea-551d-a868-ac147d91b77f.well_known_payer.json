@@ -1,0 +1,74 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "d72ce542-a0ea-551d-a868-ac147d91b77f",
+      "is_fpi": true,
+      "payerLegalName": "MEMORIAL HERMANN HEALTH PLAN",
+      "payer_level_string_search_matches": [
+        "MEMORIAL HERMANN HEALTH PLAN",
+        "Memorial Hermann Health System"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MEMORIAL HERMANN HEALTH PLAN"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7115",
+      "is_fpi": false,
+      "parent_fpi": "d72ce542-a0ea-551d-a868-ac147d91b77f"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7115-001",
+          "parent_fpi": "d72ce542-a0ea-551d-a868-ac147d91b77f",
+          "f_plan_id": "c3439718-df00-4814-af20-59040dc28c28",
+          "plan_name": "Memorial Hermann Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7115-005",
+          "parent_fpi": "d72ce542-a0ea-551d-a868-ac147d91b77f",
+          "f_plan_id": "4d853e05-cc79-4376-a412-7d3e0703b739",
+          "plan_name": "Memorial Hermann Dual Advantage (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7115-006",
+          "parent_fpi": "d72ce542-a0ea-551d-a868-ac147d91b77f",
+          "f_plan_id": "9000c25f-6613-47dd-8a2b-bd3e3fa009fb",
+          "plan_name": "Memorial Hermann Prime Value MA Only (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7115-805",
+          "parent_fpi": "d72ce542-a0ea-551d-a868-ac147d91b77f",
+          "f_plan_id": "4caca1cb-c142-466a-af27-223145721c11",
+          "plan_name": "Memorial Hermann Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7115-806",
+          "parent_fpi": "d72ce542-a0ea-551d-a868-ac147d91b77f",
+          "f_plan_id": "856aec88-ac20-4392-9093-d4d909f4a408",
+          "plan_name": "Memorial Hermann Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7115-807",
+          "parent_fpi": "d72ce542-a0ea-551d-a868-ac147d91b77f",
+          "f_plan_id": "53597313-e187-489c-97a8-381b29a70657",
+          "plan_name": "Memorial Hermann Advantage (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

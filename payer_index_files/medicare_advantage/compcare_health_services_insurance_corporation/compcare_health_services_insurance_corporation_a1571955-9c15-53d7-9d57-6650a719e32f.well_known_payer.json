@@ -7,6 +7,11 @@
       "value": "a1571955-9c15-53d7-9d57-6650a719e32f",
       "is_fpi": true,
       "payerLegalName": "COMPCARE HEALTH SERVICES INSURANCE CORPORATION",
+      "payer_level_string_search_matches": [
+        "COMPCARE HEALTH SERVICES INSURANCE CORPORATION",
+        "Anthem Blue Cross and Blue Shield",
+        "Elevance Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "COMPCARE HEALTH SERVICES INSURANCE CORPORATION"
     },
@@ -147,7 +152,10 @@
           "plan_name": "Anthem Senior Advantage (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://totalview.healthos.anthem.com/cms/H9525/index.json"
+      }
     }
   ],
   "is_seeded": true

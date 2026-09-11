@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "2708616a-1bdb-5ab0-9014-8ea8d36dbcba",
+      "is_fpi": true,
+      "payerLegalName": "APPALACHIAN AGENCY FOR SENIOR CITIZENS, INC.",
+      "payer_level_string_search_matches": [
+        "APPALACHIAN AGENCY FOR SENIOR CITIZENS, INC.",
+        "Appalachian Agency for Senior Citizens, Inc,"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "APPALACHIAN AGENCY FOR SENIOR CITIZENS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2386",
+      "is_fpi": false,
+      "parent_fpi": "2708616a-1bdb-5ab0-9014-8ea8d36dbcba"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2386-001",
+          "parent_fpi": "2708616a-1bdb-5ab0-9014-8ea8d36dbcba",
+          "f_plan_id": "25d9b5a8-68aa-4a8e-9866-bd127e8246f6",
+          "plan_name": "AllCARE for Seniors - Duals- Mount Rogers PACE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2386-002",
+          "parent_fpi": "2708616a-1bdb-5ab0-9014-8ea8d36dbcba",
+          "f_plan_id": "1d04a995-010b-438f-9138-17ce118ff8a0",
+          "plan_name": "AllCARE for Seniors - Medicare only-Mt Rogers PACE (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

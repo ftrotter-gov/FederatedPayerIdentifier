@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "460f9953-f51a-5b73-8db6-c70caef4e26f",
+      "is_fpi": true,
+      "payerLegalName": "Advocates for a Healthy Community, Inc. dba Jordan",
+      "payer_level_string_search_matches": [
+        "Advocates for a Healthy Community, Inc. dba Jordan",
+        "Jordan Valley Senior Care",
+        "Advocates for a Healthy Community, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "Advocates for a Healthy Community, Inc. dba Jordan"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2918",
+      "is_fpi": false,
+      "parent_fpi": "460f9953-f51a-5b73-8db6-c70caef4e26f"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2918-001",
+          "parent_fpi": "460f9953-f51a-5b73-8db6-c70caef4e26f",
+          "f_plan_id": "ff9d26e7-4c57-4f85-9489-a50eeace036f",
+          "plan_name": "Jordan Valley Senior Care - Dual (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2918-002",
+          "parent_fpi": "460f9953-f51a-5b73-8db6-c70caef4e26f",
+          "f_plan_id": "f0f540e7-5a69-49af-b13b-b26407eec617",
+          "plan_name": "Jordan Valley Senior Care - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

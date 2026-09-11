@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "5e645c76-ea92-59bc-b857-0365ca251840",
+      "is_fpi": true,
+      "payerLegalName": "LIFE AT ST. FRANCIS HEALTHCARE, INC.",
+      "payer_level_string_search_matches": [
+        "LIFE AT ST. FRANCIS HEALTHCARE, INC.",
+        "Saint Francis LIFE",
+        "Trinity Health Corporation"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "LIFE AT ST. FRANCIS HEALTHCARE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5493",
+      "is_fpi": false,
+      "parent_fpi": "5e645c76-ea92-59bc-b857-0365ca251840"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5493-001",
+          "parent_fpi": "5e645c76-ea92-59bc-b857-0365ca251840",
+          "f_plan_id": "ac8956d5-08eb-427a-91aa-bacd3cfb775a",
+          "plan_name": "LIFE at St. Francis Healthcare, Inc (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5493-002",
+          "parent_fpi": "5e645c76-ea92-59bc-b857-0365ca251840",
+          "f_plan_id": "3f05e4cc-3104-4fb8-8a51-14ad3710470b",
+          "plan_name": "LIFE at St. Francis Healthcare, Inc (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

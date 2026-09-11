@@ -7,6 +7,11 @@
       "value": "54ce34f5-7f49-5423-b7f2-6f7fe0201545",
       "is_fpi": true,
       "payerLegalName": "PRUITTHEALTH PREMIER, INC.",
+      "payer_level_string_search_matches": [
+        "PRUITTHEALTH PREMIER, INC.",
+        "PruittHealth Premier",
+        "UNICO Services, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "PRUITTHEALTH PREMIER, INC."
     },
@@ -42,7 +47,10 @@
           "plan_name": "PruittHealth Premier Advantage (HMO I-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.curanahealth.com/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhirmpf.curanahealth.com/H3291/2027/"
+      }
     }
   ],
   "is_seeded": true

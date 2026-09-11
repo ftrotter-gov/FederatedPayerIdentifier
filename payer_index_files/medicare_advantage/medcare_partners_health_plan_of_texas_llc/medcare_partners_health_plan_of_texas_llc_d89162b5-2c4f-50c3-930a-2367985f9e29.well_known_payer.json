@@ -1,0 +1,33 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "d89162b5-2c4f-50c3-930a-2367985f9e29",
+      "is_fpi": true,
+      "payerLegalName": "MEDCARE PARTNERS HEALTH PLAN OF TEXAS, LLC",
+      "payer_level_string_search_matches": [
+        "MEDCARE PARTNERS HEALTH PLAN OF TEXAS, LLC"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MEDCARE PARTNERS HEALTH PLAN OF TEXAS, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5767",
+      "is_fpi": false,
+      "parent_fpi": "d89162b5-2c4f-50c3-930a-2367985f9e29"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://providerdirectory.mcpartnerstx.com/fhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://providerdirectory.mcpartnerstx.com/providers/index.json"
+      }
+    }
+  ],
+  "is_seeded": true
+}

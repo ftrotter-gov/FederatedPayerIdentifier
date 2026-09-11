@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "1b07e724-3431-5087-b8f1-ae7b35fbf186",
+      "is_fpi": true,
+      "payerLegalName": "Senior CommUnity Care Of Kentucky",
+      "payer_level_string_search_matches": [
+        "Senior CommUnity Care Of Kentucky",
+        "Volunteers of America National Services"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "Senior CommUnity Care Of Kentucky"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6759",
+      "is_fpi": false,
+      "parent_fpi": "1b07e724-3431-5087-b8f1-ae7b35fbf186"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6759-001",
+          "parent_fpi": "1b07e724-3431-5087-b8f1-ae7b35fbf186",
+          "f_plan_id": "767a36d8-d7ee-4817-a77f-1ffcf559d4d6",
+          "plan_name": "Senior Community Care of KY-Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6759-002",
+          "parent_fpi": "1b07e724-3431-5087-b8f1-ae7b35fbf186",
+          "f_plan_id": "bdb4aa72-b91c-4802-8036-7945f79e0bae",
+          "plan_name": "Senior Community Care of KY-Medicare only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

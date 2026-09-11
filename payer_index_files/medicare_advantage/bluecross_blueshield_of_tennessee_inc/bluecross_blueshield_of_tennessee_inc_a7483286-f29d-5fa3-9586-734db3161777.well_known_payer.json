@@ -7,6 +7,10 @@
       "value": "a7483286-f29d-5fa3-9586-734db3161777",
       "is_fpi": true,
       "payerLegalName": "BLUECROSS BLUESHIELD OF TENNESSEE, INC.",
+      "payer_level_string_search_matches": [
+        "BLUECROSS BLUESHIELD OF TENNESSEE, INC.",
+        "BlueCross BlueShield of Tennessee"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "BLUECROSS BLUESHIELD OF TENNESSEE, INC."
     },
@@ -127,27 +131,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H7917-801",
-          "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777",
-          "f_plan_id": "2144a589-8072-442e-95d8-4b46a3c2d713",
-          "plan_name": "BlueAdvantage Plus (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H7917-802",
-          "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777",
-          "f_plan_id": "b89b06c0-8774-4406-b4bc-a72de4ba318a",
-          "plan_name": "BlueAdvantage Plus (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H7917-803",
-          "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777",
-          "f_plan_id": "fa637ae2-8637-49cd-9aa6-f27bcaa2e069",
-          "plan_name": "BlueAdvantage Plus (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7917-044",
           "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777",
           "f_plan_id": "a54f49b3-3361-44e7-989a-781ea1dac9a0",
@@ -166,9 +149,33 @@
           "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777",
           "f_plan_id": "116d32f9-27a1-4070-a073-89ade7d95a97",
           "plan_name": "BlueAdvantage Total Heart and Diabetes Plus (PPO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7917-801",
+          "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777",
+          "f_plan_id": "2144a589-8072-442e-95d8-4b46a3c2d713",
+          "plan_name": "BlueAdvantage Plus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7917-802",
+          "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777",
+          "f_plan_id": "b89b06c0-8774-4406-b4bc-a72de4ba318a",
+          "plan_name": "BlueAdvantage Plus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7917-803",
+          "parent_fpi": "a7483286-f29d-5fa3-9586-734db3161777",
+          "f_plan_id": "fa637ae2-8637-49cd-9aa6-f27bcaa2e069",
+          "plan_name": "BlueAdvantage Plus (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://provider.bcbst.com/cms_assets/fhir/h7917_index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.bcbst.com/r4/providerdirectory/BCBST/metadata"
+      }
     }
   ],
   "is_seeded": true

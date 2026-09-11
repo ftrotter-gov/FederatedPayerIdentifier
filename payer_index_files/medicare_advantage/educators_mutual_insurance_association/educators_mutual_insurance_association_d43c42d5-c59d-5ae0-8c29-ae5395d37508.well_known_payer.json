@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "d43c42d5-c59d-5ae0-8c29-ae5395d37508",
+      "is_fpi": true,
+      "payerLegalName": "EDUCATORS MUTUAL INSURANCE ASSOCIATION",
+      "payer_level_string_search_matches": [
+        "EDUCATORS MUTUAL INSURANCE ASSOCIATION",
+        "EMI Health"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "EDUCATORS MUTUAL INSURANCE ASSOCIATION"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S5877",
+      "is_fpi": false,
+      "parent_fpi": "d43c42d5-c59d-5ae0-8c29-ae5395d37508"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5877-803",
+          "parent_fpi": "d43c42d5-c59d-5ae0-8c29-ae5395d37508",
+          "f_plan_id": "826a73f8-836f-442d-9bf3-0b5ce7fde71d",
+          "plan_name": "Alpine School District Retiree Plan (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5877-804",
+          "parent_fpi": "d43c42d5-c59d-5ae0-8c29-ae5395d37508",
+          "f_plan_id": "5d10035c-3ddd-4534-b7d2-bd331f957682",
+          "plan_name": "Educators Mutual Retiree Plan (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

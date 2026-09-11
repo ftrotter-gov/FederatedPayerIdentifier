@@ -7,8 +7,19 @@
       "value": "51804d38-3c94-5913-a059-69e63258101d",
       "is_fpi": true,
       "payerLegalName": "MERIDIAN HEALTH PLAN OF MICHIGAN, INC.",
+      "payer_level_string_search_matches": [
+        "MERIDIAN HEALTH PLAN OF MICHIGAN, INC.",
+        "Wellcare",
+        "Centene Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "MERIDIAN HEALTH PLAN OF MICHIGAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2117",
+      "is_fpi": false,
+      "parent_fpi": "51804d38-3c94-5913-a059-69e63258101d"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
@@ -24,6 +35,32 @@
     }
   ],
   "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2117-001",
+          "parent_fpi": "51804d38-3c94-5913-a059-69e63258101d",
+          "f_plan_id": "93e3e520-6174-4c8c-bb23-9208fa6e4398",
+          "plan_name": "Wellcare Simple Open (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2117-002",
+          "parent_fpi": "51804d38-3c94-5913-a059-69e63258101d",
+          "f_plan_id": "48cb0cba-1d45-471d-814b-a3a43084d55a",
+          "plan_name": "Wellcare Dual Access Open (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2117-003",
+          "parent_fpi": "51804d38-3c94-5913-a059-69e63258101d",
+          "f_plan_id": "bbbded87-791b-4fc0-98d3-002164973b4e",
+          "plan_name": "Wellcare Patriot Giveback Open (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
     {
       "plan_identifiers": [
         {
@@ -60,7 +97,15 @@
           "parent_fpi": "51804d38-3c94-5913-a059-69e63258101d",
           "f_plan_id": "abcdc839-3ac5-4076-8428-16f0759b1b78",
           "plan_name": "Wellcare Dual Reserve (HMO-POS D-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H5475index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H7435-001",
@@ -69,7 +114,10 @@
           "plan_name": "Wellcare Meridian Dual Align (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H7435index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
     }
   ],
   "is_seeded": true

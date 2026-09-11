@@ -7,6 +7,11 @@
       "value": "b4b27b31-c5ef-5ecc-b231-0588abc286dc",
       "is_fpi": true,
       "payerLegalName": "SOLIS HEALTH PLANS, INC.",
+      "payer_level_string_search_matches": [
+        "SOLIS HEALTH PLANS, INC.",
+        "Solis Health Plans",
+        "Athena Healthcare Holdings, LLC"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SOLIS HEALTH PLANS, INC."
     },
@@ -190,7 +195,8 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://solisapigwprovider.azurewebsites.net/api/provider-directory/H0982/001/000/fhir.json"
+        "cms_provider_directory_machine_readable_format_endpoint": "https://solisapigwprovider.azurewebsites.net/api/provider-directory/2027/H0982/machine-readable/index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://solisapigwprovider.azurewebsites.net/api/provider-directory/2027/H0982/fhir/index.json"
       }
     }
   ],

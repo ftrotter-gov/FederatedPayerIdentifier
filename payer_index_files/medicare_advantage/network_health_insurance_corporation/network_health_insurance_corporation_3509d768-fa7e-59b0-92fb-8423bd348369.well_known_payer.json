@@ -7,6 +7,11 @@
       "value": "3509d768-fa7e-59b0-92fb-8423bd348369",
       "is_fpi": true,
       "payerLegalName": "NETWORK HEALTH INSURANCE CORPORATION",
+      "payer_level_string_search_matches": [
+        "NETWORK HEALTH INSURANCE CORPORATION",
+        "Network Health Medicare Advantage Plans",
+        "Network Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "NETWORK HEALTH INSURANCE CORPORATION"
     },
@@ -21,9 +26,41 @@
       "value": "H5215",
       "is_fpi": false,
       "parent_fpi": "3509d768-fa7e-59b0-92fb-8423bd348369"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5644",
+      "is_fpi": false,
+      "parent_fpi": "3509d768-fa7e-59b0-92fb-8423bd348369"
     }
   ],
   "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5644-801",
+          "parent_fpi": "3509d768-fa7e-59b0-92fb-8423bd348369",
+          "f_plan_id": "32244fe2-16af-407c-887d-0c8d13b3cd5a",
+          "plan_name": "Network Health Medicare Employer (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5644-802",
+          "parent_fpi": "3509d768-fa7e-59b0-92fb-8423bd348369",
+          "f_plan_id": "68f653c9-fe4b-4667-a4be-a75d5579a21d",
+          "plan_name": "Network Health Medicare Employer CY Pharmacy (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5644-803",
+          "parent_fpi": "3509d768-fa7e-59b0-92fb-8423bd348369",
+          "f_plan_id": "9cbb6a38-bb89-4e5e-9c26-ffc9a63ba0a6",
+          "plan_name": "Network Health Medicare Employer Pharmacy (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
     {
       "plan_identifiers": [
         {
@@ -32,7 +69,15 @@
           "parent_fpi": "3509d768-fa7e-59b0-92fb-8423bd348369",
           "f_plan_id": "6e80a58e-6cc0-498e-84ba-b9961a2520f4",
           "plan_name": "Network Health Prime (MSA)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://data.networkhealth.com/plan-finder-mrf/h1181.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://data.networkhealth.com/plan-finder/H1181_index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5215-002",
@@ -125,7 +170,10 @@
           "plan_name": "Network PlatinumPremier Pharmacy EGP (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://data.networkhealth.com/plan-finder-mrf/h5215.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://data.networkhealth.com/plan-finder/h5215_index.json"
+      }
     }
   ],
   "is_seeded": true

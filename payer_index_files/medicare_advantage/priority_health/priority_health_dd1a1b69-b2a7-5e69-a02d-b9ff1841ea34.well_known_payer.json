@@ -7,6 +7,11 @@
       "value": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
       "is_fpi": true,
       "payerLegalName": "PRIORITY HEALTH",
+      "payer_level_string_search_matches": [
+        "PRIORITY HEALTH",
+        "Priority Health Medicare",
+        "Corewell Health"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "PRIORITY HEALTH"
     },
@@ -53,6 +58,13 @@
           "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
           "f_plan_id": "d00b6117-faf0-43b5-bb01-182536878c7a",
           "plan_name": "PriorityMedicare Vintage (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2320-032",
+          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
+          "f_plan_id": "326f112f-91de-4bf8-a768-2c2875196301",
+          "plan_name": "PriorityMedicare Smart Savings (HMO-POS)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -133,18 +145,19 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H2320-032",
-          "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
-          "f_plan_id": "326f112f-91de-4bf8-a768-2c2875196301",
-          "plan_name": "PriorityMedicare Smart Savings (HMO-POS)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2320-817",
           "parent_fpi": "dd1a1b69-b2a7-5e69-a02d-b9ff1841ea34",
           "f_plan_id": "3425bb7d-5f5a-4487-a797-c140a32b2fa4",
           "plan_name": "PriorityMedicare EG Calendar Year $125 Buyback (HMO)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://eppoa.spectrumhealth.org/FHIRProxy/api/FHIR/BulkPublish/Public/H2320_2027/MPF",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://eppoa.spectrumhealth.org/FHIRProxy/api/FHIR/BulkPublish/Public/PlanNet/H2320_2027/MPF"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4875-016",
@@ -237,7 +250,10 @@
           "plan_name": "PriorityMedicare EG Calendar Year $125 Buy Back (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://eppoa.spectrumhealth.org/FHIRProxy/api/FHIR/BulkPublish/Public/H4875_2027/MPF",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://eppoa.spectrumhealth.org/FHIRProxy/api/FHIR/BulkPublish/Public/H4875_2027/MPF"
+      }
     }
   ],
   "is_seeded": true

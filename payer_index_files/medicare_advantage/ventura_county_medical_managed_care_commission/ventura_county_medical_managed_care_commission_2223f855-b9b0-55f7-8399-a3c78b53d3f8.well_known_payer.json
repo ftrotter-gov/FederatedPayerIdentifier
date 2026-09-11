@@ -7,6 +7,10 @@
       "value": "2223f855-b9b0-55f7-8399-a3c78b53d3f8",
       "is_fpi": true,
       "payerLegalName": "Ventura County Medi-Cal Managed Care Commission",
+      "payer_level_string_search_matches": [
+        "Ventura County Medi-Cal Managed Care Commission",
+        "Gold Coast Health Plan"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "Ventura County Medi-Cal Managed Care Commission"
     },
@@ -28,7 +32,10 @@
           "plan_name": "Gold Coast Health Plan Total Care Advantage (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://us120.fhir.edifecsfedcloud.com/gchp_cmsreport/H9623/index.json",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://uat120.fhir.edifecsfedcloud.com/gchp_cms/cms-report/H9623/index.json"
+      }
     }
   ],
   "is_seeded": true

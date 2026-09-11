@@ -7,6 +7,11 @@
       "value": "ef641e63-05a4-5240-a385-4630e394072b",
       "is_fpi": true,
       "payerLegalName": "KS PLAN ADMINISTRATORS, LLC",
+      "payer_level_string_search_matches": [
+        "KS PLAN ADMINISTRATORS, LLC",
+        "KelseyCare Advantage",
+        "UnitedHealth Group, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "KS PLAN ADMINISTRATORS, LLC"
     },
@@ -133,7 +138,10 @@
           "plan_name": "KelseyCare Advantage Essential Retiree (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.kelseycareadvantage.com/metadata",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://mpf.kelseycareadvantage.com/2027/H0332/index.json"
+      }
     }
   ],
   "is_seeded": true

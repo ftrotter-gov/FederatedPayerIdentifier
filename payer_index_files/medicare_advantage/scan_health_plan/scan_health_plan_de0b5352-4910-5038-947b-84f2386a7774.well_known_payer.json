@@ -7,6 +7,11 @@
       "value": "de0b5352-4910-5038-947b-84f2386a7774",
       "is_fpi": true,
       "payerLegalName": "SCAN HEALTH PLAN",
+      "payer_level_string_search_matches": [
+        "SCAN HEALTH PLAN",
+        "SCAN Group",
+        "VillageHealth"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SCAN HEALTH PLAN"
     },
@@ -45,7 +50,15 @@
           "parent_fpi": "de0b5352-4910-5038-947b-84f2386a7774",
           "f_plan_id": "620f6f98-1a33-4205-8044-bead20a0a185",
           "plan_name": "SCAN Connections at Home (HMO D-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://scan-q-002.sitecorecontenthub.cloud/api/public/content/provider_H0976.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://providerdirectory.scanhealthplan.com"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5425-001",
@@ -314,34 +327,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5425-803",
-          "parent_fpi": "de0b5352-4910-5038-947b-84f2386a7774",
-          "f_plan_id": "3cea3b6b-3177-40ac-8ffd-3636ccd9c4fe",
-          "plan_name": "SCAN Retiree Group (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5425-804",
-          "parent_fpi": "de0b5352-4910-5038-947b-84f2386a7774",
-          "f_plan_id": "ba571e89-5a24-4e9c-8a94-c06323c26e58",
-          "plan_name": "SCAN Retiree Group (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5425-806",
-          "parent_fpi": "de0b5352-4910-5038-947b-84f2386a7774",
-          "f_plan_id": "11148b1a-9286-4413-9054-fc6e15f91974",
-          "plan_name": "SCAN Retiree Group (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5425-807",
-          "parent_fpi": "de0b5352-4910-5038-947b-84f2386a7774",
-          "f_plan_id": "7829215f-9b58-43cd-9ebc-ec61da3e1340",
-          "plan_name": "SCAN Retiree Group (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5425-124",
           "parent_fpi": "de0b5352-4910-5038-947b-84f2386a7774",
           "f_plan_id": "1dbbe6f7-2dac-4819-a92b-478ce175173b",
@@ -426,6 +411,42 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5425-803",
+          "parent_fpi": "de0b5352-4910-5038-947b-84f2386a7774",
+          "f_plan_id": "3cea3b6b-3177-40ac-8ffd-3636ccd9c4fe",
+          "plan_name": "SCAN Retiree Group (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5425-804",
+          "parent_fpi": "de0b5352-4910-5038-947b-84f2386a7774",
+          "f_plan_id": "ba571e89-5a24-4e9c-8a94-c06323c26e58",
+          "plan_name": "SCAN Retiree Group (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5425-806",
+          "parent_fpi": "de0b5352-4910-5038-947b-84f2386a7774",
+          "f_plan_id": "11148b1a-9286-4413-9054-fc6e15f91974",
+          "plan_name": "SCAN Retiree Group (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5425-807",
+          "parent_fpi": "de0b5352-4910-5038-947b-84f2386a7774",
+          "f_plan_id": "7829215f-9b58-43cd-9ebc-ec61da3e1340",
+          "plan_name": "SCAN Retiree Group (HMO)"
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://scan-q-002.sitecorecontenthub.cloud/api/public/content/provider_H5425.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://providerdirectory.scanhealthplan.com"
+      }
+    },
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5943-003",
           "parent_fpi": "de0b5352-4910-5038-947b-84f2386a7774",
           "f_plan_id": "f350af7e-d0c8-4cae-9d7e-0900100723cf",
@@ -439,7 +460,10 @@
           "plan_name": "VillageHealth (HMO-POS C-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://scan-q-002.sitecorecontenthub.cloud/api/public/content/provider_H5493.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://providerdirectory.scanhealthplan.com"
+      }
     }
   ],
   "is_seeded": true

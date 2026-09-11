@@ -1,0 +1,45 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "27816cf9-aafc-55f2-a8aa-f84acd806c65",
+      "is_fpi": true,
+      "payerLegalName": "AGEWELL PACE",
+      "payer_level_string_search_matches": [
+        "AGEWELL PACE"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "AGEWELL PACE"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2541",
+      "is_fpi": false,
+      "parent_fpi": "27816cf9-aafc-55f2-a8aa-f84acd806c65"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2541-001",
+          "parent_fpi": "27816cf9-aafc-55f2-a8aa-f84acd806c65",
+          "f_plan_id": "5ad3b8fd-c584-41cc-9854-e264c0c0bdd6",
+          "plan_name": "AgeWell PACE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2541-002",
+          "parent_fpi": "27816cf9-aafc-55f2-a8aa-f84acd806c65",
+          "f_plan_id": "08675f53-78b4-4b9e-9386-eda5aa8c6eec",
+          "plan_name": "AgeWell PACE Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

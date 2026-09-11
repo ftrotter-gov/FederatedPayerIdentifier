@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "514e2af0-5517-573e-9d8c-edc3fecec8fd",
+      "is_fpi": true,
+      "payerLegalName": "FRANCISCAN ACO, INC.",
+      "payer_level_string_search_matches": [
+        "FRANCISCAN ACO, INC.",
+        "Franciscan  Senior Health & Wellness",
+        "Franciscan Alliance, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "FRANCISCAN ACO, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5124",
+      "is_fpi": false,
+      "parent_fpi": "514e2af0-5517-573e-9d8c-edc3fecec8fd"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5124-001",
+          "parent_fpi": "514e2af0-5517-573e-9d8c-edc3fecec8fd",
+          "f_plan_id": "143418e2-9fa7-4363-953d-40189cf0a756",
+          "plan_name": "Franciscan Senior Health and Wellness (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5124-002",
+          "parent_fpi": "514e2af0-5517-573e-9d8c-edc3fecec8fd",
+          "f_plan_id": "c1021a1e-7cdc-42f4-a261-dabb1e107ab8",
+          "plan_name": "Franciscan Senior Health and Wellness (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

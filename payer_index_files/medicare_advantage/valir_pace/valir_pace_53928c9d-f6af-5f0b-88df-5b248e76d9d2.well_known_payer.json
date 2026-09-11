@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "53928c9d-f6af-5f0b-88df-5b248e76d9d2",
+      "is_fpi": true,
+      "payerLegalName": "VALIR PACE",
+      "payer_level_string_search_matches": [
+        "VALIR PACE",
+        "Valir PACE, LLC."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "VALIR PACE"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7114",
+      "is_fpi": false,
+      "parent_fpi": "53928c9d-f6af-5f0b-88df-5b248e76d9d2"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7114-001",
+          "parent_fpi": "53928c9d-f6af-5f0b-88df-5b248e76d9d2",
+          "f_plan_id": "f041f6f9-cff1-4ed8-9d43-edb772979c9e",
+          "plan_name": "Dual (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7114-002",
+          "parent_fpi": "53928c9d-f6af-5f0b-88df-5b248e76d9d2",
+          "f_plan_id": "9beeb92d-8616-492f-8383-374b6dc1c21e",
+          "plan_name": "Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

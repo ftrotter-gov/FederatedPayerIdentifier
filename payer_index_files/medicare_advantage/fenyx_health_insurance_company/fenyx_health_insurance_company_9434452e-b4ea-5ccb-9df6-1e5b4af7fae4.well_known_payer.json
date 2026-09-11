@@ -1,0 +1,159 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "9434452e-b4ea-5ccb-9df6-1e5b4af7fae4",
+      "is_fpi": true,
+      "payerLegalName": "FENYX HEALTH INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "FENYX HEALTH INSURANCE COMPANY",
+        "Fenyx Health",
+        "Fenyx Health Holdings, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "FENYX HEALTH INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6130",
+      "is_fpi": false,
+      "parent_fpi": "9434452e-b4ea-5ccb-9df6-1e5b4af7fae4"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6130-801",
+          "parent_fpi": "9434452e-b4ea-5ccb-9df6-1e5b4af7fae4",
+          "f_plan_id": "b0d89952-7d0c-46ef-a888-47fdac8d5275",
+          "plan_name": "Fenyx Health Group MSA 50 (MSA)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6130-802",
+          "parent_fpi": "9434452e-b4ea-5ccb-9df6-1e5b4af7fae4",
+          "f_plan_id": "1ef12079-907c-4538-8a86-fa5ee95af862",
+          "plan_name": "Fenyx Health Group MSA 75 (MSA)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6130-803",
+          "parent_fpi": "9434452e-b4ea-5ccb-9df6-1e5b4af7fae4",
+          "f_plan_id": "6b727715-ec49-47fc-ac4e-4a0c266f0bbc",
+          "plan_name": "Fenyx Health Group MSA 100 (MSA)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6130-804",
+          "parent_fpi": "9434452e-b4ea-5ccb-9df6-1e5b4af7fae4",
+          "f_plan_id": "0e9882cb-ebd3-4b83-990b-78640909094e",
+          "plan_name": "Fenyx Health Group MSA 125 (MSA)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6130-805",
+          "parent_fpi": "9434452e-b4ea-5ccb-9df6-1e5b4af7fae4",
+          "f_plan_id": "d974a8a7-7dd9-4503-a633-5047264790f7",
+          "plan_name": "Fenyx Health Group MSA 150 (MSA)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6130-806",
+          "parent_fpi": "9434452e-b4ea-5ccb-9df6-1e5b4af7fae4",
+          "f_plan_id": "a31b6dd8-b1e9-496c-9fe4-6db4b7140766",
+          "plan_name": "Fenyx Health Group MSA 175 (MSA)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6130-807",
+          "parent_fpi": "9434452e-b4ea-5ccb-9df6-1e5b4af7fae4",
+          "f_plan_id": "834cf072-dc09-4aaf-aaa6-25328c6f120b",
+          "plan_name": "Fenyx Health Group MSA 200 (MSA)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6130-808",
+          "parent_fpi": "9434452e-b4ea-5ccb-9df6-1e5b4af7fae4",
+          "f_plan_id": "9bd60398-6a63-40b4-b884-209717a72141",
+          "plan_name": "Fenyx Health Group MSA 250 (MSA)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6130-809",
+          "parent_fpi": "9434452e-b4ea-5ccb-9df6-1e5b4af7fae4",
+          "f_plan_id": "ab2a1989-168a-46c1-98ea-aca0e82722bb",
+          "plan_name": "Fenyx Health Group MSA 300 (MSA)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6130-810",
+          "parent_fpi": "9434452e-b4ea-5ccb-9df6-1e5b4af7fae4",
+          "f_plan_id": "55cc3611-2242-4a3d-bc4a-63c11efbd725",
+          "plan_name": "Fenyx Health Group MSA 350 (MSA)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6130-811",
+          "parent_fpi": "9434452e-b4ea-5ccb-9df6-1e5b4af7fae4",
+          "f_plan_id": "d8289604-05ea-4536-a995-28dce939bcc7",
+          "plan_name": "Fenyx Health Group MSA 400 (MSA)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6130-812",
+          "parent_fpi": "9434452e-b4ea-5ccb-9df6-1e5b4af7fae4",
+          "f_plan_id": "55b862c2-b8c0-4615-868b-20fa03cc6893",
+          "plan_name": "Fenyx Health Group MSA 450 (MSA)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6130-813",
+          "parent_fpi": "9434452e-b4ea-5ccb-9df6-1e5b4af7fae4",
+          "f_plan_id": "f05037ce-7275-4bbd-86d2-d068f1de6773",
+          "plan_name": "Fenyx Health Group MSA 500 (MSA)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6130-814",
+          "parent_fpi": "9434452e-b4ea-5ccb-9df6-1e5b4af7fae4",
+          "f_plan_id": "72498df2-fc56-436e-b89e-97dd2c6f128c",
+          "plan_name": "Fenyx Health Group MSA 600 (MSA)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6130-815",
+          "parent_fpi": "9434452e-b4ea-5ccb-9df6-1e5b4af7fae4",
+          "f_plan_id": "7e267b06-dabe-442f-be35-19741cf6fc0b",
+          "plan_name": "Fenyx Health Group MSA 700 (MSA)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6130-816",
+          "parent_fpi": "9434452e-b4ea-5ccb-9df6-1e5b4af7fae4",
+          "f_plan_id": "fb5ef40e-f675-4636-b0ca-d0a18616e203",
+          "plan_name": "Fenyx Health Group MSA 1000 (MSA)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6130-817",
+          "parent_fpi": "9434452e-b4ea-5ccb-9df6-1e5b4af7fae4",
+          "f_plan_id": "fb820937-6c9f-4e42-ac90-21d094acbdf9",
+          "plan_name": "Fenyx Health Group MSA 1500 (MSA)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6130-818",
+          "parent_fpi": "9434452e-b4ea-5ccb-9df6-1e5b4af7fae4",
+          "f_plan_id": "bba5e4c4-7e2e-44fc-91ca-bd0e31e924e8",
+          "plan_name": "Fenyx Health Group MSA 2000 (MSA)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

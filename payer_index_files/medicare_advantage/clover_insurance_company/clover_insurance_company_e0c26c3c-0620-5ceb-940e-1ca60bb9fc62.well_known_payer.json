@@ -7,18 +7,17 @@
       "value": "e0c26c3c-0620-5ceb-940e-1ca60bb9fc62",
       "is_fpi": true,
       "payerLegalName": "CLOVER INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "CLOVER INSURANCE COMPANY",
+        "Clover Health",
+        "Clover Health Holdings, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "CLOVER INSURANCE COMPANY"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
       "value": "H5141",
-      "is_fpi": false,
-      "parent_fpi": "e0c26c3c-0620-5ceb-940e-1ca60bb9fc62"
-    },
-    {
-      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
-      "value": "R1366",
       "is_fpi": false,
       "parent_fpi": "e0c26c3c-0620-5ceb-940e-1ca60bb9fc62"
     }
@@ -119,20 +118,23 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5141-801",
-          "parent_fpi": "e0c26c3c-0620-5ceb-940e-1ca60bb9fc62",
-          "f_plan_id": "e87dd380-905a-4f82-939e-c8d4e56b3852",
-          "plan_name": "Clover Health Employer Group Plan (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5141-063",
           "parent_fpi": "e0c26c3c-0620-5ceb-940e-1ca60bb9fc62",
           "f_plan_id": "2d283e58-7571-4b81-8cd3-1a86f7c7192b",
           "plan_name": "Clover Health LiveHealthy Giveback (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5141-801",
+          "parent_fpi": "e0c26c3c-0620-5ceb-940e-1ca60bb9fc62",
+          "f_plan_id": "e87dd380-905a-4f82-939e-c8d4e56b3852",
+          "plan_name": "Clover Health Employer Group Plan (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://public-api.cloverhealth.com/swagger",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.cloverhealth.com/members/find-provider"
+      }
     }
   ],
   "is_seeded": true

@@ -1,0 +1,61 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "3f4119df-af3e-5305-b51e-3f4d80b603ea",
+      "is_fpi": true,
+      "payerLegalName": "GHS HEALTH MAINTENANCE ORGANIZATION, INC.",
+      "payer_level_string_search_matches": [
+        "GHS HEALTH MAINTENANCE ORGANIZATION, INC.",
+        "Blue Cross and Blue Shield of Oklahoma",
+        "Health Care Service Corporation"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "GHS HEALTH MAINTENANCE ORGANIZATION, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3979",
+      "is_fpi": false,
+      "parent_fpi": "3f4119df-af3e-5305-b51e-3f4d80b603ea"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3979-001",
+          "parent_fpi": "3f4119df-af3e-5305-b51e-3f4d80b603ea",
+          "f_plan_id": "d02969b4-502e-4b34-8f8f-88a0cfe3624a",
+          "plan_name": "Blue Cross Medicare Advantage Basic (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3979-801",
+          "parent_fpi": "3f4119df-af3e-5305-b51e-3f4d80b603ea",
+          "f_plan_id": "5bce6ee7-5028-49c8-9768-0c055d16b36d",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3979-803",
+          "parent_fpi": "3f4119df-af3e-5305-b51e-3f4d80b603ea",
+          "f_plan_id": "7b3c69fe-d9b7-44c4-9d94-1b8fd0812989",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3979-805",
+          "parent_fpi": "3f4119df-af3e-5305-b51e-3f4d80b603ea",
+          "f_plan_id": "4f4e937d-83eb-4e3c-940c-9106950af2f4",
+          "plan_name": "Blue Cross Group Medicare Advantage Plan (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

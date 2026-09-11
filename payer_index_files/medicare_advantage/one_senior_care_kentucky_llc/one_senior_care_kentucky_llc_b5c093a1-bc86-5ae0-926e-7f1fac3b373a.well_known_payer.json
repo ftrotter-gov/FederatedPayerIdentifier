@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "b5c093a1-bc86-5ae0-926e-7f1fac3b373a",
+      "is_fpi": true,
+      "payerLegalName": "ONE SENIOR CARE KENTUCKY, LLC",
+      "payer_level_string_search_matches": [
+        "ONE SENIOR CARE KENTUCKY, LLC",
+        "Mountain View PACE",
+        "One Senior Care, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ONE SENIOR CARE KENTUCKY, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9468",
+      "is_fpi": false,
+      "parent_fpi": "b5c093a1-bc86-5ae0-926e-7f1fac3b373a"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9468-001",
+          "parent_fpi": "b5c093a1-bc86-5ae0-926e-7f1fac3b373a",
+          "f_plan_id": "8bb982c7-0492-4e5f-a15f-5b97be5d9a3e",
+          "plan_name": "One Senior Care Kentucky LLC - Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9468-002",
+          "parent_fpi": "b5c093a1-bc86-5ae0-926e-7f1fac3b373a",
+          "f_plan_id": "01fa3472-8ef9-4226-8223-b07540601ced",
+          "plan_name": "One Senior Care Kentucky LLC - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

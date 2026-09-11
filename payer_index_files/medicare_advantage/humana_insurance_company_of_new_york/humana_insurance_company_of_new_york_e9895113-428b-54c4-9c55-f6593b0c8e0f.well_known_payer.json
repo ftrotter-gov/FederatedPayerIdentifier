@@ -7,6 +7,11 @@
       "value": "e9895113-428b-54c4-9c55-f6593b0c8e0f",
       "is_fpi": true,
       "payerLegalName": "HUMANA INSURANCE COMPANY OF NEW YORK",
+      "payer_level_string_search_matches": [
+        "HUMANA INSURANCE COMPANY OF NEW YORK",
+        "Humana",
+        "Humana Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HUMANA INSURANCE COMPANY OF NEW YORK"
     },
@@ -47,6 +52,27 @@
           "parent_fpi": "e9895113-428b-54c4-9c55-f6593b0c8e0f",
           "f_plan_id": "9af27449-1c81-4438-ada9-6cffc0f1b4ed",
           "plan_name": "HumanaChoice H5970-029 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5970-030",
+          "parent_fpi": "e9895113-428b-54c4-9c55-f6593b0c8e0f",
+          "f_plan_id": "3e255ed0-d0c5-4fa1-9402-4a7a72b6b13d",
+          "plan_name": "HumanaChoice Giveback H5970-030 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5970-031",
+          "parent_fpi": "e9895113-428b-54c4-9c55-f6593b0c8e0f",
+          "f_plan_id": "22dfa427-eff8-49a2-ab0f-eab66fc87116",
+          "plan_name": "Humana Direct Choice Giveback (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5970-032",
+          "parent_fpi": "e9895113-428b-54c4-9c55-f6593b0c8e0f",
+          "f_plan_id": "e0dca174-a9e4-47f9-8c01-483fb998b6e7",
+          "plan_name": "Humana Direct Choice GIveback (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -131,31 +157,10 @@
           "parent_fpi": "e9895113-428b-54c4-9c55-f6593b0c8e0f",
           "f_plan_id": "9ec80943-d5fe-4fb5-b85f-748dde91ae41",
           "plan_name": "Humana Medicare Employer (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5970-030",
-          "parent_fpi": "e9895113-428b-54c4-9c55-f6593b0c8e0f",
-          "f_plan_id": "3e255ed0-d0c5-4fa1-9402-4a7a72b6b13d",
-          "plan_name": "HumanaChoice Giveback H5970-030 (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5970-031",
-          "parent_fpi": "e9895113-428b-54c4-9c55-f6593b0c8e0f",
-          "f_plan_id": "22dfa427-eff8-49a2-ab0f-eab66fc87116",
-          "plan_name": "Humana Direct Choice Giveback (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5970-032",
-          "parent_fpi": "e9895113-428b-54c4-9c55-f6593b0c8e0f",
-          "f_plan_id": "e0dca174-a9e4-47f9-8c01-483fb998b6e7",
-          "plan_name": "Humana Direct Choice GIveback (PPO)"
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.humana.com/api"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.humana.com/api"
       }
     }
   ],

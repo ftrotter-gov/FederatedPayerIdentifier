@@ -7,6 +7,11 @@
       "value": "951aa0c1-27a6-5e17-830d-902fbfbd7f10",
       "is_fpi": true,
       "payerLegalName": "ETERNALHEALTH OF ARIZONA INC",
+      "payer_level_string_search_matches": [
+        "ETERNALHEALTH OF ARIZONA INC",
+        "eternalHealth",
+        "Eternal Health of Delaware, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ETERNALHEALTH OF ARIZONA INC"
     },
@@ -49,7 +54,10 @@
           "plan_name": "eternalHealth + Fry's Medicare Advantage (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.eternalhealth.com/api",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://directory.eternalHealth.com/mpf/H3551/2027/index.json"
+      }
     }
   ],
   "is_seeded": true

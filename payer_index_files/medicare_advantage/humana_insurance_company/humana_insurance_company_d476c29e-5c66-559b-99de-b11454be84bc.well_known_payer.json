@@ -7,6 +7,11 @@
       "value": "d476c29e-5c66-559b-99de-b11454be84bc",
       "is_fpi": true,
       "payerLegalName": "HUMANA INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "HUMANA INSURANCE COMPANY",
+        "Humana",
+        "Humana Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HUMANA INSURANCE COMPANY"
     },
@@ -344,13 +349,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5216-456",
-          "parent_fpi": "d476c29e-5c66-559b-99de-b11454be84bc",
-          "f_plan_id": "bd4007ae-6a83-43e3-9b10-8e1166237f6c",
-          "plan_name": "Humana Value Choice H5216-456 (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5216-132",
           "parent_fpi": "d476c29e-5c66-559b-99de-b11454be84bc",
           "f_plan_id": "135c622d-9e5a-47ac-b9c6-667f02ea2f31",
@@ -659,20 +657,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5216-464",
-          "parent_fpi": "d476c29e-5c66-559b-99de-b11454be84bc",
-          "f_plan_id": "f2605b46-afbe-4646-850e-11997ff653a9",
-          "plan_name": "HumanaChoice H5216-464 (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5216-465",
-          "parent_fpi": "d476c29e-5c66-559b-99de-b11454be84bc",
-          "f_plan_id": "8121997b-ba94-4b80-b60f-636e23fd3268",
-          "plan_name": "HumanaChoice H5216-465 (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5216-234",
           "parent_fpi": "d476c29e-5c66-559b-99de-b11454be84bc",
           "f_plan_id": "79a76c79-a23b-4cad-93b1-7d87818e151a",
@@ -950,13 +934,6 @@
           "parent_fpi": "d476c29e-5c66-559b-99de-b11454be84bc",
           "f_plan_id": "4b6c1421-b524-4f73-9c60-680b200621d3",
           "plan_name": "HumanaChoice H5216-300 (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5216-455",
-          "parent_fpi": "d476c29e-5c66-559b-99de-b11454be84bc",
-          "f_plan_id": "dee58d70-461f-4b1f-9c3f-b1166ffcf9de",
-          "plan_name": "Humana USAA Honor Giveback (PPO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -1758,6 +1735,27 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5216-453",
+          "parent_fpi": "d476c29e-5c66-559b-99de-b11454be84bc",
+          "f_plan_id": "1db827f6-a5d3-4c38-b5a6-1f35bfc74958",
+          "plan_name": "Humana Together in Health Select (PPO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5216-455",
+          "parent_fpi": "d476c29e-5c66-559b-99de-b11454be84bc",
+          "f_plan_id": "dee58d70-461f-4b1f-9c3f-b1166ffcf9de",
+          "plan_name": "Humana USAA Honor Giveback (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5216-456",
+          "parent_fpi": "d476c29e-5c66-559b-99de-b11454be84bc",
+          "f_plan_id": "bd4007ae-6a83-43e3-9b10-8e1166237f6c",
+          "plan_name": "Humana Value Choice H5216-456 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5216-457",
           "parent_fpi": "d476c29e-5c66-559b-99de-b11454be84bc",
           "f_plan_id": "20bb4bca-bca7-493c-8c77-1b5764d3f8e3",
@@ -1772,10 +1770,66 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5216-461",
+          "parent_fpi": "d476c29e-5c66-559b-99de-b11454be84bc",
+          "f_plan_id": "6b204e50-ad54-4f28-85ea-d0d9987994b6",
+          "plan_name": "HumanaChoice H5216-461 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5216-463",
+          "parent_fpi": "d476c29e-5c66-559b-99de-b11454be84bc",
+          "f_plan_id": "60705d77-c689-47b9-9594-0cea441e8416",
+          "plan_name": "HumanaChoice H5216-463 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5216-464",
+          "parent_fpi": "d476c29e-5c66-559b-99de-b11454be84bc",
+          "f_plan_id": "f2605b46-afbe-4646-850e-11997ff653a9",
+          "plan_name": "HumanaChoice H5216-464 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5216-465",
+          "parent_fpi": "d476c29e-5c66-559b-99de-b11454be84bc",
+          "f_plan_id": "8121997b-ba94-4b80-b60f-636e23fd3268",
+          "plan_name": "HumanaChoice H5216-465 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5216-466",
           "parent_fpi": "d476c29e-5c66-559b-99de-b11454be84bc",
           "f_plan_id": "3e181848-cabe-47da-a436-0861f962f0e6",
           "plan_name": "HumanaChoice H5216-466 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5216-467",
+          "parent_fpi": "d476c29e-5c66-559b-99de-b11454be84bc",
+          "f_plan_id": "ba8cd824-2858-4f9c-9131-7cff89d1ca06",
+          "plan_name": "Humana USAA Honor Giveback (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5216-468",
+          "parent_fpi": "d476c29e-5c66-559b-99de-b11454be84bc",
+          "f_plan_id": "dbf7f5c2-332d-495e-8452-3bd64cd631f4",
+          "plan_name": "HumanaChoice SNP-DE H5216-468 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5216-469",
+          "parent_fpi": "d476c29e-5c66-559b-99de-b11454be84bc",
+          "f_plan_id": "dcbcab77-a55d-4067-bdf2-5442396de79d",
+          "plan_name": "HumanaChoice SNP-DE H5216-469 (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5216-470",
+          "parent_fpi": "d476c29e-5c66-559b-99de-b11454be84bc",
+          "f_plan_id": "8158da50-7fae-4012-b6ef-43982088acb8",
+          "plan_name": "HumanaChoice SNP-DE H5216-470 (PPO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -1860,55 +1914,6 @@
           "parent_fpi": "d476c29e-5c66-559b-99de-b11454be84bc",
           "f_plan_id": "dc795f59-a576-4a47-b494-84046e5da797",
           "plan_name": "Humana Medicare Employer (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5216-453",
-          "parent_fpi": "d476c29e-5c66-559b-99de-b11454be84bc",
-          "f_plan_id": "1db827f6-a5d3-4c38-b5a6-1f35bfc74958",
-          "plan_name": "Humana Together in Health Select (PPO I-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5216-461",
-          "parent_fpi": "d476c29e-5c66-559b-99de-b11454be84bc",
-          "f_plan_id": "6b204e50-ad54-4f28-85ea-d0d9987994b6",
-          "plan_name": "HumanaChoice H5216-461 (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5216-463",
-          "parent_fpi": "d476c29e-5c66-559b-99de-b11454be84bc",
-          "f_plan_id": "60705d77-c689-47b9-9594-0cea441e8416",
-          "plan_name": "HumanaChoice H5216-463 (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5216-467",
-          "parent_fpi": "d476c29e-5c66-559b-99de-b11454be84bc",
-          "f_plan_id": "ba8cd824-2858-4f9c-9131-7cff89d1ca06",
-          "plan_name": "Humana USAA Honor Giveback (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5216-468",
-          "parent_fpi": "d476c29e-5c66-559b-99de-b11454be84bc",
-          "f_plan_id": "dbf7f5c2-332d-495e-8452-3bd64cd631f4",
-          "plan_name": "HumanaChoice SNP-DE H5216-468 (PPO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5216-469",
-          "parent_fpi": "d476c29e-5c66-559b-99de-b11454be84bc",
-          "f_plan_id": "dcbcab77-a55d-4067-bdf2-5442396de79d",
-          "plan_name": "HumanaChoice SNP-DE H5216-469 (PPO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5216-470",
-          "parent_fpi": "d476c29e-5c66-559b-99de-b11454be84bc",
-          "f_plan_id": "8158da50-7fae-4012-b6ef-43982088acb8",
-          "plan_name": "HumanaChoice SNP-DE H5216-470 (PPO D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -2374,7 +2379,7 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.humana.com/api"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.humana.com/api"
       }
     }
   ],

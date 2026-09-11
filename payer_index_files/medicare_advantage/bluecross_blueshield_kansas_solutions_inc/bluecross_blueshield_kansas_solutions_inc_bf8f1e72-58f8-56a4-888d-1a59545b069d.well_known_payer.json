@@ -7,6 +7,11 @@
       "value": "bf8f1e72-58f8-56a4-888d-1a59545b069d",
       "is_fpi": true,
       "payerLegalName": "BLUECROSS BLUESHIELD KANSAS SOLUTIONS, INC.",
+      "payer_level_string_search_matches": [
+        "BLUECROSS BLUESHIELD KANSAS SOLUTIONS, INC.",
+        "Blue Cross and Blue Shield of Kansas",
+        "Blue Cross Blue Shield of Kansas"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "BLUECROSS BLUESHIELD KANSAS SOLUTIONS, INC."
     },
@@ -70,7 +75,10 @@
           "plan_name": "MAPD Group Plan Calendar Year (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.secure.bcbsks.com/bcbsks/fhir-prov-dire/api/v4",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://mrf.secure.bcbsks.com/api/providerdownloadhttptrigger?name=index&ext=json"
+      }
     }
   ],
   "is_seeded": true

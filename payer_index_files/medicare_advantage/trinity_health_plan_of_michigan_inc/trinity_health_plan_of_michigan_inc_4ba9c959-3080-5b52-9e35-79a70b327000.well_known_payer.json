@@ -7,6 +7,11 @@
       "value": "4ba9c959-3080-5b52-9e35-79a70b327000",
       "is_fpi": true,
       "payerLegalName": "TRINITY HEALTH PLAN OF MICHIGAN INC",
+      "payer_level_string_search_matches": [
+        "TRINITY HEALTH PLAN OF MICHIGAN INC",
+        "Trinity Health Plan of Michigan",
+        "Trinity Health Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "TRINITY HEALTH PLAN OF MICHIGAN INC"
     },
@@ -56,7 +61,10 @@
           "plan_name": "Trinity Health Plan of Michigan EGWP 2 (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://forms.medigold.com/cms/H9179.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api-medigold-prd.safhir.io/v1/api/provider-directory"
+      }
     }
   ],
   "is_seeded": true

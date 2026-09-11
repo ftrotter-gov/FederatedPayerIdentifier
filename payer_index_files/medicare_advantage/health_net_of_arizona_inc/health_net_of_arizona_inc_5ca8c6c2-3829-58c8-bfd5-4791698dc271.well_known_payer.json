@@ -7,6 +7,11 @@
       "value": "5ca8c6c2-3829-58c8-bfd5-4791698dc271",
       "is_fpi": true,
       "payerLegalName": "HEALTH NET OF ARIZONA, INC.",
+      "payer_level_string_search_matches": [
+        "HEALTH NET OF ARIZONA, INC.",
+        "Wellcare",
+        "Centene Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HEALTH NET OF ARIZONA, INC."
     },
@@ -105,7 +110,10 @@
           "plan_name": "Wellcare Simple (HMO-POS)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H0351index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
     }
   ],
   "is_seeded": true

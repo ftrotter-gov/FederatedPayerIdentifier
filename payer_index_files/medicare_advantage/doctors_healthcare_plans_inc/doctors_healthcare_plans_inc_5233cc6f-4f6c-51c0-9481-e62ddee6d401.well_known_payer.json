@@ -7,6 +7,9 @@
       "value": "5233cc6f-4f6c-51c0-9481-e62ddee6d401",
       "is_fpi": true,
       "payerLegalName": "DOCTORS HEALTHCARE PLANS, INC.",
+      "payer_level_string_search_matches": [
+        "DOCTORS HEALTHCARE PLANS, INC."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DOCTORS HEALTHCARE PLANS, INC."
     },
@@ -85,7 +88,8 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://us120.fhir.m2.edifecsfedcloud.com/dhcp_pd/PractitionerRole"
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://us120.fhir.m2.edifecsfedcloud.com/dhcp_pd",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://us120.fhir.m2.edifecsfedcloud.com/dhcp_cmsreport/H4140/index.json"
       }
     }
   ],

@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "6009ef32-0673-5a4b-a010-812634ae306b",
+      "is_fpi": true,
+      "payerLegalName": "OSF HEALTHCARE SYSTEM",
+      "payer_level_string_search_matches": [
+        "OSF HEALTHCARE SYSTEM",
+        "OSF Healthcare PACE"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "OSF HEALTHCARE SYSTEM"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3933",
+      "is_fpi": false,
+      "parent_fpi": "6009ef32-0673-5a4b-a010-812634ae306b"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3933-001",
+          "parent_fpi": "6009ef32-0673-5a4b-a010-812634ae306b",
+          "f_plan_id": "c460b8b0-ee23-4b88-b09f-2b9a28f6c5d0",
+          "plan_name": "OSF Healthcare PACE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3933-002",
+          "parent_fpi": "6009ef32-0673-5a4b-a010-812634ae306b",
+          "f_plan_id": "b3991134-84dd-4bc6-85c1-8bc568a4cb65",
+          "plan_name": "OO2 H3933 OSF Healthcare System PACE (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

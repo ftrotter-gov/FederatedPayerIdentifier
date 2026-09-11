@@ -1,0 +1,40 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "858910f3-6bcd-57e0-bb4b-c0c40449ee4d",
+      "is_fpi": true,
+      "payerLegalName": "PROVIDER PARTNERS HEALTH PLAN OF KENTUCKY",
+      "payer_level_string_search_matches": [
+        "PROVIDER PARTNERS HEALTH PLAN OF KENTUCKY",
+        "Provider Partners Health Plans",
+        "Rifkin Managed Care Holding, LLC"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PROVIDER PARTNERS HEALTH PLAN OF KENTUCKY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7275",
+      "is_fpi": false,
+      "parent_fpi": "858910f3-6bcd-57e0-bb4b-c0c40449ee4d"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7275-001",
+          "parent_fpi": "858910f3-6bcd-57e0-bb4b-c0c40449ee4d",
+          "f_plan_id": "9be1814e-6d78-49a6-baa5-f468d0ab8be3",
+          "plan_name": "Provider Partners Kentucky Advantage Plan (HMO I-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

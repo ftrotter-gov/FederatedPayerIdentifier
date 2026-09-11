@@ -1,0 +1,40 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "7a07152d-c9a1-5ef8-b785-3ef3ad369d2b",
+      "is_fpi": true,
+      "payerLegalName": "WELLCARE HEALTH INSURANCE COMPANY OF NEW JERSEY",
+      "payer_level_string_search_matches": [
+        "WELLCARE HEALTH INSURANCE COMPANY OF NEW JERSEY",
+        "Wellcare",
+        "Centene Corporation"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WELLCARE HEALTH INSURANCE COMPANY OF NEW JERSEY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8711",
+      "is_fpi": false,
+      "parent_fpi": "7a07152d-c9a1-5ef8-b785-3ef3ad369d2b"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8711-801",
+          "parent_fpi": "7a07152d-c9a1-5ef8-b785-3ef3ad369d2b",
+          "f_plan_id": "2002f67d-8fe4-4059-8b1e-0750303b80d0",
+          "plan_name": "Wellcare Low Premium Open Group (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "e5041843-2a08-5780-a1e6-e9fe42395d71",
+      "is_fpi": true,
+      "payerLegalName": "TUNGSTEN HEALTH SOUTH LOS ANGELES, LLC",
+      "payer_level_string_search_matches": [
+        "TUNGSTEN HEALTH SOUTH LOS ANGELES, LLC",
+        "Habitat Health South Los Angeles",
+        "Tungsten Health Holdings, LLC"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "TUNGSTEN HEALTH SOUTH LOS ANGELES, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4445",
+      "is_fpi": false,
+      "parent_fpi": "e5041843-2a08-5780-a1e6-e9fe42395d71"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4445-001",
+          "parent_fpi": "e5041843-2a08-5780-a1e6-e9fe42395d71",
+          "f_plan_id": "e24edee3-d128-400f-bbe4-95e1b01b03dd",
+          "plan_name": "Habitat Health South LA - Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4445-002",
+          "parent_fpi": "e5041843-2a08-5780-a1e6-e9fe42395d71",
+          "f_plan_id": "13df41d6-a681-4e12-a942-77b19fec1221",
+          "plan_name": "Habitat Health South LA - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

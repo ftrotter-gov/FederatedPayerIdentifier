@@ -7,6 +7,11 @@
       "value": "431b920f-2235-548c-be6e-9f931d95e051",
       "is_fpi": true,
       "payerLegalName": "AMERICAN HEALTH PLAN OF UT, INC.",
+      "payer_level_string_search_matches": [
+        "AMERICAN HEALTH PLAN OF UT, INC.",
+        "American Health Advantage of Utah",
+        "Mitchell Family Office"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AMERICAN HEALTH PLAN OF UT, INC."
     },
@@ -36,6 +41,7 @@
         }
       ],
       "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://directory.amhealthplans.com/mpfdir/H4232/index.json",
         "davinci_pdex_provider_directory_endpoint#1.1": "https://api-ahp-prd.safhir.io/v1/api/provider-directory/metadata"
       }
     }

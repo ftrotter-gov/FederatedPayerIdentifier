@@ -7,6 +7,11 @@
       "value": "bf53b386-343f-5483-a4c1-e83f9027bc80",
       "is_fpi": true,
       "payerLegalName": "SAPPHIRE EDGE, INC.",
+      "payer_level_string_search_matches": [
+        "SAPPHIRE EDGE, INC.",
+        "Blue Cross and Blue Shield of Nebraska",
+        "Blue Cross Blue Shield of Nebraska"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SAPPHIRE EDGE, INC."
     },
@@ -32,7 +37,15 @@
           "parent_fpi": "bf53b386-343f-5483-a4c1-e83f9027bc80",
           "f_plan_id": "fe762baf-1645-4f05-ba0f-67a4a6aa63c2",
           "plan_name": "Blue Cross and Blue Shield of Nebraska MA Core (HMO)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.bcbsnefhir.com/r4/public/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cms.healthsparq.com/mpf/v1/H3170/2027/H3170-2027-index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8181-001",
@@ -83,7 +96,10 @@
           "plan_name": "BCBSNE Employer Group Rx CY (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.bcbsnefhir.com/r4/public/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cms.healthsparq.com/mpf/v1/H8181/2027/H8181-2027-index.json"
+      }
     }
   ],
   "is_seeded": true

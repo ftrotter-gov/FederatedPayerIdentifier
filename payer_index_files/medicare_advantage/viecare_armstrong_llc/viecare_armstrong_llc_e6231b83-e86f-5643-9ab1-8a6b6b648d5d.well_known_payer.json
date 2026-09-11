@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "e6231b83-e86f-5643-9ab1-8a6b6b648d5d",
+      "is_fpi": true,
+      "payerLegalName": "VIECARE ARMSTRONG, LLC",
+      "payer_level_string_search_matches": [
+        "VIECARE ARMSTRONG, LLC",
+        "LIFE Armstrong",
+        "Lutheran SeniorLife"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "VIECARE ARMSTRONG, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6188",
+      "is_fpi": false,
+      "parent_fpi": "e6231b83-e86f-5643-9ab1-8a6b6b648d5d"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6188-001",
+          "parent_fpi": "e6231b83-e86f-5643-9ab1-8a6b6b648d5d",
+          "f_plan_id": "47336058-4b84-49e2-a9a3-40da47b05a4e",
+          "plan_name": "VieCare Armstrong, LLC dba LIFE Armstrong County (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6188-002",
+          "parent_fpi": "e6231b83-e86f-5643-9ab1-8a6b6b648d5d",
+          "f_plan_id": "27523444-9a45-40aa-bd97-bca593411f39",
+          "plan_name": "VieCare Armstrong, LLC dba LIFE Armstrong County (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

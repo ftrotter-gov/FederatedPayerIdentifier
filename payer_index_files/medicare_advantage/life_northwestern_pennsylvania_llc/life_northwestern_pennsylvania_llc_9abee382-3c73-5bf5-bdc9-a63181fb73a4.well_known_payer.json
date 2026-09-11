@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "9abee382-3c73-5bf5-bdc9-a63181fb73a4",
+      "is_fpi": true,
+      "payerLegalName": "LIFE Northwestern Pennsylvania, LLC",
+      "payer_level_string_search_matches": [
+        "LIFE Northwestern Pennsylvania, LLC",
+        "LIFE Northwestern Pennsylvania",
+        "One Senior Care, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "LIFE Northwestern Pennsylvania, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4999",
+      "is_fpi": false,
+      "parent_fpi": "9abee382-3c73-5bf5-bdc9-a63181fb73a4"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4999-001",
+          "parent_fpi": "9abee382-3c73-5bf5-bdc9-a63181fb73a4",
+          "f_plan_id": "458c82ba-4522-4338-aeb3-84570c48755b",
+          "plan_name": "LIFE Northwestern Pennsylvania (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4999-002",
+          "parent_fpi": "9abee382-3c73-5bf5-bdc9-a63181fb73a4",
+          "f_plan_id": "8cd6d2ed-ae0a-4fcb-a7a4-53601feb7ca5",
+          "plan_name": "LIFE Northwestern Pennsylvania (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

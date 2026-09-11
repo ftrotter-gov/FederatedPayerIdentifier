@@ -1,0 +1,82 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "d470438a-a2ee-59ab-9071-834af7ffda85",
+      "is_fpi": true,
+      "payerLegalName": "BCBS OF ALABAMA & UTIC INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "BCBS OF ALABAMA & UTIC INSURANCE COMPANY",
+        "BlueRx (PDP)",
+        "BlueCross BlueShield of Alabama"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BCBS OF ALABAMA & UTIC INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S1030",
+      "is_fpi": false,
+      "parent_fpi": "d470438a-a2ee-59ab-9071-834af7ffda85"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S1030-001",
+          "parent_fpi": "d470438a-a2ee-59ab-9071-834af7ffda85",
+          "f_plan_id": "c66055b7-c3cd-4b38-a705-7767b1424ee2",
+          "plan_name": "BlueRx Enhanced Plus (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S1030-006",
+          "parent_fpi": "d470438a-a2ee-59ab-9071-834af7ffda85",
+          "f_plan_id": "e7fd191b-7c54-44e7-9a7d-6557e2e16ee8",
+          "plan_name": "BlueRx Essential (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S1030-801",
+          "parent_fpi": "d470438a-a2ee-59ab-9071-834af7ffda85",
+          "f_plan_id": "46caf608-31a7-462f-b11c-2ac2555b4790",
+          "plan_name": "BlueRx Employer Group Plan 801 (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S1030-802",
+          "parent_fpi": "d470438a-a2ee-59ab-9071-834af7ffda85",
+          "f_plan_id": "45b20a44-7d84-46a9-ac7e-e4794c298582",
+          "plan_name": "BlueRx Employer Group Plan 802 (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S1030-803",
+          "parent_fpi": "d470438a-a2ee-59ab-9071-834af7ffda85",
+          "f_plan_id": "d8f21cd7-6ffd-4cf8-a5ba-38d3f86286cf",
+          "plan_name": "BlueRx Employer Group Plan 803 (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S1030-804",
+          "parent_fpi": "d470438a-a2ee-59ab-9071-834af7ffda85",
+          "f_plan_id": "c6b6e2be-27fe-4303-8203-126d87e7cf9f",
+          "plan_name": "BlueRx Employer Group Plan 804 (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S1030-805",
+          "parent_fpi": "d470438a-a2ee-59ab-9071-834af7ffda85",
+          "f_plan_id": "9bd30048-e33d-4143-9e2a-944b62386747",
+          "plan_name": "BlueRx Employer Group Plan 805 (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

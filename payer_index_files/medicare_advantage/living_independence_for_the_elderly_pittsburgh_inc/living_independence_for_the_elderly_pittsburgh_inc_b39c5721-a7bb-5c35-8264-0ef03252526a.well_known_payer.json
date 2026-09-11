@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "b39c5721-a7bb-5c35-8264-0ef03252526a",
+      "is_fpi": true,
+      "payerLegalName": "LIVING INDEPENDENCE FOR THE ELDERLY PITTSBURGH INC",
+      "payer_level_string_search_matches": [
+        "LIVING INDEPENDENCE FOR THE ELDERLY PITTSBURGH INC",
+        "LIFE Pittsburgh"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "LIVING INDEPENDENCE FOR THE ELDERLY PITTSBURGH INC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3918",
+      "is_fpi": false,
+      "parent_fpi": "b39c5721-a7bb-5c35-8264-0ef03252526a"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3918-001",
+          "parent_fpi": "b39c5721-a7bb-5c35-8264-0ef03252526a",
+          "f_plan_id": "76e09811-3d16-4e0e-9d25-40968734df86",
+          "plan_name": "LIFE Pittsburgh Dual Eligibles Pharmacy (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3918-002",
+          "parent_fpi": "b39c5721-a7bb-5c35-8264-0ef03252526a",
+          "f_plan_id": "069e460e-fbb2-4b9e-bd3c-847d27bb0bc5",
+          "plan_name": "LIFE Pittsburgh Medicare Only Pharmacy (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

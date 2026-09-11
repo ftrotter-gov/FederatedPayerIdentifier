@@ -7,8 +7,19 @@
       "value": "48703f73-abbe-52a7-8fa0-93a62461f5a5",
       "is_fpi": true,
       "payerLegalName": "DEAN HEALTH PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "DEAN HEALTH PLAN, INC.",
+        "Medica Holding Company",
+        "Dean Advantage"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEAN HEALTH PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5264",
+      "is_fpi": false,
+      "parent_fpi": "48703f73-abbe-52a7-8fa0-93a62461f5a5"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
@@ -18,6 +29,25 @@
     }
   ],
   "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5264-002",
+          "parent_fpi": "48703f73-abbe-52a7-8fa0-93a62461f5a5",
+          "f_plan_id": "068b9ffa-5a78-4960-95c6-dc0af955440b",
+          "plan_name": "DeanCare Gold Enhanced (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5264-005",
+          "parent_fpi": "48703f73-abbe-52a7-8fa0-93a62461f5a5",
+          "f_plan_id": "c0890f4b-f5a9-4069-a76a-ce109b3fde19",
+          "plan_name": "DeanCare Gold Shared Value (Cost)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
     {
       "plan_identifiers": [
         {
@@ -98,7 +128,10 @@
           "plan_name": "Dean Advantage EGWP MA Only HMOPOS (HMO-POS)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-uat.healthsparq.com/mpf/v1/H9096/2027/H9096-2027-index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://medica.healthsparq.com/api/provider-fhir-service/v1/fhir/"
+      }
     }
   ],
   "is_seeded": true

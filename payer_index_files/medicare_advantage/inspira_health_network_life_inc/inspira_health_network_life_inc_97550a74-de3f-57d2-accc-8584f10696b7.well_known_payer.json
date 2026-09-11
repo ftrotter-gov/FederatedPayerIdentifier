@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "97550a74-de3f-57d2-accc-8584f10696b7",
+      "is_fpi": true,
+      "payerLegalName": "INSPIRA HEALTH NETWORK LIFE, INC.",
+      "payer_level_string_search_matches": [
+        "INSPIRA HEALTH NETWORK LIFE, INC.",
+        "Inspira Health Network LIFE",
+        "Inspira Health Network, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "INSPIRA HEALTH NETWORK LIFE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6887",
+      "is_fpi": false,
+      "parent_fpi": "97550a74-de3f-57d2-accc-8584f10696b7"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6887-001",
+          "parent_fpi": "97550a74-de3f-57d2-accc-8584f10696b7",
+          "f_plan_id": "2d552cef-3e81-4077-b150-d4df6eb94078",
+          "plan_name": "Inspira Health Network LIFE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6887-002",
+          "parent_fpi": "97550a74-de3f-57d2-accc-8584f10696b7",
+          "f_plan_id": "afc57d64-b6c4-4346-81c9-c7f7037a2fb1",
+          "plan_name": "Inspira Health Network LIFE (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

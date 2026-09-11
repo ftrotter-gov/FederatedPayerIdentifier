@@ -7,6 +7,11 @@
       "value": "7efa14bc-c4c9-5e60-a139-9da1ca5afec9",
       "is_fpi": true,
       "payerLegalName": "UNITEDHEALTHCARE COMMUNITY PLAN OF OHIO, INC.",
+      "payer_level_string_search_matches": [
+        "UNITEDHEALTHCARE COMMUNITY PLAN OF OHIO, INC.",
+        "UnitedHealthcare Community Plan",
+        "UnitedHealth Group, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "UNITEDHEALTHCARE COMMUNITY PLAN OF OHIO, INC."
     },

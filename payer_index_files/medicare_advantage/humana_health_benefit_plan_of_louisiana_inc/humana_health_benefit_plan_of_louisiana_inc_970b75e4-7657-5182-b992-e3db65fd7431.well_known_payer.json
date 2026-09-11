@@ -7,6 +7,11 @@
       "value": "970b75e4-7657-5182-b992-e3db65fd7431",
       "is_fpi": true,
       "payerLegalName": "HUMANA HEALTH BENEFIT PLAN OF LOUISIANA, INC.",
+      "payer_level_string_search_matches": [
+        "HUMANA HEALTH BENEFIT PLAN OF LOUISIANA, INC.",
+        "Humana",
+        "Humana Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HUMANA HEALTH BENEFIT PLAN OF LOUISIANA, INC."
     },
@@ -148,6 +153,20 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1951-060",
+          "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
+          "f_plan_id": "d34b160c-334f-4bfb-ae69-a827f78306a6",
+          "plan_name": "Humana USAA Honor Giveback (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1951-061",
+          "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
+          "f_plan_id": "49496ebb-1426-4a1d-ae0c-0f2a41ebb28f",
+          "plan_name": "Humana Gold Plus SNP-DE H1951-061 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1951-801",
           "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
           "f_plan_id": "fe894e8a-ef7d-46ef-8ff3-d092387837d2",
@@ -173,24 +192,10 @@
           "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
           "f_plan_id": "baf25712-5bf9-4cce-9127-b97e2564e78b",
           "plan_name": "Humana Medicare Employer (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H1951-060",
-          "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
-          "f_plan_id": "d34b160c-334f-4bfb-ae69-a827f78306a6",
-          "plan_name": "Humana USAA Honor Giveback (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H1951-061",
-          "parent_fpi": "970b75e4-7657-5182-b992-e3db65fd7431",
-          "f_plan_id": "49496ebb-1426-4a1d-ae0c-0f2a41ebb28f",
-          "plan_name": "Humana Gold Plus SNP-DE H1951-061 (HMO D-SNP)"
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.humana.com/api"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.humana.com/api"
       }
     }
   ],

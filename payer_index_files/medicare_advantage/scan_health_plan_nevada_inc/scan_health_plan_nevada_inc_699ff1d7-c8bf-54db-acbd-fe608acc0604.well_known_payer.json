@@ -7,6 +7,11 @@
       "value": "699ff1d7-c8bf-54db-acbd-fe608acc0604",
       "is_fpi": true,
       "payerLegalName": "SCAN HEALTH PLAN NEVADA, INC.",
+      "payer_level_string_search_matches": [
+        "SCAN HEALTH PLAN NEVADA, INC.",
+        "SCAN Health Plan",
+        "SCAN Group"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SCAN HEALTH PLAN NEVADA, INC."
     },
@@ -77,7 +82,10 @@
           "plan_name": "SCAN Retiree Group (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://scan-q-002.sitecorecontenthub.cloud/api/public/content/provider_H0978.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://providerdirectory.scanhealthplan.com"
+      }
     }
   ],
   "is_seeded": true

@@ -7,6 +7,11 @@
       "value": "2b359857-03bd-5936-aa30-26bc2b33ac29",
       "is_fpi": true,
       "payerLegalName": "ARKANSAS SUPERIOR SELECT, INC.",
+      "payer_level_string_search_matches": [
+        "ARKANSAS SUPERIOR SELECT, INC.",
+        "Arkansas Superior Select Health Plans",
+        "Select Founders, LLC"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ARKANSAS SUPERIOR SELECT, INC."
     },
@@ -35,7 +40,10 @@
           "plan_name": "Tribute Select (HMO-POS I-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://assi.pdjson-h1587.prd.healixcloud.net/index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://assi.fp-h1587.prd.healixcloud.net/pd/fhir/Practitioner?_count=10"
+      }
     }
   ],
   "is_seeded": true

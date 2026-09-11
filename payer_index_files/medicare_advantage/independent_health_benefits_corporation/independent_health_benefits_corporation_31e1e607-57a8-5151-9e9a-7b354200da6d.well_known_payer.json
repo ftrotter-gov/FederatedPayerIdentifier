@@ -7,6 +7,12 @@
       "value": "31e1e607-57a8-5151-9e9a-7b354200da6d",
       "is_fpi": true,
       "payerLegalName": "INDEPENDENT HEALTH BENEFITS CORPORATION",
+      "payer_level_string_search_matches": [
+        "INDEPENDENT HEALTH BENEFITS CORPORATION",
+        "Independent Health",
+        "Independent Health Association, Inc.",
+        "Pharmacy Benefit Dimensions PDP"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "INDEPENDENT HEALTH BENEFITS CORPORATION"
     },
@@ -15,9 +21,132 @@
       "value": "H3344",
       "is_fpi": false,
       "parent_fpi": "31e1e607-57a8-5151-9e9a-7b354200da6d"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S4501",
+      "is_fpi": false,
+      "parent_fpi": "31e1e607-57a8-5151-9e9a-7b354200da6d"
     }
   ],
   "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4501-801",
+          "parent_fpi": "31e1e607-57a8-5151-9e9a-7b354200da6d",
+          "f_plan_id": "1e987905-4d8d-4b1e-b5e4-1cb660dc34fa",
+          "plan_name": "Pharmacy Benefit Dimensions PDP-1 (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4501-802",
+          "parent_fpi": "31e1e607-57a8-5151-9e9a-7b354200da6d",
+          "f_plan_id": "576e99c2-a0d9-4bc0-be4c-8ffa48c57e60",
+          "plan_name": "Pharmacy Benefit Dimensions PDP-2 (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4501-803",
+          "parent_fpi": "31e1e607-57a8-5151-9e9a-7b354200da6d",
+          "f_plan_id": "f1ec5fcb-5bb3-417b-8241-ac65575a2fcd",
+          "plan_name": "Pharmacy Benefit Dimensions PDP-3 (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4501-804",
+          "parent_fpi": "31e1e607-57a8-5151-9e9a-7b354200da6d",
+          "f_plan_id": "8049a2a4-1bb1-4ea6-82dc-e2f3e8117f85",
+          "plan_name": "Pharmacy Benefit Dimensions PDP-4 (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4501-805",
+          "parent_fpi": "31e1e607-57a8-5151-9e9a-7b354200da6d",
+          "f_plan_id": "6810db86-05c3-43e7-b173-c5e61ea8ed25",
+          "plan_name": "Pharmacy Benefit Dimensions PDP-5 (LV) (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4501-806",
+          "parent_fpi": "31e1e607-57a8-5151-9e9a-7b354200da6d",
+          "f_plan_id": "26949fc5-6401-4b8a-a26d-36b4bc80f340",
+          "plan_name": "Pharmacy Benefit Dimensions PDP-6 (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4501-807",
+          "parent_fpi": "31e1e607-57a8-5151-9e9a-7b354200da6d",
+          "f_plan_id": "22405983-d86f-4137-bcb5-cfa7c074402e",
+          "plan_name": "Pharmacy Benefit Dimensions PDP-7 (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4501-808",
+          "parent_fpi": "31e1e607-57a8-5151-9e9a-7b354200da6d",
+          "f_plan_id": "876bb1c8-d097-41ce-ba20-9b3786f45110",
+          "plan_name": "Pharmacy Benefit Dimemsions PDP-8 (WD) (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4501-809",
+          "parent_fpi": "31e1e607-57a8-5151-9e9a-7b354200da6d",
+          "f_plan_id": "a06c9c36-55ea-457d-b4a5-963855ccb31c",
+          "plan_name": "Pharmacy Benefit Dimensions PDP-9 (WD) (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4501-810",
+          "parent_fpi": "31e1e607-57a8-5151-9e9a-7b354200da6d",
+          "f_plan_id": "8e9a6d79-53ae-4e2b-8d07-a672519c51bb",
+          "plan_name": "Pharmacy Benefit Dimensions PDP-10 (WD) (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4501-811",
+          "parent_fpi": "31e1e607-57a8-5151-9e9a-7b354200da6d",
+          "f_plan_id": "73982880-3497-4e61-8106-d7b1694de34e",
+          "plan_name": "Pharmacy Benefit Dimensions PDP-11 (WD) (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4501-812",
+          "parent_fpi": "31e1e607-57a8-5151-9e9a-7b354200da6d",
+          "f_plan_id": "5210b280-1ec6-483c-8ec8-bce7680bb4ca",
+          "plan_name": "Pharmacy Benefit Dimensions PDP-12 (WD) (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4501-813",
+          "parent_fpi": "31e1e607-57a8-5151-9e9a-7b354200da6d",
+          "f_plan_id": "202b06e4-66ff-49b4-9896-b4e96bfe6f7e",
+          "plan_name": "Pharmacy Benefit Dimensions PDP-13 (WD) (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4501-814",
+          "parent_fpi": "31e1e607-57a8-5151-9e9a-7b354200da6d",
+          "f_plan_id": "9e0e1f36-4aba-4b92-a18e-0dabfe529c3b",
+          "plan_name": "Pharmacy Benefit Dimensions PDP-14 (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4501-815",
+          "parent_fpi": "31e1e607-57a8-5151-9e9a-7b354200da6d",
+          "f_plan_id": "3d2305cc-d4f5-4adb-8b9f-ee4dfc23cba1",
+          "plan_name": "Pharmacy Benefit Dimensions PDP-15 (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S4501-816",
+          "parent_fpi": "31e1e607-57a8-5151-9e9a-7b354200da6d",
+          "f_plan_id": "a713ba79-1337-4d8e-ac7c-5569b558a112",
+          "plan_name": "Pharmacy Benefit Dimensions PDP-16 (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
     {
       "plan_identifiers": [
         {
@@ -49,7 +178,10 @@
           "plan_name": "Independent Health's Medicare PPO Base (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://ihfhir.healthsparq.com/api/provider-fhir-service/v1/fhir/metadata",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cms.healthsparq.com/mpf/v1/H3344/2027/H3344-2027-index.json"
+      }
     }
   ],
   "is_seeded": true

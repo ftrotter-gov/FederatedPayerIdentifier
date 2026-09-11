@@ -7,6 +7,11 @@
       "value": "3d1f1587-f654-5520-b69f-fc04d3bc8cca",
       "is_fpi": true,
       "payerLegalName": "USABLE HMO, INC.",
+      "payer_level_string_search_matches": [
+        "USABLE HMO, INC.",
+        "Arkansas Blue Medicare",
+        "USAble Mutual Insurance Company"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "USABLE HMO, INC."
     },
@@ -39,7 +44,15 @@
           "parent_fpi": "3d1f1587-f654-5520-b69f-fc04d3bc8cca",
           "f_plan_id": "b11929fb-6cee-4459-98f4-9c493d6b3290",
           "plan_name": "BlueMedicare Independence (HMO)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://arkbluecross.healthsparq.com/api/provider-fhir-service",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cms.healthsparq.com/mpf/v1/H6158/2027/H6158-2027-index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9699-007",
@@ -48,7 +61,10 @@
           "plan_name": "BlueMedicare Classic Plus (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://arkbluecross.healthsparq.com/api/provider-fhir-service",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cms.healthsparq.com/mpf/v1/H9699/2027/H9699-2027-index.json"
+      }
     }
   ],
   "is_seeded": true

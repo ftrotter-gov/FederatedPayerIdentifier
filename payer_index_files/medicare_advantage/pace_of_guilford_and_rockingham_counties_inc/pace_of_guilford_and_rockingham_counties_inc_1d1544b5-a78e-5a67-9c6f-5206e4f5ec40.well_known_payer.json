@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "1d1544b5-a78e-5a67-9c6f-5206e4f5ec40",
+      "is_fpi": true,
+      "payerLegalName": "PACE OF GUILFORD AND ROCKINGHAM COUNTIES, INC.",
+      "payer_level_string_search_matches": [
+        "PACE OF GUILFORD AND ROCKINGHAM COUNTIES, INC.",
+        "PACE OF THE TRIAD",
+        "Well-Spring Services, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PACE OF GUILFORD AND ROCKINGHAM COUNTIES, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6059",
+      "is_fpi": false,
+      "parent_fpi": "1d1544b5-a78e-5a67-9c6f-5206e4f5ec40"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6059-001",
+          "parent_fpi": "1d1544b5-a78e-5a67-9c6f-5206e4f5ec40",
+          "f_plan_id": "0a9e9ba2-f120-4361-ad38-631100e11eb5",
+          "plan_name": "PACE of The Triad - Dual (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6059-002",
+          "parent_fpi": "1d1544b5-a78e-5a67-9c6f-5206e4f5ec40",
+          "f_plan_id": "b567ccdd-fa04-422f-a7b6-7ddd923c0e9d",
+          "plan_name": "PACE of The Triad - Medicare only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

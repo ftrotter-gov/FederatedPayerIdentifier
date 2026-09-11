@@ -1,0 +1,33 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "974ec651-77af-50b9-b18e-f7239c8c465e",
+      "is_fpi": true,
+      "payerLegalName": "DEVOTED HEALTH INSURANCE COMPANY OF MISSOURI",
+      "payer_level_string_search_matches": [
+        "DEVOTED HEALTH INSURANCE COMPANY OF MISSOURI"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "DEVOTED HEALTH INSURANCE COMPANY OF MISSOURI"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4030",
+      "is_fpi": false,
+      "parent_fpi": "974ec651-77af-50b9-b18e-f7239c8c465e"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.devoted.com/fhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.devoted.com/H4030/2027"
+      }
+    }
+  ],
+  "is_seeded": true
+}

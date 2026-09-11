@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "31b06d8a-60a5-5dd0-a8b8-f06f8a9c64be",
+      "is_fpi": true,
+      "payerLegalName": "CLINICAS DE SALUD DEL PUEBLO, INC.",
+      "payer_level_string_search_matches": [
+        "CLINICAS DE SALUD DEL PUEBLO, INC.",
+        "PACE by Innercare"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CLINICAS DE SALUD DEL PUEBLO, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6796",
+      "is_fpi": false,
+      "parent_fpi": "31b06d8a-60a5-5dd0-a8b8-f06f8a9c64be"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6796-001",
+          "parent_fpi": "31b06d8a-60a5-5dd0-a8b8-f06f8a9c64be",
+          "f_plan_id": "a0a584c1-6532-4f68-b67c-b43d100c986c",
+          "plan_name": "Innercare PACE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6796-002",
+          "parent_fpi": "31b06d8a-60a5-5dd0-a8b8-f06f8a9c64be",
+          "f_plan_id": "5cf93919-8632-42f1-9b8f-32e3eafedb72",
+          "plan_name": "Innercare PACE (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

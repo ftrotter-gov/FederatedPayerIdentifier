@@ -7,6 +7,11 @@
       "value": "34f06611-5079-54c4-b7d3-30fbe00e24d1",
       "is_fpi": true,
       "payerLegalName": "QCC INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "QCC INSURANCE COMPANY",
+        "Independence Blue Cross",
+        "Independence Health Group, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "QCC INSURANCE COMPANY"
     },
@@ -15,9 +20,34 @@
       "value": "H3909",
       "is_fpi": false,
       "parent_fpi": "34f06611-5079-54c4-b7d3-30fbe00e24d1"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S6875",
+      "is_fpi": false,
+      "parent_fpi": "34f06611-5079-54c4-b7d3-30fbe00e24d1"
     }
   ],
   "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S6875-801",
+          "parent_fpi": "34f06611-5079-54c4-b7d3-30fbe00e24d1",
+          "f_plan_id": "b0a914ff-ec9a-4f95-a99f-c50b2fe09ce9",
+          "plan_name": "Select Option Rx Group Option I CY (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S6875-802",
+          "parent_fpi": "34f06611-5079-54c4-b7d3-30fbe00e24d1",
+          "f_plan_id": "b9aaaf56-1123-4213-bf93-5834afc62264",
+          "plan_name": "Select Option Rx Group Option CY (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
     {
       "plan_identifiers": [
         {
@@ -50,6 +80,13 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3909-020",
+          "parent_fpi": "34f06611-5079-54c4-b7d3-30fbe00e24d1",
+          "f_plan_id": "3bfa1226-9934-4633-9256-b4372c0b075e",
+          "plan_name": "Personal Choice 65 Achieve Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3909-801",
           "parent_fpi": "34f06611-5079-54c4-b7d3-30fbe00e24d1",
           "f_plan_id": "620dd232-1b56-4721-9d94-2c2a4b471c01",
@@ -61,17 +98,11 @@
           "parent_fpi": "34f06611-5079-54c4-b7d3-30fbe00e24d1",
           "f_plan_id": "db71b353-8d76-42a5-a5e7-8a746b2d2353",
           "plan_name": "Personal Choice 65 Group Rx (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H3909-020",
-          "parent_fpi": "34f06611-5079-54c4-b7d3-30fbe00e24d1",
-          "f_plan_id": "3bfa1226-9934-4633-9256-b4372c0b075e",
-          "plan_name": "Personal Choice 65 Achieve Rx (PPO)"
         }
       ],
       "plan_endpoints": {
-        "cms_provider_directory_machine_readable_format_endpoint": "https://ibx.healthsparq.com/healthsparq/public/#/one/insurerCode=BLUEIBX_I&brandCode=BLUEIBXMCARE&productCode=ALL"
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://eapics.ibx.com/provider/v1/fhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://eapics.qa.ibx.com/api/mpf/IBC/2027/H3909/index.json"
       }
     }
   ],

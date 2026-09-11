@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "a72e0d99-ab86-5696-b4cc-019feebda4e1",
+      "is_fpi": true,
+      "payerLegalName": "BROWARD PACE PROGRAM LLC",
+      "payer_level_string_search_matches": [
+        "BROWARD PACE PROGRAM LLC",
+        "Broward PACE Program, LLC",
+        "SFH PACE Holdings LLC"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BROWARD PACE PROGRAM LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8982",
+      "is_fpi": false,
+      "parent_fpi": "a72e0d99-ab86-5696-b4cc-019feebda4e1"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8982-001",
+          "parent_fpi": "a72e0d99-ab86-5696-b4cc-019feebda4e1",
+          "f_plan_id": "ce8407a1-a2b4-4df6-910a-1417d2910ce0",
+          "plan_name": "Broward PACE Program (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8982-003",
+          "parent_fpi": "a72e0d99-ab86-5696-b4cc-019feebda4e1",
+          "f_plan_id": "63e532e8-681c-4d86-a7c4-da9e48e3bb7d",
+          "plan_name": "Broward PACE Program - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

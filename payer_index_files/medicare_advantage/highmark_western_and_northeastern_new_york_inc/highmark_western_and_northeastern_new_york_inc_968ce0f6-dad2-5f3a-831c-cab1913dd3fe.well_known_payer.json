@@ -7,6 +7,11 @@
       "value": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
       "is_fpi": true,
       "payerLegalName": "Highmark Western and Northeastern New York Inc.",
+      "payer_level_string_search_matches": [
+        "Highmark Western and Northeastern New York Inc.",
+        "Highmark Blue Cross Blue Shield or Highmark Blue Shield",
+        "Highmark Health"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "Highmark Western and Northeastern New York Inc."
     },
@@ -21,9 +26,34 @@
       "value": "H5526",
       "is_fpi": false,
       "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S1140",
+      "is_fpi": false,
+      "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe"
     }
   ],
   "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S1140-801",
+          "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
+          "f_plan_id": "6063f43b-ae8b-44fa-9a6f-c108f1f7f272",
+          "plan_name": "Group PDP (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S1140-802",
+          "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
+          "f_plan_id": "bf578ed8-9e43-4529-a3bd-de9203462b0c",
+          "plan_name": "Group PDP Enhanced (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
     {
       "plan_identifiers": [
         {
@@ -46,6 +76,27 @@
           "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
           "f_plan_id": "e9bb0e60-4fd3-4d61-ab83-032b7040d998",
           "plan_name": "Senior Blue 601 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3384-069",
+          "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
+          "f_plan_id": "c637f24b-baf5-4b12-a1a8-b76aa7063b29",
+          "plan_name": "Community Blue Medicare HMO Signature (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3384-070",
+          "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
+          "f_plan_id": "c6e12101-3d35-42f2-b863-f412b2c3ad15",
+          "plan_name": "Community Blue Medicare HMO Distinct (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3384-071",
+          "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
+          "f_plan_id": "eed3cacd-0b5c-4b82-b1d8-a586da064a59",
+          "plan_name": "Community Blue Medicare HMO Merit (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -81,27 +132,6 @@
           "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
           "f_plan_id": "6e05c68c-b4b8-4749-9957-c5c1518e6dcd",
           "plan_name": "HMO Group  (MA-PD) ASO Calendar Year (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H3384-069",
-          "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
-          "f_plan_id": "c637f24b-baf5-4b12-a1a8-b76aa7063b29",
-          "plan_name": "Community Blue Medicare HMO Signature (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H3384-070",
-          "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
-          "f_plan_id": "c6e12101-3d35-42f2-b863-f412b2c3ad15",
-          "plan_name": "Community Blue Medicare HMO Distinct (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H3384-071",
-          "parent_fpi": "968ce0f6-dad2-5f3a-831c-cab1913dd3fe",
-          "f_plan_id": "eed3cacd-0b5c-4b82-b1d8-a586da064a59",
-          "plan_name": "Community Blue Medicare HMO Merit (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -153,7 +183,10 @@
           "plan_name": "PPO Group  (MA-PD) ASO Calendar Year (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://apicmsqa.hmhs.com/cms/fhir/v4/providers/HMNY/Practitioner",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://mrfdata.hmhs.com/files/smilecdr/inbound/HMNY_Provider_Directory_Index.json"
+      }
     }
   ],
   "is_seeded": true

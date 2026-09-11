@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "e67580b0-af2c-59f8-b73d-9b04bcafd547",
+      "is_fpi": true,
+      "payerLegalName": "CENTRA HEALTH, INC.",
+      "payer_level_string_search_matches": [
+        "CENTRA HEALTH, INC.",
+        "Centra PACE"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CENTRA HEALTH, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8096",
+      "is_fpi": false,
+      "parent_fpi": "e67580b0-af2c-59f8-b73d-9b04bcafd547"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8096-001",
+          "parent_fpi": "e67580b0-af2c-59f8-b73d-9b04bcafd547",
+          "f_plan_id": "fdb7fe8b-d9ac-43c8-995a-f282d9bf798d",
+          "plan_name": "Centra PACE - Dual (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8096-002",
+          "parent_fpi": "e67580b0-af2c-59f8-b73d-9b04bcafd547",
+          "f_plan_id": "b6015b44-9194-493d-b489-a8d5f8f28e7d",
+          "plan_name": "Centra PACE - Medicare only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

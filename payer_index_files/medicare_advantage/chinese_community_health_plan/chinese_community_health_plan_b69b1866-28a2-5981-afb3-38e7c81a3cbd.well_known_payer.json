@@ -7,6 +7,11 @@
       "value": "b69b1866-28a2-5981-afb3-38e7c81a3cbd",
       "is_fpi": true,
       "payerLegalName": "CHINESE COMMUNITY HEALTH PLAN",
+      "payer_level_string_search_matches": [
+        "CHINESE COMMUNITY HEALTH PLAN",
+        "CCHP (Chinese Community Health Plan)",
+        "Chinese Hospital Association"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "CHINESE COMMUNITY HEALTH PLAN"
     },
@@ -56,7 +61,10 @@
           "plan_name": "CCHP Senior Value Program (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://cchp-fhirapi.mpowered-health.com/provider-directory",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://gateway.1up.health/v1/cchp/r4/publicCCHP/mpf/H0571-CY2027/index.json"
+      }
     }
   ],
   "is_seeded": true

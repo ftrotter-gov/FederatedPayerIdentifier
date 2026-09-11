@@ -7,6 +7,11 @@
       "value": "1abb9417-7a53-514b-9514-e694db6de753",
       "is_fpi": true,
       "payerLegalName": "AMERICAN HEALTH PLAN OF TX, INC.",
+      "payer_level_string_search_matches": [
+        "AMERICAN HEALTH PLAN OF TX, INC.",
+        "American Health Advantage of Texas",
+        "Mitchell Family Office"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AMERICAN HEALTH PLAN OF TX, INC."
     },
@@ -28,9 +33,7 @@
           "plan_name": "American Health Advantage of Texas (HMO I-SNP)"
         }
       ],
-      "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://api-ahp-prd.safhir.io/v1/api/provider-directory/metadata"
-      }
+      "plan_endpoints": {}
     }
   ],
   "is_seeded": true

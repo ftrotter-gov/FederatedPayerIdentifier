@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "c9540637-cdb1-5d7a-8e96-4b6896e80309",
+      "is_fpi": true,
+      "payerLegalName": "Orangeburg Senior Helping Center, LLC",
+      "payer_level_string_search_matches": [
+        "Orangeburg Senior Helping Center, LLC",
+        "Orangeburg Senior Helping Center: A PACE Healthcare Program"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "Orangeburg Senior Helping Center, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0105",
+      "is_fpi": false,
+      "parent_fpi": "c9540637-cdb1-5d7a-8e96-4b6896e80309"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0105-001",
+          "parent_fpi": "c9540637-cdb1-5d7a-8e96-4b6896e80309",
+          "f_plan_id": "e31e22ae-e1b3-4b59-a0b8-9dc4a40d7196",
+          "plan_name": "Orangeburg Senior Helping Center (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0105-002",
+          "parent_fpi": "c9540637-cdb1-5d7a-8e96-4b6896e80309",
+          "f_plan_id": "d4c614bd-e2a4-47d9-88c7-44122bcc9073",
+          "plan_name": "Orangeburg Senior Helping Center (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

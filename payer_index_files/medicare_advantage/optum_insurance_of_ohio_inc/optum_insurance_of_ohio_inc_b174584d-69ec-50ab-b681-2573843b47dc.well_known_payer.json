@@ -1,0 +1,116 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "b174584d-69ec-50ab-b681-2573843b47dc",
+      "is_fpi": true,
+      "payerLegalName": "OPTUM INSURANCE OF OHIO, INC.",
+      "payer_level_string_search_matches": [
+        "OPTUM INSURANCE OF OHIO, INC.",
+        "UnitedHealth Group, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "OPTUM INSURANCE OF OHIO, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S8841",
+      "is_fpi": false,
+      "parent_fpi": "b174584d-69ec-50ab-b681-2573843b47dc"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S8841-803",
+          "parent_fpi": "b174584d-69ec-50ab-b681-2573843b47dc",
+          "f_plan_id": "bace4986-4d9d-4629-be7c-2f05344c37d6",
+          "plan_name": "OptumRx CORE Silver 2026 - CY (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S8841-804",
+          "parent_fpi": "b174584d-69ec-50ab-b681-2573843b47dc",
+          "f_plan_id": "41e53612-45db-4ca1-8927-422986f68a27",
+          "plan_name": "OptumRx CORE Silver 2026 - NCY (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S8841-807",
+          "parent_fpi": "b174584d-69ec-50ab-b681-2573843b47dc",
+          "f_plan_id": "a9559f5e-69df-45aa-8aa8-c80d657e7e4a",
+          "plan_name": "OptumRx CORE Bronze 2026 - CY (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S8841-808",
+          "parent_fpi": "b174584d-69ec-50ab-b681-2573843b47dc",
+          "f_plan_id": "82b65d7b-e803-43d6-863f-c05714bffffc",
+          "plan_name": "OptumRx CORE Bronze 2026 - NCY (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S8841-810",
+          "parent_fpi": "b174584d-69ec-50ab-b681-2573843b47dc",
+          "f_plan_id": "22bf6386-f5cf-4362-804b-c0b923c00761",
+          "plan_name": "MPSERS 2026 (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S8841-812",
+          "parent_fpi": "b174584d-69ec-50ab-b681-2573843b47dc",
+          "f_plan_id": "8d270eb1-afde-44e9-b619-4c69c9a2dc83",
+          "plan_name": "OptumRx CORE Gold 5-Tier 2026 - CY (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S8841-813",
+          "parent_fpi": "b174584d-69ec-50ab-b681-2573843b47dc",
+          "f_plan_id": "e916f010-6f17-486c-959d-227984726a9b",
+          "plan_name": "OptumRx CORE Gold 5-Tier 2026 - NCY (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S8841-818",
+          "parent_fpi": "b174584d-69ec-50ab-b681-2573843b47dc",
+          "f_plan_id": "0bb0956e-3063-4230-978c-6f24085e7dcb",
+          "plan_name": "OptumRx CORE PDP Basic 2026 - CY (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S8841-819",
+          "parent_fpi": "b174584d-69ec-50ab-b681-2573843b47dc",
+          "f_plan_id": "1bdddac2-e7f4-4089-8d2f-a1cd7cbea061",
+          "plan_name": "OptumRx Copper 2026 - CY (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S8841-820",
+          "parent_fpi": "b174584d-69ec-50ab-b681-2573843b47dc",
+          "f_plan_id": "8b3bd6fd-1a97-408a-ad9e-fa0bf1ab7def",
+          "plan_name": "OptumRx Compass Rose 2026  -  CY (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S8841-821",
+          "parent_fpi": "b174584d-69ec-50ab-b681-2573843b47dc",
+          "f_plan_id": "694f8df8-0ae3-457f-831e-dbd11fcc625e",
+          "plan_name": "URMBT 2026 - CY (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S8841-822",
+          "parent_fpi": "b174584d-69ec-50ab-b681-2573843b47dc",
+          "f_plan_id": "e7939133-5d19-4dff-9e4d-952f164c8b90",
+          "plan_name": "OptumRx Deere  2026 - CY (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

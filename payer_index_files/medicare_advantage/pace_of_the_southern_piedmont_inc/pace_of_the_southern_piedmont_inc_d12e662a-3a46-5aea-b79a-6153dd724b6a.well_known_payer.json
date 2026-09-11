@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "d12e662a-3a46-5aea-b79a-6153dd724b6a",
+      "is_fpi": true,
+      "payerLegalName": "PACE OF THE SOUTHERN PIEDMONT, INC.",
+      "payer_level_string_search_matches": [
+        "PACE OF THE SOUTHERN PIEDMONT, INC.",
+        "PACE of the Southern Piedmont"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PACE OF THE SOUTHERN PIEDMONT, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4714",
+      "is_fpi": false,
+      "parent_fpi": "d12e662a-3a46-5aea-b79a-6153dd724b6a"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4714-001",
+          "parent_fpi": "d12e662a-3a46-5aea-b79a-6153dd724b6a",
+          "f_plan_id": "c52144ac-d38f-4397-ae61-f3dde31f3089",
+          "plan_name": "PACE of the Southern Piedmont- Duals (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4714-002",
+          "parent_fpi": "d12e662a-3a46-5aea-b79a-6153dd724b6a",
+          "f_plan_id": "994c2447-2ce3-40ad-98e4-9267d100e54b",
+          "plan_name": "PACE of the Southern Piedmont- Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

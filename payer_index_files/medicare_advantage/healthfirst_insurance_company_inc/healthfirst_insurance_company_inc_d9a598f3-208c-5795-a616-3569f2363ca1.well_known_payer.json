@@ -7,6 +7,11 @@
       "value": "d9a598f3-208c-5795-a616-3569f2363ca1",
       "is_fpi": true,
       "payerLegalName": "HEALTHFIRST INSURANCE COMPANY, INC.",
+      "payer_level_string_search_matches": [
+        "HEALTHFIRST INSURANCE COMPANY, INC.",
+        "Healthfirst Medicare Plan",
+        "Healthfirst, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HEALTHFIRST INSURANCE COMPANY, INC."
     },
@@ -29,7 +34,8 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://d17y0kd1bpes7q.cloudfront.net/cms-mpf/CY2027/H9678/index.json"
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://hf-fhir-provider-directory-sys-api-prod.us-e1.cloudhub.io",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://hf-provider-directory-fhir.healthfirst.org/cms-mpf/CY2027/H9678/index.json"
       }
     }
   ],

@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "93bb206f-7b74-5c2a-ba9f-7e01593ae66e",
+      "is_fpi": true,
+      "payerLegalName": "PACE OF SOUTHWEST MICHIGAN, INC.",
+      "payer_level_string_search_matches": [
+        "PACE OF SOUTHWEST MICHIGAN, INC.",
+        "PACE of Southwest Michigan"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PACE OF SOUTHWEST MICHIGAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0390",
+      "is_fpi": false,
+      "parent_fpi": "93bb206f-7b74-5c2a-ba9f-7e01593ae66e"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0390-001",
+          "parent_fpi": "93bb206f-7b74-5c2a-ba9f-7e01593ae66e",
+          "f_plan_id": "7a70b4bf-3b36-45c1-b2f7-d638acb10f4b",
+          "plan_name": "PACE of Southwest Michigan - Dual (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0390-002",
+          "parent_fpi": "93bb206f-7b74-5c2a-ba9f-7e01593ae66e",
+          "f_plan_id": "3ab0491f-5e56-4bb9-96bd-370479779512",
+          "plan_name": "PACE of Southwest Michigan - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

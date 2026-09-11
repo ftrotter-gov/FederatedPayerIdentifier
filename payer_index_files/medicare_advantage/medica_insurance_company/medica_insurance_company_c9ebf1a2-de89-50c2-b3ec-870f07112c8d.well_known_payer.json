@@ -1,0 +1,166 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "c9ebf1a2-de89-50c2-b3ec-870f07112c8d",
+      "is_fpi": true,
+      "payerLegalName": "MEDICA INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "MEDICA INSURANCE COMPANY",
+        "Medica",
+        "Medica Holding Company"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MEDICA INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2450",
+      "is_fpi": false,
+      "parent_fpi": "c9ebf1a2-de89-50c2-b3ec-870f07112c8d"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2450-002",
+          "parent_fpi": "c9ebf1a2-de89-50c2-b3ec-870f07112c8d",
+          "f_plan_id": "5df39b3c-7c7f-41b8-ad98-77e471c27a5e",
+          "plan_name": "Medica Prime Solution Enhanced w/Rx 2 (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2450-007",
+          "parent_fpi": "c9ebf1a2-de89-50c2-b3ec-870f07112c8d",
+          "f_plan_id": "0b0bfd28-eb7e-4048-986d-1d60b7a8d987",
+          "plan_name": "Medica Prime Solution Thrift w/Rx (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2450-016",
+          "parent_fpi": "c9ebf1a2-de89-50c2-b3ec-870f07112c8d",
+          "f_plan_id": "56199732-13cd-4ee4-8f53-03c2dcdfd064",
+          "plan_name": "Medica Prime Solution Basic w/Rx (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2450-030",
+          "parent_fpi": "c9ebf1a2-de89-50c2-b3ec-870f07112c8d",
+          "f_plan_id": "bb0c4d53-5e7c-40b7-95ef-0db00ad95502",
+          "plan_name": "Medica Prime Solution Thrift (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2450-032",
+          "parent_fpi": "c9ebf1a2-de89-50c2-b3ec-870f07112c8d",
+          "f_plan_id": "08142abf-f9f2-4dc0-a80f-b0ff9415e548",
+          "plan_name": "Medica Prime Solution Basic (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2450-033",
+          "parent_fpi": "c9ebf1a2-de89-50c2-b3ec-870f07112c8d",
+          "f_plan_id": "65b2ab10-4185-4416-8ba8-38f5b97b657f",
+          "plan_name": "Medica Prime Solution Enhanced (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2450-034",
+          "parent_fpi": "c9ebf1a2-de89-50c2-b3ec-870f07112c8d",
+          "f_plan_id": "eba5ff8a-6aee-43ed-9035-af30882f716d",
+          "plan_name": "Medica Prime Solution Core (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2450-035",
+          "parent_fpi": "c9ebf1a2-de89-50c2-b3ec-870f07112c8d",
+          "f_plan_id": "db73de97-e79b-4369-8312-049e059f0978",
+          "plan_name": "Medica Prime Solution Core w/Rx (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2450-036",
+          "parent_fpi": "c9ebf1a2-de89-50c2-b3ec-870f07112c8d",
+          "f_plan_id": "25f35643-de8c-4f38-bc34-cd82ff8692f0",
+          "plan_name": "Medica Prime Solution Premier (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2450-037",
+          "parent_fpi": "c9ebf1a2-de89-50c2-b3ec-870f07112c8d",
+          "f_plan_id": "9eb7dba1-3ae1-4dbd-91e1-6d6130514cb0",
+          "plan_name": "Medica Prime Solution Premier w/Rx (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2450-038",
+          "parent_fpi": "c9ebf1a2-de89-50c2-b3ec-870f07112c8d",
+          "f_plan_id": "8cc0a1a4-2b01-4a11-880d-2c1582281465",
+          "plan_name": "Medica Prime Solution Focus (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2450-039",
+          "parent_fpi": "c9ebf1a2-de89-50c2-b3ec-870f07112c8d",
+          "f_plan_id": "e19837e8-37ce-4084-88dc-1ea50e1974f0",
+          "plan_name": "Medica Prime Solution Focus w/Rx (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2450-043",
+          "parent_fpi": "c9ebf1a2-de89-50c2-b3ec-870f07112c8d",
+          "f_plan_id": "54565d82-6cbc-44da-a954-e40f69b6f23c",
+          "plan_name": "Medica Prime Solution Premier (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2450-044",
+          "parent_fpi": "c9ebf1a2-de89-50c2-b3ec-870f07112c8d",
+          "f_plan_id": "d2e9e43e-e4a5-46f9-97ea-b49772d80478",
+          "plan_name": "Medica Prime Solution Standard (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2450-046",
+          "parent_fpi": "c9ebf1a2-de89-50c2-b3ec-870f07112c8d",
+          "f_plan_id": "c15ea1ad-0a0c-4224-9531-e8d391dbcf99",
+          "plan_name": "Medica Prime Solution Core (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2450-049",
+          "parent_fpi": "c9ebf1a2-de89-50c2-b3ec-870f07112c8d",
+          "f_plan_id": "8ff8882e-bd8a-4709-9685-80f4380c79d8",
+          "plan_name": "Medica Prime Solution Standard w/Rx (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2450-050",
+          "parent_fpi": "c9ebf1a2-de89-50c2-b3ec-870f07112c8d",
+          "f_plan_id": "d03a868d-f5af-444a-bb25-221e7abc39ff",
+          "plan_name": "Medica Prime Solution Standard (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2450-051",
+          "parent_fpi": "c9ebf1a2-de89-50c2-b3ec-870f07112c8d",
+          "f_plan_id": "268e0d79-14aa-4095-82c1-8c699ac42507",
+          "plan_name": "Medica Prime Solution Core (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2450-801",
+          "parent_fpi": "c9ebf1a2-de89-50c2-b3ec-870f07112c8d",
+          "f_plan_id": "2b8787dd-5b3f-4f51-bd91-aef74214432c",
+          "plan_name": "Medica Group Prime Solution w/Rx (Cost)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

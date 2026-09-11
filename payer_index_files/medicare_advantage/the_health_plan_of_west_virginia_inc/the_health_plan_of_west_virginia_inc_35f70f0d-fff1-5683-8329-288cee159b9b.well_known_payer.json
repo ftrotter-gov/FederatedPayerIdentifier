@@ -7,6 +7,10 @@
       "value": "35f70f0d-fff1-5683-8329-288cee159b9b",
       "is_fpi": true,
       "payerLegalName": "THE HEALTH PLAN OF WEST VIRGINIA, INC.",
+      "payer_level_string_search_matches": [
+        "THE HEALTH PLAN OF WEST VIRGINIA, INC.",
+        "The Health Plan"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "THE HEALTH PLAN OF WEST VIRGINIA, INC."
     },
@@ -77,7 +81,10 @@
           "plan_name": "The Health Plan SecureCare - Employer (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.thehealthplanfhir.com/r4/public/Practitioner",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://gateway.1up.health/v1/thp/r4/public/mpf/H3672-CY2027/index.json"
+      }
     }
   ],
   "is_seeded": true

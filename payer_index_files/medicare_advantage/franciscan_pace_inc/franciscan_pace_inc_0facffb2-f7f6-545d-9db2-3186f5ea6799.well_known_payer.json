@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "0facffb2-f7f6-545d-9db2-3186f5ea6799",
+      "is_fpi": true,
+      "payerLegalName": "FRANCISCAN PACE, INC.",
+      "payer_level_string_search_matches": [
+        "FRANCISCAN PACE, INC.",
+        "PACE Baton Rouge",
+        "Franciscan Missionaries of Our Lady Health System"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "FRANCISCAN PACE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6231",
+      "is_fpi": false,
+      "parent_fpi": "0facffb2-f7f6-545d-9db2-3186f5ea6799"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6231-001",
+          "parent_fpi": "0facffb2-f7f6-545d-9db2-3186f5ea6799",
+          "f_plan_id": "3ae062bd-63aa-43a5-8ca4-ecb0e7b6c65d",
+          "plan_name": "Franciscan PACE, Inc. (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6231-002",
+          "parent_fpi": "0facffb2-f7f6-545d-9db2-3186f5ea6799",
+          "f_plan_id": "404fbacf-e881-40cb-b11d-7193238ff26b",
+          "plan_name": "Franciscan PACE, Inc. (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

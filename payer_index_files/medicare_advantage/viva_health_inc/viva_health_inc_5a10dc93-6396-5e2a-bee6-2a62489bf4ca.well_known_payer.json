@@ -7,6 +7,11 @@
       "value": "5a10dc93-6396-5e2a-bee6-2a62489bf4ca",
       "is_fpi": true,
       "payerLegalName": "VIVA HEALTH, INC.",
+      "payer_level_string_search_matches": [
+        "VIVA HEALTH, INC.",
+        "VIVA Medicare",
+        "Triton Health Systems, L.L.C."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "VIVA HEALTH, INC."
     },
@@ -91,7 +96,10 @@
           "plan_name": "VIVA Medicare Plus Group Plan with Rx (not CY) (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://gateway.1up.health/v1/viva/r4/public/mpf/H0154-CY2027/index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.vivahealthfhir.com/r4/public/Practitioner"
+      }
     }
   ],
   "is_seeded": true

@@ -7,6 +7,11 @@
       "value": "f427aab1-64d8-520c-b982-4f983675f0a6",
       "is_fpi": true,
       "payerLegalName": "WELLPOINT HEALTH PLANS, INC.",
+      "payer_level_string_search_matches": [
+        "WELLPOINT HEALTH PLANS, INC.",
+        "Wellpoint",
+        "Elevance Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "WELLPOINT HEALTH PLANS, INC."
     },
@@ -70,7 +75,10 @@
           "plan_name": "Wellpoint Medicare Advantage (HMO-POS)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://totalview.healthos.Wellpoint.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://totalview.healthos.wellpoint.com/cms/H1423/index.json"
+      }
     }
   ],
   "is_seeded": true

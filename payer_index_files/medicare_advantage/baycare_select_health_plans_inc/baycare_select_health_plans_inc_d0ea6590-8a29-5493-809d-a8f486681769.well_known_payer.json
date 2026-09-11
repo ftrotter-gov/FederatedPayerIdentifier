@@ -7,6 +7,11 @@
       "value": "d0ea6590-8a29-5493-809d-a8f486681769",
       "is_fpi": true,
       "payerLegalName": "BAYCARE SELECT HEALTH PLANS, INC.",
+      "payer_level_string_search_matches": [
+        "BAYCARE SELECT HEALTH PLANS, INC.",
+        "BayCare Health Plans",
+        "BayCare Health System, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "BAYCARE SELECT HEALTH PLANS, INC."
     },
@@ -42,7 +47,10 @@
           "plan_name": "BayCarePlus Premier (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.baycarefhir.com/r4/public/Practitioner",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://gateway.1up.health/v1/baycare/r4/public/mpf/H2235-CY2027/index.json"
+      }
     }
   ],
   "is_seeded": true

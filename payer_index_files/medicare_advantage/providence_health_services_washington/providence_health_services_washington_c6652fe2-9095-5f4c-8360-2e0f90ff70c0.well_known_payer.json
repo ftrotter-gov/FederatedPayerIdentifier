@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "c6652fe2-9095-5f4c-8360-2e0f90ff70c0",
+      "is_fpi": true,
+      "payerLegalName": "PROVIDENCE HEALTH & SERVICES \u00e2\u20ac\u201c WASHINGTON",
+      "payer_level_string_search_matches": [
+        "PROVIDENCE HEALTH & SERVICES \u00e2\u20ac\u201c WASHINGTON",
+        "Providence PACE - Washington",
+        "Providence Health & Services"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PROVIDENCE HEALTH & SERVICES \u00e2\u20ac\u201c WASHINGTON"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5007",
+      "is_fpi": false,
+      "parent_fpi": "c6652fe2-9095-5f4c-8360-2e0f90ff70c0"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5007-001",
+          "parent_fpi": "c6652fe2-9095-5f4c-8360-2e0f90ff70c0",
+          "f_plan_id": "a8c8b415-a10f-4470-adcf-0dfd454dfbc4",
+          "plan_name": "Providence ElderPlace - Seattle (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5007-002",
+          "parent_fpi": "c6652fe2-9095-5f4c-8360-2e0f90ff70c0",
+          "f_plan_id": "3e92427c-1845-476b-af8b-5fb6c20ea897",
+          "plan_name": "Providence ElderPlace - Seattle (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "c998b148-b03c-5bf7-b56f-7725c769e0f6",
+      "is_fpi": true,
+      "payerLegalName": "MOUNT SINAI ELDERCARE, INC.",
+      "payer_level_string_search_matches": [
+        "MOUNT SINAI ELDERCARE, INC.",
+        "Mount Sinai Eldercare",
+        "Mount Sinai Medical Center of Florida, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MOUNT SINAI ELDERCARE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9252",
+      "is_fpi": false,
+      "parent_fpi": "c998b148-b03c-5bf7-b56f-7725c769e0f6"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9252-001",
+          "parent_fpi": "c998b148-b03c-5bf7-b56f-7725c769e0f6",
+          "f_plan_id": "ceed2e2f-3647-4961-afb8-8fa3a7a1f174",
+          "plan_name": "Mount Sinai Eldercare-Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9252-002",
+          "parent_fpi": "c998b148-b03c-5bf7-b56f-7725c769e0f6",
+          "f_plan_id": "76dd5411-266e-4af6-98e8-894491e7afa4",
+          "plan_name": "Mount Sinai Eldercare-Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

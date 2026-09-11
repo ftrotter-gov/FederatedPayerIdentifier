@@ -7,6 +7,10 @@
       "value": "a3862519-16ae-566b-98c8-c6cf5c46c92b",
       "is_fpi": true,
       "payerLegalName": "Inland Empire Health Plan",
+      "payer_level_string_search_matches": [
+        "Inland Empire Health Plan",
+        "IEHP DualChoice"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "Inland Empire Health Plan"
     },
@@ -29,7 +33,8 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.iehp.org/provider-directory"
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.iehp.org/provider-directory/metadata?_format=json",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.iehp.org/mpf/H8894/2027/index.json"
       }
     }
   ],

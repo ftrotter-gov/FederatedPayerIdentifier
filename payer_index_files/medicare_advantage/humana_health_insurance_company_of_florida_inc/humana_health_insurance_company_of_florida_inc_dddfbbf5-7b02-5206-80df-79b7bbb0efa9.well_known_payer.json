@@ -7,6 +7,11 @@
       "value": "dddfbbf5-7b02-5206-80df-79b7bbb0efa9",
       "is_fpi": true,
       "payerLegalName": "HUMANA HEALTH INSURANCE COMPANY OF FLORIDA, INC.",
+      "payer_level_string_search_matches": [
+        "HUMANA HEALTH INSURANCE COMPANY OF FLORIDA, INC.",
+        "Humana",
+        "Humana Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HUMANA HEALTH INSURANCE COMPANY OF FLORIDA, INC."
     },
@@ -50,7 +55,7 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.humana.com/api"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.humana.com/api"
       }
     }
   ],

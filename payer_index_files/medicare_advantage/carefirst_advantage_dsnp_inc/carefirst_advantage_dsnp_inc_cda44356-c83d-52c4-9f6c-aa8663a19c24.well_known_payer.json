@@ -7,6 +7,11 @@
       "value": "cda44356-c83d-52c4-9f6c-aa8663a19c24",
       "is_fpi": true,
       "payerLegalName": "CAREFIRST ADVANTAGE DSNP, INC.",
+      "payer_level_string_search_matches": [
+        "CAREFIRST ADVANTAGE DSNP, INC.",
+        "CareFirst BlueCross BlueShield Advantage DualPrime",
+        "CareFirst, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "CAREFIRST ADVANTAGE DSNP, INC."
     },
@@ -28,7 +33,10 @@
           "plan_name": "CareFirst BlueCross BlueShield Advantage DualPrime (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://www.carefirst.com/medicare-options/json/H8854-2027-index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://dsnp-apix.carefirst.com/extfhirproviderdir/v1"
+      }
     }
   ],
   "is_seeded": true

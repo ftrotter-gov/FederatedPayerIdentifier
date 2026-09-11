@@ -7,6 +7,11 @@
       "value": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
       "is_fpi": true,
       "payerLegalName": "EXCELLUS HEALTH PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "EXCELLUS HEALTH PLAN, INC.",
+        "Excellus Health Plan, Inc",
+        "Lifetime Healthcare, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "EXCELLUS HEALTH PLAN, INC."
     },
@@ -19,6 +24,12 @@
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
       "value": "H3351",
+      "is_fpi": false,
+      "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S3521",
       "is_fpi": false,
       "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6"
     }
@@ -84,6 +95,20 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3335-061",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "efbe51ab-c6f5-4dc8-b925-7cc6ca623225",
+          "plan_name": "Medicare BlueVital (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3335-062",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "dc2a2c2e-5466-4210-aa46-e7699da69bb0",
+          "plan_name": "Medicare BlueBalanced (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3335-801",
           "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
           "f_plan_id": "2fb62635-6bb4-4edf-b067-4b5f4f29593c",
@@ -133,25 +158,23 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H3335-061",
-          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
-          "f_plan_id": "efbe51ab-c6f5-4dc8-b925-7cc6ca623225",
-          "plan_name": "Medicare BlueVital (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H3335-062",
-          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
-          "f_plan_id": "dc2a2c2e-5466-4210-aa46-e7699da69bb0",
-          "plan_name": "Medicare BlueBalanced (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3335-825",
           "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
           "f_plan_id": "28fc9434-d69f-4d16-9457-365b2ac4d96a",
           "plan_name": "Univera Medicare PPO Group (PPO)"
         },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3521-801",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "7aebe2aa-495d-4f2e-9f18-2f57c5d59ba6",
+          "plan_name": "Simply Prescriptions- Employer Group (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3351-001",
@@ -210,6 +233,20 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3351-022",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "2094a427-aa69-4ca4-8e2d-69f1fff988b4",
+          "plan_name": "Medicare Blue Choice Core (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3351-023",
+          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
+          "f_plan_id": "b034ee85-18c7-458e-b9bf-16bd667891d8",
+          "plan_name": "Medicare Blue Choice Prime (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3351-801",
           "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
           "f_plan_id": "f0f9e1fc-69ba-442e-9728-e5c0bd1fdd22",
@@ -249,23 +286,12 @@
           "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
           "f_plan_id": "d9e81e93-4b82-45d9-a08f-ee1e3a59f2b2",
           "plan_name": "Medicare Blue Choice Group Non-Calendar (HMO-POS)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H3351-022",
-          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
-          "f_plan_id": "2094a427-aa69-4ca4-8e2d-69f1fff988b4",
-          "plan_name": "Medicare Blue Choice Core (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H3351-023",
-          "parent_fpi": "9c1841f7-ee00-5dfb-90e6-a96b30cd30c6",
-          "f_plan_id": "b034ee85-18c7-458e-b9bf-16bd667891d8",
-          "plan_name": "Medicare Blue Choice Prime (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.excellusbcbs.com/fhir/api/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cms-uat.healthsparq.com/mpf/v1/H3351/2027/H3351-2027-index.json"
+      }
     }
   ],
   "is_seeded": true

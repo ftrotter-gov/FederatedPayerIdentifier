@@ -1,0 +1,60 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "48be33f4-f41a-5f18-baf6-d0f51967e420",
+      "is_fpi": true,
+      "payerLegalName": "SENIORLIFE WASHINGTON, INC.",
+      "payer_level_string_search_matches": [
+        "SENIORLIFE WASHINGTON, INC.",
+        "Senior LIFE Washington / Uniontown / Greene"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SENIORLIFE WASHINGTON, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2992",
+      "is_fpi": false,
+      "parent_fpi": "48be33f4-f41a-5f18-baf6-d0f51967e420"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2992-001",
+          "parent_fpi": "48be33f4-f41a-5f18-baf6-d0f51967e420",
+          "f_plan_id": "ff3457f4-b1cd-4ea0-a27e-fb0e8337cb80",
+          "plan_name": "Senior LIFE Washington Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2992-002",
+          "parent_fpi": "48be33f4-f41a-5f18-baf6-d0f51967e420",
+          "f_plan_id": "dcf716bc-3a0b-4ace-a676-1c03bc6d64c0",
+          "plan_name": "Senior LIFE Washington Medicare Only (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2992-003",
+          "parent_fpi": "48be33f4-f41a-5f18-baf6-d0f51967e420",
+          "f_plan_id": "682f9faa-9f3d-4dce-8e28-6890e0e452c5",
+          "plan_name": "Senior LIFE Uniontown Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2992-004",
+          "parent_fpi": "48be33f4-f41a-5f18-baf6-d0f51967e420",
+          "f_plan_id": "2f8e0491-0e20-46ae-9795-abca01611aa5",
+          "plan_name": "Senior LIFE Uniontown Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

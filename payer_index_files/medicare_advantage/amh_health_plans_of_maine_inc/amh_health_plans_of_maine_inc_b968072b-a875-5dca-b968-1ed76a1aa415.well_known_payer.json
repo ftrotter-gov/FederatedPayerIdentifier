@@ -1,0 +1,40 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "b968072b-a875-5dca-b968-1ed76a1aa415",
+      "is_fpi": true,
+      "payerLegalName": "AMH HEALTH PLANS OF MAINE, INC.",
+      "payer_level_string_search_matches": [
+        "AMH HEALTH PLANS OF MAINE, INC.",
+        "AMH Health",
+        "Elevance Health, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "AMH HEALTH PLANS OF MAINE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9219",
+      "is_fpi": false,
+      "parent_fpi": "b968072b-a875-5dca-b968-1ed76a1aa415"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9219-004",
+          "parent_fpi": "b968072b-a875-5dca-b968-1ed76a1aa415",
+          "f_plan_id": "43068c23-def7-45ce-aea4-3946aabcdef8",
+          "plan_name": "Anthem I MaineHealth Advantage Veteran (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

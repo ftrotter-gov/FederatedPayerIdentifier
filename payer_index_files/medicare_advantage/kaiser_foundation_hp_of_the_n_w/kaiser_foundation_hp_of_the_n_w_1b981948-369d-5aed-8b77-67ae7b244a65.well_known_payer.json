@@ -7,6 +7,11 @@
       "value": "1b981948-369d-5aed-8b77-67ae7b244a65",
       "is_fpi": true,
       "payerLegalName": "KAISER FOUNDATION HP OF THE N W",
+      "payer_level_string_search_matches": [
+        "KAISER FOUNDATION HP OF THE N W",
+        "Kaiser Permanente",
+        "Kaiser Foundation Health Plan, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "KAISER FOUNDATION HP OF THE N W"
     },
@@ -63,7 +68,10 @@
           "plan_name": "Employer Group Only without Part D (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://healthy.kaiserpermanente.org/content/dam/kporg/data/or/mpf-medicare.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://kpx-service-bus.kp.org/service/hp/mhpo/healthplanproviderv1rc"
+      }
     }
   ],
   "is_seeded": true

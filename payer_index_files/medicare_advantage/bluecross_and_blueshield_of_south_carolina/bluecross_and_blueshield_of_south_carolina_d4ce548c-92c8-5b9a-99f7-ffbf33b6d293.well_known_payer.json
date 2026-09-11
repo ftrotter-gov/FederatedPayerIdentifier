@@ -7,6 +7,11 @@
       "value": "d4ce548c-92c8-5b9a-99f7-ffbf33b6d293",
       "is_fpi": true,
       "payerLegalName": "BLUECROSS AND BLUESHIELD OF SOUTH CAROLINA",
+      "payer_level_string_search_matches": [
+        "BLUECROSS AND BLUESHIELD OF SOUTH CAROLINA",
+        "Blue Cross Blue Shield of South Carolina",
+        "BlueCross BlueShield of South Carolina (BCBSSC)"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "BLUECROSS AND BLUESHIELD OF SOUTH CAROLINA"
     },
@@ -15,9 +20,41 @@
       "value": "H8003",
       "is_fpi": false,
       "parent_fpi": "d4ce548c-92c8-5b9a-99f7-ffbf33b6d293"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S5953",
+      "is_fpi": false,
+      "parent_fpi": "d4ce548c-92c8-5b9a-99f7-ffbf33b6d293"
     }
   ],
   "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5953-001",
+          "parent_fpi": "d4ce548c-92c8-5b9a-99f7-ffbf33b6d293",
+          "f_plan_id": "bdaf4c3f-a29c-4065-8feb-cb2cdde4f7da",
+          "plan_name": "BlueCross Rx Value (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5953-801",
+          "parent_fpi": "d4ce548c-92c8-5b9a-99f7-ffbf33b6d293",
+          "f_plan_id": "5e619649-3d47-48c1-89ea-eb0f73b42b46",
+          "plan_name": "Group Blue Rx Plus (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5953-802",
+          "parent_fpi": "d4ce548c-92c8-5b9a-99f7-ffbf33b6d293",
+          "f_plan_id": "46bf2da6-51f9-48de-a2ee-cd62ec8abe9f",
+          "plan_name": "Group Blue Rx Plus (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
     {
       "plan_identifiers": [
         {
@@ -98,7 +135,10 @@
           "plan_name": "BlueCross MA Only Non-calendar Year Group (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://d3p6r9asbehd5f.cloudfront.net/index.json",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://d3p6r9asbehd5f.cloudfront.net/index.json"
+      }
     }
   ],
   "is_seeded": true

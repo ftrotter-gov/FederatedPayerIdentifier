@@ -7,6 +7,11 @@
       "value": "42077c02-9f3c-5e40-99d2-abb7c73a28b0",
       "is_fpi": true,
       "payerLegalName": "NEBRASKA TOTAL CARE, INC.",
+      "payer_level_string_search_matches": [
+        "NEBRASKA TOTAL CARE, INC.",
+        "Wellcare",
+        "Centene Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "NEBRASKA TOTAL CARE, INC."
     },
@@ -15,9 +20,48 @@
       "value": "H1215",
       "is_fpi": false,
       "parent_fpi": "42077c02-9f3c-5e40-99d2-abb7c73a28b0"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1395",
+      "is_fpi": false,
+      "parent_fpi": "42077c02-9f3c-5e40-99d2-abb7c73a28b0"
     }
   ],
   "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1395-001",
+          "parent_fpi": "42077c02-9f3c-5e40-99d2-abb7c73a28b0",
+          "f_plan_id": "493c2888-03f9-4431-a2e2-2e13826fa60d",
+          "plan_name": "Wellcare Dual Access Sync Open (PPO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1395-002",
+          "parent_fpi": "42077c02-9f3c-5e40-99d2-abb7c73a28b0",
+          "f_plan_id": "af6391d2-826b-444f-81ca-4c15e2ce8a94",
+          "plan_name": "Wellcare Simple Open (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1395-003",
+          "parent_fpi": "42077c02-9f3c-5e40-99d2-abb7c73a28b0",
+          "f_plan_id": "351a5a17-49ea-443c-a941-e9fc2c67175c",
+          "plan_name": "Wellcare Assist Open (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1395-004",
+          "parent_fpi": "42077c02-9f3c-5e40-99d2-abb7c73a28b0",
+          "f_plan_id": "b9123333-9f6c-4200-834a-4eb5a9bfd6bd",
+          "plan_name": "Wellcare Patriot Giveback Open (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
     {
       "plan_identifiers": [
         {
@@ -42,7 +86,10 @@
           "plan_name": "Wellcare Simple (HMO-POS)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H1215index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
     }
   ],
   "is_seeded": true

@@ -7,6 +7,10 @@
       "value": "ce532baa-daae-56cd-a0a1-1b034130c3a4",
       "is_fpi": true,
       "payerLegalName": "SANTA CLARA COUNTY HEALTH AUTHORITY",
+      "payer_level_string_search_matches": [
+        "SANTA CLARA COUNTY HEALTH AUTHORITY",
+        "Santa Clara Family Health Plan"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SANTA CLARA COUNTY HEALTH AUTHORITY"
     },
@@ -29,7 +33,8 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.scfhp.com/providerAPI/swagger-ui/"
+        "cms_provider_directory_machine_readable_format_endpoint": "https://apps1.scfhp.com/providersearch/api/providers/download?ContractID=H4045&ContractYear=2027",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.scfhp.com/providerAPI"
       }
     }
   ],

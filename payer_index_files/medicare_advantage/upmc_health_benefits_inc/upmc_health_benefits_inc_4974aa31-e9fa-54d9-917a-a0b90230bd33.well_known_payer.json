@@ -1,0 +1,54 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "4974aa31-e9fa-54d9-917a-a0b90230bd33",
+      "is_fpi": true,
+      "payerLegalName": "UPMC HEALTH BENEFITS, INC.",
+      "payer_level_string_search_matches": [
+        "UPMC HEALTH BENEFITS, INC.",
+        "UPMC Health Plan",
+        "UPMC Health System"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "UPMC HEALTH BENEFITS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S3389",
+      "is_fpi": false,
+      "parent_fpi": "4974aa31-e9fa-54d9-917a-a0b90230bd33"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3389-802",
+          "parent_fpi": "4974aa31-e9fa-54d9-917a-a0b90230bd33",
+          "f_plan_id": "502191d4-3811-4fc0-8bb3-dfa2892e9725",
+          "plan_name": "UPMC Employer Group (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3389-803",
+          "parent_fpi": "4974aa31-e9fa-54d9-917a-a0b90230bd33",
+          "f_plan_id": "afde0ac6-9378-4ae9-83ba-918067188786",
+          "plan_name": "UPMC Employer Group (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3389-804",
+          "parent_fpi": "4974aa31-e9fa-54d9-917a-a0b90230bd33",
+          "f_plan_id": "19a28333-9196-48b5-adbf-5bb6407c9cf1",
+          "plan_name": "UPMC PSHB Employer Group (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

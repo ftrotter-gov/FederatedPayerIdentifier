@@ -7,6 +7,11 @@
       "value": "bb77212c-f054-59b8-9670-1d6fde434569",
       "is_fpi": true,
       "payerLegalName": "EL PASO FIRST HEALTH PLANS, INC.",
+      "payer_level_string_search_matches": [
+        "EL PASO FIRST HEALTH PLANS, INC.",
+        "El Paso Health Medicare Advantage",
+        "El Paso County Hospital District"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "EL PASO FIRST HEALTH PLANS, INC."
     },
@@ -42,7 +47,10 @@
           "plan_name": "El Paso Health Giveback (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://prodepftzinterop.trizettoconnect.com/ug/providerdirectorys/Endpoint",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://mpf.elpasohealth.com/index.json"
+      }
     }
   ],
   "is_seeded": true

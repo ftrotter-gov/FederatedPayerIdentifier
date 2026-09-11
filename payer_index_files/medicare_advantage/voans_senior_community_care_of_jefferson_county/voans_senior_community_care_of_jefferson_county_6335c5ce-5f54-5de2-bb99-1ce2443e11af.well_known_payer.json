@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "6335c5ce-5f54-5de2-bb99-1ce2443e11af",
+      "is_fpi": true,
+      "payerLegalName": "VOANS SENIOR COMMUNITY CARE OF JEFFERSON COUNTY",
+      "payer_level_string_search_matches": [
+        "VOANS SENIOR COMMUNITY CARE OF JEFFERSON COUNTY",
+        "Senior CommUnity Care of Jefferson County",
+        "Volunteers of America National Services"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "VOANS SENIOR COMMUNITY CARE OF JEFFERSON COUNTY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7725",
+      "is_fpi": false,
+      "parent_fpi": "6335c5ce-5f54-5de2-bb99-1ce2443e11af"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7725-001",
+          "parent_fpi": "6335c5ce-5f54-5de2-bb99-1ce2443e11af",
+          "f_plan_id": "eedf4bfa-7bd0-4a2b-b6d4-4450fddd978d",
+          "plan_name": "Senior Community Care of Jefferson County (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7725-002",
+          "parent_fpi": "6335c5ce-5f54-5de2-bb99-1ce2443e11af",
+          "f_plan_id": "776d9ac2-bf65-4ed3-ab03-650882a53d84",
+          "plan_name": "Senior Community Care of Jefferson County (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

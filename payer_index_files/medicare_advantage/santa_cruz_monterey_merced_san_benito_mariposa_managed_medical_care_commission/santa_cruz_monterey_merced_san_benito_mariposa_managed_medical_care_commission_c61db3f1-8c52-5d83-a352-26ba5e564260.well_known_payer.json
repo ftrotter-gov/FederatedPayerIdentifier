@@ -7,6 +7,11 @@
       "value": "c61db3f1-8c52-5d83-a352-26ba5e564260",
       "is_fpi": true,
       "payerLegalName": "SANTA CRUZ MONTEREY MERCED SAN BENITO MARIPOSA MANAGED MEDICAL CARE COMMISSION",
+      "payer_level_string_search_matches": [
+        "SANTA CRUZ MONTEREY MERCED SAN BENITO MARIPOSA MANAGED MEDICAL CARE COMMISSION",
+        "Central California Alliance for Health",
+        "SANTA CRUZ MONTEREY MERCED SAN BENITO MARIPOSA MAN"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SANTA CRUZ MONTEREY MERCED SAN BENITO MARIPOSA MANAGED MEDICAL CARE COMMISSION"
     },
@@ -28,7 +33,10 @@
           "plan_name": "TotalCare (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://us120.fhir.edifecsfedcloud.com/ccah/fhir/pd/R4/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://thealliance.health/H5692-2026/index.json"
+      }
     }
   ],
   "is_seeded": true

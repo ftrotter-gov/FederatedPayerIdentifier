@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "8689440b-cbc6-55d0-8db3-013bf87c83b8",
+      "is_fpi": true,
+      "payerLegalName": "K-DAY, INC.",
+      "payer_level_string_search_matches": [
+        "K-DAY, INC.",
+        "K-Day PACE",
+        "K-DAY INC"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "K-DAY, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4545",
+      "is_fpi": false,
+      "parent_fpi": "8689440b-cbc6-55d0-8db3-013bf87c83b8"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4545-001",
+          "parent_fpi": "8689440b-cbc6-55d0-8db3-013bf87c83b8",
+          "f_plan_id": "73536fc4-c646-4f95-8b75-62f19c146c81",
+          "plan_name": "K-Day Inc - Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4545-002",
+          "parent_fpi": "8689440b-cbc6-55d0-8db3-013bf87c83b8",
+          "f_plan_id": "8436b788-4289-4d17-8583-32bb75cbbcdf",
+          "plan_name": "K-Day Inc - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -7,6 +7,11 @@
       "value": "05bcacad-2ad9-5794-8b41-7948cb04e603",
       "is_fpi": true,
       "payerLegalName": "PERENNIAL ADVANTAGE OF COLORADO, INC.",
+      "payer_level_string_search_matches": [
+        "PERENNIAL ADVANTAGE OF COLORADO, INC.",
+        "Perennial Advantage",
+        "Perennial Consortium, LLC"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "PERENNIAL ADVANTAGE OF COLORADO, INC."
     },
@@ -63,7 +68,10 @@
           "plan_name": "Perennial Advantage Premier (HMO I-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.curanahealth.com/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhirmpf.curanahealth.com/H3419/2027/"
+      }
     }
   ],
   "is_seeded": true

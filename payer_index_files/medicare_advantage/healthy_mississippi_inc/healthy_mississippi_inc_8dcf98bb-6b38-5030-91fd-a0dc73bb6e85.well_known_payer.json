@@ -7,6 +7,10 @@
       "value": "8dcf98bb-6b38-5030-91fd-a0dc73bb6e85",
       "is_fpi": true,
       "payerLegalName": "HEALTHY MISSISSIPPI, INC.",
+      "payer_level_string_search_matches": [
+        "HEALTHY MISSISSIPPI, INC.",
+        "Singh Holdings LLC"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HEALTHY MISSISSIPPI, INC."
     },
@@ -25,6 +29,13 @@
   ],
   "plan_groups": [
     {
+      "plan_identifiers": [],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.healthy-ms.com/plan-net/H1823/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://directory.healthy-ms.com/mpf/2027/H1823/index.json"
+      }
+    },
+    {
       "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -34,7 +45,10 @@
           "plan_name": "Healthy Mississippi Premier Advantage (HMO-POS)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.healthy-ms.com/plan-net/H8879/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://directory.healthy-ms.com/mpf/2027/H8879/index.json"
+      }
     }
   ],
   "is_seeded": true

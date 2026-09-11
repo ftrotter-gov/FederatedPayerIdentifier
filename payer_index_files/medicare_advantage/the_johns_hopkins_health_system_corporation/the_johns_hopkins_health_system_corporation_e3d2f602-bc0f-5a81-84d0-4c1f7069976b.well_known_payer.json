@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "e3d2f602-bc0f-5a81-84d0-4c1f7069976b",
+      "is_fpi": true,
+      "payerLegalName": "THE JOHNS HOPKINS HEALTH SYSTEM CORPORATION",
+      "payer_level_string_search_matches": [
+        "THE JOHNS HOPKINS HEALTH SYSTEM CORPORATION",
+        "Hopkins ElderPlus"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "THE JOHNS HOPKINS HEALTH SYSTEM CORPORATION"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2109",
+      "is_fpi": false,
+      "parent_fpi": "e3d2f602-bc0f-5a81-84d0-4c1f7069976b"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2109-001",
+          "parent_fpi": "e3d2f602-bc0f-5a81-84d0-4c1f7069976b",
+          "f_plan_id": "518f6642-67f9-4455-8f17-04bf35a1dd9b",
+          "plan_name": "The Johns Hopkins Health System Corporation. (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2109-002",
+          "parent_fpi": "e3d2f602-bc0f-5a81-84d0-4c1f7069976b",
+          "f_plan_id": "4e82b3fd-5caf-409e-bdc5-041d598d63f9",
+          "plan_name": "The Johns Hopkins Health System Corporation (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

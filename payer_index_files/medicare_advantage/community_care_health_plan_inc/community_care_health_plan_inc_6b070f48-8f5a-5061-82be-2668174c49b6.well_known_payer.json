@@ -7,6 +7,11 @@
       "value": "6b070f48-8f5a-5061-82be-2668174c49b6",
       "is_fpi": true,
       "payerLegalName": "COMMUNITY CARE HEALTH PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "COMMUNITY CARE HEALTH PLAN, INC.",
+        "Community Care",
+        "CareSource"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "COMMUNITY CARE HEALTH PLAN, INC."
     },
@@ -28,7 +33,10 @@
           "plan_name": "Community Care's  Partnership Program (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://data.healthlx.com:8004/CCI",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://providerdirectory.healthlx.com/CCI/H2034/2027/index.json"
+      }
     }
   ],
   "is_seeded": true

@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "0653e52c-ab4a-52c8-841d-686da4033d51",
+      "is_fpi": true,
+      "payerLegalName": "LUBBOCK REGIONAL MENTAL HEALTH MENTAL RETARDATION",
+      "payer_level_string_search_matches": [
+        "LUBBOCK REGIONAL MENTAL HEALTH MENTAL RETARDATION",
+        "Silver Star",
+        "Lubbock Regional Mental Health"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "LUBBOCK REGIONAL MENTAL HEALTH MENTAL RETARDATION"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9998",
+      "is_fpi": false,
+      "parent_fpi": "0653e52c-ab4a-52c8-841d-686da4033d51"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9998-001",
+          "parent_fpi": "0653e52c-ab4a-52c8-841d-686da4033d51",
+          "f_plan_id": "a251a76d-cc2d-47c1-a512-a49f376de4f7",
+          "plan_name": "Silver Star - Dual (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9998-002",
+          "parent_fpi": "0653e52c-ab4a-52c8-841d-686da4033d51",
+          "f_plan_id": "0f44a051-84e3-4f0c-b995-e7afc4bb6999",
+          "plan_name": "Silver Star - Medicare only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

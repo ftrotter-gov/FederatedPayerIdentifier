@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "9614a14e-cb5c-5564-be45-80791dd38236",
+      "is_fpi": true,
+      "payerLegalName": "PACE KC, LLC",
+      "payer_level_string_search_matches": [
+        "PACE KC, LLC",
+        "PACE KC",
+        "Swope Health Services"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PACE KC, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8992",
+      "is_fpi": false,
+      "parent_fpi": "9614a14e-cb5c-5564-be45-80791dd38236"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8992-001",
+          "parent_fpi": "9614a14e-cb5c-5564-be45-80791dd38236",
+          "f_plan_id": "9283fd39-c756-4f71-8713-6f7ea49bb534",
+          "plan_name": "PACE KC - Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8992-002",
+          "parent_fpi": "9614a14e-cb5c-5564-be45-80791dd38236",
+          "f_plan_id": "f9ade4cb-7bc0-4619-8879-24e29bcadf00",
+          "plan_name": "PACE KC - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "b2a4510d-779b-5de9-902e-739ef2ad23f6",
+      "is_fpi": true,
+      "payerLegalName": "INNOVAGE FLORIDA PACE, LLC",
+      "payer_level_string_search_matches": [
+        "INNOVAGE FLORIDA PACE, LLC",
+        "InnovAge Florida  PACE - Tampa",
+        "Total Community Options, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "INNOVAGE FLORIDA PACE, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4919",
+      "is_fpi": false,
+      "parent_fpi": "b2a4510d-779b-5de9-902e-739ef2ad23f6"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4919-001",
+          "parent_fpi": "b2a4510d-779b-5de9-902e-739ef2ad23f6",
+          "f_plan_id": "b1e19a6f-b00b-49a3-b1c1-926bdc0447bf",
+          "plan_name": "InnovAge Florida PACE - Tampa - Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4919-002",
+          "parent_fpi": "b2a4510d-779b-5de9-902e-739ef2ad23f6",
+          "f_plan_id": "b9d1ca35-0ab2-46d9-8e98-6f1a8349d3ca",
+          "plan_name": "InnovAge Florida PACE - Tampa - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

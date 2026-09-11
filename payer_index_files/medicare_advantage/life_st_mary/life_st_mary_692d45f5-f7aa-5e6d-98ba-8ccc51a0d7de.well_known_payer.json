@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "692d45f5-f7aa-5e6d-98ba-8ccc51a0d7de",
+      "is_fpi": true,
+      "payerLegalName": "LIFE ST. MARY",
+      "payer_level_string_search_matches": [
+        "LIFE ST. MARY",
+        "Trinity Health Corporation"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "LIFE ST. MARY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6551",
+      "is_fpi": false,
+      "parent_fpi": "692d45f5-f7aa-5e6d-98ba-8ccc51a0d7de"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6551-001",
+          "parent_fpi": "692d45f5-f7aa-5e6d-98ba-8ccc51a0d7de",
+          "f_plan_id": "f71f6c07-6440-4c53-baf1-343a45421887",
+          "plan_name": "LIFE St. Mary (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6551-002",
+          "parent_fpi": "692d45f5-f7aa-5e6d-98ba-8ccc51a0d7de",
+          "f_plan_id": "0cea1c15-e155-4d49-81d6-c72c1a1776b7",
+          "plan_name": "LIFE St. Mary (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

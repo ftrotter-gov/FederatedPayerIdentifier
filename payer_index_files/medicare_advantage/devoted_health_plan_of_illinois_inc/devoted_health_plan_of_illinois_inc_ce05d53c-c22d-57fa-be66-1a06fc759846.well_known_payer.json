@@ -7,6 +7,11 @@
       "value": "ce05d53c-c22d-57fa-be66-1a06fc759846",
       "is_fpi": true,
       "payerLegalName": "DEVOTED HEALTH PLAN OF ILLINOIS, INC.",
+      "payer_level_string_search_matches": [
+        "DEVOTED HEALTH PLAN OF ILLINOIS, INC.",
+        "Devoted Health",
+        "Devoted Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "DEVOTED HEALTH PLAN OF ILLINOIS, INC."
     },
@@ -50,7 +55,8 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.devoted.com/H7151/2026"
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.devoted.com/fhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.devoted.com/H7151/2027"
       }
     }
   ],

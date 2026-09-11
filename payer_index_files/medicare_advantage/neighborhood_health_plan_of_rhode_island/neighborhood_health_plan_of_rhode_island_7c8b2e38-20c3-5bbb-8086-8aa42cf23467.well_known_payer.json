@@ -7,6 +7,9 @@
       "value": "7c8b2e38-20c3-5bbb-8086-8aa42cf23467",
       "is_fpi": true,
       "payerLegalName": "NEIGHBORHOOD HEALTH PLAN OF RHODE ISLAND",
+      "payer_level_string_search_matches": [
+        "NEIGHBORHOOD HEALTH PLAN OF RHODE ISLAND"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "NEIGHBORHOOD HEALTH PLAN OF RHODE ISLAND"
     },
@@ -41,7 +44,10 @@
           "plan_name": "Neighborhood INTEGRITY for Duals (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api-nhp-prd.safhir.io/v1/api/providerdirectory/cms-hpms-manifest/[ppp-cccc-nnn]",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://files.nhpri.org/MedicarePlanFinder/ProviderDirectory/"
+      }
     }
   ],
   "is_seeded": true

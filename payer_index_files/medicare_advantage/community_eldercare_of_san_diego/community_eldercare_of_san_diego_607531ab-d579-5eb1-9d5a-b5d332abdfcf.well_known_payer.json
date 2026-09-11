@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "607531ab-d579-5eb1-9d5a-b5d332abdfcf",
+      "is_fpi": true,
+      "payerLegalName": "COMMUNITY ELDERCARE OF SAN DIEGO",
+      "payer_level_string_search_matches": [
+        "COMMUNITY ELDERCARE OF SAN DIEGO",
+        "St. Paul's PACE",
+        "St. Paul\u00e2\u20ac\u2122s Episcopal Home"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "COMMUNITY ELDERCARE OF SAN DIEGO"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5629",
+      "is_fpi": false,
+      "parent_fpi": "607531ab-d579-5eb1-9d5a-b5d332abdfcf"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5629-001",
+          "parent_fpi": "607531ab-d579-5eb1-9d5a-b5d332abdfcf",
+          "f_plan_id": "2db6baaf-3be3-49fd-b025-9a712c997202",
+          "plan_name": "St. Paul's PACE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5629-002",
+          "parent_fpi": "607531ab-d579-5eb1-9d5a-b5d332abdfcf",
+          "f_plan_id": "be8dfc37-430d-4977-aae6-6a6b01c95db5",
+          "plan_name": "St. Paul's PACE (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

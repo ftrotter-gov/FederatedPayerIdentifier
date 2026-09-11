@@ -7,6 +7,10 @@
       "value": "b77a540b-f4c4-5ea5-9a91-0f8f4fd0562c",
       "is_fpi": true,
       "payerLegalName": "REGENCE BLUECROSS BLUESHIELD OF UTAH",
+      "payer_level_string_search_matches": [
+        "REGENCE BLUECROSS BLUESHIELD OF UTAH",
+        "Cambia Health Solutions, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "REGENCE BLUECROSS BLUESHIELD OF UTAH"
     },
@@ -70,7 +74,10 @@
           "plan_name": "Regence MedAdvantage + Rx 03 (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://providers.regence.com/api/provider-fhir-service/v1/fhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://cms.healthsparq.com/mpf/v1/H4605/2027/H4605-2027-index.json"
+      }
     }
   ],
   "is_seeded": true

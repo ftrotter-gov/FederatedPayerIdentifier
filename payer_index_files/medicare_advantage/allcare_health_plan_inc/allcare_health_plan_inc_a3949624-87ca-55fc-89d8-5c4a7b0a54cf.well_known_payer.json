@@ -7,6 +7,11 @@
       "value": "a3949624-87ca-55fc-89d8-5c4a7b0a54cf",
       "is_fpi": true,
       "payerLegalName": "ALLCARE HEALTH PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "ALLCARE HEALTH PLAN, INC.",
+        "AllCare Advantage",
+        "AllCare Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ALLCARE HEALTH PLAN, INC."
     },
@@ -28,7 +33,10 @@
           "plan_name": "AllCare Advantage Redwood Rx (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://interop-adv.api.allcarehealth.com/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.allcarehealth.com/provdir/index.json"
+      }
     }
   ],
   "is_seeded": true

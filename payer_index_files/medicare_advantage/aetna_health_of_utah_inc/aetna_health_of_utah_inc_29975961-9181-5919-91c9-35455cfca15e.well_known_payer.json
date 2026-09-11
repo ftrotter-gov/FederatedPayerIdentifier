@@ -7,6 +7,11 @@
       "value": "29975961-9181-5919-91c9-35455cfca15e",
       "is_fpi": true,
       "payerLegalName": "AETNA HEALTH OF UTAH INC.",
+      "payer_level_string_search_matches": [
+        "AETNA HEALTH OF UTAH INC.",
+        "Aetna Medicare",
+        "CVS Health Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AETNA HEALTH OF UTAH INC."
     },
@@ -29,6 +34,13 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8649-013",
+          "parent_fpi": "29975961-9181-5919-91c9-35455cfca15e",
+          "f_plan_id": "c4039d12-3117-4950-8398-e227bc23dbfb",
+          "plan_name": "Aetna Medicare Signature (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8649-801",
           "parent_fpi": "29975961-9181-5919-91c9-35455cfca15e",
           "f_plan_id": "e9ef82e2-8ec6-4e5b-ac62-ea67185441c0",
@@ -40,17 +52,10 @@
           "parent_fpi": "29975961-9181-5919-91c9-35455cfca15e",
           "f_plan_id": "c6e9e138-edb6-4c50-85ce-b2afc9370312",
           "plan_name": "Aetna Altius Medicare Plan (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H8649-013",
-          "parent_fpi": "29975961-9181-5919-91c9-35455cfca15e",
-          "f_plan_id": "c4039d12-3117-4950-8398-e227bc23dbfb",
-          "plan_name": "Aetna Medicare Signature (HMO)"
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.aetna.com/interoperability/2027/H8649/index.json"
       }
     }
   ],

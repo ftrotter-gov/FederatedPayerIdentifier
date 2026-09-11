@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "2ea68d0f-e5c4-560f-9de6-2925fadf345b",
+      "is_fpi": true,
+      "payerLegalName": "KINSHIP PACE OF INDIANA, LLC",
+      "payer_level_string_search_matches": [
+        "KINSHIP PACE OF INDIANA, LLC",
+        "CitiPACE Holding Company, LLC"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "KINSHIP PACE OF INDIANA, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8048",
+      "is_fpi": false,
+      "parent_fpi": "2ea68d0f-e5c4-560f-9de6-2925fadf345b"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8048-001",
+          "parent_fpi": "2ea68d0f-e5c4-560f-9de6-2925fadf345b",
+          "f_plan_id": "e6643dcc-6972-4939-be7a-1a9f47e075a2",
+          "plan_name": "Kinship PACE of Indiana (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8048-002",
+          "parent_fpi": "2ea68d0f-e5c4-560f-9de6-2925fadf345b",
+          "f_plan_id": "8d84da7c-0610-49c3-8aac-e825957c3dd9",
+          "plan_name": "Kinship PACE of Indiana (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -7,6 +7,11 @@
       "value": "f0daf465-d06c-5a0e-a8f2-63b23b484a7e",
       "is_fpi": true,
       "payerLegalName": "COMMUNITY FIRST HEALTH PLANS, INC.",
+      "payer_level_string_search_matches": [
+        "COMMUNITY FIRST HEALTH PLANS, INC.",
+        "Community First",
+        "Bexar County Hospital District"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "COMMUNITY FIRST HEALTH PLANS, INC."
     },
@@ -35,7 +40,10 @@
           "plan_name": "Community First Medicare Advantage D-SNP (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://medicare.communityfirsthealthplans.com/index-medicare.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://medicare.communityfirsthealthplans.com/index-medicare.json"
+      }
     }
   ],
   "is_seeded": true

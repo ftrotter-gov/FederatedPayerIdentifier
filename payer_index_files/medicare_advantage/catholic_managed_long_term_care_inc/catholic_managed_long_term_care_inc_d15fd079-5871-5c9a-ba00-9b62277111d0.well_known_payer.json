@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "d15fd079-5871-5c9a-ba00-9b62277111d0",
+      "is_fpi": true,
+      "payerLegalName": "CATHOLIC MANAGED LONG TERM CARE, INC.",
+      "payer_level_string_search_matches": [
+        "CATHOLIC MANAGED LONG TERM CARE, INC.",
+        "ArchCare Senior Life",
+        "Catholic Health Care System"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CATHOLIC MANAGED LONG TERM CARE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4393",
+      "is_fpi": false,
+      "parent_fpi": "d15fd079-5871-5c9a-ba00-9b62277111d0"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4393-001",
+          "parent_fpi": "d15fd079-5871-5c9a-ba00-9b62277111d0",
+          "f_plan_id": "7e50e953-d211-4cf2-93b8-81c90479f4e9",
+          "plan_name": "ArchCare Senior Life - Dual (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4393-002",
+          "parent_fpi": "d15fd079-5871-5c9a-ba00-9b62277111d0",
+          "f_plan_id": "48f1de17-d49e-4e42-8223-d65f394363dc",
+          "plan_name": "ArchCare Senior Life - Medicare only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

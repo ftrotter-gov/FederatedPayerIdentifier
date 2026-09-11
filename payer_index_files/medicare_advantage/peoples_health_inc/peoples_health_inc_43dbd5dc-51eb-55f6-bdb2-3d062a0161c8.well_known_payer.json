@@ -7,6 +7,11 @@
       "value": "43dbd5dc-51eb-55f6-bdb2-3d062a0161c8",
       "is_fpi": true,
       "payerLegalName": "PEOPLES HEALTH, INC.",
+      "payer_level_string_search_matches": [
+        "PEOPLES HEALTH, INC.",
+        "Peoples Health",
+        "UnitedHealth Group, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "PEOPLES HEALTH, INC."
     },
@@ -24,6 +29,25 @@
     }
   ],
   "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4544-001",
+          "parent_fpi": "43dbd5dc-51eb-55f6-bdb2-3d062a0161c8",
+          "f_plan_id": "687ac97f-fe3a-44a4-8220-cacb692f4c82",
+          "plan_name": "Peoples Health Choices (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4544-002",
+          "parent_fpi": "43dbd5dc-51eb-55f6-bdb2-3d062a0161c8",
+          "f_plan_id": "d41e79e2-21c3-4a3a-96e6-5b50c16650eb",
+          "plan_name": "Peoples Health Patriot (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
     {
       "plan_identifiers": [
         {
@@ -123,23 +147,12 @@
           "parent_fpi": "43dbd5dc-51eb-55f6-bdb2-3d062a0161c8",
           "f_plan_id": "10dd5247-167e-4a0e-aab2-f05ee66f36da",
           "plan_name": "Peoples Health Group Medicare (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H4544-001",
-          "parent_fpi": "43dbd5dc-51eb-55f6-bdb2-3d062a0161c8",
-          "f_plan_id": "687ac97f-fe3a-44a4-8220-cacb692f4c82",
-          "plan_name": "Peoples Health Choices (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H4544-002",
-          "parent_fpi": "43dbd5dc-51eb-55f6-bdb2-3d062a0161c8",
-          "f_plan_id": "d41e79e2-21c3-4a3a-96e6-5b50c16650eb",
-          "plan_name": "Peoples Health Patriot (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-mpf.optum-uhc-stage.net/api/cms/plans/H1961/2027",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://flex.optum.com/fhirpublic"
+      }
     }
   ],
   "is_seeded": true

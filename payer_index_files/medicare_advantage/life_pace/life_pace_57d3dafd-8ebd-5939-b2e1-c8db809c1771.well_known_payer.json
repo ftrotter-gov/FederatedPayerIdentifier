@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "57d3dafd-8ebd-5939-b2e1-c8db809c1771",
+      "is_fpi": true,
+      "payerLegalName": "LIFE PACE",
+      "payer_level_string_search_matches": [
+        "LIFE PACE",
+        "LIFE PACE, INC.",
+        "LIFE Senior Services, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "LIFE PACE"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6941",
+      "is_fpi": false,
+      "parent_fpi": "57d3dafd-8ebd-5939-b2e1-c8db809c1771"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6941-001",
+          "parent_fpi": "57d3dafd-8ebd-5939-b2e1-c8db809c1771",
+          "f_plan_id": "ca342055-9001-4c25-9b3f-2e363f0ff33e",
+          "plan_name": "LIFE PACE Dual Eligible 001 (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6941-002",
+          "parent_fpi": "57d3dafd-8ebd-5939-b2e1-c8db809c1771",
+          "f_plan_id": "22e18fa3-1049-4225-8199-0d94f6e6d377",
+          "plan_name": "LIFE PACE Medicare Only 002 (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

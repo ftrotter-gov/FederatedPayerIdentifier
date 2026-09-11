@@ -7,6 +7,11 @@
       "value": "5a4dcb3c-04ec-5ad0-9773-e6be51a50603",
       "is_fpi": true,
       "payerLegalName": "HEALTH ALLIANCE PLAN OF MICHIGAN",
+      "payer_level_string_search_matches": [
+        "HEALTH ALLIANCE PLAN OF MICHIGAN",
+        "Health Alliance Plan by Henry Ford Health",
+        "Henry Ford Health System"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HEALTH ALLIANCE PLAN OF MICHIGAN"
     },
@@ -71,6 +76,13 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2354-030",
+          "parent_fpi": "5a4dcb3c-04ec-5ad0-9773-e6be51a50603",
+          "f_plan_id": "dc7f9759-6a09-48a5-85af-625d3949b7ac",
+          "plan_name": "HAP Medicare Diabetes and Heart (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2354-801",
           "parent_fpi": "5a4dcb3c-04ec-5ad0-9773-e6be51a50603",
           "f_plan_id": "f6131274-be1a-44e1-82a2-8d5803500fc7",
@@ -82,16 +94,12 @@
           "parent_fpi": "5a4dcb3c-04ec-5ad0-9773-e6be51a50603",
           "f_plan_id": "07a62e7f-89ae-4f5e-8003-9042466685e5",
           "plan_name": "HAP Senior Plus Group (HMO-POS)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H2354-030",
-          "parent_fpi": "5a4dcb3c-04ec-5ad0-9773-e6be51a50603",
-          "f_plan_id": "dc7f9759-6a09-48a5-85af-625d3949b7ac",
-          "plan_name": "HAP Medicare Diabetes and Heart (HMO C-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://yr8zbspehmylgikk.public.blob.vercel-storage.com/cms/h2354/h2354_index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://provider-directory-cms-r4.api.hap.org/"
+      }
     }
   ],
   "is_seeded": true

@@ -7,6 +7,11 @@
       "value": "ce16ef2a-a1d4-5d0c-99bb-724498416f85",
       "is_fpi": true,
       "payerLegalName": "MOUNT CARMEL HEALTH PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "MOUNT CARMEL HEALTH PLAN, INC.",
+        "MediGold",
+        "Trinity Health Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "MOUNT CARMEL HEALTH PLAN, INC."
     },
@@ -133,7 +138,10 @@
           "plan_name": "MercyOne Health Plan EGWP 2 (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://forms.medigold.com/cms/H3668.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api-medigold-prd.safhir.io/v1/api/provider-directory"
+      }
     }
   ],
   "is_seeded": true

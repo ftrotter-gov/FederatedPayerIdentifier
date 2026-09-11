@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "b97c8116-9605-55e8-a93e-d9cb325b7b8b",
+      "is_fpi": true,
+      "payerLegalName": "MCGREGOR PACE",
+      "payer_level_string_search_matches": [
+        "MCGREGOR PACE",
+        "McGregor at Overlook"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MCGREGOR PACE"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H3613",
+      "is_fpi": false,
+      "parent_fpi": "b97c8116-9605-55e8-a93e-d9cb325b7b8b"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3613-001",
+          "parent_fpi": "b97c8116-9605-55e8-a93e-d9cb325b7b8b",
+          "f_plan_id": "c54b8d23-7a44-4ec8-99bc-7337820ccace",
+          "plan_name": "McGregor PACE Dual Eligibles (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3613-002",
+          "parent_fpi": "b97c8116-9605-55e8-a93e-d9cb325b7b8b",
+          "f_plan_id": "1188a4dd-882c-437f-aac6-debff3fbe141",
+          "plan_name": "McGregor PACE Medicare Only Eligibles (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

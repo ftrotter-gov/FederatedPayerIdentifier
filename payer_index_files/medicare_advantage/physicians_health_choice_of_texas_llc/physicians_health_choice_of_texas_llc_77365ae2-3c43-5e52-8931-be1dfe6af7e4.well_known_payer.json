@@ -7,6 +7,11 @@
       "value": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
       "is_fpi": true,
       "payerLegalName": "PHYSICIANS HEALTH CHOICE OF TEXAS, LLC",
+      "payer_level_string_search_matches": [
+        "PHYSICIANS HEALTH CHOICE OF TEXAS, LLC",
+        "UnitedHealthcare",
+        "UnitedHealth Group, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "PHYSICIANS HEALTH CHOICE OF TEXAS, LLC"
     },
@@ -148,27 +153,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H4527-801",
-          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
-          "f_plan_id": "34dcaa77-628b-4a7d-b299-ac0f9ecd0608",
-          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H4527-802",
-          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
-          "f_plan_id": "98658f84-56fb-459e-b10d-88ffe68644d7",
-          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H4527-803",
-          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
-          "f_plan_id": "61a06e23-1081-4e51-8394-8d6e7a10237b",
-          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4527-055",
           "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
           "f_plan_id": "42d844bd-fa21-4e98-a91b-8bccd2f346da",
@@ -201,9 +185,33 @@
           "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
           "f_plan_id": "47ce94c5-d65c-40a6-8a7e-ee6f3cda308e",
           "plan_name": "AARP Medicare Advantage Extras from UHC TX-53 (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4527-801",
+          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+          "f_plan_id": "34dcaa77-628b-4a7d-b299-ac0f9ecd0608",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4527-802",
+          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+          "f_plan_id": "98658f84-56fb-459e-b10d-88ffe68644d7",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4527-803",
+          "parent_fpi": "77365ae2-3c43-5e52-8931-be1dfe6af7e4",
+          "f_plan_id": "61a06e23-1081-4e51-8394-8d6e7a10237b",
+          "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-mpf.optum-uhc-stage.net/api/cms/plans/H4527/2027",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://flex.optum.com/fhirpublic"
+      }
     }
   ],
   "is_seeded": true

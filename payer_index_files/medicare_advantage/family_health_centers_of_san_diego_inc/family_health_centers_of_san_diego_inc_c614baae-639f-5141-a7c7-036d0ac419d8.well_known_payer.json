@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "c614baae-639f-5141-a7c7-036d0ac419d8",
+      "is_fpi": true,
+      "payerLegalName": "FAMILY HEALTH CENTERS OF SAN DIEGO, INC",
+      "payer_level_string_search_matches": [
+        "FAMILY HEALTH CENTERS OF SAN DIEGO, INC",
+        "Family Health-Center for Older Adults",
+        "Family Health Centers of San Diego"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "FAMILY HEALTH CENTERS OF SAN DIEGO, INC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1693",
+      "is_fpi": false,
+      "parent_fpi": "c614baae-639f-5141-a7c7-036d0ac419d8"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1693-002",
+          "parent_fpi": "c614baae-639f-5141-a7c7-036d0ac419d8",
+          "f_plan_id": "35aff0bd-0503-466d-9257-d7154041b5c0",
+          "plan_name": "FamilyHealth - Center for Older Adults (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1693-003",
+          "parent_fpi": "c614baae-639f-5141-a7c7-036d0ac419d8",
+          "f_plan_id": "7deb9681-2a33-4bbb-bf1b-dcf0fb4f374b",
+          "plan_name": "FamilyHealth-Center for Older Adults-Medicare-only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

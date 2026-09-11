@@ -7,6 +7,11 @@
       "value": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
       "is_fpi": true,
       "payerLegalName": "KAISER FOUNDATION HP, INC.",
+      "payer_level_string_search_matches": [
+        "KAISER FOUNDATION HP, INC.",
+        "Kaiser Permanente",
+        "Kaiser Foundation Health Plan, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "KAISER FOUNDATION HP, INC."
     },
@@ -313,6 +318,133 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-001",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "56e66981-05d0-4ddd-a098-155115c78ff1",
+          "plan_name": "Kaiser Permanente Dual Complete South P1 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-002",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "b5ffed9b-d086-453f-84f0-b1a77c494516",
+          "plan_name": "Kaiser Permanente Dual Complete North P2 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-006",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "84f677d5-1d8e-441a-8926-8777b6335a20",
+          "plan_name": "Kaiser Permanente Dual Complete South P6 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-007",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "6c3c60af-b7c2-487a-83d3-294728d4c699",
+          "plan_name": "Kaiser Permanente Dual Complete South P7 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-009",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "e1b084c7-f86b-48d7-bc75-3f4a9f439e55",
+          "plan_name": "Kaiser Permanente Dual Complete South P9 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-010",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "3a67ac36-9011-433a-a4eb-e5d0e3c13ba5",
+          "plan_name": "Kaiser Permanente Dual Complete South P10 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-011",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "cd84498f-37c0-436d-a6cd-57adbbc5477c",
+          "plan_name": "Kaiser Permanente Dual Complete South P11 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-016",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "b54b6937-7f6d-4563-a0c1-343d20377abc",
+          "plan_name": "Kaiser Permanente Dual Complete North P16 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-017",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "51ef2e51-c957-40d3-8b90-4abbf3d03e68",
+          "plan_name": "Kaiser Permanente Dual Complete North P17 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-018",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "e2d293b4-665a-4bdf-b6fc-d6eca45f33bf",
+          "plan_name": "Kaiser Permanente Dual Complete North P18 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-019",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "4c86b659-34ef-4003-aae0-960f95ded269",
+          "plan_name": "Kaiser Permanente Dual Complete North P19 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-020",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "b49525d0-78da-4a6c-bc36-e0b1c6ca546c",
+          "plan_name": "Kaiser Permanente Dual Complete North P20 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-021",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "f8f3e056-a79f-49bd-8ae3-1aaea0e57b8f",
+          "plan_name": "Kaiser Permanente Dual Complete North P21 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-022",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "2151e937-eb0b-46ab-9b1f-5bf141768a5e",
+          "plan_name": "Kaiser Permanente Dual Complete North P22 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-023",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "cc3bd242-5122-498b-8ffa-3fc38064626b",
+          "plan_name": "Kaiser Permanente Dual Complete North P23 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-024",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "a9e24ffb-6009-4551-9848-0af7d8599ac3",
+          "plan_name": "Kaiser Permanente Dual Complete North P24 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8794-025",
+          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
+          "f_plan_id": "0e89a45a-ec61-4df6-8686-6bf9c9b32399",
+          "plan_name": "Kaiser Permanente Dual Complete North P25 (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://healthy.kaiserpermanente.org/content/dam/kporg/data/ca/index-mpf.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://kpx-service-bus.kp.org/service/hp/mhpo/healthplanproviderv1rc"
+      }
+    },
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1230-001",
           "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
           "f_plan_id": "180f24c3-81c8-46d3-8ea5-7a2c0c34a824",
@@ -359,7 +491,15 @@
           "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
           "f_plan_id": "4a8047fc-39bc-44b8-9c7b-7dfca79e81fc",
           "plan_name": "Kaiser Permanente Employer Group MA-PD Part B (HMO)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://healthy.kaiserpermanente.org/content/dam/kporg/data/hi/index-mpf.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://kpx-service-bus.kp.org/service/hp/mhpo/healthplanproviderv1rc"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2704-015",
@@ -373,128 +513,12 @@
           "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
           "f_plan_id": "897c8b8b-be83-4451-862b-46d876f0e542",
           "plan_name": "Kaiser Permanente Dual Complete Maui (HMO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H8794-001",
-          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
-          "f_plan_id": "56e66981-05d0-4ddd-a098-155115c78ff1",
-          "plan_name": "Kaiser Permanente Dual Complete South P1 (HMO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H8794-002",
-          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
-          "f_plan_id": "b5ffed9b-d086-453f-84f0-b1a77c494516",
-          "plan_name": "Kaiser Permanente Dual Complete North P2 (HMO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H8794-016",
-          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
-          "f_plan_id": "b54b6937-7f6d-4563-a0c1-343d20377abc",
-          "plan_name": "Kaiser Permanente Dual Complete North P16 (HMO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H8794-017",
-          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
-          "f_plan_id": "51ef2e51-c957-40d3-8b90-4abbf3d03e68",
-          "plan_name": "Kaiser Permanente Dual Complete North P17 (HMO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H8794-018",
-          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
-          "f_plan_id": "e2d293b4-665a-4bdf-b6fc-d6eca45f33bf",
-          "plan_name": "Kaiser Permanente Dual Complete North P18 (HMO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H8794-019",
-          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
-          "f_plan_id": "4c86b659-34ef-4003-aae0-960f95ded269",
-          "plan_name": "Kaiser Permanente Dual Complete North P19 (HMO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H8794-020",
-          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
-          "f_plan_id": "b49525d0-78da-4a6c-bc36-e0b1c6ca546c",
-          "plan_name": "Kaiser Permanente Dual Complete North P20 (HMO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H8794-021",
-          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
-          "f_plan_id": "f8f3e056-a79f-49bd-8ae3-1aaea0e57b8f",
-          "plan_name": "Kaiser Permanente Dual Complete North P21 (HMO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H8794-024",
-          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
-          "f_plan_id": "a9e24ffb-6009-4551-9848-0af7d8599ac3",
-          "plan_name": "Kaiser Permanente Dual Complete North P24 (HMO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H8794-025",
-          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
-          "f_plan_id": "0e89a45a-ec61-4df6-8686-6bf9c9b32399",
-          "plan_name": "Kaiser Permanente Dual Complete North P25 (HMO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H8794-007",
-          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
-          "f_plan_id": "6c3c60af-b7c2-487a-83d3-294728d4c699",
-          "plan_name": "Kaiser Permanente Dual Complete South P7 (HMO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H8794-011",
-          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
-          "f_plan_id": "cd84498f-37c0-436d-a6cd-57adbbc5477c",
-          "plan_name": "Kaiser Permanente Dual Complete South P11 (HMO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H8794-006",
-          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
-          "f_plan_id": "84f677d5-1d8e-441a-8926-8777b6335a20",
-          "plan_name": "Kaiser Permanente Dual Complete South P6 (HMO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H8794-009",
-          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
-          "f_plan_id": "e1b084c7-f86b-48d7-bc75-3f4a9f439e55",
-          "plan_name": "Kaiser Permanente Dual Complete South P9 (HMO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H8794-010",
-          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
-          "f_plan_id": "3a67ac36-9011-433a-a4eb-e5d0e3c13ba5",
-          "plan_name": "Kaiser Permanente Dual Complete South P10 (HMO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H8794-022",
-          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
-          "f_plan_id": "2151e937-eb0b-46ab-9b1f-5bf141768a5e",
-          "plan_name": "Kaiser Permanente Dual Complete North P22 (HMO D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H8794-023",
-          "parent_fpi": "d7da1a2a-9065-52b7-81ed-784d34a852a0",
-          "f_plan_id": "cc3bd242-5122-498b-8ffa-3fc38064626b",
-          "plan_name": "Kaiser Permanente Dual Complete North P23 (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://healthy.kaiserpermanente.org/content/dam/kporg/data/hi/mpf-d-snp.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://kpx-service-bus.kp.org/service/hp/mhpo/healthplanproviderv1rc"
+      }
     }
   ],
   "is_seeded": true

@@ -7,6 +7,11 @@
       "value": "6efca3f5-3a86-5dce-8fc0-20fac4e81158",
       "is_fpi": true,
       "payerLegalName": "AETNA HEALTH OF MICHIGAN INC.",
+      "payer_level_string_search_matches": [
+        "AETNA HEALTH OF MICHIGAN INC.",
+        "Aetna Medicare",
+        "CVS Health Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AETNA HEALTH OF MICHIGAN INC."
     },
@@ -78,13 +83,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H3192-801",
-          "parent_fpi": "6efca3f5-3a86-5dce-8fc0-20fac4e81158",
-          "f_plan_id": "989e98d3-8fda-42a4-8b02-1a0408aa63ef",
-          "plan_name": "Aetna Medicare Plan (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3192-028",
           "parent_fpi": "6efca3f5-3a86-5dce-8fc0-20fac4e81158",
           "f_plan_id": "aaf07762-e23e-497f-9f6a-d9014b070d5c",
@@ -103,10 +101,17 @@
           "parent_fpi": "6efca3f5-3a86-5dce-8fc0-20fac4e81158",
           "f_plan_id": "f3429d58-1909-48e2-9465-12c31647d84e",
           "plan_name": "Aetna Medicare Chronic Care (HMO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3192-801",
+          "parent_fpi": "6efca3f5-3a86-5dce-8fc0-20fac4e81158",
+          "f_plan_id": "989e98d3-8fda-42a4-8b02-1a0408aa63ef",
+          "plan_name": "Aetna Medicare Plan (HMO)"
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.aetna.com/interoperability/2027/H3192/index.json"
       }
     }
   ],

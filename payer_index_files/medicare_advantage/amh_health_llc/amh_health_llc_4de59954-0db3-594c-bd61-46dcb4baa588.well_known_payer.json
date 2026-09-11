@@ -7,6 +7,11 @@
       "value": "4de59954-0db3-594c-bd61-46dcb4baa588",
       "is_fpi": true,
       "payerLegalName": "AMH HEALTH, LLC",
+      "payer_level_string_search_matches": [
+        "AMH HEALTH, LLC",
+        "AMH Health",
+        "Elevance Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AMH HEALTH, LLC"
     },
@@ -49,7 +54,10 @@
           "plan_name": "Anthem I MaineHealth Advantage Plus (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://totalview.healthos.anthem.com/cms/H9065/index.json"
+      }
     }
   ],
   "is_seeded": true

@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "7c6ebe4d-5892-56b1-9d5d-6ecf7a2ffb79",
+      "is_fpi": true,
+      "payerLegalName": "COMMUNITY PACE AT HOME, INC",
+      "payer_level_string_search_matches": [
+        "COMMUNITY PACE AT HOME, INC",
+        "Community PACE at Home, Inc,"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "COMMUNITY PACE AT HOME, INC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5085",
+      "is_fpi": false,
+      "parent_fpi": "7c6ebe4d-5892-56b1-9d5d-6ecf7a2ffb79"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5085-003",
+          "parent_fpi": "7c6ebe4d-5892-56b1-9d5d-6ecf7a2ffb79",
+          "f_plan_id": "281e7ec2-1586-4407-930f-13de8b5ec1d6",
+          "plan_name": "Community PACE at Home, Inc. - Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5085-004",
+          "parent_fpi": "7c6ebe4d-5892-56b1-9d5d-6ecf7a2ffb79",
+          "f_plan_id": "deec5123-6a0e-487d-9b2c-1c90d28bdda0",
+          "plan_name": "Community PACE at Home, Inc - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "3c88bdf8-bd74-5a52-a16d-32c09d76420b",
+      "is_fpi": true,
+      "payerLegalName": "PACE PARTNERS OF NORTHEAST FLORIDA, INC.",
+      "payer_level_string_search_matches": [
+        "PACE PARTNERS OF NORTHEAST FLORIDA, INC.",
+        "PACE Partners of Northeast Florida",
+        "Community Hospice of Northeast Florida, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PACE PARTNERS OF NORTHEAST FLORIDA, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7469",
+      "is_fpi": false,
+      "parent_fpi": "3c88bdf8-bd74-5a52-a16d-32c09d76420b"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7469-001",
+          "parent_fpi": "3c88bdf8-bd74-5a52-a16d-32c09d76420b",
+          "f_plan_id": "92097d71-6ee5-4034-acd2-fa3f14814cd2",
+          "plan_name": "PACE Partners of Northeast Florida (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7469-002",
+          "parent_fpi": "3c88bdf8-bd74-5a52-a16d-32c09d76420b",
+          "f_plan_id": "b28bbfc2-f3b5-4d6c-a09b-22b6709467da",
+          "plan_name": "PACE Partners of Northeast Florida MO (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

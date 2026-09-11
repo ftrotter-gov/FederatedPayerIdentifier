@@ -1,0 +1,53 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "35a8ba14-b422-525a-89f4-c243183cfe70",
+      "is_fpi": true,
+      "payerLegalName": "REGENCE BLUESHIELD OF IDAHO AND REGENCE BC BS UTAH",
+      "payer_level_string_search_matches": [
+        "REGENCE BLUESHIELD OF IDAHO AND REGENCE BC BS UTAH",
+        "Cambia Health Solutions, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "REGENCE BLUESHIELD OF IDAHO AND REGENCE BC BS UTAH"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S5916",
+      "is_fpi": false,
+      "parent_fpi": "35a8ba14-b422-525a-89f4-c243183cfe70"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5916-802",
+          "parent_fpi": "35a8ba14-b422-525a-89f4-c243183cfe70",
+          "f_plan_id": "ff766b8c-f51e-4669-a9ac-608d443aacca",
+          "plan_name": "Regence Medicare Script (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5916-804",
+          "parent_fpi": "35a8ba14-b422-525a-89f4-c243183cfe70",
+          "f_plan_id": "d6f23222-5a06-4546-979d-737252579276",
+          "plan_name": "Regence Medicare Script 02 (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5916-805",
+          "parent_fpi": "35a8ba14-b422-525a-89f4-c243183cfe70",
+          "f_plan_id": "a72525e5-4466-403f-ad63-c0ae98f970a3",
+          "plan_name": "Regence Medicare Script 03 (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

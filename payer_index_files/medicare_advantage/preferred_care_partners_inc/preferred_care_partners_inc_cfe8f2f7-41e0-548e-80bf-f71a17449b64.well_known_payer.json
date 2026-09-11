@@ -7,6 +7,11 @@
       "value": "cfe8f2f7-41e0-548e-80bf-f71a17449b64",
       "is_fpi": true,
       "payerLegalName": "PREFERRED CARE PARTNERS, INC.",
+      "payer_level_string_search_matches": [
+        "PREFERRED CARE PARTNERS, INC.",
+        "UnitedHealthcare",
+        "UnitedHealth Group, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "PREFERRED CARE PARTNERS, INC."
     },
@@ -273,7 +278,10 @@
           "plan_name": "UnitedHealthcare Group Medicare Advantage (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cms-mpf.optum-uhc-stage.net/api/cms/plans/H1045/2027",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://flex.optum.com/fhirpublic"
+      }
     }
   ],
   "is_seeded": true

@@ -7,6 +7,11 @@
       "value": "be096f84-0f01-5721-acdb-c73ad89cf341",
       "is_fpi": true,
       "payerLegalName": "ARCADIAN HEALTH PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "ARCADIAN HEALTH PLAN, INC.",
+        "Humana",
+        "Humana Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ARCADIAN HEALTH PLAN, INC."
     },
@@ -35,17 +40,17 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H4939-003",
-          "parent_fpi": "be096f84-0f01-5721-acdb-c73ad89cf341",
-          "f_plan_id": "6c829b16-8065-4651-9e5b-4761d92f4266",
-          "plan_name": "Humana Gold Plus SNP-DE H4939-003 (HMO-POS D-SNP)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H4939-002",
           "parent_fpi": "be096f84-0f01-5721-acdb-c73ad89cf341",
           "f_plan_id": "09726390-f105-42db-be72-3cf50ad041aa",
           "plan_name": "Humana Dual Select H4939-002 (HMO-POS D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4939-003",
+          "parent_fpi": "be096f84-0f01-5721-acdb-c73ad89cf341",
+          "f_plan_id": "6c829b16-8065-4651-9e5b-4761d92f4266",
+          "plan_name": "Humana Gold Plus SNP-DE H4939-003 (HMO-POS D-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -294,13 +299,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5619-184",
-          "parent_fpi": "be096f84-0f01-5721-acdb-c73ad89cf341",
-          "f_plan_id": "811869a2-e816-410b-a85d-1a2756624f99",
-          "plan_name": "Humana Gold Plus H5619-184 (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5619-133",
           "parent_fpi": "be096f84-0f01-5721-acdb-c73ad89cf341",
           "f_plan_id": "f2836223-675a-4e35-9e59-d3fb064b5276",
@@ -483,34 +481,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5619-802",
-          "parent_fpi": "be096f84-0f01-5721-acdb-c73ad89cf341",
-          "f_plan_id": "379667ce-1ddd-420c-914c-c95513587aee",
-          "plan_name": "Humana Medicare Employer (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5619-803",
-          "parent_fpi": "be096f84-0f01-5721-acdb-c73ad89cf341",
-          "f_plan_id": "289b0ab1-5be8-424c-8915-bb24f6a1198c",
-          "plan_name": "Humana Medicare Employer (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5619-805",
-          "parent_fpi": "be096f84-0f01-5721-acdb-c73ad89cf341",
-          "f_plan_id": "65bc1545-62a1-4196-949a-1a266727f63a",
-          "plan_name": "Humana Medicare Employer (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H5619-806",
-          "parent_fpi": "be096f84-0f01-5721-acdb-c73ad89cf341",
-          "f_plan_id": "11a6e24a-3ba2-4d48-8839-58100ae0951d",
-          "plan_name": "Humana Medicare Employer (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5619-179",
           "parent_fpi": "be096f84-0f01-5721-acdb-c73ad89cf341",
           "f_plan_id": "e00ab55e-3a2c-48cc-ba38-6608e9526851",
@@ -543,10 +513,45 @@
           "parent_fpi": "be096f84-0f01-5721-acdb-c73ad89cf341",
           "f_plan_id": "b7d259ea-fef3-4071-9b39-d1aa54632477",
           "plan_name": "Humana Gold Plus H5619-183 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5619-184",
+          "parent_fpi": "be096f84-0f01-5721-acdb-c73ad89cf341",
+          "f_plan_id": "811869a2-e816-410b-a85d-1a2756624f99",
+          "plan_name": "Humana Gold Plus H5619-184 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5619-802",
+          "parent_fpi": "be096f84-0f01-5721-acdb-c73ad89cf341",
+          "f_plan_id": "379667ce-1ddd-420c-914c-c95513587aee",
+          "plan_name": "Humana Medicare Employer (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5619-803",
+          "parent_fpi": "be096f84-0f01-5721-acdb-c73ad89cf341",
+          "f_plan_id": "289b0ab1-5be8-424c-8915-bb24f6a1198c",
+          "plan_name": "Humana Medicare Employer (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5619-805",
+          "parent_fpi": "be096f84-0f01-5721-acdb-c73ad89cf341",
+          "f_plan_id": "65bc1545-62a1-4196-949a-1a266727f63a",
+          "plan_name": "Humana Medicare Employer (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5619-806",
+          "parent_fpi": "be096f84-0f01-5721-acdb-c73ad89cf341",
+          "f_plan_id": "11a6e24a-3ba2-4d48-8839-58100ae0951d",
+          "plan_name": "Humana Medicare Employer (HMO)"
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.humana.com/api"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.humana.com/api"
       }
     }
   ],

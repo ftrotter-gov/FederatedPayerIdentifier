@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "c58f42ea-9c0e-58c3-a995-59268e787641",
+      "is_fpi": true,
+      "payerLegalName": "WELBEHEALTH BAY AREA PACE, LLC",
+      "payer_level_string_search_matches": [
+        "WELBEHEALTH BAY AREA PACE, LLC",
+        "WelbeHealth",
+        "WelbeHealth LLC."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "WELBEHEALTH BAY AREA PACE, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6317",
+      "is_fpi": false,
+      "parent_fpi": "c58f42ea-9c0e-58c3-a995-59268e787641"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6317-001",
+          "parent_fpi": "c58f42ea-9c0e-58c3-a995-59268e787641",
+          "f_plan_id": "0020c077-1cd6-4320-91aa-35d9e740693c",
+          "plan_name": "WelbeHealth San Jose (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6317-002",
+          "parent_fpi": "c58f42ea-9c0e-58c3-a995-59268e787641",
+          "f_plan_id": "763c1991-9306-43f0-97f7-12703fa10653",
+          "plan_name": "WelbeHealth San Jose (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

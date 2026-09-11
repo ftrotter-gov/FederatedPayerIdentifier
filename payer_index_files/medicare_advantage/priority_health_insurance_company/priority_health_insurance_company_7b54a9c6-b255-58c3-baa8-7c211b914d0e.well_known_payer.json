@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "7b54a9c6-b255-58c3-baa8-7c211b914d0e",
+      "is_fpi": true,
+      "payerLegalName": "PRIORITY HEALTH INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "PRIORITY HEALTH INSURANCE COMPANY",
+        "Priority Health Medicare",
+        "Corewell Health"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "PRIORITY HEALTH INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S5857",
+      "is_fpi": false,
+      "parent_fpi": "7b54a9c6-b255-58c3-baa8-7c211b914d0e"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5857-802",
+          "parent_fpi": "7b54a9c6-b255-58c3-baa8-7c211b914d0e",
+          "f_plan_id": "59e65c1e-be6b-41ce-b707-b5c879dd9c77",
+          "plan_name": "PriorityMedicare Rx EG Non-Calendar Year (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5857-803",
+          "parent_fpi": "7b54a9c6-b255-58c3-baa8-7c211b914d0e",
+          "f_plan_id": "d177dd1b-f6bf-4230-9d4d-825815382510",
+          "plan_name": "PriorityMedicare Rx EG Calendar Year (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

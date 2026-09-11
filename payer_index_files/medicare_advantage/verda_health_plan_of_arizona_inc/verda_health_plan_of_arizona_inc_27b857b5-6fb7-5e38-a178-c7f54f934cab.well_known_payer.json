@@ -7,6 +7,11 @@
       "value": "27b857b5-6fb7-5e38-a178-c7f54f934cab",
       "is_fpi": true,
       "payerLegalName": "VERDA HEALTH PLAN OF ARIZONA, INC.",
+      "payer_level_string_search_matches": [
+        "VERDA HEALTH PLAN OF ARIZONA, INC.",
+        "Verda Health Plan of Arizona",
+        "Verda Healthcare, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "VERDA HEALTH PLAN OF ARIZONA, INC."
     },
@@ -35,7 +40,10 @@
           "plan_name": "Verda Noble Chronic Care (HMO C-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://www.verdahpaz.com/wp-content/uploads/2026/07/H2630_index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://www.verdahpaz.com/fhir-provider-api-2026/"
+      }
     }
   ],
   "is_seeded": true

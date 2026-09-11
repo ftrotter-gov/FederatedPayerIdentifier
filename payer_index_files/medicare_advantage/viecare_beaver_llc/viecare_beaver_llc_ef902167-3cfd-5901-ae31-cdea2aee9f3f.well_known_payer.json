@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "ef902167-3cfd-5901-ae31-cdea2aee9f3f",
+      "is_fpi": true,
+      "payerLegalName": "VIECARE BEAVER, LLC",
+      "payer_level_string_search_matches": [
+        "VIECARE BEAVER, LLC",
+        "LIFE Beaver and Lawrence Counties",
+        "Lutheran SeniorLife"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "VIECARE BEAVER, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7660",
+      "is_fpi": false,
+      "parent_fpi": "ef902167-3cfd-5901-ae31-cdea2aee9f3f"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7660-001",
+          "parent_fpi": "ef902167-3cfd-5901-ae31-cdea2aee9f3f",
+          "f_plan_id": "4164dc17-7798-4fdf-8ab4-f67e85811d25",
+          "plan_name": "VieCare Beaver, LLC dba LIFE Beaver and Lawrence C (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7660-002",
+          "parent_fpi": "ef902167-3cfd-5901-ae31-cdea2aee9f3f",
+          "f_plan_id": "72d4b26d-296b-45d6-9d9c-b5f8e75d4ab5",
+          "plan_name": "VieCare Beaver, LLC dba LIFE Beaver and Lawrence C (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

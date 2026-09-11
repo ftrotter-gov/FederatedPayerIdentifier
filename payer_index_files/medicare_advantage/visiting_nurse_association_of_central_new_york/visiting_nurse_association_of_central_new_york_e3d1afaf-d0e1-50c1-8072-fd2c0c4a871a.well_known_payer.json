@@ -7,6 +7,10 @@
       "value": "e3d1afaf-d0e1-50c1-8072-fd2c0c4a871a",
       "is_fpi": true,
       "payerLegalName": "VISITING NURSE ASSOCIATION OF CENTRAL NEW YORK",
+      "payer_level_string_search_matches": [
+        "VISITING NURSE ASSOCIATION OF CENTRAL NEW YORK",
+        "Nascentia Health Plus"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "VISITING NURSE ASSOCIATION OF CENTRAL NEW YORK"
     },
@@ -42,7 +46,10 @@
           "plan_name": "Nascentia Dual Advantage (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://data.healthlx.com:8004/NASCENTIA",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://providerdirectory.healthlx.com/NASCENTIA/H9066/2027/index.json"
+      }
     }
   ],
   "is_seeded": true

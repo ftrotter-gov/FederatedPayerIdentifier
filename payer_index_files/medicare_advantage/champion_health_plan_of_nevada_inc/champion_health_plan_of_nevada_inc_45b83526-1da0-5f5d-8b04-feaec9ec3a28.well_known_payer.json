@@ -7,6 +7,11 @@
       "value": "45b83526-1da0-5f5d-8b04-feaec9ec3a28",
       "is_fpi": true,
       "payerLegalName": "CHAMPION HEALTH PLAN OF NEVADA, INC.",
+      "payer_level_string_search_matches": [
+        "CHAMPION HEALTH PLAN OF NEVADA, INC.",
+        "Champion Health Plan",
+        "Champion Health Plans-USA, LLC."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "CHAMPION HEALTH PLAN OF NEVADA, INC."
     },
@@ -71,7 +76,7 @@
         }
       ],
       "plan_endpoints": {
-        "cms_provider_directory_machine_readable_format_endpoint": "https://championhmo.com/public_html/provider-directory/NV/index.json"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://dtbvgvfrj0.execute-api.us-east-1.amazonaws.com/prod/fhir-directory/NV/r4/metadata"
       }
     }
   ],

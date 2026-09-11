@@ -7,6 +7,11 @@
       "value": "3426e238-f98b-5612-abe9-775e1106c67f",
       "is_fpi": true,
       "payerLegalName": "KAISER FDTN HLTH PLAN OF THE MID-ATLANTIC STATES",
+      "payer_level_string_search_matches": [
+        "KAISER FDTN HLTH PLAN OF THE MID-ATLANTIC STATES",
+        "Kaiser Permanente",
+        "Kaiser Foundation Health Plan, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "KAISER FDTN HLTH PLAN OF THE MID-ATLANTIC STATES"
     },
@@ -75,27 +80,6 @@
           "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
           "f_plan_id": "4d003153-86eb-4237-bdf3-883324f5117c",
           "plan_name": "Kaiser Permanente Medicare Advantage Care Plus MD (HMO-POS)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H2172-801",
-          "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
-          "f_plan_id": "6816aa76-9aa4-48db-8d1b-22c0d6c921a6",
-          "plan_name": "Kaiser Permanente Medicare Advantage for Groups (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H2172-805",
-          "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
-          "f_plan_id": "48c0b775-2a0a-46e8-83ce-721dfdd11459",
-          "plan_name": "Kaiser Permanente Medicare Advantage GRP w/o D (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H2172-806",
-          "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
-          "f_plan_id": "c52278e3-c2e9-415a-9e9b-4dcb4bc50213",
-          "plan_name": "Kaiser Permanente Medicare Advantage GRP B/D (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -180,9 +164,33 @@
           "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
           "f_plan_id": "878fd54e-0acd-4eba-b3e6-26389d2d8db0",
           "plan_name": "Kaiser Permanente Medicare Advantage Value DC (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2172-801",
+          "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
+          "f_plan_id": "6816aa76-9aa4-48db-8d1b-22c0d6c921a6",
+          "plan_name": "Kaiser Permanente Medicare Advantage for Groups (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2172-805",
+          "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
+          "f_plan_id": "48c0b775-2a0a-46e8-83ce-721dfdd11459",
+          "plan_name": "Kaiser Permanente Medicare Advantage GRP w/o D (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2172-806",
+          "parent_fpi": "3426e238-f98b-5612-abe9-775e1106c67f",
+          "f_plan_id": "c52278e3-c2e9-415a-9e9b-4dcb4bc50213",
+          "plan_name": "Kaiser Permanente Medicare Advantage GRP B/D (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://healthy.kaiserpermanente.org/content/dam/kporg/data/md/mpf-medicare.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://kpx-service-bus.kp.org/service/hp/mhpo/healthplanproviderv1rc"
+      }
     }
   ],
   "is_seeded": true

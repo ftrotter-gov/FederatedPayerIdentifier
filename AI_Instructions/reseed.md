@@ -1,0 +1,3 @@
+Our current seeding approach for medicare data expects to have a crosswalk file as input. Instead of this, I would like to ingest tools/seed_medicare_advantage/source_data/Monthly_Report_By_Plan_2026_08.puf.csv
+
+This file contains an "organization name", but also "marketing name" and "parent organization" these should be seeded as searchable names for the payer under the "payer_level_string_search_matches" 

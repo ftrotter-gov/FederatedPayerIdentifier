@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "0459200f-a16c-5778-8ff2-29cb879d5de2",
+      "is_fpi": true,
+      "payerLegalName": "MERCY LIFE, INC.",
+      "payer_level_string_search_matches": [
+        "MERCY LIFE, INC.",
+        "Mercy LIFE",
+        "Trinity Health Corporation"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MERCY LIFE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0809",
+      "is_fpi": false,
+      "parent_fpi": "0459200f-a16c-5778-8ff2-29cb879d5de2"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0809-001",
+          "parent_fpi": "0459200f-a16c-5778-8ff2-29cb879d5de2",
+          "f_plan_id": "358a5f0d-9467-44ca-9ed4-9b698634e2cf",
+          "plan_name": "Mercy LIFE, Inc. (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0809-002",
+          "parent_fpi": "0459200f-a16c-5778-8ff2-29cb879d5de2",
+          "f_plan_id": "9734db08-3d7c-4b45-9821-46ae9193b09b",
+          "plan_name": "Mercy LIFE, Inc. (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -7,6 +7,12 @@
       "value": "2298bcd1-4147-5d70-a642-f9e6c7d2b7cb",
       "is_fpi": true,
       "payerLegalName": "HCSC INSURANCE SERVICES COMPANY",
+      "payer_level_string_search_matches": [
+        "HCSC INSURANCE SERVICES COMPANY",
+        "Blue Cross and Blue Shield of NM, TX",
+        "Health Care Service Corporation",
+        "Blue Cross and Blue Shield of Texas"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HCSC INSURANCE SERVICES COMPANY"
     },

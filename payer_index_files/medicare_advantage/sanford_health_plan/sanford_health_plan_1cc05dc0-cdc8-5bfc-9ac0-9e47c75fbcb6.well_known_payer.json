@@ -7,6 +7,12 @@
       "value": "1cc05dc0-cdc8-5bfc-9ac0-9e47c75fbcb6",
       "is_fpi": true,
       "payerLegalName": "SANFORD HEALTH PLAN",
+      "payer_level_string_search_matches": [
+        "SANFORD HEALTH PLAN",
+        "Great Plains Medicare Advantage",
+        "Sanford Health",
+        "Align powered by Sanford Health Plan"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "SANFORD HEALTH PLAN"
     },
@@ -21,9 +27,41 @@
       "value": "H8385",
       "is_fpi": false,
       "parent_fpi": "1cc05dc0-cdc8-5bfc-9ac0-9e47c75fbcb6"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8967",
+      "is_fpi": false,
+      "parent_fpi": "1cc05dc0-cdc8-5bfc-9ac0-9e47c75fbcb6"
     }
   ],
   "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8967-001",
+          "parent_fpi": "1cc05dc0-cdc8-5bfc-9ac0-9e47c75fbcb6",
+          "f_plan_id": "29813c27-5734-48cd-96bf-0ad5aebfa26b",
+          "plan_name": "Great Plains Medicare Advantage (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8967-002",
+          "parent_fpi": "1cc05dc0-cdc8-5bfc-9ac0-9e47c75fbcb6",
+          "f_plan_id": "80a666d0-7737-4474-9e86-35c7e2898251",
+          "plan_name": "Great Plains Medicare Advantage Gold (HMO I-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8967-003",
+          "parent_fpi": "1cc05dc0-cdc8-5bfc-9ac0-9e47c75fbcb6",
+          "f_plan_id": "07aec885-2a34-41b7-9b4b-2e198f1692b9",
+          "plan_name": "Align Dual Partnership (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
     {
       "plan_identifiers": [
         {
@@ -39,7 +77,15 @@
           "parent_fpi": "1cc05dc0-cdc8-5bfc-9ac0-9e47c75fbcb6",
           "f_plan_id": "82792328-1a24-465a-9cfb-14e77decad82",
           "plan_name": "Great Plain Medicare Advantage Gold (HMO I-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://shp-web-public.s3.amazonaws.com/PRD/medicare/h1787/mpf-data-index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.greatplainsmedicareadvantage.com/hspd/r4/"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8385-001",
@@ -69,7 +115,10 @@
           "plan_name": "Align ChoicePlus (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://shp-web-public.s3.amazonaws.com/PRD/medicare/h8385/mpf-data-index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.align.sanfordhealthplan.com/hspd/r4/"
+      }
     }
   ],
   "is_seeded": true

@@ -7,6 +7,10 @@
       "value": "88cd33f5-0037-569d-b1c3-24a223d03606",
       "is_fpi": true,
       "payerLegalName": "LOUISIANA HEALTH SERVICE & INDEMNITY COMPANY",
+      "payer_level_string_search_matches": [
+        "LOUISIANA HEALTH SERVICE & INDEMNITY COMPANY",
+        "Blue Cross and Blue Shield of Louisiana"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "LOUISIANA HEALTH SERVICE & INDEMNITY COMPANY"
     },
@@ -36,6 +40,13 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1248-014",
+          "parent_fpi": "88cd33f5-0037-569d-b1c3-24a223d03606",
+          "f_plan_id": "a400644f-2552-4b7c-aa00-cddac086a410",
+          "plan_name": "Blue adVantage Thrive (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H1248-801",
           "parent_fpi": "88cd33f5-0037-569d-b1c3-24a223d03606",
           "f_plan_id": "c04ee89e-35df-4af2-bd93-8adad8875c84",
@@ -54,17 +65,11 @@
           "parent_fpi": "88cd33f5-0037-569d-b1c3-24a223d03606",
           "f_plan_id": "b8ce4eec-7148-4bb4-96a6-a26443061220",
           "plan_name": "Blue adVantage (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H1248-014",
-          "parent_fpi": "88cd33f5-0037-569d-b1c3-24a223d03606",
-          "f_plan_id": "a400644f-2552-4b7c-aa00-cddac086a410",
-          "plan_name": "Blue adVantage Thrive (PPO)"
         }
       ],
       "plan_endpoints": {
-        "cms_provider_directory_machine_readable_format_endpoint": "https://cdn.lablue.com/cms/H1248/H1248index.json"
+        "cms_provider_directory_machine_readable_format_endpoint": "https://cdn.lablue.com/cms/H1248/H1248index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://gateway.api.lablue.com/ProviderDirectory/"
       }
     }
   ],

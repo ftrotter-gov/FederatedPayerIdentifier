@@ -7,6 +7,11 @@
       "value": "be9af402-5e21-5c11-a01d-47e3039dd6de",
       "is_fpi": true,
       "payerLegalName": "VERDA HEALTH PLAN OF TEXAS INC",
+      "payer_level_string_search_matches": [
+        "VERDA HEALTH PLAN OF TEXAS INC",
+        "Verda Health Plan of Texas",
+        "Verda Healthcare, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "VERDA HEALTH PLAN OF TEXAS INC"
     },
@@ -49,7 +54,10 @@
           "plan_name": "Verda Noble Chronic Care (HMO C-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://www.verdahptx.com/wp-content/uploads/2026/07/H5163_index_updated.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://verdahptx.com/fhir-provider-api-2026/"
+      }
     }
   ],
   "is_seeded": true

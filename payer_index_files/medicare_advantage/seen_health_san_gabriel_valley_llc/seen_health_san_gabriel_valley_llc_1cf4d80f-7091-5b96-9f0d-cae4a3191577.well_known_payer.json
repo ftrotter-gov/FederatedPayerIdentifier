@@ -1,0 +1,45 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "1cf4d80f-7091-5b96-9f0d-cae4a3191577",
+      "is_fpi": true,
+      "payerLegalName": "SEEN HEALTH SAN GABRIEL VALLEY, LLC",
+      "payer_level_string_search_matches": [
+        "SEEN HEALTH SAN GABRIEL VALLEY, LLC"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "SEEN HEALTH SAN GABRIEL VALLEY, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H4538",
+      "is_fpi": false,
+      "parent_fpi": "1cf4d80f-7091-5b96-9f0d-cae4a3191577"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4538-003",
+          "parent_fpi": "1cf4d80f-7091-5b96-9f0d-cae4a3191577",
+          "f_plan_id": "086ecba4-bedb-438e-973a-86616728af1e",
+          "plan_name": "Seen Health San Gabriel Valley PACE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4538-004",
+          "parent_fpi": "1cf4d80f-7091-5b96-9f0d-cae4a3191577",
+          "f_plan_id": "41e46f3f-066e-4aa5-aad4-9dac150c2e02",
+          "plan_name": "Seen Health San Gabriel Valley PACE-Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

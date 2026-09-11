@@ -1,0 +1,159 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "698a7bd1-d175-50e2-b4f8-8545815ff004",
+      "is_fpi": true,
+      "payerLegalName": "HEALTHIER NEW JERSEY INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "HEALTHIER NEW JERSEY INSURANCE COMPANY",
+        "Braven Health",
+        "Horizon Mutual Holdings, Inc"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HEALTHIER NEW JERSEY INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H0885",
+      "is_fpi": false,
+      "parent_fpi": "698a7bd1-d175-50e2-b4f8-8545815ff004"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0885-001",
+          "parent_fpi": "698a7bd1-d175-50e2-b4f8-8545815ff004",
+          "f_plan_id": "66fc7b89-55de-4ff8-8ca7-c0d6719aa3e6",
+          "plan_name": "Braven Medicare Choice (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0885-002",
+          "parent_fpi": "698a7bd1-d175-50e2-b4f8-8545815ff004",
+          "f_plan_id": "d4c31c70-1633-4efa-baba-d795cdd307ac",
+          "plan_name": "Braven Medicare Freedom (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0885-003",
+          "parent_fpi": "698a7bd1-d175-50e2-b4f8-8545815ff004",
+          "f_plan_id": "f46d2bd0-a2c2-432f-9480-174723ed5274",
+          "plan_name": "Braven Medicare Choice (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0885-005",
+          "parent_fpi": "698a7bd1-d175-50e2-b4f8-8545815ff004",
+          "f_plan_id": "bd0d2147-2c64-4cac-b446-ba557daca789",
+          "plan_name": "Braven Medicare Choice (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0885-006",
+          "parent_fpi": "698a7bd1-d175-50e2-b4f8-8545815ff004",
+          "f_plan_id": "ac47739b-643c-4cec-9824-61d83804a1bb",
+          "plan_name": "Braven Medicare Choice (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0885-007",
+          "parent_fpi": "698a7bd1-d175-50e2-b4f8-8545815ff004",
+          "f_plan_id": "1d8f73bf-586f-4ff7-b462-dd83a6984b21",
+          "plan_name": "Braven Medicare Choice Plus (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0885-008",
+          "parent_fpi": "698a7bd1-d175-50e2-b4f8-8545815ff004",
+          "f_plan_id": "2e4beb84-0226-40f4-925e-8864cb2ffe49",
+          "plan_name": "Braven Medicare Freedom (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0885-009",
+          "parent_fpi": "698a7bd1-d175-50e2-b4f8-8545815ff004",
+          "f_plan_id": "c2adc437-297e-4018-b7be-8897c32de45d",
+          "plan_name": "Braven Medicare Freedom (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0885-010",
+          "parent_fpi": "698a7bd1-d175-50e2-b4f8-8545815ff004",
+          "f_plan_id": "d3788347-478c-42a1-8842-cfdc2fa32f5b",
+          "plan_name": "Braven Medicare Salute - No Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0885-011",
+          "parent_fpi": "698a7bd1-d175-50e2-b4f8-8545815ff004",
+          "f_plan_id": "7902cced-9b22-4132-8369-d32b6fd10ff3",
+          "plan_name": "Braven Medicare Salute - No Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0885-801",
+          "parent_fpi": "698a7bd1-d175-50e2-b4f8-8545815ff004",
+          "f_plan_id": "14c56223-27fe-47b9-8ac2-eedffbfda103",
+          "plan_name": "Braven Medicare Group (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0885-802",
+          "parent_fpi": "698a7bd1-d175-50e2-b4f8-8545815ff004",
+          "f_plan_id": "b1276b66-600e-4202-858a-963f87ecae53",
+          "plan_name": "Braven Medicare Group w/Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0885-805",
+          "parent_fpi": "698a7bd1-d175-50e2-b4f8-8545815ff004",
+          "f_plan_id": "cb210f7f-85a4-4cd3-86cd-a5aadab712aa",
+          "plan_name": "Braven SHBP - 10 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0885-806",
+          "parent_fpi": "698a7bd1-d175-50e2-b4f8-8545815ff004",
+          "f_plan_id": "3f08ad8b-8682-4bca-b9dc-144acb86f105",
+          "plan_name": "Braven SHBP - 15 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0885-807",
+          "parent_fpi": "698a7bd1-d175-50e2-b4f8-8545815ff004",
+          "f_plan_id": "122932f7-c0ea-4b68-9cae-e3674a496862",
+          "plan_name": "Braven SEHBP -  10 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0885-808",
+          "parent_fpi": "698a7bd1-d175-50e2-b4f8-8545815ff004",
+          "f_plan_id": "4357ab90-5c76-4e15-9f61-75d45fca27af",
+          "plan_name": "Braven SEHBP -  15 (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0885-809",
+          "parent_fpi": "698a7bd1-d175-50e2-b4f8-8545815ff004",
+          "f_plan_id": "4d6be166-a2e6-43c2-8883-404b992293c6",
+          "plan_name": "Braven Medicare Group (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0885-810",
+          "parent_fpi": "698a7bd1-d175-50e2-b4f8-8545815ff004",
+          "f_plan_id": "b846186c-c4d3-4501-b796-af2980d92a0b",
+          "plan_name": "Braven Medicare Group w/Rx (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "f227f674-19d2-54a3-9a2e-cffab2a9289c",
+      "is_fpi": true,
+      "payerLegalName": "TUNGSTEN HEALTH SACRAMENTO, LLC",
+      "payer_level_string_search_matches": [
+        "TUNGSTEN HEALTH SACRAMENTO, LLC",
+        "Habitat Health Sacramento",
+        "Tungsten Health Holdings, LLC"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "TUNGSTEN HEALTH SACRAMENTO, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6537",
+      "is_fpi": false,
+      "parent_fpi": "f227f674-19d2-54a3-9a2e-cffab2a9289c"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6537-001",
+          "parent_fpi": "f227f674-19d2-54a3-9a2e-cffab2a9289c",
+          "f_plan_id": "aee1eaf3-52f8-4238-8070-c8a191898343",
+          "plan_name": "Habitat Health Sacramento - Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6537-002",
+          "parent_fpi": "f227f674-19d2-54a3-9a2e-cffab2a9289c",
+          "f_plan_id": "50029196-9f62-43a9-b69d-1a28b97861f9",
+          "plan_name": "Habitat Health Sacramento - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

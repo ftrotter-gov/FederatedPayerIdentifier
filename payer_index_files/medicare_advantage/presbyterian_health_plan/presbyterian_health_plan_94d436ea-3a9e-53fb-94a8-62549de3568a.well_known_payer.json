@@ -7,6 +7,10 @@
       "value": "94d436ea-3a9e-53fb-94a8-62549de3568a",
       "is_fpi": true,
       "payerLegalName": "PRESBYTERIAN HEALTH PLAN",
+      "payer_level_string_search_matches": [
+        "PRESBYTERIAN HEALTH PLAN",
+        "Presbyterian Healthcare Services"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "PRESBYTERIAN HEALTH PLAN"
     },
@@ -50,6 +54,13 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3204-017",
+          "parent_fpi": "94d436ea-3a9e-53fb-94a8-62549de3568a",
+          "f_plan_id": "3cb08822-8d01-48d4-902e-705da43895c0",
+          "plan_name": "Presbyterian Senior Care Extra Health Plan with Rx (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3204-801",
           "parent_fpi": "94d436ea-3a9e-53fb-94a8-62549de3568a",
           "f_plan_id": "796939db-df39-45e2-be06-c312bd3c4344",
@@ -89,16 +100,12 @@
           "parent_fpi": "94d436ea-3a9e-53fb-94a8-62549de3568a",
           "f_plan_id": "cbf7cb0f-4e30-4c9f-90b3-babc1153082b",
           "plan_name": "Presbyterian Senior Care Emp Group Plan 6 NC (HMO-POS)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H3204-017",
-          "parent_fpi": "94d436ea-3a9e-53fb-94a8-62549de3568a",
-          "f_plan_id": "3cb08822-8d01-48d4-902e-705da43895c0",
-          "plan_name": "Presbyterian Senior Care Extra Health Plan with Rx (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://onbaseext.phs.org/PEL/DisplayDocument?ContentID=OB_000000053249",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://prodpsbtzinterop.healthtranzformdev.com/providerdirectory"
+      }
     }
   ],
   "is_seeded": true

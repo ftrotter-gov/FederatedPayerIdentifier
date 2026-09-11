@@ -7,6 +7,11 @@
       "value": "27fc6ce2-27e5-5b04-8a5f-1ec1c4df27aa",
       "is_fpi": true,
       "payerLegalName": "ELDERSERVE HEALTH, INC.",
+      "payer_level_string_search_matches": [
+        "ELDERSERVE HEALTH, INC.",
+        "ElderServe Health",
+        "CareSource"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ELDERSERVE HEALTH, INC."
     },
@@ -25,17 +30,20 @@
           "value": "H6776-001",
           "parent_fpi": "27fc6ce2-27e5-5b04-8a5f-1ec1c4df27aa",
           "f_plan_id": "d46ab00e-1760-42e1-be3d-278697b0a636",
-          "plan_name": "RiverSpring Star (HMO I-SNP)"
+          "plan_name": "ElderServe Star (HMO I-SNP)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H6776-002",
           "parent_fpi": "27fc6ce2-27e5-5b04-8a5f-1ec1c4df27aa",
           "f_plan_id": "b2b4ed18-766d-42bf-ac19-2a91318696a0",
-          "plan_name": "RiverSpring MAP (HMO D-SNP)"
+          "plan_name": "ElderServe MAP (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.elderservehealth.org/fhir/metadata",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir-app-portal.elderserve.aidbox.app/mpf-provider-directory/H6776/2027/index.json"
+      }
     }
   ],
   "is_seeded": true

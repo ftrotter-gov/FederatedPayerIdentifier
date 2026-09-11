@@ -1,0 +1,74 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "1bd01dff-8406-5cdd-b48f-a1db236b78e3",
+      "is_fpi": true,
+      "payerLegalName": "BLUE CROSS BLUE SHIELD ASSOCIATION",
+      "payer_level_string_search_matches": [
+        "BLUE CROSS BLUE SHIELD ASSOCIATION",
+        "BlueCross BlueShield Association, Federal Employee"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BLUE CROSS BLUE SHIELD ASSOCIATION"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S2135",
+      "is_fpi": false,
+      "parent_fpi": "1bd01dff-8406-5cdd-b48f-a1db236b78e3"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S2135-801",
+          "parent_fpi": "1bd01dff-8406-5cdd-b48f-a1db236b78e3",
+          "f_plan_id": "1ef26be2-e4b5-428c-9f1f-7f412a04d7c3",
+          "plan_name": "FEHB Standard Option (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S2135-802",
+          "parent_fpi": "1bd01dff-8406-5cdd-b48f-a1db236b78e3",
+          "f_plan_id": "6ee4ecdf-a372-474f-ab77-fe7aa36d15c9",
+          "plan_name": "FEHB Basic Option (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S2135-804",
+          "parent_fpi": "1bd01dff-8406-5cdd-b48f-a1db236b78e3",
+          "f_plan_id": "fac899be-f50b-4ce9-ab58-15859db26426",
+          "plan_name": "PSHB Standard Option (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S2135-805",
+          "parent_fpi": "1bd01dff-8406-5cdd-b48f-a1db236b78e3",
+          "f_plan_id": "5c5ef4d0-d48d-4072-aeaa-5dc89c558d83",
+          "plan_name": "PSHB Basic Option (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S2135-806",
+          "parent_fpi": "1bd01dff-8406-5cdd-b48f-a1db236b78e3",
+          "f_plan_id": "548bf854-b81e-4470-93bb-ff7d4b1431f5",
+          "plan_name": "PSHB Blue Focus (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S2135-807",
+          "parent_fpi": "1bd01dff-8406-5cdd-b48f-a1db236b78e3",
+          "f_plan_id": "f6e347a0-95d3-4af0-815e-231b2db9e80d",
+          "plan_name": "Triple-S Optimo PSHB (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

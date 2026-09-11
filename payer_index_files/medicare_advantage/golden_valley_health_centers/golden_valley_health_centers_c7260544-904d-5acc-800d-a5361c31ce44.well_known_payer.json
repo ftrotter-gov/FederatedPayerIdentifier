@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "c7260544-904d-5acc-800d-a5361c31ce44",
+      "is_fpi": true,
+      "payerLegalName": "GOLDEN VALLEY HEALTH CENTERS",
+      "payer_level_string_search_matches": [
+        "GOLDEN VALLEY HEALTH CENTERS",
+        "Central Valley PACE"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "GOLDEN VALLEY HEALTH CENTERS"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1228",
+      "is_fpi": false,
+      "parent_fpi": "c7260544-904d-5acc-800d-a5361c31ce44"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1228-001",
+          "parent_fpi": "c7260544-904d-5acc-800d-a5361c31ce44",
+          "f_plan_id": "85e51143-fb9f-4367-a5c0-6bcb03f92f94",
+          "plan_name": "Central Valley PACE - Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1228-002",
+          "parent_fpi": "c7260544-904d-5acc-800d-a5361c31ce44",
+          "f_plan_id": "40a07ca2-0e79-4d9e-96ed-d60b63e24f3d",
+          "plan_name": "Central Valley PACE - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

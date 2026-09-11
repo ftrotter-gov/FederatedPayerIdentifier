@@ -7,6 +7,11 @@
       "value": "adb8767f-3f31-51e6-bd37-3889dba67e84",
       "is_fpi": true,
       "payerLegalName": "CARE N' CARE INSURANCE COMPANY OF NORTH CAROLINA",
+      "payer_level_string_search_matches": [
+        "CARE N' CARE INSURANCE COMPANY OF NORTH CAROLINA",
+        "HealthTeam Advantage",
+        "Risant Health, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "CARE N' CARE INSURANCE COMPANY OF NORTH CAROLINA"
     },
@@ -32,7 +37,15 @@
           "parent_fpi": "adb8767f-3f31-51e6-bd37-3889dba67e84",
           "f_plan_id": "3bacbc07-7aa4-4b71-9a49-c931f1d293c2",
           "plan_name": "HealthTeam Advantage Diabetes & Heart Care (HMO C-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.healthteamadvantagefhir.com/r4/public/Practitioner/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://gateway.1up.health/v1/healthteam-advantage/r4/public/mpf/H2624-CY2027/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9808-004",
@@ -76,7 +89,10 @@
           "plan_name": "HealthTeam Advantage Plan II EGWP (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.healthteamadvantagefhir.com/r4/public/Practitioner/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://gateway.1up.health/v1/healthteam-advantage/r4/public/mpf/H9808-CY2027/index.json"
+      }
     }
   ],
   "is_seeded": true

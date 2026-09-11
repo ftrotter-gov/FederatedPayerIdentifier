@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "ce26e032-4505-58ce-814a-ff4da217ef21",
+      "is_fpi": true,
+      "payerLegalName": "HOSPICE OF METRO DENVER, INC",
+      "payer_level_string_search_matches": [
+        "HOSPICE OF METRO DENVER, INC",
+        "Colorado PACE"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HOSPICE OF METRO DENVER, INC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7296",
+      "is_fpi": false,
+      "parent_fpi": "ce26e032-4505-58ce-814a-ff4da217ef21"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7296-001",
+          "parent_fpi": "ce26e032-4505-58ce-814a-ff4da217ef21",
+          "f_plan_id": "cdbe2ed8-13f8-45d4-9ea2-ebd19499dcdc",
+          "plan_name": "Colorado PACE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7296-002",
+          "parent_fpi": "ce26e032-4505-58ce-814a-ff4da217ef21",
+          "f_plan_id": "16dbc1d3-4ff7-4a22-9490-13207cdf93b0",
+          "plan_name": "Colorado PACE - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "0b8f5d6f-91fc-5f56-98a6-106b1ec2fa98",
+      "is_fpi": true,
+      "payerLegalName": "ASCENSION LIVING ST. VINCENT PACE, INC.",
+      "payer_level_string_search_matches": [
+        "ASCENSION LIVING ST. VINCENT PACE, INC.",
+        "Ascension Living St. Vincent PACE",
+        "Ascension Health Alliance"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ASCENSION LIVING ST. VINCENT PACE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H1742",
+      "is_fpi": false,
+      "parent_fpi": "0b8f5d6f-91fc-5f56-98a6-106b1ec2fa98"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1742-001",
+          "parent_fpi": "0b8f5d6f-91fc-5f56-98a6-106b1ec2fa98",
+          "f_plan_id": "47da9862-9b3f-4f34-a70c-96ba08a1379c",
+          "plan_name": "Ascension Living St. Vincent PACE (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H1742-002",
+          "parent_fpi": "0b8f5d6f-91fc-5f56-98a6-106b1ec2fa98",
+          "f_plan_id": "2883f7ea-be9d-4164-9f8e-24cfc9a757b2",
+          "plan_name": "Ascension Living St. Vincent PACE (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

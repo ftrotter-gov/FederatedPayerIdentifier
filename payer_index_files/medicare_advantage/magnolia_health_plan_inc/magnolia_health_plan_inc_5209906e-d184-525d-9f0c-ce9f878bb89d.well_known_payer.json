@@ -1,0 +1,40 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "5209906e-d184-525d-9f0c-ce9f878bb89d",
+      "is_fpi": true,
+      "payerLegalName": "MAGNOLIA HEALTH PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "MAGNOLIA HEALTH PLAN, INC.",
+        "Wellcare",
+        "Centene Corporation"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MAGNOLIA HEALTH PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H9811",
+      "is_fpi": false,
+      "parent_fpi": "5209906e-d184-525d-9f0c-ce9f878bb89d"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H9811-801",
+          "parent_fpi": "5209906e-d184-525d-9f0c-ce9f878bb89d",
+          "f_plan_id": "74f29084-da33-4fba-946c-249504802b27",
+          "plan_name": "Allwell Group (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

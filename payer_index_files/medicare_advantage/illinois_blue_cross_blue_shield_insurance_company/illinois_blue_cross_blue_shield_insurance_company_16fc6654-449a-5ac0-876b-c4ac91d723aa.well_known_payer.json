@@ -1,0 +1,40 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "16fc6654-449a-5ac0-876b-c4ac91d723aa",
+      "is_fpi": true,
+      "payerLegalName": "ILLINOIS BLUE CROSS BLUE SHIELD INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "ILLINOIS BLUE CROSS BLUE SHIELD INSURANCE COMPANY",
+        "Blue Cross and Blue Shield of Illinois",
+        "Health Care Service Corporation"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "ILLINOIS BLUE CROSS BLUE SHIELD INSURANCE COMPANY"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8547",
+      "is_fpi": false,
+      "parent_fpi": "16fc6654-449a-5ac0-876b-c4ac91d723aa"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8547-001",
+          "parent_fpi": "16fc6654-449a-5ac0-876b-c4ac91d723aa",
+          "f_plan_id": "866f03ad-a63b-4b0f-897e-31a48e405401",
+          "plan_name": "Blue Cross Medicare Advantage Secure (HMO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

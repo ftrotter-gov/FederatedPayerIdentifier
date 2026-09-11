@@ -7,6 +7,11 @@
       "value": "9cbc49dc-70c3-5372-a567-69802f26bab4",
       "is_fpi": true,
       "payerLegalName": "MCLAREN HEALTH PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "MCLAREN HEALTH PLAN, INC.",
+        "McLaren Medicare",
+        "McLaren Health Care Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "MCLAREN HEALTH PLAN, INC."
     },
@@ -43,7 +48,8 @@
         }
       ],
       "plan_endpoints": {
-        "cms_provider_directory_machine_readable_format_endpoint": "https://www.mclaren.org/Uploads/Public/Documents/HealthPlan/documents/CMSUploads/cms-medicare-data-index-H6322-2026.json"
+        "cms_provider_directory_machine_readable_format_endpoint": "https://www.mclaren.org/Uploads/Public/Documents/HealthPlan/documents/CMSUploads/cms-medicare-data-index-H6322-2027.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.mclarenfhir.com/r4/public-ma/Practitioner"
       }
     }
   ],

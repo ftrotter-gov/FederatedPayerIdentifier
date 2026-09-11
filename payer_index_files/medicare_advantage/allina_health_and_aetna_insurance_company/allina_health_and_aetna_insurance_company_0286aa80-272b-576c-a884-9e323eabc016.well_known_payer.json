@@ -7,6 +7,11 @@
       "value": "0286aa80-272b-576c-a884-9e323eabc016",
       "is_fpi": true,
       "payerLegalName": "ALLINA HEALTH AND AETNA INSURANCE COMPANY",
+      "payer_level_string_search_matches": [
+        "ALLINA HEALTH AND AETNA INSURANCE COMPANY",
+        "Allina Health Aetna Medicare",
+        "Allina Health and Aetna Insurance Holding Company"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ALLINA HEALTH AND AETNA INSURANCE COMPANY"
     },
@@ -78,13 +83,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H3219-801",
-          "parent_fpi": "0286aa80-272b-576c-a884-9e323eabc016",
-          "f_plan_id": "8987787b-0d62-4eee-8dec-595f1a666844",
-          "plan_name": "Allina Health Aetna Medicare Plan (PPO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3219-015",
           "parent_fpi": "0286aa80-272b-576c-a884-9e323eabc016",
           "f_plan_id": "e2427d7f-8228-430a-951a-af91c2211a31",
@@ -96,10 +94,17 @@
           "parent_fpi": "0286aa80-272b-576c-a884-9e323eabc016",
           "f_plan_id": "c1600fc3-5e4b-4d31-b193-42e97c1accab",
           "plan_name": "Allina Health Aetna Medicare Value (PPO C-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3219-801",
+          "parent_fpi": "0286aa80-272b-576c-a884-9e323eabc016",
+          "f_plan_id": "8987787b-0d62-4eee-8dec-595f1a666844",
+          "plan_name": "Allina Health Aetna Medicare Plan (PPO)"
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.aetna.com/interoperability/2027/H3219/index.json"
       }
     }
   ],

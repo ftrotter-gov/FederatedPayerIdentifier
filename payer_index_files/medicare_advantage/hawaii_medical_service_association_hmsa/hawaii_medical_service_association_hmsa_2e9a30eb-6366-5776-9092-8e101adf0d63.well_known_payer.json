@@ -7,6 +7,12 @@
       "value": "2e9a30eb-6366-5776-9092-8e101adf0d63",
       "is_fpi": true,
       "payerLegalName": "HAWAII MEDICAL SERVICE ASSOCIATION (HMSA)",
+      "payer_level_string_search_matches": [
+        "HAWAII MEDICAL SERVICE ASSOCIATION (HMSA)",
+        "HMSA Akamai Advantage Dual Care",
+        "Hawaii Medical Service Association",
+        "HMSAs Medicare Rx Plan"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HAWAII MEDICAL SERVICE ASSOCIATION (HMSA)"
     },
@@ -21,9 +27,41 @@
       "value": "H8481",
       "is_fpi": false,
       "parent_fpi": "2e9a30eb-6366-5776-9092-8e101adf0d63"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S3994",
+      "is_fpi": false,
+      "parent_fpi": "2e9a30eb-6366-5776-9092-8e101adf0d63"
     }
   ],
   "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3994-801",
+          "parent_fpi": "2e9a30eb-6366-5776-9092-8e101adf0d63",
+          "f_plan_id": "d8e04aa2-9a11-4bfb-95eb-b2e55fc13985",
+          "plan_name": "Medicare Rx EGWP CY (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S3994-802",
+          "parent_fpi": "2e9a30eb-6366-5776-9092-8e101adf0d63",
+          "f_plan_id": "68970e75-f943-490b-af8b-c862922af3e8",
+          "plan_name": "Medicare Rx EGWP NCY (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
+    {
+      "plan_identifiers": [],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://hmsa.com/search/providers/MAProviderDirectory/H2561_2027_index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://io-api.hmsa-services.com:9443/fhir/r4/providerdirectory"
+      }
+    },
     {
       "plan_identifiers": [
         {
@@ -34,7 +72,10 @@
           "plan_name": "HMSA Akamai Advantage Dual Care (PPO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://hmsa.com/search/providers/MAProviderDirectory/H8481_2027_index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://io-api.hmsa-services.com:9443/fhir/r4/providerdirectory"
+      }
     }
   ],
   "is_seeded": true

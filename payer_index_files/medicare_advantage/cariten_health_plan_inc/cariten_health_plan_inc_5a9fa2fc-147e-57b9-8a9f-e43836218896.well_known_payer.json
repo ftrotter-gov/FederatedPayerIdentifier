@@ -7,6 +7,11 @@
       "value": "5a9fa2fc-147e-57b9-8a9f-e43836218896",
       "is_fpi": true,
       "payerLegalName": "CARITEN HEALTH PLAN INC.",
+      "payer_level_string_search_matches": [
+        "CARITEN HEALTH PLAN INC.",
+        "Humana",
+        "Humana Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "CARITEN HEALTH PLAN INC."
     },
@@ -89,34 +94,6 @@
           "parent_fpi": "5a9fa2fc-147e-57b9-8a9f-e43836218896",
           "f_plan_id": "786011ee-73d6-4472-a1b7-0e46b7a90258",
           "plan_name": "Humana Total Complete H4461-043 (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H4461-806",
-          "parent_fpi": "5a9fa2fc-147e-57b9-8a9f-e43836218896",
-          "f_plan_id": "ec26a492-ee14-496b-bf04-87c2ebb22d76",
-          "plan_name": "Humana Medicare Employer (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H4461-807",
-          "parent_fpi": "5a9fa2fc-147e-57b9-8a9f-e43836218896",
-          "f_plan_id": "6fe2be30-9f5d-4d2b-a359-86fe020df243",
-          "plan_name": "Humana Medicare Employer (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H4461-810",
-          "parent_fpi": "5a9fa2fc-147e-57b9-8a9f-e43836218896",
-          "f_plan_id": "06fe7f46-ff1d-4be7-86c7-f80baad05633",
-          "plan_name": "Humana Medicare Employer (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H4461-811",
-          "parent_fpi": "5a9fa2fc-147e-57b9-8a9f-e43836218896",
-          "f_plan_id": "f17ce9a5-1904-42fd-8165-e4a3728c6c7f",
-          "plan_name": "Humana Medicare Employer (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -369,10 +346,38 @@
           "parent_fpi": "5a9fa2fc-147e-57b9-8a9f-e43836218896",
           "f_plan_id": "2e2d07ee-6aed-4298-8769-4dc9b4b0fd04",
           "plan_name": "Humana Gold Plus H4461-079 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4461-806",
+          "parent_fpi": "5a9fa2fc-147e-57b9-8a9f-e43836218896",
+          "f_plan_id": "ec26a492-ee14-496b-bf04-87c2ebb22d76",
+          "plan_name": "Humana Medicare Employer (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4461-807",
+          "parent_fpi": "5a9fa2fc-147e-57b9-8a9f-e43836218896",
+          "f_plan_id": "6fe2be30-9f5d-4d2b-a359-86fe020df243",
+          "plan_name": "Humana Medicare Employer (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4461-810",
+          "parent_fpi": "5a9fa2fc-147e-57b9-8a9f-e43836218896",
+          "f_plan_id": "06fe7f46-ff1d-4be7-86c7-f80baad05633",
+          "plan_name": "Humana Medicare Employer (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H4461-811",
+          "parent_fpi": "5a9fa2fc-147e-57b9-8a9f-e43836218896",
+          "f_plan_id": "f17ce9a5-1904-42fd-8165-e4a3728c6c7f",
+          "plan_name": "Humana Medicare Employer (HMO)"
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.humana.com/api"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.humana.com/api"
       }
     }
   ],

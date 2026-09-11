@@ -7,6 +7,11 @@
       "value": "287ef078-4ee3-57e0-82a9-f4c7d1f3cc2e",
       "is_fpi": true,
       "payerLegalName": "PERENNIAL ADVANTAGE OF OHIO, INC.",
+      "payer_level_string_search_matches": [
+        "PERENNIAL ADVANTAGE OF OHIO, INC.",
+        "Perennial Advantage",
+        "Perennial Consortium, LLC"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "PERENNIAL ADVANTAGE OF OHIO, INC."
     },
@@ -42,7 +47,10 @@
           "plan_name": "Perennial Advantage Premier (HMO-POS I-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.curanahealth.com/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhirmpf.curanahealth.com/H8797/2027/"
+      }
     }
   ],
   "is_seeded": true

@@ -7,6 +7,11 @@
       "value": "39e07b49-229e-5418-ba1b-098d94b8db21",
       "is_fpi": true,
       "payerLegalName": "CHA HMO, INC.",
+      "payer_level_string_search_matches": [
+        "CHA HMO, INC.",
+        "Humana",
+        "Humana Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "CHA HMO, INC."
     },
@@ -162,13 +167,6 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H0028-082",
-          "parent_fpi": "39e07b49-229e-5418-ba1b-098d94b8db21",
-          "f_plan_id": "628e6e8a-7a81-4a7e-bad6-52cbaefbf035",
-          "plan_name": "Humana Gold Plus H0028-082 (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0028-051",
           "parent_fpi": "39e07b49-229e-5418-ba1b-098d94b8db21",
           "f_plan_id": "07ee4750-503c-41bd-9bb1-7bf76cf1bc62",
@@ -302,10 +300,24 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0028-080",
+          "parent_fpi": "39e07b49-229e-5418-ba1b-098d94b8db21",
+          "f_plan_id": "dcd39e14-50af-46c3-a019-5bde253acc5f",
+          "plan_name": "Humana Gold Plus SNP-DE H0028-080 (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H0028-081",
           "parent_fpi": "39e07b49-229e-5418-ba1b-098d94b8db21",
           "f_plan_id": "c2de9a6d-590f-476b-9e3a-736c7502d4e0",
           "plan_name": "Humana Total Complete H0028-081 (HMO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H0028-082",
+          "parent_fpi": "39e07b49-229e-5418-ba1b-098d94b8db21",
+          "f_plan_id": "628e6e8a-7a81-4a7e-bad6-52cbaefbf035",
+          "plan_name": "Humana Gold Plus H0028-082 (HMO)"
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
@@ -334,17 +346,10 @@
           "parent_fpi": "39e07b49-229e-5418-ba1b-098d94b8db21",
           "f_plan_id": "32e63deb-0b98-4711-b11b-f1243324a274",
           "plan_name": "Humana Medicare Employer (HMO)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H0028-080",
-          "parent_fpi": "39e07b49-229e-5418-ba1b-098d94b8db21",
-          "f_plan_id": "dcd39e14-50af-46c3-a019-5bde253acc5f",
-          "plan_name": "Humana Gold Plus SNP-DE H0028-080 (HMO D-SNP)"
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.humana.com/api"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhir.humana.com/api"
       }
     }
   ],

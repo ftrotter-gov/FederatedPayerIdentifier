@@ -7,6 +7,11 @@
       "value": "59915f0c-a88e-5fc1-b5b5-c9688f902660",
       "is_fpi": true,
       "payerLegalName": "AETNA BETTER HEALTH PREMIER PLAN MMAI INC.",
+      "payer_level_string_search_matches": [
+        "AETNA BETTER HEALTH PREMIER PLAN MMAI INC.",
+        "Aetna Medicare FIDE",
+        "CVS Health Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "AETNA BETTER HEALTH PREMIER PLAN MMAI INC."
     },
@@ -29,7 +34,7 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://apif1.aetna.com/fhir/v1/providerdirectorydata/"
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.aetna.com/interoperability/2026/H9771/index.json"
       }
     }
   ],

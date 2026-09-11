@@ -7,6 +7,10 @@
       "value": "a641782e-f45f-576a-b772-d8ac01c18216",
       "is_fpi": true,
       "payerLegalName": "LOCAL INITIATIVE HEALTH AUTHORITY FOR LA COUNTY",
+      "payer_level_string_search_matches": [
+        "LOCAL INITIATIVE HEALTH AUTHORITY FOR LA COUNTY",
+        "L.A. Care Health Plan"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "LOCAL INITIATIVE HEALTH AUTHORITY FOR LA COUNTY"
     },
@@ -29,7 +33,8 @@
         }
       ],
       "plan_endpoints": {
-        "davinci_pdex_provider_directory_endpoint#1.1": "https://us107.ir4.edifecscloud.com/lac/fhir/pd/R4/Practitioner"
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://us107.ir4.edifecscloud.com/lac/fhir/pd/R4/Practitioner",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://us107.ir4.edifecscloud.com/lac_cmsreport/H1224/index.json"
       }
     }
   ],

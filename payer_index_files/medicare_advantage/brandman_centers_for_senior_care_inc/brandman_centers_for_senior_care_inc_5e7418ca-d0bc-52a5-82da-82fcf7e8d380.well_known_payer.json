@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "5e7418ca-d0bc-52a5-82da-82fcf7e8d380",
+      "is_fpi": true,
+      "payerLegalName": "BRANDMAN CENTERS FOR SENIOR CARE, INC.",
+      "payer_level_string_search_matches": [
+        "BRANDMAN CENTERS FOR SENIOR CARE, INC.",
+        "Brandman Centers for Senior Care",
+        "Los Angeles Jewish Home for the Aging"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "BRANDMAN CENTERS FOR SENIOR CARE, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H7855",
+      "is_fpi": false,
+      "parent_fpi": "5e7418ca-d0bc-52a5-82da-82fcf7e8d380"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7855-001",
+          "parent_fpi": "5e7418ca-d0bc-52a5-82da-82fcf7e8d380",
+          "f_plan_id": "6696ae9e-39b8-433d-a8ac-e82adc230b5c",
+          "plan_name": "Brandman Centers for Senior Care Dual (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H7855-002",
+          "parent_fpi": "5e7418ca-d0bc-52a5-82da-82fcf7e8d380",
+          "f_plan_id": "561487d0-5f0f-4b9f-aabc-969d1ffac8ba",
+          "plan_name": "Brandman Centers for Senior Care-Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

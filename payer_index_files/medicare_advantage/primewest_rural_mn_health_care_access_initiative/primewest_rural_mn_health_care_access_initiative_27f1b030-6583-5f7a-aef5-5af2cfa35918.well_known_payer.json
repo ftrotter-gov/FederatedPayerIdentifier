@@ -7,6 +7,10 @@
       "value": "27f1b030-6583-5f7a-aef5-5af2cfa35918",
       "is_fpi": true,
       "payerLegalName": "PRIMEWEST RURAL MN HEALTH CARE ACCESS INITIATIVE",
+      "payer_level_string_search_matches": [
+        "PRIMEWEST RURAL MN HEALTH CARE ACCESS INITIATIVE",
+        "PrimeWest Health"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "PRIMEWEST RURAL MN HEALTH CARE ACCESS INITIATIVE"
     },
@@ -32,7 +36,15 @@
           "parent_fpi": "27f1b030-6583-5f7a-aef5-5af2cfa35918",
           "f_plan_id": "e5ec3a77-849a-4d34-abc7-a7bedd0cf8df",
           "plan_name": "PrimeWest Senior Health Complete (HMO D-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://www.primewest.org/dev-api-resources/provider-directory/H2416/index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://apis.ssctech.com/interop-pw/open/fhir/R4/Organization"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2926-001",
@@ -41,7 +53,10 @@
           "plan_name": "Prime Health Complete (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://www.primewest.org/dev-api-resources/provider-directory/H2926/index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://apis.ssctech.com/interop-pw/open/fhir/R4/Organization"
+      }
     }
   ],
   "is_seeded": true

@@ -1,0 +1,54 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "ed07e152-e410-5841-ab3e-74d059589521",
+      "is_fpi": true,
+      "payerLegalName": "CDPHP UNIVERSAL BENEFITS, INC.",
+      "payer_level_string_search_matches": [
+        "CDPHP UNIVERSAL BENEFITS, INC.",
+        "CDPHP Medicare Advantage",
+        "Lifetime Healthcare, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CDPHP UNIVERSAL BENEFITS, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H5042",
+      "is_fpi": false,
+      "parent_fpi": "ed07e152-e410-5841-ab3e-74d059589521"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5042-801",
+          "parent_fpi": "ed07e152-e410-5841-ab3e-74d059589521",
+          "f_plan_id": "fa652fba-2dd0-4176-b009-2814f3ab8b02",
+          "plan_name": "CDPHP Group Medicare Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5042-802",
+          "parent_fpi": "ed07e152-e410-5841-ab3e-74d059589521",
+          "f_plan_id": "5a5cb6c3-6ced-444d-8c11-51706496303a",
+          "plan_name": "CDPHP Group Medicare Rx (PPO)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H5042-803",
+          "parent_fpi": "ed07e152-e410-5841-ab3e-74d059589521",
+          "f_plan_id": "23e3825f-c644-4e26-95eb-46544fc19e8f",
+          "plan_name": "CDPHP Group Medicare (PPO)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

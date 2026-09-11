@@ -7,6 +7,11 @@
       "value": "00dc2085-57e1-58db-bfbb-329903f4841a",
       "is_fpi": true,
       "payerLegalName": "HEALTH INSURANCE PLAN OF GREATER NEW YORK",
+      "payer_level_string_search_matches": [
+        "HEALTH INSURANCE PLAN OF GREATER NEW YORK",
+        "EmblemHealth",
+        "EmblemHealth, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HEALTH INSURANCE PLAN OF GREATER NEW YORK"
     },
@@ -42,6 +47,13 @@
         },
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H3330-048",
+          "parent_fpi": "00dc2085-57e1-58db-bfbb-329903f4841a",
+          "f_plan_id": "8ecbccdc-0b32-443f-8687-9a8654a5fa14",
+          "plan_name": "EmblemHealth VIP Value (HMO-POS)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H3330-814",
           "parent_fpi": "00dc2085-57e1-58db-bfbb-329903f4841a",
           "f_plan_id": "43368f64-7c89-485a-95a8-105d797f0e2a",
@@ -67,14 +79,15 @@
           "parent_fpi": "00dc2085-57e1-58db-bfbb-329903f4841a",
           "f_plan_id": "fa030814-f41f-4c18-a29e-12921fee56e9",
           "plan_name": "EmblemHealth VIP Choice Rx Carveout (HMO-POS)"
-        },
-        {
-          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
-          "value": "H3330-048",
-          "parent_fpi": "00dc2085-57e1-58db-bfbb-329903f4841a",
-          "f_plan_id": "8ecbccdc-0b32-443f-8687-9a8654a5fa14",
-          "plan_name": "EmblemHealth VIP Value (HMO-POS)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://prodtzinterop.developer.healthtranzformdev.com/api-details#api=mt-provider-directory&operation=getMetadata",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://transparency.emblemhealth.com/MedicareProviderDirectory/GetFile?FileName=index.json&PlanType=H3330&FileType=Current"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H5991-010",
@@ -97,7 +110,10 @@
           "plan_name": "EmblemHealth VIP Dual Enhanced (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://prodtzinterop.developer.healthtranzformdev.com/api-details#api=mt-provider-directory&operation=getMetadata",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://transparency.emblemhealth.com/MedicareProviderDirectory/GetFile?FileName=index.json&PlanType=H5991&FileType=Current"
+      }
     }
   ],
   "is_seeded": true

@@ -7,6 +7,11 @@
       "value": "5ba48c13-b71a-5096-980b-bf763e847eab",
       "is_fpi": true,
       "payerLegalName": "CLEVER CARE OF GOLDEN STATE, INC.",
+      "payer_level_string_search_matches": [
+        "CLEVER CARE OF GOLDEN STATE, INC.",
+        "Clever Care Health Plan",
+        "Clever Care Health Plan, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "CLEVER CARE OF GOLDEN STATE, INC."
     },
@@ -49,7 +54,9 @@
           "plan_name": "Clever Care Breathe+ (HMO C-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://clevercareprod.s3.us-west-1.amazonaws.com/providerdirectory/index.json"
+      }
     }
   ],
   "is_seeded": true

@@ -7,6 +7,11 @@
       "value": "b0d77de3-506c-5cef-85d0-db6796d8d927",
       "is_fpi": true,
       "payerLegalName": "WELLCARE HEALTH INSURANCE COMPANY OF KENTUCKY, INC",
+      "payer_level_string_search_matches": [
+        "WELLCARE HEALTH INSURANCE COMPANY OF KENTUCKY, INC",
+        "Wellcare",
+        "Centene Corporation"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "WELLCARE HEALTH INSURANCE COMPANY OF KENTUCKY, INC"
     },
@@ -46,7 +51,15 @@
           "parent_fpi": "b0d77de3-506c-5cef-85d0-db6796d8d927",
           "f_plan_id": "8242c255-cea9-4109-bf86-4f855f91a531",
           "plan_name": "Wellcare Dual Access Sync Open (PPO D-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H3975index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9730-003",
@@ -90,7 +103,10 @@
           "plan_name": "Wellcare Dual Reserve (HMO-POS D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://api.centene.com/medicare/reference/H9730index.json",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory"
+      }
     }
   ],
   "is_seeded": true

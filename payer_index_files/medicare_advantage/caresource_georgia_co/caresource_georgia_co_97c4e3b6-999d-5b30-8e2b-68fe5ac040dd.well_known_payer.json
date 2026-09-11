@@ -1,0 +1,46 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "97c4e3b6-999d-5b30-8e2b-68fe5ac040dd",
+      "is_fpi": true,
+      "payerLegalName": "CARESOURCE GEORGIA CO.",
+      "payer_level_string_search_matches": [
+        "CARESOURCE GEORGIA CO.",
+        "CareSource"
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "CARESOURCE GEORGIA CO."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H8390",
+      "is_fpi": false,
+      "parent_fpi": "97c4e3b6-999d-5b30-8e2b-68fe5ac040dd"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8390-015",
+          "parent_fpi": "97c4e3b6-999d-5b30-8e2b-68fe5ac040dd",
+          "f_plan_id": "b693b66f-8a1c-43fc-9e06-40bcaba78697",
+          "plan_name": "CareSource Dual Advantage (HMO D-SNP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H8390-017",
+          "parent_fpi": "97c4e3b6-999d-5b30-8e2b-68fe5ac040dd",
+          "f_plan_id": "33681abe-25e2-44a5-9a48-f93daddbd8f0",
+          "plan_name": "CareSource Dual Advantage Plus (HMO D-SNP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

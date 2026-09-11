@@ -7,6 +7,11 @@
       "value": "e4d4119d-7a88-56be-9701-3b280f3e0029",
       "is_fpi": true,
       "payerLegalName": "COMMONWEALTH CARE ALLIANCE, INC.",
+      "payer_level_string_search_matches": [
+        "COMMONWEALTH CARE ALLIANCE, INC.",
+        "CareSource",
+        "Commonwealth Care Alliance Massachusetts"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "COMMONWEALTH CARE ALLIANCE, INC."
     },
@@ -32,7 +37,15 @@
           "parent_fpi": "e4d4119d-7a88-56be-9701-3b280f3e0029",
           "f_plan_id": "2965f3e4-b2ee-4961-84cd-9e4403e2cc3d",
           "plan_name": "CCA One Care (HMO D-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://www.caresource.com/rest/cs/data/1.0/provider-directory/ma/dual-ico/2026",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://orchestrateserver.caresource.careevolution.com/api/fhir/provider-directory/metadata"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H2225-001",
@@ -41,7 +54,10 @@
           "plan_name": "CCA Senior Care Options (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://www.caresource.com/rest/cs/data/1.0/provider-directory/ma/dual-sco/2026",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://orchestrateserver.caresource.careevolution.com/api/fhir/provider-directory/metadata"
+      }
     }
   ],
   "is_seeded": true

@@ -1,0 +1,47 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "97d099e4-24f6-5dce-bd49-e364d60bdcd4",
+      "is_fpi": true,
+      "payerLegalName": "HORIZON-PACE, LLC",
+      "payer_level_string_search_matches": [
+        "HORIZON-PACE, LLC",
+        "Horizon - PACE",
+        "American Health Management, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "HORIZON-PACE, LLC"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H6541",
+      "is_fpi": false,
+      "parent_fpi": "97d099e4-24f6-5dce-bd49-e364d60bdcd4"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6541-001",
+          "parent_fpi": "97d099e4-24f6-5dce-bd49-e364d60bdcd4",
+          "f_plan_id": "37832045-b180-4aa4-af24-c92871e4d79d",
+          "plan_name": "Horizon PACE - Dual Eligible (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H6541-002",
+          "parent_fpi": "97d099e4-24f6-5dce-bd49-e364d60bdcd4",
+          "f_plan_id": "b7a50362-9ea6-4f5d-a20b-eef5100d692c",
+          "plan_name": "Horizon PACE - Medicare Only (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

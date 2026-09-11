@@ -7,8 +7,19 @@
       "value": "de4043cd-3e66-538a-a076-da281afba40c",
       "is_fpi": true,
       "payerLegalName": "FALLON COMMUNITY HEALTH PLAN",
+      "payer_level_string_search_matches": [
+        "FALLON COMMUNITY HEALTH PLAN",
+        "Fallon Health",
+        "Fallon Community Health Plan, Inc."
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "FALLON COMMUNITY HEALTH PLAN"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2219",
+      "is_fpi": false,
+      "parent_fpi": "de4043cd-3e66-538a-a076-da281afba40c"
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
@@ -28,11 +39,38 @@
       "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2219-001",
+          "parent_fpi": "de4043cd-3e66-538a-a076-da281afba40c",
+          "f_plan_id": "9fe47a89-8f3c-4741-b483-c23ad68ea917",
+          "plan_name": "Summit ElderCare (PACE)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2219-002",
+          "parent_fpi": "de4043cd-3e66-538a-a076-da281afba40c",
+          "f_plan_id": "68bdff54-d599-4676-ae8d-29cdc108b56b",
+          "plan_name": "Summit ElderCare (PACE)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H8928-001",
           "parent_fpi": "de4043cd-3e66-538a-a076-da281afba40c",
           "f_plan_id": "f5335c87-f7d0-4433-81ab-ef54eeff2ed6",
           "plan_name": "NaviCare (HMO D-SNP)"
-        },
+        }
+      ],
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.fallonhealthfhir.com/r4/public/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://gateway.1up.health/v1/fallon/r4/public/mpf/H8928-CY2027/index.json"
+      }
+    },
+    {
+      "plan_identifiers": [
         {
           "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
           "value": "H9001-030",
@@ -69,7 +107,10 @@
           "plan_name": "MA-PD Calendar Year (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api.fallonhealthfhir.com/r4/public/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://gateway.1up.health/v1/fallon/r4/public/mpf/H9001-CY2027/index.json"
+      }
     }
   ],
   "is_seeded": true

@@ -7,6 +7,11 @@
       "value": "e1a5fbff-a164-550c-bedd-ec99fe7d52ca",
       "is_fpi": true,
       "payerLegalName": "ALIGN SENIOR CARE CALIFORNIA INC.",
+      "payer_level_string_search_matches": [
+        "ALIGN SENIOR CARE CALIFORNIA INC.",
+        "Align Senior Care",
+        "Curana Health Holdings, LLC"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "ALIGN SENIOR CARE CALIFORNIA INC."
     },
@@ -42,7 +47,10 @@
           "plan_name": "Advantage Care (HMO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.curanahealth.com/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhirmpf.curanahealth.com/H3274/2027/"
+      }
     }
   ],
   "is_seeded": true

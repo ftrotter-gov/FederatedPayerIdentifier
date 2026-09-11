@@ -1,0 +1,60 @@
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "eac61809-0caf-5edf-8800-2d142b8aa0df",
+      "is_fpi": true,
+      "payerLegalName": "MODA HEALTH PLAN, INC.",
+      "payer_level_string_search_matches": [
+        "MODA HEALTH PLAN, INC.",
+        "Moda Partners, Inc."
+      ],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
+      "fpi_source_value": "MODA HEALTH PLAN, INC."
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S5975",
+      "is_fpi": false,
+      "parent_fpi": "eac61809-0caf-5edf-8800-2d142b8aa0df"
+    }
+  ],
+  "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5975-801",
+          "parent_fpi": "eac61809-0caf-5edf-8800-2d142b8aa0df",
+          "f_plan_id": "1a7e567b-7889-49a4-8a5e-38ff02847f0e",
+          "plan_name": "Moda Health Rx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5975-807",
+          "parent_fpi": "eac61809-0caf-5edf-8800-2d142b8aa0df",
+          "f_plan_id": "1cf9fe7e-7db3-49c6-8a31-5dd4f86f6e7b",
+          "plan_name": "ArrayRx (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5975-808",
+          "parent_fpi": "eac61809-0caf-5edf-8800-2d142b8aa0df",
+          "f_plan_id": "ceb5994f-7f2d-468d-8460-76dbfadcd584",
+          "plan_name": "UMP Classic Medicare with Part D (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S5975-810",
+          "parent_fpi": "eac61809-0caf-5edf-8800-2d142b8aa0df",
+          "f_plan_id": "827e7b77-e6fb-40af-9073-936603faf1e6",
+          "plan_name": "ArrayRx Flex (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    }
+  ],
+  "is_seeded": true
+}

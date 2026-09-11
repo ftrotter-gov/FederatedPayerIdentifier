@@ -7,6 +7,11 @@
       "value": "8d0e1e84-ff7e-5073-82ad-1e276294ae8c",
       "is_fpi": true,
       "payerLegalName": "PROVIDER PARTNERS HEALTH PLAN OF ILLINOIS",
+      "payer_level_string_search_matches": [
+        "PROVIDER PARTNERS HEALTH PLAN OF ILLINOIS",
+        "Provider Partners Health Plans",
+        "Rifkin Managed Care Holding, LLC"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "PROVIDER PARTNERS HEALTH PLAN OF ILLINOIS"
     },
@@ -28,7 +33,10 @@
           "plan_name": "Provider Partners Illinois Advantage Plan (HMO I-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "cms_provider_directory_machine_readable_format_endpoint": "https://www.pphealthplan.com/directory-search/JSON/H3800/2027",
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://www.pphealthplan.com/directory-search/FHIR/H3800/2027"
+      }
     }
   ],
   "is_seeded": true

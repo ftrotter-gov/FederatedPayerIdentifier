@@ -7,6 +7,10 @@
       "value": "01d07022-750c-5513-bbde-7d8e365d786b",
       "is_fpi": true,
       "payerLegalName": "HEALTHPARTNERS, INC.",
+      "payer_level_string_search_matches": [
+        "HEALTHPARTNERS, INC.",
+        "HealthPartners"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "HEALTHPARTNERS, INC."
     },
@@ -18,12 +22,92 @@
     },
     {
       "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "H2462",
+      "is_fpi": false,
+      "parent_fpi": "01d07022-750c-5513-bbde-7d8e365d786b"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
       "value": "H4882",
+      "is_fpi": false,
+      "parent_fpi": "01d07022-750c-5513-bbde-7d8e365d786b"
+    },
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id",
+      "value": "S1822",
       "is_fpi": false,
       "parent_fpi": "01d07022-750c-5513-bbde-7d8e365d786b"
     }
   ],
   "plan_groups": [
+    {
+      "plan_identifiers": [
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2462-026",
+          "parent_fpi": "01d07022-750c-5513-bbde-7d8e365d786b",
+          "f_plan_id": "e1691493-ca02-4669-91f3-ba5ed9312c23",
+          "plan_name": "HealthPartners Freedom Basic WI (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2462-027",
+          "parent_fpi": "01d07022-750c-5513-bbde-7d8e365d786b",
+          "f_plan_id": "b6bf9709-f2e2-4d6e-afc2-f5f54c29b20c",
+          "plan_name": "HealthPartners Freedom Vital WI (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2462-028",
+          "parent_fpi": "01d07022-750c-5513-bbde-7d8e365d786b",
+          "f_plan_id": "119f7428-6235-4ea4-ac1e-63932e497a9b",
+          "plan_name": "HealthPartners Freedom Balance WI (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2462-801",
+          "parent_fpi": "01d07022-750c-5513-bbde-7d8e365d786b",
+          "f_plan_id": "7cae2e35-2c70-4e82-832f-6be7995589a3",
+          "plan_name": "HealthPartners Retiree Group Calendar Year (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "H2462-802",
+          "parent_fpi": "01d07022-750c-5513-bbde-7d8e365d786b",
+          "f_plan_id": "5e50f4fa-e08d-49d7-8291-00f89e3aa04e",
+          "plan_name": "HealthPartners Retiree Group Non-Calendar Year (Cost)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S1822-801",
+          "parent_fpi": "01d07022-750c-5513-bbde-7d8e365d786b",
+          "f_plan_id": "0cc67c16-3f4e-4f50-92bf-401c3ffeb222",
+          "plan_name": "HealthPartners Retiree National Choice PDP CY (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S1822-802",
+          "parent_fpi": "01d07022-750c-5513-bbde-7d8e365d786b",
+          "f_plan_id": "32b1e4e0-dfd3-4988-9219-8646ae876f6b",
+          "plan_name": "HealthPartners Retiree National Choice PDP NCY (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S1822-803",
+          "parent_fpi": "01d07022-750c-5513-bbde-7d8e365d786b",
+          "f_plan_id": "11d73f65-8517-4c1c-b9bc-5cbeade3a9fb",
+          "plan_name": "HealthPartners EGWP PDP CY (PDP)"
+        },
+        {
+          "system": "https://directory.cms.gov/payer_identification_system/cms_contract_id/plan/plan_id",
+          "value": "S1822-804",
+          "parent_fpi": "01d07022-750c-5513-bbde-7d8e365d786b",
+          "f_plan_id": "cd17a56e-2b58-486e-8630-d95520be1c33",
+          "plan_name": "HealthPartners EGWP II PDP CY (PDP)"
+        }
+      ],
+      "plan_endpoints": {}
+    },
     {
       "plan_identifiers": [
         {
@@ -97,7 +181,10 @@
           "plan_name": "HealthPartners Group III MAPD Calendar Year (PPO)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://api-developerportal.healthpartners.com/interop/external/fhir",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://www.healthpartners.com/cms/provider-directory"
+      }
     }
   ],
   "is_seeded": true

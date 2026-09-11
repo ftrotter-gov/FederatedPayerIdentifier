@@ -7,6 +7,11 @@
       "value": "0a46c060-a025-5755-836c-392fb2b5dbf6",
       "is_fpi": true,
       "payerLegalName": "LIFEWORKS ADVANTAGE, LLC",
+      "payer_level_string_search_matches": [
+        "LIFEWORKS ADVANTAGE, LLC",
+        "Lifeworks Advantage",
+        "Curana Health Holdings, LLC"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "LIFEWORKS ADVANTAGE, LLC"
     },
@@ -35,7 +40,10 @@
           "plan_name": "Premier Care (HMO-POS I-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://fhir.curanahealth.com/",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://fhirmpf.curanahealth.com/H2185/2027/"
+      }
     }
   ],
   "is_seeded": true

@@ -7,6 +7,10 @@
       "value": "b0516499-3bf9-5a96-974b-a3d808243efc",
       "is_fpi": true,
       "payerLegalName": "COMMUNITY HEALTH PLAN OF WASHINGTON",
+      "payer_level_string_search_matches": [
+        "COMMUNITY HEALTH PLAN OF WASHINGTON",
+        "Community Health Plan of WA Medicare Advantage"
+      ],
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/legal_name_hash",
       "fpi_source_value": "COMMUNITY HEALTH PLAN OF WASHINGTON"
     },
@@ -35,7 +39,10 @@
           "plan_name": "Community Health Plan of WA Dual Select (HMO D-SNP)"
         }
       ],
-      "plan_endpoints": {}
+      "plan_endpoints": {
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://chpw-prd-prvdr.smilecdr.com/endpoint-fhir-rest",
+        "davinci_pdex_provider_directory_endpoint_all_at_once#1.1": "https://medicare-advantage-plan-finder-provider-directory.interop.chpw.org/h5826/2027/index.json"
+      }
     }
   ],
   "is_seeded": true
