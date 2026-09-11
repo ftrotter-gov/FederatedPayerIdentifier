@@ -1,0 +1,633 @@
+Contract Year,Contract ID,FHIR Provider Directory API URL,Last Entered Date
+2027,"H0028 - CHA HMO, INC.",,
+2027,"H0029 - COORDINATED CARE OF WASHINGTON, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:10
+2027,"H0034 - HAMASPIK, INC.",https://api.hamaspikfhir.com/r4/public/,7/9/26 08:56
+2027,"H0062 - SUPERIOR HEALTHPLAN, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:30
+2027,"H0074 - WELLCARE OF MISSISSIPPI, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:30
+2027,H0104 - BLUE CROSS AND BLUE SHIELD OF ALABAMA,https://api-bcbsal-prd.safhir.io/v1/api/provider-directory,7/1/26 10:22
+2027,"H0111 - WELLCARE OF GEORGIA, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:31
+2027,"H0154 - VIVA HEALTH, INC.",https://api.vivahealthfhir.com/r4/public/Practitioner,7/9/26 09:05
+2027,"H0169 - UNITEDHEALTHCARE OF WISCONSIN, INC.",https://flex.optum.com/fhirpublic,7/9/26 09:09
+2027,"H0174 - WELLCARE OF TEXAS, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:31
+2027,"H0251 - UNITEDHEALTHCARE PLAN OF THE RIVER VALLEY, INC.",https://flex.optum.com/fhirpublic,7/9/26 09:09
+2027,"H0292 - HUMANA HEALTH PLAN OF OHIO, INC.",,
+2027,H0294 - UNITEDHEALTHCARE INSURANCE COMPANY,https://flex.optum.com/fhirpublic,7/9/26 09:09
+2027,"H0302 - MEDISUN, INC.",,
+2027,"H0321 - ARIZONA PHYSICIANS IPA, INC.",https://flex.optum.com/fhirpublic,7/9/26 09:09
+2027,"H0332 - KS PLAN ADMINISTRATORS, LLC",https://fhir.kelseycareadvantage.com/metadata,7/9/26 16:28
+2027,"H0351 - HEALTH NET OF ARIZONA, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:31
+2027,"H0354 - BRAVO HEALTH PENNSYLVANIA, INC.",https://data.healthspring.healthlx.com:8003,7/10/26 18:18
+2027,"H0363 - LONGEVITY HEALTH PLAN OF COLORADO, INC.",https://co26fhir.longevityhealthplan.com,6/30/26 15:36
+2027,H0413 - DEVOTED HEALTH INSURANCE COMPANY OF DELAWARE,https://fhir.devoted.com/fhir,6/25/26 13:24
+2027,H0421 - CARE IMPROVEMENT PLUS SOUTH CENTRAL INSURANCE CO.,https://flex.optum.com/fhirpublic,7/9/26 09:09
+2027,"H0423 - METROPLUS HEALTH PLAN, INC.",https://interop.metroplus.org:9443/fhir/r4/providerdirectory,7/9/26 15:53
+2027,"H0432 - UNITEDHEALTHCARE OF THE MIDLANDS, INC.",https://flex.optum.com/fhirpublic,7/9/26 09:09
+2027,"H0439 - HEALTHSPRING LIFE & HEALTH INSURANCE COMPANY, INC.",https://data.healthspring.healthlx.com:8003,7/10/26 18:18
+2027,H0473 - HUMANA INSURANCE COMPANY OF KENTUCKY,,
+2027,H0504 - CALIFORNIA PHYSICIANS' SERVICE,https://api.blueshieldca.com/bsc/fhir/fhir-server/api/v4/cloud/provider-directory/metadata,7/8/26 14:49
+2027,H0523 - AETNA HEALTH OF CALIFORNIA INC.,https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:06
+2027,"H0524 - KAISER FOUNDATION HP, INC.",https://kpx-service-bus.kp.org/service/hp/mhpo/healthplanproviderv1rc,7/9/26 19:51
+2027,H0543 - UHC OF CALIFORNIA,https://flex.optum.com/fhirpublic,7/9/26 09:10
+2027,H0544 - BLUE CROSS OF CALIFORNIA,https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,8/11/26 13:09
+2027,"H0562 - HEALTH NET OF CALIFORNIA, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:31
+2027,H0571 - CHINESE COMMUNITY HEALTH PLAN,https://cchp-fhirapi.mpowered-health.com/provider-directory,9/4/26 13:05
+2027,"H0609 - UnitedHealthcare Benefits of Texas, Inc.",https://flex.optum.com/fhirpublic,7/9/26 09:10
+2027,"H0624 - UnitedHealthcare Benefits of Texas, Inc.",https://flex.optum.com/fhirpublic,7/9/26 09:10
+2027,H0628 - AETNA HEALTH OF OHIO INC.,https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:07
+2027,"H0629 - ANTHEM INSURANCE COMPANIES, INC.",https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,8/11/26 13:11
+2027,H0630 - KAISER FOUNDATION HP OF CO,https://kpx-service-bus.kp.org/service/hp/mhpo/healthplanproviderv1rc,7/9/26 19:51
+2027,"H0672 - HEALTHSPRING HEALTHCARE OF COLORADO, INC.",https://data.healthspring.healthlx.com:8003,7/10/26 18:19
+2027,H0710 - CARE IMPROVEMENT PLUS SOUTH CENTRAL INSURANCE CO.,https://flex.optum.com/fhirpublic,7/9/26 09:10
+2027,"H0712 - WELLCARE OF CONNECTICUT, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:31
+2027,"H0738 - AmeriHealth Caritas VIP Next, Inc.",https://api-ext.amerihealthcaritas.com/DEDS/provider-api/swagger-ui/,7/7/26 16:29
+2027,H0755 - CARE IMPROVEMENT PLUS SOUTH CENTRAL INSURANCE CO.,https://flex.optum.com/fhirpublic,7/9/26 09:10
+2027,"H0764 - UNITEDHEALTHCARE OF NEW ENGLAND, INC.",https://flex.optum.com/fhirpublic,7/9/26 09:10
+2027,"H0777 - MASS GENERAL BRIGHAM HEALTH PLAN, INC",https://api.allwayshealthfhir.com/r4/public_dsnp/Practitioner,7/10/26 23:05
+2027,"H0816 - BESHP, INC.",https://fhir.myadvocatema.com/hspd/r4/,7/7/26 10:40
+2027,"H0907 - WELLPOINT IOWA, INC.",https://totalview.healthos.Wellpoint.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:13
+2027,"H0913 - WELLCARE HEALTH PLANS OF NEW JERSEY, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:31
+2027,"H0963 - HUMANA MEDICAL PLAN OF MICHIGAN, INC.",,
+2027,H0976 - SCAN HEALTH PLAN,https://providerdirectory.scanhealthplan.com,7/7/26 15:22
+2027,"H0978 - SCAN HEALTH PLAN NEVADA, INC.",https://providerdirectory.scanhealthplan.com,7/7/26 15:23
+2027,"H0982 - SOLIS HEALTH PLANS, INC.",https://solisapigwprovider.azurewebsites.net/api/provider-directory/2027/H0982/fhir/index.json,7/21/26 16:16
+2027,"H1019 - CAREPLUS HEALTH PLANS, INC.",,
+2027,"H1032 - Sunshine State Health Plan, Inc.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:31
+2027,"H1035 - FLORIDA BLUE MEDICARE, INC.",https://apigw.bcbsfl.com/interop/interop-developer-portal/emr/api/v1/fhir/,7/10/26 08:10
+2027,"H1036 - HUMANA MEDICAL PLAN, INC.",,
+2027,"H1045 - PREFERRED CARE PARTNERS, INC.",https://flex.optum.com/fhirpublic,7/9/26 09:10
+2027,H1099 - HEALTH FIRST HEALTH PLANS,https://epicproxy.et1433.epichosted.com/FHIRProxyPRD/api/FHIR/R4/,7/13/26 13:15
+2027,H1109 - AETNA HEALTH INC. (GA),https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:07
+2027,"H1112 - WELLCARE OF GEORGIA, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:32
+2027,"H1119 - TSG GUARD, INC.",https://vlr.fp-h1119.prd.healixcloud.net/pd/fhir/Practitioner?_count=10,7/10/26 12:27
+2027,"H1170 - KAISER FOUNDATION HP OF GA, INC.",https://kpx-service-bus.kp.org/service/hp/mhpo/healthplanproviderv1rc,7/9/26 19:51
+2027,H1181 - NETWORK HEALTH INSURANCE CORPORATION,https://data.networkhealth.com/plan-finder/H1181_index.json,9/4/26 12:56
+2027,"H1206 - COVENTRY HEALTH CARE OF ILLINOIS, INC.",https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:07
+2027,"H1212 - WELLPOINT WEST VIRGINIA , INC.",https://totalview.healthos.Wellpoint.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:14
+2027,"H1215 - NEBRASKA TOTAL CARE, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:32
+2027,H1224 - LOCAL INITIATIVE HEALTH AUTHORITY FOR LA COUNTY,https://us107.ir4.edifecscloud.com/lac/fhir/pd/R4/Practitioner,6/26/26 17:01
+2027,"H1225 - HOPKINS HEALTH ADVANTAGE, INC.",https://api.jhhpfhir.com/r4/public-ma/,7/10/26 16:52
+2027,"H1230 - KAISER FOUNDATION HP, INC.",https://kpx-service-bus.kp.org/service/hp/mhpo/healthplanproviderv1rc,7/9/26 19:51
+2027,H1248 - LOUISIANA HEALTH SERVICE & INDEMNITY COMPANY,https://gateway.api.lablue.com/ProviderDirectory/,7/13/26 14:02
+2027,H1278 - CARE IMPROVEMENT PLUS SOUTH CENTRAL INSURANCE CO.,https://flex.optum.com/fhirpublic,7/9/26 09:10
+2027,"H1280 - ETERNALHEALTH, INC.",https://fhir.eternalhealth.com/api,7/11/26 00:13
+2027,"H1290 - DEVOTED HEALTH PLAN OF FLORIDA, INC.",https://fhir.devoted.com/fhir,6/25/26 13:24
+2027,"H1302 - BLUE CROSS OF IDAHO HEALTH SERVICE, INC.",https://hkferwd394.execute-api.us-west-2.amazonaws.com/stage/mpf-export/H1302/2027/index.json,8/25/26 13:07
+2027,"H1339 - JOHNS HOPKINS HEALTH PLAN OF VIRGINIA, INC.",https://api.jhhpfhir.com/r4/public-ma/,7/10/26 16:52
+2027,"H1350 - BLUE CROSS OF IDAHO HEALTH SERVICE, INC.",https://hkferwd394.execute-api.us-west-2.amazonaws.com/stage/mpf-export/H1350/2027/index.json,8/25/26 13:07
+2027,"H1360 - UnitedHealthcare Benefits of Texas, Inc.",https://flex.optum.com/fhirpublic,7/9/26 09:10
+2027,"H1365 - MARTIN'S POINT GENERATIONS ADVANTAGE, INC.",https://api-MPHC-prd.safhir.io/v1/api/provider-directory,7/8/26 17:39
+2027,"H1372 - MARQUIS ADVANTAGE, INC.",https://fhir.curanahealth.com/,7/8/26 00:25
+2027,H1390 - DEVOTED HEALTH INSURANCE COMPANY OF NEW JERSEY,https://fhir.devoted.com/fhir,6/25/26 13:24
+2027,"H1396 - HUMANA BENEFIT PLAN OF SOUTH CAROLINA, INC.",,
+2027,"H1416 - HARMONY HEALTH PLAN,  INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:32
+2027,"H1423 - WELLPOINT HEALTH PLANS, INC.",https://totalview.healthos.Wellpoint.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:14
+2027,"H1468 - HUMANA BENEFIT PLAN OF ILLINOIS, INC.",,
+2027,"H1486 - COMMONWEALTH CARE ALLIANCE, INC.",https://orchestrateserver.caresource.careevolution.com/api/fhir/provider-directory/metadata,7/10/26 18:30
+2027,H1526 - GOLD KIDNEY OF FLORIDA INC,https://api.aaneelconnect.com/cms/r4/goldkidney-provider-directory-2027,7/10/26 12:37
+2027,"H1587 - ARKANSAS SUPERIOR SELECT, INC.",https://assi.fp-h1587.prd.healixcloud.net/pd/fhir/Practitioner?_count=10,7/9/26 15:32
+2027,"H1607 - ANTHEM INSURANCE COMPANIES, INC.",https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:14
+2027,H1608 - COVENTRY HEALTH AND LIFE INSURANCE COMPANY,https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:07
+2027,H1609 - AETNA HEALTH INC. (FL),https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:07
+2027,"H1610 - COVENTRY HEALTH CARE OF VIRGINIA, INC.",https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:09
+2027,"H1611 - MASS GENERAL BRIGHAM HEALTH PLAN, INC",https://api.allwayshealthfhir.com/r4/public_dsnp/Practitioner,7/10/26 23:05
+2027,H1619 - PARTNERS INSURANCE COMPANY INC,https://providerfhirapi.healthpartnersplans.com,7/7/26 11:42
+2027,"H1644 - LONGEVITY HEALTH PLAN OF FLORIDA, INC.",https://fl26fhir.longevityhealthplan.com,6/30/26 15:37
+2027,H1659 - CARE IMPROVEMENT PLUS SOUTH CENTRAL INSURANCE CO.,https://flex.optum.com/fhirpublic,7/9/26 09:10
+2027,"H1664 - HOME STATE HEALTH PLAN, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:32
+2027,H1671 - IMPERIAL COUNTY LOCAL HEALTH AUTHORITY,https://api-chpiv-prd.safhir.io/v1/api/provider-directory/,8/5/26 11:12
+2027,"H1692 - COVENTRY HEALTH CARE OF WEST VIRGINIA, INC.",https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:09
+2027,"H1722 - HEALTHFIRST HEALTH PLAN, INC.",https://hf-fhir-provider-directory-sys-api-prod.us-e1.cloudhub.io,7/10/26 13:27
+2027,"H1769 - VNA HOMECARE OPTIONS, LLC",https://data.healthlx.com:8004/NASCENTIA,7/9/26 12:44
+2027,H1787 - SANFORD HEALTH PLAN,https://fhir.greatplainsmedicareadvantage.com/hspd/r4/,7/7/26 10:40
+2027,"H1799 - MOLINA HEALTHCARE OF KENTUCKY, INC.",https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f,7/9/26 18:48
+2027,"H1822 - SCAN DESERT HEALTH PLAN, INC.",https://providerdirectory.scanhealthplan.com,7/7/26 15:23
+2027,"H1823 - HEALTHY MISSISSIPPI, INC.",https://fhir.healthy-ms.com/plan-net/H1823/,7/9/26 16:27
+2027,H1846 - MOUNT CARMEL HEALTH INSURANCE COMPANY,https://api-medigold-prd.safhir.io/v1/api/provider-directory,7/10/26 07:58
+2027,"H1862 - WELLCARE OF IOWA, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:32
+2027,H1889 - CARE IMPROVEMENT PLUS SOUTH CENTRAL INSURANCE CO.,https://flex.optum.com/fhirpublic,7/9/26 09:10
+2027,"H1914 - WELLCARE HEALTH INSURANCE OF CONNECTICUT, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:32
+2027,"H1947 - COMMUNITY CARE HEALTH PLAN OF LOUISIANA, INC.",https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:15
+2027,"H1951 - HUMANA HEALTH BENEFIT PLAN OF LOUISIANA, INC.",,
+2027,"H1961 - PEOPLES HEALTH, INC.",https://flex.optum.com/fhirpublic,7/9/26 09:10
+2027,"H1993 - ASTIVA HEALTH, INC.",https://afs.astivahealth.com/fhir,7/10/26 19:54
+2027,"H1994 - SELECTHEALTH, INC.",https://api.selecthealth.org/provider-directory/v1/metadata,7/13/26 12:24
+2027,H1997 - REGENCE BLUESHIELD,https://providers.regence.com/api/provider-fhir-service/v1/fhir,7/1/26 16:09
+2027,"H2001 - SIERRA HEALTH AND LIFE INSURANCE COMPANY, INC.",https://flex.optum.com/fhirpublic,7/9/26 09:10
+2027,H2032 - Baylor Scott & White Insurance Company,https://wadcdnstorageprod.blob.core.windows.net/bswhp/JSON/BSWHP_CMS_MPF_H2032_2026_Index_FHIR.json,7/10/26 17:13
+2027,"H2034 - COMMUNITY CARE HEALTH PLAN, INC.",https://data.healthlx.com:8004/CCI,7/8/26 17:35
+2027,H2035 - ALAMEDA ALLIANCE FOR HEALTH,https://us120.fhir.edifecsfedcloud.com/aha_pdfhir,6/29/26 19:54
+2027,H2041 - DEVOTED HEALTH PLAN OF MISSOURI INC,https://fhir.devoted.com/fhir,6/25/26 13:25
+2027,H2056 - AETNA BETTER HEALTH OF MICHIGAN INC.,https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:09
+2027,"H2108 - BRAVO HEALTH MID-ATLANTIC, INC.",https://data.healthspring.healthlx.com:8003,7/10/26 18:19
+2027,H2126 - NEIGHBORHOOD HEALTH PLAN OF RHODE ISLAND,https://api-nhp-prd.safhir.io/v1/api/providerdirectory/cms-hpms-manifest/[ppp-cccc-nnn],7/9/26 16:05
+2027,H2168 - VILLAGE SENIOR SERVICES CORPORATION,,
+2027,H2172 - KAISER FDTN HLTH PLAN OF THE MID-ATLANTIC STATES,https://kpx-service-bus.kp.org/service/hp/mhpo/healthplanproviderv1rc,7/9/26 19:51
+2027,"H2174 - TRILLIUM COMMUNITY HEALTH PLAN, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:32
+2027,"H2185 - LIFEWORKS ADVANTAGE, LLC",https://fhir.curanahealth.com/,7/8/26 00:26
+2027,"H2224 - SENIOR WHOLE HEALTH, LLC",https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f,7/9/26 18:49
+2027,"H2225 - COMMONWEALTH CARE ALLIANCE, INC.",https://orchestrateserver.caresource.careevolution.com/api/fhir/provider-directory/metadata,7/10/26 18:31
+2027,"H2226 - UnitedHealthcare of New England, Inc.",https://flex.optum.com/fhirpublic,7/9/26 09:11
+2027,"H2230 - BCBS  OF MASSACHUSETTS HMO BLUE, INC.",https://fhir-prd-a-bcbsma.aws.mdx.med,7/6/26 09:48
+2027,"H2235 - BAYCARE SELECT HEALTH PLANS, INC.",https://api.baycarefhir.com/r4/public/Practitioner,7/23/26 12:20
+2027,H2237 - INDEPENDENT CARE HEALTH PLAN,https://api-icar-prd.safhir.io/v1/api/provider-directory/metadata,7/9/26 15:54
+2027,"H2247 - UNITEDHEALTHCARE COMMUNITY PLAN, INC.",https://flex.optum.com/fhirpublic,7/9/26 09:11
+2027,H2256 - TUFTS ASSOCIATED HEALTH MAINTENANCE ORGANIZATION,https://api-thp-prd.safhir.io/v1/api/provider-directory/cms-hpms-manifest/thp-h2256-nnn,7/6/26 15:49
+2027,"H2261 - BCBS  OF MASSACHUSETTS HMO BLUE, INC.",https://fhir-prd-a-bcbsma.aws.mdx.med,7/6/26 09:49
+2027,"H2272 - UNITEDHEALTHCARE OF NEW ENGLAND, INC.",https://flex.optum.com/fhirpublic,7/9/26 09:11
+2027,H2292 - CARE IMPROVEMENT PLUS SOUTH CENTRAL INSURANCE CO.,https://flex.optum.com/fhirpublic,7/9/26 09:11
+2027,H2293 - SILVERSCRIPT INSURANCE COMPANY,https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:09
+2027,H2320 - PRIORITY HEALTH,https://eppoa.spectrumhealth.org/FHIRProxy/api/FHIR/BulkPublish/Public/H2320_2027/MPF,8/24/26 09:06
+2027,H2322 - ALLIANCE HEALTH AND LIFE INSURANCE COMPANY,https://provider-directory-cms-r4.api.hap.org/,8/7/26 12:59
+2027,H2354 - HEALTH ALLIANCE PLAN OF MICHIGAN,https://provider-directory-cms-r4.api.hap.org/,8/21/26 13:22
+2027,H2385 - UNITEDHEALTHCARE INSURANCE COMPANY,https://flex.optum.com/fhirpublic,7/9/26 09:11
+2027,"H2392 - KANSAS SUPERIOR SELECT, INC.",https://api-ahp-prd.safhir.io/v1/api/provider-directory/metadata,7/10/26 10:36
+2027,"H2400 - SIGNATURE ADVANTAGE, LLC",https://sapfhir.prod.healthaxis.net/api/fhir/practitioner,7/10/26 17:45
+2027,H2406 - CARE IMPROVEMENT PLUS SOUTH CENTRAL INSURANCE CO.,https://flex.optum.com/fhirpublic,7/9/26 09:11
+2027,H2416 - PRIMEWEST RURAL MN HEALTH CARE ACCESS INITIATIVE,https://apis.ssctech.com/interop-pw/open/fhir/R4/Organization,7/10/26 10:43
+2027,H2417 - ITASCA MEDICAL CARE,https://apis.ssctech.com/interop-imc/open/fhir/R4/Organization?_tag=provider&_source=provider,7/24/26 12:48
+2027,H2419 - SOUTH COUNTRY HEALTH ALLIANCE,https://api.mnschafhir.com/r4/public/Practitioner,7/8/26 14:56
+2027,"H2422 - HEALTHPARTNERS, INC.",https://api-developerportal.healthpartners.com/interop/external/fhir,7/10/26 15:11
+2027,H2425 - HMO Minnesota,https://fhir-developer.bluecrossmn.com/provider-directory,7/9/26 13:10
+2027,"H2441 - ANTHEM INSURANCE COMPANIES, INC.",https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:15
+2027,"H2445 - UNITEDHEALTHCARE OF THE MID-ATLANTIC, INC.",https://flex.optum.com/fhirpublic,7/9/26 09:11
+2027,H2458 - MEDICA HEALTH PLANS,https://medica.healthsparq.com/api/provider-fhir-service/v1/fhir/,7/6/26 10:03
+2027,"H2463 - HUMANA HEALTH PLAN OF TEXAS, INC.",,
+2027,"H2486 - HUMANA MEDICAL PLAN OF UTAH, INC.",,
+2027,"H2491 - WELLCARE HEALTH INSURANCE OF ARIZONA, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:32
+2027,"H2509 - UNITEDHEALTHCARE OF FLORIDA, INC.",https://flex.optum.com/fhirpublic,7/9/26 09:11
+2027,H2526 - DEVOTED HEALTH PLAN OF OHIO INC,https://fhir.devoted.com/fhir,6/25/26 13:25
+2027,H2561 - HAWAII MEDICAL SERVICE ASSOCIATION (HMSA),https://io-api.hmsa-services.com:9443/fhir/r4/providerdirectory,7/8/26 15:35
+2027,H2563 - SENTARA HEALTH PLANS,https://shpp.interop.sentara.com/shpp/api/plannet/Practitioner,7/7/26 16:33
+2027,"H2564 - AMERIHEALTH CARITAS LOUISIANA, INC.",https://api-ext.amerihealthcaritas.com/LADS/provider-api/swagger-ui/,7/7/26 16:31
+2027,"H2593 - WELLPOINT TEXAS, INC.",https://totalview.healthos.Wellpoint.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:15
+2027,"H2610 - ESSENCE HEALTHCARE, INC.",https://data.healthlx.com:8004/LMRS,7/1/26 15:58
+2027,H2624 - CARE N' CARE INSURANCE COMPANY OF NORTH CAROLINA,https://api.healthteamadvantagefhir.com/r4/public/Practitioner/,7/8/26 14:35
+2027,H2628 - COMMUNITY INSURANCE COMPANY,https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:15
+2027,"H2630 - VERDA HEALTH PLAN OF ARIZONA, INC.",https://www.verdahpaz.com/fhir-provider-api-2026/,7/10/26 18:29
+2027,"H2663 - COVENTRY HEALTH CARE OF MISSOURI, INC.",https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:10
+2027,H2686 - DEVOTED HEALTH INSURANCE COMPANY OF HAWAII INC,https://fhir.devoted.com/fhir,6/25/26 13:25
+2027,"H2694 - ETERNALHEALTH, INC.",https://fhir.eternalhealth.com/api,7/11/26 00:13
+2027,"H2697 - DEVOTED HEALTH PLAN OF OHIO, INC.",https://fhir.devoted.com/fhir,6/25/26 13:25
+2027,"H2704 - KAISER FOUNDATION HP, INC.",https://kpx-service-bus.kp.org/service/hp/mhpo/healthplanproviderv1rc,7/9/26 19:51
+2027,"H2736 - UNITEDHEALTHCARE COMMUNITY PLAN, INC.",https://flex.optum.com/fhirpublic,7/9/26 09:11
+2027,"H2737 - HEALTH NEW ENGLAND, INC.",https://us120.fhir.m2.edifecsfedcloud.com/hne_pd,7/10/26 13:05
+2027,"H2752 - BRAVO HEALTH PENNSYLVANIA, INC.",https://data.healthspring.healthlx.com:8003,7/10/26 18:19
+2027,H2775 - AMERICAN PROGRESSIVE LIFE & HLTH INS COMPANY OF NY,https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:32
+2027,"H2802 - UNITEDHEALTHCARE OF THE MIDLANDS, INC.",https://flex.optum.com/fhirpublic,7/9/26 09:11
+2027,H2819 - CALIFORNIA PHYSICIANS' SERVICE,https://api.blueshieldca.com/bsc/fhir/fhir-server/api/v4/cloud/provider-directory/metadata,7/8/26 14:49
+2027,"H2836 - ANTHEM HEALTH PLANS, INC.",https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:16
+2027,H2845 - DEVOTED HEALTH INSURANCE COMPANY OF OKLAHOMA,https://fhir.devoted.com/fhir,6/25/26 13:25
+2027,"H2851 - NATIVE ADVANTAGE, INC.",https://fhir.nativeadvantage.com/fhir,7/7/26 10:31
+2027,H2875 - HUMANA WI HEALTH ORGANIZATION INSURANCE CORP,,
+2027,"H2915 - PENNSYLVANIA HEALTH & WELLNESS, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:33
+2027,H2923 - DEVOTED HEALTH PLAN OF OREGON INC,https://fhir.devoted.com/fhir,6/25/26 13:25
+2027,H2926 - PRIMEWEST RURAL MN HEALTH CARE ACCESS INITIATIVE,https://apis.ssctech.com/interop-pw/open/fhir/R4/Organization,7/10/26 10:44
+2027,H2942 - COX HEALTH SYSTEMS HMO INC,https://api.coxhealthplanfhir.com/r4/publicProdMa/Practitioner,7/8/26 16:39
+2027,H2960 - KAISER FOUNDATION HEALTH PLAN OF NEVADA,https://apps.hometownhealth.com/Services/_V3.0/ProviderDirectory/gql,7/10/26 17:04
+2027,"H2962 - ULTIMATE HEALTH PLANS, INC.",https://api.aaneelconnect.com/cms/r4/ultimate-provider-directory-2027,7/10/26 10:13
+2027,"H3012 - ST. LUKE'S HEALTH PLAN, INC.",https://medicare.stlukeshealthplan.org/files,7/7/26 14:00
+2027,H3038 - MOLINA HEALTHCARE OF CALIFORNIA,https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f,7/9/26 18:49
+2027,H3041 - DEVOTED HEALTH PLAN OF SOUTH CAROLINA INC,https://fhir.devoted.com/fhir,6/25/26 13:25
+2027,H3048 - SECUR INC,https://api.aaneelconnect.com/cms/r4/secur-provider-directory-2027,7/8/26 08:59
+2027,H3080 - DEVOTED HEALTH PLAN OF ALABAMA INC,https://fhir.devoted.com/fhir,6/25/26 13:25
+2027,"H3093 - MOLINA HEALTHCARE OF ILLINOIS, INC.",https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f,7/9/26 18:49
+2027,"H3113 - OXFORD HEALTH PLANS (NJ), INC.",https://flex.optum.com/fhirpublic,7/9/26 09:11
+2027,H3124 - PARTNERS INSURANCE COMPANY OF NEW JERSEY INC,https://providerfhirapi.healthpartnersplans.com,7/7/26 11:42
+2027,"H3127 - UPPER PENINSULA HEALTH PLAN, LLC",https://api.uphpfhir.com/r4/public-dsnp/Practitioner,7/9/26 16:56
+2027,H3146 - AETNA BETTER HEALTH INC. (GA),https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:10
+2027,H3152 - AETNA HEALTH INC. (NJ),https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:10
+2027,"H3170 - SAPPHIRE EDGE, INC.",https://api.bcbsnefhir.com/r4/public/,7/8/26 14:16
+2027,H3186 - SANFORD HEALTH PLAN OF MINNESOTA,https://fhir.greatplainsmedicareadvantage.com/hspd/r4/,7/7/26 10:41
+2027,H3192 - AETNA HEALTH OF MICHIGAN INC.,https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:10
+2027,H3204 - PRESBYTERIAN HEALTH PLAN,https://prodpsbtzinterop.healthtranzformdev.com/providerdirectory,7/2/26 16:01
+2027,H3219 - ALLINA HEALTH AND AETNA INSURANCE COMPANY,https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:10
+2027,"H3239 - AETNA BETTER HEALTH, INC. (LA)",https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:10
+2027,"H3240 - WELLPOINT NEW JERSEY, INC.",https://totalview.healthos.Wellpoint.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:17
+2027,H3256 - CARE IMPROVEMENT PLUS SOUTH CENTRAL INSURANCE CO.,https://flex.optum.com/fhirpublic,7/9/26 09:12
+2027,H3259 - VOLUNTEER STATE HEALTH PLAN,https://api.bcbst.com/r4/providerdirectory/BCBST/metadata,7/10/26 16:21
+2027,H3274 - ALIGN SENIOR CARE CALIFORNIA INC.,https://fhir.curanahealth.com/,7/8/26 00:26
+2027,H3288 - AETNA HEALTH AND LIFE INSURANCE COMPANY,https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:10
+2027,"H3291 - PRUITTHEALTH PREMIER, INC.",https://fhir.curanahealth.com/,7/8/26 00:26
+2027,"H3305 - MVP HEALTH PLAN, INC.",https://api.mvphealthcare.com/provdirfhirapi/metadata,8/28/26 09:37
+2027,H3312 - AETNA HEALTH INC. (NY),https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:10
+2027,H3330 - HEALTH INSURANCE PLAN OF GREATER NEW YORK,https://prodtzinterop.developer.healthtranzformdev.com/api-details#api=mt-provider-directory&operation=getMetadata,7/8/26 12:10
+2027,H3344 - INDEPENDENT HEALTH BENEFITS CORPORATION,https://ihfhir.healthsparq.com/api/provider-fhir-service/v1/fhir/metadata,8/17/26 09:56
+2027,"H3347 - ELDERPLAN, INC.",https://providerlenz.com/client-api-documentation?apikey=193E1470-5CB7-408F-8E07-F06C7C87FCFE,6/26/26 10:24
+2027,"H3351 - EXCELLUS HEALTH PLAN, INC.",https://fhir.excellusbcbs.com/fhir/api/,7/10/26 12:00
+2027,"H3359 - HEALTHFIRST HEALTH PLAN, INC.",https://hf-fhir-provider-directory-sys-api-prod.us-e1.cloudhub.io,7/10/26 13:28
+2027,"H3362 - INDEPENDENT HEALTH ASSOCIATION, INC.",https://ihfhir.healthsparq.com/api/provider-fhir-service/v1/fhir/metadata,8/17/26 09:56
+2027,"H3379 - UNITEDHEALTHCARE OF NEW YORK, INC.",https://flex.optum.com/fhirpublic,7/9/26 09:12
+2027,H3384 - Highmark Western and Northeastern New York Inc.,https://apicmsqa.hmhs.com/cms/fhir/v4/providers/HMNY/Practitioner,8/27/26 15:41
+2027,"H3387 - UNITEDHEALTHCARE OF NEW YORK, INC.",https://flex.optum.com/fhirpublic,7/9/26 09:12
+2027,"H3388 - CAPITAL DISTRICT PHYSICIANS' HEALTH PLAN, INC.",https://cdphpfhir.healthsparq.com/api/provider-fhir-service/v1/fhir/,7/9/26 16:28
+2027,H3404 - BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA,https://bcbsnc.sapphirecareselect.com/fhir,7/8/26 08:30
+2027,"H3407 - EL PASO FIRST HEALTH PLANS, INC.",https://prodepftzinterop.trizettoconnect.com/ug/providerdirectorys/Endpoint,6/26/26 17:03
+2027,H3418 - CARE IMPROVEMENT PLUS SOUTH CENTRAL INSURANCE CO.,https://flex.optum.com/fhirpublic,7/9/26 09:12
+2027,"H3419 - PERENNIAL ADVANTAGE OF COLORADO, INC.",https://fhir.curanahealth.com/,7/8/26 00:26
+2027,"H3443 - ALIGNMENT HEALTH PLAN OF ARIZONA, INC.",https://adasgateway.ahcusa.com/providerfhir/Practitioner,6/30/26 16:05
+2027,"H3447 - HEALTHKEEPERS, INC.",https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:17
+2027,H3449 - BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA,https://bcbsnc.sapphirecareselect.com/fhir,7/8/26 08:30
+2027,"H3467 - PROCARE ADVANTAGE, LLC",https://fhir.curanahealth.com/,7/8/26 00:26
+2027,H3499 - COORDINATED CARE CORPORATION,https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:33
+2027,"H3515 - DEVOTED HEALTH PLAN OF WASHINGTON, INC.",https://fhir.devoted.com/fhir,6/25/26 13:25
+2027,"H3529 - ANTHEM INSURANCE COMPANIES, INC.",https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:17
+2027,"H3533 - HUMANA HEALTH COMPANY OF NEW YORK, INC.",,
+2027,H3551 - ETERNALHEALTH OF ARIZONA INC,https://fhir.eternalhealth.com/api,7/11/26 00:13
+2027,"H3561 - HEALTH NET COMMUNITY SOLUTIONS, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:33
+2027,H3597 - AETNA HEALTH INC. (ME),https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:10
+2027,H3642 - HUMANADENTAL INSURANCE COMPANY,,
+2027,H3655 - COMMUNITY INSURANCE COMPANY,https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:17
+2027,H3660 - SUMMACARE INC.,,
+2027,H3664 - AULTCARE HEALTH INSURING CORPORATION,https://achealthdataservices-providerdirectory.fhir.azurehealthcareapis.com/metadata,7/10/26 14:25
+2027,"H3668 - MOUNT CARMEL HEALTH PLAN, INC.",https://api-medigold-prd.safhir.io/v1/api/provider-directory,7/10/26 07:58
+2027,"H3672 - THE HEALTH PLAN OF WEST VIRGINIA, INC.",https://api.thehealthplanfhir.com/r4/public/Practitioner,7/8/26 16:13
+2027,"H3706 - GLOBALHEALTH, INC.",https://api.globalhealthfhir.com/r4/public/Practitioner,7/9/26 17:41
+2027,"H3708 - OKLAHOMA SUPERIOR SELECT, INC.",https://api-ahp-prd.safhir.io/v1/api/provider-directory/metadata,7/10/26 10:37
+2027,H3727 - OH CHS SNP INC.,https://CCA.fp-h3727.prd.healixcloud.net/pd/fhir/Practitioner?_count=10,7/10/26 09:55
+2027,"H3748 - AETNA BETTER HEALTH OF WASHINGTON, INC.",https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:11
+2027,"H3755 - COMMUNITYCARE GOVERNMENT PROGRAMS, INC.",https://api.communitycarefhir.com/r4/public-prod-ma/,7/9/26 09:53
+2027,"H3767 - HUMANA HEALTH PLAN OF CALIFORNIA, INC.",,
+2027,"H3794 - UNITEDHEALTHCARE OF WISCONSIN, INC.",https://flex.optum.com/fhirpublic,7/9/26 09:12
+2027,H3800 - PROVIDER PARTNERS HEALTH PLAN OF ILLINOIS,https://www.pphealthplan.com/directory-search/FHIR/H3800/2027,7/10/26 15:36
+2027,"H3805 - UnitedHealthcare Benefits of Texas, Inc.",https://flex.optum.com/fhirpublic,7/9/26 09:12
+2027,"H3810 - ALLCARE HEALTH PLAN, INC.",https://interop-adv.api.allcarehealth.com/,7/1/26 13:27
+2027,"H3811 - SAMARITAN HEALTH PLANS, INC.",https://samhp.healthtrioconnect.com/fhirprovdir/metadata,7/9/26 17:19
+2027,H3814 - ATRIO HEALTH PLANS,https://client-api.providerlenz.com/api/publicAPI/LoadFHIRDirectoryProviders/ATRIO,7/10/26 17:54
+2027,H3815 - ALIGNMENT HEALTH PLAN,https://adasgateway.ahcusa.com/providerfhir/Practitioner,6/30/26 16:05
+2027,H3817 - REGENCE BLUECROSS BLUESHIELD OF OREGON,https://providers.regence.com/api/provider-fhir-service/v1/fhir,7/1/26 16:09
+2027,H3822 - HEALTH CARE SERVICE CORPORATION,https://api.hcsc.net/providerfinder/cms_sapphire/fhir/,7/10/26 18:09
+2027,H3832 - HAWAII MEDICAL SERVICE ASSOCIATION,https://io-api.hmsa-services.com:9443/fhir/r4/providerdirectory,7/8/26 15:35
+2027,H3864 - PACIFICSOURCE COMMUNITY HEALTH PLANS,https://api.apim.pacificsource.com/fhir/provider/R4/Practitioner,7/10/26 11:44
+2027,"H3868 - UNITEDHEALTHCARE COMMUNITY PLAN OF TEXAS, L.L.C.",https://flex.optum.com/fhirpublic,7/9/26 09:12
+2027,H3879 - SCAN HEALTH PLAN (OR),https://providerdirectory.scanhealthplan.com,7/7/26 15:23
+2027,"H3890 - HOPKINS HEALTH ADVANTAGE, INC.",https://api.jhhpfhir.com/r4/public-ma/,7/10/26 16:53
+2027,"H3907 - UPMC HEALTH PLAN, INC.",https://apis.upmchp.com/FHIR/R4/Group/Providerdirectory/$export,7/24/26 13:29
+2027,H3909 - QCC INSURANCE COMPANY,https://eapics.ibx.com/provider/v1/fhir,6/30/26 13:21
+2027,H3916 - HIGHMARK SENIOR HEALTH COMPANY,https://apicmsqa.hmhs.com/cms/fhir/v4/providers/HM/Practitioner,8/27/26 15:40
+2027,H3923 - CAPITAL ADVANTAGE INSURANCE COMPANY,https://api.capitalbluecrossfhir.com/r4/public-ma/,7/8/26 14:22
+2027,H3924 - GEISINGER INDEMNITY INSURANCE COMPANY,https://api-v2.geisinger.org/api/provider-directory/v1/,7/9/26 13:49
+2027,H3928 - AETNA HEALTH INC. (LA),https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:11
+2027,H3931 - AETNA HEALTH INC. (PA),https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:11
+2027,"H3949 - BRAVO HEALTH PENNSYLVANIA, INC.",https://data.healthspring.healthlx.com:8003,7/10/26 18:20
+2027,"H3952 - KEYSTONE HEALTH PLAN EAST, INC.",https://eapics.ibx.com/provider/v1/fhir,6/30/26 13:21
+2027,H3954 - GEISINGER HEALTH PLAN,https://api-v2.geisinger.org/api/provider-directory/v1/,7/9/26 13:51
+2027,H3957 - HIGHMARK CHOICE COMPANY,https://apicmsqa.hmhs.com/cms/fhir/v4/providers/HM/Practitioner,8/27/26 15:40
+2027,H3959 - AETNA HEALTH INC. (PA),https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:12
+2027,"H3962 - KEYSTONE HEALTH PLAN CENTRAL, INC.",https://api.capitalbluecrossfhir.com/r4/public-ma/,7/8/26 14:31
+2027,"H3975 - WELLCARE HEALTH INSURANCE COMPANY OF KENTUCKY, INC",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:33
+2027,"H4003 - MMM HEALTHCARE, LLC",https://api.mmmhealthcarefhir.com/r4/public-ma/Practitioner,7/10/26 08:55
+2027,"H4004 - MMM HEALTHCARE, LLC",https://api.mmmhealthcarefhir.com/r4/public-ma/Practitioner,7/10/26 08:56
+2027,"H4005 - TRIPLE S ADVANTAGE, INC.",https://fdp.edifecsfedcloud.com/#/portal/triple.s/fhir-apis,7/8/26 11:49
+2027,H4026 - SCAN HEALTH PLAN (WA),https://providerdirectory.scanhealthplan.com,7/7/26 15:23
+2027,H4030 - DEVOTED HEALTH INSURANCE COMPANY OF MISSOURI,https://fhir.devoted.com/fhir,6/25/26 13:25
+2027,"H4032 - UNITEDHEALTHCARE OF THE ROCKIES, INC.",https://flex.optum.com/fhirpublic,7/9/26 09:12
+2027,"H4036 - ANTHEM INSURANCE COMPANIES, INC.",https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:18
+2027,H4045 - SANTA CLARA COUNTY HEALTH AUTHORITY,https://fhir.scfhp.com/providerAPI,7/8/26 15:05
+2027,"H4054 - PROVIDER PARTNERS HEALTH PLAN OF TEXAS, INC.",https://www.pphealthplan.com/directory-search/FHIR/H4054/2027,7/10/26 15:37
+2027,H4057 - KERN HEALTH SYSTEMS,https://fhir.edifecscloud.com/khs_meta/pd/R4/Practitioner,9/2/26 22:59
+2027,"H4073 - WELLCARE HEALTH INSURANCE OF NORTH CAROLINA, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:33
+2027,"H4086 - HEALTHY ARKANSAS, INC.",https://fhir.healthy-ar.com/plan-net/H4086/,7/9/26 16:27
+2027,"H4091 - SIMPRA ADVANTAGE, INC.",https://data.healthlx.com:8004/SIMPRA,7/10/26 12:16
+2027,"H4093 - PROVIDER PARTNERS HEALTH PLAN OF PENNSYLVANIA, INC",https://www.pphealthplan.com/directory-search/FHIR/H4093/2027,7/10/26 15:37
+2027,H4127 - ALIGN SENIOR CARE IOWA INSURANCE COMPANY,https://fhir.curanahealth.com/,7/8/26 00:26
+2027,"H4140 - DOCTORS HEALTHCARE PLANS, INC.",https://us120.fhir.m2.edifecsfedcloud.com/dhcp_pd,7/8/26 14:44
+2027,"H4141 - HUMANA EMPLOYERS HEALTH PLAN OF GEORGIA, INC.",,
+2027,H4152 - BLUE CROSS & BLUE SHIELD OF RHODE ISLAND,https://transmitapi.goperspecta.com/v2/bcbsri,6/24/26 17:26
+2027,"H4158 - BUCKEYE COMMUNITY HEALTH PLAN, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:33
+2027,"H4161 - BLUE CROSS OF CALIFORNIA PARTNERSHIP PLAN, INC.",https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/13/26 16:10
+2027,"H4172 - NHC ADVANTAGE, LLC",https://fhir.curanahealth.com/,7/8/26 00:26
+2027,H4193 - HAP CARESOURCE,https://orchestrateserver.caresource.careevolution.com/api/fhir/provider-directory/metadata,7/10/26 18:31
+2027,H4213 - USABLE MUTUAL INSURANCE COMPANY,https://arkbluecross.healthsparq.com/api/provider-fhir-service,9/4/26 10:31
+2027,"H4227 - VISTA HEALTH PLAN, INC.",https://api-ext.amerihealthcaritas.com/PA01/provider-api/swagger-ui/,7/7/26 16:31
+2027,"H4232 - AMERICAN HEALTH PLAN OF UT, INC.",https://api-ahp-prd.safhir.io/v1/api/provider-directory/metadata,7/10/26 10:37
+2027,"H4279 - UPMC FOR YOU, INC",https://apis.upmchp.com/FHIR/R4/Group/Providerdirectory/$export,7/24/26 13:29
+2027,"H4286 - LEON HEALTH, INC.",https://data.healthlx.com:8004/LEONHEALTH/,7/9/26 09:30
+2027,"H4329 - HUMANA BENEFIT PLAN OF ILLINOIS, INC.",,
+2027,"H4346 - HMO COLORADO, INC.",https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/13/26 16:13
+2027,H4348 - DEVOTED HEALTH INSURANCE COMPANY OF KANSAS,https://fhir.devoted.com/fhir,6/25/26 13:25
+2027,"H4367 - MOLINA HEALTHCARE OF IOWA, INC.",https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f,7/9/26 18:49
+2027,"H4371 - SENIOR WHOLE HEALTH, LLC",https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f,7/9/26 18:49
+2027,"H4407 - HEALTHSPRING LIFE & HEALTH INSURANCE COMPANY, INC.",https://data.healthspring.healthlx.com:8003,7/10/26 18:20
+2027,H4439 - PROVIDER PARTNERS HEALTH PLAN OF NORTH CAROLINA,https://www.pphealthplan.com/directory-search/FHIR/H4439/2027,7/10/26 15:37
+2027,H4444 - PROVIDER PARTNERS HEALTH PLAN OF INDIANA,https://www.pphealthplan.com/directory-search/FHIR/H4444/2027,7/10/26 15:38
+2027,H4461 - CARITEN HEALTH PLAN INC.,,
+2027,"H4471 - BLUE CROSS OF CALIFORNIA PARTNERSHIP PLAN, INC.",https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:18
+2027,"H4473 - DEVOTED HEALTH INSURANCE COMPANY OF UTAH, INC.",https://fhir.devoted.com/fhir,6/25/26 13:25
+2027,"H4490 - AMERICAN HEALTH PLAN OF MISSOURI, INC.",https://api-ahp-prd.safhir.io/v1/api/provider-directory/metadata,7/10/26 10:37
+2027,H4497 - MEDICAL MUTUAL OF OHIO,https://fhirprovider.medmutual.com/provider/R4,7/2/26 14:28
+2027,H4499 - SENTARA HEALTH PLANS,https://shpp.interop.sentara.com/shpp/api/plannet/Practitioner,7/7/26 16:33
+2027,"H4506 - SELECTCARE OF TEXAS, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:33
+2027,"H4513 - HEALTHSPRING LIFE & HEALTH INSURANCE COMPANY, INC.",https://data.healthspring.healthlx.com:8003,7/10/26 18:20
+2027,"H4514 - UNITEDHEALTHCARE COMMUNITY PLAN OF TEXAS, L.L.C.",https://flex.optum.com/fhirpublic,7/9/26 09:12
+2027,H4523 - AETNA HEALTH INC. (TX),https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:12
+2027,"H4527 - PHYSICIANS HEALTH CHOICE OF TEXAS, LLC",https://flex.optum.com/fhirpublic,7/9/26 09:12
+2027,"H4604 - UNITEDHEALTHCARE OF THE ROCKIES, INC.",https://flex.optum.com/fhirpublic,7/9/26 09:12
+2027,H4605 - REGENCE BLUECROSS BLUESHIELD OF UTAH,https://providers.regence.com/api/provider-fhir-service/v1/fhir,7/1/26 16:09
+2027,"H4610 - UNITEDHEALTHCARE OF NEW ENGLAND, INC.",https://flex.optum.com/fhirpublic,7/9/26 09:12
+2027,"H4623 - HUMANA REGIONAL HEALTH PLAN, INC.",,
+2027,"H4624 - ZING HEALTH OF MICHIGAN, INC.",https://api.zinghealthfhir.com/r4/public/,7/9/26 09:44
+2027,"H4647 - NEW CENTURY HEALTH PLAN, INC.",,
+2027,H4661 - CELTIC INSURANCE COMPANY,https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:33
+2027,"H4676 - TROY HEALTH, INC.",,
+2027,"H4694 - HEALTHKEEPERS, INC.",https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:19
+2027,"H4711 - COVENTRY HEALTH CARE OF NEBRASKA, INC.",https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:12
+2027,H4733 - COMMUNITY HEALTH GROUP,https://api-chgsd-prd.safhir.io/v1/api/provider-directory/,6/29/26 14:33
+2027,"H4739 - SELECT HEALTH OF SOUTH CAROLINA, INC.",https://api-ext.amerihealthcaritas.com/SCDS/provider-api/swagger-ui/,7/7/26 16:32
+2027,H4808 - DEVOTED HEALTH INSURANCE COMPANY OF COLORADO INC,https://fhir.devoted.com/fhir,6/25/26 13:26
+2027,H4835 - AETNA BETTER HEALTH OF OKLAHOMA INC.,https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:12
+2027,"H4847 - WELLCARE OF SOUTH CAROLINA, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:33
+2027,H4869 - GOLD KIDNEY OF ARIZONA,https://api.aaneelconnect.com/cms/r4/goldkidney-provider-directory-2027,7/10/26 12:37
+2027,H4875 - PRIORITY HEALTH,https://eppoa.spectrumhealth.org/FHIRProxy/api/FHIR/BulkPublish/Public/H4875_2027/MPF,8/24/26 09:06
+2027,"H4882 - HEALTHPARTNERS, INC.",https://api-developerportal.healthpartners.com/interop/external/fhir,7/10/26 15:11
+2027,"H4909 - ANTHEM INSURANCE COMPANIES, INC.",https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:19
+2027,H4931 - BANNER - UNIVERSITY CARE ADVANTAGE,https://www.bannerhealthnetwork.com/CMS_Provider_Directory/H4931/FHIR/2027/index.json,6/24/26 18:52
+2027,"H4939 - ARCADIAN HEALTH PLAN, INC.",,
+2027,H4961 - ALIGNMENT HEALTH PLAN,https://adasgateway.ahcusa.com/providerfhir/Practitioner,6/30/26 16:06
+2027,H4982 - AETNA BETTER HEALTH OF CALIFORNIA INC.,https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:12
+2027,H5008 - CARE IMPROVEMENT PLUS SOUTH CENTRAL INSURANCE CO.,https://flex.optum.com/fhirpublic,7/9/26 09:12
+2027,H5009 - REGENCE BLUESHIELD,https://providers.regence.com/api/provider-fhir-service/v1/fhir,7/1/26 16:09
+2027,"H5015 - TEXAS INDEPENDENCE HEALTH PLAN, INC.",https://api-tihp-prd.safhir.io/v1/api/provider-directory,7/8/26 10:17
+2027,H5050 - KAISER FOUNDATION HEALTH PLAN OF WASHINGTON,https://kpx-service-bus.kp.org/service/hp/mhpo/healthplanproviderv1rc,7/9/26 19:52
+2027,"H5087 - WELLCARE OF CALIFORNIA, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:34
+2027,H5106 - HIGHMARK SENIOR SOLUTIONS COMPANY,https://apicmsqa.hmhs.com/cms/fhir/v4/providers/HMWV/Practitioner,8/27/26 15:42
+2027,H5119 - CONTRA COSTA COUNTY MEDICAL SERVICE DBA CONTRA COSTA HEALTH PLAN,https://ihyml0v6d9.execute-api.us-east-1.amazonaws.com/hxprod/metadata,7/10/26 17:14
+2027,H5141 - CLOVER INSURANCE COMPANY,https://public-api.cloverhealth.com/swagger,7/9/26 14:24
+2027,H5163 - VERDA HEALTH PLAN OF TEXAS INC,https://verdahptx.com/fhir-provider-api-2026/,7/10/26 18:29
+2027,H5177 - DEVOTED HEALTH INSURANCE COMPANY OF MICHIGAN,https://fhir.devoted.com/fhir,6/25/26 13:26
+2027,"H5178 - HUMANA HEALTH PLAN, INC.",,
+2027,"H5209 - Molina Healthcare of Wisconsin, Inc.",https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f,7/9/26 18:49
+2027,"H5211 - SECURITY HEALTH PLAN OF WISCONSIN, INC.",https://fhir.securityhealth.org/hspd/r4/,7/7/26 10:41
+2027,H5215 - NETWORK HEALTH INSURANCE CORPORATION,https://data.networkhealth.com/plan-finder/h5215_index.json,9/4/26 12:56
+2027,H5216 - HUMANA INSURANCE COMPANY,,
+2027,"H5253 - UNITEDHEALTHCARE OF WISCONSIN, INC.",https://flex.optum.com/fhirpublic,7/9/26 09:13
+2027,H5262 - QUARTZ HEALTH PLAN CORPORATION,https://quartzfhir.healthsparq.com/api/provider-fhir-service/v1/fhir/,6/30/26 16:40
+2027,"H5272 - ABSOLUTE TOTAL CARE, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:34
+2027,"H5294 - SUPERIOR HEALTHPLAN, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:34
+2027,"H5296 - ALIGNMENT HEALTH PLAN OF NORTH CAROLINA, INC.",https://adasgateway.ahcusa.com/providerfhir/Practitioner,6/30/26 16:06
+2027,H5299 - DEVOTED HEALTH PLAN OF NORTH CAROLINA INC,https://fhir.devoted.com/fhir,6/25/26 13:26
+2027,H5302 - AETNA HEALTH INC. (GA),https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:12
+2027,"H5314 - TUFTS HEALTH PUBLIC PLANS, INC.",https://api-thp-prd.safhir.io/v1/api/provider-directory/cms-hpms-manifest/thp-h5314-nnn,7/6/26 15:49
+2027,H5322 - CARE IMPROVEMENT PLUS SOUTH CENTRAL INSURANCE CO.,https://flex.optum.com/fhirpublic,7/9/26 09:13
+2027,"H5325 - COVENTRY HEALTH CARE OF KANSAS, INC.",https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:12
+2027,H5334 - DEVOTED HEALTH INSURANCE COMPANY OF NEW YORK,https://fhir.devoted.com/fhir,6/25/26 13:26
+2027,H5361 - AMERIHEALTH INSURANCE COMPANY OF NEW JERSEY,https://eapics.amerihealth.com/provider/v1/fhir,6/30/26 13:22
+2027,"H5374 - LONGEVITY HEALTH PLAN OF NORTH CAROLINA, INC.",https://nc26fhir.longevityhealthplan.com,6/30/26 15:37
+2027,"H5377 - HUMANA MEDICAL PLAN OF PENNSYLVANIA, INC.",,
+2027,"H5397 - DEVOTED HEALTH PLAN OF HAWAII, INC.",https://fhir.devoted.com/fhir,6/25/26 13:26
+2027,"H5410 - HEALTHSPRING OF FLORIDA, INC.",https://data.healthspring.healthlx.com:8003,7/10/26 18:22
+2027,"H5420 - Preferred Care Network, Inc.",https://flex.optum.com/fhirpublic,7/9/26 09:13
+2027,H5422 - BLUE CROSS BLUE SHIELD HEALTHCARE PLAN OF GEORGIA,https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:19
+2027,H5425 - SCAN HEALTH PLAN,https://providerdirectory.scanhealthplan.com,7/7/26 15:24
+2027,"H5427 - FREEDOM HEALTH, INC.",https://api.aaneelconnect.com/cms/r4/freedom-provider-directory-2027,7/10/26 08:04
+2027,"H5431 - HEALTHSUN HEALTH PLANS, INC.",https://api.aaneelconnect.com/cms/r4/healthsun-provider-directory-2027,7/10/26 08:04
+2027,H5433 - ORANGE COUNTY HEALTH AUTHORITY,https://cms.caloptima.org/MPF/H5433/indexfhir.json,7/9/26 18:41
+2027,"H5434 - BLUE CROSS AND BLUE SHIELD OF FLORIDA, INC.",https://apigw.bcbsfl.com/interop/interop-developer-portal/emr/api/v1/fhir/,7/10/26 08:10
+2027,H5439 - HEALTH NET LIFE INSURANCE COMPANY,https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:34
+2027,"H5447 - COMMUNITY FIRST HEALTH PLANS, INC.",https://medicare.communityfirsthealthplans.com/index-medicare.json,8/6/26 10:30
+2027,H5453 - DEVOTED HEALTH INSURANCE COMPANY OF GEORGIA INC,https://fhir.devoted.com/fhir,6/25/26 13:26
+2027,"H5471 - SIMPLY HEALTHCARE PLANS, INC.",https://totalview.healthos.Wellpoint.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:19
+2027,H5472 - ALIGNMENT HEALTH INSURANCE COMPANY OF ARIZONA INC,https://adasgateway.ahcusa.com/providerfhir/Practitioner,6/30/26 16:06
+2027,"H5475 - MERIDIAN HEALTH PLAN OF MICHIGAN, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:34
+2027,"H5496 - IMPERIAL HEALTH PLAN OF CALIFORNIA, INC.",https://developers.imperialhealthholdings.com/api/getProviderList,7/10/26 20:19
+2027,H5521 - AETNA LIFE INSURANCE COMPANY,https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:12
+2027,H5522 - AETNA LIFE INSURANCE COMPANY,https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:22
+2027,"H5525 - HUMANA BENEFIT PLAN OF ILLINOIS, INC.",,
+2027,H5526 - Highmark Western and Northeastern New York Inc.,https://apicmsqa.hmhs.com/cms/fhir/v4/providers/HMNY/Practitioner,8/27/26 15:41
+2027,"H5533 - UPMC HEALTH NETWORK, INC.",https://apis.upmchp.com/FHIR/R4/Group/Providerdirectory/$export,7/24/26 13:29
+2027,H5549 - VNS CHOICE,https://api.vnshealthfhir.com/r4/public/Practitioner,8/6/26 09:17
+2027,"H5577 - MCS ADVANTAGE, INC.",https://api.mcsfhir.com/r4/public/Practitioner,8/27/26 14:11
+2027,H5580 - MERCY CARE,https://apif1.aetna.com/fhir/v1/providerdirectory/insuranceplan   https://apif1.aetna.com/fhir/v1/providerdirectory/location   https://apif1.aetna.com/fhir/v1/providerdirectory/organization   https://apif1.aetna.com/fhir/v1/providerdirectory/organizationaffiliation    https://apif1.aetna.com/fhir/v1/providerdirectory/practitioner    https://apif1.aetna.com/fhir/v1/providerdirectory/practitionerrole,7/6/26 13:04
+2027,"H5587 - HEALTH CHOICE ARIZONA, INC.",,
+2027,"H5590 - Bridgeway Health Solutions of Arizona, Inc.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:34
+2027,"H5591 - MARTIN'S POINT GENERATIONS ADVANTAGE, INC.",https://api-MPHC-prd.safhir.io/v1/api/provider-directory,7/8/26 17:46
+2027,H5593 - AETNA HEALTH OF IOWA INC.,https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:22
+2027,"H5594 - OPTIMUM HEALTHCARE, INC.",https://api.aaneelconnect.com/cms/r4/optimum-provider-directory-2027,7/10/26 08:04
+2027,H5599 - NEW YORK QUALITY HEALTHCARE CORPORATION,https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:34
+2027,"H5608 - DENVER HEALTH MEDICAL PLAN, INC.",https://www.denverhealthmedicalplan.org/transparency-coverage-co,9/2/26 14:44
+2027,"H5619 - ARCADIAN HEALTH PLAN, INC.",,
+2027,"H5628 - MOLINA HEALTHCARE OF UTAH, INC.",https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f,7/9/26 18:50
+2027,"H5652 - SIERRA HEALTH AND LIFE INSURANCE COMPANY, INC.",https://flex.optum.com/fhirpublic,7/9/26 09:13
+2027,H5692 - SANTA CRUZ MONTEREY MERCED SAN BENITO MARIPOSA MANAGED MEDICAL CARE COMMISSION,https://us120.fhir.edifecsfedcloud.com/ccah/fhir/pd/R4/,7/9/26 19:35
+2027,H5703 - SOUTH COUNTRY HEALTH ALLIANCE,https://api.mnschafhir.com/r4/public/Practitioner,7/8/26 14:56
+2027,H5718 - DEVOTED HEALTH INSURANCE COMPANY OF KENTUCKY INC,https://fhir.devoted.com/fhir,6/25/26 13:26
+2027,H5734 - SAN JOAQUIN COUNTY HEALTH COMMISSION,https://uat120.fhir.edifecsfedcloud.com/hpsj_pdfhir,7/10/26 14:41
+2027,"H5767 - MEDCARE PARTNERS HEALTH PLAN OF TEXAS, LLC",https://providerdirectory.mcpartnerstx.com/fhir,7/10/26 02:00
+2027,"H5774 - TRIPLE S ADVANTAGE, INC.",https://fdp.edifecsfedcloud.com/#/portal/triple.s/fhir-apis,7/8/26 11:49
+2027,"H5779 - MERIDIAN HEALTH PLAN OF ILLINOIS, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:34
+2027,H5793 - AETNA HEALTH INC. (CT),https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:23
+2027,"H5823 - MOLINA HEALTHCARE OF WASHINGTON, INC.",https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f,7/9/26 18:50
+2027,H5826 - COMMUNITY HEALTH PLAN OF WASHINGTON,https://chpw-prd-prvdr.smilecdr.com/endpoint-fhir-rest,7/9/26 23:57
+2027,"H5828 - WELLPOINT TENNESSEE, INC.",https://totalview.healthos.Wellpoint.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:20
+2027,"H5843 - BANNER HEALTH PLAN, INC.",https://www.bannerhealthnetwork.com/CMS_Provider_Directory/H5843/FHIR/2027/index.json,6/24/26 18:52
+2027,H5852 - AIDS HEALTHCARE FOUNDATION,https://url.us.m.mimecastprotect.com/s/poWxCXDw2ruNxV8ZuDikfWDtoF?domain=api.ahffhir.com,7/10/26 13:10
+2027,"H5854 - ANTHEM HEALTH PLANS, INC.",https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:20
+2027,"H5859 - HEALTH PLAN OF CAREOREGON, INC.",https://us120.fhir.m2.edifecsfedcloud.com/cor_pd/practitionerrole,7/9/26 11:20
+2027,H5883 - BLUE CARE NETWORK OF MICHIGAN,https://cms-uat.healthsparq.com/mpf/v1/H5883/2027/H5883-2027-index.json,8/3/26 11:09
+2027,"H5926 - MOLINA HEALTHCARE OF MICHIGAN, INC.",https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f,7/9/26 18:50
+2027,H5928 - California Physicians' Service,https://api.blueshieldca.com/bsc/fhir/fhir-server/api/v4/cloud/provider-directory/metadata,7/8/26 14:49
+2027,"H5932 - GATEWAY HEALTH PLAN, INC.",https://apicmsqa.hmhs.com/cms/fhir/v4/providers/HMPAMS/Practitioner,8/27/26 15:40
+2027,H5938 - CAPITAL HEALTH PLAN,https://api.capitalhealthplanfhir.com/r4/public-ma/,7/9/26 11:14
+2027,H5943 - SCAN HEALTH PLAN,https://providerdirectory.scanhealthplan.com,7/7/26 15:24
+2027,H5945 - PROMINENCE HEALTHFIRST,,
+2027,"H5959 - BCBSM, Inc.",https://fhir-developer.bluecrossmn.com/provider-directory,7/9/26 13:11
+2027,H5969 - ALOHACARE,https://st.edifecscloud.com/alc_pd,7/1/26 16:41
+2027,H5970 - HUMANA INSURANCE COMPANY OF NEW YORK,,
+2027,"H5989 - HEALTHFIRST HEALTH PLAN, INC.",https://hf-fhir-provider-directory-sys-api-prod.us-e1.cloudhub.io,7/10/26 13:28
+2027,H5991 - HEALTH INSURANCE PLAN OF GREATER NEW YORK,https://prodtzinterop.developer.healthtranzformdev.com/api-details#api=mt-provider-directory&operation=getMetadata,7/8/26 12:12
+2027,"H5992 - SENIOR WHOLE HEALTH OF NEW YORK, INC.",https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f,7/9/26 18:50
+2027,H6018 - DEVOTED HEALTH INSURANCE COMPANY OF PENNSYLVANIA INC,https://fhir.devoted.com/fhir,6/25/26 13:26
+2027,H6019 - SAN MATEO HEALTH COMMISSION,https://api.hpsmfhir.com/r4/public/Practitioner,7/9/26 16:55
+2027,"H6158 - USABLE HMO, INC.",https://arkbluecross.healthsparq.com/api/provider-fhir-service,9/4/26 10:32
+2027,H6170 - CHAMPION HEALTH PLAN OF CALIFORNIA INC,,
+2027,H6194 - MULTICARE HEALTH PLAN,https://opala.tech/provdir/multicare-health-plan/v1/fhir-r4,7/10/26 14:19
+2027,"H6200 - ESSENCE HEALTHCARE PPO, INC.",https://data.healthlx.com:8004/LMRS,7/1/26 15:58
+2027,H6224 - HIGHMARK HEALTH OPTIONS WEST VIRGINIA INC.,https://apicmsqa.hmhs.com/cms/fhir/v4/providers/HMWVMS/Practitioner,8/27/26 15:41
+2027,H6237 - REGENCE BLUECROSS BLUESHIELD OF OREGON,https://providers.regence.com/api/provider-fhir-service/v1/fhir,7/1/26 17:03
+2027,H6248 - COMMUNITY HEALTH GROUP,https://api-chgsd-prd.safhir.io/v1/api/provider-directory/,6/29/26 14:33
+2027,H6303 - AETNA BETTER HEALTH INC. (CT),https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:25
+2027,H6309 - HEALTHPARTNERS INSURANCE COMPANY,https://api-developerportal.healthpartners.com/interop/external/fhir,7/10/26 15:11
+2027,"H6316 - MISSOURI CARE, INCORPORATED",https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:21
+2027,"H6322 - MCLAREN HEALTH PLAN, INC.",https://api.mclarenfhir.com/r4/public-ma/Practitioner,7/8/26 13:30
+2027,"H6341 - AMERIHEALTH MICHIGAN, INC.",https://api-ext.amerihealthcaritas.com/MIDS/provider-api/swagger-ui/,7/7/26 16:32
+2027,"H6345 - PRUITTHEALTH PREMIER NORTH CAROLINA, LLC",https://fhir.curanahealth.com/,7/8/26 00:27
+2027,H6348 - COORDINATED CARE CORPORATION,https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:34
+2027,"H6351 - LIBERTY ADVANTAGE, LLC",https://api.insurelytix.com/fhir/r4/tenants/liberty-medicare-advantage.insurelytix.com,8/27/26 08:59
+2027,"H6368 - ELITE HEALTH PLAN, INC.",https://www.elitehealthplan.com/jsonproviderlist,7/10/26 11:43
+2027,"H6378 - AMERIHEALTH CARITAS FLORIDA, INC.",https://api-ext.amerihealthcaritas.com/FLDS/provider-api/swagger-ui/,7/7/26 16:32
+2027,"H6396 - CARESOURCE OHIO, INC.",https://orchestrateserver.caresource.careevolution.com/api/fhir/provider-directory/metadata,7/10/26 18:34
+2027,H6399 - AETNA BETTER HEALTH INC. (NJ),https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:25
+2027,"H6407 - AMERIHEALTH HMO, INC",https://eapics.amerihealth.com/provider/v1/fhir,6/30/26 13:23
+2027,"H6453 - HMO LOUISIANA, INC.",https://gateway.api.lablue.com/ProviderDirectory/,7/13/26 14:02
+2027,"H6474 - CHAMPION HEALTH PLAN OF NEVADA, INC.",,
+2027,"H6515 - MOLINA HEALTHCARE OF TEXAS, INC.",https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f,7/9/26 18:50
+2027,"H6529 - SOUTHEASTERN INDIANA HEALTH ORGANIZATION, INC.",https://fa-itae-provportal-prd-eus2-egg3gpcxawceeggf.eastus2-01.azurewebsites.net/api/prov-search,7/28/26 12:14
+2027,"H6545 - Devoted Health Insurance Company of Illinois, Inc.",https://fhir.devoted.com/fhir,6/25/26 13:26
+2027,"H6550 - SUNFLOWER STATE HEALTH PLAN, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:34
+2027,H6566 - LAGNIAPPE ADVANTAGE INSURANCE COMPANY,https://fhir.curanahealth.com/,7/8/26 00:27
+2027,"H6585 - MOLINA HEALTHCARE OF NEBRASKA, INC.",https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f,7/9/26 18:50
+2027,"H6586 - DEVOTED HEALTH INSURANCE COMPANY OF ARIZONA, INC.",https://fhir.devoted.com/fhir,6/25/26 13:26
+2027,"H6595 - UNITEDHEALTHCARE OF WISCONSIN, INC.",https://flex.optum.com/fhirpublic,7/9/26 09:13
+2027,H6622 - HUMANA WI HEALTH ORGANIZATION INSURANCE CORP,,
+2027,"H6652 - AMERICAN HEALTH PLAN OF FL, INC.",https://api-ahp-prd.safhir.io/v1/api/provider-directory/metadata,7/10/26 10:37
+2027,H6697 - ALIGNMENT HEALTH ADVANTAGE PLAN INC.,https://adasgateway.ahcusa.com/providerfhir/Practitioner1,6/30/26 16:07
+2027,"H6706 - UnitedHealthcare Benefits of Texas, Inc.",https://flex.optum.com/fhirpublic,7/9/26 09:13
+2027,H6723 - MEDICAL MUTUAL OF OHIO,https://fhirprovider.medmutual.com/provider/R4,7/2/26 14:28
+2027,H6743 - ATRIO HEALTH PLANS,https://client-api.providerlenz.com/api/publicAPI/LoadFHIRDirectoryProviders/ATRIO,7/10/26 17:55
+2027,H6765 - AMERICAN HEALTH PLAN OF IOWA INC,https://api-ahp-prd.safhir.io/v1/api/provider-directory/metadata,7/10/26 10:37
+2027,"H6776 - ELDERSERVE HEALTH, INC.",https://fhir.elderservehealth.org/fhir/metadata,7/9/26 14:14
+2027,H6813 - DEVOTED HEALTH INSURANCE COMPANY OF TEXAS,https://fhir.devoted.com/fhir,6/25/26 13:26
+2027,"H6815 - HEALTH NET HEALTH PLAN OF OREGON, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:34
+2027,H6824 - UNITEDHEALTHCARE INSURANCE COMPANY,https://flex.optum.com/fhirpublic,7/9/26 09:13
+2027,"H6832 - ALIGN SENIOR CARE MI, LLC",https://fhir.curanahealth.com/,7/8/26 00:27
+2027,"H6847 - Mass General Brigham Health Plan, Inc.",https://api.allwayshealthfhir.com/r4/public_mgbhp/Practitioner,7/10/26 23:05
+2027,H6852 - DEVOTED HEALTH PLAN OF PENNSYLVANIA INC,https://fhir.devoted.com/fhir,6/25/26 13:26
+2027,"H6876 - ZING HEALTH OF MICHIGAN, INC.",https://api.zinghealthfhir.com/r4/public/,7/9/26 09:46
+2027,"H6959 - ISNP VENTURES, LLC",https://fhir.curanahealth.com/,7/8/26 00:27
+2027,"H6971 - MERIDIAN HEALTH PLAN OF ILLINOIS, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:35
+2027,"H6988 - Anthem HP, LLC",https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:21
+2027,H6994 - DEVOTED HEALTH PLAN OF VIRGINIA INC,https://fhir.devoted.com/fhir,6/25/26 13:26
+2027,H7006 - ATRIO HEALTH PLANS,https://client-api.providerlenz.com/api/publicAPI/LoadFHIRDirectoryProviders/ATRIO,7/10/26 17:56
+2027,"H7020 - HEALTHSPRING LIFE & HEALTH INSURANCE COMPANY, INC.",https://data.healthspring.healthlx.com:8003,7/10/26 18:22
+2027,H7028 - DEVOTED HEALTH INSURANCE COMPANY OF SOUTH CAROLINA INC,https://fhir.devoted.com/fhir,6/25/26 13:26
+2027,"H7063 - BLUECROSS BLUESHIELD KANSAS SOLUTIONS, INC.",https://api.secure.bcbsks.com/bcbsks/fhir-prov-dire/api/v4,7/29/26 17:31
+2027,"H7074 - ALIGNMENT HEALTH PLAN OF NORTH CAROLINA, INC.",https://adasgateway.ahcusa.com/providerfhir/Practitioner,6/30/26 16:07
+2027,H7093 - COMMUNITY INSURANCE COMPANY,https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:21
+2027,"H7123 - UPMC HEALTH COVERAGE, INC.",https://apis.upmchp.com/FHIR/R4/Group/Providerdirectory/$export,7/24/26 13:29
+2027,H7147 - DEVOTED HEALTH PLAN OF COLORADO INC,https://fhir.devoted.com/fhir,6/25/26 13:27
+2027,H7149 - AETNA HEALTH INC. (PA),https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:26
+2027,"H7151 - DEVOTED HEALTH PLAN OF ILLINOIS, INC.",https://fhir.devoted.com/fhir,6/25/26 13:27
+2027,H7191 - DEVOTED HEALTH INSURANCE COMPANY OF NEW HAMPSHIRE,https://fhir.devoted.com/fhir,6/25/26 13:27
+2027,H7199 - DEVOTED HEALTH  PLAN OF OREGON,https://fhir.devoted.com/fhir,6/25/26 13:27
+2027,"H7220 - HealthKeepers, Inc.",https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:22
+2027,H7239 - PROMINENCE HEALTHFIRST OF FLORIDA INC,,
+2027,"H7284 - HUMANA HEALTH INSURANCE COMPANY OF FLORIDA, INC.",,
+2027,"H7301 - COVENTRY HEALTH CARE OF ILLINOIS, INC.",https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:26
+2027,"H7318 - MOLINA HEALTHCARE OF NEW MEXICO, INC.",https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f,7/9/26 18:50
+2027,"H7326 - WELLCARE OF SOUTH CAROLINA, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:35
+2027,H7355 - DEVOTED HEALTH INSURANCE COMPANY OF MISSISSIPPI,https://fhir.devoted.com/fhir,6/25/26 13:27
+2027,"H7379 - CAREFIRST ADVANTAGE PPO, INC.",https://mapd-apix.carefirst.com/extfhirproviderdir/v1,7/10/26 11:45
+2027,H7397 - DEVOTED HEALTH INSURANCE COMPANY OF ARKANSAS INC,https://fhir.devoted.com/fhir,6/25/26 13:27
+2027,"H7435 - MERIDIAN HEALTH PLAN OF MICHIGAN, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:35
+2027,"H7440 - HEALTHY ARKANSAS, INC.",https://fhir.healthy-ar.com/plan-net/H7440/,7/9/26 16:27
+2027,"H7464 - UNITEDHEALTHCARE OF THE MID-ATLANTIC, INC.",https://flex.optum.com/fhirpublic,7/9/26 09:13
+2027,H7471 - DEVOTED HEALTH INSURANCE COMPANY OF INDIANA,https://fhir.devoted.com/fhir,6/25/26 13:27
+2027,"H7511 - GOOD SAMARITAN INSURANCE PLAN OF NEBRASKA, INC.",https://fhir.greatplainsmedicareadvantage.com/hspd/r4/,7/7/26 10:41
+2027,"H7518 - WELLCARE OF MISSOURI HEALTH INSURANCE COMPANY, INC",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:35
+2027,H7524 - EXCELLUS HEALTH PLAN COMMUNITY CARE LLC,https://fhir.excellusbcbs.com/fhir/api/,7/10/26 12:01
+2027,"H7557 - LONGEVITY HEALTH PLAN OF MICHIGAN, INC.",https://mi26fhir.longevityhealthplan.com,6/30/26 15:37
+2027,H7598 - GROUP HEALTH COOPERATIVE OF EAU CLAIRE,https://fhir.group-health.com/api/plannet,7/6/26 08:07
+2027,H7605 - DEVOTED HEALTH PLAN OF TENNESSEE INC,https://fhir.devoted.com/fhir,6/25/26 13:27
+2027,"H7607 - CLEVER CARE OF GOLDEN STATE, INC.",,
+2027,H7617 - EMPHESYS INSURANCE COMPANY,,
+2027,H7620 - SANTA BARBARA SAN LUIS OBISPO REGIONAL HEALTH AUTHORITY DBA CENCAL HEALTH,,
+2027,H7635 - NEIGHBORHOOD HEALTH PLAN OF RHODE ISLAND,https://api-nhp-prd.safhir.io/v1/api/providerdirectory/cms-hpms-manifest/[ppp-cccc-nnn],7/9/26 16:05
+2027,"H7678 - MOLINA HEALTHCARE OF TEXAS, INC.",https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f,7/9/26 18:51
+2027,H7680 - PROMINENCE HEALTHFIRST OF TEXAS,,
+2027,"H7710 - HIGHMARK BCBSD, INC.",https://apicmsqa.hmhs.com/cms/fhir/v4/providers/BCBSDE/Practitioner,8/30/26 10:00
+2027,H7766 - DEVOTED HEALTH INSURANCE COMPANY OF LOUISIANA,https://fhir.devoted.com/fhir,6/25/26 13:27
+2027,"H7779 - AMERICAN HEALTH PLAN, INC.",https://api-ahp-prd.safhir.io/v1/api/provider-directory/metadata,7/10/26 10:38
+2027,"H7849 - HEALTHSPRING LIFE & HEALTH INSURANCE COMPANY, INC.",https://data.healthspring.healthlx.com:8003,7/10/26 18:23
+2027,"H7917 - BLUECROSS BLUESHIELD OF TENNESSEE, INC.",https://api.bcbst.com/r4/providerdirectory/BCBST/metadata,7/10/26 16:21
+2027,"H7993 - DEVOTED HEALTH PLAN OF TEXAS, INC.",https://fhir.devoted.com/fhir,6/25/26 13:27
+2027,H8003 - BLUECROSS AND BLUESHIELD OF SOUTH CAROLINA,https://d3p6r9asbehd5f.cloudfront.net/index.json,8/25/26 16:56
+2027,H8010 - CLOVER HMO OF NEW JERSEY INC.,https://public-api.cloverhealth.com/swagger,7/9/26 14:24
+2027,H8051 - SAN FRANCISCO HEALTH AUTHORITY DBA SAN FRANCISCO HEALTH PLAN,https://us120.fhir.edifecsfedcloud.com/sfhp_pdfhir,6/29/26 16:12
+2027,"H8093 - GEORGIA ASSURANCE, INC.",https://api-ahp-prd.safhir.io/v1/api/provider-directory/metadata,7/10/26 10:38
+2027,H8142 - SCOTT AND WHITE HEALTH PLAN,https://wadcdnstorageprod.blob.core.windows.net/bswhp/JSON/BSWHP_CMS_MPF_H8142_2026_Index_FHIR.json,7/10/26 17:13
+2027,H8145 - HUMANA INSURANCE COMPANY,,
+2027,H8166 - HIGHMARK BCBSD INC.,https://apicmsqa.hmhs.com/cms/fhir/v4/providers/HMDE/Practitioner,8/30/26 10:01
+2027,"H8173 - DEVOTED HEALTH PLAN OF ARIZONA, INC.",https://fhir.devoted.com/fhir,6/25/26 13:27
+2027,"H8176 - MOLINA HEALTHCARE OF SOUTH CAROLINA,INC",https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f,7/9/26 18:51
+2027,"H8181 - SAPPHIRE EDGE, INC.",https://api.bcbsnefhir.com/r4/public/,7/8/26 14:30
+2027,H8189 - MANAGED HEALTH SERVICES INSURANCE CORP.,https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:35
+2027,H8211 - CARE IMPROVEMENT PLUS SOUTH CENTRAL INSURANCE CO.,https://flex.optum.com/fhirpublic,7/9/26 09:13
+2027,"H8212 - AMERIHEALTH CARITAS NORTH CAROLINA, INC.",https://api-ext.amerihealthcaritas.com/NCDS/provider-api/swagger-ui/,7/7/26 16:34
+2027,"H8267 - RANGE HEALTH, INC.",https://apif.infosyshelix.com/tenant/rangehealth/fhir/v1/providerdirectory,7/2/26 16:06
+2027,"H8298 - HORIZON HEALTHCARE OF NEW JERSEY, INC.",https://api.interop.horizonblue.com/datahub,7/17/26 12:32
+2027,"H8320 - Devoted of Illinois, Inc.",https://fhir.devoted.com/fhir,6/25/26 13:27
+2027,H8330 - TUFTS ASSOCIATED HEALTH MAINTENANCE ORGANIZATION,https://api-thp-prd.safhir.io/v1/api/provider-directory/cms-hpms-manifest/thp-h8330-nnn,7/6/26 15:50
+2027,H8332 - AETNA HEALTH INC. (TX),https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:26
+2027,"H8379 - PRIORITY HEALTH CHOICE, INC.",https://eppoa.spectrumhealth.org/FHIRProxy/api/FHIR/BulkPublish/Public/H8379_2027/MPF,8/24/26 09:06
+2027,H8385 - SANFORD HEALTH PLAN,https://fhir.align.sanfordhealthplan.com/hspd/r4/,7/7/26 10:42
+2027,"H8432 - ANTHEM HP, LLC.",https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:22
+2027,"H8457 - LONGEVITY HEALTH PLAN OF NEW YORK, INC.",https://ny26fhir.longevityhealthplan.com,6/30/26 15:38
+2027,H8481 - HAWAII MEDICAL SERVICE ASSOCIATION (HMSA),https://io-api.hmsa-services.com:9443/fhir/r4/providerdirectory,7/8/26 15:35
+2027,H8492 - DIGNITY CARE CORPORATION,https://api-ahp-prd.safhir.io/v1/api/provider-directory/metadata,7/10/26 10:38
+2027,"H8578 - HEALTH NEW ENGLAND, INC.",https://us120.fhir.m2.edifecsfedcloud.com/hne_pd,7/10/26 13:07
+2027,H8597 - AETNA BETTER HEALTH OF TEXAS INC.,https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:26
+2027,H8604 - THP INSURANCE COMPANY,https://api.thehealthplanfhir.com/r4/public/Practitioner,7/8/26 16:14
+2027,H8649 - AETNA HEALTH OF UTAH INC.,https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:26
+2027,H8764 - ASPIRE HEALTH PLAN,https://fhir.phtech.com/ahp/provider/v1/fhir/swagger-ui/,7/6/26 18:41
+2027,H8768 - CARE IMPROVEMENT PLUS SOUTH CENTRAL INSURANCE CO.,https://flex.optum.com/fhirpublic,7/9/26 09:13
+2027,"H8794 - KAISER FOUNDATION HP, INC.",https://kpx-service-bus.kp.org/service/hp/mhpo/healthplanproviderv1rc,7/9/26 19:52
+2027,"H8797 - PERENNIAL ADVANTAGE OF OHIO, INC.",https://fhir.curanahealth.com/,7/8/26 00:27
+2027,H8832 - ALIGNMENT HEALTH ADVANTAGE PLAN INC,https://adasgateway.ahcusa.com/providerfhir/Practitioner,6/30/26 16:08
+2027,"H8845 - MOLINA HEALTHCARE OF ARIZONA, INC.",https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f,7/9/26 18:51
+2027,H8849 - WELLPOINT INSURANCE COMPANY,https://totalview.healthos.Wellpoint.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:22
+2027,"H8854 - CAREFIRST ADVANTAGE DSNP, INC.",https://dsnp-apix.carefirst.com/extfhirproviderdir/v1,7/10/26 11:45
+2027,"H8879 - Healthy Mississippi, Inc.",https://fhir.healthy-ms.com/plan-net/H8879/,7/9/26 16:27
+2027,H8889 - MEDICA HEALTH PLANS,https://medica.healthsparq.com/api/provider-fhir-service/v1/fhir/,7/6/26 10:04
+2027,H8894 - Inland Empire Health Plan,https://fhir.iehp.org/provider-directory/metadata?_format=json,7/9/26 16:44
+2027,"H8902 - SCAN HEALTH PLAN TEXAS, INC.",https://providerdirectory.scanhealthplan.com,7/7/26 15:24
+2027,"H8908 - HUMANA MEDICAL PLAN OF MICHIGAN, INC.",,
+2027,H8917 - DEVOTED HEALTH INSURANCE COMPANY OF WASHINGTON,https://fhir.devoted.com/fhir,6/25/26 13:27
+2027,H8928 - FALLON COMMUNITY HEALTH PLAN,https://api.fallonhealthfhir.com/r4/public/,7/8/26 16:52
+2027,H8947 - PEAK HEALTH INSURANCE CORPORATION,https://medicare.peakhealth.org/fhir/provider-directory,8/18/26 13:43
+2027,H9001 - FALLON COMMUNITY HEALTH PLAN,https://api.fallonhealthfhir.com/r4/public/,7/8/26 16:52
+2027,H9003 - KAISER FOUNDATION HP OF THE N W,https://kpx-service-bus.kp.org/service/hp/mhpo/healthplanproviderv1rc,7/9/26 19:52
+2027,"H9042 - SOUTHEASTERN INDIANA HEALTH ORGANIZATION, INC.",https://fa-itae-provportal-prd-eus2-egg3gpcxawceeggf.eastus2-01.azurewebsites.net/api/prov-search,7/7/26 16:05
+2027,"H9065 - AMH HEALTH, LLC",https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:23
+2027,H9066 - VISITING NURSE ASSOCIATION OF CENTRAL NEW YORK,https://data.healthlx.com:8004/NASCENTIA,7/9/26 12:44
+2027,"H9096 - DEAN HEALTH PLAN, INC.",https://medica.healthsparq.com/api/provider-fhir-service/v1/fhir/,7/6/26 10:04
+2027,H9147 - BLUE CROSS AND BLUE SHIELD OF NORTH CAROLINA,https://bcbsnc.sapphirecareselect.com/fhir,7/8/26 08:30
+2027,"H9153 - WEST VIRGINIA SENIOR ADVANTAGE, INC.",https://wvsa.fp-h9153.prd.healixcloud.net/pd/fhir/Practitioner?_count=10,7/10/26 09:55
+2027,H9179 - TRINITY HEALTH PLAN OF MICHIGAN INC,https://api-medigold-prd.safhir.io/v1/api/provider-directory,7/10/26 07:58
+2027,"H9191 - PROVIDER PARTNERS HEALTH PLAN OF MISSOURI, INC.",https://www.pphealthplan.com/directory-search/FHIR/H9191/2027,7/10/26 15:38
+2027,"H9207 - HEALTH PARTNERS PLANS, INC.",https://providerfhirapi.healthpartnersplans.com,7/7/26 11:41
+2027,H9231 - DEVOTED HEALTH INSURANCE COMPANY OF TENNESSEE INC,https://fhir.devoted.com/fhir,6/25/26 13:27
+2027,"H9306 - ALTERWOOD ADVANTAGE, INC.",https://api-atwd-prd.safhir.io/v1/api/provider-directory,7/2/26 13:28
+2027,H9314 - AETNA BETTER HEALTH OF MICHIGAN INC.,https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:26
+2027,H9326 - WYOBLUE ADVANTAGE INC,https://api-BCWY-prd.safhir.io/v1/api/providerdirectory/cms-hpms-manifest/ppp-cccc-nnn,7/9/26 13:48
+2027,"H9364 - WELLCARE OF MAINE, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:35
+2027,H9431 - FIRST HEALTH LIFE & HEALTH INSURANCE COMPANY,https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:26
+2027,H9525 - COMPCARE HEALTH SERVICES INSURANCE CORPORATION,https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:23
+2027,H9572 - BCBS OF MICHIGAN MUTUAL INSURANCE COMPANY,https://cms-uat.healthsparq.com/mpf/v1/H9572/2027/H9572-2027-index.json,8/3/26 11:10
+2027,"H9590 - LONGEVITY HEALTH PLAN OF ILLINOIS, INC.",https://il26fhir.longevityhealthplan.com,6/30/26 15:38
+2027,"H9615 - MVP HEALTH PLAN, INC.",https://api.mvphealthcare.com/provdirfhirapi/metadata,8/28/26 09:36
+2027,H9623 - Ventura County Medi-Cal Managed Care Commission,https://us120.fhir.edifecsfedcloud.com/gchp_cmsreport/H9623/index.json,8/28/26 19:23
+2027,"H9630 - ARKANSAS HEALTH & WELLNESS HEALTH PLAN, INC.",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:35
+2027,"H9678 - HEALTHFIRST INSURANCE COMPANY, INC.",https://hf-fhir-provider-directory-sys-api-prod.us-e1.cloudhub.io,7/10/26 13:28
+2027,"H9686 - ALIGNMENT HEALTH PLAN OF NEVADA, INC.",https://adasgateway.ahcusa.com/providerfhir/Practitioner,6/30/26 16:08
+2027,H9690 - AMERICAN HEALTH PLAN OF INDIANA INC,https://api-ahp-prd.safhir.io/v1/api/provider-directory/metadata,7/10/26 10:38
+2027,"H9699 - USABLE HMO, INC.",https://arkbluecross.healthsparq.com/api/provider-fhir-service,9/4/26 10:32
+2027,H9700 - DEVOTED HEALTH PLAN OF NORTH CAROLINA INC,https://fhir.devoted.com/fhir,6/25/26 13:28
+2027,"H9725 - BRAVO HEALTH PENNSYLVANIA, INC.",https://data.healthspring.healthlx.com:8003,7/10/26 18:23
+2027,"H9730 - WELLCARE HEALTH INSURANCE COMPANY OF KENTUCKY, INC",https://iopc-pd.api.centene.com/iopc/pd/fhir/providerdirectory,7/10/26 15:35
+2027,H9771 - AETNA BETTER HEALTH PREMIER PLAN MMAI INC.,https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:26
+2027,H9802 - DEVOTED HEALTH INSURANCE COMPANY OF NEBRASKA,https://fhir.devoted.com/fhir,6/25/26 13:28
+2027,H9808 - CARE N' CARE INSURANCE COMPANY OF NORTH CAROLINA,https://api.healthteamadvantagefhir.com/r4/public/Practitioner/,7/8/26 14:36
+2027,"H9826 - COMMUNITY HEALTH CHOICE TEXAS, INC.",,
+2027,"H9827 - MOUNT CARMEL HEALTH PLAN OF NEW YORK, INC.",https://api-medigold-prd.safhir.io/v1/api/provider-directory,7/10/26 07:59
+2027,H9834 - QUARTZ HEALTH PLAN MN CORPORATION,https://quartzfhir.healthsparq.com/api/provider-fhir-service/v1/fhir/,6/30/26 16:41
+2027,H9862 - DEVOTED HEALTH INSURANCE COMPANY OF CONNECTICUT,https://fhir.devoted.com/fhir,6/25/26 13:28
+2027,H9884 - DEVOTED HEALTH INSURANCE COMPANY,https://fhir.devoted.com/fhir,6/25/26 13:28
+2027,H9888 - DEVOTED HEALTH INSURANCE COMPANY OF ALABAMA INC,https://fhir.devoted.com/fhir,6/25/26 13:28
+2027,H9907 - TUFTS ASSOCIATED HEALTH MAINTENANCE ORGANIZATION,https://api-thp-prd.safhir.io/v1/api/provider-directory/cms-hpms-manifest/thp-h9907-nnn,7/6/26 15:50
+2027,"H9909 - AMERICAN HEALTH PLAN OF MS, INC.",https://api-ahp-prd.safhir.io/v1/api/provider-directory/metadata,7/10/26 10:38
+2027,"H9917 - ALIGN SENIOR CARE FLORIDA, INC.",https://fhir.curanahealth.com/,7/8/26 00:27
+2027,H9942 - LONGEVITY HEALTH PLAN OF NEW JERSEY INSURANCE COMP,https://nj26fhir.longevityhealthplan.com,6/30/26 15:38
+2027,"H9955 - MOLINA HEALTHCARE OF OHIO, INC.",https://developer.interop.molinahealthcare.com/api-details#api=trizetto-provider-directory&operation=607f68d1bc005120b15c2c6f,7/9/26 18:51
+2027,H9968 - AMERICAN HEALTH PLAN OF PENNSYLVANIA INC,https://api-ahp-prd.safhir.io/v1/api/provider-directory/metadata,7/10/26 10:39
+2027,"H9977 - DEVOTED HEALTH PLAN OF NEW MEXICO, INC.",https://fhir.devoted.com/fhir,6/25/26 13:28
+2027,"H9986 - HPMP OF FLORIDA, INC.",https://api.ilshealthfhir.com/r4/publicFC2/,7/8/26 08:54
+2027,R0110 - HUMANA INSURANCE COMPANY,,
+2027,R0759 - CARE IMPROVEMENT PLUS SOUTH CENTRAL INSURANCE CO.,https://flex.optum.com/fhirpublic,7/9/26 09:13
+2027,R1532 - HUMANA INSURANCE COMPANY,,
+2027,R2604 - CARE IMPROVEMENT PLUS SOUTH CENTRAL INSURANCE CO.,https://flex.optum.com/fhirpublic,7/9/26 09:13
+2027,R4182 - HUMANA INSURANCE COMPANY,,
+2027,R5361 - HUMANA INSURANCE COMPANY,,
+2027,R5826 - HUMANA INSURANCE COMPANY,,
+2027,"R5941 - ANTHEM INSURANCE COMPANIES, INC.",https://totalview.healthos.anthem.com/resources/unregistered/api/v1/fhir/cms_mandate/mcd/,7/8/26 17:23
+2027,R6694 - AETNA LIFE INSURANCE COMPANY,https://apif1.aetna.com/fhir/v1/providerdirectorydata/healthcareservice  https://apif1.aetna.com/fhir/v1/providerdirectorydata/insuranceplan  https://apif1.aetna.com/fhir/v1/providerdirectorydata/location  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organization  https://apif1.aetna.com/fhir/v1/providerdirectorydata/organizationaffiliation   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitioner   https://apif1.aetna.com/fhir/v1/providerdirectorydata/practitionerrole,7/1/26 14:26
+2027,R6801 - CARE IMPROVEMENT PLUS SOUTH CENTRAL INSURANCE CO.,https://flex.optum.com/fhirpublic,7/9/26 09:13
+2027,R7220 - HUMANA INSURANCE COMPANY,,
