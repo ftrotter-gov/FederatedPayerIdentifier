@@ -1,0 +1,45 @@
+# Install into ftrotter-gov/FederatedPayerIdentifier as: .github/workflows/notify-copier.yml
+#
+# On push to main touching payer_index_files/, tell the safe-github-data-copier
+# Lambda to re-sync just this repo's sources into the Palantir transfer bucket.
+# Keyless auth via GitHub OIDC -> a locked-down AWS role. No secrets stored.
+name: Notify safe-github-data-copier
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'payer_index_files/**'
+      - '.github/workflows/notify-copier.yml'
+  workflow_dispatch: {}
+
+permissions:
+  id-token: write
+  contents: read
+
+concurrency:
+  group: notify-copier
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::596240962403:role/safe-github-data-copier-gha-invoke-role
+          aws-region: us-east-1
+      - name: Invoke copier (scoped to FPI sources)
+        run: |
+          set -euo pipefail
+          meta=$(aws lambda invoke \
+            --function-name safe-github-data-copier \
+            --cli-binary-format raw-in-base64-out \
+            --payload '{"only":["fpi-payer-index"]}' \
+            --cli-read-timeout 900 \
+            response.json)
+          echo "invoke metadata: $meta"
+          echo "---- copier response ----"; cat response.json; echo
+          echo "$meta" | grep -q '"FunctionError"' && { echo "::error::copier returned a FunctionError"; exit 1; }
+          python3 -c "import json,sys; d=json.load(open('response.json')); sys.exit(1 if isinstance(d,dict) and (d.get('errorMessage') or d.get('errors')) else 0)" \
+            || { echo "::error::copier response contained errors"; exit 1; }
