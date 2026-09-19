@@ -68,5 +68,10 @@
     "type": "cms_provider_directory_machine_readable_format_endpoint",
     "ig_url": "https://github.com/ftrotter-gov/FederatedPayerIdentifier",
     "documentation": "A URL pointing to a provider directory published in the machine-readable JSON file format that was first used to report payer data to healthcare.gov, and later adopted for use in Medicare Advantage. This is not a FHIR format and has no HL7 implementation guide, so the ig_url refers to this repository instead."
-  }
+  },
+  {
+    "type": "uv_smart_scheduling_links_endpoint",
+    "ig_url": "https://hl7.org/fhir/uv/smart-scheduling-links/",
+    "documentation": "SMART Scheduling Links is a standards-based specification enabling patients to: find appointment slots using an appointment booking tool of their choice, searching by geography, specialty, health system, etc. Then links deeper to allow the appointment to be made."
+  } 
 ]
