@@ -59,6 +59,20 @@ collapsing legally or financially distinct payers into one FPI. It should also
 address how liability moves through insurance and reinsurance arrangements and
 how consumers determine which entity is responsible for a beneficiary set.
 
+## Payers with no enumerated identifier
+
+An FPI must be derived from a legacy identifier the payer already holds in one
+of the enumerated payer identifier systems; a payer may not mint a UUID of its
+own. See
+[Deprecating Newly Generated Identifiers](AI_Instructions/DeprecatingNewIdentifiers.md).
+
+The current answer for a payer that holds no enumerated identifier is to submit
+a pull request adding its identifier system to
+`reference_data/current_payer_identification_systems.json`. Future work should
+decide whether that is sufficient in practice, or whether some assignment
+mechanism is needed for payers that genuinely hold no suitable legacy
+identifier in any recognized system.
+
 ## Domain authority and outsourced FHIR services
 
 The well-known index is intended to bridge a payer-controlled publication
@@ -79,6 +93,25 @@ writes, and clear change summaries. The project also needs an explicit policy
 for which generated facts can be refreshed without erasing aliases, lookup
 URLs, endpoint annotations, or other curated content.
 
+## Sandbox endpoint scope
+
+`plan_endpoints_sandbox` is currently defined only at the `plan_group` level,
+mirroring where `plan_endpoints` lives. Two related scopes remain unresolved:
+
+* a payer-wide sandbox, which would belong alongside the FPI identifier entry
+  rather than being repeated in every `plan_group`; and
+* a plan-specific sandbox, for a payer whose test environment differs per plan.
+
+Most payers appear to operate a single sandbox tier for all of their plans, so
+repeating the same block in each `plan_group` may prove redundant in practice.
+Future work should decide whether a payer-level declaration is worth adding and,
+if so, how a `plan_group` entry overrides or supplements it.
+
+The semantic validator will also need rules for this object: whether a sandbox
+url must be reachable, whether it must differ from its production counterpart,
+and whether a sandbox key with no production counterpart is a warning or an
+accepted state.
+
 ## Plan years and publication history
 
 Current Medicare Advantage seed data is source-year-specific, while the index
@@ -91,7 +124,8 @@ changes are represented, and when Git history is insufficient for consumers.
 The repository-wide review that produced this document identified several
 themes for ongoing cleanup:
 
-* keep payer self-issuance separate from CMS enforcement and NPD republication;
+* keep payer-selected legacy enumeration separate from CMS enforcement and NPD
+  republication;
 * do not describe registration as generating a canonical replacement FPI;
 * keep temporary legal-name seeding separate from the permanent identity model;
 * distinguish payer, plan, routing, and source identifiers;

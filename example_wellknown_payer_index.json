@@ -157,6 +157,19 @@
 
         "plan_homepage#432": "https://example.com/plan_432",
         "plan_homepage#433": "https://example.com/plan_433"
+      },
+
+      "plan_endpoints_sandbox": {
+        "davinci_crd_hook_endpoint#1.1": "https://sandbox.example.org/foo/bar/crd",
+        "davinci_pas_submission_endpoint#1.2": "https://sandbox.example.org/foo/bar/pas2",
+
+        "davinci_pdex_provider_directory_endpoint#1.1": "https://sandbox.example.org/foo/bar/provider-directory",
+
+        "davinci_pdex_payer_endpoint#1.1": "https://sandbox.example.org/foo/bar/payer-to-payer",
+
+        "carin_bluebutton_endpoint#1.0": "https://sandbox.example.org/fhir/v3/patientaccess/",
+
+        "ndh_meta_fhir_signup_url": "https://sandbox.example.org/fhir_signup/"
       }
     },
 

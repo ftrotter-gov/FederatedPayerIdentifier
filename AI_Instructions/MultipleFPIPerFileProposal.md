@@ -121,6 +121,8 @@ This ensures that each legal payer entity has its own identity, contact, matchin
 
 The existing `fpi_source_system` and `fpi_source_value` semantics do not change. They continue to describe the source identifier used to generate the FPI UUID.
 
+> **Update:** these two fields are now **required** on every entry with `is_fpi: true`. The option for a payer to mint its own UUID has been removed, so every FPI has a source identifier. See [Deprecating Newly Generated Identifiers](DeprecatingNewIdentifiers.md).
+
 ## 4. Associate Every Plan With an FPI
 
 Every entry in `plan_identifiers` SHALL include a `parent_fpi` property.
@@ -474,8 +476,8 @@ Remove `payerLegalName`, `payerContactWebsite`, and `payer_level_string_search_m
   - `payerLegalName`
   - `payerContactWebsite`
   - `payer_level_string_search_matches`
-  - `fpi_source_system` (optional, for UUIDv5-derived FPIs)
-  - `fpi_source_value` (optional, for UUIDv5-derived FPIs)
+  - `fpi_source_system` (required)
+  - `fpi_source_value` (required)
 - Entries with `"is_fpi": false` are crosswalk identifiers. These MUST carry `parent_fpi` (the UUID of the owning FPI, which must appear in the same file).
 - There MAY be multiple entries with `"is_fpi": true`.
 

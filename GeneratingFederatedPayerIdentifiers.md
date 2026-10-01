@@ -1,8 +1,9 @@
-# Federated Payer Identifiers - Building Universal Payer Identifiers Using UUIDs
+# Federated Payer Identifiers — Payer-Selected Legacy Enumeration
 
-Every payer self-issues a single
-**[UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier)** as its
-FPI. Once registered, CMS enforces the payer's selection.
+Every payer selects a single legacy identifier that it already holds and
+derives its
+**[UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier)** FPI
+from that identifier. Once registered, CMS enforces the payer's selection.
 
 The FPI identifies the legal payer entity that holds the relevant insurance
 assets and liability for a beneficiary population. Ownership alone does not
@@ -11,17 +12,31 @@ important when payers own payers through multiple levels or insure payer risk
 through insurance and reinsurance arrangements. Those relationships do not
 replace the assets, liability, and beneficiary-population identity boundary.
 
-A payer chooses how to create its FPI; neither this repository nor NPD selects
-the source identifier on the payer's behalf.
+A payer chooses **which legacy identifier** anchors its FPI; neither this
+repository nor NPD selects the source identifier on the payer's behalf. The
+payer does not choose the UUID itself — the UUID is always computed from the
+selected identifier. This is what is meant by **payer-selected legacy
+enumeration**.
 
-There are two supported paths:
+There is exactly one supported method:
 
-1. **Existing identifier → UUIDv5**
-2. **No source identifier → Generated UUID**
+**Existing legacy identifier → UUIDv5**
 
-Registration checks that the chosen UUID is syntactically valid and has not
-already been claimed. Registration does not make FPIs generated from different
-source identifiers converge.
+## Why a payer cannot mint its own UUID
+
+Earlier drafts of this document also allowed a payer to generate a brand-new
+UUID when it did not wish to reuse an identifier it already held. That option
+has been removed. An FPI must be independently reproducible and auditable from
+a declared source identifier: any consumer must be able to recompute the FPI
+and get the same value. A randomly generated UUID has no verifiable linkage to
+the legal payer entity, cannot be recomputed by a third party, and leaves the
+registration process with nothing to verify beyond uniqueness. See
+[Deprecating Newly Generated Identifiers](AI_Instructions/DeprecatingNewIdentifiers.md).
+
+Registration checks that the FPI is syntactically valid, that it recomputes
+from its declared source identifier, and that it has not already been claimed.
+Registration does not make FPIs generated from different source identifiers
+converge.
 
 ---
 
@@ -34,28 +49,26 @@ A["Existing<br/>Payer Identifier"]
 B["Identifier System ID"]
 C["Generate UUIDv5"]
 
-D["No Selected<br/>Source Identifier"]
-E["Generate UUID<br/>(v1, v4, v6, v7, or v8)"]
-
 F["Registration Check"]
-G["Payer-selected FPI"]
+G["Registered FPI"]
 
 A --> B --> C --> F
-D --> E --> F
 F --> G
 ```
 
 ---
 
-## Path A — Existing Identifiers (UUIDv5)
+## Deriving the FPI (UUIDv5)
 
-Use this path when a payer already has an identifier assigned by a recognized authority, that they wish to re-use.
+This is the only supported method. The payer selects a legacy identifier that
+was assigned to it by a recognized authority and derives its FPI from that
+identifier.
 
 ### 1. Select the Identifier System
 
 UUIDv5 generation in this repository is supported for the enumerated payer
-identifier systems. The payer decides whether to use one of these identifiers,
-and which one to use. Different choices intentionally produce different UUIDs.
+identifier systems. The payer decides which one of these identifiers to use.
+Different choices intentionally produce different UUIDs.
 
 Examples include:
 
@@ -78,6 +91,16 @@ Examples include:
 The list of enumerated Payer Identifier Systems is in
 [`reference_data/current_payer_identification_systems.json`](reference_data/current_payer_identification_systems.json).
 To propose another system, submit a pull request that adds it to that file.
+
+### If a payer has no listed identifier
+
+A payer that does not hold an identifier in any currently enumerated system
+must not mint a UUID of its own. It has two options:
+
+1. Use another enumerated system in which it *does* hold an identifier; or
+2. Submit a pull request adding its identifier system to
+   [`reference_data/current_payer_identification_systems.json`](reference_data/current_payer_identification_systems.json),
+   and then derive its FPI from that newly enumerated system.
 
 Note that the FPI itself (`FPI`) is also listed in that file as a payer identifier system, so that FPIs can be recorded and crosswalked alongside every other payer identifier. However, the `FPI` system may **not** be used as an FPI source namespace — you cannot derive an FPI from another FPI, and the FPI Maker CLI excludes it from the selectable namespaces.
 
@@ -156,46 +179,27 @@ UUIDv5 is deterministic:
 
 ---
 
-## Path B — New Identifiers
-
-Use this path when the payer does not want to derive its FPI from an existing
-identifier.
-
-The payer may generate an FPI using any of these UUID versions:
-
-| UUID Version | General Purpose and Considerations |
-|---|---|
-| **UUIDv1** | Generated from a timestamp and the generating machine's MAC address. It can support time ordering and traceability, but it exposes timing and network-address information that may create privacy concerns. |
-| **UUIDv4** | Randomly generated with 122 bits of entropy. It is widely supported, opaque, and appropriate when reproducibility or time ordering is unnecessary. A cryptographically secure UUID implementation should be used. |
-| **UUIDv6** | Reorders UUIDv1 fields so timestamp values sort lexicographically. It can be useful for time-ordered storage but retains UUIDv1-style node and timing considerations. |
-| **UUIDv7** | Combines a Unix-millisecond timestamp with random bits. It is useful when a payer wants a time-sortable identifier without UUIDv1's MAC-address construction. |
-| **UUIDv8** | Uses an application-defined, RFC-compatible bit layout. It is appropriate when a payer deliberately needs a custom UUID format and has documented how that format is generated. |
-
-These versions are all acceptable FPI choices. UUIDv4 is common, but it is not
-the only permitted generated UUID mechanism. The payer is responsible for
-understanding the privacy, ordering, opacity, and custom-format consequences of
-its selection.
-
-Submit the payer-selected UUID for registration.
-
----
-
 ## Registration Check
 
-Every UUID, regardless of how it was generated, follows the same basic
-registration process.
+Every FPI follows the same registration process.
 
 ```text
 Normalize UUID
       ↓
+Recompute from fpi_source_system + fpi_source_value
+      ↓
+Matches?
+   ├── No  → Reject
+   └── Yes ↓
 Check Registry
       ↓
 Already Claimed?
-   ├── No  → Register payer-selected FPI
-   └── Yes → Payer selects another FPI
+   ├── No  → Register FPI
+   └── Yes → Resolve collision with the payer
 ```
 
-The registration process normalizes and validates UUID syntax and rejects an
+The registration process normalizes and validates UUID syntax, verifies that
+the FPI recomputes from its declared source identifier, and rejects an
 already-claimed value. It records and republishes the payer's choice; it does
 not return a replacement canonical UUID or infer that two different FPIs refer
 to the same payer.
@@ -209,7 +213,7 @@ See [Future Steps](FutureSteps.md).
 
 ## Key Principles
 
-- Use **UUIDv5** when a payer already wishes to use an existing identifier.
+- **Always** use **UUIDv5** derived from a payer-selected legacy identifier. There is no other supported mechanism; a payer may not mint its own UUID.
 - UUIDv5 generation uses a **two-step chained process**: first derive a `system_namespace` via `uuid5(NAMESPACE_DNS, "<SYSTEM_ID>.fhir")`, then compute the FPI via `uuid5(system_namespace, "<payer_id_value>")`.
 - Use **`python tools/FPI_maker_cli.py`** to generate FPIs correctly — it handles the two-step chaining automatically, and loads the enumerated identifier systems at runtime from `reference_data/current_payer_identification_systems.json`.
 - UUIDv5 generation with this repository's tooling requires an enumerated **Identifier System ID** and the payer's identifier value.
@@ -218,7 +222,7 @@ See [Future Steps](FutureSteps.md).
 - **Never default to `CMS_CONTRACT_ID` as an FPI source** — contract numbers identify contracts, not payer entities. A payer may elect a contract number as its preeminent identifier, but tooling never assumes it.
 - **State-level identifier values** (e.g. `STATE_DOI_ID`, `STATE_MCO_ID`) must be prefixed with the two-letter USPS state code and a hyphen (e.g. `TX-68775`) before hashing, to prevent collisions between states.
 - The **FPI itself is listed** in the payer identifier systems file so it can be crosswalked like any other identifier, but it may not be used as an FPI source namespace — you cannot derive an FPI from another FPI.
-- Use **UUIDv1, UUIDv4, UUIDv6, UUIDv7, or UUIDv8** when the payer does not want to base its FPI on another identifier.
+- **`fpi_source_system` and `fpi_source_value` are required** on every FPI entry. An FPI that cannot be recomputed from its declared source is invalid.
 - The payer's choice of a source identifier is not a ranking of identifier systems.
 - FPIs based on different source identifiers do not converge automatically.
 - Registration rejects a UUID already claimed as an FPI but does not perform entity resolution.

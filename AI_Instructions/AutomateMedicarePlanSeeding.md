@@ -118,8 +118,11 @@ current `CMS_CONTRACT_ID` system URL from
 `reference_data/current_payer_identification_systems.json`.
 
 This seeding workflow does not select the payer's permanent FPI. The payer may
-later self-issue a random UUID or a UUIDv5 based on any supported identifier it
-chooses. Different source choices are not expected to converge.
+later select a different legacy identifier and re-derive its FPI as a UUIDv5
+from any supported identifier system it chooses. A payer may not mint a random
+UUID of its own — see
+[Deprecating Newly Generated Identifiers](DeprecatingNewIdentifiers.md).
+Different source choices are not expected to converge.
 
 Please store the program in tools/seed_medicare_advantage/seed.py
 Look for the source files in tools/seed_medicare_advantage/source_data

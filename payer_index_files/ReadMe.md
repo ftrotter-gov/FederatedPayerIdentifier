@@ -21,8 +21,9 @@ the current audit and snapshot mechanism.
 Seeded FPIs based on normalized payer names are a temporary data-loading
 compromise. Payer names are not the permanent FPI identity boundary, and
 duplicate seed files are not automatically merged merely because their names
-match. The payer ultimately self-issues the FPI for the legal entity holding
-the relevant assets and liability for its beneficiary population.
+match. The payer ultimately selects the legacy identifier that anchors the FPI
+for the legal entity holding the relevant assets and liability for its
+beneficiary population.
 
 See [the format reference](../WellKnownFileFormat.md) for file semantics and
 [Future Steps](../FutureSteps.md) for deferred validation and lifecycle work.

@@ -1,7 +1,8 @@
 # ![BETA](https://img.shields.io/badge/BETA-red) Federated Payer Identifier (FPI) Prototype
 
 The Federated Payer Identifier prototype is a "rough consensus and working
-code" proposal that enables United States healthcare payers to self-enumerate.
+code" proposal that enables United States healthcare payers to enumerate
+themselves through payer-selected legacy enumeration.
 It provides a consistent payer identity that can be connected to insurance
 plans, public interoperability endpoints, and other payer identifiers.
 
@@ -13,8 +14,9 @@ selects or generates a payer's FPI.
 
 ## Identity and authority model
 
-An FPI is self-issued by a payer. The payer chooses a UUID and, once that FPI
-is registered, CMS enforces its use.
+An FPI is derived from a legacy identifier selected by the payer. The payer
+chooses which identifier anchors its FPI — not the UUID itself — and, once
+that FPI is registered, CMS enforces its use.
 
 The identity boundary is the legal payer entity that holds the relevant
 insurance assets and liability for a set of beneficiaries. A legal payer
@@ -28,10 +30,10 @@ liabilities, and beneficiary obligations—not the ownership chain by itself—
 determine the FPI boundary. Modeling those complex relationships is future
 work.
 
-A payer may choose either:
-
-* a generated UUID using UUIDv1, UUIDv4, UUIDv6, UUIDv7, or UUIDv8; or
-* a deterministic UUIDv5 based on an identifier selected by that payer.
+An FPI is always a deterministic UUIDv5 derived from a legacy identifier that
+the payer selects from the enumerated payer identifier systems. A payer may
+not mint a new UUID of its own; see
+[Deprecating Newly Generated Identifiers](AI_Instructions/DeprecatingNewIdentifiers.md).
 
 No source identifier is universally preferred. FPIs generated from different
 source identifiers are not expected to converge. Deterministic generation is

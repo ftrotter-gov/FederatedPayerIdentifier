@@ -51,6 +51,11 @@ well_known_payer_json = {
   //      in this file for which is_fpi: true.
   //   7. payerLegalName, payerContactWebsite, and payer_level_string_search_matches
   //      MUST appear inside an FPI identifier entry, not at the file root.
+  //   8. Every identifier with is_fpi: true MUST contain "fpi_source_system" and
+  //      "fpi_source_value". A payer may not mint its own UUID; every FPI is
+  //      derived from a payer-selected legacy identifier.
+  //   9. Every FPI "value" MUST be reproducible from its fpi_source_system and
+  //      fpi_source_value via tools/FPI_maker_cli.py.
 
   "identifier": [
     {
@@ -58,12 +63,13 @@ well_known_payer_json = {
             // There may be multiple FPI entries in the same file.
             // The "system" URL below is what marks this identifier as the FPI.
       "system": "https://directory.cms.gov/payer_identification_system/fpi",
-            // The value must be a UUID selected and self-issued by the payer.
-            // The payer may choose a UUID generated from an existing payer
-            // identification system (see GeneratingFederatedPayerIdentifiers.md
-            // and tools/FPI_maker_cli.py, which is the one and only home of FPI
-            // uuid generation logic in this project), or another accepted UUID
-            // version. Registration rejects UUIDs that have already been claimed.
+            // The value MUST be a UUIDv5 derived from a legacy payer identifier
+            // selected by the payer, using an enumerated payer identification
+            // system (see GeneratingFederatedPayerIdentifiers.md and
+            // tools/FPI_maker_cli.py, which is the one and only home of FPI
+            // uuid generation logic in this project). A payer may NOT mint its
+            // own UUID. Registration rejects UUIDs that do not recompute from
+            // their declared source, and UUIDs already claimed.
             // This particular uuid is generated from the (fictional) NAIC company
             // code below:
             //   system_uuid = uuid5(NAMESPACE_DNS, "NAIC_ID.fhir")
@@ -93,19 +99,19 @@ well_known_payer_json = {
       ],
 
             // fpi_source_system records which payer identifier system was used to
-            // generate a UUIDv5 FPI. It is metadata about FPI generation and is
-            // valid only on an FPI entry (is_fpi: true). It must be one of the
+            // derive the UUIDv5 FPI. It is REQUIRED on every FPI entry
+            // (is_fpi: true) and valid only there. It must be one of the
             // "system" urls from reference_data/current_payer_identification_systems.json
             // (but never the fpi system itself — you cannot derive an FPI from
             // another FPI).
             // NOTE: do not default to CMS contract numbers here. Contract numbers
             // identify contracts, not payer legal entities — one payer can hold
             // many contracts, and contracts can move between payers. The payer
-            // chooses whether to use another accepted UUID version or any supported
-            // source identifier.
+            // chooses which supported source identifier anchors its FPI.
       "fpi_source_system": "https://directory.cms.gov/payer_identification_system/naic_id",
             // fpi_source_value records the identifier value (within fpi_source_system)
-            // that was hashed to produce the FPI UUID. Valid only on FPI entries.
+            // that was hashed to produce the FPI UUID. REQUIRED on every FPI
+            // entry, and valid only on FPI entries.
             // For state-level systems (e.g. STATE_DOI_ID) this value must carry the
             // two-letter state prefix, e.g. "TX-68775".
       "fpi_source_value": "12345"
@@ -253,6 +259,12 @@ well_known_payer_json = {
         // which keys permit null, what null means in each context, and what kind
         // of URL each key requires. Key omission currently means that the index
         // makes no assertion for that protocol and version.
+        //
+        // "plan_endpoints" always holds PRODUCTION endpoints. It is the only
+        // object a consumer may use to route real traffic. Non-production
+        // (sandbox) equivalents belong in the separate "plan_endpoints_sandbox"
+        // object below, never in here and never as a key-name variation such as
+        // "..._endpoint#1.1_sandbox". See "Endpoint Environments" below.
         "plan_endpoints": {
 
 
@@ -316,6 +328,68 @@ well_known_payer_json = {
                 // web versions of formularies or directories.
 
 
+        },
+
+        // plan_endpoints_sandbox holds NON-PRODUCTION (sandbox) endpoints for
+        // this same plan_group. It is optional, and uses exactly the same key
+        // grammar as plan_endpoints: any endpoint-family name that is legal
+        // there is legal here, with the same protocol/version and profile
+        // suffixes. That makes sandbox coverage available for every endpoint
+        // family in the format -- prior authorization, patient access,
+        // provider directory, payer-to-payer, formulary, the ndh_meta_* urls,
+        // and non-FHIR families such as tic_table_of_contents -- rather than
+        // only for provider directories.
+        //
+        // Environment is deliberately modelled as a separate object rather than
+        // as another key suffix. Version (#1.1) and profile (_uscore3.1) are
+        // already expressed in the key, so folding environment in as well would
+        // overload one namespace with three orthogonal axes and force consumers
+        // to string-parse keys in order to tell a test system from a live one.
+        //
+        // Rules:
+        //   1. plan_endpoints_sandbox is OPTIONAL. Omitting it means the index
+        //      makes no assertion about sandbox availability, exactly as key
+        //      omission works inside plan_endpoints.
+        //   2. It does NOT participate in plan_group identity. Plan grouping is
+        //      determined solely by the set of PRODUCTION endpoints. Two sets of
+        //      plans that share production endpoints but differ in sandbox
+        //      endpoints still belong to the same plan_group; adding a sandbox
+        //      url must never split an existing group.
+        //   3. Keys here are independent of the keys in plan_endpoints. A payer
+        //      may expose a sandbox for only some protocols, and a sandbox key
+        //      needs no production counterpart (nor the reverse).
+        //   4. Nullability follows the same deferred-to-validation meaning that
+        //      null has inside plan_endpoints.
+        //   5. A sandbox endpoint is NEVER a fallback. Consumers must not send
+        //      real traffic to a sandbox url when the production key is absent
+        //      or null. These endpoints exist for development, registration and
+        //      conformance testing only, and may hold synthetic data, may be
+        //      unavailable, and may lose data without notice.
+        //   6. "sandbox" is the single spelling for a non-production endpoint.
+        //      Do not introduce test/uat/stage/qa/demo variants; a payer with
+        //      several internal tiers publishes whichever one external
+        //      developers are invited to use.
+        //
+        // This example intentionally lists fewer keys than plan_endpoints above,
+        // to illustrate rule 3.
+        "plan_endpoints_sandbox": {
+
+            // prior authorization sandbox
+            "davinci_crd_hook_endpoint#1.1": "https://sandbox.example.org/foo/bar/crd",
+            "davinci_pas_submission_endpoint#1.2": "https://sandbox.example.org/foo/bar/pas2",
+
+            // provider directory sandbox
+            "davinci_pdex_provider_directory_endpoint#1.1": "https://sandbox.example.org/foo/bar/provider-directory",
+
+            // payer to payer sandbox
+            "davinci_pdex_payer_endpoint#1.1": "https://sandbox.example.org/foo/bar/payer-to-payer",
+
+            // patient access sandbox
+            "carin_bluebutton_endpoint#1.0": "https://sandbox.example.org/fhir/v3/patientaccess/",
+
+            // where developers sign up for sandbox credentials
+            "ndh_meta_fhir_signup_url": "https://sandbox.example.org/fhir_signup/"
+
         }
   }
 ]
@@ -345,13 +419,53 @@ fields they explicitly exist to change.
 The Medicare Advantage seeder temporarily derives seed FPIs from
 `LEGAL_NAME_HASH` because payer legal name is available in its source data.
 That mechanism does not define permanent payer identity and is not a
-recommendation to payers. A payer self-issuing its FPI chooses either an
-accepted generated UUID version or a supported source identifier.
+recommendation to payers. A payer selects which supported legacy identifier
+anchors its FPI.
 
 **Note on seeder compatibility:** The Medicare Advantage seeder (`tools/seed_medicare_advantage/seed.py`)
 has not yet been updated to emit the new multi-FPI format fields (`is_fpi`,
 `parent_fpi` on crosswalk identifiers, or `parent_fpi` on plan identifiers). Seeded
 files will not conform to the current format until the seeder is updated.
+
+## Endpoint Environments
+
+Each `plan_group` may carry endpoints for two environments, in two sibling
+objects:
+
+| Object | Environment | Required |
+|--------|-------------|----------|
+| `plan_endpoints` | Production | Yes (may be empty) |
+| `plan_endpoints_sandbox` | Non-production / sandbox | No |
+
+Both objects use the same key grammar, so every endpoint family in this format
+can have a sandbox counterpart — not just provider directories. A key names an
+endpoint family plus, where relevant, a protocol version and a profile
+coordinate (for example `carin_bluebutton_endpoint#1.0_uscore3.1`). Environment
+is **not** encoded in the key. A form such as
+`davinci_pdex_payer_endpoint#1.1_sandbox` is invalid: environment, protocol
+version, and profile are three orthogonal axes, and collapsing them into one
+string would force consumers to parse key names in order to distinguish a test
+system from a live one.
+
+Consumer requirements:
+
+* `plan_endpoints` is the only object usable for live routing.
+* A sandbox endpoint is never a production fallback. When a production key is
+  absent or null, the correct conclusion is that the index makes no assertion —
+  not that the sandbox url may be used instead.
+* Sandbox endpoints may serve synthetic data, may be offline, and may discard
+  data without notice.
+* Absence of `plan_endpoints_sandbox` means no assertion about sandbox
+  availability, not that a sandbox does not exist.
+
+Because plan grouping is defined by the set of *production* endpoints,
+`plan_endpoints_sandbox` never affects which plans share a `plan_group`. Adding,
+changing, or removing a sandbox url cannot split or merge groups.
+
+`sandbox` is the single supported spelling for a non-production endpoint. The
+format does not define `test`, `uat`, `stage`, `qa`, or `demo` variants; a payer
+operating several internal tiers publishes whichever one external developers are
+invited to use.
 
 ## Endpoint Name ValueSet
 
