@@ -65,3 +65,7 @@ for the supported generation procedure.
   are interchangeable or must generate the same FPI.
 * **Supply NPD-ready payer directory data** informed by the
   [FAST NDH implementation guide](https://build.fhir.org/ig/HL7/fhir-us-ndh/en/).
+
+**Note:** CMS intends to use the FPI broadly for FHIR-based interoperability
+use cases. CMS does not currently intend the standard to be used to model the
+payer ecosystem for other purposes.
