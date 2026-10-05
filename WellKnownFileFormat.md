@@ -56,6 +56,15 @@ well_known_payer_json = {
   //      derived from a payer-selected legacy identifier.
   //   9. Every FPI "value" MUST be reproducible from its fpi_source_system and
   //      fpi_source_value via tools/FPI_maker_cli.py.
+  //  10. Every plan identifier MUST contain "f_plan_id", "plan_name",
+  //      "plan_website", and at least one "plan_level_string_search_matches" entry.
+  //  11. Every "f_plan_id" MUST be unique within the file.
+  //  12. Every "f_plan_id" MUST be stable across publications: once published for
+  //      a plan it MUST NOT change -- including across plan years -- and MUST NOT
+  //      be reused for a different plan.
+  //  13. Every identifier with is_fpi: true MUST contain "payerContactWebsite".
+  //  14. FPI entries SHOULD precede their non-FPI crosswalk identifiers, so that a
+  //      reader encounters each FPI before the identifiers that reference it.
 
   "identifier": [
     {
@@ -189,6 +198,25 @@ well_known_payer_json = {
             // have its own unique f_plan_id. The value is randomly generated
             // (not derived from any plan attribute), so it does not encode
             // plan name, contract ID, or any other plan metadata.
+            //
+            // f_plan_id MUST be STABLE OVER TIME. Once an f_plan_id has been
+            // published for a plan it MUST NOT change in any later publication of
+            // this file -- including across plan years -- even if the plan_name,
+            // plan_website, endpoints, or the plan identifier "value" itself are
+            // revised. The same plan keeps the same f_plan_id year after year.
+            // A new f_plan_id is minted ONLY for a plan that has not been
+            // published before, and an f_plan_id belonging to a retired plan MUST
+            // NOT be reused for a different plan.
+            //
+            // Because the value is random, it cannot be recomputed the way an FPI
+            // can; its stability therefore depends entirely on the publisher
+            // carrying forward the value it previously published. Tooling in this
+            // repository does this via load_existing_f_plan_ids() in
+            // tools/seed_medicare_advantage/seed.py, which reads the f_plan_id
+            // already on disk for each plan and mints a fresh UUIDv4 only for
+            // plans it has not seen before. Downstream consumers are expected to
+            // store f_plan_id as a durable key, so regenerating it would break
+            // their references.
             "f_plan_id": "a38f7115-9579-47ed-9ff0-65c084ec258c",
 
             "plan_name": "This Very Good Plan",
@@ -422,10 +450,33 @@ That mechanism does not define permanent payer identity and is not a
 recommendation to payers. A payer selects which supported legacy identifier
 anchors its FPI.
 
-**Note on seeder compatibility:** The Medicare Advantage seeder (`tools/seed_medicare_advantage/seed.py`)
-has not yet been updated to emit the new multi-FPI format fields (`is_fpi`,
-`parent_fpi` on crosswalk identifiers, or `parent_fpi` on plan identifiers). Seeded
-files will not conform to the current format until the seeder is updated.
+### Seeder conformance status
+
+The Medicare Advantage seeder (`tools/seed_medicare_advantage/seed.py`) emits the
+multi-FPI format fields. Every seeded file carries:
+
+* `is_fpi` on every identifier entry;
+* `parent_fpi` on every crosswalk (`is_fpi: false`) identifier;
+* `parent_fpi` on every plan identifier;
+* `f_plan_id` on every plan identifier, preserved across runs by
+  `load_existing_f_plan_ids()` so that re-seeding does not churn published plan
+  identity (validation rule 12).
+
+
+Seeded output is still incomplete with respect to fields that CMS source data
+does not supply. These are hard requirements of the format, so a seeded file is
+**not conformant** until a person or a curation tool fills them in:
+
+| Required field | Supplied by the seeder |
+|----------------|------------------------|
+| `plan_website` | No |
+| `plan_level_string_search_matches` | Only where a curation tool has added it |
+| `payerContactWebsite` | No |
+| `plan_group_string_search_match` | Only where a curation tool has added it |
+| `ndh_meta_fhir_signup_url`, `ndh_meta_documentation_url` | Only where present in source endpoint data |
+
+This gap is a curation backlog, not a relaxation of the rules. Seeded files are
+marked `"is_seeded": true` precisely so that this distinction stays visible.
 
 ## Endpoint Environments
 
