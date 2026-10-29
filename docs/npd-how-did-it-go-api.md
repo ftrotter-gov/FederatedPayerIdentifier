@@ -8,6 +8,8 @@ After attempting an interoperability exchange, either participant can independen
 
 The report separates the exchange outcome, observed problems, and an optional experience rating. A failed exchange does not establish fault: for example, a responder may correctly reject an unauthorized request.
 
+![NPD Query Flow](NPD_Query_Flow.png)
+
 ## Submission
 
 ```http
