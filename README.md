@@ -51,6 +51,9 @@ for the supported generation procedure.
   Git issues, pull requests, and history support review and correction.
 * [All-at-once provider directory downloads](AllAtOnce.md) describes how a
   payer can publish Da Vinci Plan-Net data in bulk.
+* [NPD Endpoint Feedback API](docs/npd-how-did-it-go-api.md) is a design
+  proposal for reporting the outcome of an attempted interoperability exchange
+  back to the National Provider and Payer Directory.
 * [Future steps](FutureSteps.md) records validation, delegation, nested payer
   ownership, reinsurance, historical, and governance capabilities that are
   deliberately outside the current prototype.

@@ -1,14 +1,49 @@
-# NPD “How did it go?” API
+# NPD Endpoint Feedback API
 
-Status: Initial design proposal, version 0.2. The URL, fields, and NPD-specific code values below are proposed, not an existing NPD API contract.
+This document proposes a way for healthcare organizations to tell the National
+Provider Directory how well an interoperability connection actually worked. When
+one organization looks up another in the directory and tries to exchange data,
+either side can send back a short report saying what happened: it worked, it
+failed at this step, the documentation was missing, the endpoint was
+unreachable. Over time those reports show which directory entries are accurate
+and which endpoints are genuinely usable.
+
+The rest of this document specifies the API: where to send a report, what fields
+it contains, the vocabulary for describing problems, and what the directory sends
+back.
+
+Status: Initial design proposal, document version 0.2. The URL, fields, and
+NPD-specific code values below are proposed, not an existing NPD API contract.
+
+This document's version (0.2) tracks the proposal text. The `schemaVersion`
+field inside the payload tracks the wire format and is independent: a payload
+that validates as `schemaVersion` `1.0` is expected to keep validating as this
+document advances toward 1.0, while the surrounding guidance continues to
+change. Neither version refers to a FHIR release.
 
 ## Purpose
 
-After attempting an interoperability exchange, either participant can independently report its experience to the National Provider Directory (NPD). Entity A reports as the requester; entity B reports as the responder. Reports can cover discovery and preparation problems even when no request reaches the other participant.
+After attempting an interoperability exchange, either participant can
+independently report its experience to the National Provider Directory (NPD).
+Entity A reports as the requester; entity B reports as the responder. Reports
+can cover discovery and preparation problems even when no request reaches the
+other participant.
 
-The report separates the exchange outcome, observed problems, and an optional experience rating. A failed exchange does not establish fault: for example, a responder may correctly reject an unauthorized request.
+The report separates the exchange outcome, observed problems, and an optional
+experience rating. A failed exchange does not establish fault: for example, a
+responder may correctly reject an unauthorized request.
 
-![NPD Query Flow](NPD_Query_Flow.png)
+The diagram below shows where this report fits. Entity A first queries the NPD
+to discover entity B and its endpoint, then attempts the FHIR exchange directly
+with B. Afterward each side independently reports what it observed. The query
+and the exchange are separate steps from the report, and the report is a third
+call that goes only to the NPD.
+
+![Flow diagram. Step one: entity A queries the NPD for entity B's organization
+and endpoint records. Step two: entity A attempts a FHIR exchange directly with
+entity B, which may succeed or fail at any stage. Step three: entity A and
+entity B each independently POST an interaction report back to the NPD. Neither
+report is sent to the other participant.](NPD_Query_Flow.png)
 
 ## Submission
 
@@ -19,18 +54,39 @@ Content-Type: application/json
 X-API-Key: <API key>
 ```
 
-Use HTTPS. The API key identifies the reporting organization and must be authorized to submit on its behalf. NPD derives the reporter identity from that credential; the request body cannot override it. The reporting API key is separate from credentials used in the exchange being reported.
+Use HTTPS. The API key identifies the reporting organization and must be
+authorized to submit on its behalf. NPD derives the reporter identity from that
+credential; the request body cannot override it. The reporting API key is
+separate from credentials used in the exchange being reported.
 
-The examples use JavaScript code blocks so comments can document each field. Actual API bodies are JSON: remove the comments before sending. Required and optional labels below describe the proposed contract.
+A minimal submission, using the comment-free body from
+[Complete examples](#complete-examples):
+
+```bash
+curl --request POST \
+  --url https://<NPD host>/api/v1/interaction-reports \
+  --header 'Content-Type: application/json' \
+  --header "X-API-Key: ${NPD_API_KEY}" \
+  --data @report.json
+```
+
+The annotated examples below use JavaScript code blocks so comments can document
+each field. Actual API bodies are JSON and must not contain comments. The
+[Complete examples](#complete-examples) section provides comment-free bodies
+that can be sent as-is. Required and optional labels describe the proposed
+contract.
 
 ## Request body
 
 ```javascript
 {
-  // Required string. Version of this reporting payload, not the FHIR version.
+  // Required string. Version of this reporting payload, not the FHIR version
+  // and not the version of this document. Current value: "1.0".
   "schemaVersion": "1.0",
 
   // Required UUID generated by the reporter for this report.
+  // Must be a UUID version 4 in canonical 8-4-4-4-12 hyphenated form.
+  // Compare case-insensitively; NPD stores and echoes it lowercased.
   // Reuse it when retrying the same submission. A and B use different reportIds.
   "reportId": "984fc279-674a-4f06-8a59-98135df762ca",
 
@@ -45,6 +101,16 @@ The examples use JavaScript code blocks so comments can document each field. Act
   // Omit when the counterparty cannot be identified. This reference alone
   // does not establish the authenticated identity of an incoming caller.
   "counterpartyReference": "Organization/org-b",
+
+  // Optional string. Federated Payer Identifier of the counterparty, when the
+  // counterparty is a payer. Bare canonical UUID, no "urn:uuid:" prefix and no
+  // resource-type prefix. Independent of counterpartyReference: send either,
+  // both, or neither. Prefer sending this whenever it is known, because the FPI
+  // remains stable and resolvable even when the NPD Organization record is the
+  // subject of the complaint, as with "organization-not-found" and
+  // "directory-data-mismatch". Omit for non-payer counterparties or when the
+  // FPI is unknown. Do not invent or derive an FPI for this field.
+  "counterpartyFpi": "13e068e1-cd54-5baa-b7e3-79761afe7afc",
 
   // Optional string. NPD Endpoint record for the service being contacted.
   // Both sides normally reference B's service endpoint in an A-to-B request.
@@ -86,6 +152,7 @@ The examples use JavaScript code blocks so comments can document each field. Act
   // Required enum: "success", "partial-success", "failure", or "unknown".
   // Describes achievement of the intended exchange from this side's view.
   // It does not assert that the counterparty acted incorrectly.
+  // Reports are expected for successful exchanges as well as failed ones.
   "outcome": "failure",
 
   // Optional integer, 1–5. Subjective experience rating, not a fault finding.
@@ -121,11 +188,62 @@ The examples use JavaScript code blocks so comments can document each field. Act
 }
 ```
 
-Fields marked optional should be omitted when unknown, rather than populated with invented values. For a responder report, use `reporterRole: "responder"` and identify A as the counterparty when known. NPD derives B's reporter identity from B's API key.
+Fields marked optional should be omitted when unknown, rather than populated
+with invented values. For a responder report, use `reporterRole: "responder"`
+and identify A as the counterparty when known. NPD derives B's reporter identity
+from B's API key.
+
+### Identifying a payer counterparty
+
+When the counterparty is a payer, `counterpartyFpi` carries its Federated Payer
+Identifier: the deterministic UUIDv5 that the payer selected and registered. See
+[Generating Federated Payer Identifiers](../GeneratingFederatedPayerIdentifiers.md)
+and the [payer well-known index format](../WellKnownFileFormat.md).
+
+Send the bare canonical UUID, matching the `value` of the payer's FPI identifier
+entry:
+
+```json
+{
+  "counterpartyReference": "Organization/org-b",
+  "counterpartyFpi": "13e068e1-cd54-5baa-b7e3-79761afe7afc"
+}
+```
+
+`counterpartyFpi` matters most when the directory record itself is what failed.
+A report of `organization-not-found` or `directory-data-mismatch` that carries
+only `counterpartyReference` may name a record that is missing, wrong, or
+ambiguous, which leaves the report hard to act on. The FPI stays stable across
+NPD republication and is therefore the more durable way to say which payer the
+report concerns.
+
+Reporting an FPI does not assert that the counterparty authenticated as that
+payer, and NPD does not treat it as proof of identity. A reporter must not mint
+an FPI; if the counterparty's registered FPI is unknown, omit the field.
+
+### Timestamp rules
+
+`startedAt` and `endedAt` are RFC 3339 timestamps and should be sent in UTC with
+a trailing `Z`. Offsets other than `Z` are accepted and normalized to UTC.
+
+- `endedAt` must not precede `startedAt`. Equal values are allowed for an
+  interaction that failed immediately.
+- Neither timestamp may be in the future relative to NPD's clock, allowing five
+  minutes of skew. Submissions outside that tolerance are rejected with `400`.
+- Reports should be submitted promptly. Submissions whose `endedAt` is more than
+  thirty days old are rejected with `400`; backdating beyond that window is not
+  supported.
+- NPD records its own `receivedAt` and never derives it from reporter-supplied
+  timestamps.
 
 ## Proposed issue vocabulary
 
-These stage and code values are local to this proposed API. They are not presented as standard FHIR codes. Each issue must use an allowed stage and code from the table. Use the corresponding stage for each listed code. The code `other` is allowed with any stage when no specific code fits; use stage `other` when the stage itself is not covered. For code `other`, `description` is required to explain the issue.
+These stage and code values are local to this proposed API. They are not
+presented as standard FHIR codes. Each issue must use an allowed stage and code
+from the table. Use the corresponding stage for each listed code. The code
+`other` is allowed with any stage when no specific code fits; use stage `other`
+when the stage itself is not covered. For code `other`, `description` is
+required to explain the issue.
 
 | Stage | Codes |
 | --- | --- |
@@ -138,13 +256,28 @@ These stage and code values are local to this proposed API. They are not present
 | `service-operation` | `rate-limited`, `service-unavailable` |
 | `other` | `other` |
 
-Use `documentation-missing` when the needed documentation cannot be located and `documentation-unreachable` when its known address cannot be accessed. Use the description to identify whether the problem affected API documentation, authentication instructions, or documentation-discovery instructions.
+Use `documentation-missing` when the needed documentation cannot be located and
+`documentation-unreachable` when its known address cannot be accessed. Use the
+description to identify whether the problem affected API documentation,
+authentication instructions, or documentation-discovery instructions.
 
-A `404` alone does not establish that a server was down. Record the observed status and describe what was missing. A DNS failure, refused connection, or timeout may have no HTTP status at all. A rejected credential also does not establish that the responder's authentication implementation was defective.
+The `rate-limited` code describes the reported exchange, meaning the
+counterparty throttled the reporter. Throttling of this reporting API is a
+separate concern and is covered under
+[Submission errors](#submission-errors).
 
 ## Successful response
 
-For a newly stored report, return `201 Created` with `Content-Type: application/json`. This status describes successful creation of the report, even when the reported exchange failed.
+For a newly stored report, return `201 Created` with
+`Content-Type: application/json` and a `Location` header giving the canonical
+URL of the stored report. This status describes successful creation of the
+report, even when the reported exchange failed.
+
+```http
+HTTP/1.1 201 Created
+Content-Type: application/json
+Location: https://<NPD host>/api/v1/interaction-reports/984fc279-674a-4f06-8a59-98135df762ca
+```
 
 ```javascript
 {
@@ -168,6 +301,9 @@ For a newly stored report, return `201 Created` with `Content-Type: application/
     // Submitted single counterparty reference, when provided.
     // May identify any supported counterparty entity type.
     "counterpartyReference": "Organization/org-b",
+    // Submitted counterparty FPI, when provided. Echoed as submitted,
+    // without any assertion that it was verified.
+    "counterpartyFpi": "13e068e1-cd54-5baa-b7e3-79761afe7afc",
     "endpointReference": "Endpoint/endpoint-b",
     "outcome": "failure",
     "rating": 2,
@@ -182,11 +318,56 @@ For a newly stored report, return `201 Created` with `Content-Type: application/
 }
 ```
 
-## Retries and submission errors
+## Retrieving a report
 
-Deduplicate on the authenticated reporter organization and `reportId`. An identical retry returns `200 OK` and the original receipt, including its original `receivedAt`. Compare parsed JSON values, ignoring insignificant whitespace and object-property order. Reusing that identifier with different content returns `409 Conflict`.
+```http
+GET /api/v1/interaction-reports/{reportId}
+Host: <NPD host>
+X-API-Key: <API key>
+```
 
-Use RFC 9457 Problem Details with `Content-Type: application/problem+json` for submission errors. A submission error describes the POST to NPD, not the reported exchange.
+Returns `200 OK` with the same receipt body the original submission returned.
+This lets a reporter that lost its receipt confirm whether a report was stored
+without re-POSTing and risking a `409`.
+
+A reporter may retrieve only its own reports. Requesting a `reportId` submitted
+by a different organization returns `404 Not Found` rather than `403`, so that
+the endpoint does not reveal which identifiers exist. An unknown `reportId`
+likewise returns `404`.
+
+This endpoint does not expose the counterparty's report. Nothing here lets one
+participant read what the other said.
+
+## Retries and idempotency
+
+Deduplicate on the authenticated reporter organization and `reportId`. An
+identical retry returns `200 OK` and the original receipt, including its
+original `receivedAt`. Compare parsed JSON values, ignoring insignificant
+whitespace and object-property order. Reusing that identifier with different
+content returns `409 Conflict`.
+
+Deduplication state is retained for ninety days from `receivedAt`. A retry of
+the same `reportId` after that window may be treated as a new submission, so
+clients should not rely on indefinite idempotency.
+
+## Submission errors
+
+Use RFC 9457 Problem Details with `Content-Type: application/problem+json` for
+submission errors. A submission error describes the POST to NPD, not the
+reported exchange.
+
+| Status | Condition | Notes |
+| --- | --- | --- |
+| `400 Bad Request` | Malformed JSON, or a body that violates the schema | Includes unknown enum values, a non-UUIDv4 `reportId`, and timestamps that fail the rules above |
+| `401 Unauthorized` | Missing, unparseable, or invalid API key | Does not indicate whether the key once existed |
+| `403 Forbidden` | Valid key not authorized to report for that organization | Key authentication succeeded but submission is not permitted |
+| `409 Conflict` | `reportId` reused with different content | See retries above |
+| `413 Content Too Large` | Body exceeds the payload limit | Limit is 256 KiB |
+| `429 Too Many Requests` | Reporter exceeded its submission rate | Includes `Retry-After` in seconds; clients should back off exponentially |
+
+Field-level limits: `description` is capped at 1000 characters, `issues` at 50
+entries per report, and the whole body at 256 KiB. Submissions exceeding the
+first two are rejected with `400`; oversize bodies are rejected with `413`.
 
 ```javascript
 {
@@ -204,21 +385,191 @@ Use RFC 9457 Problem Details with `Content-Type: application/problem+json` for s
 }
 ```
 
-The initial implementation should also document malformed-body, invalid-field, invalid-key, permission, and rate-limit responses. Payload-size limits, text-length limits, and retry-retention periods remain to be specified.
+Error responses never echo submitted field values, because a rejected body may
+contain data that should not be reflected back in logs.
+
+## Complete examples
+
+These bodies contain no comments and can be sent as-is.
+
+### Requester reporting a failure
+
+Entity A could not authenticate to entity B. The counterparty is a payer, so the
+FPI is included alongside the directory reference.
+
+```json
+{
+  "schemaVersion": "1.0",
+  "reportId": "984fc279-674a-4f06-8a59-98135df762ca",
+  "reporterRole": "requester",
+  "counterpartyReference": "Organization/org-b",
+  "counterpartyFpi": "13e068e1-cd54-5baa-b7e3-79761afe7afc",
+  "endpointReference": "Endpoint/endpoint-b",
+  "interaction": {
+    "startedAt": "2026-10-29T14:00:00Z",
+    "endedAt": "2026-10-29T14:00:02Z",
+    "fhirVersion": "4.0.1",
+    "operation": "search-type",
+    "resourceType": "Organization",
+    "httpMethod": "GET",
+    "httpStatus": 401
+  },
+  "outcome": "failure",
+  "rating": 2,
+  "issues": [
+    {
+      "stage": "authentication",
+      "code": "credentials-rejected",
+      "severity": "error",
+      "description": "The endpoint rejected the presented credentials."
+    }
+  ]
+}
+```
+
+### Requester reporting a success
+
+Reports are not only for failures. A successful exchange uses
+`"outcome": "success"` and an empty `issues` array. `rating` remains optional.
+
+```json
+{
+  "schemaVersion": "1.0",
+  "reportId": "0f1f0e6c-2a44-4b63-9a7e-6f1a2c3d4e5f",
+  "reporterRole": "requester",
+  "counterpartyReference": "Organization/org-b",
+  "counterpartyFpi": "13e068e1-cd54-5baa-b7e3-79761afe7afc",
+  "endpointReference": "Endpoint/endpoint-b",
+  "interaction": {
+    "startedAt": "2026-10-29T15:10:00Z",
+    "endedAt": "2026-10-29T15:10:01Z",
+    "fhirVersion": "4.0.1",
+    "operation": "search-type",
+    "resourceType": "Organization",
+    "httpMethod": "GET",
+    "httpStatus": 200
+  },
+  "outcome": "success",
+  "rating": 5,
+  "issues": []
+}
+```
+
+### Responder reporting the same exchange
+
+Entity B describes the exchange from its own side. `reporterRole` is
+`"responder"`, the counterparty is now A, and B still references its own
+endpoint, because both sides reference the endpoint that was contacted. NPD
+derives B's reporter identity from B's API key, so B never names itself in the
+body. B observed a correct rejection, so it reports `"outcome": "success"` with
+an informational issue rather than an error.
+
+```json
+{
+  "schemaVersion": "1.0",
+  "reportId": "c3a7b1e2-5d48-4f90-8c21-7b6e9d0a4f33",
+  "reporterRole": "responder",
+  "counterpartyReference": "Organization/org-a",
+  "endpointReference": "Endpoint/endpoint-b",
+  "interaction": {
+    "startedAt": "2026-10-29T14:00:00Z",
+    "endedAt": "2026-10-29T14:00:02Z",
+    "fhirVersion": "4.0.1",
+    "operation": "search-type",
+    "resourceType": "Organization",
+    "httpMethod": "GET",
+    "httpStatus": 401
+  },
+  "outcome": "success",
+  "issues": [
+    {
+      "stage": "authentication",
+      "code": "credentials-rejected",
+      "severity": "information",
+      "description": "Presented credentials were not recognized, so the request was rejected as designed."
+    }
+  ]
+}
+```
+
+The two reports disagree about `outcome` for the same exchange. That is expected
+and is not a conflict: each side reports whether it achieved its own intent. NPD
+stores both without adjudicating between them.
+
+### Pre-request discovery failure
+
+No HTTP request was ever attempted, so `httpMethod` and `httpStatus` are
+omitted rather than zero-filled, as is `endpointReference`, because no endpoint
+record was found. The FPI still identifies which payer was sought even though
+the directory lookup failed.
+
+```json
+{
+  "schemaVersion": "1.0",
+  "reportId": "7b2d9c40-8e13-4a55-b6f7-1c2d3e4f5a6b",
+  "reporterRole": "requester",
+  "counterpartyFpi": "5e4c4d18-0725-58ce-9477-d8482ea11016",
+  "interaction": {
+    "startedAt": "2026-10-29T16:20:00Z",
+    "endedAt": "2026-10-29T16:20:00Z"
+  },
+  "outcome": "failure",
+  "issues": [
+    {
+      "stage": "directory-discovery",
+      "code": "endpoint-missing",
+      "severity": "error",
+      "description": "The organization was located but no active endpoint record was published."
+    }
+  ]
+}
+```
 
 ## Scope and data handling
 
-- Accept reports independently. No shared interaction identifier or coordination between participants is required. Missing reports or differing observations do not establish fault.
-- Treat counterparty references as reported associations, not proof of an authenticated exchange identity. An unverified incoming caller need not be assigned to a known NPD entity.
-- Exclude patient data, access tokens, API keys, raw request/response bodies, and unsanitized URLs or diagnostics. This restriction applies to descriptions and identifiers as well as structured evidence.
-- Keep this first version as ordinary JSON. If FHIR `OperationOutcome` evidence is added later, define a sanitized subset rather than collecting raw diagnostics by default.
-- Visibility, retention, abuse controls, aggregation, and any process for resolving contested reports require separate policy decisions. The receipt makes no publication or reputation-scoring commitment.
+- Accept reports independently. No shared interaction identifier or coordination
+  between participants is required. Missing reports or differing observations do
+  not establish fault.
+- Treat counterparty references and reported FPIs as reported associations, not
+  proof of an authenticated exchange identity. An unverified incoming caller
+  need not be assigned to a known NPD entity.
+- A status code is evidence, not a diagnosis. A `404` alone does not establish
+  that a server was down; record the observed status and describe what was
+  missing. A DNS failure, refused connection, or timeout may have no HTTP status
+  at all. A rejected credential does not establish that the responder's
+  authentication implementation was defective.
+- Exclude patient data, access tokens, API keys, raw request/response bodies,
+  and unsanitized URLs or diagnostics. This restriction applies to descriptions
+  and identifiers as well as structured evidence.
+- Keep this first version as ordinary JSON. If FHIR `OperationOutcome` evidence
+  is added later, define a sanitized subset rather than collecting raw
+  diagnostics by default.
+- Visibility, retention, abuse controls, aggregation, and any process for
+  resolving contested reports require separate policy decisions. The receipt
+  makes no publication or reputation-scoring commitment.
 
 ## Standards informing this proposal
 
-- [HTTP Semantics, RFC 9110](https://www.rfc-editor.org/rfc/rfc9110.html): HTTP response status meanings, including `201`, `404`, and `409`.
-- [Problem Details for HTTP APIs, RFC 9457](https://www.rfc-editor.org/rfc/rfc9457.html): submission-error format and `application/problem+json`.
-- [FHIR R5 OperationOutcome](https://www.hl7.org/fhir/R5/operationoutcome.html): structured operation issues and its stated limitation that it is not designed for persistence or workflow references.
-- [OpenTelemetry HTTP span conventions](https://opentelemetry.io/docs/specs/semconv/http/http-spans/): separation of HTTP response status from other observed failures. This proposal borrows that distinction without claiming to implement the OpenTelemetry schema.
+- [HTTP Semantics, RFC 9110](https://www.rfc-editor.org/rfc/rfc9110.html): HTTP
+  response status meanings, including `201`, `404`, and `409`, and the
+  `Location` header on created resources.
+- [Problem Details for HTTP APIs, RFC 9457](https://www.rfc-editor.org/rfc/rfc9457.html):
+  submission-error format and `application/problem+json`.
+- [Date and Time on the Internet, RFC 3339](https://www.rfc-editor.org/rfc/rfc3339.html):
+  timestamp format for `startedAt`, `endedAt`, and `receivedAt`.
+- [UUID URN Namespace, RFC 9562](https://www.rfc-editor.org/rfc/rfc9562.html):
+  UUID versions and canonical textual form, used by `reportId` and by the
+  UUIDv5 derivation behind the FPI.
+- [FHIR R4 OperationOutcome](https://hl7.org/fhir/R4/operationoutcome.html) and
+  [FHIR R5 OperationOutcome](https://www.hl7.org/fhir/R5/operationoutcome.html):
+  structured operation issues and the stated limitation that the resource is not
+  designed for persistence or workflow references. The examples here use
+  `fhirVersion` `4.0.1` because R4 is the common baseline in current US
+  exchange; the `fhirVersion` field accepts any release the reporter attempted.
+- [OpenTelemetry HTTP span conventions](https://opentelemetry.io/docs/specs/semconv/http/http-spans/):
+  separation of HTTP response status from other observed failures. This proposal
+  borrows that distinction without claiming to implement the OpenTelemetry
+  schema.
 
-The payload structure, receipt structure, ratings, issue vocabulary, and retry behavior are proposed NPD design choices.
+The payload structure, receipt structure, ratings, issue vocabulary, FPI
+reporting field, and retry behavior are proposed NPD design choices.
