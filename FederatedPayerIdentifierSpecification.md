@@ -239,7 +239,7 @@ They are properties of an individual FPI entry; see Section 4.4.
 ### 3.4 Repository working copies
 
 Within this repository, payer indexes are stored under
-[`payer_index_files/`](payer_index_files) using the filename convention
+[`payer_index_files/`](https://github.com/ftrotter-gov/CMSPayerEndpointSeed/tree/main/payer_index_files) using the filename convention
 `<payer_slug>_<fpi_uuid>.well_known_payer.json`.
 
 That convention is a **non-normative** repository storage detail. It is not part
@@ -317,7 +317,7 @@ MUST NOT be derived from another FPI.
 
 **FPI-130** — The FPI `value` MUST be reproducible from its declared
 `fpi_source_system` and `fpi_source_value` using
-[`tools/FPI_maker_cli.py`](tools/FPI_maker_cli.py). An FPI that does not
+[`tools/FPI_maker_cli.py`](https://github.com/ftrotter-gov/CMSPayerEndpointSeed/blob/main/tools/FPI_maker_cli.py). An FPI that does not
 recompute from its declared source is invalid.
 
 **FPI-140** — For a state-scoped identifier system such as `STATE_DOI_ID` or
@@ -1016,7 +1016,7 @@ document. See [Future Steps](FutureSteps.md) for the full discussion.
 | [AllAtOnce.md](AllAtOnce.md) | Bulk provider directory publication |
 | [FutureSteps.md](FutureSteps.md) | Deferred capabilities |
 | [example_wellknown_payer_index.json](example_wellknown_payer_index.json) | Worked two-FPI example |
-| [tools/FPI_maker_cli.py](tools/FPI_maker_cli.py) | Reference FPI generator |
+| [tools/FPI_maker_cli.py](https://github.com/ftrotter-gov/CMSPayerEndpointSeed/blob/main/tools/FPI_maker_cli.py) | Reference FPI generator |
 
 ### 12.4 Authors
 

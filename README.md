@@ -41,19 +41,38 @@ a convenience for the payer, not a central entity-resolution mechanism. See
 [Generating Federated Payer Identifiers](GeneratingFederatedPayerIdentifiers.md)
 for the supported generation procedure.
 
+## Repository scope
+
+This repository holds the Federated Payer Identifier **specification** and the
+**reference data** that the specification enumerates.
+
+The payer endpoint seed data and the tooling that generates it — the payer
+index files, the generation and reporting scripts, the mockup data, and the
+generated reports — now live in the
+[CMS Payer Endpoint Seed](https://github.com/ftrotter-gov/CMSPayerEndpointSeed)
+repository.
+
+The [`reference_data/`](reference_data) directory remains here and is the
+authoritative copy. Tooling in the CMS Payer Endpoint Seed repository reads it
+at runtime from this repository's `main` branch rather than vendoring a copy,
+so the approved list of payer identifier systems cannot drift.
+
 ## Technical components
 
 * [Federated Payer Identifier generation](GeneratingFederatedPayerIdentifiers.md)
   describes how a payer can create its FPI.
 * [Payer well-known index format](WellKnownFileFormat.md) connects the FPI and
   payer or plan identifiers to the appropriate interoperability endpoints.
-* [Payer index files](payer_index_files) are the repository's working copies.
-  Git issues, pull requests, and history support review and correction.
+* [Payer index files](https://github.com/ftrotter-gov/CMSPayerEndpointSeed/tree/main/payer_index_files)
+  are the working copies, now maintained in the
+  [CMS Payer Endpoint Seed](https://github.com/ftrotter-gov/CMSPayerEndpointSeed)
+  repository. Git issues, pull requests, and history support review and
+  correction.
 * [All-at-once provider directory downloads](AllAtOnce.md) describes how a
   payer can publish Da Vinci Plan-Net data in bulk.
-* [NPD Endpoint Feedback API](docs/npd-how-did-it-go-api.md) is a design
-  proposal for reporting the outcome of an attempted interoperability exchange
-  back to the National Provider and Payer Directory.
+* [NPD Endpoint Feedback API](https://github.com/ftrotter-gov/CMSPayerEndpointSeed/blob/main/docs/npd-how-did-it-go-api.md)
+  is a design proposal for reporting the outcome of an attempted
+  interoperability exchange back to the National Provider and Payer Directory.
 * [Future steps](FutureSteps.md) records validation, delegation, nested payer
   ownership, reinsurance, historical, and governance capabilities that are
   deliberately outside the current prototype.
