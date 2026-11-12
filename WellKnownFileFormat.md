@@ -33,6 +33,23 @@ well_known_payer_json = {
 
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition", // a FHIR-ish resourcetype not sure we want to keep this...
 
+            // REQUIRED. The line of business this index covers. The value must be
+            // an "id" from reference_data/lines_of_business.json:
+            //   medicare_advantage, medicaid_managed_care,
+            //   healthcare_marketplace_plans, commercial_plans,
+            //   ERISA_plans, other
+            //
+            // Line of business is a property of the whole document, not of a
+            // single plan or payer entity, because it is the axis along which
+            // endpoints diverge and along which consumers shop.
+            //
+            // The repository directory layout is DERIVED from this tag rather
+            // than carrying meaning of its own. Treat the corpus as a flat set
+            // of files and recover placement from the tag; nothing needs to
+            // parse file paths. Because a document carries exactly one value,
+            // an index spanning several lines of business cannot be expressed.
+  "line_of_business": "medicare_advantage",
+
   // NOTE: payerLegalName, payerContactWebsite, and payer_level_string_search_matches
   // are NO LONGER top-level fields. They now live inside each FPI identifier entry
   // (see the identifier array below). This is a non-backward-compatible format change.
@@ -550,6 +567,13 @@ also how consumers approach the data: a patient shopping within one line of
 business does not want plans outside it. This is why the repository's directory
 structure is organized by line of business in the first place, and a single
 index file should not span several of them.
+
+Line of business is now declared **inside** the file, in the required
+`line_of_business` member. The directory layout is derived from that tag rather
+than the other way round, so a consumer can treat the corpus as a flat set of
+files and still recover the intended placement. It also means "a single index
+file should not span several of them" is enforced by the format: one document
+carries exactly one line of business.
 
 Several payer entities sharing one `index_endpoints` object says something about
 publication arrangements and nothing about identity. It must not be read as

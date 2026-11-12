@@ -220,6 +220,24 @@ from public CMS data. A non-null value records provenance.
 **WK-150** — The payer index MAY contain an `is_seeded` Boolean. See
 Section 10.
 
+**WK-155** — The payer index MUST contain a `line_of_business` member at the
+root of the document. Its value MUST be the `id` of an entry in
+[`reference_data/lines_of_business.json`](reference_data/lines_of_business.json).
+
+Line of business is a property of the **document**, not of an individual plan
+or payer entity, because it is the axis along which endpoints diverge and along
+which consumers approach the data. Declaring it in the file means the repository
+directory layout is **derived from** the tag rather than carrying meaning of its
+own. A consumer may treat the corpus as a flat set of files and recover the
+intended placement from `line_of_business`; no consumer is required to parse
+file paths in order to process a well-known index.
+
+WK-155 strengthens WK-210 from guidance into structure. Because a document
+carries exactly one `line_of_business`, a file that spans several lines of
+business is no longer merely discouraged — it is unrepresentable. A payer
+operating across several lines of business publishes several indexes, as
+Section 3.1 already contemplates.
+
 **WK-160** — `payerLegalName`, `payerContactWebsite`, and
 `payer_level_string_search_matches` MUST NOT appear at the root of the document.
 They are properties of an individual FPI entry; see Section 4.4.
@@ -238,6 +256,7 @@ WK-010 — of which there is exactly one per document, by construction.
   "copied_from_url": "https://payer.example.com/.well-known/payer-index",
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
   "is_seeded": false,
+  "line_of_business": "medicare_advantage",
   "identifier": [ "..." ],
   "index_endpoints": { "...": "..." },
   "index_endpoints_sandbox": { "...": "..." },
@@ -297,6 +316,10 @@ for different lines of business. It is also how consumers approach the data — 
 patient shopping within one line of business does not want plans outside it.
 Splitting indexes along that axis therefore serves publishers and consumers
 alike.
+
+WK-210 remains stated as SHOULD NOT for continuity, but WK-155 now enforces it
+structurally: a document declares exactly one `line_of_business`, so a
+multi-line-of-business index cannot be expressed in the format.
 
 **WK-220** — Several FPIs sharing one index-level endpoint set is a statement
 about publication arrangements only. A consumer MUST NOT read a shared endpoint
@@ -951,6 +974,7 @@ payer satisfies every MUST and MUST NOT row.
 | WK-130 | MUST | Contain `resourceType` |
 | WK-140 | MUST | Contain `copied_from_url` (`null` or the retrieval URL) |
 | WK-150 | MAY | Contain `is_seeded` |
+| WK-155 | MUST | Contain `line_of_business`, enumerated in `reference_data/lines_of_business.json` |
 | WK-160 | MUST NOT | Carry payer attributes at the document root |
 | WK-170 | MAY | Contain `index_endpoints` (production, same key grammar) |
 | WK-180 | MAY | Contain `index_endpoints_sandbox` |
@@ -1108,6 +1132,7 @@ are **not conforming** until curated:
 | PG-070 | `plan_group_string_search_match` | Mostly absent |
 | EP-100, EP-110 | `ndh_meta_fhir_signup_url`, `ndh_meta_documentation_url` | Present only where source endpoint data supplied them |
 | WK-140 | `copied_from_url` | `null` throughout, since no file has yet been retrieved from a payer-controlled location |
+| WK-155 | `line_of_business` | Absent throughout. The value is currently implied by directory placement and will be backfilled from it. |
 
 This is a curation backlog, not a relaxation of the rules. The specification
 states the target state; `is_seeded` exists so the distinction stays visible.
@@ -1220,6 +1245,7 @@ document. See [Future Steps](FutureSteps.md) for the full discussion.
 | [Assumptions.md](Assumptions.md) | Market-structure assumptions underlying the design |
 | [GeneratingFederatedPayerIdentifiers.md](GeneratingFederatedPayerIdentifiers.md) | FPI derivation procedure |
 | [WellKnownFileFormat.md](WellKnownFileFormat.md) | Annotated field-by-field format |
+| [FPI_WellKnown_To_NDH_FHIR_Map.md](FPI_WellKnown_To_NDH_FHIR_Map.md) | Translation layer to the NDH FHIR profiles |
 | [AllAtOnce.md](AllAtOnce.md) | Bulk provider directory publication |
 | [FutureSteps.md](FutureSteps.md) | Deferred capabilities |
 | [example_wellknown_payer_index.json](example_wellknown_payer_index.json) | Worked two-FPI example |

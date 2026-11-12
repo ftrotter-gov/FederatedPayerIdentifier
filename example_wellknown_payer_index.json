@@ -5,6 +5,8 @@
 
   "is_seeded": false,
 
+  "line_of_business": "medicare_advantage",
+
   "identifier": [
     {
       "system": "https://directory.cms.gov/payer_identification_system/fpi",

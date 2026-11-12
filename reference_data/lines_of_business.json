@@ -1,0 +1,70 @@
+{
+  "lines_of_business": [
+    {
+      "id": "medicare_advantage",
+      "name": "Medicare Advantage",
+      "directory_name": "medicare_advantage",
+      "description": "Medicare Advantage (Part C), Part D, Cost Plans, PACE, and other CMS contract-based plan benefit packages. Plans in this line of business are identified by a CMS contract ID and plan benefit package number, and are regulated directly by CMS.",
+      "default_fhir_product_type": "mediadv",
+      "default_fhir_product_type_is_exact": false,
+      "fhir_product_type_notes": "Use mediadvhmo where the plan is an HMO. The line of business does not by itself distinguish HMO from other Medicare Advantage product shapes.",
+      "is_current": true,
+      "expired_date": null
+    },
+    {
+      "id": "medicaid_managed_care",
+      "name": "Medicaid Managed Care",
+      "directory_name": "medicaid_managed_care",
+      "description": "State Medicaid and CHIP managed care plans. Federally funded but state administered, so applicable mandates vary by state, including whether the state adopted Medicaid expansion.",
+      "default_fhir_product_type": "medihmo",
+      "default_fhir_product_type_is_exact": false,
+      "fhir_product_type_notes": "Use medi for non-managed Medicaid coverage.",
+      "is_current": true,
+      "expired_date": null
+    },
+    {
+      "id": "healthcare_marketplace_plans",
+      "name": "Healthcare Marketplace Plans",
+      "directory_name": "healthcare_marketplace_plans",
+      "description": "Qualified Health Plans offered through healthcare.gov or a state-based insurance exchange.",
+      "default_fhir_product_type": "qhp",
+      "default_fhir_product_type_is_exact": true,
+      "fhir_product_type_notes": "Qualified Health Plan maps exactly.",
+      "is_current": true,
+      "expired_date": null
+    },
+    {
+      "id": "commercial_plans",
+      "name": "Commercial Plans",
+      "directory_name": "commercial_plans",
+      "description": "Fully insured commercial health insurance regulated primarily at the state level by departments of insurance.",
+      "default_fhir_product_type": "commppo",
+      "default_fhir_product_type_is_exact": false,
+      "fhir_product_type_notes": "Commercial coverage fans out across commppo, commhmo, commepo, commpos, and commhdhp. The default is a placeholder and should be replaced with the actual product shape wherever it is known.",
+      "is_current": true,
+      "expired_date": null
+    },
+    {
+      "id": "ERISA_plans",
+      "name": "ERISA Plans",
+      "directory_name": "ERISA_plans",
+      "description": "Self-funded employer-sponsored plans governed by the Employee Retirement Income Security Act. The employer bears the insurance risk and a third-party administrator typically processes claims, so the payer entity publishing endpoints may not be the risk-bearing entity.",
+      "default_fhir_product_type": null,
+      "default_fhir_product_type_is_exact": false,
+      "fhir_product_type_notes": "The HL7 insurance-product-type code system has no code for self-funded ERISA coverage. An explicit product type is required before a conforming NDH InsurancePlan can be produced. See FPI_WellKnown_To_NDH_FHIR_Map.md section 4.1.",
+      "is_current": true,
+      "expired_date": null
+    },
+    {
+      "id": "other",
+      "name": "Other",
+      "directory_name": "other",
+      "description": "Lines of business not covered by the entries above, including TRICARE, Veterans Affairs, Indian Health Service, and Federal Employee Program coverage. This is a holding value and is expected to be decomposed as the corpus grows.",
+      "default_fhir_product_type": null,
+      "default_fhir_product_type_is_exact": false,
+      "fhir_product_type_notes": "No default is possible. The insurance-product-type code system does carry tri, va, ihs, and fep codes, but the line of business tag is too coarse to select among them.",
+      "is_current": true,
+      "expired_date": null
+    }
+  ]
+}

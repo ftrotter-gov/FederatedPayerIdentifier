@@ -66,6 +66,12 @@ so the approved list of payer identifier systems cannot drift.
   Endpoints are published at two scopes — index-wide and per plan group — so a
   payer that has not yet modeled its plans can still publish endpoints without
   inventing placeholder plans.
+* [FPI well-known to NDH FHIR map](FPI_WellKnown_To_NDH_FHIR_Map.md) specifies
+  the translation layer between the well-known index format and the NDH
+  Organization, InsurancePlan, and Endpoint profiles. It treats the well-known
+  file as a normalized source form and the FHIR bundle as its compiled output,
+  so the endpoint cascade and plan grouping are expanded into explicit
+  plan-to-endpoint references.
 * [Assumptions](Assumptions.md) records the market-structure assumptions that
   the design rests on, including why line of business drives endpoint
   divergence and why the seeded corpus should not be treated as representative.
