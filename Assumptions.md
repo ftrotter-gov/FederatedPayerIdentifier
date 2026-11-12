@@ -1,0 +1,7 @@
+Assumptions we (and our robots) should consider as we design this system
+===============
+
+* Payers are complex entities with regards to line-of-business and state-level insurance regulation. A Payer is often a holding company with smaller entities which are formed to address sub-markets with states. 
+* States regulate health insurance generally, with broad sway over commercially available private health insurance plans, but CMS directly managed programs (Traditional Medicare, Medicare Advantage, Federal Marketplace healthcare.gov plans), as well as Federally funded but state managed (Medicaid, CHIP) plans also have Federal regulatory mandates. Mandates which change depending on whether a state has chosen Medicaid expansion, or to host its own insurance exchange alternative to healhcare.gov. 
+* This underlying structural complexity in the health insurance market means that our data files will be excercising the complexity allowed inside and between different well-known index files and are likely to become much more dense over time. Both at the directory and individual file level. 
+* The seeding from Medicare Advantage data is a useful starting place, but hardly represents the complexity of the insurance marketplace that will eventually need to be modeled. We should not assume that the seeded data is representative of the data-to-come.
