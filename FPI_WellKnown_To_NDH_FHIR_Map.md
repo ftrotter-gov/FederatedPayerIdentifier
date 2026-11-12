@@ -12,6 +12,14 @@ express the same facts as FHIR resources:
 | Endpoint | NDH Endpoint Profile | `http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-Endpoint` |
 | Network (supporting) | NDH Network Profile | `http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-Network` |
 
+> **Looking for just the field list?** See
+> [FPI_WellKnown_To_NDH_Column_Crosswalk.md](FPI_WellKnown_To_NDH_Column_Crosswalk.md),
+> a condensed column-by-column crosswalk of every well-known value and the NDH
+> element it maps to, with no surrounding discussion. This document is the
+> normative companion: it explains *why* the mapping takes that shape, and
+> covers the compilation model, publication modes, networks, validation, and
+> round-tripping that the crosswalk omits.
+
 NDH element facts in this document were read from the NDH IG source
 (`input/fsh/Base-Profiles.fsh`, `Base-Extensions.fsh`, `Base-Invariant.fsh`,
 `Base-VS.fsh`) and the generated StructureDefinitions for version
