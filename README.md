@@ -63,6 +63,12 @@ so the approved list of payer identifier systems cannot drift.
   describes how a payer can create its FPI.
 * [Payer well-known index format](WellKnownFileFormat.md) connects the FPI and
   payer or plan identifiers to the appropriate interoperability endpoints.
+  Endpoints are published at two scopes — index-wide and per plan group — so a
+  payer that has not yet modeled its plans can still publish endpoints without
+  inventing placeholder plans.
+* [Assumptions](Assumptions.md) records the market-structure assumptions that
+  the design rests on, including why line of business drives endpoint
+  divergence and why the seeded corpus should not be treated as representative.
 * [Payer index files](https://github.com/ftrotter-gov/CMSPayerEndpointSeed/tree/main/payer_index_files)
   are the working copies, now maintained in the
   [CMS Payer Endpoint Seed](https://github.com/ftrotter-gov/CMSPayerEndpointSeed)

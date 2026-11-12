@@ -69,6 +69,16 @@
     }
   ],
 
+  "index_endpoints": {
+    "davinci_cdex_attachsubmit_endpoint#2.1": "https://example.com/clinicaldataexchange/v1/",
+    "carin_rtpbc_member_endpoint#1.0": "https://example.org/fhir/v1/realtimepharmacybenefitcheck/",
+    "carin_rtpbc_provider_endpoint#1.0": "https://example.org/realtimepharmacybenefitcheck/v1/"
+  },
+
+  "index_endpoints_sandbox": {
+    "davinci_cdex_attachsubmit_endpoint#2.1": "https://sandbox.example.com/clinicaldataexchange/v1/"
+  },
+
   "plan_groups": [
     {
       "plan_identifiers": [
@@ -127,7 +137,6 @@
         "davinci_crd_hook_endpoint#1.2": null,
         "davinci_dtr_qpackage_endpoint#1.2": "http://example.org/foo/bar/dtr",
         "davinci_pas_submission_endpoint#1.2": "http://example.org/foo/bar/pas2",
-        "davinci_cdex_attachsubmit_endpoint#2.1": "https://example.com/clinicaldataexchange/v1/",
 
         "ndh_meta_fhir_signup_url": "http://example.org/fhir_signup/",
         "ndh_meta_documentation_url": "http://example.org/fhir_docs/",
@@ -146,9 +155,6 @@
         "davinci_pdex_patient_endpoint#2.0_uscore3.1": "https://example.org/fhir/v2/patientaccess/",
 
         "davinci_pdex_formulary_endpoint#2.0": "https://example.org/fhir/v3/patientaccess/",
-
-        "carin_rtpbc_member_endpoint#1.0": "https://example.org/fhir/v1/realtimepharmacybenefitcheck/",
-        "carin_rtpbc_provider_endpoint#1.0": "https://example.org/realtimepharmacybenefitcheck/v1/",
 
         "tic_table_of_contents#issuer-11111": "https://example.com/mrf/2025-01-01_example-payer_issuer-a_index.json",
         "tic_table_of_contents#issuer-22222": "https://example.com/mrf/2025-01-01_example-payer_issuer-b_index.json",
@@ -211,6 +217,11 @@
       "plan_endpoints": {
         "davinci_crd_hook_endpoint#1.1": "http://tx.example.org/foo/bar/crd",
         "davinci_dtr_qpackage_endpoint#1.2": "http://tx.example.org/foo/bar/dtr",
+
+        "davinci_cdex_attachsubmit_endpoint#2.1": "https://tx.example.com/clinicaldataexchange/v1/",
+        "carin_rtpbc_member_endpoint#1.0": null,
+        "carin_rtpbc_provider_endpoint#1.0": null,
+
         "davinci_pas_submission_endpoint#1.2": "http://tx.example.org/foo/bar/pas2",
 
         "ndh_meta_fhir_signup_url": "http://tx.example.org/fhir_signup/",

@@ -224,6 +224,13 @@ Section 10.
 `payer_level_string_search_matches` MUST NOT appear at the root of the document.
 They are properties of an individual FPI entry; see Section 4.4.
 
+WK-160 enumerates attributes of a **legal entity**. In a document declaring more
+than one FPI (FPI-020), the root cannot say which entity such an attribute
+describes, so each one belongs to its FPI entry. The index-level endpoint
+objects defined in Section 3.4 are deliberately not on this list: an endpoint set
+is an attribute of the **publication location** — the Payer Index Base URL of
+WK-010 — of which there is exactly one per document, by construction.
+
 *Non-normative skeleton:*
 
 ```json
@@ -232,11 +239,72 @@ They are properties of an individual FPI entry; see Section 4.4.
   "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
   "is_seeded": false,
   "identifier": [ "..." ],
+  "index_endpoints": { "...": "..." },
+  "index_endpoints_sandbox": { "...": "..." },
   "plan_groups": [ "..." ]
 }
 ```
 
-### 3.4 Repository working copies
+### 3.4 Index-level endpoints
+
+A payer index may carry endpoints that serve **every plan in the document**,
+without regard to plan structure. These are published at the root, in objects
+named `index_endpoints` and `index_endpoints_sandbox`.
+
+This scope exists for two reasons. A payer that has not yet modeled its plans
+still needs somewhere to publish endpoints; without it, such a payer must either
+publish no endpoints at all or fabricate a placeholder plan, and a fabricated
+plan is permanent because `f_plan_id` is stable for all time (PLAN-080). A payer
+whose endpoints genuinely do not vary by plan should also not have to restate
+them in every plan group.
+
+**WK-170** — A payer index MAY contain an `index_endpoints` object. Its keys and
+values MUST follow the same grammar as `plan_endpoints` (EP-040 through EP-080),
+and it MUST contain only production endpoints.
+
+**WK-180** — A payer index MAY contain an `index_endpoints_sandbox` object,
+sibling to `index_endpoints`, holding non-production endpoints under the same
+grammar.
+
+**WK-190** — Endpoint objects MUST NOT appear on an FPI entry. A document has
+exactly two endpoint scopes: the index and the plan group. An identifier entry,
+whether `is_fpi` is `true` or `false`, MUST NOT carry `index_endpoints`,
+`plan_endpoints`, `payer_endpoints`, or any similarly named object.
+
+WK-190 is a deliberate design decision, not an unfilled gap. An endpoint scope
+attached to the FPI entry would let a single document absorb the full complexity
+of a holding company operating across many states and lines of business, which
+is precisely the outcome this format is structured to prevent. Publishing an
+index is meant to produce small, readable files.
+
+**WK-200** — Where a payer's endpoints differ across groups of plans, the payer
+MUST resolve the difference in one of exactly two ways: by expressing the
+differing endpoints at the plan group level (Section 6), or by publishing
+separate payer indexes at separate Payer Index Base URLs. There is no third
+mechanism.
+
+Both resolutions reduce complexity. The first forces plans to be clustered by
+the endpoint set that actually serves them, which is what makes a plan group
+meaningful. The second moves the divergence up into the directory, where it is
+visible before a consumer parses anything.
+
+**WK-210** — A single payer index SHOULD NOT span multiple lines of business
+(for example commercial, Medicaid, and Medicare Advantage).
+
+Line of business is the dominant reason endpoints diverge: payers frequently
+engage different subcontractors to handle claims processing and interoperability
+for different lines of business. It is also how consumers approach the data — a
+patient shopping within one line of business does not want plans outside it.
+Splitting indexes along that axis therefore serves publishers and consumers
+alike.
+
+**WK-220** — Several FPIs sharing one index-level endpoint set is a statement
+about publication arrangements only. A consumer MUST NOT read a shared endpoint
+set as asserting shared liability, shared beneficiary obligations, or that the
+entities are a single legal payer. The identity boundary of Section 2.1 is
+unaffected by how endpoints are published.
+
+### 3.5 Repository working copies
 
 Within this repository, payer indexes are stored under
 [`payer_index_files/`](https://github.com/ftrotter-gov/CMSPayerEndpointSeed/tree/main/payer_index_files) using the filename convention
@@ -497,6 +565,13 @@ endpoints MUST be placed in different plan groups.
 **production** endpoints. Sandbox endpoints MUST NOT affect grouping: adding,
 changing, or removing a sandbox URL MUST NOT split or merge a plan group.
 
+Index-level endpoints (Section 3.4) do not complicate grouping. Because a
+document has exactly one `index_endpoints` object, inheritance applies uniformly
+to every plan group in that document, so partitioning plans by their literal
+`plan_endpoints` and partitioning them by their effective endpoint set after
+resolution (Section 8.6) produce the same groups. PG-020 through PG-040 may
+therefore be applied to the literal `plan_endpoints` object as written.
+
 ### 6.2 Required members
 
 **PG-050** — Every plan group MUST contain a `plan_identifiers` array with at
@@ -632,6 +707,11 @@ Endpoints are the payload of the payer index. Everything preceding this section
 exists so that a consumer can arrive here holding a plan or payer identifier and
 leave with a URL it can call.
 
+Endpoints may be published at two scopes: the index scope defined in
+Section 3.4, which applies to every plan in the document, and the plan group
+scope defined here. This section specifies the plan group scope; Section 8.6
+specifies how the two resolve together.
+
 ### 8.1 Production endpoints
 
 **EP-010** — `plan_endpoints` MUST contain only **production** endpoints.
@@ -679,17 +759,22 @@ Environment, protocol version, and profile are three orthogonal axes. Collapsing
 environment into the key would force every consumer to string-parse key names in
 order to tell a test system from a live one.
 
-**EP-090** — Omitting a key means the index makes no assertion for that protocol
-and version. It MUST NOT be read as an assertion that the payer does not support
-it.
+**EP-090** — A key omitted from **both** the plan group's `plan_endpoints` and
+the document's `index_endpoints` means the index makes no assertion for that
+protocol and version. It MUST NOT be read as an assertion that the payer does
+not support it. For a key present at the index level, see the resolution rules
+in Section 8.6.
 
 ### 8.3 Developer-facing URLs
 
 **EP-100** — A payer MUST publish `ndh_meta_fhir_signup_url`, the absolute URL
-at which a developer registers for access to the endpoints in this plan group.
+at which a developer registers for access to the endpoints that serve a plan.
+It MAY be published in `index_endpoints`, in which case it applies to every plan
+group in the document, or in a plan group's `plan_endpoints`.
 
 **EP-110** — A payer MUST publish `ndh_meta_documentation_url`, the absolute URL
-of the developer documentation for the endpoints in this plan group.
+of the developer documentation for the endpoints that serve a plan. It MAY be
+published at either scope on the same terms as EP-100.
 
 EP-100 and EP-110 are the developer website links. An endpoint a developer
 cannot register for or learn to call is not usefully published.
@@ -760,6 +845,85 @@ implementation guide. See [All at Once](AllAtOnce.md).
 }
 ```
 
+### 8.6 Endpoint resolution
+
+A payer index has exactly two endpoint scopes: the **index** (Section 3.4) and
+the **plan group** (Section 6). There is no third scope, and in particular there
+is no endpoint scope on the FPI entry (WK-190).
+
+**EP-200** — To determine the effective endpoints for a plan, a consumer MUST
+resolve each key independently against the plan group that contains the plan,
+according to the following table.
+
+| Key *K* in the plan group's `plan_endpoints` | Effective value of *K* for those plans |
+|---|---|
+| absent | the value of *K* in `index_endpoints`, if present; otherwise no assertion |
+| present, a URL | the plan group's value; the index-level value is overridden |
+| present, `null` | no assertion for those plans; *K* is suppressed |
+
+**EP-210** — A key whose value is `null` in a plan group's `plan_endpoints`
+MUST be treated as suppressing the corresponding index-level key. A consumer
+MUST NOT fall back to the index-level value for a suppressed key.
+
+EP-210 is what lets a payer publish an index-level endpoint that serves most of
+its plans while declaring that a particular plan group is not served by it.
+
+**EP-220** — Resolution MUST NOT cross environments. `index_endpoints` resolves
+only against `plan_endpoints`, and `index_endpoints_sandbox` resolves only
+against `plan_endpoints_sandbox`. An index-level sandbox endpoint MUST NOT be
+used as a production value under any circumstance; EP-160 applies unchanged at
+both scopes.
+
+**EP-230** — A document that contains no `index_endpoints` object resolves
+exactly as this specification defined before index-level endpoints existed.
+Every previously conforming document therefore retains its meaning.
+
+**EP-240** — Where a payer publishes `index_endpoints` and no plan groups, the
+index-level endpoints are the payer's complete published endpoint set and apply
+to every plan the payer operates, whether or not those plans are enumerated.
+
+EP-240 describes the case this scope was introduced to serve: a payer that
+operates a uniform interoperability surface and has not yet modeled its plans.
+Publishing `index_endpoints` is an affirmative assertion that the endpoints
+serve every plan the payer operates. It is not a way to say "the plan-to-endpoint
+mapping is unknown."
+
+**EP-250** — A payer whose endpoints vary across its plans SHOULD publish those
+endpoints at the plan group level rather than at the index level. The index
+scope is for endpoints that are genuinely uniform across the document.
+
+*Non-normative example — a payer with no plan data:*
+
+```json
+{
+  "copied_from_url": null,
+  "resourceType": "http://hl7.org/fhir/us/fast-ndh/StructureDefinition/NDHPayerWellknownDefinition",
+  "identifier": [
+    {
+      "system": "https://directory.cms.gov/payer_identification_system/fpi",
+      "value": "13e068e1-cd54-5baa-b7e3-79761afe7afc",
+      "is_fpi": true,
+      "payerLegalName": "Example Payer Legal Name, LLC",
+      "payerContactWebsite": "https://example.com/our_contact_page/",
+      "payer_level_string_search_matches": ["Example Payer"],
+      "fpi_source_system": "https://directory.cms.gov/payer_identification_system/naic_id",
+      "fpi_source_value": "12345"
+    }
+  ],
+  "index_endpoints": {
+    "davinci_pdex_provider_directory_endpoint#1.1": "https://example.org/fhir/provider-directory",
+    "carin_bluebutton_endpoint#1.0": "https://example.org/fhir/patientaccess/",
+    "ndh_meta_fhir_signup_url": "https://example.org/fhir_signup/",
+    "ndh_meta_documentation_url": "https://example.org/fhir_docs/"
+  },
+  "plan_groups": []
+}
+```
+
+Plan-level search matching (PLAN-130) is unavailable to such a payer, but
+`payer_level_string_search_matches` (FPI-190) is still required, so insurance
+card discovery continues to work at payer granularity.
+
 ---
 
 ## 9. Conformance Checklist
@@ -788,6 +952,12 @@ payer satisfies every MUST and MUST NOT row.
 | WK-140 | MUST | Contain `copied_from_url` (`null` or the retrieval URL) |
 | WK-150 | MAY | Contain `is_seeded` |
 | WK-160 | MUST NOT | Carry payer attributes at the document root |
+| WK-170 | MAY | Contain `index_endpoints` (production, same key grammar) |
+| WK-180 | MAY | Contain `index_endpoints_sandbox` |
+| WK-190 | MUST NOT | Carry an endpoint object on an FPI or identifier entry |
+| WK-200 | MUST | Resolve differing endpoints by plan group or by separate index |
+| WK-210 | SHOULD NOT | Span multiple lines of business in one index |
+| WK-220 | MUST NOT | Read a shared endpoint set as shared liability or one entity |
 
 ### 9.2 Federated Payer Identifier
 
@@ -887,6 +1057,12 @@ payer satisfies every MUST and MUST NOT row.
 | EP-170 | MUST NOT | Use environment spellings other than `sandbox` |
 | EP-180 | MUST NOT | Read an absent sandbox object as "no sandbox exists" |
 | EP-190 | MUST | Bulk directory via FHIR Bulk Publish or conformant NDJSON |
+| EP-200 | MUST | Resolve each key per the Section 8.6 resolution table |
+| EP-210 | MUST | Treat a `null` plan-group value as suppressing the index value |
+| EP-220 | MUST NOT | Resolve across environments |
+| EP-230 | — | A document without `index_endpoints` resolves as before |
+| EP-240 | — | Index endpoints with no plan groups are the complete endpoint set |
+| EP-250 | SHOULD | Publish per plan group when endpoints vary across plans |
 
 ---
 
@@ -936,7 +1112,27 @@ are **not conforming** until curated:
 This is a curation backlog, not a relaxation of the rules. The specification
 states the target state; `is_seeded` exists so the distinction stays visible.
 
-### 10.4 Temporary seeding mechanism
+The seeded corpus is drawn from Medicare Advantage data and is **not**
+representative of the insurance market this format will eventually carry. It
+exercises one line of business and a narrow slice of the identifier and endpoint
+complexity described in [Assumptions.md](Assumptions.md). Conclusions about what
+payers typically do should not be drawn from it.
+
+### 10.4 Crosswalk-only indexes
+
+A payer index that declares identities and publishes no endpoints at either
+scope — no `index_endpoints` and no plan groups — is a legitimate document. It
+asserts who an entity is and what it is called in commerce, and makes no
+assertion about endpoints.
+
+EP-100 and EP-110 apply to published endpoints. A document that publishes no
+endpoints at either scope has nothing for them to govern, and a payer MUST NOT
+fabricate endpoint, plan, or developer-portal values in order to appear
+conforming. Entities are routinely enumerated and crosswalked well before their
+interoperability surface is known, and a document that says so plainly is more
+useful than one padded with invented values.
+
+### 10.5 Temporary seeding mechanism
 
 The Medicare Advantage seeder derives seed FPIs from `LEGAL_NAME_HASH` because
 payer legal name is available in its source data. That mechanism does not define
@@ -967,8 +1163,18 @@ document. See [Future Steps](FutureSteps.md) for the full discussion.
   [`reference_data/current_payer_identification_systems.json`](reference_data/current_payer_identification_systems.json).
 * **Domain-control proof.** No signature, TLS, or automated domain-control
   validation is required for the Payer Index Base URL.
-* **Payer-wide and plan-specific sandbox scopes.** `plan_endpoints_sandbox` is
-  defined only at the plan group level.
+* **Plan-specific sandbox scope.** A sandbox that differs per individual plan is
+  not modeled. Sandbox endpoints are published at the index scope
+  (`index_endpoints_sandbox`, WK-180) or the plan group scope
+  (`plan_endpoints_sandbox`, EP-120).
+* **An endpoint scope on the FPI entry.** This was considered and **rejected**,
+  not deferred. See WK-190 and Section 8.6. A payer whose entities require
+  different endpoint sets expresses that through plan groups or publishes
+  separate indexes (WK-200).
+* **Discovery of sibling payer indexes.** A payer that splits its publication
+  across several Payer Index Base URLs — by line of business, for example — has
+  no mechanism for pointing from one index to the others. See
+  [Future Steps](FutureSteps.md).
 * **Plan years and publication history.** Durable plan identity is addressed
   only by `f_plan_id` stability (PLAN-080); dated plan membership assertions are
   not yet modeled.
@@ -1011,6 +1217,7 @@ document. See [Future Steps](FutureSteps.md) for the full discussion.
 | Document | Role |
 |----------|------|
 | [README](README.md) | Identity and authority model |
+| [Assumptions.md](Assumptions.md) | Market-structure assumptions underlying the design |
 | [GeneratingFederatedPayerIdentifiers.md](GeneratingFederatedPayerIdentifiers.md) | FPI derivation procedure |
 | [WellKnownFileFormat.md](WellKnownFileFormat.md) | Annotated field-by-field format |
 | [AllAtOnce.md](AllAtOnce.md) | Bulk provider directory publication |

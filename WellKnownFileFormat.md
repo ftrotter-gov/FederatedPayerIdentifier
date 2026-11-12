@@ -65,6 +65,10 @@ well_known_payer_json = {
   //  13. Every identifier with is_fpi: true MUST contain "payerContactWebsite".
   //  14. FPI entries SHOULD precede their non-FPI crosswalk identifiers, so that a
   //      reader encounters each FPI before the identifiers that reference it.
+  //  15. Endpoint objects MUST NOT appear inside an identifier entry. Endpoints
+  //      live at exactly two scopes: the file root ("index_endpoints") and the
+  //      plan group ("plan_endpoints"). There is deliberately no per-FPI
+  //      endpoint scope -- see the Endpoint Environments section below.
 
   "identifier": [
     {
@@ -163,6 +167,35 @@ well_known_payer_json = {
     // with is_fpi: false and parent_fpi pointing to that FPI's UUID.
     // See example_wellknown_payer_index.json for a two-FPI example.
   ],
+
+
+    // OPTIONAL. Endpoints that serve every plan in this file, regardless of
+    // plan structure. Same key grammar as plan_endpoints. A plan_group may
+    // override any key, or suppress it by setting it to null.
+    //
+    // This scope exists so that a payer whose endpoints do not vary by plan --
+    // including a payer that has not modeled its plans at all, and therefore
+    // publishes "plan_groups": [] -- can publish endpoints without inventing a
+    // placeholder plan. Fabricated plans are permanent, because f_plan_id must
+    // be stable for all time.
+    //
+    // Publishing index_endpoints asserts that these endpoints serve every plan
+    // the payer operates. It does not mean "the plan-to-endpoint mapping is
+    // unknown."
+
+  "index_endpoints": {
+    "davinci_cdex_attachsubmit_endpoint#2.1": "https://example.com/clinicaldataexchange/v1/",
+    "ndh_meta_fhir_signup_url": "https://example.org/fhir_signup/",
+    "ndh_meta_documentation_url": "https://example.org/fhir_docs/"
+  },
+
+    // OPTIONAL. The sandbox counterpart of index_endpoints. Resolution never
+    // crosses environments: this object is only ever consulted for
+    // plan_endpoints_sandbox, never for production routing.
+
+  "index_endpoints_sandbox": {
+    "davinci_cdex_attachsubmit_endpoint#2.1": "https://sandbox.example.com/clinicaldataexchange/v1/"
+  },
 
 
     // one or more legal payer entities can have multiple plans. A given set of
@@ -480,13 +513,60 @@ marked `"is_seeded": true` precisely so that this distinction stays visible.
 
 ## Endpoint Environments
 
-Each `plan_group` may carry endpoints for two environments, in two sibling
-objects:
+Endpoints are published at two **scopes** and in two **environments**, giving
+four objects in all:
 
-| Object | Environment | Required |
-|--------|-------------|----------|
-| `plan_endpoints` | Production | Yes (may be empty) |
-| `plan_endpoints_sandbox` | Non-production / sandbox | No |
+| Object | Scope | Environment | Required |
+|--------|-------|-------------|----------|
+| `index_endpoints` | Document root | Production | No |
+| `index_endpoints_sandbox` | Document root | Non-production / sandbox | No |
+| `plan_endpoints` | `plan_group` | Production | Yes (may be empty) |
+| `plan_endpoints_sandbox` | `plan_group` | Non-production / sandbox | No |
+
+The index scope applies to every plan in the document. It exists so that a payer
+whose endpoints do not vary by plan — including a payer that has not yet modeled
+its plans at all — has somewhere to publish them without inventing placeholder
+plans. A fabricated plan is permanent, because `f_plan_id` must be stable for
+all time, so the format should never make fabrication the path of least
+resistance.
+
+There is no endpoint scope on an FPI entry, and that is a deliberate decision
+rather than a gap. An endpoint object attached to a payer entity would let one
+file absorb the complexity of a holding company operating across many states and
+lines of business. The goal is small, readable files.
+
+Where a payer's endpoints differ across groups of plans, there are exactly two
+resolutions, and both reduce complexity:
+
+1. express the differing endpoints at the `plan_group` level — always available,
+   and it forces plans to be clustered by the endpoints that actually serve
+   them; or
+2. publish separate well-known index files at separate base URLs.
+
+Line of business — commercial versus Medicaid versus Medicare Advantage — is the
+axis along which endpoints most often diverge, because payers frequently engage
+different subcontractors to handle claims and interoperability for each. It is
+also how consumers approach the data: a patient shopping within one line of
+business does not want plans outside it. This is why the repository's directory
+structure is organized by line of business in the first place, and a single
+index file should not span several of them.
+
+Several payer entities sharing one `index_endpoints` object says something about
+publication arrangements and nothing about identity. It must not be read as
+asserting shared liability or that the entities are really one payer.
+
+**Resolution.** Each key is resolved independently, for the plan group that
+contains a plan:
+
+| Key in `plan_endpoints` | Effective value |
+|-------------------------|-----------------|
+| absent | inherited from `index_endpoints` if present, else no assertion |
+| a URL | the plan group value wins |
+| `null` | suppressed — no assertion for those plans |
+
+Resolution never crosses environments: production inherits from production and
+sandbox from sandbox. A file with no `index_endpoints` behaves exactly as it did
+before this scope existed.
 
 Both objects use the same key grammar, so every endpoint family in this format
 can have a sandbox counterpart — not just provider directories. A key names an
@@ -500,7 +580,9 @@ system from a live one.
 
 Consumer requirements:
 
-* `plan_endpoints` is the only object usable for live routing.
+* `plan_endpoints`, together with anything it inherits from `index_endpoints`,
+  is the only source usable for live routing. The two sandbox objects are never
+  usable for live routing.
 * A sandbox endpoint is never a production fallback. When a production key is
   absent or null, the correct conclusion is that the index makes no assertion —
   not that the sandbox url may be used instead.
@@ -512,6 +594,11 @@ Consumer requirements:
 Because plan grouping is defined by the set of *production* endpoints,
 `plan_endpoints_sandbox` never affects which plans share a `plan_group`. Adding,
 changing, or removing a sandbox url cannot split or merge groups.
+
+Index-level endpoints do not affect grouping either. Since a file has only one
+`index_endpoints` object, every plan group inherits from it identically, so
+grouping by the literal `plan_endpoints` and grouping by the effective resolved
+set give the same answer.
 
 `sandbox` is the single supported spelling for a non-production endpoint. The
 format does not define `test`, `uat`, `stage`, `qa`, or `demo` variants; a payer

@@ -95,22 +95,55 @@ URLs, endpoint annotations, or other curated content.
 
 ## Sandbox endpoint scope
 
-`plan_endpoints_sandbox` is currently defined only at the `plan_group` level,
-mirroring where `plan_endpoints` lives. Two related scopes remain unresolved:
+An earlier version of this document raised two unresolved sandbox scopes. The
+first — a document-wide sandbox — has since been **resolved** by the addition of
+`index_endpoints_sandbox` at the root of the payer index (WK-180), which
+resolves against `plan_endpoints_sandbox` under the rules in Section 8.6 of the
+specification.
 
-* a payer-wide sandbox, which would belong alongside the FPI identifier entry
-  rather than being repeated in every `plan_group`; and
+That earlier note suggested such a declaration "would belong alongside the FPI
+identifier entry." That is **not** what was adopted, and the difference is
+deliberate. An endpoint scope on the FPI entry was considered and rejected
+(WK-190): it would allow one document to absorb the complexity of a holding
+company spanning many states and lines of business, defeating the goal of small,
+readable index files. The adopted scope belongs to the publication location —
+of which there is exactly one per document — rather than to a legal entity.
+
+That earlier note also argued from the observation that "most payers appear to
+operate a single sandbox tier for all of their plans." That observation was an
+inference from Medicare Advantage seed data, which
+[Assumptions.md](Assumptions.md) cautions is not representative of the market to
+come. It should not be relied on.
+
+One scope remains open:
+
 * a plan-specific sandbox, for a payer whose test environment differs per plan.
-
-Most payers appear to operate a single sandbox tier for all of their plans, so
-repeating the same block in each `plan_group` may prove redundant in practice.
-Future work should decide whether a payer-level declaration is worth adding and,
-if so, how a `plan_group` entry overrides or supplements it.
 
 The semantic validator will also need rules for this object: whether a sandbox
 url must be reachable, whether it must differ from its production counterpart,
 and whether a sandbox key with no production counterpart is a warning or an
 accepted state.
+
+## Sibling index discovery
+
+A payer index covers one publication location. Where a payer's endpoints differ
+across its plans, the specification offers exactly two resolutions (WK-200):
+express the difference through plan groups, or publish separate indexes at
+separate Payer Index Base URLs. Splitting by line of business is expected to be
+common, because line of business is the dominant reason a payer's
+interoperability surface diverges — payers frequently engage different
+subcontractors per line of business.
+
+Splitting therefore means a single payer entity will routinely be described by
+several indexes, and nothing in the format points from one to the others. A
+consumer holding a holding company's domain has no way to discover that a
+sibling index exists for another line of business or another state entity.
+
+Future work should decide whether an explicit cross-reference — a
+`related_payer_indexes` array, or an aggregator-maintained directory — is the
+right mechanism, and how a consumer should treat a reference it cannot verify.
+Adding it now would introduce a trust question (what does it mean for one index
+to vouch for another?) that the prototype is not ready to answer.
 
 ## Plan years and publication history
 
