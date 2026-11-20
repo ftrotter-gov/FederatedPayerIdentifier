@@ -73,8 +73,8 @@ format and does not survive into FHIR.
 | `plan_name` | `name` | 0..1 | **yes** | **Yes** | verbatim |
 | `plan_level_string_search_matches[]` | `alias[]` | 0..* | no | **Yes** | one `alias` per string |
 | `plan_group_string_search_match[]` | `alias[]` | 0..* | no | **Yes** | appended to every plan in the group |
-| `parent_fpi` | `ownedBy` | 0..1 | no | **Yes** | `Organization/<FPI>` |
-| `parent_fpi` | `administeredBy` | 0..1 | no | **Yes** | `Organization/<FPI>` |
+| `parent_fpi` | `ownedBy` | 0..1 | no | **Yes** | `Organization/<FPI>` the organization that has financial responsibility |
+| `parent_fpi` | `administeredBy` | 0..1 | no | **Yes** | `Organization/<FPI>` the organization that has claims processing responsibility|
 | `plan_website` | `contact.telecom[system=url].value` | 0..* | no | **Yes** | the plan's own page |
 | `plan_homepage#NNN` | `contact.telecom[system=url].value` | 0..* | no | No | match `#NNN` against the plan portion of the CMS identifier (`H1234-432` → `#432`) |
 | resolved endpoints | `endpoint[]` | 0..* | **no** | **Yes (Mode B)** | the compiled per-plan set |
